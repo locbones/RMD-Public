@@ -1,0 +1,43 @@
+{
+    "dependencies": {
+        "particles": [
+            {
+                "path": "data/hd/vfx/particles/overlays/paladin/holyfreeze/FX_holyfreeze_overlay.particles"
+            }
+        ],
+        "models": [
+            {
+                "path": "data/hd/vfx/meshes/fx_mesh_polar_disk_subdiv_vertalpharim.model"
+            }
+        ],
+        "skeletons": [],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/vfx/textures/mask/T_FX_soft_glowcard.texture"
+            }
+        ],
+        "physics": [],
+        "json": [],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "OverlayDefinition",
+    "name": "holyfreeze",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 252152659,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_root_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/FinalCalling.particles",
+                    "hardKillOnDestroy": true
+                }
+            ]
+        }
+    ]
+}

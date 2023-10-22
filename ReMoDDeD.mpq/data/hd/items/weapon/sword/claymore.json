@@ -1,0 +1,136 @@
+{
+    "dependencies": {
+        "particles": [],
+        "models": [
+            {
+                "path": "data/hd/items/weapon/sword/claymore/claymore.model"
+            }
+        ],
+        "skeletons": [
+            {
+                "path": "data/hd/items/weapon/sword/claymore/skeleton/claymore.skeleton"
+            }
+        ],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/items/weapon/sword/claymore/weapon_claymore_ALB.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/sword/claymore/weapon_claymore_mask.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/sword/claymore/weapon_claymore_NRM.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/sword/claymore/weapon_claymore_ORM.texture"
+            }
+        ],
+        "physics": [],
+        "json": [
+            {
+                "path": "data/hd/items/dropped_items/dropped_items_nw.json"
+            }
+        ],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "claymore",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 520153221,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "data/hd/items/dropped_items/dropped_items_nw.json",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                },
+                {
+                    "type": "SkeletonDefinitionComponent",
+                    "name": "component_skeleton",
+                    "filename": "data/hd/items/weapon/sword/claymore/skeleton/claymore.skeleton"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": -0.2923717,
+                        "z": 0.0,
+                        "w": 0.9563047
+                    },
+                    "scale": {
+                        "x": 1.2,
+                        "y": 1.2,
+                        "z": 1.2
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "OverrideAttachmentTransformComponent",
+                    "name": "entity_root_OverrideAttachmentTransform",
+                    "playerClassTransforms": {
+                        "4": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Barbarian",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.25,
+                                "y": 1.2,
+                                "z": 1.25
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model",
+            "id": 2456053559,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_claymore",
+                    "filename": "data/hd/items/weapon/sword/claymore/claymore.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        }
+    ]
+}

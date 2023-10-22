@@ -1,0 +1,186 @@
+{
+    "dependencies": {
+        "particles": [
+            {
+                "path": "data/hd/vfx/particles/objects/vfx_only/town_portal/vfx_town_portal_NewStuff_RedVersion.particles"
+            }
+        ],
+        "models": [
+            {
+                "path": "data/hd/objects/vfx_only/permanent_portal_2/model/torso.model"
+            },
+            {
+                "path": "data/hd/vfx/meshes/fx_mesh_portalsphere_innerflow_2.model"
+            }
+        ],
+        "skeletons": [
+            {
+                "path": "data/hd/objects/vfx_only/permanent_portal_2/skeleton/permanent_portal_2.skeleton"
+            }
+        ],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/vfx/textures/gradient/T_FX_LinearGradient_Inset_portal_carpet_Flip.texture"
+            }
+        ],
+        "physics": [],
+        "json": [],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "permanent_portal_2",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 2343264180,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                },
+                {
+                    "type": "SkeletonDefinitionComponent",
+                    "name": "component_skeleton",
+                    "filename": "data/hd/objects/vfx_only/permanent_portal_2/skeleton/permanent_portal_2.skeleton"
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_root_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/objects/vfx_only/town_portal/vfx_town_portal_NewStuff_RedVersion.particles",
+                    "hardKillOnDestroy": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "upperhead_Effect",
+            "id": 506179448,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "Head_Effect_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/objects/vfx_only/town_portal/vfx_town_portal_NewStuff_RedVersion.particles",
+                    "hardKillOnDestroy": false,
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": 0.01,
+                        "y": 0.01,
+                        "z": 0.01
+                    },
+                    "inheritOnlyPosition": false
+                },
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "upperhead_Effect",
+            "id": 506179448,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "Head_Effect_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/objects/vfx_only/town_portal/vfx_town_portal_NewStuff_RedVersion.particles",
+                    "hardKillOnDestroy": false,
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": 0.02,
+                        "y": 0.02,
+                        "z": 0.02
+                    },
+                    "inheritOnlyPosition": false
+                },
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "upperhead_Effect",
+            "id": 506179448,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "Head_Effect_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/objects/vfx_only/town_portal/vfx_town_portal_NewStuff_RedVersion.particles",
+                    "hardKillOnDestroy": false,
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": 0.03,
+                        "y": 0.03,
+                        "z": 0.03
+                    },
+                    "inheritOnlyPosition": false
+                },
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "upperhead_Effect",
+            "id": 506179448,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "Head_Effect_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/objects/vfx_only/town_portal/vfx_town_portal_NewStuff_RedVersion.particles",
+                    "hardKillOnDestroy": false,
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": 0.04,
+                        "y": 0.04,
+                        "z": 0.04
+                    },
+                    "inheritOnlyPosition": false
+                },
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "upperhead_Effect",
+            "id": 506179448,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "Head_Effect_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/objects/vfx_only/town_portal/vfx_town_portal_NewStuff_RedVersion.particles",
+                    "hardKillOnDestroy": false,
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": 0.05,
+                        "y": 0.05,
+                        "z": 0.05
+                    },
+                    "inheritOnlyPosition": false
+                },
+            ]
+        },
+    ]
+}

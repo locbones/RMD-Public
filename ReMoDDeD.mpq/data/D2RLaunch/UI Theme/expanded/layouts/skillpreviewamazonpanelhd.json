@@ -1,0 +1,2540 @@
+{
+    "type": "VideoOptionsPanel", "name": "SkillPreviewAmazonPanel",
+    "fields": {
+        "priority": 9003,
+        "rect": "$OptionsPanelRect",
+        "anchor": { "x": 0.5 },
+        "applySettingsImmediately": true
+    },
+    "children": [
+        {
+            "type": "ImageWidget", "name": "ScrollBarBackground",
+            "fields": {
+                "rect": "$OptionsScrollBarBackgroundRect",
+                "anchor": { "x": 1.0 },
+                "filename": "PauseMenu\\VerticalScroll"
+            },
+            "children": [
+                {
+                    "type": "ScrollControllerWidget", "name": "ScrollController",
+                    "fields": {
+                        "rect": "$OptionsScrollBarRect",
+                        "anchor": { "x": 1.0 },
+                        "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+                        "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+                        "barFilepath": "PauseMenu\\VerticalIndicator",
+                        "viewName": "ScrollView",
+                        "wheelScrollSound": "cursor_scroll_hd",
+                        "buttonScrollSound": "cursor_scroll_hd"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "ScrollViewWidget", "name": "ScrollView",
+            "fields": {
+                "fitToParent": true,
+                "scrollControllerName": "ScrollController"
+            },
+            "children": [
+                {
+                    "type": "TableWidget", "name": "OptionsTable",
+                    "fields": {
+                        "columns": [ "$OptionsTableColumn1", "$OptionsTableColumn2" ],
+                        "rowHeight": "$SkillPOptionsTableRowHeight"
+                    },
+                    "children": [
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Jab",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "Attacks with a series of rapid thrusts using a Javelin or Spear class weapon.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP1",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill1",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Jab",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Melee",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y": -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Poison Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat3T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat4T",
+                                    "fields": {
+                                        "text": "Synergies: none",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Recharge",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Release electrical Energy stealing and regenerate Mana.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP2",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill2",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Recharge",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RechargeStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RechargeStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Melee",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RechargeStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RechargeStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Lightning Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RechargeStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RechargeStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 10",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RechargeStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RechargeStat5T",
+                                    "fields": {
+                                        "text": "Synergies: Thunder God's Wrath, Lightning Fury",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Lightning Fury",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Changes a thrown javelin into a powerful\nbolt of lightning that splits on impact.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP3",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill3",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Lightningfury",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "LightningfuryStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "LightningfuryStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Ranged",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "LightningfuryStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "LightningfuryStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Lightning Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "LightningfuryStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "LightningfuryStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "LightningfuryStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "LightningfuryStat5T",
+                                    "fields": {
+                                        "text": "Synergies: Recharge, Charged Strike, Lightning Strike",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Poison Point",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": "Strike you foes with lethal venom laced javelin. Gather Charges of Damage, Poison Damage and Poison Length Resistance.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP4",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill4",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Poisonpoint",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "PoisonpointStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "PoisonpointStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Melee",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "PoisonpointStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "PoisonpointStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Poison Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "PoisonpointStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "PoisonpointStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "PoisonpointStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "PoisonpointStat5T",
+                                    "fields": {
+                                        "text": "Synergies: Plague Javelin",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Charged Strike",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC5T",
+                                    "fields": {
+                                        "text": "Adds lightning damage to javelin class weapons and releases charged bolts upon impact.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP5",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill5",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Chargedstrike",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ChargedstrikeStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ChargedstrikeStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Melee",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ChargedstrikeStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ChargedstrikeStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Lightning Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ChargedstrikeStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ChargedstrikeStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ChargedstrikeStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ChargedstrikeStat5T",
+                                    "fields": {
+                                        "text": "Synergies: Recharge, Thunder God's Wrath, Lightning Fury",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Plague Javelin",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC6",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC6T",
+                                    "fields": {
+                                        "text": "Magically enhances your javelin to release expanding clouds of poison upon impact.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP6",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill6",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Plaguejavelin",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "PlaguejavelinStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "PlaguejavelinStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Ranged",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "PlaguejavelinStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "PlaguejavelinStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Poison Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "PlaguejavelinStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "PlaguejavelinStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "PlaguejavelinStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "PlaguejavelinStat5T",
+                                    "fields": {
+                                        "text": "Synergies: Poison Point",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Impale",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC7",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC7T",
+                                    "fields": {
+                                        "text": "Increases attack damage but rapidly degrades the weapon.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP7",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill7",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Impale",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ImpaleStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ImpaleStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Melee",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ImpaleStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ImpaleStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Magic Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ImpaleStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ImpaleStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ImpaleStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ImpaleStat5T",
+                                    "fields": {
+                                        "text": "Synergies: none",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Lightning Strike",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC8",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC8T",
+                                    "fields": {
+                                        "text": "Adds lightning damage to javelin class weapons and releases chain lightning upon impact.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP8",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill8",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Lightningstrike",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "LightningstrikeStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "LightningstrikeStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Melee",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "LightningstrikeStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "LightningstrikeStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Lightning Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "LightningstrikeStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "LightningstrikeStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "LightningstrikeStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "LightningstrikeStat5T",
+                                    "fields": {
+                                        "text": "Synergies: Recharge, Thunder God's Wrath, Lightning Fury",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Thunder God's Wrath",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC9",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC9T",
+                                    "fields": {
+                                        "text": "Raise your javelin to the heavens and  call down the wrath of the Thunder God.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP9",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill9",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Thundergodswraith",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ThundergodswraithStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ThundergodswraithStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: AoE Spell",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ThundergodswraithStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ThundergodswraithStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Lightning Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ThundergodswraithStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ThundergodswraithStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ThundergodswraithStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ThundergodswraithStat5T",
+                                    "fields": {
+                                        "text": "Synergies: Recharge, Charged Strike, Lightning Strike",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Fend",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC10",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC10T",
+                                    "fields": {
+                                        "text": "Attacks all adjacent targets with added magic damage.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP10",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill10",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Fend",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "FendStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "FendStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Melee",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "FendStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "FendStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Magic Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "FendStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "FendStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "FendStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "FendStat5T",
+                                    "fields": {
+                                        "text": "Synergies: Impale",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Inner Sight",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC11",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC11T",
+                                    "fields": {
+                                        "text": "Illuminates nearby enemies making them easier to hit for you and your party.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP11",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill11",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Innersight",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "InnersightStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "InnersightStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Debuff",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "InnersightStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "InnersightStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "InnersightStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "InnersightStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 10",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "InnersightStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "InnersightStat5T",
+                                    "fields": {
+                                        "text": "Synergies: none",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Huntress Haste",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC12",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC12T",
+                                    "fields": {
+                                        "text": "Huntress Buff - Increased movement and attack speed but reduces defence and attack rating.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP12",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill12",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Huntresshaste",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "HuntresshasteStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "HuntresshasteStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Buff",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "HuntresshasteStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "HuntresshasteStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "HuntresshasteStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "HuntresshasteStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 10",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "HuntresshasteStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "HuntresshasteStat5T",
+                                    "fields": {
+                                        "text": "Synergies: none",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Huntress Focus",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC13",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC13T",
+                                    "fields": {
+                                        "text": "Huntress Buff - Greatly increased attack rating and damage but reduces movement speed and attack speed.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP13",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill13",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Huntressfocus",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "HuntressfocusStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "HuntressfocusStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Buff",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "HuntressfocusStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "HuntressfocusStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "HuntressfocusStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "HuntressfocusStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 10",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "HuntressfocusStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "HuntressfocusStat5T",
+                                    "fields": {
+                                        "text": "Synergies: none",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Decoy",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC14",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC14T",
+                                    "fields": {
+                                        "text": "Creates a duplicate of yourself that draws fire from enemies and explodes upon death.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP14",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill14",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Decoy",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "DecoyStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "DecoyStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Summon",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "DecoyStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "DecoyStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Magic Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "DecoyStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "DecoyStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 10",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "DecoyStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "DecoyStat5T",
+                                    "fields": {
+                                        "text": "Synergies: none",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Valkyrie",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC15",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC15T",
+                                    "fields": {
+                                        "text": "Summons a powerful Valkyrie ally.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP15",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill15",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Valkyrie",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ValkyrieStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ValkyrieStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Summon",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ValkyrieStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ValkyrieStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Physicial Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ValkyrieStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ValkyrieStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 10",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ValkyrieStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ValkyrieStat5T",
+                                    "fields": {
+                                        "text": "Synergies: Decoy, Penetrate, Evasive Tactics, Huntress Haste",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ValkyrieStat6",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ValkyrieStat6T",
+                                    "fields": {
+                                        "text": "All Summon Bonuses",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Magic Arrow",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC16",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC16T",
+                                    "fields": {
+                                        "text": "Creates a magical arrow or bolt that does extra damage and steals mana.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP16",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill16",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Magicarrow",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "MagicarrowStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "MagicarrowStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Ranged",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "MagicarrowStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "MagicarrowStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Magic Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "MagicarrowStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "MagicarrowStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 10",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "MagicarrowStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "MagicarrowStat5T",
+                                    "fields": {
+                                        "text": "Synergies: none",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Cold Arrow",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC17",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC17T",
+                                    "fields": {
+                                        "text": "Magically enhances your arrow or bolt to freeze your enemies. Always hits.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP17",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill17",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Coldarrow",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ColdarrowStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ColdarrowStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Ranged",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ColdarrowStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ColdarrowStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Cold Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ColdarrowStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ColdarrowStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ColdarrowStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ColdarrowStat5T",
+                                    "fields": {
+                                        "text": "Synergies: Hail of Arrows",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Strafe",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC18",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC18T",
+                                    "fields": {
+                                        "text": "Magically splits one arrow into several fire arrows that target multiple nearby enemies.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP18",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill18",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Strafe",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "StrafeStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "StrafeStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Ranged",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "StrafeStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "StrafeStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Fire Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "StrafeStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "StrafeStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "StrafeStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "StrafeStat5T",
+                                    "fields": {
+                                        "text": "Synergies: Curtain of Fire, Exploding Arrow",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Multiple Shot",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC19",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC19T",
+                                    "fields": {
+                                        "text": "Magically splits one arrow or bolt into many.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP19",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill19",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Multishot",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "MultishotStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "MultishotStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Ranged",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "MultishotStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "MultishotStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Physicial Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "MultishotStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "MultishotStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 15",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "MultishotStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "MultishotStat5T",
+                                    "fields": {
+                                        "text": "Synergies: none",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Freezing Arrow",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC20",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC20T",
+                                    "fields": {
+                                        "text": "Magically enhances an arrow or bolt to freeze entire groups of monsters. Always hits.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP20",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill20",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Freezingarrow",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "FreezingarrowStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "FreezingarrowStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Ranged",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "FreezingarrowStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "FreezingarrowStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Cold Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "FreezingarrowStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "FreezingarrowStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "FreezingarrowStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "FreezingarrowStat5T",
+                                    "fields": {
+                                        "text": "Synergies: Cold Arrow, Hail of Arrows",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Exploding Arrow",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC21",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC21T",
+                                    "fields": {
+                                        "text": "Enchants an arrow or bolt that explodes on contact, damaging all nearby enemies, Always hits.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP21",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill21",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Explosionarrow",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ExplosionarrowStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ExplosionarrowStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Ranged",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ExplosionarrowStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ExplosionarrowStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Fire Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ExplosionarrowStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ExplosionarrowStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ExplosionarrowStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ExplosionarrowStat5T",
+                                    "fields": {
+                                        "text": "Synergies: Curtain of Fire",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Guided Arrow",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC22",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC22T",
+                                    "fields": {
+                                        "text": "Enhances your arrows to track your target or seek one of its own.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP22",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill22",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Guidedarrow",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GuidedarrowStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GuidedarrowStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Ranged",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GuidedarrowStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GuidedarrowStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Magic Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GuidedarrowStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GuidedarrowStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GuidedarrowStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GuidedarrowStat5T",
+                                    "fields": {
+                                        "text": "Synergies: none",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Hail of Arrows",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC23",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC23T",
+                                    "fields": {
+                                        "text": "Call forth a storm of arrows and ice.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP23",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill23",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Hailofarrows",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "HailofarrowsStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "HailofarrowsStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: AoE Spell",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "HailofarrowsStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "HailofarrowsStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Cold Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "HailofarrowsStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Hailofarrowstat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "HailofarrowsStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "HailofarrowsStat5T",
+                                    "fields": {
+                                        "text": "Synergies: Cold Arrow, Freezing Arrow",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Curtain of Fire",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC24",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC24T",
+                                    "fields": {
+                                        "text": "Let loose an arrow that blazes a trail of fire and unleashes a meteor strike on anything it contacts.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP24",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill24",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Curtainoffire",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "CurtainoffireStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "CurtainoffireStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Ranged",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "CurtainoffireStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "CurtainoffireStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Fire Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "CurtainoffireStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "CurtainoffireStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "CurtainoffireStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "CurtainoffireStat5T",
+                                    "fields": {
+                                        "text": "Synergies: Prismatic Arrow, Exploding Arrow",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Prismatic Arrow",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC25",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC25T",
+                                    "fields": {
+                                        "text": "Fire an arrow imbued with the power of the magic and three elements.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP25",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill25",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Prismaticarrow",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "PrismaticarrowStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "PrismaticarrowStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Ranged",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "PrismaticarrowStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "PrismaticarrowStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Magic + Elemental Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "PrismaticarrowStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "PrismaticarrowStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "PrismaticarrowStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "PrismaticarrowStat5T",
+                                    "fields": {
+                                        "text": "Synergies: none",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

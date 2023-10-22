@@ -1,0 +1,250 @@
+{
+    "dependencies": {
+        "particles": [],
+        "models": [
+            {
+                "path": "data/hd/items/weapon/knife/the_jade_tan_do/the_jade_tan_do.model"
+            }
+        ],
+        "skeletons": [
+            {
+                "path": "data/hd/items/dropped_items/skeleton/dropped_items.skeleton"
+            }
+        ],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/items/weapon/knife/the_jade_tan_do/weapon_the_jade_tan_do_ALB.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/knife/the_jade_tan_do/weapon_the_jade_tan_do_mask.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/knife/the_jade_tan_do/weapon_the_jade_tan_do_NRM.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/knife/the_jade_tan_do/weapon_the_jade_tan_do_ORM.texture"
+            }
+        ],
+        "physics": [],
+        "json": [
+            {
+                "path": "data/hd/items/dropped_items/dropped_items_nw.json"
+            }
+        ],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "the_jade_tan_do",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 914169411,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "data/hd/items/dropped_items/dropped_items_nw.json",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                },
+                {
+                    "type": "SkeletonDefinitionComponent",
+                    "name": "component_skeleton",
+                    "filename": "data/hd/items/dropped_items/skeleton/dropped_items.skeleton"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": 1.2,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": -0.06104854,
+                        "z": 0.0,
+                        "w": 0.9981348
+                    },
+                    "scale": {
+                        "x": 1.15,
+                        "y": 1.15,
+                        "z": 1.15
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "OverrideAttachmentTransformComponent",
+                    "name": "entity_root_OverrideAttachmentTransform",
+                    "playerClassTransforms": {
+                        "0": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Amazon",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.45,
+                                "y": 1.55,
+                                "z": 1.55
+                            }
+                        },
+                        "6": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Assassin",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.4,
+                                "y": 1.5,
+                                "z": 1.5
+                            }
+                        },
+                        "4": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Barbarian",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.5,
+                                "y": 1.6,
+                                "z": 1.6
+                            }
+                        },
+                        "5": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Druid",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.5,
+                                "y": 1.6,
+                                "z": 1.6
+                            }
+                        },
+                        "2": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Necromancer",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.37,
+                                "y": 1.47,
+                                "z": 1.47
+                            }
+                        },
+                        "3": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Paladin",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.5,
+                                "y": 1.6,
+                                "z": 1.6
+                            }
+                        },
+                        "1": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Sorceress",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.3,
+                                "y": 1.4,
+                                "z": 1.4
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model",
+            "id": 3163827786,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_the_jade_tan_do",
+                    "filename": "data/hd/items/weapon/knife/the_jade_tan_do/the_jade_tan_do.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        }
+    ]
+}

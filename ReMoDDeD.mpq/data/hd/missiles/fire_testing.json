@@ -1,0 +1,80 @@
+{
+    "dependencies": {
+        "particles": [
+            {}
+        ],
+        "models": [
+            {}
+        ],
+        "skeletons": [],
+        "animations": [],
+        "textures": [
+            {}
+        ],
+        "physics": [],
+        "json": [],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "fire_testing",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 1029767625,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_vfx",
+            "id": 1901868417,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "component_vfx1",
+                    "filename": "data/hd/vfx/particles/objects/braziers/tiki_torch_2/vfx_tikitorch2_neutral.particles",
+                    //"filename": "data/hd/vfx/particles/objects/braziers/tiki_torch_1/vfx_tikitorch1_opened.particles",
+                    //"filename": "data/hd/vfx/particles/objects/braziers/summit_torch/vfx_summittorch_neutral.particles",
+                    //"filename": "data/hd/vfx/particles/objects/braziers/sewer_torch/vfx_sewertorch_neutral.particles",
+                    //"filename": "data/hd/vfx/particles/objects/braziers/rogue_torch_2/vfx_roguetorch2_neutral.particles",
+                    //"filename": "data/hd/vfx/particles/objects/braziers/rogue_torch_1/vfx_roguetorch1_neutral.particles",
+                    //"filename": "data/hd/vfx/particles/objects/braziers/kurast_torch/vfx_kurasttorch_neutral.particles",
+                    //"filename": "data/hd/vfx/particles/items/misc/torch/vfx_item_misc_torch_flame.particles",
+                    //"filename": "data/hd/vfx/particles/items/misc/torch/vfx_item_misc_torch_dropped.particles",
+                    //"filename": "data/hd/vfx/particles/objects/characters/skeleton_spawn_hell/fx_skelton_spawnhell_flames.particles",
+                    //"filename": "data/hd/vfx/particles/objects/characters/skeleton_spawn_hell/fx_skelton_spawnhell_flames_2.particles",
+                    //"filename": "data/hd/vfx/particles/env/common/generic/vfx_candle_flame.particles",
+                    //"filename": "data/hd/vfx/particles/objects/vfx_only/flame_1/vfx_flame_1.particles",
+                    //"filename": "data/hd/vfx/particles/overlays/common/spawnedbirthflames/vfx_spawned_birth_flames_overlay.particles",
+                    //"filename": "data/hd/vfx/particles/overlays/common/spawnedflames/vfx_spawned_flames_overlay.particles",
+                    //"filename": "data/hd/vfx/personal/emennillo/basefx/base_fire.particles",
+                    //"filename": "data/hd/vfx/particles/missiles/fire_smoke/duriel_firesmoke.particles",
+                    //"filename": "data/hd/vfx/particles/missiles/expansion_fire_trauma_missile/expansion_fire_truama.particles",
+                    //"filename": "data/hd/vfx/particles/missiles/expansion_fire_trauma_ground/expansion_fire_truamaground.particles",
+                    //"filename": "data/hd/vfx/particles/missiles/expansion_firestorm_emitter/expansion_firestorm_emitter.particles",
+                    //"filename": "data/hd/vfx/particles/overlays/common/fire_hit/fire_hit.particles",
+                    "hardKillOnDestroy": false
+                }
+            ]
+        }
+    ]
+}

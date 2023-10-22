@@ -1,0 +1,305 @@
+{
+    "basedOn": "SkillsTreePanelHD.json",
+    "type": "SkillsTreePanel", "name": "SkillsTreePanel",
+    "fields": {
+        "activeTabFontColor": "$TabsActiveTextColorInGame",
+        "inactiveTabFontColor": "$TabsInactiveTextColor",
+        "skillButtonFile": [
+            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Amazon_SK",
+            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Sorceress_SK",
+            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Necromancer_SK",
+            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Paladin_SK",
+            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Barbarian_SK",
+            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Druid_SK",
+            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Assassin_SK"
+        ],
+        "skillBackgroundFile": [
+            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Generic",
+            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Generic",
+            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Generic",
+            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Generic",
+            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Generic",
+            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Generic",
+            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Generic"
+        ],
+        "skillRow": [ 134, 318, 503, 688, 849, 1029 ],
+        "skillColumn": [ 294, 581, 872 ],
+        "skillButtonPadding": { "x": 30, "y": 30 },
+        "rect": "$ConsoleCenterPanelRect"
+    },
+    "children": [
+        {
+            "type": "ImageWidget", "name": "CommonSkillTreesBackground",
+            "fields": {
+                "rect": { "x": 0, "y": -20 },
+                "filename": "..\\..\\..\\ReMoDDeD\\Controller\\SkillPanel"
+            }
+        },
+        {
+            "type": "ImageWidget", "name": "MainPanelFooterBar",
+            "fields": {
+                "rect": { "x": -474, "y": 1326 },
+                "filename": "Blank"
+            }
+        },
+        {
+            "type": "ClickCatcherWidget", "name": "ClickCatcher"
+        },
+        {
+            "type": "TabWidget", "name": "Tab0",
+            "fields": {
+                "rect": {"x": -20, "y": 15},
+                "activationRect": { "x": 251, "y": 6, "width": 314, "height": 113 },
+                "focusIndicatorFilename": "Controller/HoverImages/QuestTab_Hover",
+                "focusIndicatorOffset": { "x": 0, "y": -6 },
+                "focusOnMouseOver": true
+            },
+            "children": [
+                {
+                    "type": "ImageWidget", "name": "Background",
+                    "fields": {
+                	"rect": {"x": 249, "y": -2},
+                        "frame": 0
+                    }
+                }
+            ]
+        },
+        {
+            "type": "TabWidget", "name": "Tab1",
+            "fields": {
+                "rect": {"x": -20, "y": 15},
+                "activationRect": { "x": 564, "y": 6, "width": 314, "height": 113 },
+                "focusIndicatorFilename": "Controller/HoverImages/QuestTab_Hover",
+                "focusIndicatorOffset": { "x": 0, "y": -6 },
+                "focusOnMouseOver": true
+            },
+            "children": [
+                {
+                    "type": "ImageWidget", "name": "Background",
+                    "fields": {
+                	"rect": {"x": 249, "y": -2},
+                        "frame": 1
+                    }
+                }
+            ]
+        },
+        {
+            "type": "TabWidget", "name": "Tab2",
+            "fields": {
+                "rect": {"x": -20, "y": 15},
+                "activationRect": { "x": 878, "y": 6, "width": 314, "height": 113 },
+                "focusIndicatorFilename": "Controller/HoverImages/QuestTab_Hover",
+                "focusIndicatorOffset": { "x": 0, "y": -6 },
+                "focusOnMouseOver": true
+            },
+            "children": [
+                {
+                    "type": "ImageWidget", "name": "Background",
+                    "fields": {
+                	"rect": {"x": 249, "y": -2},
+                        "frame": 2
+
+                    }
+                }
+            ]
+        },
+        {
+            "type": "TabWidget", "name": "Tab3",
+            "fields": {
+                "rect": {"x": -60, "y": 5},
+                "activationRect": { "x": 1190, "y": 6, "width": 314, "height": 113},
+                "focusIndicatorFilename": "Controller/HoverImages/QuestTab_Hover",
+                "focusIndicatorOffset": { "x": 4, "y": -6 },
+                "onClickMessage": "SkillsTreePanelMessage:ActivateTab:3",
+                "focusOnMouseOver": true
+            },
+            "children": [
+                {
+                    "type": "ImageWidget", "name": "BackgroundExtra",
+                    "fields": {
+                        "filename": "..\\..\\..\\ReMoDDeD\\Controller\\SkillPanelExtra"
+                    }
+                },
+                {
+                    "type": "TextBoxWidget", "name": "CommonHeader",
+                    "fields": {
+                        "rect": { "x": 55, "y": 120, "width": 1666, "height": 100 },
+                        "text": "@CommonAbilities",
+                        "style": "$StyleTitleBlock"
+                    }
+                },
+                {
+                    "type": "Widget", "name": "CommonSkillsContainer",
+                    "fields": {
+                        "rect": { "x": 55, "y": 230, "width": 1666, "height": 130 }
+                    }
+                },
+                {
+                    "type": "Widget", "name": "ItemHeader",
+                    "fields": {
+                        "rect": { "x": 55, "y": 510, "width": 1666, "height": 100 }
+                    },
+                    "children": [
+                        {
+                            "type": "TextBoxWidget", "name": "ItemsText",
+                            "fields": {
+                                "fitToParent": true,
+                                "text": "@ItemAbilities",
+                                "style": "$StyleTitleBlock"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "Widget", "name": "ItemSkillsContainer",
+                    "fields": {
+                        "rect": { "x": 55, "y": 630, "width": 1666, "height": 130 }
+                    }
+                },
+                {
+                    "type": "TextBoxWidget", "name": "SelectButtonNote",
+                    "fields": {
+                        "rect": { "x": 50, "y": 1160, "width": 1656, "height": 150 },
+                        "text": "@SelectButtonNoteText",
+                        "style": {
+                            "fontColor": "$FontColorWhite",
+                            "pointSize": "$LargeFontSize",
+                            "alignment": { "h": "center", "v": "center" },
+                            "spacing": "$ReducedSpacing",
+                            "pointSize": "$MediumFontSize"
+                        }
+                    }
+                }
+            ]
+        },
+
+
+        // skill points, footer
+        {
+            "type": "TextBoxWidget", "name": "SkillCounter",
+            "fields": {
+                "rect": { "x": -514, "y": 1318, "width": 2730, "height": 64 },
+                "style": {
+                    "fontColor": "$PanelNoteTextColor",
+                    "pointSize": "$MediumLargeFontSize",
+                    "alignment": { "h": "center", "v": "center" },
+                    "spacing" : "$ReducedSpacing"
+                }
+            },
+            "children": [
+                {
+                    "type": "FocusableWidget", "name": "Tooltip"
+                }
+            ]
+        },
+        {
+            "type": "TextBoxWidget", "name": "CounterTemplate",
+            "fields": {
+                "rect": { "x": 149, "y": 79, "width": 62, "height": 62},
+                "style": {
+                    "fontColor": "$FontColorWhite",
+                    "pointSize": "$MediumFontSize",
+                    "spacing": "$MinimumSpacing"
+                }
+            }
+        },
+        {
+            "type": "SkillSelectButtonWidget", "name": "ButtonTemplate",
+            "fields": {
+                "skillIconFilenames": "$SkillIconFilenames",
+                "focusOnMouseOver": true,
+                "focusIndicatorFilename": "Controller/HoverImages/SkillIcon_Hover"
+            },
+            "children": [
+                {
+                    "type": "TextBoxWidget", "name": "HotkeyText",
+                    "fields": {
+                        "rect": "$SkillHotkeyTextRect",
+                        "style": "$SkillHotkeyTextStyle"
+                    }
+                },
+                {
+                    "type": "TextBoxWidget", "name": "QuantityText",
+                    "fields": {
+                        "rect": "$SkillQuantityTextRect",
+                        "style": "$SkillQuantityTextStyle"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "TextBoxWidget", "name": "TextTab0",
+            "fields": {
+                "rect": { "x": 224, "y": 12, "width": 300, "height": 80 },
+                "style": "$StyleSkillTreeTabs"
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "TextTab1",
+            "fields": {
+                "rect": { "x": 518, "y": 12, "width": 300, "height": 80 },
+                "style": "$StyleSkillTreeTabs"
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "TextTab2",
+            "fields": {
+                "rect": { "x": 808, "y": 12, "width": 300, "height": 80 },
+                "style": "$StyleSkillTreeTabs"
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "TextTab3",
+            "fields": {
+                "text": "General",
+                "rect": { "x": 1085, "y": 7, "width": 300, "height": 80 },
+                "style": "$StyleSkillTreeTabs"
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "TooltipTextBox",
+            "fields": {
+                "rect": { "x": 1784, "y": 0, "width": 1008, "height": 1488 },
+                "style": {
+                    "fontColor": "$FontColorWhite",
+                    "pointSize": "$LargeFontSize",
+                    "alignment": { "h": "center", "v": "center" },
+                    "options": { "pipeCharacterBehavior" : "handle", "newlineHandling": "reversed", "lineWrap": true }
+                }
+            }
+        },
+        {
+            "type": "ButtonLegendWidget", "name": "TabLeftIndicator",
+            "fields": {
+                "rect": { "x": 175, "y": -25, "width": 0, "height": 162 },
+                "text": { "style": "$StyleButtonLegend" },
+                "presets": [
+                    {
+                        "action": "tabLeft"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "ButtonLegendWidget", "name": "TabRightIndicator",
+            "fields": {
+                "rect": { "x": 1470, "y": -25, "width": 0, "height": 162 },
+                "text": { "style": "$StyleButtonLegend" },
+                "presets": [
+                    {
+                        "action": "tabRight"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Respec",
+            "fields": {
+                "rect": { "x": 470, "y": 1320 },
+                "focusIndicatorFilename": "Controller/HoverImages/AcceptTrade_Hover",
+                "focusIndicatorVisible": true,
+                "focusIndicatorOffset": { "x": -2, "y": 0 }
+            }
+        }
+    ]
+}

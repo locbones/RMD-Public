@@ -1,0 +1,87 @@
+{
+    "dependencies": {
+        "particles": [
+            {
+                "path": "data/hd/vfx/particles/overlays/paladin/aura_resistfire/FX_resistfire_overlay.particles"
+            }
+        ],
+        "models": [
+            {
+                "path": "data/hd/vfx/meshes/FX_Mesh_Diskmesh_wide.model"
+            }
+        ],
+        "skeletons": [],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/vfx/textures/mask/T_FX_Parabolic_ring.texture"
+            }
+        ],
+        "physics": [],
+        "json": [],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "OverlayDefinition",
+    "name": "aura_resistfire",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_holyshield",
+            "id": 3452340888,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_holyshield_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/forsaken_shield.particles",
+                    "hardKillOnDestroy": true
+                },
+                {
+                    "type": "EntityAttachmentDefinitionComponent",
+                    "name": "entity_holyshield_EntityAttachmentDefinition",
+                    "targetbone": "shield_attach"
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_holyshield_UnitPart",
+                    "part": "shield",
+                    "variant": "hsh"
+                },
+                {
+                    "type": "ModelPlatformTierComponent",
+                    "name": "entity_holyshield_ModelPlatformTierComponent",
+                    "visibilityTier": 0,
+                    "shadowTier": 1
+                },
+                {
+                    "type": "EnableEquipmentAnimationLayerComponent",
+                    "name": "entity_holyshield_EnableEquipmentAnimationLayer",
+                    "equipmentLayerName": "ShieldEquipLayer",
+                    "defaultEnabledWeight": 1.0
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "component_transform1",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.5
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+            ]
+        }
+    ]
+}

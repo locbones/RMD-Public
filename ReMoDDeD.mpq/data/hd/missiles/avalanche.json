@@ -1,0 +1,128 @@
+{
+    "dependencies": {
+        "particles": [
+            {}
+        ],
+        "models": [
+            {}
+        ],
+        "skeletons": [],
+        "animations": [],
+        "textures": [
+            {}
+        ],
+        "physics": [],
+        "json": [],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "ice_blast",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 2272218962,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_vfx2",
+            "id": 3127542539,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "component_vfx3",
+                    //"filename": "data/hd/vfx/particles/missiles/ice_break_small_melt/fx_ice_break_sml_melt.particles",
+                    //"filename": "data/hd/vfx/particles/missiles/ice_icebreaklarge/fx_ice_break_large.particles",
+                    "filename": "data/hd/vfx/particles/missiles/ice_break_smoke/fx_ice_break_smoke.particles",
+                    //"filename": "data/hd/vfx/particles/missiles/ice_icefrozenorb/vfx_catapult_ice_frozen_orb.particles",
+                    //"filename": "data/hd/vfx/particles/missiles/ice_icefrozenorb/fx_ice_frozen_orb.particles",
+                   // "filename": "data/hd/vfx/particles/missiles/ice_icearrowexplode/fx_ice_arrow_explode.particles",
+                    "hardKillOnDestroy": true
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "component_transform1",
+                    "position": {
+                        "x": 0.0,
+                        "y": 2.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_vfx3",
+            "id": 3127542540,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "component_vfx4",
+                   //"filename": "data/hd/vfx/particles/missiles/ice_break_small_melt/fx_ice_break_sml_melt.particles",
+                    "filename": "data/hd/vfx/particles/objects/env_organic/anya_yet_again/fx_anya_yet_again_ice_chunks.particles",
+                    //"filename": "data/hd/vfx/particles/objects/env_organic/anya_yet_again/fx_anya_yet_again_burst.particles",
+                    //"filename": "data/hd/vfx/particles/missiles/ice_icebreaklarge/fx_ice_break_large.particles",
+                    //"filename": "data/hd/vfx/particles/missiles/ice_break_smoke/fx_ice_break_smoke.particles",
+                    //"filename": "data/hd/vfx/particles/missiles/ice_icefrozenorb/vfx_catapult_ice_frozen_orb.particles",
+                    //"filename": "data/hd/vfx/particles/missiles/ice_icefrozenorb/fx_ice_frozen_orb.particles",
+                   // "filename": "data/hd/vfx/particles/missiles/ice_icearrowexplode/fx_ice_arrow_explode.particles",
+                    "hardKillOnDestroy": true
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "component_transform1",
+                    "position": {
+                        "x": 0.0,
+                        "y": 1.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        }
+       
+    ]
+}

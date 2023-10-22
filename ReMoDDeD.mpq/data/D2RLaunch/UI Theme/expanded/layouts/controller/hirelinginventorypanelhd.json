@@ -1,0 +1,496 @@
+{
+    "basedOn": "HirelingInventoryPanelHD.json",
+    "type": "HirelingInventoryPanel", "name": "HirelingInventoryPanel",
+    "fields": {
+        "rect": "$ConsoleMercPanelRect",
+        "defaultWidget": "slot_right_arm"
+    },
+    "children": [
+        {
+            "type": "ImageWidget", "name": "Background",
+            "fields": {
+                "filename": "\\PANEL\\Hireling\\HirelingPanel",
+                "rect": { "x": 300, "y": -170 }
+            }
+        },
+        {
+            "type": "ClickCatcherWidget"
+        },
+        // Background images for inventory slots
+        {
+            "type": "InventorySlotWidget", "name": "slot_head",
+            "fields": {
+                "rect": { "x": 780, "y": -60, "width": 196, "height": 196 },
+                "backgroundFilename": "PANEL/Inventory/Inventory_Paperdoll_HeadArmor",
+                "navigation": {
+                    "left": { "name": "slot_right_arm" },
+                    "right": { "name": "slot_left_arm" },
+                    "down": { "name": "slot_torso" }
+                }
+            }
+        },
+        {
+            "type": "InventorySlotWidget", "name": "slot_torso",
+            "fields": {
+                "rect": { "x": 783, "y": 182, "width": 196, "height": 294 },
+                "backgroundFilename": "PANEL/Inventory/Inventory_Paperdoll_ChestArmor",
+                "navigation": {
+                    "left": { "name": "slot_right_arm" },
+                    "right": { "name": "slot_left_arm" },
+                    "up": { "name": "slot_head" }
+                }
+            }
+        },
+        {
+            "type": "InventorySlotWidget", "name": "slot_right_arm",
+            "fields": {
+                "rect": { "x": 410, "y": -10, "width": 196, "height": 392 },
+                "gemSocketFilename": "PANEL/gemsocket",
+                "backgroundFilename": "PANEL/Inventory/Inventory_Paperdoll_Weapon",
+                "navigation": {
+                    "right": { "name": "slot_torso" },
+                    "up": { "name": "slot_head" }
+                }
+            }
+        },
+        {
+            "type": "InventorySlotWidget", "name": "slot_left_arm",
+            "fields": {
+                "rect": { "x": 1160, "y": -10, "width": 196, "height": 392 },
+                "gemSocketFilename": "PANEL/gemsocket",
+                "backgroundFilename": "PANEL/Inventory/Inventory_Paperdoll_Weapon",
+                "navigation": {
+                    "left": { "name": "slot_torso" },
+                    "right": { "panelBoundary": true },
+                    "up": { "name": "slot_head" }
+                }
+            }
+        },
+        {
+            "type": "InventorySlotWidget", "name": "slot_belt",
+            "fields": {
+                "rect": { "x": 782, "y": 520, "width": 196, "height": 98 },
+                "cellSize": "$ItemCellSize",
+                "location": "belt",
+                "gemSocketFilename": "PANEL\\gemsocket",
+                "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Belt",
+                "isHireable": true
+            }
+        },
+        {
+            "type": "InventorySlotWidget", "name": "slot_right_hand",
+            "fields": {
+                "rect": { "x": 1020, "y": 515, "width": 98, "height": 98 },
+                "cellSize": "$ItemCellSize",
+                "location": "right_hand",
+                "gemSocketFilename": "PANEL\\gemsocket",
+                "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Ring",
+                "isHireable": false
+            }
+        },
+        {
+            "type": "InventorySlotWidget", "name": "slot_left_hand",
+            "fields": {
+                "rect": { "x": 650, "y": 515, "width": 98, "height": 98 },
+                "cellSize": "$ItemCellSize",
+                "location": "left_hand",
+                "gemSocketFilename": "PANEL\\gemsocket",
+                "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Ring",
+                "isHireable": false
+            }
+        },
+        {
+            "type": "InventorySlotWidget", "name": "slot_gloves",
+            "fields": {
+                "rect": { "x": 410, "y": 425, "width": 196, "height": 196 },
+                "cellSize": "$ItemCellSize",
+                "location": "gloves",
+                "gemSocketFilename": "PANEL\\gemsocket",
+                "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Glove",
+                "isHireable": false
+            }
+        },
+        {
+            "type": "InventorySlotWidget", "name": "slot_feet",
+            "fields": {
+                "rect": { "x": 1160, "y": 425, "width": 196, "height": 196 },
+                "cellSize": "$ItemCellSize",
+                "location": "feet",
+                "gemSocketFilename": "PANEL\\gemsocket",
+                "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Boots",
+                "isHireable": false
+            }
+        },
+        {
+            "type": "InventorySlotWidget", "name": "slot_neck",
+            "fields": {
+                "rect": { "x": 1022, "y": 103, "width": 98, "height": 98 },
+                "cellSize": "$ItemCellSize",
+                "location": "neck",
+                "gemSocketFilename": "PANEL\\gemsocket",
+                "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Amulet",
+                "isHireable": false
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "CharacterName",
+            "fields": {
+                "rect": { "x": 418, "y": 639, "width": 619, "height": 90 },
+                "style": {
+                    "pointSize": "$ExtraLargeFontSize",
+                    "alignment": { "h": "left", "v": "bottom" }
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "HPTitle",
+            "fields": {
+                "rect": { "x": 341, "y": 847, "width": 323, "height": 65 },
+                "style": {
+                    "fontColor":"$FontColorWhite",
+                    "fontFace": "Formal",
+                    "pointSize": "$MediumLargeFontSize",
+                    "alignment": { "h": "center", "v": "center" }
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "HPStat",
+            "fields": {
+                "rect": { "x": 591, "y": 852, "width": 270, "height": 65 },
+                "style": {
+                    "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
+                    "pointSize": "$MediumFontSize",
+                    "alignment": { "h": "center", "v": "center" }
+                }
+            }
+        },
+        // Level
+        {
+            "type": "TextBoxWidget", "name": "HireTypeText",
+            "fields": {
+                "rect": { "x": 418, "y": 737, "width": 619, "height": 80 },
+                "style": {
+                    "pointSize": "$MediumLargeFontSize",
+                    "alignment": { "h": "left", "v": "bottom" }
+                }
+            }
+        },
+        // Experience
+        {
+            "type": "ExpBarWidget", "name": "XpProgress",
+            "fields": {
+                "rect": { "x": 430, "y": 740 } ,
+                "filename": "Controller/Panel/HirelingInventory/V2/Expbar"
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "NextLevelXP",
+            "fields": {
+                "rect": { "x": 1119, "y": 670, "width": 1270, "height": 80 },
+                "style": {
+                    "pointSize": "$MediumFontSize",
+                    "alignment": { "h": "left", "v": "center" }
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "ConnectorWord",
+            "fields": {
+                "rect": { "x": 1078, "y": 685, "height": 50 },
+                "text": "@ItemStats1j",
+                "style": {
+                    "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": { "h": "right", "v": "center" }
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "CurrentXP",
+            "fields": {
+                "rect": { "x": -273, "y": 670, "width": 1270, "height": 80 },
+                "style": {
+                    "pointSize": "$MediumFontSize",
+                    "alignment": { "h": "right", "v": "center" }
+                }
+            }
+        },
+
+        // Base stats
+        {
+            "type": "TextBoxWidget", "name": "StrengthTitle",
+            "fields":
+            {
+                "rect": { "x": 341, "y": 932, "width": 323, "height": 65 },
+                "style": {
+                    "fontColor":"$FontColorWhite",
+                    "fontFace": "Formal",
+                    "pointSize": "$MediumFontSize",
+                    "alignment": { "h": "center", "v": "center" }
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "StrengthStat",
+            "fields": {
+                "rect": { "x": 591, "y": 937, "width": 270, "height": 65 },
+                "style": {
+                    "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
+                    "pointSize": "$MediumFontSize",
+                    "alignment": { "h": "center", "v": "center" }
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "DexTitle",
+            "fields": {
+                "rect": { "x": 341, "y": 1017, "width": 323, "height": 65 },
+                "style": {
+                    "fontColor":"$FontColorWhite",
+                    "fontFace": "Formal",
+                    "pointSize": "$MediumFontSize",
+                    "alignment": { "h": "center", "v": "center" }
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "DexStat",
+            "fields": {
+                "rect": { "x": 591, "y": 1022, "width": 270, "height": 65 },
+                "style": {
+                    "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
+                    "pointSize": "$MediumFontSize",
+                    "alignment": { "h": "center", "v": "center" }
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "DamageTitle",
+            "fields": {
+                "rect": { "x": 341, "y": 1102, "width": 323, "height": 65 },
+                "style": {
+                    "fontColor":"$FontColorWhite",
+                    "fontFace": "Formal",
+                    "pointSize": "$MediumFontSize",
+                    "alignment": { "h": "center", "v": "center" }
+                }
+            }
+        },
+        {
+            "type": "Widget", "name": "Damage",
+            "fields": {
+                "rect": { "x": 591, "y": 1107, "width": 270, "height": 65 }
+            },
+            "children": [
+                {
+                    "type": "TextBoxWidget", "name": "DamageStat",
+                    "fields": {
+                        "rect": { "x": 0, "y": 0, "width": 270, "height": 65 },
+                        "style": {
+                            "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
+                            "pointSize": "$MediumFontSize",
+                            "alignment": { "h": "center", "v": "center" }
+                        }
+                    }
+                },
+                {
+                    "type": "TextBoxWidget", "name": "DamageStatTop",
+                    "fields": {
+                        "rect": { "x": 0, "y": -5, "width": 270, "height": 65 },
+                        "style": {
+                            "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
+                            "pointSize": "$SmallFontSize",
+                            "alignment": { "h": "center", "v": "top" }
+                        }
+                    }
+                },
+                {
+                    "type": "TextBoxWidget", "name": "DamageStatBottom",
+                    "fields": {
+                        "rect": { "x": 0, "y": -5, "width": 270, "height": 65 },
+                        "style": {
+                            "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
+                            "pointSize": "$SmallFontSize",
+                            "alignment": { "h": "center", "v": "bottom" }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "TextBoxWidget", "name": "ArmorClassTitle",
+            "fields": {
+                "rect": { "x": 341, "y": 1183, "width": 323, "height": 65 },
+                "style": {
+                    "fontColor":"$FontColorWhite",
+                    "fontFace": "Formal",
+                    "pointSize": "$MediumFontSize",
+                    "alignment": { "h": "center", "v": "center" }
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "ArmorClass",
+            "fields": {
+                "rect": { "x": 591, "y": 1188, "width": 270, "height": 65 },
+                "style": {
+                    "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
+                    "pointSize": "$MediumFontSize",
+                    "alignment": { "h": "center", "v": "center" }
+                }
+            }
+        },
+        // Elemental Resistances
+        {
+            "type": "TextBoxWidget", "name": "FireResistanceTitle",
+            "fields": {
+                "rect": { "x": 867, "y": 935, "width": 409, "height": 59 },
+                "text": "@strchrfir",
+                "style": {
+                    "fontColor":"$FontColorWhite",
+                    "fontFace": "Formal",
+                    "pointSize": "$MediumFontSize",
+                    "alignment": { "h": "center", "v": "center" }
+                },
+                "useAltStyleIfDoesntFit": true,
+                "altStyle": {
+                    "fontColor":"$FontColorWhite",
+                    "fontFace": "Formal",
+                    "pointSize": "$SmallFontSize",
+                    "alignment": { "h": "center", "v": "center" },
+                    "spacing": "$MinimumSpacing"
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "FireText",
+            "fields": {
+                "rect": { "x": 1206, "y": 940, "width": 185, "height": 59 },
+                "style": {
+                    "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
+                    "pointSize": "$MediumFontSize",
+                    "alignment": { "h": "center", "v": "center" }
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "ColdResistanceTitle",
+            "fields": {
+                "rect": { "x": 867, "y": 1020, "width": 409, "height": 59 },
+                "text": "@strchrcol",
+                "style": {
+                    "fontColor":"$FontColorWhite",
+                    "fontFace": "Formal",
+                    "pointSize": "$MediumFontSize",
+                    "alignment": { "h": "center", "v": "center" }
+                },
+                "useAltStyleIfDoesntFit": true,
+                "altStyle": {
+                    "fontColor":"$FontColorWhite",
+                    "fontFace": "Formal",
+                    "pointSize": "$SmallFontSize",
+                    "alignment": { "h": "center", "v": "center" },
+                    "spacing": "$MinimumSpacing"
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "ColdText",
+            "fields": {
+                "rect": { "x": 1206, "y": 1025, "width": 185, "height": 59 },
+                "style": {
+                    "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
+                    "pointSize": "$MediumFontSize",
+                    "alignment": { "h": "center", "v": "center" }
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "LightningResistanceTitle",
+            "fields": {
+                "rect": { "x": 867, "y": 1105, "width": 409, "height": 59 },
+                "text": "@strchrlit",
+                "style": {
+                    "fontColor":"$FontColorWhite",
+                    "fontFace": "Formal",
+                    "pointSize": "$MediumFontSize",
+                    "alignment": { "h": "center", "v": "center" }
+                },
+                "useAltStyleIfDoesntFit": true,
+                "altStyle": {
+                    "fontColor":"$FontColorWhite",
+                    "fontFace": "Formal",
+                    "pointSize": "$SmallFontSize",
+                    "alignment": { "h": "center", "v": "center" },
+                    "spacing": "$MinimumSpacing"
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "LightningText",
+            "fields": {
+                "rect": { "x": 1206, "y": 1110, "width": 185, "height": 59 },
+                "style": {
+                    "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
+                    "pointSize": "$MediumFontSize",
+                    "alignment": { "h": "center", "v": "center" }
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "PoisonResistanceTitle",
+            "fields": {
+                "rect": { "x": 867, "y": 1190, "width": 409, "height": 59 },
+                "text": "@strchrpos",
+                "style": {
+                    "fontColor":"$FontColorWhite",
+                    "fontFace": "Formal",
+                    "pointSize": "$MediumFontSize",
+                    "alignment": { "h": "center", "v": "center" }
+                },
+                "useAltStyleIfDoesntFit": true,
+                "altStyle": {
+                    "fontColor":"$FontColorWhite",
+                    "fontFace": "Formal",
+                    "pointSize": "$SmallFontSize",
+                    "alignment": { "h": "center", "v": "center" },
+                    "spacing": "$MinimumSpacing"
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "PoisonText",
+            "fields": {
+                "rect": { "x": 1206, "y": 1195, "width": 185, "height": 59 },
+                "style": {
+                    "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
+                    "pointSize": "$MediumFontSize",
+                    "alignment": { "h": "center", "v": "center" }
+                }
+            }
+        },
+        // Hire skills
+        {
+            "type": "HirelingSkillIconWidget", "name": "Skill0",
+            "fields": {
+                "rect": { "x": 903, "y": 836, "scale": 0.70 },
+                "skillIconFilename": "Spells/Hireables/HrSkillIcon"
+            }
+        },
+        {
+            "type": "HirelingSkillIconWidget", "name": "Skill1",
+            "fields": {
+                "rect": { "x": 1053, "y": 836, "scale": 0.70 },
+                "skillIconFilename": "Spells/Hireables/HrSkillIcon"
+            }
+        },
+        {
+            "type": "HirelingSkillIconWidget", "name": "Skill2",
+            "fields": {
+                "rect": { "x": 1213, "y": 836, "scale": 0.70 },
+                "skillIconFilename": "Spells/Hireables/HrSkillIcon"
+            }
+        }
+    ]
+}

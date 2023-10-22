@@ -1,0 +1,115 @@
+{
+    "type": "HoradricCubePanel", "name": "RemoddedShopPanel",
+    "fields": {
+        "priority": 10,
+        "rect": "$LeftPanelRect",
+        "anchor": "$LeftPanelAnchor"
+    },
+    "children": [
+        {
+            "type": "RectangleWidget", "name": "Background",
+            "fields": {
+                "fitToScreen": true,
+                "color": [ 0.0, 0.0, 0.0, 0.7 ]
+            },
+            "children": [
+                {
+                    "type": "ClickCatcherWidget", "name": "catcher",
+                    "fields": {
+                        "fitToParent": true
+                    }
+                },
+                {
+                    "type": "Widget", "name": "Anchor",
+                    "fields": {
+                       // "anchor": { "x": 0.5, "y": 0.5 },
+                      //  "rect": "$SettingsPanelAnchorRect",
+                    },
+                    "children": [
+                        {
+                            "type": "ImageWidget", "name": "background",
+                            "fields": {
+                                "filename": "..\\..\\..\\ReMoDDeD\\Shop\\ShopNew",
+                                "rect": { "x": 515,"y": 0 }
+                            }
+                        },
+                        {
+                            "type": "TextBoxWidget", "name": "title",
+                            "fields": {
+                                "rect": { "x": 1347, "y": 38 },
+                                "style": "$StyleTitleBlock",
+                                "text": "Horadric Rift"
+                            }
+                        },
+                        {
+                            "type": "TextBoxWidget", "name": "title",
+                            "fields": {
+                                "rect": { "x": 1347, "y": 68 },
+                                "style": "$StyleSettingsTextCRT",
+                                "text": "A rift has opened to an unknown realm ruled by demon lords..."
+                            }
+                        },
+                        {
+                            "type": "TextBoxWidget", "name": "title",
+                            "fields": {
+                                "rect": { "x": 1347, "y": 108 },
+                                "style": "$StyleSettingsTextCRT",
+                                "text": "For the hero who returns their lost items...treasures may await."
+                            }
+                        },
+                        {
+                            "type": "TextBoxWidget", "name": "title",
+                            "fields": {
+                                "rect": { "x": 1347, "y": 1512 },
+                                "style": "$StyleSettingsTextCRTG",
+                                "text": "The demon lords are morbid creatures; twisted and perverse in their desires..."
+                            }
+                        },
+                        {
+                            "type": "TextBoxWidget", "name": "title",
+                            "fields": {
+                                "rect": { "x": 1347, "y": 1552 },
+                                "style": "$StyleSettingsTextCRTG",
+                                "text": "They enjoy only killing and death...and they will ask both of you."
+                            }
+                        },
+                        {
+                            "type": "TextBoxWidget", "name": "title",
+                            "fields": {
+                                "rect": { "x": 1347, "y": 1592 },
+                                "style": "$StyleSettingsTextCRTG",
+                                "text": "If you do not meet their demands, only sadness and regret await..."
+                            }
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "CloseButton",
+                            "fields": {
+                                "rect": { "x": 2068, "y": 8 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Exit",
+                                "hoveredFrame": 3,
+                                "onClickMessage": "PanelManager:ClosePanel:RemoddedShopPanel",
+                                "tooltipString": "@strClose",
+                                "sound": "cursor_close_window_hd",
+                                "acceptsEscKeyEverywhere": true
+                            }
+                        },
+                        /*
+                        {
+                            "type": "ButtonWidget", "name": "PlayButton",
+                            "fields": {
+                                "rect": { "x": 998, "y": 1218 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Shop\\ShopPlay",
+                                "hoveredFrame": 1,
+                                "onClickMessage": "PanelManager:OpenPanel:ShopPreviewPanel",
+                                "tooltipString": "Play Preview",
+                                "sound": "cursor_close_window_hd",
+                                "acceptsEscKeyEverywhere": true
+                            }
+                        }
+                        */
+                    ]
+                }
+            ]
+        }
+    ]
+}

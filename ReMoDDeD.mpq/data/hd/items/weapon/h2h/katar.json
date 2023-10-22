@@ -1,0 +1,111 @@
+{
+    "dependencies": {
+        "particles": [],
+        "models": [
+            {
+                "path": "data/hd/items/weapon/h2h/katar/katar.model"
+            }
+        ],
+        "skeletons": [
+            {
+                "path": "data/hd/items/dropped_items/skeleton/dropped_items.skeleton"
+            }
+        ],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/items/weapon/h2h/katar/weapon_katar_ALB.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/h2h/katar/weapon_katar_mask.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/h2h/katar/weapon_katar_NRM.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/h2h/katar/weapon_katar_ORM.texture"
+            }
+        ],
+        "physics": [],
+        "json": [
+            {
+                "path": "data/hd/items/dropped_items/dropped_items_nw.json"
+            }
+        ],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "katar",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 529645949,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "data/hd/items/dropped_items/dropped_items_nw.json",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                },
+                {
+                    "type": "SkeletonDefinitionComponent",
+                    "name": "component_skeleton",
+                    "filename": "data/hd/items/dropped_items/skeleton/dropped_items.skeleton"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.544639051,
+                        "z": 0.0,
+                        "w": 0.838670552
+                    },
+                    "scale": {
+                        "x": 1.2,
+                        "y": 1.2,
+                        "z": 1.2
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model",
+            "id": 1436402905,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_katar",
+                    "filename": "data/hd/items/weapon/h2h/katar/katar.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "dependencies": {
+        "particles": [
+            {
+                "path": "data/hd/vfx/particles/missiles/expansion_deathmaulerfingers/deathmaulerFingers.particles"
+            }
+        ],
+        "models": [
+            {
+                "path": "data/hd/vfx/meshes/lit_mesh/baaltentacle/balltentaclefx_mesh.model"
+            }
+        ],
+        "skeletons": [
+            {
+                "path": "data/hd/vfx/meshes/missiles/expansion_deathmauler/skeleton/expansion_deathmauler.skeleton"
+            }
+        ],
+        "animations": [
+            {
+                "path": "data/hd/vfx/meshes/missiles/expansion_deathmauler/animation/expansion_deathmauler_fingers.animation"
+            }
+        ],
+        "textures": [
+            {
+                "path": "data/hd/vfx/textures/decal/T_FX_dirt_base_decal_ORM.texture"
+            }
+        ],
+        "physics": [],
+        "json": [],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "expansion_deathmaulerfingers",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 2837820613,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_vfx1",
+            "id": 3709921661,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "component_transform1",
+                    "position": {
+                        "x": -1.0,
+                        "y": -3.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 0.6,
+                        "y": 0.6,
+                        "z": 0.6
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_vfx1_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/bonespikes.particles",
+                    "hardKillOnDestroy": false
+                }
+            ]
+        }
+    ]
+}

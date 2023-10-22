@@ -1,0 +1,2131 @@
+{
+    "type": "VideoOptionsPanel", "name": "SkillPreviewNecromancerPanel",
+    "fields": {
+        "priority": 9003,
+        "rect": "$OptionsPanelRect",
+        "anchor": { "x": 0.5 },
+        "applySettingsImmediately": true
+    },
+    "children": [
+        {
+            "type": "ImageWidget", "name": "ScrollBarBackground",
+            "fields": {
+                "rect": "$OptionsScrollBarBackgroundRect",
+                "anchor": { "x": 1.0 },
+                "filename": "PauseMenu\\VerticalScroll"
+            },
+            "children": [
+                {
+                    "type": "ScrollControllerWidget", "name": "ScrollController",
+                    "fields": {
+                        "rect": "$OptionsScrollBarRect",
+                        "anchor": { "x": 1.0 },
+                        "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+                        "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+                        "barFilepath": "PauseMenu\\VerticalIndicator",
+                        "viewName": "ScrollView",
+                        "wheelScrollSound": "cursor_scroll_hd",
+                        "buttonScrollSound": "cursor_scroll_hd"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "ScrollViewWidget", "name": "ScrollView",
+            "fields": {
+                "fitToParent": true,
+                "scrollControllerName": "ScrollController"
+            },
+            "children": [
+                {
+                    "type": "TableWidget", "name": "OptionsTable",
+                    "fields": {
+                        "columns": [ "$OptionsTableColumn1", "$OptionsTableColumn2" ],
+                        "rowHeight": "$SkillPOptionsTableRowHeight"
+                    },
+                    "children": [
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Raise Skeleton",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "Cast on the corpse of a slain monster, this raises a skeleton warrior that fights for you.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP1",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill1",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Raiseskeleton",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RaiseskeletonStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RaiseskeletonStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Summon",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y": -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RaiseskeletonStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RaiseskeletonStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Physical Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RaiseskeletonStat3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RaiseskeletonStat3T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RaiseskeletonStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RaiseskeletonStat4T",
+                                    "fields": {
+                                        "text": "Synergies: Summon Mastery",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Clay Golem",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Creates a golem from the earth to fight by your side.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP2",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill2",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Claygolem",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ClaygolemStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ClaygolemStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Summon",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ClaygolemStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ClaygolemStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Physical Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ClaygolemStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ClaygolemStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ClaygolemStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ClaygolemStat5T",
+                                    "fields": {
+                                        "text": "Synergies: Summon Mastery, Blood Golem, Iron Golem, Fire Golem",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Iron Golem",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Transforms a metallic item into a golem that gains the properties of that item.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP3",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill3",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Irongolem",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IrongolemStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IrongolemStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Summon",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IrongolemStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IrongolemStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Physical Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IrongolemStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IrongolemStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IrongolemStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IrongolemStat5T",
+                                    "fields": {
+                                        "text": "Synergies: Summon Mastery, Clay Golem, Blood Golem, Fire Golem",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Raise Skeletal Mage",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": "Cast on the corpse of a slain monster, this raises a skeleton mage that fights for you.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP4",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill4",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Raiseskeletalmage",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RaiseskeletalmageStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RaiseskeletalmageStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Summon",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RaiseskeletalmageStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RaiseskeletalmageStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Elemental Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RaiseskeletalmageStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RaiseskeletalmageStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RaiseskeletalmageStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RaiseskeletalmageStat5T",
+                                    "fields": {
+                                        "text": "Synergies: Summon Mastery ",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Blood Golem",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC5T",
+                                    "fields": {
+                                        "text": "Creates a golem that shares with you the life it steals.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP5",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill5",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Bloodgolem",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "BloodgolemStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "BloodgolemStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Summon",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "BloodgolemStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "BloodgolemStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Physical Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "BloodgolemStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "BloodgolemStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "BloodgolemStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "BloodgolemStat5T",
+                                    "fields": {
+                                        "text": "Synergies: Summon Mastery, Clay Golem, Iron Golem, Fire Golem",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Fire Golem",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC6",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC6T",
+                                    "fields": {
+                                        "text": "Creates a golem that converts the damage it receives from fire into life.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP6",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill6",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Firegolem",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "FiregolemStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "FiregolemStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Summon",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "FiregolemStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "FiregolemStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Fire Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "FiregolemStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "FiregolemStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "FiregolemStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "FiregolemStat5T",
+                                    "fields": {
+                                        "text": "Synergies: Summon Mastery, Clay Golem, Blood Golem, Iron Golem",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Raise Skeletal Archer",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC7",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC7T",
+                                    "fields": {
+                                        "text": "Raise a bow wielding skeleton from the Void  to assist you in maintaining the balance Does not require a corpse and has limited duration.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP7",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill7",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Raiseskeletalarcher",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RaiseskeletalarcherStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RaiseskeletalarcherStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Summon",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RaiseskeletalarcherStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RaiseskeletalarcherStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Physical Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RaiseskeletalarcherStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RaiseskeletalarcherStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RaiseskeletalarcherStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RaiseskeletalarcherStat5T",
+                                    "fields": {
+                                        "text": "Synergies: Summon Mastery",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Final Calling",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC8",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC8T",
+                                    "fields": {
+                                        "text": "Reduce the life essence of your minions but cause them to frenzy and cause damage when they explode upon expiration.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP8",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill8",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Finalcalling",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "FinalcallingStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "FinalcallingStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Buff",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "FinalcallingStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "FinalcallingStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "FinalcallingStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "FinalcallingStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "FinalcallingStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "FinalcallingStat5T",
+                                    "fields": {
+                                        "text": "Synergies: None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Revive",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC9",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC9T",
+                                    "fields": {
+                                        "text": "Returns a monster to life to fight by your side.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP9",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill9",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Revive",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ReviveStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ReviveStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Summon",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ReviveStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ReviveStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Physical Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ReviveStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ReviveStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ReviveStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ReviveStat5T",
+                                    "fields": {
+                                        "text": "Synergies: Summon Mastery",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Bone Spear",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC10",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC10T",
+                                    "fields": {
+                                        "text": "Summons a deadly spike of bone that leaves a burning magic trail non its way to impale your enemies.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP10",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill10",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Bonespear",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "BonespearStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "BonespearStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Ranged",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "BonespearStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "BonespearStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Magic Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "BonespearStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "BonespearStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "BonespearStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "BonespearStat5T",
+                                    "fields": {
+                                        "text": "Synergies: Teeth",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Teeth",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC11",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC11T",
+                                    "fields": {
+                                        "text": "Fires a barrage of summoned barbed teeth that knockback enemies.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP11",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill11",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Teeth",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "TeethStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "TeethStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Ranged",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "TeethStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "TeethStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Magic Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "TeethStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "TeethStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "TeethStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "TeethStat5T",
+                                    "fields": {
+                                        "text": "Synergies: Drain Essence, Bone Spear, Bone Prison, Bone Spirit",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Blight Strike",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC12",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC12T",
+                                    "fields": {
+                                        "text": "Strike you foes with a tainted weapon, to inflict them with disease that spreads to other monsters.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP12",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill12",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Blightstrike",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "BlightstrikeStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "BlightstrikeStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Melee",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "BlightstrikeStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "BlightstrikeStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Poison Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "BlightstrikeStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "BlightstrikeStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "BlightstrikeStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "BlightstrikeStat5T",
+                                    "fields": {
+                                        "text": "Synergies: Poison Nova, Poison Explosion",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Corpse Explosion",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC13",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC13T",
+                                    "fields": {
+                                        "text": "Cast on the corpse of a slain monster, it explodes, damaging nearby enemies.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP13",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill13",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Corpseexplosion",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "CorpseexplosionStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "CorpseexplosionStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Ranged",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "CorpseexplosionStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "CorpseexplosionStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Physical Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "CorpseexplosionStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "CorpseexplosionStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "CorpseexplosionStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "CorpseexplosionStat5T",
+                                    "fields": {
+                                        "text": "Synergies: None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Poison Explosion",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC14",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC14T",
+                                    "fields": {
+                                        "text": "Cast on the corpse of a slain monster, toxic gas is released that poisons nearby monsters.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP14",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill14",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Poisonexplosion",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "PoisonexplosionStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "PoisonexplosionStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: AoE Spell",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "PoisonexplosionStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "PoisonexplosionStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Poison Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "PoisonexplosionStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "PoisonexplosionStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "PoisonexplosionStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "PoisonexplosionStat5T",
+                                    "fields": {
+                                        "text": "Synergies: Blight Strike, Poison Nova",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Bone Prison",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC15",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC15T",
+                                    "fields": {
+                                        "text": "Creates a barrier of fossilized bone around your target which drains thier life.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP15",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill15",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Boneprison",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "BoneprisonStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "BoneprisonStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Ranged",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "BoneprisonStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "BoneprisonStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "BoneprisonStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "BoneprisonStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "BoneprisonStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "BoneprisonStat5T",
+                                    "fields": {
+                                        "text": "Synergies: Bone Armor, Drain Essence",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Drain Essence",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC16",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC16T",
+                                    "fields": {
+                                        "text": "Suck the life and energy force from your enemies restoring life and mana.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP16",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill16",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Drainessence",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "DrainessenceStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "DrainessenceStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Ranged",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "DrainessenceStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "DrainessenceStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Magic Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "DrainessenceStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "DrainessenceStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "DrainessenceStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "DrainessenceStat5T",
+                                    "fields": {
+                                        "text": "Synergies: None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Poison Nova",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC17",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC17T",
+                                    "fields": {
+                                        "text": "Emits an expanding ring of concentrated poison.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP17",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill17",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Poisonnova",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "PoisonnovaStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "PoisonnovaStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: AoE Spell",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "PoisonnovaStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "PoisonnovaStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Poison Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "PoisonnovaStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "PoisonnovaStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "PoisonnovaStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "PoisonnovaStat5T",
+                                    "fields": {
+                                        "text": "Synergies: Blight Strike",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Bone Spirit",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC18",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC18T",
+                                    "fields": {
+                                        "text": "Releases a spirit of the restless undead that tracks its target or finds one of its own.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP18",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill18",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Bonespirit",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "BonespiritStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "BonespiritStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Ranged",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "BonespiritStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "BonespiritStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: Magic Damage",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "BonespiritStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "BonespiritStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 20",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "BonespiritStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "BonespiritStat5T",
+                                    "fields": {
+                                        "text": "Synergies: Teeth, Bone Spear, Bone Prison",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Curse",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC19",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC19T",
+                                    "fields": {
+                                        "text": "Curse your enemies to reduce their stats reduces are based off points in Ritualistic Practice Skills.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP19",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill19",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Curse",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "CurseStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "CurseStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Debuff",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "CurseStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "CurseStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "CurseStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "CurseStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 1",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "CurseStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "CurseStat5T",
+                                    "fields": {
+                                        "text": "Synergies: None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Jinx",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC22",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC22T",
+                                    "fields": {
+                                        "text": "Cast a bewitchment upon you enemies causing them to become vulnuerable.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP22",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill22",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Jinx",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JinxStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JinxStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Debuff",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JinxStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JinxStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JinxStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JinxStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 1",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JinxStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JinxStat5T",
+                                    "fields": {
+                                        "text": "Synergies: None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Hex",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC25",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC25T",
+                                    "fields": {
+                                        "text": "Cast a Hex on your enemies that lowers their effectiveness.",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP25",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill25",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Hex",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "HexStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "HexStat1T",
+                                    "fields": {
+                                        "text": "Skill Type: Debuff",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "HexStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "HexStat2T",
+                                    "fields": {
+                                        "text": "Damage Type: None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "HexStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "HexStat4T",
+                                    "fields": {
+                                        "text": "Max Skill Level: 1",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "HexStat5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "HexStat5T",
+                                    "fields": {
+                                        "text": "Synergies: None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

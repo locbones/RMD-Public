@@ -1,0 +1,167 @@
+{
+    "type": "HoradricCubePanel", "name": "HoradricCubeLayout",
+    "fields": {
+        "priority": 10,
+        "rect": "$LeftPanelRect",
+        "anchor": "$LeftPanelAnchor"
+    },
+    "children": [
+        {
+            "type": "ClickCatcherWidget", "name": "click_catcher",
+            "fields": {
+                "rect": { "x": 300, "y": -200, "width": 1612, "height": 1667 }
+            }
+        },
+        {
+            "type": "ImageWidget", "name": "background",
+            "fields": {
+                "filename": "..\\..\\..\\ReMoDDeD\\Cube",
+                "rect": { "y": -205 }
+            }
+        },
+        {
+            "type": "ImageWidget", "name": "LeftHinge",
+            "fields": {
+                "rect": "$LeftHingeRect",
+                "filename": "$LeftHingeSprite"
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "title",
+            "fields": {
+                "rect": { "x": 832, "y": -122 },
+                "style": "$StyleTitleBlock",
+                "text": "@box"
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "convert",
+            "fields": {
+                "rect": "$HoradricCubePanelConvert",
+                "filename": "PANEL\\Horadric_Cube\\TransmuteButton",
+                "tooltipString": "@strUiMenu2",
+                "hoveredFrame": 2,
+                "onClickMessage": "HoradricCubePanelMessage:Convert"
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "convert2",
+            "fields": {
+                "rect": "$HoradricCubePanelConvert2",
+                "filename": "PANEL\\Horadric_Cube\\TransmuteButton",
+                "tooltipString": "@strUiMenu2",
+                "hoveredFrame": 2,
+                "onClickMessage": "HoradricCubePanelMessage:Convert"
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Recipes",
+            "fields": {
+                "rect": { "x": 85, "y": 1318 },
+                "filename": "..\\..\\..\\ReMoDDeD\\Recipes",
+                "tooltipString": "Show Cube Recipes",
+                "hoveredFrame": 2,
+                "onClickMessage": "PanelManager:OpenPanel:CubeRecipesPanel"
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Shop",
+            "fields": {
+                "rect": { "x": 765, "y": 1318 },
+                "filename": "..\\..\\..\\ReMoDDeD\\Shop\\Shop_Button",
+                "tooltipString": "Show Horadric Rift",
+                "hoveredFrame": 2,
+                "onClickMessage": "PanelManager:OpenPanel:RemoddedShopPanel"
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "close",
+            "fields": {
+                "rect": { "x": 1550, "y": -197 },
+                "filename": "..\\..\\..\\ReMoDDeD\\Exit",
+                "hoveredFrame": 3,
+                "tooltipString": "@strClose",
+                "onClickMessage": "HoradricCubePanelMessage:Close"
+            }
+        },
+        {
+            "type": "InventoryGridWidget", "name": "grid",
+            "fields": {
+                "rect": { "x": 35, "y": -10 },
+                "cellCount": { "x": 16, "y": 13 },
+                "cellSize": "$ItemCellSize",
+                "gemSocketFilename": "PANEL\\gemsocket"
+            }
+        },
+        {
+            "type": "AnimatedImageWidget", "name": "flourish",
+            "fields": {
+                "rect": { "x": -105, "y": 204, "scale":2 },
+                "filename": "PANEL\\Horadric_Cube\\Flourish",
+                "blendMode": "black",
+                "fps": 14,
+                "playing": false,
+                "loop": false
+            }
+        },
+        {
+            "type": "ScrollControllerWidget", "name": "ScrollBar",
+            "fields": {
+                "rect": { "x": 580, "y": -152, "width": 36, "height": 670 },
+                "upArrowFilepath": "",
+                "downArrowFilepath": "",
+                "barFilepath": "..\\..\\..\\ReMoDDeD\\SkullScroll",
+                "viewName": "ListContainerr"
+            }
+        },
+        {
+            "type": "ListWidget", "name": "ListContainerr",
+            "fields": {
+                "rect": { "x": -407, "y": -193, "width": 976, "height": 740},
+                "direction": "vertical",
+                "scrollControllerName": "ScrollBar"
+            },
+            "children": [
+                {
+                    "type": "ListItemWidget", "name": "OptionTemplate",
+                    "fields": {
+                        "rect": { "x": 0, "y": 10, "width": 976, "height": 60 }
+                    },
+                    "children": [
+                        {
+                            "type": "ListItemWidget", "name": "OptionTemplater",
+                            "fields": {
+                                "rect": { "x": 0, "y": 10, "width": 976, "height": 60 }
+                            },
+                            "children": [
+                                {
+                                    "type": "NineTileImageWidget", "name": "TextContainerr",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 0, "width": 976, "height": 0 },
+                                        "filename": "Blank",
+                                        "tileScale": 1.0
+                                    }
+                                },
+                                {
+                                "type": "TextBoxWidget", "name": "StatTextr",
+                                    "fields": {
+                                        "rect": { "x": 20, "y": 0, "width": 916, "height": 48 },
+                                        "style": {
+                                            "fontColor": "$FontColorGold",
+                                            "pointSize": "$MediumFontSize",
+                                            "alignment": { "h": "center", "v": "center" },
+                                            "options": {
+                                                "lineWrap": true,
+                                                "pipeCharacterBehavior": "handle"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

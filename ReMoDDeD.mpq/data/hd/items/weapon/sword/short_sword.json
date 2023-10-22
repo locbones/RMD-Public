@@ -1,0 +1,111 @@
+{
+    "dependencies": {
+        "particles": [],
+        "models": [
+            {
+                "path": "data/hd/items/weapon/sword/short_sword/short_sword.model"
+            }
+        ],
+        "skeletons": [
+            {
+                "path": "data/hd/items/dropped_items/skeleton/dropped_items.skeleton"
+            }
+        ],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/items/weapon/sword/short_sword/weapon_short_sword_ALB.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/sword/short_sword/weapon_short_sword_mask.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/sword/short_sword/weapon_short_sword_NRM.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/sword/short_sword/weapon_short_sword_ORM.texture"
+            }
+        ],
+        "physics": [],
+        "json": [
+            {
+                "path": "data/hd/items/dropped_items/dropped_items_ne.json"
+            }
+        ],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "short_sword",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 1535362312,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "data/hd/items/dropped_items/dropped_items_ne.json",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                },
+                {
+                    "type": "SkeletonDefinitionComponent",
+                    "name": "component_skeleton",
+                    "filename": "data/hd/items/dropped_items/skeleton/dropped_items.skeleton"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": 0.9,
+                        "y": 0.0,
+                        "z": 0.9
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": -0.156434461,
+                        "z": 0.0,
+                        "w": 0.987688363
+                    },
+                    "scale": {
+                        "x": 1.2,
+                        "y": 1.2,
+                        "z": 1.2
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model",
+            "id": 3311377648,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_short_sword",
+                    "filename": "data/hd/items/weapon/sword/short_sword/short_sword.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        }
+    ]
+}

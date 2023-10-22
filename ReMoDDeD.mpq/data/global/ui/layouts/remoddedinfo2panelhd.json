@@ -1,0 +1,1715 @@
+{
+    "type": "VideoOptionsPanel", "name": "RemoddedInfo2Panel",
+    "fields": {
+        "priority": 9003,
+        "rect": "$OptionsPanelRect",
+        "anchor": { "x": 0.5 },
+        "applySettingsImmediately": true
+    },
+    "children": [
+        {
+            "type": "ImageWidget", "name": "ScrollBarBackground",
+            "fields": {
+                "rect": "$OptionsScrollBarBackgroundRect",
+                "anchor": { "x": 1.0 },
+                "filename": "..\\..\\..\\ReMoDDeD\\Info\\ScrollBG"
+            },
+            "children": [
+                {
+                    "type": "ScrollControllerWidget", "name": "ScrollController",
+                    "fields": {
+                        "rect": "$OptionsScrollBarRect",
+                        "anchor": { "x": 1.0 },
+                        "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+                        "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+                        "barFilepath": "..\\..\\..\\ReMoDDeD\\SkullScroll",
+                        "viewName": "ScrollView",
+                        "wheelScrollSound": "cursor_scroll_hd",
+                        "buttonScrollSound": "cursor_scroll_hd"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "ScrollViewWidget", "name": "ScrollView",
+            "fields": {
+                "fitToParent": true,
+                "scrollControllerName": "ScrollController"
+            },
+            "children": [
+                {
+                    "type": "TableWidget", "name": "OptionsTable",
+                    "fields": {
+                        "columns": [ "$RMDOptionsTableColumn1", "$RMDOptionsTableColumn2" ],
+                        "rowHeight": "$RMDOptionsTableRowHeight"
+                    },
+                    "children": [
+
+                        /*
+        GGGGGGGGGGGGG                                                                                  lllllll                                         
+     GGG::::::::::::G                                                                                  l:::::l                                         
+   GG:::::::::::::::G                                                                                  l:::::l                                         
+  G:::::GGGGGGGG::::G                                                                                  l:::::l                                         
+ G:::::G       GGGGGG  aaaaaaaaaaaaa      mmmmmmm    mmmmmmm       eeeeeeeeeeee    ppppp   ppppppppp    l::::l   aaaaaaaaaaaaayyyyyyy           yyyyyyy
+G:::::G                a::::::::::::a   mm:::::::m  m:::::::mm   ee::::::::::::ee  p::::ppp:::::::::p   l::::l   a::::::::::::ay:::::y         y:::::y 
+G:::::G                aaaaaaaaa:::::a m::::::::::mm::::::::::m e::::::eeeee:::::eep:::::::::::::::::p  l::::l   aaaaaaaaa:::::ay:::::y       y:::::y  
+G:::::G    GGGGGGGGGG           a::::a m::::::::::::::::::::::me::::::e     e:::::epp::::::ppppp::::::p l::::l            a::::a y:::::y     y:::::y   
+G:::::G    G::::::::G    aaaaaaa:::::a m:::::mmm::::::mmm:::::me:::::::eeeee::::::e p:::::p     p:::::p l::::l     aaaaaaa:::::a  y:::::y   y:::::y    
+G:::::G    GGGGG::::G  aa::::::::::::a m::::m   m::::m   m::::me:::::::::::::::::e  p:::::p     p:::::p l::::l   aa::::::::::::a   y:::::y y:::::y     
+G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeeee   p:::::p     p:::::p l::::l  a::::aaaa::::::a    y:::::y:::::y      
+ G:::::G       G::::Ga::::a    a:::::a m::::m   m::::m   m::::me:::::::e            p:::::p    p::::::p l::::l a::::a    a:::::a     y:::::::::y       
+  G:::::GGGGGGGG::::Ga::::a    a:::::a m::::m   m::::m   m::::me::::::::e           p:::::ppppp:::::::pl::::::la::::a    a:::::a      y:::::::y        
+   GG:::::::::::::::Ga:::::aaaa::::::a m::::m   m::::m   m::::m e::::::::eeeeeeee   p::::::::::::::::p l::::::la:::::aaaa::::::a       y:::::y         
+     GGG::::::GGG:::G a::::::::::aa:::am::::m   m::::m   m::::m  ee:::::::::::::e   p::::::::::::::pp  l::::::l a::::::::::aa:::a     y:::::y          
+        GGGGGG   GGGG  aaaaaaaaaa  aaaammmmmm   mmmmmm   mmmmmm    eeeeeeeeeeeeee   p::::::pppppppp    llllllll  aaaaaaaaaa  aaaa    y:::::y           
+                                                                                    p:::::p                                         y:::::y            
+                                                                                    p:::::p                                        y:::::y             
+                                                                                   p:::::::p                                      y:::::y              
+                                                                                   p:::::::p                                     y:::::y               
+                                                                                   p:::::::p                                    yyyyyyy                
+                                                                                   ppppppppp                                                
+*/
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "The Obvious Stuff",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$RMDOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - New Skills and Skill Visuals (See Animated Previews)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Over a hundred new Unique, Set and Runeword items added",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - New Monsters and Levels (See Monsters/Levels Tab of Menu)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Re-designed UI Theme",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - In-game menu's for mod info, runewords, recipes and more",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Custom Launcher and Vault for extended options",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "",
+                                        "style": "$StyleSettingsTitle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Storage Changes",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$RMDOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": " - All storage locations have been expanded to:",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$OptionsDropDownRect",
+                                        "background/rect": "$OptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ "Stash (16x13)", "Inventory (10x8)",  "Cube (16x13)" ],
+                                        "onUpdateMessage": "OptionsPanelMessage:Close",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "navigation": {
+                                            "down": { "name": "Resolution" }
+                                        },
+                                        "tooltipString": "These are the current size options available for storage",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                        
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Shared Stash Tabs have been increased to 7 tabs",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Compatible with Vault program (Infinite Storage)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "",
+                                        "style": "$StyleSettingsTitle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "General Changes",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$RMDOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Storage Bag sytem for holding gems, runes, keys and organs",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Kill/Death Tracker (also used for exclusive items/recipes)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Color Dyes (change color of any item)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - New characters start with replenishing tomes/keys",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - New characters start with a skill, shield and the cube",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - New sorceresses start with an orb instead of a staff",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - New characters start with 10 additional base stats",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Gambling item pool greatly increased",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "",
+                                        "style": "$StyleSettingsTitle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Mercenary Changes",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$RMDOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - All Mercs have 6 skills",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Each Act receives a unique aura",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Access to all equipment slots",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Advanced stats shown in main panel",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Will use basic attack much less often",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Always within 1 level of your character when hiring",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Experience gain increased by 25%-30%",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Mercenaries no longer have subtypes (excluding act5 merc)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Max resurrect cost is now 5000",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "",
+                                        "style": "$StyleSettingsTitle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Level Changes",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$RMDOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Many multi-level dungeons have been reduced in level count, but increased in size",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - 100 levels added after Baal (Torment Trials)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Cow Level monster density increased",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Blood Moor monster density and champion packs increased",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Underground areas have increased size and more champion packs",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Waypoint added for the Secret Cow Level",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Waypoint added for the Chaos Sanctuary",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "",
+                                        "style": "$StyleSettingsTitle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Monster Changes",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$RMDOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Corpse Explode damage reduced to:",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$OptionsDropDownRect",
+                                        "background/rect": "$OptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ "Normal (50% to 25%)", "Nightmare (35% to 15%)", "Hell (20% to 10%)" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "Corpse Explode damage from enemies reduced",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                }
+                            ]
+                        }, 
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Act Bosses have a higher chance of dropping set items",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Act Bosses will always drop an essence for your first kill",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Countess always drops at least 2 runes",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Countess Nightmare and Hell drop rate increased",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Reduced Serpent Charge damage by 25%",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Reduced Viper Bone Spear damage by 50%",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Reduced Willowisp damage by 50%",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Reduced Burning Dead Archer damage by 50%",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Reduced other ranged skeleton damage by 25%",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "",
+                                        "style": "$StyleSettingsTitle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Stat Changes",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$RMDOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC5T",
+                                    "fields": {
+                                        "text": " - New Stats that increase per base stat invested:",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$OptionsDropDownRect",
+                                        "background/rect": "$OptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ "+Open Wounds per Strength", "+Crushing Blow per Strength", "+Deadly Strike per Strength", "+Deadly Strike per Dexterity", "+Defense per Strength", "+Cast Speed per Energy", "+Pierce% chance per Dexterity", "+Slow% chance per Dexterity" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "Corpse Explode damage from enemies reduced",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        
+                        {
+                            "type": "TableRowWidget", "name": "GC5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC5T",
+                                    "fields": {
+                                        "text": " - Increase Strength/Dexterity/Vitality/Energy by xx%",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC5T",
+                                    "fields": {
+                                        "text": " - Area Damage Effect (Splash)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC5T",
+                                    "fields": {
+                                        "text": " - Attacker takes Fire/Cold/Lightning damage",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC5T",
+                                    "fields": {
+                                        "text": " - Mana/Life gained when hit by enemy",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC5T",
+                                    "fields": {
+                                        "text": " - Mana/Life gained when strike an enemy",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC5T",
+                                    "fields": {
+                                        "text": " - Extra missiles granted for multi-missile skills",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC5T",
+                                    "fields": {
+                                        "text": " - Extra attacks granted for multi-swing skills",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC5T",
+                                    "fields": {
+                                        "text": " - Increase Summon's Attack%",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC5T",
+                                    "fields": {
+                                        "text": " - Increase Summon's Health%",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC5T",
+                                    "fields": {
+                                        "text": " - Increase Summon's Speed%",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC5T",
+                                    "fields": {
+                                        "text": " - Increase Summon Max Count",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC5T",
+                                    "fields": {
+                                        "text": " - Reduce cooldown duration of skills",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC5T",
+                                    "fields": {
+                                        "text": " - Increase curse duration",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC5T",
+                                    "fields": {
+                                        "text": " - Inrease curse radius",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC5T",
+                                    "fields": {
+                                        "text": " - +Magic%/+Poison% Skill Damage",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC5T",
+                                    "fields": {
+                                        "text": " - Enemy Fire/Cold/Lightning/Poison/Physical/Magic immunity reduced by xx%",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "",
+                                        "style": "$StyleSettingsTitle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Difficulty Changes",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$RMDOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC6",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC6T",
+                                    "fields": {
+                                        "text": " - Prime Evil Damage to Mercs changed:",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$OptionsDropDownRect",
+                                        "background/rect": "$OptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ "Normal (50%)", "Nightmare (75%)", "Hell (100%)" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "Mercs will live longer",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC7",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC7T",
+                                    "fields": {
+                                        "text": " - Prime Evil Damage to Pets reduced:",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$OptionsDropDownRect",
+                                        "background/rect": "$OptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ "Normal (50%)", "Nightmare (50%)", "Hell (66%)" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "Pets will live longer",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC8",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC8T",
+                                    "fields": {
+                                        "text": " - Merc Damage vs Prime Evil increased:",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$OptionsDropDownRect",
+                                        "background/rect": "$OptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ "Normal (50% to 100%)", "Nightmare (35% to 75%)", "Hell (25% to 50%)" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "Mercs will do more damage to bosses",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC9",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC9T",
+                                    "fields": {
+                                        "text": " - XP Loss reduced from 5% to 3% and 10% to 5% on nightmare and hell respectively",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "",
+                                        "style": "$StyleSettingsTitle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "UI Changes",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$RMDOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC10",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC10T",
+                                    "fields": {
+                                        "text": " - Darker and more compact theming for all panels",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC10",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC10T",
+                                    "fields": {
+                                        "text": " - Character stats page re-designed for improved readability",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC10",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC10T",
+                                    "fields": {
+                                        "text": " - Advanced Stats integrated into main stats panel",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC10",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC10T",
+                                    "fields": {
+                                        "text": " - Experience Bar now has % indicators",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC10",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC10T",
+                                    "fields": {
+                                        "text": " - Integrated mod menu to show overall mod changes",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC10",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC10T",
+                                    "fields": {
+                                        "text": " - Animated Skill Previews for all class skills",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC10",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC10T",
+                                    "fields": {
+                                        "text": " - Full in-game cube recipe menu",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC10",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC10T",
+                                    "fields": {
+                                        "text": " - Advanced in-game runeword menu with mouseover stats",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC10",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC10T",
+                                    "fields": {
+                                        "text": " - Terror Zone waypoint visuals re-designed",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        /*
+     QQQQQQQQQ                      LLLLLLLLLLL             
+   QQ:::::::::QQ                    L:::::::::L             
+ QQ:::::::::::::QQ                  L:::::::::L             
+Q:::::::QQQ:::::::Q                 LL:::::::LL             
+Q::::::O   Q::::::Q   ooooooooooo     L:::::L               
+Q:::::O     Q:::::Q oo:::::::::::oo   L:::::L               
+Q:::::O     Q:::::Qo:::::::::::::::o  L:::::L               
+Q:::::O     Q:::::Qo:::::ooooo:::::o  L:::::L               
+Q:::::O     Q:::::Qo::::o     o::::o  L:::::L               
+Q:::::O     Q:::::Qo::::o     o::::o  L:::::L               
+Q:::::O  QQQQ:::::Qo::::o     o::::o  L:::::L               
+Q::::::O Q::::::::Qo::::o     o::::o  L:::::L         LLLLLL
+Q:::::::QQ::::::::Qo:::::ooooo:::::oLL:::::::LLLLLLLLL:::::L
+ QQ::::::::::::::Q o:::::::::::::::oL::::::::::::::::::::::L
+   QQ:::::::::::Q   oo:::::::::::oo L::::::::::::::::::::::L
+     QQQQQQQQ::::QQ   ooooooooooo   LLLLLLLLLLLLLLLLLLLLLLLL
+             Q:::::Q                                        
+              QQQQQQ                                        
+*/
+
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "",
+                                        "style": "$StyleSettingsTitle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "QoL",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "QoLT",
+                                    "fields": {
+                                        "text": "Quality of Life",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$RMDOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "QOL4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "QOL4T",
+                                    "fields": {
+                                        "text": " - Players start with cube",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "QOL5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "QOL5T",
+                                    "fields": {
+                                        "text": " - Runes can now be removed from items without being destroyed",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "QOL6",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "QOL6T",
+                                    "fields": {
+                                        "text": " - Arrows/bolt/thrown weapons (not potions) have increased stacks",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "QOL7",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "QOL7T",
+                                    "fields": {
+                                        "text": " - Reduced Cost of all items by 20%",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "QOL8",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "QOL8T",
+                                    "fields": {
+                                        "text": " - Reduced Gambling Cost by 80% ",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "QOL9",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "QOL9T",
+                                    "fields": {
+                                        "text": " - Item level (ilvl) display is now on any item that it matters",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "",
+                                        "style": "$StyleSettingsTitle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Launcher Options",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$RMDOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC10",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC10T",
+                                    "fields": {
+                                        "text": " - One-click mod updates",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC10",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC10T",
+                                    "fields": {
+                                        "text": " - Force map regeneration or enable character respec",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC10",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC10T",
+                                    "fields": {
+                                        "text": " - Change in-game audio or text language",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC10",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC10T",
+                                    "fields": {
+                                        "text": " - Force specific map layouts (Seeding)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC10",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC10T",
+                                    "fields": {
+                                        "text": " - Customize monster density, champ packs, exp rate and nodrop settings ",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC10",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC10T",
+                                    "fields": {
+                                        "text": " - Change in-game font",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC10",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC10T",
+                                    "fields": {
+                                        "text": " - Enable varying levels of item icons (pseudo loot filter)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC10",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC10T",
+                                    "fields": {
+                                        "text": " - Enable varying levels of merc icons (glowing overhead identifier)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC10",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC10T",
+                                    "fields": {
+                                        "text": " - Enable varying levels of monster stats display (hp and resistances)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC10",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC10T",
+                                    "fields": {
+                                        "text": " - Change in-game runeword menu sorting method (name, itemtype, reqlvl)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC10",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC10T",
+                                    "fields": {
+                                        "text": " - Automatically backup characters and shared stash periodically",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC11",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC11T",
+                                    "fields": {
+                                        "text": " - Choose between ReMoDDeD or standard UI theme",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC12",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC12T",
+                                    "fields": {
+                                        "text": " - Choose between merged or standard HUD display",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+
+
+
+/*
+MMMMMMMM               MMMMMMMM                                                             tttt                                                  
+M:::::::M             M:::::::M                                                          ttt:::t                                                  
+M::::::::M           M::::::::M                                                          t:::::t                                                  
+M:::::::::M         M:::::::::M                                                          t:::::t                                                  
+M::::::::::M       M::::::::::M   ooooooooooo   nnnn  nnnnnnnn        ssssssssss   ttttttt:::::ttttttt        eeeeeeeeeeee    rrrrr   rrrrrrrrr   
+M:::::::::::M     M:::::::::::M oo:::::::::::oo n:::nn::::::::nn    ss::::::::::s  t:::::::::::::::::t      ee::::::::::::ee  r::::rrr:::::::::r  
+M:::::::M::::M   M::::M:::::::Mo:::::::::::::::on::::::::::::::nn ss:::::::::::::s t:::::::::::::::::t     e::::::eeeee:::::eer:::::::::::::::::r 
+M::::::M M::::M M::::M M::::::Mo:::::ooooo:::::onn:::::::::::::::ns::::::ssss:::::stttttt:::::::tttttt    e::::::e     e:::::err::::::rrrrr::::::r
+M::::::M  M::::M::::M  M::::::Mo::::o     o::::o  n:::::nnnn:::::n s:::::s  ssssss       t:::::t          e:::::::eeeee::::::e r:::::r     r:::::r
+M::::::M   M:::::::M   M::::::Mo::::o     o::::o  n::::n    n::::n   s::::::s            t:::::t          e:::::::::::::::::e  r:::::r     rrrrrrr
+M::::::M    M:::::M    M::::::Mo::::o     o::::o  n::::n    n::::n      s::::::s         t:::::t          e::::::eeeeeeeeeee   r:::::r            
+M::::::M     MMMMM     M::::::Mo::::o     o::::o  n::::n    n::::nssssss   s:::::s       t:::::t    tttttte:::::::e            r:::::r            
+M::::::M               M::::::Mo:::::ooooo:::::o  n::::n    n::::ns:::::ssss::::::s      t::::::tttt:::::te::::::::e           r:::::r            
+M::::::M               M::::::Mo:::::::::::::::o  n::::n    n::::ns::::::::::::::s       tt::::::::::::::t e::::::::eeeeeeee   r:::::r            
+M::::::M               M::::::M oo:::::::::::oo   n::::n    n::::n s:::::::::::ss          tt:::::::::::tt  ee:::::::::::::e   r:::::r            
+MMMMMMMM               MMMMMMMM   ooooooooooo     nnnnnn    nnnnnn  sssssssssss              ttttttttttt      eeeeeeeeeeeeee   rrrrrrr            
+*/
+
+                        
+
+
+                    ]
+                }
+            ]
+        }
+    ]
+}

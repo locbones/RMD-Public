@@ -1,0 +1,145 @@
+{
+    "dependencies": {
+        "particles": [],
+        "models": [
+            {
+                "path": "data/hd/items/weapon/club/club/club.model"
+            }
+        ],
+        "skeletons": [
+            {
+                "path": "data/hd/items/weapon/club/club/skeleton/club.skeleton"
+            }
+        ],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/items/weapon/club/club/weapon_club_ALB.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/club/club/weapon_club_mask.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/club/club/weapon_club_NRM.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/club/club/weapon_club_ORM.texture"
+            }
+        ],
+        "physics": [],
+        "json": [
+            {
+                "path": "data/hd/items/dropped_items/dropped_items_ne.json"
+            }
+        ],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "club",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 1160331323,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "data/hd/items/dropped_items/dropped_items_ne.json",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                },
+                {
+                    "type": "SkeletonDefinitionComponent",
+                    "name": "component_skeleton",
+                    "filename": "data/hd/items/weapon/club/club/skeleton/club.skeleton"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": -0.130526185,
+                        "z": 0.0,
+                        "w": 0.9914449
+                    },
+                    "scale": {
+                        "x": 0.6,
+                        "y": 0.6,
+                        "z": 0.6
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model",
+            "id": 1436402905,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_club",
+                    "filename": "data/hd/items/weapon/club/club/club.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_vfx_Overheat",
+            "id": 14664236282,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_vfx_wood_sparkle",
+                    "filename": "data/hd/vfx/particles/overlays/sorceress/shiverarmor/fx_ice_shivern_armor.particles",
+                    "hardKillOnDestroy": false
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_wood_sparkle_Def",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": true
+                }
+            ]
+        }
+    ]
+}

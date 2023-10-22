@@ -1,0 +1,250 @@
+{
+    "dependencies": {
+        "particles": [],
+        "models": [
+            {
+                "path": "data/hd/items/weapon/axe/the_minataur/the_minataur.model"
+            }
+        ],
+        "skeletons": [
+            {
+                "path": "data/hd/items/dropped_items/skeleton/dropped_items.skeleton"
+            }
+        ],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/items/weapon/axe/the_minataur/weapon_the_minataur_ALB.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/axe/the_minataur/weapon_the_minataur_mask.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/axe/the_minataur/weapon_the_minataur_NRM.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/axe/the_minataur/weapon_the_minataur_ORM.texture"
+            }
+        ],
+        "physics": [],
+        "json": [
+            {
+                "path": "data/hd/items/dropped_items/dropped_items_nw_left.json"
+            }
+        ],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "the_minataur",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 1406492978,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "data/hd/items/dropped_items/dropped_items_nw_left.json",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                },
+                {
+                    "type": "SkeletonDefinitionComponent",
+                    "name": "component_skeleton",
+                    "filename": "data/hd/items/dropped_items/skeleton/dropped_items.skeleton"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": -0.06104854,
+                        "z": 0.0,
+                        "w": 0.9981348
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "OverrideAttachmentTransformComponent",
+                    "name": "entity_root_OverrideAttachmentTransform",
+                    "playerClassTransforms": {
+                        "4": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Barbarian",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0.42,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.35,
+                                "y": 1.45,
+                                "z": 1.45
+                            }
+                        },
+                        "0": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Amazon",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0.38,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.3,
+                                "y": 1.4,
+                                "z": 1.4
+                            }
+                        },
+                        "6": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Assassin",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0.35,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.25,
+                                "y": 1.35,
+                                "z": 1.35
+                            }
+                        },
+                        "5": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Druid",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0.42,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.35,
+                                "y": 1.45,
+                                "z": 1.45
+                            }
+                        },
+                        "2": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Necromancer",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0.35,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.22,
+                                "y": 1.32,
+                                "z": 1.32
+                            }
+                        },
+                        "3": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Paladin",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0.4,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.35,
+                                "y": 1.45,
+                                "z": 1.45
+                            }
+                        },
+                        "1": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Sorceress",
+                            "translation": {
+                                "x": -0.02,
+                                "y": -0.1,
+                                "z": -0.01
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.15,
+                                "y": 1.25,
+                                "z": 1.25
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model",
+            "id": 904024908,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_the_minataur",
+                    "filename": "data/hd/items/weapon/axe/the_minataur/the_minataur.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        }
+    ]
+}

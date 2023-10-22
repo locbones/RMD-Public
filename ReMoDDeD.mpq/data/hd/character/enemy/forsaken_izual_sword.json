@@ -1,0 +1,210 @@
+{
+    "dependencies": {
+        "particles": [],
+        "models": [
+            {
+                "path": "data/hd/items/weapon/sword/_monsters/izual_sword/izual_sword.model"
+            }
+        ],
+        "skeletons": [],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_wings_sword_ALB.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_wings_sword_NRM.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/izual/textures/izual_wings_sword_ORM.texture"
+            }
+        ],
+        "physics": [],
+        "json": [],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "izual_sword",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "root_entity",
+            "id": 2279685965,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "root_entity_UnitRootComponent",
+                    "state_machine_filename": "",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "model_entity",
+            "id": 3151786757,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "model_entity_ModelDefinitionComponent",
+                    "filename": "data/hd/items/weapon/sword/_monsters/izual_sword/izual_sword.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "vfx_entity",
+            "id": 3159803457,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "vfx_entity_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/character/enemy/ancientbarb1/vfx_ancientbarb1_flamesword.particles",
+                    "hardKillOnDestroy": true
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "component_transform1",
+                    "position": {
+                        "x": 0.0,
+                        "y": 1.0,
+                        "z": -0.4
+                    },
+                    "orientation": {
+                        "x": 0.1,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "vfx_entity",
+            "id": 3159803458,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "vfx_entity_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/character/enemy/ancientbarb1/vfx_ancientbarb1_flamesword.particles",
+                    "hardKillOnDestroy": true
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "component_transform1",
+                    "position": {
+                        "x": 0.0,
+                        "y": 2.5,
+                        "z": -0.4
+                    },
+                    "orientation": {
+                        "x": 0.2,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "vfx_entity",
+            "id": 3159803457,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "vfx_entity_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/character/enemy/ancientbarb1/vfx_ancientbarb1_flamesword.particles",
+                    "hardKillOnDestroy": true
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "component_transform1",
+                    "position": {
+                        "x": 0.0,
+                        "y": 1.0,
+                        "z": -0.6
+                    },
+                    "orientation": {
+                        "x": 0.1,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "vfx_entity",
+            "id": 3159803458,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "vfx_entity_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/character/enemy/ancientbarb1/vfx_ancientbarb1_flamesword.particles",
+                    "hardKillOnDestroy": true
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "component_transform1",
+                    "position": {
+                        "x": 0.0,
+                        "y": 2.5,
+                        "z": -0.6
+                    },
+                    "orientation": {
+                        "x": 0.2,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+            ]
+        }
+    ]
+}

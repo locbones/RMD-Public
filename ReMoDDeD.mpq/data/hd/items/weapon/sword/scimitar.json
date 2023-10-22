@@ -1,0 +1,111 @@
+{
+    "dependencies": {
+        "particles": [],
+        "models": [
+            {
+                "path": "data/hd/items/weapon/sword/scimitar/scimitar.model"
+            }
+        ],
+        "skeletons": [
+            {
+                "path": "data/hd/items/dropped_items/skeleton/dropped_items.skeleton"
+            }
+        ],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/items/weapon/sword/scimitar/weapon_scimitar_ALB.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/sword/scimitar/weapon_scimitar_mask.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/sword/scimitar/weapon_scimitar_NRM.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/sword/scimitar/weapon_scimitar_ORM.texture"
+            }
+        ],
+        "physics": [],
+        "json": [
+            {
+                "path": "data/hd/items/dropped_items/dropped_items_sw_left.json"
+            }
+        ],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "scimitar",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 130883522,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "data/hd/items/dropped_items/dropped_items_sw_left.json",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                },
+                {
+                    "type": "SkeletonDefinitionComponent",
+                    "name": "component_skeleton",
+                    "filename": "data/hd/items/dropped_items/skeleton/dropped_items.skeleton"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": -0.2,
+                        "y": 0.0,
+                        "z": 0.5
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": -0.06975647,
+                        "z": 0.0,
+                        "w": 0.9975641
+                    },
+                    "scale": {
+                        "x": 1.2,
+                        "y": 1.2,
+                        "z": 1.2
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model",
+            "id": 3311377648,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_scimitar",
+                    "filename": "data/hd/items/weapon/sword/scimitar/scimitar.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        }
+    ]
+}

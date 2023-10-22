@@ -1,0 +1,45 @@
+{
+    "dependencies": {
+        "particles": [
+            {
+                "path": "data/hd/vfx/particles/overlays/sorceress/enchant/vfx_enchant.particles"
+            }
+        ],
+        "models": [],
+        "skeletons": [],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/vfx/textures/gradient/T_FX_flame_gradient_07.texture"
+            }
+        ],
+        "physics": [],
+        "json": [],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "OverlayDefinition",
+    "name": "enchant",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 1942950687,
+            "components": []
+        },
+        {
+            "type": "Entity",
+            "name": "vfx",
+            "id": 1254384983,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "vfx_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/manastorm.particles",
+                    "hardKillOnDestroy": false
+                }
+            ]
+        }
+    ]
+}

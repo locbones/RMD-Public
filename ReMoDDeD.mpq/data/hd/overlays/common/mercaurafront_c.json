@@ -1,0 +1,43 @@
+{
+    "dependencies": {
+        "particles": [
+            {
+                "path": "data/hd/vfx/particles/overlays/paladin/fanaticismfront/FX_fanatacism_overlay.particles"
+            }
+        ],
+        "models": [
+            {
+                "path": "data/hd/vfx/meshes/FX_Mesh_Diskmesh_wide_subdiv_Fanaticism.model"
+            }
+        ],
+        "skeletons": [],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/vfx/Library/PopcornFXCore/Materials/DefaultTextures/Distort.texture"
+            }
+        ],
+        "physics": [],
+        "json": [],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "OverlayDefinition",
+    "name": "fanaticismfront",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 540063365,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_root_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/mercauraC.particles",
+                    "hardKillOnDestroy": true
+                }
+            ]
+        }
+    ]
+}

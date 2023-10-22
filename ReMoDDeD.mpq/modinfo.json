@@ -1,0 +1,28 @@
+{
+    "name": "ReMoDDeD",
+    "savepath": "ReMoDDeD/"
+
+/*
+--My Mod Details--
+Mod Download: https://dl.dropboxusercontent.com/s/d0wsmz83ce177aj/ReMoDDeD_Beta.zip?dl=0
+Mod Config Download: https://drive.google.com/uc?export=download&id=1ov-G4tTf0krOMvV__AdEtcXAsM_6oN52
+Mod Version: 0.9.9.4HF
+News 1 Title: "ReMoDDeD Beta Update Released! (0.9.9.4HF)"
+News 1 Message: "A lot of time and effort was put into this update and I think you guys will really enjoy it. You can expect several new mechanics/features, along with dozens of improvements, suggestions, and bug fixes in varying areas. I definitely recommend checking out our demo videos and changelogs for more info on all these changes. I hope my passion for the project continues to provide a D2R experience like none other for you guys. Enjoy!"
+News 2 Title: "D2RLaunch Replacement"
+News 2 Message: "D2RLaunch will be the new method for customizing and starting our mod. It has all the same features as before, but now is available to all mods and players. Please be patient as bugs are ironed out, and as always thanks for your support and patience as things are improved."
+
+--General Options--
+Map Layouts: Enabled
+UI Themes: Enabled
+Customizations: Disabled
+Vault Access: Enabled
+
+--Additional Options--
+Item Icons: Enabled
+Runeword Sorting: Enabled
+HUD Display: Enabled
+Monster Stats Display: Enabled
+*/
+
+}

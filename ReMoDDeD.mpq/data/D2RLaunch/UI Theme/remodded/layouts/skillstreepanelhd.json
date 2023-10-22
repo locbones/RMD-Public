@@ -1,0 +1,247 @@
+{
+    "type": "SkillsTreePanel", "name": "SkillsTreePanel",
+    "fields": {
+        "rect": "$RightPanelRectS",
+        "anchor": "$RightPanelAnchor",
+        "skillRow": [ 146, 333, 518, 704, 999, 1299 ], //Rows 5 and 6 not used
+        "skillColumn": [ 239, 526, 811 ],
+        "hoverButtonTint": { "r": 1.5, "g": 1.447, "b": 1.335, "a": 1.5 },
+        "grantedColor": { "r": 102, "g": 102, "b": 255 },
+        "activeTabFontColor": "$TabsActiveTextColorInGame",
+        "inactiveTabFontColor": "$TabsInactiveTextColor",
+        "skillChoicesRemainingActiveFontColor": "$FontColorRed",
+        "skillChoicesRemainingInactiveFontColor": "$TabsInactiveTextColor",
+        // Amazon, Sorceress, Necromancer, Palladin, Barbarian, Druid, Assassin
+        "skillButtonFile": [
+             "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Amazon_SK",
+             "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Sorceress_SK",
+             "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Necromancer_SK",
+             "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Paladin_SK",
+             "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Barbarian_SK",
+             "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Druid_SK",
+             "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Assassin_SK"
+        ],
+        "skillBackgroundFile": [
+            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Generic",
+            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Generic",
+            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Generic",
+            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Generic",
+            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Generic",
+            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Generic",
+            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Generic"
+        ],
+        "textTab0": [
+            "@SkillCategoryAm1",
+            "@SkillCategorySo1",
+            "@SkillCategoryNe1",
+            "@SkillCategoryPa1",
+            "@SkillCategoryBa1",
+            "@SkillCategoryDr1",
+            "@SkillCategoryAs1"
+        ],
+        "textTab1": [
+            "@SkillCategoryAm2",
+            "@SkillCategorySo2",
+            "@SkillCategoryNe2",
+            "@SkillCategoryPa2",
+            "@SkillCategoryBa2",
+            "@SkillCategoryDr2",
+            "@SkillCategoryAs2"
+        ],
+        "textTab2": [
+            "@SkillCategoryAm3",
+            "@SkillCategorySo3",
+            "@SkillCategoryNe3",
+            "@SkillCategoryPa3",
+            "@SkillCategoryBa3",
+            "@SkillCategoryDr3",
+            "@SkillCategoryAs3"
+        ],
+        "cancelPositionX": [ 1075, 1075, 1075 ],
+        "cancelPositionCode": [ 0, 0, 0, 0, 0, 0, 0 ],
+        "focusIndicatorFilename": "Controller/HoverImages/SkillIcon_Hover",
+        "focusIndicatorOffset": { "x": 0, "y": 0 },
+        "focusIndicatorPadding": { "left": 0, "top": 0, "right": 0, "bottom": 0 }
+    },
+
+    "children": [
+        {
+            "type": "ClickCatcherWidget", "name": "ClickCatcher",
+            "fields": {
+                "rect": "$PanelClickCatcherRectS"
+            }
+        },
+        {
+             "type": "ImageWidget", "name": "MainBackground",
+             "fields": {
+                 "filename": "Blank"
+             }
+        },
+        {
+             "type": "ImageWidget", "name": "TreeBackground",
+             "fields": {
+                 "filename": "..\\..\\..\\ReMoDDeD\\SkillPanel\\SkillPanel",
+                 "rect": { "x": 167, "y": 0 }
+             }
+        },
+                {
+                    "type": "ImageWidget", "name": "RightHinge",
+                    "fields": {
+                        "rect": "$RightHingeRect",
+                        "filename": "$RightHingeSprite"
+                    }
+                },
+        {
+            "type": "TabWidget", "name": "Tab0",
+            "fields": {
+                "activationRect": { "x": 183, "y": 5, "width": 294, "height": 99 },
+                "onClickMessage": "SkillsTreePanelMessage:ActivateTab:0"
+            },
+            "children": [
+                {
+                    "type": "ImageWidget", "name": "Background",
+                    "fields": {
+                        "frame": 0,
+                        "rect": { "x": 188, "y": 15 }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "TabWidget", "name": "Tab1",
+            "fields": {
+                "activationRect": { "x": 481, "y": 5, "width": 294, "height": 99 },
+                "onClickMessage": "SkillsTreePanelMessage:ActivateTab:1"
+            },
+            "children": [
+                {
+                    "type": "ImageWidget", "name": "Background",
+                    "fields": {
+                        "frame": 1,
+                        "rect": { "x": 188, "y": 15 }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "TabWidget", "name": "Tab2",
+            "fields": {
+                "activationRect": { "x": 777, "y": 5, "width": 294, "height": 99 },
+                "onClickMessage": "SkillsTreePanelMessage:ActivateTab:2"
+            },
+            "children": [
+                {
+                    "type": "ImageWidget", "name": "Background",
+                    "fields": {
+                        "frame": 2,
+                        "rect": { "x": 188, "y": 15 }
+                    }
+                }
+            ]
+        },
+        /*{
+            "type": "TextBoxWidget", "name": "Title",
+            "fields": {
+                "rect": "$InGamePanelTitleRect",
+                "style": "$StyleTitleBlock",
+                "text": "@strpanel8",
+            },
+        },
+        */
+
+        {
+            "type": "ButtonWidget", "name": "Respec",
+            "fields": {
+                //"menu": "party",
+                "filename": "..\\..\\..\\ReMoDDeD\\SkillPanel\\Respec",
+                "onClickMessage": "SkillsTreePanelMessage:UnassignSkills",
+                "tooltipString": "(Respec Character)",
+                "hoveredFrame": 2,
+                "tooltipOffset": { "y": 30 },
+                "rect": { "x": 311, "y": 903, "scale": 0.90}
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "SkillCounter",
+            "fields": {
+                "rect": { "x": 378, "y": 913, "width": 607, "height": 60 },
+                "style": {
+                    "pointSize": "$XMediumPanelFontSize",
+                    "alignment": { "h": "center" }
+                }
+            },
+            "children": [
+                {
+                    "type": "FocusableWidget", "name": "Tooltip",
+                    "fields": {
+                        "fitToParent": true,
+                        "tooltipString": "@SkillTreeTooltipSkillChoicesRemaining",
+                        "tooltipStyle": "$TooltipStyle",
+                        "tooltipStyle": {
+                            "fontStyle": {
+                                "options": { "newlineHandling": "standard" }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "TextBoxWidget", "name": "CounterTemplate",
+            "fields": {
+                "rect": { "x": 151, "y": 78, "width": 52, "height": 52 },
+                "style": {
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": { "h": "center", "v": "center" },
+                    "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 }
+                }
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Cancel",
+            "fields": {
+                "rect": { "x": 1075, "y": 9 },
+                "filename": "Blank",
+                "hoveredFrame": 3,
+                "tooltipString": "@strClose",
+                "sound": "cursor_close_window_hd",
+                "onClickMessage": "SkillsTreePanelMessage:Close"
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "TextTab0",
+            "fields": {
+                "rect": { "x": 206, "y": 12, "width": 260, "height": 76 },
+                "style": "$StyleSkillTreeTabs"
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "TextTab1",
+            "fields": {
+                "rect": { "x": 502, "y": 12, "width": 260, "height": 76 },
+                "style": "$StyleSkillTreeTabs"
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "TextTab2",
+            "fields": {
+                "rect": { "x": 801, "y": 12, "width": 260, "height": 76 },
+                "style": "$StyleSkillTreeTabs"
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "SP",
+            "fields": {
+                "rect": { "x": 520, "y": 713 },
+                "filename": "..\\..\\..\\ReMoDDeD\\SkillPanel\\SPBtn",
+                "hoveredFrame": 2,
+                "textString": "",
+                "pointSize": "$XMediumFontSize",
+                "textColor": "$FontColorBonesyRed",
+                "tooltipString": "Preview Skill Animations in a new panel",
+                "sound": "cursor_close_window_hd",
+                "onClickMessage": "PanelManager:OpenPanel:SkillPreviewPanel"
+            }
+        }
+    ]
+}

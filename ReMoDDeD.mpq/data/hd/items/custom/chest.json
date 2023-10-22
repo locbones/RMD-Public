@@ -1,0 +1,155 @@
+{
+    "dependencies": {
+        "particles": [],
+        "models": [
+            {
+                "path": "data/hd/objects/chests/bank/model/torso.model"
+            }
+        ],
+        "skeletons": [
+            {
+                "path": "data/hd/objects/chests/bank/skeleton/bank.skeleton"
+            }
+        ],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/objects/chests/bank/texture/chest_bank_ALB.texture"
+            },
+            {
+                "path": "data/hd/objects/chests/bank/texture/chest_bank_NRM.texture"
+            },
+            {
+                "path": "data/hd/objects/chests/bank/texture/chest_bank_ORM.texture"
+            }
+        ],
+        "physics": [],
+        "json": [],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "bank",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 668709650,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "data/hd/items/dropped_items/dropped_items_helms_flip_vert.json",
+                    "doNotInheritRotation": true,
+                    "rotationOverride": {
+                        "x": 0.3,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                },
+                {
+                    "type": "SkeletonDefinitionComponent",
+                    "name": "component_skeleton",
+                    "filename": "data/hd/items/dropped_items/skeleton/dropped_items_armor_chest.skeleton"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "component_transform1",
+                    "position": {
+                        "x": 0.0,
+                        "y": 1.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 0.65,
+                        "y": 0.65,
+                        "z": 0.65
+                    },
+                    "inheritOnlyPosition": false
+                },
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_torso",
+            "id": 1201022111,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "component_part_torso",
+                    "part": "torso",
+                    "variant": "lit"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_torso",
+                    "filename": "data/hd/objects/chests/bank/model/torso.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "ModelPlatformTierComponent",
+                    "name": "entity_torso_ModelPlatformTier",
+                    "visibilityTier": -1,
+                    "shadowTier": 0
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_vfx1",
+            "id": 1897187717,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "component_vfx1",
+                    "filename": "data/hd/vfx/particles/lightbeam.particles",
+                    "hardKillOnDestroy": false
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "component_transform1",
+                    "position": {
+                        "x": 0.0,
+                        "y": 5.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "TrackReleasePointDefinitionComponent",
+                    "name": "entity_vfx1_TrackReleasePointDefinition",
+                    "transitionTime": 0.5
+                }
+            ]
+        },
+    ]
+}

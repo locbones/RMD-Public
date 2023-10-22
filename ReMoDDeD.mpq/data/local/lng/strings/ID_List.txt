@@ -1,0 +1,25 @@
+Every JSON is assigned a range of 10,000 ID's that can be used.
+Every JSON also has a 10,000 ID gap if somehow it is needed.
+
+bnet (45-46)
+commands (46-47)
+item-gems (47-48)
+item-modifiers (48-49)
+item-nameaffixes (49-50)
+item-names (50-51)
+item-runes (51-52)
+keybinds (52-53)
+levels (53-54)
+mercenaries (54-55)
+monsters (55-56)
+npcs (56-57)
+objects (57-58)
+presence-states (58-59)
+quests (59-60)
+shrines (60-61)
+skills (61-62)
+ui-controller (62-63)
+ui (63-64)
+vo (64-65)
+
+DON'T USE 65k+ (Specifically 65535, but we will stop at 65k)

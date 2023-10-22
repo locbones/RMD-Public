@@ -1,0 +1,274 @@
+{
+    "dependencies": {
+        "particles": [
+            {
+                "path": "data/hd/vfx/particles/missiles/flamethrower/vfx_flamethrower.particles"
+            },
+            {
+                "path": "data/hd/vfx/particles/missiles/flamethrower/vfx_flamethrower_ImpInf.particles"
+            }
+        ],
+        "models": [
+            {
+                "path": "data/hd/vfx/meshes/missiles/ground_fire_big/fx_mesh_groundFireCylinder.model"
+            }
+        ],
+        "skeletons": [],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/vfx/textures/gradient/T_FX_linearGradient_SharFallOff_invert.texture"
+            },
+            {
+                "path": "data/hd/vfx/textures/mask/T_FX_thornMask_Glow_01.texture"
+            }
+        ],
+        "physics": [],
+        "json": [],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "flamethrower",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 2670981132,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_vfx_fetishflamethrower",
+            "id": 1191449947,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_fetishflamethrower_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/missiles/flamethrower/vfx_flamethrower.particles",
+                    "hardKillOnDestroy": false
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_fetishflamethrower_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 4.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "UnitSourceSkillFilterComponent",
+                    "name": "entity_fetishflamethrower_UnitSourceSkillFilter",
+                    "sourceSkill": "FetishInferno"
+                },
+                {
+                    "type": "TrackReleasePointDefinitionComponent",
+                    "name": "entity_fetishflamethrower_TrackReleasePointDefinition",
+                    "transitionTime": 0.4
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_vfx",
+            "id": 3526239685,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "component_vfx1",
+                    "filename": "data/hd/vfx/particles/missiles/flamethrower/vfx_flamethrower.particles",
+                    "hardKillOnDestroy": false
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "component_transform1",
+                    "position": {
+                        "x": 0.0,
+                        "y": 4.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "TrackReleasePointDefinitionComponent",
+                    "name": "entity_vfx1_TrackReleasePointDefinition",
+                    "transitionTime": 0.5
+                },
+                {
+                    "type": "UnitSourceSkillFilterComponent",
+                    "name": "entity_vfx1_UnitSourceSkillFilter",
+                    "sourceSkill": ""
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_vfx_mon_infernoSentry",
+            "id": 4000797739,
+            "components": [
+                {
+                    "type": "UnitSourceSkillFilterComponent",
+                    "name": "entity_mon_infernoSentry_vfx_UnitSourceSkillFilter",
+                    "sourceSkill": "mon inferno sentry"
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_mon_infernoSentry_vfx_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/missiles/flamethrower/vfx_flamethrower.particles",
+                    "hardKillOnDestroy": false
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_mon_infernoSentry_vfx_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 5.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "TrackReleasePointDefinitionComponent",
+                    "name": "entity_mon_infernoSentry_vfx_TrackReleasePointDefinition",
+                    "transitionTime": 0.5
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_vfx_megademon",
+            "id": 4202983533,
+            "components": [
+                {
+                    "type": "UnitSourceSkillFilterComponent",
+                    "name": "entity_vfx_megademon_UnitSourceSkillFilter",
+                    "sourceSkill": "MegademonInferno"
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_vfx_megademon_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/missiles/flamethrower/vfx_flamethrower.particles",
+                    "hardKillOnDestroy": false
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_megademon_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 4.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "TrackReleasePointDefinitionComponent",
+                    "name": "entity_vfx_megademon_TrackReleasePointDefinition",
+                    "transitionTime": 1.0
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_vfx_imp_inferno",
+            "id": 4217733563,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_imp_inferno_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 3.5,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "UnitSourceSkillFilterComponent",
+                    "name": "entity_vfx_imp_inferno_UnitSourceSkillFilter",
+                    "sourceSkill": "Imp Inferno"
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_vfx_imp_inferno_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/missiles/flamethrower/vfx_flamethrower_ImpInf.particles",
+                    "hardKillOnDestroy": false
+                }
+            ]
+        }
+    ]
+}

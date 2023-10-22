@@ -1,0 +1,80 @@
+{
+    "basedOn": "AdvancedStatsPanelHD.json",
+    "type": "AdvancedStatsPanel", "name": "AdvancedStatsPanel",
+    "fields": {
+        "rect": "$AdvancedStatsPanelRect",
+        "defaultWidget": "ScrollBar"
+    },
+    "children": [
+        {
+            "type": "ImageWidget", "name": "Background",
+            "fields": {
+                "rect": { "x": 120, "y": 445 },
+                "filename": "..\\..\\..\\ReMoDDeD\\AdvText"
+            }
+        },
+        {
+            "type": "ClickCatcherWidget", "name": "ClickCatcher",
+            "fields": {
+                "rect": {"width": 875, "height": 1500}
+            }
+        },
+        {
+            "type": "ImageWidget", "name": "ScrollBackground",
+            "fields": {
+                "rect": {"x": 1158, "y": 447},
+                "filename": "Blank"
+            }
+        },
+        {
+            "type": "ScrollControllerWidget", "name": "ScrollBar",
+            "fields": { 
+                "rect": { "x": 1177, "y": 442, "width": 36, "height": 704 },
+                "upArrowFilepath": "",
+                "downArrowFilepath": "",
+                "barFilepath": "..\\..\\..\\ReMoDDeD\\SkullScroll",
+                "viewName": "ListContainer",
+                "buttonScrollAmount": 90,
+                "focusIndicatorVisible": false
+            }
+        },
+        {
+            "type": "ListWidget", "name": "ListContainer",
+            "fields": {
+                "rect": { "x": 198, "y": 432, "width": 976, "height": 740},
+                "direction": "vertical",
+                "scrollControllerName": "ScrollBar"
+            },
+            "children": [
+                {
+                    "type": "ListItemWidget", "name": "OptionTemplate",
+                    "fields": {
+                        "rect": { "x": 0, "y": 10, "width": 976, "height": 60 }
+                    },
+                    "children": [
+                        {
+                            "type": "NineTileImageWidget", "name": "TextContainer",
+                            "fields": {
+                                "rect": { "x": 5, "y": 0, "width": 976, "height": 0 },
+                                "filename": "Blank",
+                                "tileScale": 1.0
+                            }
+                        },
+                        {
+                          "type": "TextBoxWidget", "name": "StatText",
+                            "fields": {
+                                "rect": { "x": 20, "y": 0, "width": 916, "height": 48 },
+                                "style": {
+                                    "fontColor": "$FontColorGold",
+                                    "pointSize": "$MediumFontSize",
+                                    "alignment": { "h": "center", "v": "center" },
+                                    "options": { "lineWrap": true }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

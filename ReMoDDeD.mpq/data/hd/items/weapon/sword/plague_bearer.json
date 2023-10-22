@@ -1,0 +1,111 @@
+{
+    "dependencies": {
+        "particles": [],
+        "models": [
+            {
+                "path": "data/hd/items/weapon/sword/plague_bearer/plague_bearer.model"
+            }
+        ],
+        "skeletons": [
+            {
+                "path": "data/hd/items/weapon/sword/plague_bearer/skeleton/plague_bearer.skeleton"
+            }
+        ],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/items/weapon/sword/plague_bearer/weapon_plague_bearer_ALB.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/sword/plague_bearer/weapon_plague_bearer_mask.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/sword/plague_bearer/weapon_plague_bearer_NRM.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/sword/plague_bearer/weapon_plague_bearer_ORM.texture"
+            }
+        ],
+        "physics": [],
+        "json": [
+            {
+                "path": "data/hd/items/dropped_items/dropped_items_nw.json"
+            }
+        ],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "plague_bearer",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 3876695350,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "data/hd/items/dropped_items/dropped_items_nw.json",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                },
+                {
+                    "type": "SkeletonDefinitionComponent",
+                    "name": "component_skeleton",
+                    "filename": "data/hd/items/weapon/sword/plague_bearer/skeleton/plague_bearer.skeleton"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.130526185,
+                        "z": 0.0,
+                        "w": 0.9914449
+                    },
+                    "scale": {
+                        "x": 1.2,
+                        "y": 1.2,
+                        "z": 1.2
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model",
+            "id": 3311377648,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_plague_bearer",
+                    "filename": "data/hd/items/weapon/sword/plague_bearer/plague_bearer.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        }
+    ]
+}

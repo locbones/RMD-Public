@@ -1,0 +1,250 @@
+{
+    "dependencies": {
+        "particles": [],
+        "models": [
+            {
+                "path": "data/hd/items/weapon/hammer/the_gavel_of_pain/the_gavel_of_pain.model"
+            }
+        ],
+        "skeletons": [
+            {
+                "path": "data/hd/items/weapon/hammer/the_gavel_of_pain/skeleton/the_gavel_of_pain.skeleton"
+            }
+        ],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/items/weapon/hammer/the_gavel_of_pain/weapon_gavel_of_pain_mask.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/hammer/the_gavel_of_pain/weapon_the_gavel_of_pain_ALB.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/hammer/the_gavel_of_pain/weapon_the_gavel_of_pain_NRM.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/hammer/the_gavel_of_pain/weapon_the_gavel_of_pain_ORM.texture"
+            }
+        ],
+        "physics": [],
+        "json": [
+            {
+                "path": "data/hd/items/dropped_items/dropped_items_ne.json"
+            }
+        ],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "the_gavel_of_pain",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 771061368,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "data/hd/items/dropped_items/dropped_items_ne.json",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                },
+                {
+                    "type": "SkeletonDefinitionComponent",
+                    "name": "component_skeleton",
+                    "filename": "data/hd/items/weapon/hammer/the_gavel_of_pain/skeleton/the_gavel_of_pain.skeleton"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": 0.25,
+                        "y": 0.0,
+                        "z": 0.893
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.1650476,
+                        "z": 0.0,
+                        "w": 0.9862856
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "OverrideAttachmentTransformComponent",
+                    "name": "entity_root_OverrideAttachmentTransform",
+                    "playerClassTransforms": {
+                        "3": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Paladin",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0.55,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.4,
+                                "y": 1.45,
+                                "z": 1.45
+                            }
+                        },
+                        "0": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Amazon",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0.2,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.35,
+                                "y": 1.4,
+                                "z": 1.4
+                            }
+                        },
+                        "6": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Assassin",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0.2,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.3,
+                                "y": 1.35,
+                                "z": 1.35
+                            }
+                        },
+                        "4": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Barbarian",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 1.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.35,
+                                "y": 1.4,
+                                "z": 1.4
+                            }
+                        },
+                        "5": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Druid",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0.9,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.4,
+                                "y": 1.45,
+                                "z": 1.45
+                            }
+                        },
+                        "2": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Necromancer",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0.2,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.27,
+                                "y": 1.32,
+                                "z": 1.32
+                            }
+                        },
+                        "1": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Sorceress",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.2,
+                                "y": 1.25,
+                                "z": 1.25
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model",
+            "id": 2291792273,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_the_gavel_of_pain",
+                    "filename": "data/hd/items/weapon/hammer/the_gavel_of_pain/the_gavel_of_pain.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,151 @@
+{
+    "type": "VideoOptionsPanel", "name": "SkillPreviewAssasinPanel",
+    "fields": {
+        "priority": 9003,
+        "rect": "$OptionsPanelRect",
+        "anchor": { "x": 0.5 },
+        "applySettingsImmediately": true
+    },
+    "children": [
+        {
+            "type": "ImageWidget", "name": "ScrollBarBackground",
+            "fields": {
+                "rect": "$OptionsScrollBarBackgroundRect",
+                "anchor": { "x": 1.0 },
+                "filename": "PauseMenu\\VerticalScroll"
+            },
+            "children": [
+                {
+                    "type": "ScrollControllerWidget", "name": "ScrollController",
+                    "fields": {
+                        "rect": "$OptionsScrollBarRect",
+                        "anchor": { "x": 1.0 },
+                        "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+                        "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+                        "barFilepath": "PauseMenu\\VerticalIndicator",
+                        "viewName": "ScrollView",
+                        "wheelScrollSound": "cursor_scroll_hd",
+                        "buttonScrollSound": "cursor_scroll_hd"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "ScrollViewWidget", "name": "ScrollView",
+            "fields": {
+                "fitToParent": true,
+                "scrollControllerName": "ScrollController"
+            },
+            "children": [
+                {
+                    "type": "TableWidget", "name": "OptionsTable",
+                    "fields": {
+                        "columns": [ "$OptionsTableColumn1", "$OptionsTableColumn2" ],
+                        "rowHeight": "$SkillPOptionsTableRowHeight"
+                    },
+                    "children": [
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Coming soon....",
+                                        "style": "$StyleSettingsTitleSkill"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "",
+                                        "style": "$StyleSettingsTextSkillC",
+                                        "rect": { "y": 10 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP1",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill1",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Placeholder",
+                                        "rect": { "x": 160, "y": 40 },
+                                        "fps": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Skill Type:",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y": -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat2T",
+                                    "fields": {
+                                        "text": "Damage Type:",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat3T",
+                                    "fields": {
+                                        "text": "Max Skill Level:",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat4T",
+                                    "fields": {
+                                        "text": "Synergies:",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": 500, "y":  -25 }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
