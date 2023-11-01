@@ -4195,6 +4195,8 @@
           "1ht_attack2"
         ],
         "stf": [
+          "stf_attack2",
+          "stf_attack1"
         ],
         "2hs": [
         ],
@@ -5112,8 +5114,11 @@
           "1ht_attack2"
         ],
         "stf": [
+          "stf_attack1",
+          "stf_attack1"
         ],
         "2hs": [
+          
         ],
         "2ht": [
           "2ht_attack1",

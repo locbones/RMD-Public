@@ -642,6 +642,8 @@
   { "r31": { "asset": "rune/jah_rune" } },
   { "r32": { "asset": "rune/cham_rune" } },
   { "r33": { "asset": "rune/zod_rune" } },
+  { "r34": { "asset": "rune/di_rune" } },
+  { "r35": { "asset": "rune/ab_rune" } },
   { "jew": { "asset": "gem/perfect_diamond" } },
   { "ice": { "asset": "quest/scroll_of_self_resurrect" } },
   { "0sc": { "asset": "scroll/identify_scroll" } },

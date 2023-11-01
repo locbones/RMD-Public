@@ -164,7 +164,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Storage Bag + Twisted Essence of Suffering = 25% chance of 5-10 Gems",
+                                        "text": "Storage Bag + Twisted Essence of Suffering = 50% chance of 5-10 Gems",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -176,7 +176,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Storage Bag + Charged Essense of Hatred = 25% chance of 1-3 High Rune Points",
+                                        "text": "Storage Bag + Charged Essense of Hatred = 50% chance of 1-3 High Rune Points",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -188,7 +188,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Storage Bag + Burning Essence of Terror = 25% chance of 1-3 Set Cores",
+                                        "text": "Storage Bag + Burning Essence of Terror = 50% chance of 1-3 Set Cores",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -200,7 +200,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Storage Bag + Festering Essence of Destruction = 25% chance of 1-3 Unique Cores",
+                                        "text": "Storage Bag + Festering Essence of Destruction = 50% chance of 1-3 Unique Cores",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -371,18 +371,6 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Enhance Crystal Remover + Enhanced Item = Remove shown enhancement stat",
-                                        "style": "$RecipeSettingsText"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "GC2",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC2T",
-                                    "fields": {
                                         "text": "Enhancements do not apply to Jewelry or Normal/Runeword Quality Items",
                                         "style": "$RecipeSettingsTextFlatBlue"
                                     }
@@ -533,7 +521,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Unique Item + 3x Rare Jewels = Re-Rolled Unique",
+                                        "text": "Storage Bag (3 Jewels) + Unique Item + Identify Scroll = Re-Rolled Unique",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }

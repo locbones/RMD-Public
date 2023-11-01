@@ -778,5 +778,15 @@
   "normal": "ring/ring",
   "uber": "ring/ring",
   "ultra": "ring/ring"
+} },
+{ "kreigurs_will": {
+  "normal": "..//custom//k_will",
+  "uber": "..//custom//k_will",
+  "ultra": "..//custom//k_will"
+} },
+{ "kreigurs_judgement": {
+  "normal": "..//custom//k_judgement",
+  "uber": "..//custom//k_judgement",
+  "ultra": "..//custom//k_judgement"
 } }
 ]

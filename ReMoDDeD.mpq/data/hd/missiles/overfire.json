@@ -52,7 +52,7 @@
                     "type": "VfxDefinitionComponent",
                     "name": "component_vfx1",
                     "filename": "data/hd/vfx/personal/rbakewell/vfx_firelicks.particles",
-                    "hardKillOnDestroy": false
+                    "hardKillOnDestroy":true
                 },
                 {
                     "type": "TransformDefinitionComponent",

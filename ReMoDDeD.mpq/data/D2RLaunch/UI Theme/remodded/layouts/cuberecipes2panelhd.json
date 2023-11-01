@@ -173,19 +173,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
-                                        "text": "3 Super Healing + 3 Super Mana + Storage Bag(1 Gem) = Full Rejuvenation",
-                                        "style": "$RecipeSettingsText"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "GC2",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC2T",
-                                    "fields": {
-                                        "text": "3 Greater Healing + 3 Greater Mana  + Storage Bag(1 Gem) = Rejuvenation",
+                                        "text": "Storage Bag(1 Gem) + 3 Healing Potions + 3 Mana Potions = Full Rejuvenation Potion",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -204,12 +192,24 @@
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "GC2",
+                            "type": "TableRowWidget", "name": "GC1",
                             "children": [
                                 {
-                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
-                                        "text": "Strangling Gas + Healing Potion (Any) = Antidote",
+                                        "text": "Storage Bag + 1-100 Full Rejuvenation Potions = +1-100 Full Rejuv's Deposited",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "Storage Bag(1 Full Rejuv) + Healing/Mana Potion = 1 Full Rejuvenation Potion Withdrawn",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }

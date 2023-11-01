@@ -3459,9 +3459,9 @@
   },
   {
     "darkfear": {
-      "normal": "..//custom//storagebag",
-      "uber": "..//custom//storagebag",
-      "ultra": "..//custom//storagebag"
+      "normal": "helmet/fanged_helm",
+      "uber": "helmet/fanged_helm",
+      "ultra": "helmet/fanged_helm"
     }
   },
   {
@@ -3487,9 +3487,9 @@
   },
   {
     "sigurds_staunch": {
-      "normal": "..//custom//storagebag",
-      "uber": "..//custom//storagebag",
-      "ultra": "..//custom//storagebag"
+      "normal": "shield/targe",
+      "uber": "shield/targe",
+      "ultra": "shield/targe"
     }
   },
   {
@@ -3535,10 +3535,10 @@
     }
   },
   {
-    "ukp": {
-      "normal": "..//custom//storagebag",
-      "uber": "..//custom//storagebag",
-      "ultra": "..//custom//storagebag"
+    "tarnhelms_revenge": {
+      "normal": "helmet/skull_cap",
+      "uber": "helmet/skull_cap",
+      "ultra": "helmet/skull_cap"
     }
   },
   {
@@ -4005,6 +4005,13 @@
       "normal": "..//custom//spiritarmor_alt",
       "uber": "..//custom//spiritarmor_alt",
       "ultra": "..//custom//spiritarmor_alt"
+    }
+  },
+  {
+    "onikuma": {
+      "normal": "voodoo_head/preserved_head",
+      "uber": "voodoo_head/preserved_head",
+      "ultra": "voodoo_head/preserved_head"
     }
   }
 ]

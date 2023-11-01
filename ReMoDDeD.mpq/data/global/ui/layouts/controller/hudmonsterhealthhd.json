@@ -12,8 +12,8 @@
                 {
                     "type": "TextBoxWidget", "name": "Name",
                     "fields": {
+                        "rect": { "y": -45 },
                         "style": {
-                            "rect": { "y": -150 },
                             "pointSize": "$MediumFontSize",
                             "alignment": { "h": "center" },
                             "options": { "pipeCharacterBehavior": "handle" }
@@ -23,7 +23,7 @@
                 {
                     "type": "TextBoxWidget", "name": "Unique",
                     "fields": {
-                        "rect": { "y": 80 },
+                        "rect": { "y": 0 },
                         "style": {
                             "pointSize": "$SmallFontSize",
                             "alignment": { "h": "center" },
@@ -34,7 +34,7 @@
                 {
                     "type": "TextBoxWidget", "name": "Additional",
                     "fields": {
-                        "rect": { "y": 150 },
+                        "rect": { "y": 100 },
                         "style": {
                             "pointSize": "$SmallFontSize",
                             "alignment": { "h": "center" },
@@ -105,19 +105,6 @@
                                 }
                             }
                         },
-                        {
-                            "type": "ImageWidget", "name": "Pentagram",
-                            "fields": {
-                                "rect": { "x": -275, "y": 28 },
-                                "anchor": { "x": 0.5, "y": 0.5 },
-                                "filename": "..\\..\\..\\..\\ReMoDDeD\\HB_A",
-                                "style": {
-                                    "pointSize": "$LargeFontSize",
-                                    "alignment": { "h": "center", "v": "center" },
-                                    "options": { "pipeCharacterBehavior": "handle" }
-                                }
-                            }
-                        }
                     ]
                 },
             ]

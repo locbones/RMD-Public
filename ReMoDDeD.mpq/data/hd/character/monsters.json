@@ -335,6 +335,7 @@
   "valkyrie": "valkyrie",
   "act2guard3": "act2guard3",
   "act3hire": "act3hire",
+  "act3hirenpc": "act3hirenpc",
   "megademon1": "megademon1",
   "megademon2": "megademon1",
   "megademon3": "megademon1",
@@ -900,5 +901,6 @@
   "summondrake": "lightningsentry",
   "gleamapprentice": "gleam_apprentice",
   "updraft":"invisopet",
-  "darksummon":"darksummon"
+  "darksummon":"darksummon",
+  "minidiablo":"minidiablo"
 }
