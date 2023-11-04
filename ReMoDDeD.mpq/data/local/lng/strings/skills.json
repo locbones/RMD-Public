@@ -49830,7 +49830,7 @@
     "id": 61830,
     "Key": "StrMastImmunityBreakCloak",
 	"deDE": "ÿc5(Dauerhaft, solange die Meisterschaft erhalten bleibt)\nÿc0Alle Immunitäten des Feindes um %d%% verringert",
-	"enUS": "ÿc5(Permanent as long as mastery is maintained)\nÿc0All enemy immunities reduced by %d%%",
+	"enUS": "ÿc0All enemy immunities reduced by another %d%% (Active)\nÿc5(Permanent as long as mastery is maintained)\nÿc0All enemy immunities reduced by 20%% (Passive)",
 	"esES": "ÿc5(Permanente mientras se mantenga el dominio)\nÿc0Todas las inmunidades del enemigo se reducen en %d%%",
 	"esMX": "ÿc5(Permanente mientras se mantenga el dominio)\nÿc0Todas las inmunidades del enemigo se reducen en %d%%",
 	"frFR": "ÿc5(Permanent tant que la maîtrise est maintenue)\nÿc0Toutes les immunités ennemies réduites de %d%%",
