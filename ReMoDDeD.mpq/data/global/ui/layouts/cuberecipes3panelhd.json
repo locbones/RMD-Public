@@ -521,7 +521,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Storage Bag (3 Jewels) + Unique Item + Identify Scroll = Re-Rolled Unique",
+                                        "text": "Storage Bag (3 Jewels) + Unique/Set Item + Identify Scroll = Re-Rolled Unique/Set",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }

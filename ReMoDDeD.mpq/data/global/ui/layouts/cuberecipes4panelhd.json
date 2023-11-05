@@ -119,7 +119,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Ramaladni's Gift Slot Limits - Set: 3, Unique: 4",
+                                        "text": "Ramaladni's Gift Slot Limits: 1-Hand: 4, 2-Hand: 6",
                                         "style": "$RecipeSettingsTextFlatBlue"
                                     }
                                 }
