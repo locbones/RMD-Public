@@ -7271,6 +7271,220 @@
         "exitEvents": [
         ]
       },
+      {
+        "type": "AnimationState",
+        "name": "AnimationState018",
+        "_name": "Skill_BladeFury_Start",
+        "audioId": "",
+        "loopCount": 1,
+        "stateId": 31,
+        "modeId": 18,
+        "skillIndex": 675,
+        "stepIndex": 0,
+        "animationBindings": {
+          "hth": [
+            "hth_bladefury_start"
+          ],
+          "bow": [
+            "bow_bladefury_start"
+          ],
+          "1hs": [
+            "1hs_bladefury_start"
+          ],
+          "1ht": [
+            "1ht_bladefury_start"
+          ],
+          "stf": [
+            "stf_bladefury_start"
+          ],
+          "2hs": [
+            "2hs_bladefury_start"
+          ],
+          "2ht": [
+            "2ht_bladefury_start"
+          ],
+          "xbw": [
+            "xbw_bladefury_start"
+          ],
+          "1js": [
+          ],
+          "1jt": [
+          ],
+          "1ss": [
+          ],
+          "1st": [
+          ],
+          "ht1": [
+            "ht1_bladefury_start"
+          ],
+          "ht2": [
+            "ht2_bladefury_start"
+          ]
+        },
+        "enterEvents": [
+        ],
+        "exitEvents": [
+        ]
+      },
+      {
+        "type": "AnimationState",
+        "name": "AnimationState041",
+        "_name": "Skill_BladeFury_Loop",
+        "audioId": "",
+        "loopCount": 0,
+        "stateId": 60,
+        "modeId": 18,
+        "skillIndex": 675,
+        "stepIndex": 1,
+        "animationBindings": {
+          "hth": [
+            "hth_bladefury"
+          ],
+          "bow": [
+            "bow_bladefury"
+          ],
+          "1hs": [
+            "1hs_bladefury"
+          ],
+          "1ht": [
+            "1ht_bladefury"
+          ],
+          "stf": [
+            "stf_bladefury"
+          ],
+          "2hs": [
+            "2hs_bladefury"
+          ],
+          "2ht": [
+            "2ht_bladefury"
+          ],
+          "xbw": [
+            "xbw_bladefury"
+          ],
+          "1js": [
+          ],
+          "1jt": [
+          ],
+          "1ss": [
+          ],
+          "1st": [
+          ],
+          "ht1": [
+            "ht1_bladefury"
+          ],
+          "ht2": [
+            "ht2_bladefury"
+          ]
+        },
+        "enterEvents": [
+        ],
+        "exitEvents": [
+        ]
+      },
+      {
+        "type": "AnimationState",
+        "name": "AnimationState026",
+        "_name": "Zeal_FirstAttack",
+        "audioId": "",
+        "loopCount": 1,
+        "stateId": 61,
+        "modeId": 18,
+        "skillIndex": 163,
+        "stepIndex": 0,
+        "animationBindings": {
+          "hth": [
+          ],
+          "bow": [
+          ],
+          "1hs": [
+            "1hs_attack1"
+          ],
+          "1ht": [
+          ],
+          "stf": [
+            "stf_attack1",
+            "stf_attack2"
+          ],
+          "2hs": [
+            "2hs_attack1",
+            "2hs_attack2"
+          ],
+          "2ht": [
+            "2ht_attack1",
+            "2ht_attack2"
+          ],
+          "xbw": [
+          ],
+          "1js": [
+          ],
+          "1jt": [
+          ],
+          "1ss": [
+          ],
+          "1st": [
+          ],
+          "ht1": [
+          ],
+          "ht2": [
+          ]
+        },
+        "enterEvents": [
+        ],
+        "exitEvents": [
+        ]
+      },
+      {
+        "type": "AnimationState",
+        "name": "AnimationState027",
+        "_name": "Zeal_FollowUpAttack",
+        "audioId": "",
+        "loopCount": 1,
+        "stateId": 62,
+        "modeId": 18,
+        "skillIndex": 163,
+        "stepIndex": 1,
+        "animationBindings": {
+          "hth": [
+          ],
+          "bow": [
+          ],
+          "1hs": [
+            "1hs_attack1"
+          ],
+          "1ht": [
+          ],
+          "stf": [
+            "stf_attack1",
+            "stf_attack2"
+          ],
+          "2hs": [
+            "2hs_attack1",
+            "2hs_attack2"
+          ],
+          "2ht": [
+            "2ht_attack1",
+            "2ht_attack2"
+          ],
+          "xbw": [
+          ],
+          "1js": [
+          ],
+          "1jt": [
+          ],
+          "1ss": [
+          ],
+          "1st": [
+          ],
+          "ht1": [
+          ],
+          "ht2": [
+          ]
+        },
+        "enterEvents": [
+        ],
+        "exitEvents": [
+        ]
+      }
   ],
   
   "transitions": [

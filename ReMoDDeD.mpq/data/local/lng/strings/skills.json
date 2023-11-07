@@ -49927,5 +49927,22 @@
 	"ruRU": "мини-дьявол",
 	"zhCN": "迷你恶魔",
 	"zhTW": "迷你惡魔"
+  },
+  {
+    "id": 61836,
+    "Key": "skAdrenaline",
+	"deDE": "Adrenalin",
+	"enUS": "Adrenaline",
+	"esES": "Adrenalina",
+	"esMX": "Adrenalina",
+	"frFR": "Adrénaline",
+	"itIT": "Adrenalina",
+	"jaJP": "アドレナリン",
+	"koKR": "아드레날린",
+	"plPL": "Adrenalina",
+	"ptBR": "Adrenalina",
+	"ruRU": "Адреналин",
+	"zhCN": "肾上腺素",
+	"zhTW": "腎上腺素"
   }
 ]

@@ -5437,7 +5437,111 @@
       ],
       "exitEvents": [
       ]
-    }
+    },
+    {
+        "type": "AnimationState",
+        "name": "AnimationState026",
+        "_name": "Zeal_FirstAttack",
+        "audioId": "",
+        "loopCount": 1,
+        "stateId": 49,
+        "modeId": 18,
+        "skillIndex": 163,
+        "stepIndex": 0,
+        "animationBindings": {
+          "hth": [
+          ],
+          "bow": [
+          ],
+          "1hs": [
+            "1hs_attack1"
+          ],
+          "1ht": [
+          ],
+          "stf": [
+            "stf_attack1",
+            "stf_attack2"
+          ],
+          "2hs": [
+            "2hs_attack1",
+            "2hs_attack2"
+          ],
+          "2ht": [
+            "2ht_attack1",
+            "2ht_attack2"
+          ],
+          "xbw": [
+          ],
+          "1js": [
+          ],
+          "1jt": [
+          ],
+          "1ss": [
+          ],
+          "1st": [
+          ],
+          "ht1": [
+          ],
+          "ht2": [
+          ]
+        },
+        "enterEvents": [
+        ],
+        "exitEvents": [
+        ]
+      },
+      {
+        "type": "AnimationState",
+        "name": "AnimationState027",
+        "_name": "Zeal_FollowUpAttack",
+        "audioId": "",
+        "loopCount": 1,
+        "stateId": 50,
+        "modeId": 18,
+        "skillIndex": 163,
+        "stepIndex": 1,
+        "animationBindings": {
+          "hth": [
+          ],
+          "bow": [
+          ],
+          "1hs": [
+            "1hs_attack1"
+          ],
+          "1ht": [
+          ],
+          "stf": [
+            "stf_attack1",
+            "stf_attack2"
+          ],
+          "2hs": [
+            "2hs_attack1",
+            "2hs_attack2"
+          ],
+          "2ht": [
+            "2ht_attack1",
+            "2ht_attack2"
+          ],
+          "xbw": [
+          ],
+          "1js": [
+          ],
+          "1jt": [
+          ],
+          "1ss": [
+          ],
+          "1st": [
+          ],
+          "ht1": [
+          ],
+          "ht2": [
+          ]
+        },
+        "enterEvents": [
+        ],
+        "exitEvents": [
+        ]
+      }
   ],
   "transitions": [
     {

@@ -7063,7 +7063,172 @@
       ],
       "exitEvents": [
       ]
-    }
+    },
+    {
+        "type": "AnimationState",
+        "name": "PMODE_SEQUENCE_WHIRLWIND",
+        "_name": "SKILL_WHIRLWIND",
+        "audioId": "",
+        "loopCount": 0,
+        "stateId": 66,
+        "modeId": 18,
+        "skillIndex": 547,
+        "stepIndex": 0,
+        "animationBindings": {
+          "hth": [
+            "hth_whirlwind"
+          ],
+          "bow": [
+          ],
+          "1hs": [
+            "1hs_whirlwind"
+          ],
+          "1ht": [
+            "1ht_whirlwind"
+          ],
+          "stf": [
+            "stf_whirlwind"
+          ],
+          "2hs": [
+            "2hs_whirlwind"
+          ],
+          "2ht": [
+            "2ht_whirlwind"
+          ],
+          "xbw": [
+          ],
+          "1js": [
+            "1js_whirlwind"
+          ],
+          "1jt": [
+            "1jt_whirlwind"
+          ],
+          "1ss": [
+            "1ss_whirlwind"
+          ],
+          "1st": [
+            "1st_whirlwind"
+          ],
+          "ht1": [
+          ],
+          "ht2": [
+          ]
+        },
+        "enterEvents": [
+        ],
+        "exitEvents": [
+        ]
+    },
+    {
+        "type": "AnimationState",
+        "name": "AnimationState044",
+        "_name": "Zeal_FirstAttack",
+        "audioId": "",
+        "loopCount": 1,
+        "stateId": 67,
+        "modeId": 18,
+        "skillIndex": 163,
+        "stepIndex": 0,
+        "animationBindings": {
+          "hth": [
+          ],
+          "bow": [
+          ],
+          "1hs": [
+            "1hs_attack1"
+          ],
+          "1ht": [
+          ],
+          "stf": [
+            "stf_attack1",
+            "stf_attack2"
+          ],
+          "2hs": [
+            "2hs_attack1",
+            "2hs_attack2"
+          ],
+          "2ht": [
+            "2ht_attack1",
+            "2ht_attack2"
+          ],
+          "xbw": [
+          ],
+          "1js": [
+            "1js_attack1"
+          ],
+          "1jt": [
+          ],
+          "1ss": [
+            "1ss_attack1"
+          ],
+          "1st": [
+            "1st_attack1"
+          ],
+          "ht1": [
+          ],
+          "ht2": [
+          ]
+        },
+        "enterEvents": [
+        ],
+        "exitEvents": [
+        ]
+      },
+      {
+        "type": "AnimationState",
+        "name": "AnimationState045",
+        "_name": "Zeal_FollowUpAttack",
+        "audioId": "",
+        "loopCount": 1,
+        "stateId": 68,
+        "modeId": 18,
+        "skillIndex": 163,
+        "stepIndex": 1,
+        "animationBindings": {
+          "hth": [
+          ],
+          "bow": [
+          ],
+          "1hs": [
+            "1hs_attack1"
+          ],
+          "1ht": [
+          ],
+          "stf": [
+            "stf_attack1",
+            "stf_attack2"
+          ],
+          "2hs": [
+            "2hs_attack1",
+            "2hs_attack2"
+          ],
+          "2ht": [
+            "2ht_attack1",
+            "2ht_attack2"
+          ],
+          "xbw": [
+          ],
+          "1js": [
+            "1js_attack1"
+          ],
+          "1jt": [
+          ],
+          "1ss": [
+            "1ss_attack1"
+          ],
+          "1st": [
+            "1st_attack1"
+          ],
+          "ht1": [
+          ],
+          "ht2": [
+          ]
+        },
+        "enterEvents": [
+        ],
+        "exitEvents": [
+        ]
+      }
   ],
   "transitions": [
     {
