@@ -903,5 +903,9 @@
   "updraft":"invisopet",
   "darksummon":"darksummon",
   "minidiablo":"minidiablo",
-  "suicide_trialend":"trialend_chest"
+  "suicide_trialend":"trialend_chest",
+  "quantum_meph": "quantum_meph",
+  "quantum_diablo": "quantum_diablo",
+  "quantum_baal": "quantum_baal",
+  "skelcommand": "leoric_chosen"
 }

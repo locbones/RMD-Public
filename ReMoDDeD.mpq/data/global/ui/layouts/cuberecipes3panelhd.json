@@ -314,7 +314,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Storage Bag (10 Unique Cores) + Item + Magic Ring = Blood Contract (Unique)",
+                                        "text": "Storage Bag (XX Unique Cores) + Item + Magic Ring = Blood Contract (Unique)",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -326,8 +326,20 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Storage Bag (10 Set Cores) + Item + Magic Amulet = Blood Contract (Set)",
+                                        "text": "Storage Bag (XX Set Cores) + Item + Magic Amulet = Blood Contract (Set)",
                                         "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "- Weapons cost 10 cores, Armor/Jewelry costs 25 cores",
+                                        "style": "$RecipeSettingsTextFlatBlue"
                                     }
                                 }
                             ]
@@ -521,7 +533,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Storage Bag (3 Jewels) + Unique/Set Item + Identify Scroll = Re-Rolled Unique/Set",
+                                        "text": "Storage Bag (5 Rare Jewels) + Unique/Set Item + Identify Scroll = Re-Rolled Unique/Set",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }

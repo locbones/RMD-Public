@@ -94,18 +94,18 @@
                         {
                             "type": "TextBoxWidget", "name": "HireName",
                             "fields": {
-                                "rect": { "x": 10, "y": 27, "width": 192, "height": 51 },
+                                "rect": { "x": 33, "y": 27, "width": 192, "height": 51 },
                                 "style": {
                                     "fontColor": "$FontColorWhite",
                                     "pointSize": "$SmallPanelFontSize",
-                                    "alignment": { "h": "center", "v": "center" }
+                                    "alignment": { "h": "left", "v": "center" }
                                 }
                             }
                         },
                         {
                             "type": "TextBoxWidget", "name": "HireLevel",
                             "fields": {
-                                "rect": { "x": 185, "y": 27, "width": 185, "height": 51 },
+                                "rect": { "x": 250, "y": 27, "width": 185, "height": 51 },
                                 "text": "@strchrlvl ",
                                 "style": {
                                     "fontColor": "$FontColorWhite",
@@ -117,42 +117,42 @@
                         {
                             "type": "HirelingSkillIconWidget", "name": "Skill0",
                             "fields": {
-                                "rect": { "x": 390, "y": 20, "scale": 0.50 },
+                                "rect": { "x": 425, "y": 20, "scale": 0.50 },
                                 "skillIconFilename": "Spells/Hireables/HrSkillIcon"
                             }
                         },
                         {
                             "type": "HirelingSkillIconWidget", "name": "Skill1",
                             "fields": {
-                                "rect": { "x": 460, "y": 20, "scale": 0.50 },
+                                "rect": { "x": 495, "y": 20, "scale": 0.50 },
                                 "skillIconFilename": "Spells/Hireables/HrSkillIcon"
                             }
                         },
                         {
                             "type": "HirelingSkillIconWidget", "name": "Skill2",
                             "fields": {
-                                "rect": { "x": 530, "y": 20, "scale": 0.50 },
+                                "rect": { "x": 565, "y": 20, "scale": 0.50 },
                                 "skillIconFilename": "Spells/Hireables/HrSkillIcon"
                             }
                         },
                         {
                             "type": "HirelingSkillIconWidget", "name": "Skill3",
                             "fields": {
-                                "rect": { "x": 600, "y": 20, "scale": 0.50 },
+                                "rect": { "x": 635, "y": 20, "scale": 0.50 },
                                 "skillIconFilename": "Spells/Hireables/HrSkillIcon"
                             }
                         },
                         {
                             "type": "HirelingSkillIconWidget", "name": "Skill4",
                             "fields": {
-                                "rect": { "x": 670, "y": 20, "scale": 0.50 },
+                                "rect": { "x": 705, "y": 20, "scale": 0.50 },
                                 "skillIconFilename": "Spells/Hireables/HrSkillIcon"
                             }
                         },
                         {
                             "type": "HirelingSkillIconWidget", "name": "Skill5",
                             "fields": {
-                                "rect": { "x": 740, "y": 20, "scale": 0.50 },
+                                "rect": { "x": 775, "y": 20, "scale": 0.50 },
                                 "skillIconFilename": "Spells/Hireables/HrSkillIcon"
                             }
                         },

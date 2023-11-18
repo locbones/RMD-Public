@@ -309,8 +309,8 @@
                         {
                             "type": "TextBoxWidget", "name": "ModAuthors",
                             "fields": {
-                                "rect": { "x": 245, "y": 2045, "width": 400 },
-                                "text":"(Beta - 0.9.9.4H)",
+                                "rect": { "x": 255, "y": 2045, "width": 400 },
+                                "text":"(Beta - 0.9.9.5)",
                                 "style": {
                                     "fontColor": "$FontColorBonesyRed",
                                     "pointSize": "$XMediumPanelFontSize",

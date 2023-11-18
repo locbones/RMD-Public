@@ -30,7 +30,7 @@
                 {
                     "type": "VfxDefinitionComponent",
                     "name": "components_ice_shiverarmor",
-                    "filename": "data/hd/vfx/particles/Spirit3.particles",
+                    "filename": "data/hd/vfx/particles/Spirit5.particles",
                     "hardKillOnDestroy": false
                 },
                 {
@@ -64,7 +64,7 @@
                 {
                     "type": "VfxDefinitionComponent",
                     "name": "entity_vfx1_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/Spirit1.particles",
+                    "filename": "data/hd/vfx/particles/Spirit6.particles",
                     "hardKillOnDestroy": false
                 },
                 {
@@ -98,7 +98,7 @@
                 {
                     "type": "VfxDefinitionComponent",
                     "name": "entity_vfx1_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/Spirit3.particles",
+                    "filename": "data/hd/vfx/particles/Spirit5.particles",
                     "hardKillOnDestroy": false
                 },
                 {

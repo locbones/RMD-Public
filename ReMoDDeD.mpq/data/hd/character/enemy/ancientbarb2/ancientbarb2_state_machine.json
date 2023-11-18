@@ -140,6 +140,26 @@
             "type": "AnimationItem",
             "name": "doublethrow",
             "filename": "data/hd/character/player/barbarian/animation/1st_doublethrow.animation"
+        },
+        {
+            "type": "AnimationItem",
+            "name": "1js_doubleswing",
+            "filename": "data/hd/character/player/barbarian/animation/1js_doubleswing.animation"
+        },
+        {
+            "type": "AnimationItem",
+            "name": "1jt_doubleswing",
+            "filename": "data/hd/character/player/barbarian/animation/1jt_doubleswing.animation"
+        },
+        {
+            "type": "AnimationItem",
+            "name": "1ss_doubleswing",
+            "filename": "data/hd/character/player/barbarian/animation/1ss_doubleswing.animation"
+        },
+        {
+            "type": "AnimationItem",
+            "name": "1st_doubleswing",
+            "filename": "data/hd/character/player/barbarian/animation/1st_doubleswing.animation"
         }
     ],
     "states": [
@@ -1050,6 +1070,36 @@
                 ],
                 "ht2": [
                     "doublethrow"
+                ]
+            },
+            "enterEvents": [],
+            "exitEvents": []
+        },
+        {
+            "type": "AnimationState",
+            "name": "AnimationState002",
+            "_name": "SKILL_FRENZY",
+            "audioId": "",
+            "loopCount": 1,
+            "stateId": 22,
+            "modeId": 18,
+            "skillIndex": 147,
+            "stepIndex": 0,
+            "animationBindings": {
+                "hth": [
+                    "1js_doubleswing"
+                ],
+                "1js": [
+                    "1js_doubleswing"
+                ],
+                "1jt": [
+                    "1jt_doubleswing"
+                ],
+                "1ss": [
+                    "1ss_doubleswing"
+                ],
+                "1st": [
+                    "1st_doubleswing"
                 ]
             },
             "enterEvents": [],

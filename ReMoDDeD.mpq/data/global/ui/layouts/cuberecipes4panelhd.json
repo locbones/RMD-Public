@@ -341,6 +341,18 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
+                                        "text": "10x Magic Jewels = 1x Rare Jewel",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
                                         "text": "Any Item + Any Hammer = Item w/ Knockback Added",
                                         "style": "$RecipeSettingsText"
                                     }

@@ -4002,9 +4002,16 @@
   },
   {
     "spiritual_savior": {
-      "normal": "..//custom//spiritarmor_alt",
-      "uber": "..//custom//spiritarmor_alt",
-      "ultra": "..//custom//spiritarmor_alt"
+      "normal": "..//custom//spiritarmor2",
+      "uber": "..//custom//spiritarmor2",
+      "ultra": "..//custom//spiritarmor2"
+    }
+  },
+  {
+    "spiritual_guardian": {
+      "normal": "..//custom//spiritarmor3",
+      "uber": "..//custom//spiritarmor3",
+      "ultra": "..//custom//spiritarmor3"
     }
   },
   {
@@ -4012,6 +4019,412 @@
       "normal": "voodoo_head/preserved_head",
       "uber": "voodoo_head/preserved_head",
       "ultra": "voodoo_head/preserved_head"
+    }
+  },
+  {
+    "mega_charm": {
+      "normal": "..//custom/MegaCharm",
+      "uber": "..//custom/MegaCharm",
+      "ultra": "..//custom/MegaCharm"
+    }
+  },
+  {
+    "trials_charm_u_1": {
+      "normal": "..//custom/Charm1",
+      "uber": "..//custom/Charm1",
+      "ultra": "..//custom/Charm1"
+    }
+  },
+  {
+    "trials_charm_u_2": {
+      "normal": "..//custom/Charm1",
+      "uber": "..//custom/Charm1",
+      "ultra": "..//custom/Charm1"
+    }
+  },
+  {
+    "trials_charm_u_3": {
+      "normal": "..//custom/Charm1",
+      "uber": "..//custom/Charm1",
+      "ultra": "..//custom/Charm1"
+    }
+  },
+  {
+    "trials_charm_u_4": {
+      "normal": "..//custom/Charm1",
+      "uber": "..//custom/Charm1",
+      "ultra": "..//custom/Charm1"
+    }
+  },
+  {
+    "trials_charm_u_5": {
+      "normal": "..//custom/Charm1",
+      "uber": "..//custom/Charm1",
+      "ultra": "..//custom/Charm1"
+    }
+  },
+  {
+    "trials_charm_u_6": {
+      "normal": "..//custom/Charm1",
+      "uber": "..//custom/Charm1",
+      "ultra": "..//custom/Charm1"
+    }
+  },
+  {
+    "trials_charm_u_7": {
+      "normal": "..//custom/Charm1",
+      "uber": "..//custom/Charm1",
+      "ultra": "..//custom/Charm1"
+    }
+  },
+  {
+    "trials_charm_u_8": {
+      "normal": "..//custom/Charm2",
+      "uber": "..//custom/Charm2",
+      "ultra": "..//custom/Charm2"
+    }
+  },
+  {
+    "trials_charm_u_9": {
+        "normal": "..//custom/Charm2",
+        "uber": "..//custom/Charm2",
+        "ultra": "..//custom/Charm2"
+    }
+  },
+  {
+    "trials_charm_u_10": {
+        "normal": "..//custom/Charm2",
+        "uber": "..//custom/Charm2",
+        "ultra": "..//custom/Charm2"
+    }
+  },
+  {
+    "trials_charm_u_11": {
+        "normal": "..//custom/Charm2",
+        "uber": "..//custom/Charm2",
+        "ultra": "..//custom/Charm2"
+    }
+  },
+  {
+    "trials_charm_u_12": {
+        "normal": "..//custom/Charm2",
+        "uber": "..//custom/Charm2",
+        "ultra": "..//custom/Charm2"
+    }
+  },
+  {
+    "trials_charm_u_13": {
+        "normal": "..//custom/Charm2",
+        "uber": "..//custom/Charm2",
+        "ultra": "..//custom/Charm2"
+    }
+  },
+  {
+    "trials_charm_u_14": {
+        "normal": "..//custom/Charm2",
+        "uber": "..//custom/Charm2",
+        "ultra": "..//custom/Charm2"
+    }
+  },
+  {
+    "trials_charm_u_15": {
+      "normal": "..//custom/Charm3",
+      "uber": "..//custom/Charm3",
+      "ultra": "..//custom/Charm3"
+    }
+  },
+  {
+    "trials_charm_u_16": {
+        "normal": "..//custom/Charm3",
+        "uber": "..//custom/Charm3",
+        "ultra": "..//custom/Charm3"
+    }
+  },
+  {
+    "trials_charm_u_17": {
+        "normal": "..//custom/Charm3",
+        "uber": "..//custom/Charm3",
+        "ultra": "..//custom/Charm3"
+    }
+  },
+  {
+    "trials_charm_u_18": {
+        "normal": "..//custom/Charm3",
+        "uber": "..//custom/Charm3",
+        "ultra": "..//custom/Charm3"
+    }
+  },
+  {
+    "trials_charm_u_19": {
+        "normal": "..//custom/Charm3",
+        "uber": "..//custom/Charm3",
+        "ultra": "..//custom/Charm3"
+    }
+  },
+  {
+    "trials_charm_u_20": {
+        "normal": "..//custom/Charm3",
+        "uber": "..//custom/Charm3",
+        "ultra": "..//custom/Charm3"
+    }
+  },
+  {
+    "trials_charm_u_21": {
+        "normal": "..//custom/Charm3",
+        "uber": "..//custom/Charm3",
+        "ultra": "..//custom/Charm3"
+    }
+  },
+  {
+    "trials_charm_u_22": {
+      "normal": "..//custom/Charm4",
+      "uber": "..//custom/Charm4",
+      "ultra": "..//custom/Charm4"
+    }
+  },
+  {
+    "trials_charm_u_23": {
+        "normal": "..//custom/Charm4",
+        "uber": "..//custom/Charm4",
+        "ultra": "..//custom/Charm4"
+    }
+  },
+  {
+    "trials_charm_u_24": {
+        "normal": "..//custom/Charm4",
+        "uber": "..//custom/Charm4",
+        "ultra": "..//custom/Charm4"
+    }
+  },
+  {
+    "trials_charm_u_25": {
+        "normal": "..//custom/Charm4",
+        "uber": "..//custom/Charm4",
+        "ultra": "..//custom/Charm4"
+    }
+  },
+  {
+    "trials_charm_u_26": {
+        "normal": "..//custom/Charm4",
+        "uber": "..//custom/Charm4",
+        "ultra": "..//custom/Charm4"
+    }
+  },
+  {
+    "trials_charm_u_27": {
+        "normal": "..//custom/Charm4",
+        "uber": "..//custom/Charm4",
+        "ultra": "..//custom/Charm4"
+    }
+  },
+  {
+    "trials_charm_u_28": {
+        "normal": "..//custom/Charm4",
+        "uber": "..//custom/Charm4",
+        "ultra": "..//custom/Charm4"
+    }
+  },
+  {
+    "trials_charm_u_29": {
+      "normal": "..//custom/Charm5",
+      "uber": "..//custom/Charm5",
+      "ultra": "..//custom/Charm5"
+    }
+  },
+  {
+    "trials_charm_u_30": {
+        "normal": "..//custom/Charm5",
+        "uber": "..//custom/Charm5",
+        "ultra": "..//custom/Charm5"
+    }
+  },
+  {
+    "trials_charm_u_31": {
+        "normal": "..//custom/Charm5",
+        "uber": "..//custom/Charm5",
+        "ultra": "..//custom/Charm5"
+    }
+  },
+  {
+    "trials_charm_u_32": {
+        "normal": "..//custom/Charm5",
+        "uber": "..//custom/Charm5",
+        "ultra": "..//custom/Charm5"
+    }
+  },
+  {
+    "trials_charm_u_33": {
+        "normal": "..//custom/Charm5",
+        "uber": "..//custom/Charm5",
+        "ultra": "..//custom/Charm5"
+    }
+  },
+  {
+    "trials_charm_u_34": {
+        "normal": "..//custom/Charm5",
+        "uber": "..//custom/Charm5",
+        "ultra": "..//custom/Charm5"
+    }
+  },
+  {
+    "trials_charm_u_35": {
+        "normal": "..//custom/Charm5",
+        "uber": "..//custom/Charm5",
+        "ultra": "..//custom/Charm5"
+    }
+  },
+  {
+    "trials_charm_u_36": {
+      "normal": "..//custom/Charm6",
+      "uber": "..//custom/Charm6",
+      "ultra": "..//custom/Charm6"
+    }
+  },
+  {
+    "trials_charm_u_37": {
+        "normal": "..//custom/Charm6",
+        "uber": "..//custom/Charm6",
+        "ultra": "..//custom/Charm6"
+    }
+  },
+  {
+    "trials_charm_u_38": {
+        "normal": "..//custom/Charm6",
+        "uber": "..//custom/Charm6",
+        "ultra": "..//custom/Charm6"
+    }
+  },
+  {
+    "trials_charm_u_39": {
+        "normal": "..//custom/Charm6",
+        "uber": "..//custom/Charm6",
+        "ultra": "..//custom/Charm6"
+    }
+  },
+  {
+    "trials_charm_u_40": {
+        "normal": "..//custom/Charm6",
+        "uber": "..//custom/Charm6",
+        "ultra": "..//custom/Charm6"
+    }
+  },
+  {
+    "trials_charm_u_41": {
+        "normal": "..//custom/Charm6",
+        "uber": "..//custom/Charm6",
+        "ultra": "..//custom/Charm6"
+    }
+  },
+  {
+    "trials_charm_u_42": {
+        "normal": "..//custom/Charm6",
+        "uber": "..//custom/Charm6",
+        "ultra": "..//custom/Charm6"
+    }
+  },
+  {
+    "trials_charm_u_43": {
+      "normal": "..//custom/Charm7",
+      "uber": "..//custom/Charm7",
+      "ultra": "..//custom/Charm7"
+    }
+  },
+  {
+    "trials_charm_u_44": {
+        "normal": "..//custom/Charm7",
+        "uber": "..//custom/Charm7",
+        "ultra": "..//custom/Charm7"
+    }
+  },
+  {
+    "trials_charm_u_45": {
+        "normal": "..//custom/Charm7",
+        "uber": "..//custom/Charm7",
+        "ultra": "..//custom/Charm7"
+    }
+  },
+  {
+    "trials_charm_u_46": {
+        "normal": "..//custom/Charm7",
+        "uber": "..//custom/Charm7",
+        "ultra": "..//custom/Charm7"
+    }
+  },
+  {
+    "trials_charm_u_47": {
+        "normal": "..//custom/Charm7",
+        "uber": "..//custom/Charm7",
+        "ultra": "..//custom/Charm7"
+    }
+  },
+  {
+    "trials_charm_u_48": {
+        "normal": "..//custom/Charm7",
+        "uber": "..//custom/Charm7",
+        "ultra": "..//custom/Charm7"
+    }
+  },
+  {
+    "trials_charm_u_49": {
+        "normal": "..//custom/Charm7",
+        "uber": "..//custom/Charm7",
+        "ultra": "..//custom/Charm7"
+    }
+  },
+  {
+    "trials_charm_c_1": {
+      "normal": "..//custom/Charm1",
+      "uber": "..//custom/Charm1",
+      "ultra": "..//custom/Charm1"
+    }
+  },
+  {
+    "trials_charm_c_2": {
+      "normal": "..//custom/Charm2",
+      "uber": "..//custom/Charm2",
+      "ultra": "..//custom/Charm2"
+    }
+  },
+  {
+    "trials_charm_c_3": {
+      "normal": "..//custom/Charm3",
+      "uber": "..//custom/Charm3",
+      "ultra": "..//custom/Charm3"
+    }
+  },
+  {
+    "trials_charm_c_4": {
+      "normal": "..//custom/Charm4",
+      "uber": "..//custom/Charm4",
+      "ultra": "..//custom/Charm4"
+    }
+  },
+  {
+    "trials_charm_c_5": {
+      "normal": "..//custom/Charm5",
+      "uber": "..//custom/Charm5",
+      "ultra": "..//custom/Charm5"
+    }
+  },
+  {
+    "trials_charm_c_6": {
+      "normal": "..//custom/Charm6",
+      "uber": "..//custom/Charm6",
+      "ultra": "..//custom/Charm6"
+    }
+  },
+  {
+    "trials_charm_c_7": {
+      "normal": "..//custom/Charm7",
+      "uber": "..//custom/Charm7",
+      "ultra": "..//custom/Charm7"
+    }
+  },
+  {
+    "unholy_commander": {
+      "normal": "..//custom/leoric_charm",
+      "uber": "..//custom/leoric_charm",
+      "ultra": "..//custom/leoric_charm"
     }
   }
 ]

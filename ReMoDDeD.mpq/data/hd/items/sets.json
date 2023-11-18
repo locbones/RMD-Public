@@ -735,9 +735,9 @@
   "ultra": "armor/leather_armor"
 } },
 { "tundra_storm": {
-  "normal": "helm/mask",
-  "uber": "helm/mask",
-  "ultra": "helm/mask"
+  "normal": "helmet/mask",
+  "uber": "helmet/mask",
+  "ultra": "helmet/mask"
 } },
 { "enduring_onslaught": {
   "normal": "belt/sash_l",
@@ -788,5 +788,15 @@
   "normal": "..//custom//k_judgement",
   "uber": "..//custom//k_judgement",
   "ultra": "..//custom//k_judgement"
-} }
+} },
+{ "su": {
+  "normal": "sword/bastard_sword",
+  "uber": "sword/bastard_sword",
+  "ultra": "sword/bastard_sword"
+} },
+{ "kami": {
+  "normal": "sword/flamberge",
+  "uber": "sword/flamberge",
+  "ultra": "sword/flamberge"
+} } 
 ]

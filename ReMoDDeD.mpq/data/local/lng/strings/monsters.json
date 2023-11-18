@@ -5782,19 +5782,19 @@
   {
     "id": 3208,
     "Key": "uniquemagicresistance",
-    "deDE": "Magieresistent",
-    "enUS": "Magic Resistant",
-    "esES": "Resistente a la magia",
-    "esMX": "Resistente a la magia",
-    "frFR": "Résistant à la magie",
-    "itIT": "Resistente alla magia",
-    "jaJP": "魔法耐性",
-    "koKR": "마법 저항력",
-    "plPL": "Odporny na magię",
-    "ptBR": "Resistente à Magia",
-    "ruRU": "Сопротивление магии",
-    "zhCN": "魔法抗性",
-    "zhTW": "魔法抗性"
+	"deDE": "Prismatischer Widerstand",
+	"enUS": "Prismatic Resistance",
+	"esES": "Resistencia prismática",
+	"esMX": "Resistencia prismática",
+	"frFR": "Résistance prismatique",
+	"itIT": "Resistenza prismatica",
+	"jaJP": "プリズム抵抗",
+	"koKR": "프리즘 저항",
+	"plPL": "Pryzmatyczny opór",
+	"ptBR": "Resistência Prismática",
+	"ruRU": "Призматическое сопротивление",
+	"zhCN": "棱柱电阻",
+	"zhTW": "棱柱電阻"
   },
   {
     "id": 3209,
@@ -10317,5 +10317,22 @@
     "ruRU": "Часовой замороженного крошшера",
     "zhCN": "冰冻碎纸机哨兵",
     "zhTW": "冰凍碎紙機哨兵"
+  },
+  {
+    "id": 55078,
+    "Key": "SkCommander",
+	"deDE": "Leorics Auserwählter",
+	"enUS": "Leoric's Chosen",
+	"esES": "Elegido de Leoric",
+	"esMX": "Elegido de Leoric",
+	"frFR": "L'élu de Léoric",
+	"itIT": "Il prescelto di Leoric",
+	"jaJP": "レオリックに選ばれた者",
+	"koKR": "레오릭의 선택받은 자",
+	"plPL": "Wybraniec Leoryka",
+	"ptBR": "O Escolhido de Leoric",
+	"ruRU": "Избранник Леорика",
+	"zhCN": "李奥瑞克的选择",
+	"zhTW": "李奧瑞克的選擇"
   }
 ]
