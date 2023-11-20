@@ -23,7 +23,7 @@
                         "anchor": { "x": 1.0 },
                         "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
                         "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
-                        "barFilepath": "PauseMenu\\VerticalIndicator",
+                        "barFilepath": "..\\..\\..\\ReMoDDeD\\SkullScroll",
                         "viewName": "ScrollView",
                         "wheelScrollSound": "cursor_scroll_hd",
                         "buttonScrollSound": "cursor_scroll_hd"
@@ -82,7 +82,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword12",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -124,7 +124,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword19",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -166,7 +166,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword57",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -208,7 +208,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword76",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -250,7 +250,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword77",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -292,7 +292,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword79",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -334,7 +334,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword81",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -376,7 +376,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword84",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -418,7 +418,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword86",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -460,7 +460,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword88",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -502,7 +502,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword102",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -544,7 +544,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword134",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -582,7 +582,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -615,7 +615,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword1",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -657,7 +657,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword3",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -699,7 +699,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword40",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -741,7 +741,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword54",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -783,7 +783,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword70",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -825,7 +825,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword72",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -867,7 +867,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword73",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -909,7 +909,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword78",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -951,7 +951,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword85",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -993,7 +993,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword94",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -1035,7 +1035,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword97",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -1077,7 +1077,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword133",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -1119,7 +1119,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword170",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -1157,7 +1157,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -1190,7 +1190,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword21",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -1232,7 +1232,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword24",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -1274,7 +1274,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword31",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -1316,7 +1316,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword35",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -1358,7 +1358,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword50",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -1400,7 +1400,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword53",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -1443,7 +1443,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword55",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -1485,7 +1485,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword62",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -1527,7 +1527,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword65",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -1569,7 +1569,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword75",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -1611,7 +1611,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword98",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -1653,7 +1653,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword116",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -1695,7 +1695,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword120",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -1737,7 +1737,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword130",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -1779,7 +1779,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword139",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -1817,7 +1817,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -1850,7 +1850,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword6",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -1892,7 +1892,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword18",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -1934,7 +1934,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword23",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -1976,7 +1976,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword56",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -2018,7 +2018,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword64",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -2060,7 +2060,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword83",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -2102,7 +2102,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword87",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -2144,7 +2144,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword128",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -2187,7 +2187,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword131",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -2229,7 +2229,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword162",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -2267,7 +2267,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -2300,7 +2300,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword7",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -2342,7 +2342,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword49",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -2384,7 +2384,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword61",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -2426,7 +2426,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword74",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -2468,7 +2468,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword82",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -2510,7 +2510,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword92",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -2552,7 +2552,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword101",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -2590,7 +2590,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -2623,7 +2623,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword71",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -2665,7 +2665,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword95",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -2707,7 +2707,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword148",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -2749,7 +2749,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword99",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -2791,7 +2791,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword160",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -2829,7 +2829,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -2862,7 +2862,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword34",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -2904,7 +2904,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword58",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -2942,7 +2942,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -2975,7 +2975,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword8",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -3017,7 +3017,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword17",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -3059,7 +3059,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword30",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -3101,7 +3101,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword45",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -3143,7 +3143,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword63",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -3185,7 +3185,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword137",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -3223,7 +3223,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -3256,7 +3256,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword43",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -3298,7 +3298,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword91",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -3340,7 +3340,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword112",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -3382,7 +3382,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword117",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -3424,7 +3424,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword122",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -3466,7 +3466,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword154",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -3504,7 +3504,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -3537,7 +3537,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword15",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -3579,7 +3579,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword22",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -3621,7 +3621,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword32",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -3663,7 +3663,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword89",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -3701,7 +3701,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -3734,7 +3734,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword5",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -3776,7 +3776,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword28",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -3818,7 +3818,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword42",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -3860,7 +3860,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword66",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -3902,7 +3902,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword110",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -3944,7 +3944,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword121",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -3982,7 +3982,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -4015,7 +4015,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword20",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -4057,7 +4057,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword51",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -4099,7 +4099,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword126",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -4137,7 +4137,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -4170,7 +4170,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword13",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -4212,7 +4212,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword16",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -4254,7 +4254,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword37",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -4292,7 +4292,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -4325,7 +4325,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword41",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -4367,7 +4367,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword47",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -4409,7 +4409,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword67",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -4447,7 +4447,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -4480,7 +4480,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword9",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -4522,7 +4522,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword27",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -4564,7 +4564,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword163",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -4602,7 +4602,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -4635,7 +4635,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword4",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -4677,7 +4677,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword14",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -4719,7 +4719,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword36",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -4761,7 +4761,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword46",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -4803,7 +4803,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword60",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -4845,7 +4845,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword168",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -4883,7 +4883,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -4916,7 +4916,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword10",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -4958,7 +4958,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword25",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -5000,7 +5000,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword29",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -5042,7 +5042,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword33",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -5084,7 +5084,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword38",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -5126,7 +5126,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword39",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -5168,7 +5168,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword44",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -5210,7 +5210,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword59",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -5252,7 +5252,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword68",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -5294,7 +5294,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword69",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -5336,7 +5336,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword103",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -5374,7 +5374,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -5407,7 +5407,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword2",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -5449,7 +5449,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword26",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -5491,7 +5491,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword48",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -5533,7 +5533,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword106",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -5575,7 +5575,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword109",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -5613,7 +5613,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -5646,7 +5646,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword11",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -5688,7 +5688,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword52",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -5730,7 +5730,7 @@
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword93",
-                                        "style": "$RWInfoR"
+                                        "style": "$RWInfoFB"
                                     }
                                 },
                                 {
@@ -5759,11 +5759,78 @@
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw93"
                             }
-                        }
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 10, "y": -20},
+                                        "text": "",
+                                        "style": "$RWInfoFB"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 350, "y": -30},
+                                        "text": "Required Level: 56",
+                                        "style": "$RWInfoS"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": "",
+                                        "style": "$RWInfo"
+                                    }
+                                }
+                            ]
+                        },
 /*--------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------------*/                          
+--------------------------------------------------------------------------------------------------------------------*/
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 10, "y": -20},
+                                        "text": "@Runeword171",
+                                        "style": "$RWInfoFB"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": "@RWCirclet",
+                                        "style": "$RWInfo"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": "@r34L       @r35L       @r28L",
+                                        "style": "$RWInfo"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "AdvancedStats",
+                            "fields": {
+                                "rect": { "x": -40, "y": 11440 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "hoveredFrame": 1,
+                                "tooltipString": "@rw171"
+                            }
+                        }                        
                     ]
                 }
             ]
