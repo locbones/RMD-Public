@@ -50012,5 +50012,22 @@
 	"ruRU": "ÿcNCПризвать духов молний на помощьÿc2\nÿc0Усиление, использующее духовную энергию\nÿc0чтобы повысить ваше мастерство молнии и защиту.",
 	"zhCN": "ÿcN召唤闪电之灵来帮忙ÿc2\nÿc0使用精神能量的自我增益\nÿc0提高你的闪电熟练度和防御力",
 	"zhTW": "ÿcN召喚閃電之靈來幫忙ÿc2\nÿc0使用精神能量的自我增益\nÿc0提高你的閃電熟練度和防禦力"
+  },
+  {
+    "id": 61841,
+    "Key": "skReducePhysRes",
+	"deDE": "Reduzieren Sie den physischen Widerstand",
+	"enUS": "Reduce Physical Resist",
+	"esES": "Reducir la resistencia física",
+	"esMX": "Reducir la resistencia física",
+	"frFR": "Réduire la résistance physique",
+	"itIT": "Riduci la resistenza fisica",
+	"jaJP": "物理抵抗を減らす",
+	"koKR": "물리 저항 감소",
+	"plPL": "Zmniejsz opór fizyczny",
+	"ptBR": "Reduza a resistência física",
+	"ruRU": "Уменьшите физическое сопротивление",
+	"zhCN": "降低物理抗性",
+	"zhTW": "降低物理抗性"
   }
 ]

@@ -353,6 +353,18 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
+                                        "text": "1x Jewel + 2x Zod Rune = Infinity Facet",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
                                         "text": "Any Item + Any Hammer = Item w/ Knockback Added",
                                         "style": "$RecipeSettingsText"
                                     }

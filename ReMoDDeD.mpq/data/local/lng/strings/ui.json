@@ -36429,5 +36429,22 @@
         "ruRU": "\nÿc5Семь стихотворений предупреждают о гордом барабане\nВ анналах ошибок есть предостерегающая сумма\nЗа гордыню приходится платить огромную цену\nТак что внимай осторожности, о смертная душа\n",
         "zhCN": "\nÿc5七首诗警告骄傲的鼓\n在错误的编年史中，一个警示性的总和\n因为傲慢会造成巨大的损失\n所以请注意警告，哦凡人的灵魂\n",
         "zhTW": "\nÿc5七首詩警告驕傲的鼓\n在錯誤的編年史中，一個警示性的總和\n因為傲慢會造成巨大的損失\n所以請注意警告，哦凡人的靈魂\n"
-    }
+    },
+    {
+        "id": 63231,
+        "Key": "rw171",
+        "deDE": "ÿc7Zephyr\nÿc0Erforderliches Level: 5\nÿc37 % CtC Level 10 Tornado bei Treffer\n 25 % schnelleres Laufen/Gehen\n 25 % erhöhte Angriffsgeschwindigkeit\n 33 % erhöhter Schaden\n-25 % Zielverteidigung\n 66 bis Angriffswertung\n  nFügt 1-25 Blitzschaden hinzu\n 25 Verteidigung\n\nÿc;Runenpunktkosten:\nÿc3Niedrig: ÿc0272\nÿc3Mittel: ÿc00\nÿc3Hoch: ÿc00",
+        "enUS": "ÿc7Lord of Terror\nÿc0Required Level: 56\nÿc3+2 to All Skills\n+1 to Mini Diablo\n+2 to Fire Skills\n+10-15% to Cold/Fire/Lightning Skill Damage\nCooldowns Reduced by 20-30%\nAll Enemy Immunities -20% to -30%\n+2 Spell Power\nBuff Durations Increased by 10%\n+5% Maximum Lightning Resist\n\nÿc;Rune Point Cost:\nÿc3Low: ÿc00\nÿc3Medium: ÿc00\nÿc3High: ÿc015032",
+        "esES": "ÿc7Zephyr\nÿc0Nivel requerido: 5\nÿc37% CtC nivel 10 Tornado cuando se golpea\n 25% más rápido Correr/caminar\n 25% de velocidad de ataque aumentada\n 33% de daño mejorado\n-25% Defensa del objetivo\n 66 para el índice de ataque\nAgrega 1-25 de daño de rayo\n 25 de defensa\n\nÿc;Costo de puntos de runa:\nÿc3Bajo: ÿc0272\nÿc3Medio: ÿc00\nÿc3Alto: ÿc00",
+        "esMX": "ÿc7Zephyr\nÿc0Nivel requerido: 5\nÿc37% CtC nivel 10 Tornado cuando se golpea\n 25% más rápido Correr/caminar\n 25% de velocidad de ataque aumentada\n 33% de daño mejorado\n-25% Defensa del objetivo\n 66 para el índice de ataque\nAgrega 1-25 de daño de rayo\n 25 de defensa\n\nÿc;Costo de puntos de runa:\nÿc3Bajo: ÿc0272\nÿc3Medio: ÿc00\nÿc3Alto: ÿc00",
+        "frFR": "ÿc7Zephyr\nÿc0Niveau requis : 5\nÿc37 % CtC niveau 10 Tornade lorsqu'il est frappé\n Course/marche 25 % plus rapides\n Vitesse d'attaque augmentée de 25 %\n Dégâts améliorés de 33 %\n-25 % de défense de la cible\n 66 au taux d'attaque\nAjoute 1 à 25 dégâts de foudre\n 25 de défense\n\nÿc;Coût en points de rune :\nÿc3Faible : ÿc0272\nÿc3Moyen : ÿc00\nÿc3Élevé : ÿc00",
+        "itIT": "ÿc7Zephyr\nÿc0Livello richiesto: 5\nÿc37% CtC livello 10 Tornado quando viene colpito\n Corri/cammina più veloce del 25%\n Velocità d'attacco aumentata del 25%\n Danno migliorato del 33%\n-25% Difesa del bersaglio\n 66 al rating di attacco\nAggiunge 1-25 danni da fulmine\n 25 difesa\n\nÿc;Costo in punti runici:\nÿc3Basso: ÿc0272\nÿc3Medio: ÿc00\nÿc3Alto: ÿc00",
+        "jaJP": "ÿc7Zephyr\nÿc0必要レベル: 5\nÿc37% CtC レベル 10 トルネード攻撃を受けたとき\n 25% 速く走る/歩く\n 25% 攻撃速度が増加\n 33% 強化されたダメージ\n-25% ターゲット防御\n 66 で攻撃力\n  n1～25 の雷ダメージを追加\n 25 防御\n\nÿc;ルーン ポイントのコスト:\nÿc3低: ÿc0272\nÿc3中: ÿc00\nÿc3高: ÿc00",
+        "koKR": "ÿc7Zephyr\nÿc0필요 레벨: 5\nÿc37% CtC 레벨 10 적중 시 토네이도\n 25% 더 빠른 달리기/걷기\n 25% 공격 속도 증가\n 33% 피해 증가\n-25% 대상 방어\n 공격 등급 66\n 번개 피해 1-25 추가\n 방어력 25\n\nÿc;룬 포인트 비용:\nÿc3Low: ÿc0272\nÿc3Medium: ÿc00\nÿc3High: ÿc00",
+        "plPL": "ÿc7Zephyr\nÿc0Wymagany poziom: 5\nÿc37% CtC poziom 10 Tornado po uderzeniu\n 25% szybszy Bieg/Chód\n 25% zwiększona prędkość ataku\n 33% zwiększone obrażenia\n-25% obrona celu\n 66 do współczynnika ataku\nDodaje 1-25 obrażeń od błyskawic\n 25 obrony\n\nÿc;Koszt punktów runy:\nÿc3Niski: ÿc0272\nÿc3Średni: ÿc00\nÿc3Wysoki: ÿc00",
+        "ptBR": "ÿc7Zephyr\nÿc0Nível necessário: 5\nÿc37% CtC nível 10 Tornado quando atingido\n Correr/caminhar 25% mais rápido\n Velocidade de ataque aumentada em 25%\n 33% de dano aprimorado\n-25% de defesa ao alvo\n 66 na classificação de ataque\nAdiciona 1-25 de dano elétrico\n 25 de defesa\n\nÿc;Custo de pontos de runa:\nÿc3Baixo: ÿc0272\nÿc3Médio: ÿc00\nÿc3Alto: ÿc00",
+        "ruRU": "ÿc7Zephyr\nÿc0Требуемый уровень: 5\nÿc37% CtC уровня 10 Торнадо при ударе\n Бег/Ходьба на 25% быстрее\n 25% Увеличение скорости атаки\n 33% Повышенный урон\n-25% Защита цели\n 66 к рейтингу атаки\nДобавляет 1–25 урона от молнии\n 25 защиты\n\nÿc;Стоимость рун:\nÿc3Низкая: ÿc0272\nÿc3Средняя: ÿc00\nÿc3Высокая: ÿc00",
+        "zhCN": "ÿc7Zephyr\nÿc0所需等级: 5\nÿc37% CtC 等级 10 龙卷风被击中\n 跑步/行走速度加快 25%\n 攻击速度提高 25%\n 伤害增强 33%\n-25% 目标防御\n 攻击等级 66\n  n增加 1-25 点闪电伤害\n 25 防御\n\nÿc；符文点消耗: \nÿc3低: ÿc0272\nÿc3中: ÿc00\nÿc3高: ÿc00",
+        "zhTW": "ÿc7Zephyr\nÿc0所需等級: 5\nÿc37% CtC 等級10 龍捲風被擊中\n 跑步/行走速度加快25%\n 攻擊速度提高25%\n 傷害增強33%\n-25% 目標防禦\n 攻擊等級66\n n增加 1-25 點閃電傷害\n 25 防禦\n\nÿc；符文點消耗: \nÿc3低: ÿc0272\nÿc3中: ÿc00\nÿc3高: ÿc00"
+    },
   ]
