@@ -353,7 +353,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "1x Jewel + 2x Zod Rune = Infinity Facet",
+                                        "text": "2x Zod Rune = Rare Jewel w/ Indestructible",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
