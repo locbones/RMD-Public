@@ -10489,6 +10489,44 @@
             "SkillUseRumble": {},
             "SkillSpecial1Rumble": {},
             "TriggerParams": {}
+        },
+        {
+            "type": "ControllerSkillsData",
+            "name": "CubeLoot",
+            "id": 370,
+            "usageType": 4,
+            "targetGroup": 7,
+            "defaultTargetDistance": 4.0,
+            "acceptableDistanceOffset": 6.0,
+            "useSkillScaledValueAsDefaultDist": false,
+            "skillLevelLimitsScaledValueAsDefault": -1,
+            "usePredictiveTargeting": false,
+            "alwaysIgnoreTarget": false,
+            "ignoreTargetOnHold": false,
+            "skillUsesDocking": false,
+            "meleeRangeAdjustor": 0,
+            "toggleSlotState": false,
+            "tapWindowMS": 200,
+            "maxTargetDistance": 0.0,
+            "maxTargetAngleOffset": 0.0,
+            "useSkillScaledValueAsMaxDist": false,
+            "useStickyFreeTarget": false,
+            "holdRumbleDelayMS": 600,
+            "skillQueueDeadzoneMS": 160,
+            "validationFlags": 0,
+            "SkillUseRumble": {
+                "type": "ControllerRumbleData",
+                "name": "CubeLoot_SkillUseRumble",
+                "hdVibrationFile": "",
+                "length": 0.05,
+                "decayLength": 0.0,
+                "lowFrequencyPriority": 0,
+                "lowFrequencyIntensity": 0.0,
+                "highFrequencyPriority": 0,
+                "highFrequencyIntensity": 0.0
+            },
+            "SkillSpecial1Rumble": {},
+            "TriggerParams": {}
         }
     ]
 }
