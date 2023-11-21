@@ -4012,7 +4012,7 @@
         "zhCN": "和风"
     },
     {
-        "id": 51000,
+        "id": 51800,
         "Key": "r34",
         "deDE": "Von Runen",
         "enUS": "Di Rune",
@@ -4029,7 +4029,7 @@
         "zhTW": "符文的"
     },
     {
-        "id": 51001,
+        "id": 51801,
         "Key": "r34L",
         "deDE": "Aus",
         "enUS": "Di",
@@ -4046,7 +4046,7 @@
         "zhTW": "從"
     },
     {
-        "id": 51002,
+        "id": 51802,
         "Key": "r35",
         "deDE": "Ab Rune",
         "enUS": "Ab Rune",
@@ -4063,7 +4063,7 @@
         "zhTW": "艾布符文"
     },
     {
-        "id": 51003,
+        "id": 51803,
         "Key": "r35L",
         "deDE": "Ab",
         "enUS": "Ab",
@@ -4080,7 +4080,7 @@
         "zhTW": "抗體"
     },
     {
-        "id": 51004,
+        "id": 51804,
         "Key": "Runeword171",
         "deDE": "Herr des Terrors",
         "enUS": "Lord of Terror",
