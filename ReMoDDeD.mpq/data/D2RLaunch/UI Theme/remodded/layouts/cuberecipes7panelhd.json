@@ -147,7 +147,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Civerb's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -155,7 +155,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Aldur's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -197,7 +197,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Tancred's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -205,7 +205,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Trang-Oul's",
                                         "style": "$RWInfo"
                                     }
                                 },
