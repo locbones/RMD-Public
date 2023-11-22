@@ -247,7 +247,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Berserker's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -255,7 +255,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Death's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -263,7 +263,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": "Unknown",
+                                        "text": " Bul-Kathos'",
                                         "style": "$RWInfo"
                                     }
                                 }
