@@ -147,7 +147,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Civerb's",
+                                        "text": " Unknown",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -155,7 +155,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Aldur's",
+                                        "text": " Unknown",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -197,7 +197,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Tancred's",
+                                        "text": " Unknown",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -205,7 +205,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Trang-Oul's",
+                                        "text": " Unknown",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -247,7 +247,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Berserker's",
+                                        "text": " Unknown",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -255,7 +255,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Death's",
+                                        "text": " Unknown",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -263,7 +263,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Bul-Kathos'",
+                                        "text": "Unknown",
                                         "style": "$RWInfo"
                                     }
                                 }

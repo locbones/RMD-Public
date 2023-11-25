@@ -97,7 +97,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Iratha's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -105,7 +105,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Arcanna's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -113,7 +113,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": "Unknown",
+                                        "text": " Naj's",
                                         "style": "$RWInfo"
                                     }
                                 }
@@ -189,6 +189,56 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
+                                        "text": "@bp05",
+                                        "style": "$RWInfoFB"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": " Unknown",
+                                        "style": "$RWInfo"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": " Unknown",
+                                        "style": "$RWInfo"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": " Unknown",
+                                        "style": "$RWInfo"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "AdvancedStats",
+                            "fields": {
+                                "rect": { "x": -40, "y": 240 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "hoveredFrame": 1,
+                                "tooltipString": "@bp05d"
+                            }
+                        },
+/*--------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------*/
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 10, "y": -20},
                                         "text": "@bp03",
                                         "style": "$RWInfoFB"
                                     }
@@ -222,7 +272,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 240 },
+                                "rect": { "x": -40, "y": 320 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@bp03d"
@@ -272,7 +322,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 320 },
+                                "rect": { "x": -40, "y": 400 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@bp02d"
