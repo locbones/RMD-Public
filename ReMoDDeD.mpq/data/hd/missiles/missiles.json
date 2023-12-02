@@ -934,6 +934,7 @@
     "landslidex": "null",
     "landpathx": "landpath",
     "xbomb": "arctic_rock",
+    "arcticbomb_skulls": "ice_orb",
     "ybomb": "freeze_explode_center",
     "arreaticeexplode" : "null",
     "leapattack": "barbdust",

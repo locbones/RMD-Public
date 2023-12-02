@@ -868,5 +868,130 @@
   "normal": "helmet/crown",
   "uber": "helmet/crown",
   "ultra": "helmet/crown"
+} },
+{ "achyls_armament": {
+  "normal": "armor/chain_mail",
+  "uber": "armor/chain_mail",
+  "ultra": "armor/chain_mail"
+} },
+{ "pendant_of_pestilence": {
+  "normal": "amulet/amulet",
+  "uber": "amulet/amulet",
+  "ultra": "amulet/amulet"
+} },
+{ "plague_protector": {
+  "normal": "shield/bone_shield",
+  "uber": "shield/bone_shield",
+  "ultra": "shield/bone_shield"
+} },
+{ "meat_masher": {
+  "normal": "hammer/great_maul",
+  "uber": "hammer/great_maul",
+  "ultra": "hammer/great_maul"
+} },
+{ "supreme_strength": {
+  "normal": "glove/light_gauntlets",
+  "uber": "glove/light_gauntlets",
+  "ultra": "glove/light_gauntlets"
+} },
+{ "repeating_reaper": {
+  "normal": "bow/repeating_crossbow",
+  "uber": "bow/repeating_crossbow",
+  "ultra": "bow/repeating_crossbow"
+} },
+{ "fletchers_friend": {
+  "normal": "glove/heavy_gloves",
+  "uber": "glove/heavy_gloves",
+  "ultra": "glove/heavy_gloves"
+} },
+{ "band_of_brothers": {
+  "normal": "ring/ring",
+  "uber": "ring/ring",
+  "ultra": "ring/ring"
+} },
+{ "grizzlepaws_hide": {
+  "normal": "..//custom/bear_armor",
+  "uber": "..//custom/bear_armor",
+  "ultra": "..//custom/bear_armor"
+} },
+{ "animal_instinct": {
+  "normal": "belt/belt_m",
+  "uber": "belt/belt_m",
+  "ultra": "belt/belt_m"
+} },
+{ "justitias_anger": {
+  "normal": "scepter/war_scepter",
+  "uber": "scepter/war_scepter",
+  "ultra": "scepter/war_scepter"
+} },
+{ "justitias_embrace": {
+  "normal": "shield/crown_shield",
+  "uber": "shield/crown_shield",
+  "ultra": "shield/crown_shield"
+} },
+{ "hand_of_efreeti": {
+  "normal": "glove/gloves_l",
+  "uber": "glove/gloves_l",
+  "ultra": "glove/gloves_l"
+} },
+{ "morning_frost": {
+  "normal": "boot/heavy_boots",
+  "uber": "boot/heavy_boots",
+  "ultra": "boot/heavy_boots"
+} },
+{ "thunderlords_vision": {
+  "normal": "helmet/mask",
+  "uber": "helmet/mask",
+  "ultra": "helmet/mask"
+} },
+{ "coil_of_heaven": {
+  "normal": "ring/ring",
+  "uber": "ring/ring",
+  "ultra": "ring/ring"
+} },
+{ "band_of_divinity": {
+  "normal": "ring/ring",
+  "uber": "ring/ring",
+  "ultra": "ring/ring"
+} },
+{ "godly_locket": {
+  "normal": "amulet/amulet",
+  "uber": "amulet/amulet",
+  "ultra": "amulet/amulet"
+} },
+{ "chains_of_bondage": {
+  "normal": "circlet/diadem",
+  "uber": "circlet/diadem",
+  "ultra": "circlet/diadem"
+} },
+{ "chains_of_force": {
+  "normal": "armor/light_plate",
+  "uber": "armor/light_plate",
+  "ultra": "armor/light_plate"
+} },
+{ "nights_disguise": {
+  "normal": "..//custom//cloak",
+  "uber": "..//custom//cloak",
+  "ultra": "..//custom//cloak"
+} },
+{ "silent_stalkers": {
+  "normal": "..//custom//asn_boot",
+  "uber": "..//custom//asn_boot",
+  "ultra": "..//custom//asn_boot"
+} },
+{ "toxic_grasp": {
+  "normal": "glove/heavy_gloves",
+  "uber": "glove/heavy_gloves",
+  "ultra": "glove/heavy_gloves"
+} },
+{ "blade_binding": {
+  "normal": "belt/light_belt",
+  "uber": "belt/light_belt",
+  "ultra": "belt/light_belt"
+} },
+{ "murderous_intent": {
+  "normal": "helmet/cap_hat",
+  "uber": "helmet/cap_hat",
+  "ultra": "helmet/cap_hat"
 } }
 ]

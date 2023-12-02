@@ -218,59 +218,95 @@
                 "activateOnMessage": "CharacterSelect:SelectAct:Act5"
             }
         },
-       
         {
-            "type": "ButtonWidget", "name": "QuickPlayButton",
+            "type": "ButtonWidget", "name": "Normal",
             "fields": {
+                "rect": { "x": -286, "y": 1940, "width": 408 },
                 "anchor": { "x": 0.5 },
-                "rect": { "x": -510, "y": 2025 },
-                "filename": "..\\..\\..\\ReMoDDeD\\MainMenu\\PlayBtn",
-                "textString": "@PlayTab",
-                "focusIndicatorFilename": "Controller/HoverImages/FrontEndButtonLarge_Hover",
+                "filename": "..\\..\\..\\ReMoDDeD\\MainMenu\\D1",
+                "hoveredFrame": 1,
+                "focusIndicatorFilename": "Controller/HoverImages/FrontEndButtonMed",
                 "focusIndicatorOffset": { "x": 0, "y": 0 },
-                "onClickMessage": "MainMenuHD:Play",
-               // "text/style": "$StyleFEButtonText",
-                "pointSize": "$ExtraLargeFontSize",
-                "textColor": "$FontColorBonesyRed",
-                "hoveredFrame": 3,
-                "disabledFrame": 2,
-                "disabledTint": { "a": 1.0 },
-                "sound": "cursor_launch_game_hd",
-                "navigation": {
-                    "down": { "name": "OnlinePlaySettingsButton" },
-                    "left": { "panelBoundary": true },
-                    "right": { "name": "SecondaryContextButton" }
-                }
-            }
-        },
-        /*
-        {
-            "type": "ImageWidget", "name": "Divider",
-            "fields": {
-            "anchor": {"x": 0.5},
-			"rect": { "x": -17, "y": 1827 },
-			"filename": "FrontEnd/HD/Final/FrontEnd_Divider" },
-        },
-        */
-        {
-            "type": "ButtonWidget", "name": "SecondaryContextButton",
-            "fields": {
-                "anchor": {"x": 0.5 },
-                "rect": { "x": 1380, "y": 1845 },
-                "filename": "Blank",
                 "textString": "",
-                "onClickMessage": "FrontEndNavigation:ToLobby",
-                "text/style": "$StyleFEButtonText",
-                "focusIndicatorFilename": "Controller/HoverImages/FrontEndButtonLarge_Hover",
-                "focusIndicatorOffset": { "x": 0, "y": 0 },
-                "hoveredFrame": 3,
-                "disabledFrame": 2,
-                "disabledTint": {"a": 1.0 },
-                "navigation": {
-                    "left": { "name": "QuickPlayButton" },
-                    "right": { "panelBoundary": true }
+                "onClickMessage": "CharacterSelect:LoadCharacter:0",
+                "textColor": "$LightButtonTextColor",
+                "text/style" : "$StyleFEButtonText",
+            },
+            "children": [
+                {
+                    "type": "TextBoxWidget", "name": "ModName",
+                            "fields": {
+                                "rect": { "x": -15, "y": 100, "width": 400 },
+                                "text":"@strCreateGameNormalText",
+                                "style": {
+                                    "fontColor": "$CharacterListDetailsColor",
+                                    "pointSize": "$MediumFontSize",
+                                    "spacing": "$ReducedSpacing",
+                                    "dropShadow": "$DefaultDropShadow"
+                                }
+                            }
                 }
-            }
+            ]
+        },
+        {
+            "type": "ButtonWidget", "name": "Nightmare",
+            "fields": {
+                "rect": { "x": -86, "y": 1940, "width": 408 },
+                "anchor": { "x": 0.5 },
+                "filename": "..\\..\\..\\ReMoDDeD\\MainMenu\\D2",
+                "hoveredFrame": 1,
+                "focusIndicatorFilename": "Controller/HoverImages/FrontEndButtonMed",
+                "focusIndicatorOffset": { "x": 0, "y": 0 },
+                "textString": "",
+                "onClickMessage": "CharacterSelect:LoadCharacter:1",
+                "textColor": "$LightButtonTextColor",
+                "text/style" : "$StyleFEButtonText",
+            },
+            "children": [
+                {
+                    "type": "TextBoxWidget", "name": "ModName",
+                            "fields": {
+                                "rect": { "x": -40, "y": 100, "width": 400 },
+                                "text":"@strCreateGameNightmareText",
+                                "style": {
+                                    "fontColor": "$CharacterListDetailsColor",
+                                    "pointSize": "$MediumFontSize",
+                                    "spacing": "$ReducedSpacing",
+                                    "dropShadow": "$DefaultDropShadow"
+                                }
+                            }
+                }
+            ]
+        },
+        {
+            "type": "ButtonWidget", "name": "Hell",
+            "fields": {
+                "rect": { "x": 114, "y": 1940, "width": 408 },
+                "anchor": { "x": 0.5 },
+                "filename": "..\\..\\..\\ReMoDDeD\\MainMenu\\D3",
+                "hoveredFrame": 1,
+                "focusIndicatorFilename": "Controller/HoverImages/FrontEndButtonMed",
+                "focusIndicatorOffset": { "x": 0, "y": 0 },
+                "textString": "",
+                "onClickMessage": "CharacterSelect:LoadCharacter:2",
+                "textColor": "$LightButtonTextColor",
+                "text/style" : "$StyleFEButtonText",
+            },
+            "children": [
+                {
+                    "type": "TextBoxWidget", "name": "ModName",
+                            "fields": {
+                                "rect": { "x": 13, "y": 100, "width": 400 },
+                                "text":"@strCreateGameHellText",
+                                "style": {
+                                    "fontColor": "$CharacterListDetailsColor",
+                                    "pointSize": "$MediumFontSize",
+                                    "spacing": "$ReducedSpacing",
+                                    "dropShadow": "$DefaultDropShadow"
+                                }
+                            }
+                }
+            ]
         }
     ]
 }

@@ -164,7 +164,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Storage Bag + Twisted Essence of Suffering = 50% chance of 5-10 Gems",
+                                        "text": "Storage Bag + Twisted Essence of Suffering = Storage Bag (+2-5 Gems)",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -176,7 +176,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Storage Bag + Charged Essense of Hatred = 50% chance of 1-3 High Rune Points",
+                                        "text": "Storage Bag + Charged Essense of Hatred = Storage Bag (+2-4 High Rune Points)",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -188,7 +188,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Storage Bag + Burning Essence of Terror = 50% chance of 1-3 Set Cores",
+                                        "text": "Storage Bag + Burning Essence of Terror = Storage Bag (+1-2 Set Cores)",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -200,7 +200,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Storage Bag + Festering Essence of Destruction = 50% chance of 1-3 Unique Cores",
+                                        "text": "Storage Bag + Festering Essence of Destruction = Storage Bag (+1-2 Unique Cores)",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
