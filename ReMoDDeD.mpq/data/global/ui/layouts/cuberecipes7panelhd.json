@@ -97,7 +97,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Berserker's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -105,7 +105,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Cow King's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -147,7 +147,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Vidala's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -155,7 +155,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Milabrega's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -163,7 +163,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Bul Kathos'",
                                         "style": "$RWInfo"
                                     }
                                 }
@@ -197,7 +197,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Holy Vessel's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -205,7 +205,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Majestic Lancer's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -247,7 +247,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Angelic's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -255,7 +255,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Disciple's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -263,7 +263,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Holy Vessel's",
                                         "style": "$RWInfo"
                                     }
                                 }
@@ -347,7 +347,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Sigon's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -355,7 +355,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Orphan's Call's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -397,7 +397,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Hsaru's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -405,7 +405,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Natalya's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -413,7 +413,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Stacatomamba's",
                                         "style": "$RWInfo"
                                     }
                                 }
@@ -447,7 +447,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Cleglaw's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -455,7 +455,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Rathma's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -547,7 +547,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Sigon's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -555,7 +555,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Angelic's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -563,7 +563,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Heaven's Brethren",
                                         "style": "$RWInfo"
                                     }
                                 }
@@ -647,7 +647,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Natalya's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -655,7 +655,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Kreigur's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -797,7 +797,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Infernal's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -805,7 +805,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Aldur's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -813,7 +813,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Unknown",
+                                        "text": " Immortal King's",
                                         "style": "$RWInfo"
                                     }
                                 }

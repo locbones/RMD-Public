@@ -13,7 +13,7 @@
     "LeftPanelRectHM": { "x": 521, "y": -861, "width": 1362, "height": 1707 },
     "RightPanelRect": { "x": -1140, "y": -856, "width": 1562, "height": 1707 },
     "RightPanelRectS": { "x": -1095, "y": -856, "width": 1562, "height": 1707 },
-    "PanelClickCatcherRect": { "x": 0, "y": 0, "width": 1162, "height": 1487 },
+    "PanelClickCatcherRect": { "x": 0, "y": 0, "width": 1132, "height": 1487 },
     "PanelClickCatcherRectS": { "x": 0, "y": 0, "width": 1262, "height": 1427 },
     "PanelClickCatcherRectC": { "x": 0, "y": 0, "width": 1362, "height": 1487 },
     "PanelClickCatcherRectHM": { "x": 0, "y": -200, "width": 1362, "height": 1487 },
@@ -373,8 +373,15 @@
         "alignment": { "h": "left", "v": "center" },
         "options": { "lineWrap": true }
     },
+    "StyleSettingsTextSkillLLB": {
+        "fontColor": "$FontColorGoldYellow",
+        "pointSize": "$MediumPanelFontSize",
+        "spacing" : "$ReducedSpacing",
+        "alignment": { "h": "left", "v": "center" },
+        "options": { "lineWrap": true }
+    },
     "StyleSettingsTextSkillC": {
-        "fontColor": "$FontColorLightGold",
+        "fontColor": "$FontColorLightLightBlue",
         "pointSize": "$MediumPanelFontSize",
         "spacing" : "$ReducedSpacing",
         "alignment": { "h": "center", "v": "top" },
@@ -498,7 +505,7 @@
         "drawBorder": false,
         "centeredOnAnchor": true,
         "hp": 0,
-        "backgroundColor": [ 0, 0, 0, 0.75 ],
+        "backgroundColor": [ 0, 0, 0, 1.0 ],
         // This color is used for in-game tooltip label backgrounds
         "inGameBackgroundColor": [ 0, 0, 0, 0.6 ],
         // This color is used for the show items selected label background
@@ -564,6 +571,7 @@
     "RecipeScrollBarBackgroundRect": { "x": 0, "y": 0 },
     "OptionsTableColumn1": { "width": 1000, "alignment": { "h": "fit", "v": "fit" } },
     "OptionsTableColumn2": { "width": 700, "alignment": { "h": "center", "v": "center" } },
+    "OptionsTableColumn2p": { "width": 1000, "alignment": { "h": "fit", "v": "fit" } },
     "CraftOptionsTableColumn1": { "width": 970, "alignment": { "h": "fit", "v": "fit" } },
     "CraftOptionsTableColumn2": { "width": 700, "alignment": { "h": "center", "v": "center" } },
     "RWWOptionsTableColumn1": { "width": 425, "alignment": { "h": "left", "v": "center" } },
@@ -607,7 +615,7 @@
 
     "OptionsSliderFocusIndicatorPadding": { "left": 3, "right": 3 },
     "OptionsDividerRect": { "x": 0, "y": 90 },
-    "CubeOptionsDividerRect": { "x": 0, "y": 60 },
+    "CubeOptionsDividerRect": { "x": 10, "y": 70 },
     "RWOptionsDividerRect": { "x": 0, "y": 75 },
     "RMDOptionsDividerRect": { "x": 0, "y": 45 },
     "OptionsToggleRect": { "width": 70, "height": 70 },

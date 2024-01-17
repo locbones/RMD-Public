@@ -768,7 +768,7 @@
   { "IN5": { "asset": "..//custom/never_melt" } },
   { "IN6": { "asset": "..//custom/charge_vein" } },
   { "IN7": { "asset": "..//custom/life_spark" } },
-  { "TK0": { "asset": "..//custom/token_global" } },
+  { "TK0": { "asset": "..//custom/evil_token" } },
   { "TK1": { "asset": "..//custom/token_amazon" } },
   { "TK2": { "asset": "..//custom/token_sorceress" } },
   { "TK3": { "asset": "..//custom/token_necromancer" } },

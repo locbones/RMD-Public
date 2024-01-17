@@ -9,7 +9,7 @@
         {
             "type": "ClickCatcherWidget", "name": "click_catcher",
             "fields": {
-                "rect": { "x": 300, "y": -200, "width": 1612, "height": 1667 }
+                "rect": { "x": 300, "y": -200, "width": 1352, "height": 1667 }
             }
         },
         {

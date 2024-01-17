@@ -164,7 +164,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Storage Bag + Twisted Essence of Suffering = Storage Bag (+2-5 Gems)",
+                                        "text": "Storage Bag + Twisted Essence of Suffering = Storage Bag (+4-7 Gems)",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -176,7 +176,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Storage Bag + Charged Essense of Hatred = Storage Bag (+2-4 High Rune Points)",
+                                        "text": "Storage Bag + Charged Essense of Hatred = Storage Bag (+1-3 High Rune Points)",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -188,7 +188,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Storage Bag + Burning Essence of Terror = Storage Bag (+1-2 Set Cores)",
+                                        "text": "Storage Bag + Burning Essence of Terror = Storage Bag (+3-6 Set Cores)",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -200,7 +200,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Storage Bag + Festering Essence of Destruction = Storage Bag (+1-2 Unique Cores)",
+                                        "text": "Storage Bag + Festering Essence of Destruction = Storage Bag (+3-6 Unique Cores)",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -314,7 +314,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Storage Bag (XX Unique Cores) + Item + Magic Ring = Blood Contract (Unique)",
+                                        "text": "Storage Bag (XX Unique Cores) + Item + Thawing Potion = Blood Contract (Unique)",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -326,7 +326,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Storage Bag (XX Set Cores) + Item + Magic Amulet = Blood Contract (Set)",
+                                        "text": "Storage Bag (XX Set Cores) + Item + Antidote Potion = Blood Contract (Set)",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -338,7 +338,19 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "- Weapons cost 10 cores, Armor/Jewelry costs 25 cores",
+                                        "text": "Weapons cost 10 cores, Armor/Jewelery/Quiver costs 25 cores",
+                                        "style": "$RecipeSettingsTextFlatBlue"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Weapon and Jewelery/Quiver results will be random, Armor will be based on armor type",
                                         "style": "$RecipeSettingsTextFlatBlue"
                                     }
                                 }
@@ -538,7 +550,43 @@
                                     }
                                 }
                             ]
-                        }
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "2x Keys of Terror = 1x Key of Hate",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "2x Keys of Hate = 1x Key of Destruction",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "2x Keys of Destruction = 1x Key of Terror",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
                     ]
                 }
             ]

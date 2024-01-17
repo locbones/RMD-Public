@@ -160,6 +160,11 @@
             "type": "AnimationItem",
             "name": "1st_doubleswing",
             "filename": "data/hd/character/player/barbarian/animation/1st_doubleswing.animation"
+        },
+        {
+            "type": "AnimationItem",
+            "name": "whirlwind",
+            "filename": "data/hd/character/enemy/ancientbarb1/animation/whirlwind.animation"
         }
     ],
     "states": [
@@ -1100,6 +1105,63 @@
                 ],
                 "1st": [
                     "1st_doubleswing"
+                ]
+            },
+            "enterEvents": [],
+            "exitEvents": []
+        },
+        {
+            "type": "AnimationState",
+            "name": "AnimationState",
+            "_name": "Seq_Whirlwind",
+            "audioId": "",
+            "loopCount": 0,
+            "stateId": 23,
+            "modeId": 18,
+            "skillIndex": 151,
+            "stepIndex": 0,
+            "animationBindings": {
+                "hth": [
+                    "whirlwind"
+                ],
+                "bow": [
+                    "whirlwind"
+                ],
+                "1hs": [
+                    "whirlwind"
+                ],
+                "1ht": [
+                    "whirlwind"
+                ],
+                "stf": [
+                    "whirlwind"
+                ],
+                "2hs": [
+                    "whirlwind"
+                ],
+                "2ht": [
+                    "whirlwind"
+                ],
+                "xbw": [
+                    "whirlwind"
+                ],
+                "1js": [
+                    "whirlwind"
+                ],
+                "1jt": [
+                    "whirlwind"
+                ],
+                "1ss": [
+                    "whirlwind"
+                ],
+                "1st": [
+                    "whirlwind"
+                ],
+                "ht1": [
+                    "whirlwind"
+                ],
+                "ht2": [
+                    "whirlwind"
                 ]
             },
             "enterEvents": [],

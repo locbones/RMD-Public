@@ -76,6 +76,273 @@ I::::::::I    tt::::::::::::::t e::::::::eeeeeeee  m::::m   m::::m   m::::m
 I::::::::I      tt:::::::::::tt  ee:::::::::::::e  m::::m   m::::m   m::::m
 IIIIIIIIII        ttttttttttt      eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
 */
+                        {
+                            "type": "TableRowWidget", "name": "Itemization",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ItemizationT",
+                                    "fields": {
+                                        "text": "Kills, Deaths and Charm Weights",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$RMDOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": " - Kills, Deaths and Weight will affect these stats: ",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "NPCSpeech",
+                                    "fields": {
+                                        "rect": "$OptionsDropDownRect",
+                                        "background/rect": "$OptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ "Mana Regen %", "Faster Run/Walk", "+All Skills", "Dexterity",  "Max HP %", "Light Radius" ],
+                                        "onUpdateMessage": "OptionsPanelMessage:Close",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "navigation": {
+                                            "down": { "name": "Resolution" }
+                                        },
+                                        "tooltipString": "Rewards & Penalties",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                        
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": "Kill and Death Modifiers:",
+                                        "style": "$RecipeSettingsTextFlatBlue"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Grants +1 Max HP% for every 10,000 kills (No Max)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Grants +1 Spell, Combat and Summoning Power for every 500,000 kills (Max +10)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Grants +1 All Skills for every 1,000,000 kills (No Max)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Penalizes -1% Max HP for every death (Max -50%)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Penalizes -1% Mana Regen for every death (No Max)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Penalizes -1 Light Radius for every 10 deaths (Max -5)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": "Charm Weight Modifiers:",
+                                        "style": "$RecipeSettingsTextFlatBlue"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Start with +80% Mana Regen, then penalized -1% for every weight used",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Start with +40% Faster Run/Walk, then penalized -1% for every weight used",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Start with +3 All Skills, then penalized as follows:",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "NPCSpeech",
+                                    "fields": {
+                                        "rect": "$OptionsDropDownRect",
+                                        "background/rect": "$OptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ "Weight 1-20: +2 All Skills", "Weight 21-40: +1 All Skills", "Weight 41-60: No Change", "Weight 61-80: -1 All Skills" ],
+                                        "onUpdateMessage": "OptionsPanelMessage:Close",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "navigation": {
+                                            "down": { "name": "Resolution" }
+                                        },
+                                        "tooltipString": "Rewards & Penalties",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                        
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Start with +20 Dex, then penalized as follows:",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "NPCSpeech",
+                                    "fields": {
+                                        "rect": "$OptionsDropDownRect",
+                                        "background/rect": "$OptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ "Weight 1-20: +10 Dexterity", "Weight 21-40: No Change", "Weight 41-60: -15 Dexterity", "Weight 61-80: -30 Dexterity" ],
+                                        "onUpdateMessage": "OptionsPanelMessage:Close",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "navigation": {
+                                            "down": { "name": "Resolution" }
+                                        },
+                                        "tooltipString": "Rewards & Penalties",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                        
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": "",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
                          {
                             "type": "TableRowWidget", "name": "Itemization",
                             "children": [

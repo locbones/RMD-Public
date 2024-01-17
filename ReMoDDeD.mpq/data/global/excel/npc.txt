@@ -1,0 +1,18 @@
+npc	buy mult	sell mult	rep mult	questflag A	questbuymult A	questsellmult A	questrepmult A	questflag B	questbuymult B	questsellmult B	questrepmult B	questflag C	questbuymult C	questsellmult C	questrepmult C	max buy	max buy (N)	max buy (H)
+gheed	512	1088	128	4	1024	922	1024									69	69	69
+charsi	512	960	128	4	1024	922	1024									69	69	69
+akara	512	1024	128	4	1024	922	1024									69	69	69
+lysander	512	1024	128	9	1024	922	1024									69	69	69
+drognan	512	1024	128	9	1024	922	1024									69	69	69
+elzix	512	1024	128	9	1024	922	1024									69	69	69
+fara	512	1024	128	9	1024	922	1024									69	69	69
+hratli	512	1024	128	17	1024	922	1024									69	69	69
+alkor	512	1024	128	17	1024	922	1024									69	69	69
+ormus	512	1024	128	17	1024	922	1024									69	69	69
+asheara	512	1024	128	17	1024	922	1024									69	69	69
+jamella	512	1024	128													69	69	69
+halbu	512	1024	128													69	69	69
+malah	512	2048	128	35	1024	512	1024									69	69	69
+drehya	512	2048	128	35	1024	512	1024									69	69	69
+larzuk	512	2048	128	35	1024	512	1024									69	69	69
+nihlathak	512	2048	128	35	1024	512	1024									69	69	69

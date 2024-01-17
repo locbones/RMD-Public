@@ -1,0 +1,348 @@
+*RuneName	Name	complete	firstLadderSeason	lastLadderSeason	*Patch Release	itype1	itype2	itype3	itype4	itype5	itype6	etype1	etype2	etype3	*RunesUsed	Rune1	Rune2	Rune3	Rune4	Rune5	Rune6	T1Code1	T1Param1	T1Min1	T1Max1	T1Code2	T1Param2	T1Min2	T1Max2	T1Code3	T1Param3	T1Min3	T1Max3	T1Code4	T1Param4	T1Min4	T1Max4	T1Code5	T1Param5	T1Min5	T1Max5	T1Code6	T1Param6	T1Min6	T1Max6	T1Code7	T1Param7	T1Min7	T1Max7	*eol
+Amity	Runeword43	1			New to Modv1.0	belt									Mal El	r23	r01					balance		24	24	sum-all		10	25	skill	Summon Mastery	3	5	mana%		10	10	cast		15	15	vit		10	10					0
+Ancients' Pledge	Runeword1	1			109	shld									Ral Ort Tal	r08	r09	r07				res-cold		20	20	res-all		13	13	ac%		50	50	dmg-to-mana		10	10	dmg%		30	30									0
+Ancients' Pledge	Runeword1	1			109	shld									Ral Ort Tal	jew	r08	r09	r07			res-cold		20	20	res-all		13	13	ac%		50	50	dmg-to-mana		10	10	dmg%		30	30									0
+Armageddon	Runeword2	1			New to Modv1.0	boot									Shael Cham Hel	r13	r32	r15				gethit-skill	CTC_Blaze	5	25	hit-skill	Overheat	1	5	res-fire		30	55	move		20	20	ac%		120	210	balance		24	24	crush		5	10	0
+Authority	Runeword3	1			New to Modv1.0	glov									Tir Ort	r03	r09					balance		12	12	swing		10	10	lifesteal		1	5	fire-thorns		4	4	ac%		15	50									0
+Authority	Runeword3	1			New to Modv1.0	glov									Tir Ort	jew	r03	r09				balance		12	12	swing		10	10	lifesteal		1	5	fire-thorns		4	4	ac%		15	50									0
+Beast	Runeword4	1			110	axe	scep	hamm							Ber Tir Um Mal Lum	r30	r03	r22	r23	r17		swing		40	40	aura	Fanaticism	9	9	dmg%		240	270	str		25	40	charged	Grizzly	5	13	oskill	BeastBear	3	3	oskill	Frost Bite	3	3	0
+Beast	Runeword4	1			110	axe	scep	hamm							Ber Tir Um Mal Lum	jew	r30	r03	r22	r23	r17	swing		40	40	aura	Fanaticism	9	9	dmg%		240	270	str		25	40	charged	Grizzly	5	13	oskill	BeastBear	3	3	oskill	Frost Bite	3	3	0
+Beauty	Runeword5	1			New to Modv1.0	belt									Lem Gul	r20	r25					aura	Sanctuary_I	1	12	gethit-skill	CTC_ShiverArmor	5	5	ac%		75	150	balance		14	24	caststat		20	20	ext-missile		1	3					0
+Black	Runeword6	1			109	club	hamm	mace							Thul Io Nef	r10	r16	r04				crush		20	20	dmg%		120	120	swing		15	15	red-mag		2	2	att		200	200	charged	Corpse Explosion	12	4					0
+Black	Runeword6	1			109	club	hamm	mace							Thul Io Nef	jew	r10	r16	r04			crush		20	20	dmg%		120	120	swing		15	15	red-mag		2	2	att		200	200	charged	Corpse Explosion	12	4					0
+Black	Runeword6	1			109	club	hamm	mace							Thul Io Nef	jew	jew	r10	r16	r04		crush		20	20	dmg%		120	120	swing		15	15	red-mag		2	2	att		200	200	charged	Corpse Explosion	12	4					0
+Black	Runeword6	1			109	club	hamm	mace							Thul Io Nef	jew	jew	jew	r10	r16	r04	crush		20	20	dmg%		120	120	swing		15	15	red-mag		2	2	att		200	200	charged	Corpse Explosion	12	4					0
+Blood	Runeword7	1			New to Modv1.0	glov									Ko Fal	r18	r19					openwounds		1	5	heal-perhit		4	10	glovestat		20	25	regen		4	9	hit-skill	CTC_LifeTap	2	2									0
+Blood	Runeword7	1			New to Modv1.0	glov									Ko Fal	jew	r18	r19				openwounds		1	5	heal-perhit		4	10	glovestat		20	25	regen		4	9	hit-skill	CTC_LifeTap	2	2									0
+Bone	Runeword8	1			111	tors									Sol Um Um	r12	r22	r22				hit-skill	CTC_BoneSpear	15	10	nec		2	2	mana		100	150	extra-mag		10	15													0
+Bone	Runeword8	1			111	tors									Sol Um Um	jew	r12	r22	r22			hit-skill	CTC_BoneSpear	15	10	nec		2	2	mana		100	150	extra-mag		10	15													0
+Bramble	Runeword9	1			110	tors									Ral Ohm Sur Eth	r08	r27	r29	r05			balance		50	50	ac		300	300	aura	Thorns	15	21	heal-kill		13	13	extra-pois		25	50	res-pois		100	100	charged	CHARGE_Spirit_of_Barbs	33	13	0
+Brand	Runeword10	1			Previously Ladder Only	miss									Jah Lo Mal Gul	r31	r28	r23	r25			dmg%		260	340	dmg-demon		280	330	hit-skill	CTC_BoneSpear	100	18	gethit-skill	CTC_TearDown	35	14	noheal		1	1	explosivearrow		15	15					0
+Brand	Runeword10	1			Previously Ladder Only	miss									Jah Lo Mal Gul	jew	r31	r28	r23	r25		dmg%		260	340	dmg-demon		280	330	hit-skill	CTC_BoneSpear	100	18	gethit-skill	CTC_TearDown	35	14	noheal		1	1	explosivearrow		15	15					0
+Brand	Runeword10	1			Previously Ladder Only	miss									Jah Lo Mal Gul	jew	jew	r31	r28	r23	r25	dmg%		260	340	dmg-demon		280	330	hit-skill	CTC_BoneSpear	100	18	gethit-skill	CTC_TearDown	35	14	noheal		1	1	explosivearrow		15	15					0
+Breath of the Dying	Runeword11	1			110	weap									Vex Hel El Eld Zod Eth	r26	r15	r01	r02	r33	r05	swing		60	60	dmg-undead		125	125	lifesteal		12	15	noheal		1	1	kill-skill	CTC_PoisonNova	50	20	dmg%		350	400	all-stats		30	30	0
+Broken Promise	Runeword12	1			New to Modv1.0	glov									El Tir	r01	r03					glovestat		10	15	dmg%		5	15	crush		3	3	hp		5	15	mana		0	15									0
+Broken Promise	Runeword12	1			New to Modv1.0	glov									El Tir	jew	r01	r03				glovestat		10	15	dmg%		5	15	crush		3	3	hp		5	15	mana		0	15									0
+Call to Arms	Runeword13	1			110	weap									Amn Ral Mal Ist Ohm	r11	r08	r23	r24	r27		swing		40	40	dmg%		200	240	allskills		1	1	oskill	War Stance	2	6	oskill	Shout	1	6	oskill	Battle Cry	1	4	regen		12	12	0
+Call to Arms	Runeword13	1			110	weap									Amn Ral Mal Ist Ohm	jew	r11	r08	r23	r24	r27	swing		40	40	dmg%		200	240	allskills		1	1	oskill	War Stance	2	6	oskill	Shout	1	6	oskill	Battle Cry	1	4	regen		12	12	0
+Chains of Honor	Runeword14	1			110	tors									Dol Um Ber Ist	r14	r22	r30	r24			res-all		50	50	ac%		70	70	dmg-demon		200	200	dmg-undead		100	100	lifesteal		8	8	allskills		2	2	str		20	20	0
+Chance	Runeword15	1			New to Modv1.0	boot									Ist Shael Um	r24	r13	r22				mag%		5	15	gold%		60	200	move		30	30	all-stats%		1	5													0
+Chaos	Runeword16	1			110	h2h	h2h2	kata							Fal Ohm Um	r19	r27	r22				demon-heal		15	15	dmg%		240	290	dmg-mag		216	471	oskill	Whirlwind	1	1	swing		35	35	hit-skill	CTC_FrozenOrb	9	11	hit-skill	CTC_ChargedBolt	11	9	0
+Chaos	Runeword16	1			110	h2h	h2h2	kata							Fal Ohm Um	jew	r19	r27	r22			demon-heal		15	15	dmg%		240	290	dmg-mag		216	471	oskill	Whirlwind	1	1	swing		35	35	hit-skill	CTC_FrozenOrb	9	11	hit-skill	CTC_ChargedBolt	11	9	0
+Crescent Moon	Runeword17	1			110	axe	swor	pole							Shael Um Tir	r13	r22	r03				pierce-ltng		35	35	ignore-ac		1	1	dmg%		180	220	abs-mag		9	11	charged	Fenris	30	18	hit-skill	CTC_StaticField	7	13	hit-skill	CTC_ChainLightning	10	17	0
+Crescent Moon	Runeword17	1			110	axe	swor	pole							Shael Um Tir	jew	r13	r22	r03			pierce-ltng		35	35	ignore-ac		1	1	dmg%		180	220	abs-mag		9	11	charged	Fenris	30	18	hit-skill	CTC_StaticField	7	13	hit-skill	CTC_ChainLightning	10	17	0
+Crescent Moon	Runeword17	1			110	axe	swor	pole							Shael Um Tir	jew	jew	r13	r22	r03		pierce-ltng		35	35	ignore-ac		1	1	dmg%		180	220	abs-mag		9	11	charged	Fenris	30	18	hit-skill	CTC_StaticField	7	13	hit-skill	CTC_ChainLightning	10	17	0
+Crescent Moon	Runeword17	1			110	axe	swor	pole							Shael Um Tir	jew	jew	jew	r13	r22	r03	pierce-ltng		35	35	ignore-ac		1	1	dmg%		180	220	abs-mag		9	11	charged	Fenris	30	18	hit-skill	CTC_StaticField	7	13	hit-skill	CTC_ChainLightning	10	17	0
+Darkness	Runeword18	1			New to Modv1.0	belt									Hel El	r15	r01					balance		24	24	ac		40	75	oskill	Cloak of Shadows	5	5	stupidity		2	2	res-mag		10	10									0
+Daylight	Runeword19	1			New to Modv1.0	glov	boot								Eld Tir	r02	r03					light		5	5	res-fire		10	15	res-ltng		10	15	ac		10	15													0
+Daylight	Runeword19	1			New to Modv1.0	glov	boot								Eld Tir	jew	r02	r03				light		5	5	res-fire		10	15	res-ltng		10	15	ac		10	15													0
+Death	Runeword20	1			Previously Ladder Only	swor	axe								Hel El Vex Ort Gul	r15	r01	r26	r09	r25		dmg%		300	385	deadly/lvl	4			charged	Blood Golem	15	22	att-skill	CTC_GlacialSpike	25	18	death-skill	CTC_ChainLightning	100	44	crush		50	50	indestruct		1	1	0
+Death	Runeword20	1			Previously Ladder Only	swor	axe								Hel El Vex Ort Gul	jew	r15	r01	r26	r09	r25	dmg%		300	385	deadly/lvl	4			charged	Blood Golem	15	22	att-skill	CTC_GlacialSpike	25	18	death-skill	CTC_ChainLightning	100	44	crush		50	50	indestruct		1	1	0
+Deception	Runeword21	1			New to Modv1.0	scyt	mele	thro							AmnShael	r11	r13					dmg%		85	170	pierce		33	33	rep-quant	100			ext-missile		1	1	slow/dex	1			att		40	110					0
+Deception	Runeword21	1			New to Modv1.0	scyt	mele	thro							AmnShael	jew	r11	r13				dmg%		85	170	pierce		33	33	rep-quant	100			ext-missile		1	1	slow/dex	1			att		40	110					0
+Deception	Runeword21	1			New to Modv1.0	scyt	mele	thro							AmnShael	jew	jew	r11	r13			dmg%		85	170	pierce		33	33	rep-quant	100			ext-missile		1	1	slow/dex	1			att		40	110					0
+Delirium	Runeword22	1			110	helm									Lem Ist Io	r20	r24	r16				hit-skill	CTC_Confuse	11	18	gethit-skill	CTC_Terror	14	13	ac		261	261	gethit-skill	CTC_MindBlast	6	14	gethit-skill	Delerium Change	1	50	allskills		2	2	charges	Attract	7	60	0
+Desire	Runeword23	1			New to Modv1.0	orb									Lum Io	r17	r16					cast/enr	1			sor		1	2	mana/lvl	16			ac-miss		100	250	res-all		5	15	regen		1	10	cdr		5	15	0
+Desire	Runeword23	1			New to Modv1.0	orb									Lum Io	jew	r17	r16				cast/enr	1			sor		1	2	mana/lvl	16			ac-miss		100	250	res-all		5	15	regen		1	10	cdr		5	15	0
+Despair	Runeword24	1			New to Modv1.0	glov									Nef Amn	r04	r11					str%		1	5	dmg%		15	30	swing		20	20	ac%		50	85	deadly/dex	1			regen		-10	-10					0
+Despair	Runeword24	1			New to Modv1.0	glov									Nef Amn	jew	r04	r11				str%		1	5	dmg%		15	30	swing		20	20	ac%		50	85	deadly/dex	1			regen		-10	-10					0
+Destruction	Runeword25	1			Previously Ladder Only	pole	swor								Vex Lo Ber Jah Ko	r26	r28	r30	r31	r18		dmg%		350	350	dmg-mag		100	180	hit-skill	CTC_MoltenBoulder	5	23	death-skill	CTC_Meteor	100	45	att-skill	CTC_Nova	15	22	hit-skill	CTC_Volcano	23	12	noheal		1	1	0
+Destruction	Runeword25	1			Previously Ladder Only	pole	swor								Vex Lo Ber Jah Ko	jew	r26	r28	r30	r31	r18	dmg%		350	350	dmg-mag		100	180	hit-skill	CTC_MoltenBoulder	5	23	death-skill	CTC_Meteor	100	45	att-skill	CTC_Nova	15	22	hit-skill	CTC_Volcano	23	12	noheal		1	1	0
+Doom	Runeword26	1			110	axe	pole	hamm							Hel Ohm Um Lo Cham	r15	r27	r22	r28	r32		dmg%		280	320	aura	Holy Freeze	12	12	swing		45	45	noheal		1	1	pierce-cold		40	60	allskills		2	2	hit-skill	CTC_Volcano	5	18	0
+Doom	Runeword26	1			110	axe	pole	hamm							Hel Ohm Um Lo Cham	jew	r15	r27	r22	r28	r32	dmg%		280	320	aura	Holy Freeze	12	12	swing		45	45	noheal		1	1	pierce-cold		40	60	allskills		2	2	hit-skill	CTC_Volcano	5	18	0
+Dragon	Runeword27	1			Previously Ladder Only	tors	shld								Sur Lo Sol	r29	r28	r12				ac		360	360	ac-miss		230	230	str/lvl	3			oskill	Hydra	5	12	gethit-skill	CTC_Venom	20	18	aura	Holy Fire	14	14	all-stats		3	5	0
+Dragon	Runeword27	1			Previously Ladder Only	tors	shld								Sur Lo Sol	jew	r29	r28	r12			ac		360	360	ac-miss		230	230	str/lvl	3			oskill	Hydra	5	12	gethit-skill	CTC_Venom	20	18	aura	Holy Fire	14	14	all-stats		3	5	0
+Dread	Runeword28	1			New to Modv1.0	comb									Um Gul Nef Ko	r22	r25	r04	r18			dmg%		110	220	howl		10	10	gethit-skill	CTC_Howl	5	5	rep-quant	100			swing		30	30	skill	Throwing Mastery	3	6	att		75	225	0
+Dream	Runeword29	1			Previously Ladder Only	helm	shld								Io Jah Pul	r16	r31	r21				ac		150	220	gethit-skill	CTC_Confuse	10	15	mana/lvl	5			res-all		5	20	balance		20	30	aura	Holy Shock	15	15	mag%		12	25	0
+Dream	Runeword29	1			Previously Ladder Only	helm	shld								Io Jah Pul	jew	r16	r31	r21			ac		150	220	gethit-skill	CTC_Confuse	10	15	mana/lvl	5			res-all		5	20	balance		20	30	aura	Holy Shock	15	15	mag%		12	25	0
+Duress	Runeword30	1			110	tors									Shael Um Thul	r13	r22	r10				dmg-cold	50	37	133	dmg%		10	20	ac%		150	200	balance		20	20	openwounds		25	25	crush		15	15					0
+Duress	Runeword30	1			110	tors									Shael Um Thul	jew	r13	r22	r10			dmg-cold	50	37	133	dmg%		10	20	ac%		150	200	balance		20	20	openwounds		25	25	crush		15	15					0
+Edge	Runeword31	1			Previously Ladder Only	miss									Tir Tal Amn	r03	r07	r11				dmg-demon		320	380	dmg-undead		280	280	swing		35	35	noheal		1	1	aura	Thorns	15	15	all-stats		5	10					0
+Edge	Runeword31	1			Previously Ladder Only	miss									Tir Tal Amn	jew	r03	r07	r11			dmg-demon		320	380	dmg-undead		280	280	swing		35	35	noheal		1	1	aura	Thorns	15	15	all-stats		5	10					0
+Edge	Runeword31	1			Previously Ladder Only	miss									Tir Tal Amn	jew	jew	r03	r07	r11		dmg-demon		320	380	dmg-undead		280	280	swing		35	35	noheal		1	1	aura	Thorns	15	15	all-stats		5	10					0
+Edge	Runeword31	1			Previously Ladder Only	miss									Tir Tal Amn	jew	jew	jew	r03	r07	r11	dmg-demon		320	380	dmg-undead		280	280	swing		35	35	noheal		1	1	aura	Thorns	15	15	all-stats		5	10					0
+Elation	Runeword32	1			New to Modv1.0	ajav									Ort Ist Ko	r09	r24	r18				dmg%		115	275	res-all		5	15	ama		1	2	skilltab	2	0	2	att%		25	25	rep-quant	100			swing		20	20	0
+Enigma	Runeword33	1			110	tors									Jah Ith Ber	r31	r06	r30				ac		750	775	heal-kill		14	14	move		45	45	str/lvl	6			allskills		2	2	mag%/lvl	8			oskill	Blink Strike	1	1	0
+Enigma	Runeword33	1			110	tors									Jah Ith Ber	jew	r31	r06	r30			ac		750	775	heal-kill		14	14	move		45	45	str/lvl	6			allskills		2	2	mag%/lvl	8			oskill	Blink Strike	1	1	0
+Enlightenment	Runeword34	1			111	tors									Pul Ral Sol	r21	r08	r12				hit-skill	CTC_FireBall	5	15	gethit-skill	CTC_Blaze	5	15	sor		2	2	oskill	Warmth	1	1													0
+Enlightenment	Runeword34	1			111	tors									Pul Ral Sol	jew	r21	r08	r12			hit-skill	CTC_FireBall	5	15	gethit-skill	CTC_Blaze	5	15	sor		2	2	oskill	Warmth	1	1													0
+Envy	Runeword35	1			New to Modv1.0	glov									Eth Dol	r05	r14					dualsteal		3	5	dual%		-5	-5	glovestat		20	20	dmg%		10	15	deadly		3	5									0
+Envy	Runeword35	1			New to Modv1.0	glov									Eth Dol	jew	r05	r14				dualsteal		3	5	dual%		-5	-5	glovestat		20	20	dmg%		10	15	deadly		3	5									0
+Eternity	Runeword36	1			110	mele									Amn Ber Ist Sol Sur	r11	r30	r24	r12	r29		dmg%		260	310	slow		33	33	charged	Revive	88	8	regen		16	16	regen-mana		16	16	nofreeze		1	1	indestruct		1	1	0
+Eternity	Runeword36	1			110	mele									Amn Ber Ist Sol Sur	jew	r11	r30	r24	r12	r29	dmg%		260	310	slow		33	33	charged	Revive	88	8	regen		16	16	regen-mana		16	16	nofreeze		1	1	indestruct		1	1	0
+Exile	Runeword37	1			110	ashd									Vex Ohm Ist Dol	r26	r27	r24	r14			blockrate		30	30	freeze		1	1	ac%		220	260	aura	Defiance	13	16	skilltab	10	2	2	hit-skill	CTC_LifeTap	15	5	rep-dur	25			0
+Faith	Runeword38	1			"110, Previously Ladder Only"	miss									Ohm Jah Lem Eld	r27	r31	r20	r02			dmg%		280	280	att%		300	300	dmg-fire		120	120	res-all		15	15	aura	Fanaticism	12	15	reanimate	1	10	10	allskills		1	2	0
+Faith	Runeword38	1			"110, Previously Ladder Only"	miss									Ohm Jah Lem Eld	jew	r27	r31	r20	r02		dmg%		280	280	att%		300	300	dmg-fire		120	120	res-all		15	15	aura	Fanaticism	12	15	reanimate	1	10	10	allskills		1	2	0
+Faith	Runeword38	1			"110, Previously Ladder Only"	miss									Ohm Jah Lem Eld	jew	jew	r27	r31	r20	r02	dmg%		280	280	att%		300	300	dmg-fire		120	120	res-all		15	15	aura	Fanaticism	12	15	reanimate	1	10	10	allskills		1	2	0
+Famine	Runeword39	1				axe	hamm								Fal Ohm Ort Jah	r19	r27	r09	r31			dmg%		270	320	lifesteal		12	12	swing		30	30	noheal		1	1	dmg-mag		180	200	dmg-elem		50	200	ethereal		1	1	0
+Famine	Runeword39	1				axe	hamm								Fal Ohm Ort Jah	jew	r19	r27	r09	r31		dmg%		270	320	lifesteal		12	12	swing		30	30	noheal		1	1	dmg-mag		180	200	dmg-elem		50	200	ethereal		1	1	0
+Famine	Runeword39	1				axe	hamm								Fal Ohm Ort Jah	jew	jew	r19	r27	r09	r31	dmg%		270	320	lifesteal		12	12	swing		30	30	noheal		1	1	dmg-mag		180	200	dmg-elem		50	200	ethereal		1	1	0
+Flickering Flame	Runeword40	1			New to Modv1.0	orb									Tir Ral	r03	r08					fireskill		1	2	mana/lvl		8	16	res-cold		15	15	skill	Warmth	3	3	skill	Firestorm	3	3	cast		10	10					0
+Flickering Flame	Runeword40	1			New to Modv1.0	orb									Tir Ral	jew	r03	r08				fireskill		1	2	mana/lvl		8	16	res-cold		15	15	skill	Warmth	3	3	skill	Firestorm	3	3	cast		10	10					0
+Fortitude	Runeword41	1			Previously Ladder Only	weap	tors								El Sol Dol Lo	r01	r12	r14	r28			ac%		200	200	dmg%		300	300	cast		25	25	gethit-skill	CTC_ShiverArmor	20	15	dmg-to-mana		12	12	hp/lvl		8	12	res-all		25	30	0
+Fortitude	Runeword41	1			Previously Ladder Only	weap	tors								El Sol Dol Lo	jew	r01	r12	r14	r28		ac%		200	200	dmg%		300	300	cast		25	25	gethit-skill	CTC_ShiverArmor	20	15	dmg-to-mana		12	12	hp/lvl		8	12	res-all		25	30	0
+Fortitude	Runeword41	1			Previously Ladder Only	weap	tors								El Sol Dol Lo	jew	jew	r01	r12	r14	r28	ac%		200	200	dmg%		300	300	cast		25	25	gethit-skill	CTC_ShiverArmor	20	15	dmg-to-mana		12	12	hp/lvl		8	12	res-all		25	30	0
+Fortune	Runeword42	1			New to Modv1.0	miss									Ist Gul Mal Um	r24	r25	r23	r22			dmg%		100	100	dmg%/lvl	10			dex%		5	20	mag%/lvl	8			swing		30	30	gold%		50	200	oskill	Evasive Tactics	3	3	0
+Fortune	Runeword42	1			New to Modv1.0	miss									Ist Gul Mal Um	jew	r24	r25	r23	r22		dmg%		100	100	dmg%/lvl	10			dex%		5	20	mag%/lvl	8			swing		30	30	gold%		50	200	oskill	Evasive Tactics	3	3	0
+Fortune	Runeword42	1			New to Modv1.0	miss									Ist Gul Mal Um	jew	jew	r24	r25	r23	r22	dmg%		100	100	dmg%/lvl	10			dex%		5	20	mag%/lvl	8			swing		30	30	gold%		50	200	oskill	Evasive Tactics	3	3	0
+Fury	Runeword44	1			109	mele									Jah Gul Eth	r31	r25	r05				dmg%		209	209	swing		40	40	noheal		1	1	openwounds		33	33	lifesteal		6	6	deadly		33	33	skill	Frenzy	5	5	0
+Fury	Runeword44	1			109	mele									Jah Gul Eth	jew	r31	r25	r05			dmg%		209	209	swing		40	40	noheal		1	1	openwounds		33	33	lifesteal		6	6	deadly		33	33	skill	Frenzy	5	5	0
+Fury	Runeword44	1			109	mele									Jah Gul Eth	jew	jew	r31	r25	r05		dmg%		209	209	swing		40	40	noheal		1	1	openwounds		33	33	lifesteal		6	6	deadly		33	33	skill	Frenzy	5	5	0
+Fury	Runeword44	1			109	mele									Jah Gul Eth	jew	jew	jew	r31	r25	r05	dmg%		209	209	swing		40	40	noheal		1	1	openwounds		33	33	lifesteal		6	6	deadly		33	33	skill	Frenzy	5	5	0
+Gloom	Runeword45	1			110	tors									Fal Um Pul	r19	r22	r21				ac%		170	230	res-all		30	30	gethit-skill	CTC_DimVision	15	3	balance		10	10	dmg-to-mana		5	5	light		-2	-2	half-freeze		1	1	0
+Gloom	Runeword45	1			110	tors									Fal Um Pul	jew	r19	r22	r21			ac%		170	230	res-all		30	30	gethit-skill	CTC_DimVision	15	3	balance		10	10	dmg-to-mana		5	5	light		-2	-2	half-freeze		1	1	0
+Glory	Runeword46	1			New to Modv1.0	comb									Shael Ber Vex	r13	r30	r26				dmg%		225	310	swing		20	20	att/lvl	40			oskill	Throwing Mastery	5	5	pierce/dex	1			ext-missile		2	3	gold		300	300	0
+Glory	Runeword46	1			New to Modv1.0	comb									Shael Ber Vex	jew	r13	r30	r26			dmg%		225	310	swing		20	20	att/lvl	40			oskill	Throwing Mastery	5	5	pierce/dex	1			ext-missile		2	3	gold		300	300	0
+Grief	Runeword47	1			Previously Ladder Only	swor	axe								Eth Tir Lo Mal Ral	r05	r03	r28	r23	r08		dmg-dem/lvl	15			dmg		340	400	swing		30	40	hit-skill	CTC_Venom	35	15	pierce-pois		20	25	ignore-ac		1	1	heal-kill		10	15	0
+Grief	Runeword47	1			Previously Ladder Only	swor	axe								Eth Tir Lo Mal Ral	jew	r05	r03	r28	r23	r08	dmg-dem/lvl	15			dmg		340	400	swing		30	40	hit-skill	CTC_Venom	35	15	pierce-pois		20	25	ignore-ac		1	1	heal-kill		10	15	0
+Hand of Justice	Runeword48	1			110	weap									Sur Cham Amn Lo	r29	r32	r11	r28			swing		33	33	dmg%		280	330	aura	Holy Fire	16	16	levelup-skill	CTC_Blaze	100	36	death-skill	CTC_Meteor	100	48	ignore-ac		1	1	pierce-fire		20	20	0
+Hand of Justice	Runeword48	1			110	weap									Sur Cham Amn Lo	jew	r29	r32	r11	r28		swing		33	33	dmg%		280	330	aura	Holy Fire	16	16	levelup-skill	CTC_Blaze	100	36	death-skill	CTC_Meteor	100	48	ignore-ac		1	1	pierce-fire		20	20	0
+Hand of Justice	Runeword48	1			110	weap									Sur Cham Amn Lo	jew	jew	r29	r32	r11	r28	swing		33	33	dmg%		280	330	aura	Holy Fire	16	16	levelup-skill	CTC_Blaze	100	36	death-skill	CTC_Meteor	100	48	ignore-ac		1	1	pierce-fire		20	20	0
+Harmony	Runeword49	1			Previously Ladder Only	miss									Tir Ith Sol Ko	r03	r06	r12	r18			dmg%		200	275	dmg-elem		55	160	charged	Revive	25	20	aura	Vigor_I	10	10	oskill	Valkyrie	2	6	regen-mana		20	20	light		2	2	0
+Harmony	Runeword49	1			Previously Ladder Only	miss									Tir Ith Sol Ko	jew	r03	r06	r12	r18		dmg%		200	275	dmg-elem		55	160	charged	Revive	25	20	aura	Vigor_I	10	10	oskill	Valkyrie	2	6	regen-mana		20	20	light		2	2	0
+Harmony	Runeword49	1			Previously Ladder Only	miss									Tir Ith Sol Ko	jew	jew	r03	r06	r12	r18	dmg%		200	275	dmg-elem		55	160	charged	Revive	25	20	aura	Vigor_I	10	10	oskill	Valkyrie	2	6	regen-mana		20	20	light		2	2	0
+Hatred	Runeword50	1			New to Modv1.0	scep									Dol Sol Ral Thul	r14	r12	r08	r10			dmg%		115	115	dmg-ltng		5	30	swing		30	30	crush		10	10	deadly/lvl	4											0
+Hatred	Runeword50	1			New to Modv1.0	scep									Dol Sol Ral Thul	jew	r14	r12	r08	r10		dmg%		115	115	dmg-ltng		5	30	swing		30	30	crush		10	10	deadly/lvl	4											0
+Hatred	Runeword50	1			New to Modv1.0	scep									Dol Sol Ral Thul	jew	jew	r14	r12	r08	r10	dmg%		115	115	dmg-ltng		5	30	swing		30	30	crush		10	10	deadly/lvl	4											0
+Heart of the Oak	Runeword51	1			110	staf	mace	scep							Ko Vex Pul Thul	r18	r26	r21	r10			cast		40	40	charged	CHARGE_Oak_Sage	25	4	mana%		15	15	allskills		3	3	regen		20	20	res-all		30	40	charged	CHARGE_Summon_Spirit_Wolf	60	14	0
+Heart of the Oak	Runeword51	1			110	staf	mace	scep							Ko Vex Pul Thul	jew	r18	r26	r21	r10		cast		40	40	charged	CHARGE_Oak_Sage	25	4	mana%		15	15	allskills		3	3	regen		20	20	res-all		30	40	charged	CHARGE_Summon_Spirit_Wolf	60	14	0
+Heart of the Oak	Runeword51	1			110	staf	mace	scep							Ko Vex Pul Thul	jew	jew	r18	r26	r21	r10	cast		40	40	charged	CHARGE_Oak_Sage	25	4	mana%		15	15	allskills		3	3	regen		20	20	res-all		30	40	charged	CHARGE_Summon_Spirit_Wolf	60	14	0
+Heaven's Will	Runeword52	1			New to Modv1.0	scep	shld								Jah Zod El Sol	r31	r33	r01	r12			extra-mag		35	55	caststat		20	40	hp%		3	25	skill	Fist of the Heavens	4	7	skilltab	9	3	4	red-dmg%		20	25	abs-mag%		6	12	0
+Heaven's Will	Runeword52	1			New to Modv1.0	scep	shld								Jah Zod El Sol	jew	r31	r33	r01	r12		extra-mag		35	55	caststat		20	40	hp%		3	25	skill	Fist of the Heavens	4	7	skilltab	9	3	4	red-dmg%		20	25	abs-mag%		6	12	0
+Heaven's Will	Runeword52	1			New to Modv1.0	scep	shld								Jah Zod El Sol	jew	jew	r31	r33	r01	r12	extra-mag		35	55	caststat		20	40	hp%		3	25	skill	Fist of the Heavens	4	7	skilltab	9	3	4	red-dmg%		20	25	abs-mag%		6	12	0
+Holy Tears	Runeword53	1			New to Modv1.0	head									Shael Tal	r13	r07					ac%		30	70	cast		20	20	skilltab	8	1	2	skill	Bone Armor	1	3	skill	Raise Skeleton	2	4	res-all		5	15	shieldstat		20	20	0
+Holy Tears	Runeword53	1			New to Modv1.0	head									Shael Tal	jew	r13	r07				ac%		30	70	cast		20	20	skilltab	8	1	2	skill	Bone Armor	1	3	skill	Raise Skeleton	2	4	res-all		5	15	shieldstat		20	20	0
+Holy Tears	Runeword53	1			New to Modv1.0	head									Shael Tal	jew	jew	r13	r07			ac%		30	70	cast		20	20	skilltab	8	1	2	skill	Bone Armor	1	3	skill	Raise Skeleton	2	4	res-all		5	15	shieldstat		20	20	0
+Holy Thunder	Runeword54	1			109	scep									Eth Ral Ort Tal	r05	r08	r09	r07			dmg%		60	60	dmg-ltng		20	60	dmg-max	  	10	10	res-ltng		60	60	res-ltng-max		5	5	skill	Holy Shock	3	3	charged	Chain Lightning	60	7	0
+Holy Thunder	Runeword54	1			109	scep									Eth Ral Ort Tal	jew	r05	r08	r09	r07		dmg%		60	60	dmg-ltng		20	60	dmg-max		10	10	res-ltng		60	60	res-ltng-max		5	5	skill	Holy Shock	3	3	charged	Chain Lightning	60	7	0
+Holy Thunder	Runeword54	1			109	scep									Eth Ral Ort Tal	jew	jew	r05	r08	r09	r07	dmg%		60	60	dmg-ltng		20	60	dmg-max		10	10	res-ltng		60	60	res-ltng-max		5	5	skill	Holy Shock	3	3	charged	Chain Lightning	60	7	0
+Honor	Runeword55	1			109	mele									Amn El IthTir Sol	r11	r01	r06	r03	r12		dmg%		160	160	regen		10	10	allskills		1	1	att		200	200	deadly		25	25	str		10	10					0
+Honor	Runeword55	1			109	mele									Amn El IthTir Sol	jew	r11	r01	r06	r03	r12	dmg%		160	160	regen		10	10	allskills		1	1	att		200	200	deadly		25	25	str		10	10					0
+Humility	Runeword57	1			New to Modv1.0	orb	shld								El Tir	r01	r03					hp%		5	10	mana		60	60	block		-10	-10	ac		40	40	extra-elem		5	5	res-all		-5	5					0
+Humility	Runeword57	1			New to Modv1.0	orb	shld								El Tir	jew	r01	r03				hp%		5	10	mana		60	60	block		-10	-10	ac		40	40	extra-elem		5	5	res-all		-5	5					0
+Humility	Runeword57	1			New to Modv1.0	orb	shld								El Tir	jew	jew	r01	r03			hp%		5	10	mana		60	60	block		-10	-10	ac		40	40	extra-elem		5	5	res-all		-5	5					0
+Hunger	Runeword58	1			New to Modv1.0	pelt									Ral Thul Pul	r08	r10	r21				ac%		100	125	skill	Werewolf	1	4	skill	Feral Rage	4	7	swing		20	20	str%		5	5	att%		10	20	dualsteal		5	5	0
+Ice	Runeword59	1			Previously Ladder Only	miss									Amn Shael Jah Lo	r11	r13	r31	r28			dmg%		140	210	aura	Holy Freeze	18	18	extra-cold		25	30	hit-skill	CTC_IceBolt	25	22	levelup-skill	CTC_Blizzard	100	40	pierce-cold		20	20	gold%/lvl	25			0
+Ice	Runeword59	1			Previously Ladder Only	miss									Amn Shael Jah Lo	jew	r11	r13	r31	r28		dmg%		140	210	aura	Holy Freeze	18	18	extra-cold		25	30	hit-skill	CTC_IceBolt	25	22	levelup-skill	CTC_Blizzard	100	40	pierce-cold		20	20	gold%/lvl	25			0
+Ice	Runeword59	1			Previously Ladder Only	miss									Amn Shael Jah Lo	jew	jew	r11	r13	r31	r28	dmg%		140	210	aura	Holy Freeze	18	18	extra-cold		25	30	hit-skill	CTC_IceBolt	25	22	levelup-skill	CTC_Blizzard	100	40	pierce-cold		20	20	gold%/lvl	25			0
+Infinity	Runeword60	1			Previously Ladder Only	pole									Ber Mal Ber Ist	r30	r23	r30	r24			dmg%		255	325	move		35	35	hp/lvl	8			aura	Conviction	7	9	kill-skill	CTC_ChainLightning	50	20	pierce-ltng		45	55	oskill	Cyclone Armor	3	5	0
+Infinity	Runeword60	1			Previously Ladder Only	pole									Ber Mal Ber Ist	jew	r30	r23	r30	r24		dmg%		255	325	move		35	35	hp/lvl	8			aura	Conviction	7	9	kill-skill	CTC_ChainLightning	50	20	pierce-ltng		45	55	oskill	Cyclone Armor	3	5	0
+Infinity	Runeword60	1			Previously Ladder Only	pole									Ber Mal Ber Ist	jew	jew	r30	r23	r30	r24	dmg%		255	325	move		35	35	hp/lvl	8			aura	Conviction	7	9	kill-skill	CTC_ChainLightning	50	20	pierce-ltng		45	55	oskill	Cyclone Armor	3	5	0
+Innocence	Runeword61	1			New to Modv1.0	head									Ral Fal	r08	r19					skill	Raise Skeleton	2	5	dual%		3	5	skill	Clay Golem	1	1	res-all		5	5	ac		50	50	demon-heal		5	5	gethit-skill	CTC_Nova	10	2	0
+Innocence	Runeword61	1			New to Modv1.0	head									Ral Fal	jew	r08	r19				skill	Raise Skeleton	2	5	dual%		3	5	skill	Clay Golem	1	1	res-all		5	5	ac		50	50	demon-heal		5	5	gethit-skill	CTC_Nova	10	2	0
+Innocence	Runeword61	1			New to Modv1.0	head									Ral Fal	jew	jew	r08	r19			skill	Raise Skeleton	2	5	dual%		3	5	skill	Clay Golem	1	1	res-all		5	5	ac		50	50	demon-heal		5	5	gethit-skill	CTC_Nova	10	2	0
+Insight	Runeword62	1			Previously Ladder Only	pole	staf								Ral Tir Tal Sol	r08	r03	r07	r12			dmg%		200	260	att%		180	250	mag%		23	23	oskill	Penetrate	1	6	cast		35	35	aura	Meditation_I	9	12	all-stats		5	5	0
+Insight	Runeword62	1			Previously Ladder Only	pole	staf								Ral Tir Tal Sol	jew	r08	r03	r07	r12		dmg%		200	260	att%		180	250	mag%		23	23	oskill	Penetrate	1	6	cast		35	35	aura	Meditation_I	9	12	all-stats		5	5	0
+Insight	Runeword62	1			Previously Ladder Only	pole	staf								Ral Tir Tal Sol	jew	jew	r08	r03	r07	r12	dmg%		200	260	att%		180	250	mag%		23	23	oskill	Penetrate	1	6	cast		35	35	aura	Meditation_I	9	12	all-stats		5	5	0
+Jealousy	Runeword63	1			New to Modv1.0	h2h									Um Tal Tal	r22	r07	r07				dmg%		100	150	att%		20	20	swing		30	30	deadly		10	10	dualsteal		3	5	skill	Dragon Claw	2	6	all-stats		5	15	0
+Judgment	Runeword64	1			New to Modv1.0	mele									Lum Tir	r17	r03					allskills		1	2	caststat		20	20	hp		30	100	pierce-all		5	10	ac		40	110									0
+Judgment	Runeword64	1			New to Modv1.0	mele									Lum Tir	jew	r17	r03				allskills		1	2	caststat		20	20	hp		30	100	pierce-all		5	10	ac		40	110									0
+Judgment	Runeword64	1			New to Modv1.0	mele									Lum Tir	jew	jew	r17	r03			allskills		1	2	caststat		20	20	hp		30	100	pierce-all		5	10	ac		40	110									0
+Judgment	Runeword64	1			New to Modv1.0	mele									Lum Tir	jew	jew	jew	r17	r03		allskills		1	2	caststat		20	20	hp		30	100	pierce-all		5	10	ac		40	110									0
+Judgment	Runeword64	1			New to Modv1.0	mele									Lum Tir	jew	jew	jew	jew	r17	r03	allskills		1	2	caststat		20	20	hp		30	100	pierce-all		5	10	ac		40	110									0
+King's Grace	Runeword65	1			109	swor	scep								Amn Ral Thul	r11	r08	r10				dmg%		100	100	att		150	150	dmg-demon		100	100	dmg-undead		50	50	att-demon		100	100	att-undead		100	100					0
+King's Grace	Runeword65	1			109	swor	scep								Amn Ral Thul	jew	r11	r08	r10			dmg%		100	100	att		150	150	dmg-demon		100	100	dmg-undead		50	50	att-demon		100	100	att-undead		100	100					0
+King's Grace	Runeword65	1			109	swor	scep								Amn Ral Thul	jew	jew	r11	r08	r10		dmg%		100	100	att		150	150	dmg-demon		100	100	dmg-undead		50	50	att-demon		100	100	att-undead		100	100					0
+King's Grace	Runeword65	1			109	swor	scep								Amn Ral Thul	jew	jew	jew	r11	r08	r10	dmg%		100	100	att		150	150	dmg-demon		100	100	dmg-undead		50	50	att-demon		100	100	att-undead		100	100					0
+Kingslayer	Runeword66	1			110	swor	axe								Mal Um Gul Fal	r23	r22	r25	r19			swing		30	30	dmg%		230	270	reduce-ac		25	25	crush		33	33	openwounds		25	25	oskill	Vengeance	1	1	gold%		40	40	0
+Kingslayer	Runeword66	1			110	swor	axe								Mal Um Gul Fal	jew	r23	r22	r25	r19		swing		30	30	dmg%		230	270	reduce-ac		25	25	crush		33	33	openwounds		25	25	oskill	Vengeance	1	1	gold%		40	40	0
+Kingslayer	Runeword66	1			110	swor	axe								Mal Um Gul Fal	jew	jew	r23	r22	r25	r19	swing		30	30	dmg%		230	270	reduce-ac		25	25	crush		33	33	openwounds		25	25	oskill	Vengeance	1	1	gold%		40	40	0
+Knight's Vigil	Runeword67	1			New to Modv1.0	scep	swor								Um Lo Ko Fal	r22	r28	r18	r19			pal		1	3	skilltab	9	1	3	dmg%		150	225	deadly		5	20	swing		20	45	aura	Redemption_I	5	15	att/lvl	16			0
+Knight's Vigil	Runeword67	1			New to Modv1.0	scep	swor								Um Lo Ko Fal	jew	r22	r28	r18	r19		pal		1	3	skilltab	9	1	3	dmg%		150	225	deadly		5	20	swing		20	45	aura	Redemption_I	5	15	att/lvl	16			0
+Knight's Vigil	Runeword67	1			New to Modv1.0	scep	swor								Um Lo Ko Fal	jew	jew	r22	r28	r18	r19	pal		1	3	skilltab	9	1	3	dmg%		150	225	deadly		5	20	swing		20	45	aura	Redemption_I	5	15	att/lvl	16			0
+Knowledge	Runeword68	1			New to Modv1.0	circ									Lo Jah Ral	r28	r31	r08				allskills		1	3	caststat		20	30	dual%		5	15	mag%/lvl	4			red-dmg%		15	25	aura	Sanctuary_I	5	12	dual-gethit		5	10	0
+Last Wish	Runeword69	1			Previously Ladder Only	swor	hamm	axe							Jah Mal Jah Sur Jah Ber	r31	r23	r31	r29	r31	r30	dmg%		330	375	att-skill	CTC_ChargedBolt	20	20	hit-skill	CTC_LifeTap	10	18	gethit-skill	CTC_Fade	6	11	crush		20	50	mag%/lvl	4			aura	Might	17	17	0
+Law	Runeword70	1			New to Modv1.0	tors									El Tir Tal	r01	r03	r07				ac%		20	25	hit-skill	CTC_FireBall	2	2	gethit-skill	CTC_HolyBolt	3	5	str		4	10	hp%		3	5	red-dmg%		2	5					0
+Law	Runeword70	1			New to Modv1.0	tors									El Tir Tal	jew	r01	r03	r07			ac%		20	25	hit-skill	CTC_FireBall	2	2	gethit-skill	CTC_HolyBolt	3	5	str		4	10	hp%		3	5	red-dmg%		2	5					0
+Lawbringer	Runeword71	1			Previously Ladder Only	swor	hamm	scep							Amn Lem Ko	r11	r20	r18				dmg-cold		130	180	dmg-fire		150	210	aura	Sanctuary_I	16	18	hit-skill	CTC_Decrepify	20	15	ac-miss		200	250	rip		1	1	reduce-ac		50	50	0
+Lawbringer	Runeword71	1			Previously Ladder Only	swor	hamm	scep							Amn Lem Ko	jew	r11	r20	r18			dmg-cold		130	180	dmg-fire		150	210	aura	Sanctuary_I	16	18	hit-skill	CTC_Decrepify	20	15	ac-miss		200	250	rip		1	1	reduce-ac		50	50	0
+Lawbringer	Runeword71	1			Previously Ladder Only	swor	hamm	scep							Amn Lem Ko	jew	jew	r11	r20	r18		dmg-cold		130	180	dmg-fire		150	210	aura	Sanctuary_I	16	18	hit-skill	CTC_Decrepify	20	15	ac-miss		200	250	rip		1	1	reduce-ac		50	50	0
+Lawbringer	Runeword71	1			Previously Ladder Only	swor	hamm	scep							Amn Lem Ko	jew	jew	jew	r11	r20	r18	dmg-cold		130	180	dmg-fire		150	210	aura	Sanctuary_I	16	18	hit-skill	CTC_Decrepify	20	15	ac-miss		200	250	rip		1	1	reduce-ac		50	50	0
+Leaf	Runeword72	1			109	staf									Tir Ral	r03	r08					fireskill		3	3	ac/lvl		16	16	res-cold		33	33	oskill	Fire Ball	3	3	oskill	Firestorm	3	3	oskill	Warmth	3	3					0
+Leaf	Runeword72	1			109	staf									Tir Ral	jew	r03	r08				fireskill		3	3	ac/lvl		16	16	res-cold		33	33	oskill	Fire Ball	3	3	oskill	Firestorm	3	3	oskill	Warmth	3	3					0
+Leaf	Runeword72	1			109	staf									Tir Ral	jew	jew	r03	r08			fireskill		3	3	ac/lvl		16	16	res-cold		33	33	oskill	Fire Ball	3	3	oskill	Firestorm	3	3	oskill	Warmth	3	3					0
+Leaf	Runeword72	1			109	staf									Tir Ral	jew	jew	jew	r03	r08		fireskill		3	3	ac/lvl		16	16	res-cold		33	33	oskill	Fire Ball	3	3	oskill	Firestorm	3	3	oskill	Warmth	3	3					0
+Leaf	Runeword72	1			109	staf									Tir Ral	jew	jew	jew	jew	r03	r08	fireskill		3	3	ac/lvl		16	16	res-cold		33	33	oskill	Fire Ball	3	3	oskill	Firestorm	3	3	oskill	Warmth	3	3					0
+Lightning	Runeword73	1			New to Modv1.0	boot									Ort El	r09	r01					move		20	20	light-thorns		1	4	regen-mana		10	15	ac%		10	25	gethit-skill	CTC_ChargedBolt	5	3									0
+Lightning	Runeword73	1			New to Modv1.0	boot									Ort El	jew	r09	r01				move		20	20	light-thorns		1	4	regen-mana		10	15	ac%		10	25	gethit-skill	CTC_ChargedBolt	5	3									0
+Lionheart	Runeword74	1			109	tors									Hel Lum Fal	r15	r17	r19				str		15	15	vit		20	20	dex		15	15	dmg%		20	20	hp		50	50	res-all		30	30					0
+Lionheart	Runeword74	1			109	tors									Hel Lum Fal	jew	r15	r17	r19			str		15	15	vit		20	20	dex		15	15	dmg%		20	20	hp		50	50	res-all		30	30					0
+Lore	Runeword75	1			109	helm									Ort Sol	r09	r12					enr		10	10	allskills		1	1	light		2	2	mana-kill		2	2													0
+Lore	Runeword75	1			109	helm									Ort Sol	jew	r09	r12				enr		10	10	allskills		1	1	light		2	2	mana-kill		2	2													0
+Love	Runeword76	1			New to Modv1.0	glov									El Eth	r01	r05					ac/lvl		2	4	hp/lvl		2	4	cast		10	15	mana-kill		1	3	mana		10	25									0
+Love	Runeword76	1			New to Modv1.0	glov									El Eth	jew	r01	r05				ac/lvl		2	4	hp/lvl		2	4	cast		10	15	mana-kill		1	3	mana		10	25									0
+Loyalty	Runeword77	1			New to Modv1.0	belt									Nef Ith	r04	r06					balance		10	18	str%		3	6	dmg%		10	15	ac%		25	30	sum-ex		0	2									0
+Lust	Runeword78	1			New to Modv1.0	belt									Eld Tal	r02	r07					balance		8	14	swing		0	10	red-dmg		3	3	mana-kill		2	2	demon-heal		4	4									0
+Madness	Runeword79	1			New to Modv1.0	belt									Eth Tir	r05	r03					swing		20	20	regen		-5	-5	heal-perhit		3	3	ext-missile		0	3	ext-att		0	3									0
+Malice	Runeword81	1			109	mele									Ith El Eth	r06	r01	r05				openwounds		25	25	dmg-ac		-100	-100	noheal		1	1	dmg%		33	33	light		-1	-1	regen		-5	-5					0
+Malice	Runeword81	1			109	mele									Ith El Eth	jew	r06	r01	r05			openwounds		25	25	dmg-ac		-100	-100	noheal		1	1	dmg%		33	33	light		-1	-1	regen		-5	-5					0
+Malice	Runeword81	1			109	mele									Ith El Eth	jew	jew	r06	r01	r05		openwounds		25	25	dmg-ac		-100	-100	noheal		1	1	dmg%		33	33	light		-1	-1	regen		-5	-5					0
+Malice	Runeword81	1			109	mele									Ith El Eth	jew	jew	jew	r06	r01	r05	openwounds		25	25	dmg-ac		-100	-100	noheal		1	1	dmg%		33	33	light		-1	-1	regen		-5	-5					0
+Melody	Runeword82	1			109	miss									Shael Ko Nef	r13	r18	r04				dmg%		50	50	skilltab	0	3	3	skill	Penetrate	3	3	skill	Huntress Haste	3	3	oskill	Slow Missiles	3	3	dmg-undead		300	300					0
+Melody	Runeword82	1			109	miss									Shael Ko Nef	jew	r13	r18	r04			dmg%		50	50	skilltab	0	3	3	skill	Penetrate	3	3	skill	Huntress Haste	3	3	oskill	Slow Missiles	3	3	dmg-undead		300	300					0
+Melody	Runeword82	1			109	miss									Shael Ko Nef	jew	jew	r13	r18	r04		dmg%		50	50	skilltab	0	3	3	skill	Penetrate	3	3	skill	Huntress Haste	3	3	oskill	Slow Missiles	3	3	dmg-undead		300	300					0
+Melody	Runeword82	1			109	miss									Shael Ko Nef	jew	jew	jew	r13	r18	r04	dmg%		50	50	skilltab	0	3	3	skill	Penetrate	3	3	skill	Huntress Haste	3	3	oskill	Slow Missiles	3	3	dmg-undead		300	300					0
+Memory	Runeword83	1			109	staf									Lum Io Sol Eth	r17	r16	r12	r05			mana%		20	20	red-mag		7	7	ac%		50	50	cast		33	33	sor		3	3	oskill	Energy Shield	3	3	oskill	Static Field	2	2	0
+Memory	Runeword83	1			109	staf									Lum Io Sol Eth	jew	r17	r16	r12	r05		mana%		20	20	red-mag		7	7	ac%		50	50	cast		33	33	sor		3	3	oskill	Energy Shield	3	3	oskill	Static Field	2	2	0
+Memory	Runeword83	1			109	staf									Lum Io Sol Eth	jew	jew	r17	r16	r12	r05	mana%		20	20	red-mag		7	7	ac%		50	50	cast		33	33	sor		3	3	oskill	Energy Shield	3	3	oskill	Static Field	2	2	0
+Mist	Runeword84	1			New to Modv1.0	tors									El Eld Tir	r01	r02	r03				abs-cold		2	2	ac		5	15	thorns		4	4	dmg-max		4	8	addxp		0	5									0
+Mist	Runeword84	1			New to Modv1.0	tors									El Eld Tir	jew	r01	r02	r03			abs-cold		2	2	ac		5	15	thorns		4	4	dmg-max		4	8	addxp		0	5									0
+Morning	Runeword85	1			New to Modv1.0	glov									Nef Ral	r04	r08					fire-thorns		3	3	extra-fire		2	4	res-fire		10	10	half-freeze		1	1	addxp		0	5	mag%		5	10					0
+Morning	Runeword85	1			New to Modv1.0	glov									Nef Ral	jew	r04	r08				fire-thorns		3	3	extra-fire		2	4	res-fire		10	10	half-freeze		1	1	addxp		0	5	mag%		5	10					0
+Mystery	Runeword86	1			New to Modv1.0	boot									Ith Nef	r06	r04					extra-nature		3	5	sum-hp		10	20	sum-dmg		10	20	light		-2	-2	ac		5	15	gold%		33	33					0
+Mystery	Runeword86	1			New to Modv1.0	boot									Ith Nef	jew	r06	r04				extra-nature		3	5	sum-hp		10	20	sum-dmg		10	20	light		-2	-2	ac		5	15	gold%		33	33					0
+Myth	Runeword87	1			111	tors									Hel Amn Nef	r15	r11	r04				hit-skill	CTC_Taunt	10	1	gethit-skill	CTC_Howl	3	11	bar		2	2	regen		10	10													0
+Myth	Runeword87	1			111	tors									Hel Amn Nef	jew	r15	r11	r04			hit-skill	CTC_Taunt	10	1	gethit-skill	CTC_Howl	3	11	bar		2	2	regen		10	10													0
+Nadir	Runeword88	1			109	helm									Nef Tir	r04	r03					ac%		50	50	ac		10	10	light		-1	-1	oskill	Cloak of Shadows	2	2	gold%		-33	-33	str		5	5					0
+Nadir	Runeword88	1			109	helm									Nef Tir	jew	r04	r03				ac%		50	50	ac		10	10	light		-1	-1	oskill	Cloak of Shadows	2	2	gold%		-33	-33	str		5	5					0
+Nature's Kingdom	Runeword89	1				glov	boot								Hel Ist Lum	r15	r24	r17				ac%		50	100	oskill	Warmth	1	1	cast		25	25	aura	Meditation_I	5	7	sum-ex		2	3									0
+Night	Runeword90																																																	0
+Oath	Runeword91	1			Previously Ladder Only	swor	axe	mace							Shael Pul Mal Lum	r13	r21	r23	r17			dmg%		210	340	swing		30	30	hit-skill	CTC_BoneSpirit	30	20	charged	Iron Golem	14	17	charged	CHARGE_Heart_of_Wolverine	20	16	abs-mag		10	15	indestruct		1	1	0
+Oath	Runeword91	1			Previously Ladder Only	swor	axe	mace							Shael Pul Mal Lum	jew	r13	r21	r23	r17		dmg%		210	340	swing		30	30	hit-skill	CTC_BoneSpirit	30	20	charged	Iron Golem	14	17	charged	CHARGE_Heart_of_Wolverine	20	16	abs-mag		10	15	indestruct		1	1	0
+Oath	Runeword91	1			Previously Ladder Only	swor	axe	mace							Shael Pul Mal Lum	jew	jew	r13	r21	r23	r17	dmg%		210	340	swing		30	30	hit-skill	CTC_BoneSpirit	30	20	charged	Iron Golem	14	17	charged	CHARGE_Heart_of_Wolverine	20	16	abs-mag		10	15	indestruct		1	1	0
+Obedience	Runeword92	1			Previously Ladder Only	pole									Hel Ko Thul Eth Fal	r15	r18	r10	r05	r19		dmg%		370	370	crush		20	20	kill-skill	CTC_Enchant	30	21	pierce-fire		25	25	ac		200	300	balance		40	40	res-all		20	30	0
+Obedience	Runeword92	1			Previously Ladder Only	pole									Hel Ko Thul Eth Fal	jew	r15	r18	r10	r05	r19	dmg%		370	370	crush		20	20	kill-skill	CTC_Enchant	30	21	pierce-fire		25	25	ac		200	300	balance		40	40	res-all		20	30	0
+Oblivion	Runeword93	1				xbow	bow								Zod El Tir Ral Mal	r33	r01	r03	r08	r23		dmg%		360	400	hit-skill	Mass Enchant	5	5	hp/lvl	12			aura	Conviction	10	12	kill-skill	CTC_LifeTap	10	10	pierce-all		25	35	ext-missile		1	3	0
+Oblivion	Runeword93	1				xbow	bow								Zod El Tir Ral Mal	jew	r33	r01	r03	r08	r23	dmg%		360	400	hit-skill	Mass Enchant	5	5	hp/lvl	12			aura	Conviction	10	12	kill-skill	CTC_LifeTap	10	10	pierce-all		25	35	ext-missile		1	3	0
+Obsession	Runeword94	1			New to Modv1.0	helm									Ral Tal	r08	r07					mag%		5	15	gold%		30	60	hp%		-5	0	mana%		-5	0	ac%		10	25									0
+Obsession	Runeword94	1			New to Modv1.0	helm									Ral Tal	jew	r08	r07				mag%		5	15	gold%		30	60	hp%		-5	0	mana%		-5	0	ac%		10	25									0
+Passion	Runeword95	1			110	weap									Dol Ort Eld Lem	r14	r09	r02	r20			dmg%		160	210	oskill	Zeal	1	1	att%		50	80	oskill	Berserk	1	1	swing		25	25	charged	CHARGE_Heart_of_Wolverine	12	3	stupidity		10	10	0
+Passion	Runeword95	1			110	weap									Dol Ort Eld Lem	jew	r14	r09	r02	r20		dmg%		160	210	oskill	Zeal	1	1	att%		50	80	oskill	Berserk	1	1	swing		25	25	charged	CHARGE_Heart_of_Wolverine	12	3	stupidity		10	10	0
+Passion	Runeword95	1			110	weap									Dol Ort Eld Lem	jew	jew	r14	r09	r02	r20	dmg%		160	210	oskill	Zeal	1	1	att%		50	80	oskill	Berserk	1	1	swing		25	25	charged	CHARGE_Heart_of_Wolverine	12	3	stupidity		10	10	0
+Patience	Runeword96																																																	0
+Pattern	Runeword97	1			New to Modv1.0	h2h									Tal Ort Tir	r07	r09	r03				att%		10	10	dmg%		40	80	dmg-fire		12	32	res-all		15	15	str		6	6	dex		6	6	blockrate		30	30	0
+Peace	Runeword98	1			111	tors									Shael Thul Amn	r13	r10	r11				skill	Valkyrie	2	4	skill	Evasive Tactics	4	5	ama		2	2	deadly		5	5	ac%		60	100	dex%		3	10					0
+Peace	Runeword98	1			111	tors									Shael Thul Amn	jew	r13	r10	r11			skill	Valkyrie	2	4	skill	Evasive Tactics	4	5	ama		2	2	deadly		5	5	ac%		60	100	dex%		3	10					0
+Penitence	Runeword100																																																	0
+Peril	Runeword101	1			New to Modv1.0	miss									Sol Shael Ko	r12	r13	r18				dmg%		80	115	swing		20	20	att/lvl		2	4	oskill	Magic Arrow	2	3	ext-missile		1	1	dmg-undead		25	50					0
+Peril	Runeword101	1			New to Modv1.0	miss									Sol Shael Ko	jew	r12	r13	r18			dmg%		80	115	swing		20	20	att/lvl		2	4	oskill	Magic Arrow	2	3	ext-missile		1	1	dmg-undead		25	50					0
+Peril	Runeword101	1			New to Modv1.0	miss									Sol Shael Ko	jew	jew	r12	r13	r18		dmg%		80	115	swing		20	20	att/lvl		2	4	oskill	Magic Arrow	2	3	ext-missile		1	1	dmg-undead		25	50					0
+Peril	Runeword101	1			New to Modv1.0	miss									Sol Shael Ko	jew	jew	jew	r12	r13	r18	dmg%		80	115	swing		20	20	att/lvl		2	4	oskill	Magic Arrow	2	3	ext-missile		1	1	dmg-undead		25	50					0
+Pestilence	Runeword102	1			New to Modv1.0	miss									Nef Ith	r04	r06					dmg%		15	30	dmg-pois	100	39	39	pierce		25	25	swing		10	10	ext-missile		1	1									0
+Pestilence	Runeword102	1			New to Modv1.0	miss									Nef Ith	jew	r04	r06				dmg%		15	30	dmg-pois	100	39	39	pierce		25	25	swing		10	10	ext-missile		1	1									0
+Pestilence	Runeword102	1			New to Modv1.0	miss									Nef Ith	jew	jew	r04	r06			dmg%		15	30	dmg-pois	100	39	39	pierce		25	25	swing		10	10	ext-missile		1	1									0
+Pestilence	Runeword102	1			New to Modv1.0	miss									Nef Ith	jew	jew	jew	r04	r06		dmg%		15	30	dmg-pois	100	39	39	pierce		25	25	swing		10	10	ext-missile		1	1									0
+Pestilence	Runeword102	1			New to Modv1.0	miss									Nef Ith	jew	jew	jew	jew	r04	r06	dmg%		15	30	dmg-pois	100	39	39	pierce		25	25	swing		10	10	ext-missile		1	1									0
+Phoenix	Runeword103	1			Previously Ladder Only	weap	shld								Vex Vex Lo Jah	r26	r26	r28	r31			dmg%		350	400	ac-miss		350	400	hit-skill	Ignite	15	6	levelup-skill	CTC_Blaze	100	8	pierce-fire		28	28	aura	Redemption_I	10	15	abs-fire		15	21	0
+Phoenix	Runeword103	1			Previously Ladder Only	weap	shld								Vex Vex Lo Jah	jew	r26	r26	r28	r31		dmg%		350	400	ac-miss		350	400	hit-skill	Ignite	15	6	levelup-skill	CTC_Blaze	100	8	pierce-fire		28	28	aura	Redemption_I	10	15	abs-fire		15	21	0
+Phoenix	Runeword103	1			Previously Ladder Only	weap	shld								Vex Vex Lo Jah	jew	jew	r26	r26	r28	r31	dmg%		350	400	ac-miss		350	400	hit-skill	Ignite	15	6	levelup-skill	CTC_Blaze	100	8	pierce-fire		28	28	aura	Redemption_I	10	15	abs-fire		15	21	0
+Piety	Runeword104																																																	0
+Pillar of Faith	Runeword105																																																	0
+Plague	Runeword106	1			Previously deactivated	weap									Cham Fal Um	r32	r19	r22				dmg-demon		260	380	gethit-skill	CTC_LowerResist	20	12	hit-skill	CTC_PoisonNova	25	15	pierce-pois		23	23	deadly/lvl	3			aura	Clear Ailment	13	17	allskills		1	2	0
+Plague	Runeword106	1			Previously deactivated	weap									Cham Fal Um	jew	r32	r19	r22			dmg-demon		260	380	gethit-skill	CTC_LowerResist	20	12	hit-skill	CTC_PoisonNova	25	15	pierce-pois		23	23	deadly/lvl	3			aura	Clear Ailment	13	17	allskills		1	2	0
+Plague	Runeword106	1			Previously deactivated	weap									Cham Fal Um	jew	jew	r32	r19	r22		dmg-demon		260	380	gethit-skill	CTC_LowerResist	20	12	hit-skill	CTC_PoisonNova	25	15	pierce-pois		23	23	deadly/lvl	3			aura	Clear Ailment	13	17	allskills		1	2	0
+Plague	Runeword106	1			Previously deactivated	weap									Cham Fal Um	jew	jew	jew	r32	r19	r22	dmg-demon		260	380	gethit-skill	CTC_LowerResist	20	12	hit-skill	CTC_PoisonNova	25	15	pierce-pois		23	23	deadly/lvl	3			aura	Clear Ailment	13	17	allskills		1	2	0
+Praise	Runeword107																																																	0
+Prayer	Runeword108																																																	0
+Pride	Runeword109	1			Previously Ladder Only	pole									Cham Sur Io Lo	r32	r29	r16	r28			dmg-dem/lvl	8			dmg-ltng		50	280	att%		260	300	aura	Concentration	16	20	gethit-skill	CTC_FireWall	25	5	regen		8	8	gold%/lvl	15			0
+Pride	Runeword109	1			Previously Ladder Only	pole									Cham Sur Io Lo	jew	r32	r29	r16	r28		dmg-dem/lvl	8			dmg-ltng		50	280	att%		260	300	aura	Concentration	16	20	gethit-skill	CTC_FireWall	25	5	regen		8	8	gold%/lvl	15			0
+Pride	Runeword109	1			Previously Ladder Only	pole									Cham Sur Io Lo	jew	jew	r32	r29	r16	r28	dmg-dem/lvl	8			dmg-ltng		50	280	att%		260	300	aura	Concentration	16	20	gethit-skill	CTC_FireWall	25	5	regen		8	8	gold%/lvl	15			0
+Principle	Runeword110	1			111	tors									Ral Gul Eld	r08	r25	r02				hit-skill	CTC_HolyBolt	100	5	pal		2	2	hp		100	150	dmg-undead		50	50													0
+Principle	Runeword110	1			111	tors									Ral Gul Eld	jew	r08	r25	r02			hit-skill	CTC_HolyBolt	100	5	pal		2	2	hp		100	150	dmg-undead		50	50													0
+Prowess in Battle	Runeword111																																																	0
+Prudence	Runeword112	1			110	tors									Mal Tir	r23	r03					ac%		140	170	red-mag		10	10	red-dmg		3	3	res-all		25	35	balance		25	25	rep-dur	25			light		1	1	0
+Prudence	Runeword112	1			110	tors									Mal Tir	jew	r23	r03				ac%		140	170	red-mag		10	10	red-dmg		3	3	res-all		25	35	balance		25	25	rep-dur	25			light		1	1	0
+Prudence	Runeword112	1			110	tors									Mal Tir	jew	jew	r23	r03			ac%		140	170	red-mag		10	10	red-dmg		3	3	res-all		25	35	balance		25	25	rep-dur	25			light		1	1	0
+Punishment	Runeword113																																																	0
+Purity	Runeword114																																																	0
+Question	Runeword115																																																	0
+Radiance	Runeword116	1			109	helm									Nef Sol Ith	r04	r12	r06				light		5	5	enr		10	10	vit		10	10	red-mag		3	3	mana		33	33	ac%		75	75					0
+Rain	Runeword117	1			111	tors									Ort Mal Ith	r09	r23	r06				hit-skill	CTC_Tornado	5	15	skill	Fenris	3	3	dru		2	2	mana		100	150													0
+Rain	Runeword117	1			111	tors									Ort Mal Ith	jew	r09	r23	r06			hit-skill	CTC_Tornado	5	15	skill	Fenris	3	3	dru		2	2	mana		100	150													0
+Reason	Runeword118																																																	0
+Red	Runeword119																																																	0
+Revenge	Runeword56	1			New to Modv1.0	mele									Nef Amn Hel	r04	r11	r15				dmg-norm		35	60	skill	Sacrifice	5	7	reanimate	0	5	5	hit-skill	CTC_MindBlast	5	5	deadly		3	10	dmg%		60	100	swing		10	35	0
+Revenge	Runeword56	1			New to Modv1.0	mele									Nef Amn Hel	jew	r04	r11	r15			dmg-norm		35	60	skill	Sacrifice	5	7	reanimate	0	5	5	hit-skill	CTC_MindBlast	5	5	deadly		3	10	dmg%		60	100	swing		10	35	0
+Revenge	Runeword56	1			New to Modv1.0	mele									Nef Amn Hel	jew	jew	r04	r11	r15		dmg-norm		35	60	skill	Sacrifice	5	7	reanimate	0	5	5	hit-skill	CTC_MindBlast	5	5	deadly		3	10	dmg%		60	100	swing		10	35	0
+Revenge	Runeword56	1			New to Modv1.0	mele									Nef Amn Hel	jew	jew	jew	r04	r11	r15	dmg-norm		35	60	skill	Sacrifice	5	7	reanimate	0	5	5	hit-skill	CTC_MindBlast	5	5	deadly		3	10	dmg%		60	100	swing		10	35	0
+Rhyme	Runeword120	1			109	shld									Shael Eth	r13	r05					blockrate		20	20	block		20	20	res-all		25	25	nofreeze		1	1	gold%		50	50	mag%		25	25					0
+Rhyme	Runeword120	1			109	shld									Shael Eth	jew	r13	r05				blockrate		20	20	block		20	20	res-all		25	25	nofreeze		1	1	gold%		50	50	mag%		25	25					0
+Rhyme	Runeword120	1			109	shld									Shael Eth	jew	jew	r13	r05			blockrate		20	20	block		20	20	res-all		25	25	nofreeze		1	1	gold%		50	50	mag%		25	25					0
+Rift	Runeword121	1			Previously Ladder Only	pole	scep								Hel Ko Lem Gul	r15	r18	r20	r25			dmg-mag		160	250	dmg-fire		60	180	dmg-to-mana		38	38	hit-skill	CTC_Tornado	20	16	att-skill	CTC_FrozenOrb	16	21	all-stats		5	10					0
+Rift	Runeword121	1			Previously Ladder Only	pole	scep								Hel Ko Lem Gul	jew	r15	r18	r20	r25		dmg-mag		160	250	dmg-fire		60	180	dmg-to-mana		38	38	hit-skill	CTC_Tornado	20	16	att-skill	CTC_FrozenOrb	16	21	all-stats		5	10					0
+Rift	Runeword121	1			Previously Ladder Only	pole	scep								Hel Ko Lem Gul	jew	jew	r15	r18	r20	r25	dmg-mag		160	250	dmg-fire		60	180	dmg-to-mana		38	38	hit-skill	CTC_Tornado	20	16	att-skill	CTC_FrozenOrb	16	21	all-stats		5	10					0
+Sanctuary	Runeword122	1			110	shld									Ko Ko Mal	r18	r18	r23				block		20	20	blockrate		20	20	ac%		130	160	ac-miss		250	250	res-all		50	70	balance		20	20	oskill	Slow Missiles	2	2	0
+Sanctuary	Runeword122	1			110	shld									Ko Ko Mal	jew	r18	r18	r23			block		20	20	blockrate		20	20	ac%		130	160	ac-miss		250	250	res-all		50	70	balance		20	20	oskill	Slow Missiles	2	2	0
+Serendipity	Runeword123																																																	0
+Shadow	Runeword124																																																	0
+Shadow of Doubt	Runeword125																																																	0
+Silence	Runeword126	1			109	weap									Dol Eld Hel Ist Tir Vex	r14	r02	r15	r24	r03	r26	lifesteal		4	4	stupidity		33	33	dmg%		200	200	swing		20	20	res-all		75	75	allskills		2	2	balance		20	20	0
+Siren's Song	Runeword127																																																	0
+Smoke	Runeword128	1			109	tors									Nef Lum	r04	r17					ac-miss		250	250	ac%		75	75	res-all		50	50	balance		20	20	light		-1	-1									0
+Smoke	Runeword128	1			109	tors									Nef Lum	jew	r04	r17				ac-miss		250	250	ac%		75	75	res-all		50	50	balance		20	20	light		-1	-1									0
+Smoke	Runeword128	1			109	tors									Nef Lum	jew	jew	r04	r17			ac-miss		250	250	ac%		75	75	res-all		50	50	balance		20	20	light		-1	-1									0
+Sorrow	Runeword129																																																	0
+Spirit	Runeword130	1			Previously Ladder Only	xbow	shld								Tal Thu lOrt Amn	r07	r10	r09	r11			balance		55	55	mana		89	112	ac-miss		250	250	vit		22	22	cast		25	35	abs-mag		3	8	allskills		2	2	0
+Spirit	Runeword130	1			Previously Ladder Only	xbow	shld								Tal Thu lOrt Amn	jew	r07	r10	r09	r11		balance		55	55	mana		89	112	ac-miss		250	250	vit		22	22	cast		25	35	abs-mag		3	8	allskills		2	2	0
+Spirit	Runeword130	1			Previously Ladder Only	xbow	shld								Tal Thu lOrt Amn	jew	jew	r07	r10	r09	r11	balance		55	55	mana		89	112	ac-miss		250	250	vit		22	22	cast		25	35	abs-mag		3	8	allskills		2	2	0
+Splendor	Runeword131	1			110	shld									Eth Lum	r05	r17					light		3	3	gold%		50	50	mag%		20	20	ac%		60	100	blockrate		20	20	cast		10	10	allskills		1	1	0
+Splendor	Runeword131	1			110	shld									Eth Lum	jew	r05	r17				light		3	3	gold%		50	50	mag%		20	20	ac%		60	100	blockrate		20	20	cast		10	10	allskills		1	1	0
+Splendor	Runeword131	1			110	shld									Eth Lum	jew	jew	r05	r17			light		3	3	gold%		50	50	mag%		20	20	ac%		60	100	blockrate		20	20	cast		10	10	allskills		1	1	0
+Starlight	Runeword132																																																	0
+Stealth	Runeword133	1			109	tors									Tal Eth	r07	r05					red-mag		3	3	dex		6	6	str		6	10	move		25	25	cast		25	25	balance		25	25					0
+Stealth	Runeword133	1			109	tors									Tal Eth	jew	r07	r05				red-mag		3	3	dex		6	6	str		6	10	move		25	25	cast		25	25	balance		25	25					0
+Stealth	Runeword133	1			109	tors									Tal Eth	jew	jew	r07	r05			red-mag		3	3	dex		6	6	str		6	10	move		25	25	cast		25	25	balance		25	25					0
+Steel	Runeword134	1			109	swor	axe	mace							Tir El	r03	r01					swing		25	25	dmg-min		3	3	dmg-max		3	3	openwounds		25	25	dmg%		20	20									0
+Steel	Runeword134	1			109	swor	axe	mace							Tir El	jew	r03	r01				swing		25	25	dmg-min		3	3	dmg-max		3	3	openwounds		25	25	dmg%		20	20									0
+Steel	Runeword134	1			109	swor	axe	mace							Tir El	jew	jew	r03	r01			swing		25	25	dmg-min		3	3	dmg-max		3	3	openwounds		25	25	dmg%		20	20									0
+Steel	Runeword134	1			109	swor	axe	mace							Tir El	jew	jew	jew	r03	r01		swing		25	25	dmg-min		3	3	dmg-max		3	3	openwounds		25	25	dmg%		20	20									0
+Steel	Runeword134	1			109	swor	axe	mace							Tir El	jew	jew	jew	jew	r03	r01	swing		25	25	dmg-min		3	3	dmg-max		3	3	openwounds		25	25	dmg%		20	20									0
+Still Water	Runeword135																																																	0
+Sting	Runeword136																																																	0
+Stone	Runeword137	1			110	tors									Shael Um Pul Lum	r13	r22	r21	r17			ac%		220	260	charged	Clay Golem	16	16	ac-miss		300	300	charged	Fissure	80	16	str		16	16	vit		16	16	balance		40	40	0
+Storm	Runeword138																																																	0
+Strength	Runeword139	1			109	mele									Amn Tir	r11	r03					str		20	20	dmg%		35	35	vit		10	10	crush		15	15													0
+Strength	Runeword139	1			109	mele									Amn Tir	jew	r11	r03				str		20	20	dmg%		35	35	vit		10	10	crush		15	15													0
+Strength	Runeword139	1			109	mele									Amn Tir	jew	jew	r11	r03			str		20	20	dmg%		35	35	vit		10	10	crush		15	15													0
+Strength	Runeword139	1			109	mele									Amn Tir	jew	jew	jew	r11	r03		str		20	20	dmg%		35	35	vit		10	10	crush		15	15													0
+Strength	Runeword139	1			109	mele									Amn Tir	jew	jew	jew	jew	r11	r03	str		20	20	dmg%		35	35	vit		10	10	crush		15	15													0
+Tempest	Runeword140																																																	0
+Temptation	Runeword141																																																	0
+Terror	Runeword142																																																	0
+Thirst	Runeword143																																																	0
+Thought	Runeword144																																																	0
+Thunder	Runeword145																																																	0
+Time	Runeword146																																																	0
+Tradition	Runeword147																																																	0
+Treachery	Runeword148	1			111	tors									Shael Thul Lem	r13	r10	r20				hit-skill	CTC_Venom	25	15	gethit-skill	CTC_Fade	5	15	ass		2	2	swing		45	45	balance		20	20	gold%		50	50	res-cold		30	30	0
+Treachery	Runeword148	1			111	tors									Shael Thul Lem	jew	r13	r10	r20			hit-skill	CTC_Venom	25	15	gethit-skill	CTC_Fade	5	15	ass		2	2	swing		45	45	balance		20	20	gold%		50	50	res-cold		30	30	0
+Trust	Runeword149																																																	0
+Truth	Runeword150																																																	0
+Unbending Will	Runeword151																																																	0
+Valor	Runeword152																																																	0
+Vengeance	Runeword153																																																	0
+Venom	Runeword154	1			109	weap									Tal Dol Mal	r07	r14	r23				dmg-pois	175	312	312	ignore-ac		1	1	oskill	Blight Strike	4	9	hit-skill	CTC_LowerResist	2	5	manasteal		7	7	dmg%		110	220	swing		50	50	0
+Venom	Runeword154	1			109	weap									Tal Dol Mal	jew	r07	r14	r23			dmg-pois	175	312	312	ignore-ac		1	1	oskill	Blight Strike	4	9	hit-skill	CTC_LowerResist	2	5	manasteal		7	7	dmg%		110	220	swing		50	50	0
+Venom	Runeword154	1			109	weap									Tal Dol Mal	jew	jew	r07	r14	r23		dmg-pois	175	312	312	ignore-ac		1	1	oskill	Blight Strike	4	9	hit-skill	CTC_LowerResist	2	5	manasteal		7	7	dmg%		110	220	swing		50	50	0
+Venom	Runeword154	1			109	weap									Tal Dol Mal	jew	jew	jew	r07	r14	r23	dmg-pois	175	312	312	ignore-ac		1	1	oskill	Blight Strike	4	9	hit-skill	CTC_LowerResist	2	5	manasteal		7	7	dmg%		110	220	swing		50	50	0
+Victory	Runeword155																																																	0
+Voice	Runeword156																																																	0
+Voice of Reason	Runeword99	1			Previously Ladder Only	swor	mace								Lem Ko El Eld	r20	r18	r01	r02			dmg-demon		220	350	dmg-undead		280	300	dmg-cold		100	220	pierce-cold		24	24	hit-skill	CTC_IceBolt	18	20	hit-skill	CTC_FrozenOrb	15	13	nofreeze		1	1	0
+Voice of Reason	Runeword99	1			Previously Ladder Only	swor	mace								Lem Ko El Eld	jew	r20	r18	r01	r02		dmg-demon		220	350	dmg-undead		280	300	dmg-cold		100	220	pierce-cold		24	24	hit-skill	CTC_IceBolt	18	20	hit-skill	CTC_FrozenOrb	15	13	nofreeze		1	1	0
+Voice of Reason	Runeword99	1			Previously Ladder Only	swor	mace								Lem Ko El Eld	jew	jew	r20	r18	r01	r02	dmg-demon		220	350	dmg-undead		280	300	dmg-cold		100	220	pierce-cold		24	24	hit-skill	CTC_IceBolt	18	20	hit-skill	CTC_FrozenOrb	15	13	nofreeze		1	1	0
+Void	Runeword157																																																	0
+War	Runeword158																																																	0
+Water	Runeword159																																																	0
+Wealth	Runeword160	1			109	tors									Lem Ko Tir	r20	r18	r03				gold%		250	250	mag%		100	100	ac		15	100	light		2	2													0
+Wealth	Runeword160	1			109	tors									Lem Ko Tir	jew	r20	r18	r03			gold%		250	250	mag%		100	100	ac		15	100	light		2	2													0
+Whisper	Runeword161																																																	0
+White	Runeword162	1			109	wand									Dol Io	r14	r16					skilltab	7	3	3	red-mag		4	4	cast		20	20	mana		13	13	skill	Bone Armor	3	3	skill	Bone Spear	2	2	skill	Summon Mastery	4	4	0
+Wind	Runeword163	1			110	mele									Sur El	r29	r01					dmg%		120	160	swing		40	40	move		20	20	reduce-ac		50	50	hit-skill	CTC_Tornado	10	9	charged	Hurricane	5	10	balance		15	15	0
+Wind	Runeword163	1			110	mele									Sur El	jew	r29	r01				dmg%		120	160	swing		40	40	move		20	20	reduce-ac		50	50	hit-skill	CTC_Tornado	10	9	charged	Hurricane	5	10	balance		15	15	0
+Wind	Runeword163	1			110	mele									Sur El	jew	jew	r29	r01			dmg%		120	160	swing		40	40	move		20	20	reduce-ac		50	50	hit-skill	CTC_Tornado	10	9	charged	Hurricane	5	10	balance		15	15	0
+Wind	Runeword163	1			110	mele									Sur El	jew	jew	jew	r29	r01		dmg%		120	160	swing		40	40	move		20	20	reduce-ac		50	50	hit-skill	CTC_Tornado	10	9	charged	Hurricane	5	10	balance		15	15	0
+Wind	Runeword163	1			110	mele									Sur El	jew	jew	jew	jew	r29	r01	dmg%		120	160	swing		40	40	move		20	20	reduce-ac		50	50	hit-skill	CTC_Tornado	10	9	charged	Hurricane	5	10	balance		15	15	0
+Wings of Hope	Runeword164																																																	0
+Wisdom	Runeword165																																																	0
+Woe	Runeword166																																																	0
+Wonder	Runeword167																																																	0
+Wrath	Runeword168	1			Previously Ladder Only	miss									Pul Lum Ber Mal	r21	r17	r30	r23			dmg-demon		300	300	dmg-undead		250	300	dmg-ltng		41	240	dmg-mag		85	120	hit-skill	CTC_LifeTap	5	10	hit-skill	CTC_Decrepify	30	1	nofreeze		1	1	0
+Wrath	Runeword168	1			Previously Ladder Only	miss									Pul Lum Ber Mal	jew	r21	r17	r30	r23		dmg-demon		300	300	dmg-undead		250	300	dmg-ltng		41	240	dmg-mag		85	120	hit-skill	CTC_LifeTap	5	10	hit-skill	CTC_Decrepify	30	1	nofreeze		1	1	0
+Wrath	Runeword168	1			Previously Ladder Only	miss									Pul Lum Ber Mal	jew	jew	r21	r17	r30	r23	dmg-demon		300	300	dmg-undead		250	300	dmg-ltng		41	240	dmg-mag		85	120	hit-skill	CTC_LifeTap	5	10	hit-skill	CTC_Decrepify	30	1	nofreeze		1	1	0
+Youth	Runeword169																																																	0
+Zephyr	Runeword170	1			109	miss									Ort Eth	r09	r05					move		25	25	swing		25	25	dmg%		33	33	att		66	66	gethit-skill	CTC_Tornado	7	10	ac		25	25					0
+Zephyr	Runeword170	1			109	miss									Ort Eth	jew	r09	r05				move		25	25	swing		25	25	dmg%		33	33	att		66	66	gethit-skill	CTC_Tornado	7	10	ac		25	25					0
+Zephyr	Runeword170	1			109	miss									Ort Eth	jew	jew	r09	r05			move		25	25	swing		25	25	dmg%		33	33	att		66	66	gethit-skill	CTC_Tornado	7	10	ac		25	25					0
+Zephyr	Runeword170	1			109	miss									Ort Eth	jew	jew	jew	r09	r05		move		25	25	swing		25	25	dmg%		33	33	att		66	66	gethit-skill	CTC_Tornado	7	10	ac		25	25					0
+Zephyr	Runeword170	1			109	miss									Ort Eth	jew	jew	jew	jew	r09	r05	move		25	25	swing		25	25	dmg%		33	33	att		66	66	gethit-skill	CTC_Tornado	7	10	ac		25	25					0
+Lord of Terror	Runeword171	1				circ									Di Ab Lo	r34	r35	r28				oskill	Mini D	1	1	fireskill		2	2	allskills		2	2	extra-elem		10	15	cdr		20	30	pierce-immunity-all		15	20					0

@@ -296,7 +296,7 @@
                         {
                             "type": "TextBoxWidget", "name": "ModName",
                             "fields": {
-                                "rect": { "x": 255, "y": 1985, "width": 400 },
+                                "rect": { "x": 255, "y": 1970, "width": 400 },
                                 "text":"ReMoDDeD",
                                 "style": {
                                     "fontColor": "$CharacterListDetailsColor",
@@ -309,11 +309,24 @@
                         {
                             "type": "TextBoxWidget", "name": "ModAuthors",
                             "fields": {
-                                "rect": { "x": 245, "y": 2045, "width": 400 },
-                                "text":"(Beta - 0.9.9.5B)",
+                                "rect": { "x": 255, "y": 2030, "width": 400 },
+                                "text":"(Beta - 0.9.9.6)",
                                 "style": {
                                     "fontColor": "$FontColorBonesyRed",
                                     "pointSize": "$XMediumPanelFontSize",
+                                    "spacing": "$ReducedSpacing",
+                                    "dropShadow": "$DefaultDropShadow"
+                                }
+                            }
+                        },
+                        {
+                            "type": "TextBoxWidget", "name": "ModAuthors",
+                            "fields": {
+                                "rect": { "x": 305, "y": 2070, "width": 400 },
+                                "text":"BUILD 011724",
+                                "style": {
+                                    "fontColor": "$FontColorGray",
+                                    "pointSize": "$SmallPanelFontSize",
                                     "spacing": "$ReducedSpacing",
                                     "dropShadow": "$DefaultDropShadow"
                                 }

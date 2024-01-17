@@ -1,0 +1,780 @@
+monster	oninit	level	item1	loc1	mod1	item2	loc2	mod2	item3	loc3	mod3	*eol
+bloodraven	1	0	sbw	rarm	6							0
+flyingscimitar	1	0	scm	rarm	6							0
+valkyrie		27	ci2	head	6							0
+valkyrie		25	amu	neck	6							0
+valkyrie		23	uhc	belt	6							0
+valkyrie		21	uhb	feet	6							0
+valkyrie		19	utg	glov	6							0
+valkyrie		17	7p7	rarm	6							0
+valkyrie		16	uar	tors	6							0
+valkyrie		14	ci0	head	4							0
+valkyrie		13	amu	neck	4							0
+valkyrie		12	zhb	belt	4							0
+valkyrie		11	xhb	feet	4							0
+valkyrie		10	xhg	glov	4							0
+valkyrie		8	9p9	rarm	6							0
+valkyrie		7	xul	tors	6							0
+valkyrie		5	hbl	belt	4							0
+valkyrie		4	hbt	feet	4							0
+valkyrie		2	hgl	glov	4							0
+valkyrie		0	spr	rarm	6							0
+valkyrie		0	ful	tors	6							0
+shadowwarrior		0	ces	rarm	4							0
+shadowwarrior		0	btl	larm	4							0
+shadowwarrior		0		tors	4							0
+shadowwarrior		0		head	4							0
+shadowmaster		17	amu	neck	6							0
+shadowmaster		13	rin	lrin	6							0
+shadowmaster		11	7ar	rarm	6	7xf	rarm	6	7qr	rarm	6	0
+shadowmaster		11	7cs	larm	6	7tw	larm	6	7qr	larm	6	0
+shadowmaster		11	ulg	glov	6	umg	glov	6	uhg	glov	6	0
+shadowmaster		11	rin	rrin	6							0
+shadowmaster		11		tors	6							0
+shadowmaster		11		head	6							0
+shadowmaster		9	rin	rrin	4							0
+shadowmaster		6	7ar	rarm	4	7xf	rarm	4	7qr	rarm	4	0
+shadowmaster		6	7cs	larm	4	7tw	larm	4	7qr	larm	4	0
+shadowmaster		6	ulg	glov	4	umg	glov	4	uhg	glov	4	0
+shadowmaster		6		tors	4							0
+shadowmaster		6		head	4							0
+shadowmaster		5	ulg	glov	3	umg	glov	3	uhg	glov	3	0
+shadowmaster		0	7ar	rarm	3	7xf	rarm	3	7qr	rarm	3	0
+shadowmaster		0	7cs	larm	3	7tw	larm	3	7qr	larm	3	0
+shadowmaster		0		tors	3							0
+shadowmaster		0		head	3							0
+*end*  do not remove												0
+battlebrother		21	baf	head	7	bae	head	7	uhl	head	7	0
+battlebrother		21	uar	tors	7	uul	tors	7	uld	tors	7	0
+battlebrother		21	7gd	rarm	7	7fb	rarm	7	7b7	rarm	7	0
+battlebrother		21	Bb3	belt	7	uhb	belt	7	uhb	belt	6	0
+battlebrother		20	baf	head	6	bae	head	6	uhl	head	6	0
+battlebrother		20	uar	tors	6	uul	tors	6	uld	tors	6	0
+battlebrother		20	7gd	rarm	6	7fb	rarm	6	7b7	rarm	6	0
+battlebrother		20	Bb3	belt	6	uhb	belt	6	uhb	belt	6	0
+battlebrother		16	baa	head	7	ba9	head	7	xhl	head	7	0
+battlebrother		16	xar	tors	7	xul	tors	7	xld	tors	7	0
+battlebrother		16	9gd	rarm	7	9fb	rarm	7	9b9	rarm	7	0
+battlebrother		16	Bb2	belt	7	zhb	belt	7	thb	belt	7	0
+battlebrother		8	baa	head	6	ba9	head	6	xhl	head	6	0
+battlebrother		8	xar	tors	6	xul	tors	6	xld	tors	6	0
+battlebrother		8	9gd	rarm	6	9fb	rarm	6	9b9	rarm	6	0
+battlebrother		8	Bb2	belt	6	zhb	belt	6	thb	belt	6	0
+battlebrother		4	ba5	head	6	ba4	head	6	fhl	head	6	0
+battlebrother		4	aar	tors	6	ful	tors	6	ltp	tors	6	0
+battlebrother		4	gsd	rarm	6	flb	rarm	6	bsw	rarm	6	0
+battlebrother		4	Bb1	belt	6	hbl	belt	6	tbl	belt	6	0
+battlebrother		0	ba5	head	4	ba4	head	4	fhl	head	4	0
+battlebrother		0	aar	tors	4	ful	tors	4	ltp	tors	4	0
+battlebrother		0	gsd	rarm	4	flb	rarm	4	bsw	rarm	4	0
+battlebrother		0	Bb1	belt	hbl	pa4	belt	4	tbl	belt	4	0
+faithfulfollower		21	urn	head	7	Pc2	head	7	uhm	head	7	0
+faithfulfollower		21	Bp3	tors	7	utp	tors	7	uhn	tors	7	0
+faithfulfollower		21	7sb	rarm	7	7wa	rarm	7	7mt	rarm	7	0
+faithfulfollower		21	paf	larm	7	pae	larm	7	pac	larm	7	0
+faithfulfollower		20	urn	head	6	Pc3	head	6	uhm	head	6	0
+faithfulfollower		20	Bp3	tors	6	utp	tors	6	uhn	tors	6	0
+faithfulfollower		20	7sb	rarm	6	7wa	rarm	6	7mt	rarm	6	0
+faithfulfollower		20	paf	larm	6	pae	larm	6	pac	larm	6	0
+faithfulfollower		16	xrn	head	7	Pc2	head	7	xhm	head	7	0
+faithfulfollower		16	Bp2	tors	7	xtp	tors	7	xhn	tors	7	0
+faithfulfollower		16	9sb	rarm	7	9wa	rarm	7	9mt	rarm	7	0
+faithfulfollower		16	paa	larm	7	pa4	larm	7	pa7	larm	7	0
+faithfulfollower		8	xrn	head	6	Pc2	head	6	xhm	head	6	0
+faithfulfollower		8	Bp2	tors	6	xtp	tors	6	xhn	tors	6	0
+faithfulfollower		8	9sb	rarm	6	9wa	rarm	6	9mt	rarm	6	0
+faithfulfollower		8	paa	larm	6	pa9	larm	6	pa7	larm	6	0
+faithfulfollower		4	crn	head	6	Pc1	head	6	ghm	head	6	0
+faithfulfollower		4	Bp1	tors	6	ltp	tors	6	chn	tors	6	0
+faithfulfollower		4	sbr	rarm	6	wax	rarm	6	mst	rarm	6	0
+faithfulfollower		4	pa5	larm	6	pa4	larm	6	pa1	larm	6	0
+faithfulfollower		0	crn	head	4	Pc1	head	4	ghm	head	4	0
+faithfulfollower		0	Bp1	tors	4	ltp	tors	4	chn	tors	4	0
+faithfulfollower		0	sbr	rarm	4	wax	rarm	4	mst	rarm	4	0
+faithfulfollower		0	pa5	larm	4	pa4	larm	4	pa1	larm	4	0
+amamon1			lbw	rarm	7	lbw	rarm	7	lbw	rarm	7	0
+amamon2			amu	neck	2	amu	neck	2	amu	neck	2	0
+amamon2			rin	lrin	2	rin	lrin	2	rin	lrin	2	0
+amamon2			rin	rrin	2	rin	rrin	2	rin	rrin	2	0
+amamon2			aqv	rarm	2	aqv	rarm	2	aqv	rarm	2	0
+amamon2			swb	larm	2	swb	larm	2	swb	larm	2	0
+amamon2			cap	head	2	cap	head	2	cap	head	2	0
+amamon2			lgl	glov	2	lgl	glov	2	lgl	glov	2	0
+amamon2			lbt	feet	2	lbt	feet	2	lbt	feet	2	0
+amamon2			qui	tors	2	qui	tors	2	qui	tors	2	0
+amamon2			lbl	belt	2	lbl	belt	2	lbl	belt	2	0
+amamon3			amu	neck	4	amu	neck	4	amu	neck	4	0
+amamon3			rin	lrin	4	rin	lrin	4	rin	lrin	4	0
+amamon3			rin	rrin	4	rin	rrin	4	rin	rrin	4	0
+amamon3			aqv	rarm	4	aqv	rarm	4	aqv	rarm	4	0
+amamon3			swb	larm	4	swb	larm	4	swb	larm	4	0
+amamon3			cap	head	4	cap	head	4	cap	head	4	0
+amamon3			lgl	glov	4	lgl	glov	4	lgl	glov	4	0
+amamon3			lbt	feet	4	lbt	feet	4	lbt	feet	4	0
+amamon3			qui	tors	4	qui	tors	4	qui	tors	4	0
+amamon3			lbl	belt	4	lbl	belt	4	lbl	belt	4	0
+amamon4			amu	neck	4	amu	neck	4	amu	neck	4	0
+amamon4			rin	lrin	4	rin	lrin	4	rin	lrin	4	0
+amamon4			rin	rrin	4	rin	rrin	4	rin	rrin	4	0
+amamon4			aqv	rarm	4	aqv	rarm	4	aqv	rarm	4	0
+amamon4			8sw	larm	4	8sw	larm	4	8sw	larm	4	0
+amamon4			xlm	head	4	xlm	head	4	xlm	head	4	0
+amamon4			xmg	glov	4	xmg	glov	4	xmg	glov	4	0
+amamon4			xmb	feet	4	xmb	feet	4	xmb	feet	4	0
+amamon4			xpl	tors	4	xpl	tors	4	xpl	tors	4	0
+amamon4			zmb	belt	4	zmb	belt	4	zmb	belt	4	0
+amamon5			amu	neck	6	amu	neck	6	amu	neck	6	0
+amamon5			rin	lrin	6	rin	lrin	6	rin	lrin	6	0
+amamon5			rin	rrin	6	rin	rrin	6	rin	rrin	6	0
+amamon5			aqv	rarm	6	aqv	rarm	6	aqv	rarm	6	0
+amamon5			8sw	larm	6	8sw	larm	6	8sw	larm	6	0
+amamon5			xlm	head	6	xlm	head	6	xlm	head	6	0
+amamon5			xmg	glov	6	xmg	glov	6	xmg	glov	6	0
+amamon5			xmb	feet	6	xmb	feet	6	xmb	feet	6	0
+amamon5			xpl	tors	6	xpl	tors	6	xpl	tors	6	0
+amamon5			zmb	belt	6	zmb	belt	6	zmb	belt	6	0
+amamon6			amu	neck	6	amu	neck	6	amu	neck	6	0
+amamon6			rin	lrin	6	rin	lrin	6	rin	lrin	6	0
+amamon6			rin	rrin	6	rin	rrin	6	rin	rrin	6	0
+amamon6			aqv	rarm	6	aqv	rarm	6	aqv	rarm	6	0
+amamon6			8sw	larm	6	8sw	larm	6	8sw	larm	6	0
+amamon6			xlm	head	6	xlm	head	6	xlm	head	6	0
+amamon6			xmg	glov	6	xmg	glov	6	xmg	glov	6	0
+amamon6			xmb	feet	6	xmb	feet	6	xmb	feet	6	0
+amamon6			xpl	tors	6	xpl	tors	6	xpl	tors	6	0
+amamon6			zmb	belt	6	zmb	belt	6	zmb	belt	6	0
+amamon7			amu	neck	5	amu	neck	5	amu	neck	5	0
+amamon7			rin	lrin	5	rin	lrin	5	rin	lrin	5	0
+amamon7			rin	rrin	5	rin	rrin	5	rin	rrin	5	0
+amamon7			aqv	rarm	5	aqv	rarm	5	aqv	rarm	5	0
+amamon7			6sw	larm	5	6sw	larm	5	6sw	larm	5	0
+amamon7			urn	head	5	urn	head	5	urn	head	5	0
+amamon7			uhg	glov	5	uhg	glov	5	uhg	glov	5	0
+amamon7			uhb	feet	5	uhb	feet	5	uhb	feet	5	0
+amamon7			uar	tors	5	uar	tors	5	uar	tors	5	0
+amamon7			uhc	belt	5	uhc	belt	5	uhc	belt	5	0
+amamon8			amu	neck	5	amu	neck	5	amu	neck	5	0
+amamon8			rin	lrin	5	rin	lrin	5	rin	lrin	5	0
+amamon8			rin	rrin	5	rin	rrin	5	rin	rrin	5	0
+amamon8			aqv	rarm	5	aqv	rarm	5	aqv	rarm	5	0
+amamon8			6sw	larm	5	6sw	larm	5	6sw	larm	5	0
+amamon8			urn	head	5	urn	head	5	urn	head	5	0
+amamon8			uhg	glov	5	uhg	glov	5	uhg	glov	5	0
+amamon8			uhb	feet	5	uhb	feet	5	uhb	feet	5	0
+amamon8			uar	tors	5	uar	tors	5	uar	tors	5	0
+amamon8			uhc	belt	5	uhc	belt	5	uhc	belt	5	0
+amamon9			amu	neck	7	amu	neck	7	amu	neck	7	0
+amamon9			rin	lrin	7	rin	lrin	7	rin	lrin	7	0
+amamon9			rin	rrin	7	rin	rrin	7	rin	rrin	7	0
+amamon9			aqv	rarm	7	aqv	rarm	7	aqv	rarm	7	0
+amamon9			6sw	larm	7	6sw	larm	7	6sw	larm	7	0
+amamon9			urn	head	7	urn	head	7	urn	head	7	0
+amamon9			uhg	glov	7	uhg	glov	7	uhg	glov	7	0
+amamon9			uhb	feet	7	uhb	feet	7	uhb	feet	7	0
+amamon9			uar	tors	7	uar	tors	7	uar	tors	7	0
+amamon9			uhc	belt	7	uhc	belt	7	uhc	belt	7	0
+amamon10			amu	neck	7	amu	neck	7	amu	neck	7	0
+amamon10			rin	lrin	7	rin	lrin	7	rin	lrin	7	0
+amamon10			rin	rrin	7	rin	rrin	7	rin	rrin	7	0
+amamon10			aqv	rarm	7	aqv	rarm	7	aqv	rarm	7	0
+amamon10			6sw	larm	7	6sw	larm	7	6sw	larm	7	0
+amamon10			urn	head	7	urn	head	7	urn	head	7	0
+amamon10			uhg	glov	7	uhg	glov	7	uhg	glov	7	0
+amamon10			uhb	feet	7	uhb	feet	7	uhb	feet	7	0
+amamon10			qui	tors	7	qui	tors	7	qui	tors	7	0
+amamon10			uhc	belt	7	uhc	belt	7	uhc	belt	7	0
+sormon1			amu	neck	2	amu	neck	2	amu	neck	2	0
+sormon1			rin	lrin	2	rin	lrin	2	rin	lrin	2	0
+sormon1			rin	rrin	2	rin	rrin	2	rin	rrin	2	0
+sormon1			buc	rarm	2	buc	rarm	2	buc	rarm	2	0
+sormon1			ob1	larm	2	ob1	larm	2	ob1	larm	2	0
+sormon1			cap	head	2	cap	head	2	cap	head	2	0
+sormon1			lgl	glov	2	lgl	glov	2	lgl	glov	2	0
+sormon1			lbt	feet	2	lbt	feet	2	lbt	feet	2	0
+sormon1			qui	tors	2	qui	tors	2	qui	tors	2	0
+sormon1			lbl	belt	2	lbl	belt	2	lbl	belt	2	0
+sormon2			amu	neck	2	amu	neck	2	amu	neck	2	0
+sormon2			rin	lrin	2	rin	lrin	2	rin	lrin	2	0
+sormon2			rin	rrin	2	rin	rrin	2	rin	rrin	2	0
+sormon2			buc	rarm	2	buc	rarm	2	buc	rarm	2	0
+sormon2			ob1	larm	2	ob1	larm	2	ob1	larm	2	0
+sormon2			cap	head	2	cap	head	2	cap	head	2	0
+sormon2			lgl	glov	2	lgl	glov	2	lgl	glov	2	0
+sormon2			lbt	feet	2	lbt	feet	2	lbt	feet	2	0
+sormon2			qui	tors	2	qui	tors	2	qui	tors	2	0
+sormon2			lbl	belt	2	lbl	belt	2	lbl	belt	2	0
+sormon3			amu	neck	4	amu	neck	4	amu	neck	4	0
+sormon3			rin	lrin	4	rin	lrin	4	rin	lrin	4	0
+sormon3			rin	rrin	4	rin	rrin	4	rin	rrin	4	0
+sormon3			buc	rarm	4	buc	rarm	4	buc	rarm	4	0
+sormon3			ob1	larm	4	ob1	larm	4	ob1	larm	4	0
+sormon3			cap	head	4	cap	head	4	cap	head	4	0
+sormon3			lgl	glov	4	lgl	glov	4	lgl	glov	4	0
+sormon3			lbt	feet	4	lbt	feet	4	lbt	feet	4	0
+sormon3			qui	tors	4	qui	tors	4	qui	tors	4	0
+sormon3			lbl	belt	4	lbl	belt	4	lbl	belt	4	0
+sormon4			amu	neck	4	amu	neck	4	amu	neck	4	0
+sormon4			rin	lrin	4	rin	lrin	4	rin	lrin	4	0
+sormon4			rin	rrin	4	rin	rrin	4	rin	rrin	4	0
+sormon4			lrg	rarm	4	lrg	rarm	4	lrg	rarm	4	0
+sormon4			ob8	larm	4	ob8	larm	4	ob8	larm	4	0
+sormon4			xlm	head	4	xlm	head	4	xlm	head	4	0
+sormon4			xmg	glov	4	xmg	glov	4	xmg	glov	4	0
+sormon4			xmb	feet	4	xmb	feet	4	xmb	feet	4	0
+sormon4			xpl	tors	4	xpl	tors	4	xpl	tors	4	0
+sormon4			zmb	belt	4	zmb	belt	4	zmb	belt	4	0
+sormon5			amu	neck	6	amu	neck	6	amu	neck	6	0
+sormon5			rin	lrin	6	rin	lrin	6	rin	lrin	6	0
+sormon5			rin	rrin	6	rin	rrin	6	rin	rrin	6	0
+sormon5			lrg	rarm	6	lrg	rarm	6	lrg	rarm	6	0
+sormon5			ob8	larm	6	ob8	larm	6	ob8	larm	6	0
+sormon5			xlm	head	6	xlm	head	6	xlm	head	6	0
+sormon5			xmg	glov	6	xmg	glov	6	xmg	glov	6	0
+sormon5			xmb	feet	6	xmb	feet	6	xmb	feet	6	0
+sormon5			xpl	tors	6	xpl	tors	6	xpl	tors	6	0
+sormon5			zmb	belt	6	zmb	belt	6	zmb	belt	6	0
+sormon6			amu	neck	6	amu	neck	6	amu	neck	6	0
+sormon6			rin	lrin	6	rin	lrin	6	rin	lrin	6	0
+sormon6			rin	rrin	6	rin	rrin	6	rin	rrin	6	0
+sormon6			lrg	rarm	6	lrg	rarm	6	lrg	rarm	6	0
+sormon6			ob8	larm	6	ob8	larm	6	ob8	larm	6	0
+sormon6			xlm	head	6	xlm	head	6	xlm	head	6	0
+sormon6			xmg	glov	6	xmg	glov	6	xmg	glov	6	0
+sormon6			xmb	feet	6	xmb	feet	6	xmb	feet	6	0
+sormon6			xpl	tors	6	xpl	tors	6	xpl	tors	6	0
+sormon6			zmb	belt	6	zmb	belt	6	zmb	belt	6	0
+sormon7			amu	neck	5	amu	neck	5	amu	neck	5	0
+sormon7			rin	lrin	5	rin	lrin	5	rin	lrin	5	0
+sormon7			rin	rrin	5	rin	rrin	5	rin	rrin	5	0
+sormon7			uts	rarm	5	uts	rarm	5	uts	rarm	5	0
+sormon7			obf	larm	5	obf	larm	5	obf	larm	5	0
+sormon7			urn	head	5	urn	head	5	urn	head	5	0
+sormon7			uhg	glov	5	uhg	glov	5	uhg	glov	5	0
+sormon7			uhb	feet	5	uhb	feet	5	uhb	feet	5	0
+sormon7			uar	tors	5	uar	tors	5	uar	tors	5	0
+sormon7			uhc	belt	5	uhc	belt	5	uhc	belt	5	0
+sormon8			amu	neck	5	amu	neck	5	amu	neck	5	0
+sormon8			rin	lrin	5	rin	lrin	5	rin	lrin	5	0
+sormon8			rin	rrin	5	rin	rrin	5	rin	rrin	5	0
+sormon8			uts	rarm	5	uts	rarm	5	uts	rarm	5	0
+sormon8			obf	larm	5	obf	larm	5	obf	larm	5	0
+sormon8			urn	head	5	urn	head	5	urn	head	5	0
+sormon8			uhg	glov	5	uhg	glov	5	uhg	glov	5	0
+sormon8			uhb	feet	5	uhb	feet	5	uhb	feet	5	0
+sormon8			uar	tors	5	uar	tors	5	uar	tors	5	0
+sormon8			uhc	belt	5	uhc	belt	5	uhc	belt	5	0
+sormon9			amu	neck	7	amu	neck	7	amu	neck	7	0
+sormon9			rin	lrin	7	rin	lrin	7	rin	lrin	7	0
+sormon9			rin	rrin	7	rin	rrin	7	rin	rrin	7	0
+sormon9			uts	rarm	7	uts	rarm	7	uts	rarm	7	0
+sormon9			obf	larm	7	obf	larm	7	obf	larm	7	0
+sormon9			urn	head	7	urn	head	7	urn	head	7	0
+sormon9			uhg	glov	7	uhg	glov	7	uhg	glov	7	0
+sormon9			uhb	feet	7	uhb	feet	7	uhb	feet	7	0
+sormon9			uar	tors	7	uar	tors	7	uar	tors	7	0
+sormon9			uhc	belt	7	uhc	belt	7	uhc	belt	7	0
+sormon10			amu	neck	7	amu	neck	7	amu	neck	7	0
+sormon10			rin	lrin	7	rin	lrin	7	rin	lrin	7	0
+sormon10			rin	rrin	7	rin	rrin	7	rin	rrin	7	0
+sormon10			uts	rarm	7	uts	rarm	7	uts	rarm	7	0
+sormon10			obf	larm	7	obf	larm	7	obf	larm	7	0
+sormon10			urn	head	7	urn	head	7	urn	head	7	0
+sormon10			uhg	glov	7	uhg	glov	7	uhg	glov	7	0
+sormon10			uhb	feet	7	uhb	feet	7	uhb	feet	7	0
+sormon10			qui	tors	7	qui	tors	7	qui	tors	7	0
+sormon10			uhc	belt	7	uhc	belt	7	uhc	belt	7	0
+necmon1			amu	neck	2	amu	neck	2	amu	neck	2	0
+necmon1			rin	lrin	2	rin	lrin	2	rin	lrin	2	0
+necmon1			rin	rrin	2	rin	rrin	2	rin	rrin	2	0
+necmon1			ne1	rarm	2	ne1	rarm	2	ne1	rarm	2	0
+necmon1			wnd	larm	2	wnd	larm	2	wnd	larm	2	0
+necmon1			cap	head	2	cap	head	2	cap	head	2	0
+necmon1			lgl	glov	2	lgl	glov	2	lgl	glov	2	0
+necmon1			lbt	feet	2	lbt	feet	2	lbt	feet	2	0
+necmon1			qui	tors	2	qui	tors	2	qui	tors	2	0
+necmon1			lbl	belt	2	lbl	belt	2	lbl	belt	2	0
+necmon2			amu	neck	2	amu	neck	2	amu	neck	2	0
+necmon2			rin	lrin	2	rin	lrin	2	rin	lrin	2	0
+necmon2			rin	rrin	2	rin	rrin	2	rin	rrin	2	0
+necmon2			ne1	rarm	2	ne1	rarm	2	ne1	rarm	2	0
+necmon2			wnd	larm	2	wnd	larm	2	wnd	larm	2	0
+necmon2			cap	head	2	cap	head	2	cap	head	2	0
+necmon2			lgl	glov	2	lgl	glov	2	lgl	glov	2	0
+necmon2			lbt	feet	2	lbt	feet	2	lbt	feet	2	0
+necmon2			qui	tors	2	qui	tors	2	qui	tors	2	0
+necmon2			lbl	belt	2	lbl	belt	2	lbl	belt	2	0
+necmon3			amu	neck	4	amu	neck	4	amu	neck	4	0
+necmon3			rin	lrin	4	rin	lrin	4	rin	lrin	4	0
+necmon3			rin	rrin	4	rin	rrin	4	rin	rrin	4	0
+necmon3			ne1	rarm	4	ne1	rarm	4	ne1	rarm	4	0
+necmon3			wnd	larm	4	wnd	larm	4	wnd	larm	4	0
+necmon3			cap	head	4	cap	head	4	cap	head	4	0
+necmon3			lgl	glov	4	lgl	glov	4	lgl	glov	4	0
+necmon3			lbt	feet	4	lbt	feet	4	lbt	feet	4	0
+necmon3			qui	tors	4	qui	tors	4	qui	tors	4	0
+necmon3			lbl	belt	4	lbl	belt	4	lbl	belt	4	0
+necmon4			amu	neck	4	amu	neck	4	amu	neck	4	0
+necmon4			rin	lrin	4	rin	lrin	4	rin	lrin	4	0
+necmon4			rin	rrin	4	rin	rrin	4	rin	rrin	4	0
+necmon4			ne8	rarm	4	ne8	rarm	4	ne8	rarm	4	0
+necmon4			9yw	larm	4	9yw	larm	4	9yw	larm	4	0
+necmon4			xlm	head	4	xlm	head	4	xlm	head	4	0
+necmon4			xmg	glov	4	xmg	glov	4	xmg	glov	4	0
+necmon4			xmb	feet	4	xmb	feet	4	xmb	feet	4	0
+necmon4			xpl	tors	4	xpl	tors	4	xpl	tors	4	0
+necmon4			zmb	belt	4	zmb	belt	4	zmb	belt	4	0
+necmon5			amu	neck	6	amu	neck	6	amu	neck	6	0
+necmon5			rin	lrin	6	rin	lrin	6	rin	lrin	6	0
+necmon5			rin	rrin	6	rin	rrin	6	rin	rrin	6	0
+necmon5			ne8	rarm	6	ne8	rarm	6	ne8	rarm	6	0
+necmon5			9yw	larm	6	9yw	larm	6	9yw	larm	6	0
+necmon5			xlm	head	6	xlm	head	6	xlm	head	6	0
+necmon5			xmg	glov	6	xmg	glov	6	xmg	glov	6	0
+necmon5			xmb	feet	6	xmb	feet	6	xmb	feet	6	0
+necmon5			xpl	tors	6	xpl	tors	6	xpl	tors	6	0
+necmon5			zmb	belt	6	zmb	belt	6	zmb	belt	6	0
+necmon6			amu	neck	6	amu	neck	6	amu	neck	6	0
+necmon6			rin	lrin	6	rin	lrin	6	rin	lrin	6	0
+necmon6			rin	rrin	6	rin	rrin	6	rin	rrin	6	0
+necmon6			ne8	rarm	6	ne8	rarm	6	ne8	rarm	6	0
+necmon6			9yw	larm	6	9yw	larm	6	9yw	larm	6	0
+necmon6			xlm	head	6	xlm	head	6	xlm	head	6	0
+necmon6			xmg	glov	6	xmg	glov	6	xmg	glov	6	0
+necmon6			xmb	feet	6	xmb	feet	6	xmb	feet	6	0
+necmon6			xpl	tors	6	xpl	tors	6	xpl	tors	6	0
+necmon6			zmb	belt	6	zmb	belt	6	zmb	belt	6	0
+necmon7			amu	neck	5	amu	neck	5	amu	neck	5	0
+necmon7			rin	lrin	5	rin	lrin	5	rin	lrin	5	0
+necmon7			rin	rrin	5	rin	rrin	5	rin	rrin	5	0
+necmon7			nef	rarm	5	nef	rarm	5	nef	rarm	5	0
+necmon7			7gw	larm	5	7gw	larm	5	7gw	larm	5	0
+necmon7			urn	head	5	urn	head	5	urn	head	5	0
+necmon7			uhg	glov	5	uhg	glov	5	uhg	glov	5	0
+necmon7			uhb	feet	5	uhb	feet	5	uhb	feet	5	0
+necmon7			uar	tors	5	uar	tors	5	uar	tors	5	0
+necmon7			uhc	belt	5	uhc	belt	5	uhc	belt	5	0
+necmon8			amu	neck	5	amu	neck	5	amu	neck	5	0
+necmon8			rin	lrin	5	rin	lrin	5	rin	lrin	5	0
+necmon8			rin	rrin	5	rin	rrin	5	rin	rrin	5	0
+necmon8			nef	rarm	5	nef	rarm	5	nef	rarm	5	0
+necmon8			7gw	larm	5	7gw	larm	5	7gw	larm	5	0
+necmon8			urn	head	5	urn	head	5	urn	head	5	0
+necmon8			uhg	glov	5	uhg	glov	5	uhg	glov	5	0
+necmon8			uhb	feet	5	uhb	feet	5	uhb	feet	5	0
+necmon8			uar	tors	5	uar	tors	5	uar	tors	5	0
+necmon8			uhc	belt	5	uhc	belt	5	uhc	belt	5	0
+necmon9			amu	neck	7	amu	neck	7	amu	neck	7	0
+necmon9			rin	lrin	7	rin	lrin	7	rin	lrin	7	0
+necmon9			rin	rrin	7	rin	rrin	7	rin	rrin	7	0
+necmon9			nef	rarm	7	nef	rarm	7	nef	rarm	7	0
+necmon9			7gw	larm	7	7gw	larm	7	7gw	larm	7	0
+necmon9			urn	head	7	urn	head	7	urn	head	7	0
+necmon9			uhg	glov	7	uhg	glov	7	uhg	glov	7	0
+necmon9			uhb	feet	7	uhb	feet	7	uhb	feet	7	0
+necmon9			uar	tors	7	uar	tors	7	uar	tors	7	0
+necmon9			uhc	belt	7	uhc	belt	7	uhc	belt	7	0
+necmon10			amu	neck	7	amu	neck	7	amu	neck	7	0
+necmon10			rin	lrin	7	rin	lrin	7	rin	lrin	7	0
+necmon10			rin	rrin	7	rin	rrin	7	rin	rrin	7	0
+necmon10			nef	rarm	7	nef	rarm	7	nef	rarm	7	0
+necmon10			7gw	larm	7	7gw	larm	7	7gw	larm	7	0
+necmon10			urn	head	7	urn	head	7	urn	head	7	0
+necmon10			uhg	glov	7	uhg	glov	7	uhg	glov	7	0
+necmon10			uhb	feet	7	uhb	feet	7	uhb	feet	7	0
+necmon10			qui	tors	7	qui	tors	7	qui	tors	7	0
+necmon10			uhc	belt	7	uhc	belt	7	uhc	belt	7	0
+palmon1			amu	neck	2	amu	neck	2	amu	neck	2	0
+palmon1			rin	lrin	2	rin	lrin	2	rin	lrin	2	0
+palmon1			rin	rrin	2	rin	rrin	2	rin	rrin	2	0
+palmon1			pa1	rarm	2	pa1	rarm	2	pa1	rarm	2	0
+palmon1			scp	larm	2	scp	larm	2	scp	larm	2	0
+palmon1			cap	head	2	cap	head	2	cap	head	2	0
+palmon1			lgl	glov	2	lgl	glov	2	lgl	glov	2	0
+palmon1			lbt	feet	2	lbt	feet	2	lbt	feet	2	0
+palmon1			qui	tors	2	qui	tors	2	qui	tors	2	0
+palmon1			lbl	belt	2	lbl	belt	2	lbl	belt	2	0
+palmon2			amu	neck	2	amu	neck	2	amu	neck	2	0
+palmon2			rin	lrin	2	rin	lrin	2	rin	lrin	2	0
+palmon2			rin	rrin	2	rin	rrin	2	rin	rrin	2	0
+palmon2			pa1	rarm	2	pa1	rarm	2	pa1	rarm	2	0
+palmon2			scp	larm	2	scp	larm	2	scp	larm	2	0
+palmon2			cap	head	2	cap	head	2	cap	head	2	0
+palmon2			lgl	glov	2	lgl	glov	2	lgl	glov	2	0
+palmon2			lbt	feet	2	lbt	feet	2	lbt	feet	2	0
+palmon2			qui	tors	2	qui	tors	2	qui	tors	2	0
+palmon2			lbl	belt	2	lbl	belt	2	lbl	belt	2	0
+palmon3			amu	neck	4	amu	neck	4	amu	neck	4	0
+palmon3			rin	lrin	4	rin	lrin	4	rin	lrin	4	0
+palmon3			rin	rrin	4	rin	rrin	4	rin	rrin	4	0
+palmon3			pa1	rarm	4	pa1	rarm	4	pa1	rarm	4	0
+palmon3			scp	larm	4	scp	larm	4	scp	larm	4	0
+palmon3			cap	head	4	cap	head	4	cap	head	4	0
+palmon3			lgl	glov	4	lgl	glov	4	lgl	glov	4	0
+palmon3			lbt	feet	4	lbt	feet	4	lbt	feet	4	0
+palmon3			qui	tors	4	qui	tors	4	qui	tors	4	0
+palmon3			lbl	belt	4	lbl	belt	4	lbl	belt	4	0
+palmon4			amu	neck	4	amu	neck	4	amu	neck	4	0
+palmon4			rin	lrin	4	rin	lrin	4	rin	lrin	4	0
+palmon4			rin	rrin	4	rin	rrin	4	rin	rrin	4	0
+palmon4			pa8	rarm	4	pa8	rarm	4	pa8	rarm	4	0
+palmon4			9qs	larm	4	9qs	larm	4	9qs	larm	4	0
+palmon4			xlm	head	4	xlm	head	4	xlm	head	4	0
+palmon4			xmg	glov	4	xmg	glov	4	xmg	glov	4	0
+palmon4			xmb	feet	4	xmb	feet	4	xmb	feet	4	0
+palmon4			xpl	tors	4	xpl	tors	4	xpl	tors	4	0
+palmon4			zmb	belt	4	zmb	belt	4	zmb	belt	4	0
+palmon5			amu	neck	6	amu	neck	6	amu	neck	6	0
+palmon5			rin	lrin	6	rin	lrin	6	rin	lrin	6	0
+palmon5			rin	rrin	6	rin	rrin	6	rin	rrin	6	0
+palmon5			pa8	rarm	6	pa8	rarm	6	pa8	rarm	6	0
+palmon5			9qs	larm	6	9qs	larm	6	9qs	larm	6	0
+palmon5			xlm	head	6	xlm	head	6	xlm	head	6	0
+palmon5			xmg	glov	6	xmg	glov	6	xmg	glov	6	0
+palmon5			xmb	feet	6	xmb	feet	6	xmb	feet	6	0
+palmon5			xpl	tors	6	xpl	tors	6	xpl	tors	6	0
+palmon5			zmb	belt	6	zmb	belt	6	zmb	belt	6	0
+palmon6			amu	neck	6	amu	neck	6	amu	neck	6	0
+palmon6			rin	lrin	6	rin	lrin	6	rin	lrin	6	0
+palmon6			rin	rrin	6	rin	rrin	6	rin	rrin	6	0
+palmon6			pa8	rarm	6	pa8	rarm	6	pa8	rarm	6	0
+palmon6			9qs	larm	6	9qs	larm	6	9qs	larm	6	0
+palmon6			xlm	head	6	xlm	head	6	xlm	head	6	0
+palmon6			xmg	glov	6	xmg	glov	6	xmg	glov	6	0
+palmon6			xmb	feet	6	xmb	feet	6	xmb	feet	6	0
+palmon6			xpl	tors	6	xpl	tors	6	xpl	tors	6	0
+palmon6			zmb	belt	6	zmb	belt	6	zmb	belt	6	0
+palmon7			amu	neck	5	amu	neck	5	amu	neck	5	0
+palmon7			rin	lrin	5	rin	lrin	5	rin	lrin	5	0
+palmon7			rin	rrin	5	rin	rrin	5	rin	rrin	5	0
+palmon7			paf	rarm	5	paf	rarm	5	paf	rarm	5	0
+palmon7			7ws	larm	5	7ws	larm	5	7ws	larm	5	0
+palmon7			urn	head	5	urn	head	5	urn	head	5	0
+palmon7			uhg	glov	5	uhg	glov	5	uhg	glov	5	0
+palmon7			uhb	feet	5	uhb	feet	5	uhb	feet	5	0
+palmon7			uar	tors	5	uar	tors	5	uar	tors	5	0
+palmon7			uhc	belt	5	uhc	belt	5	uhc	belt	5	0
+palmon8			amu	neck	5	amu	neck	5	amu	neck	5	0
+palmon8			rin	lrin	5	rin	lrin	5	rin	lrin	5	0
+palmon8			rin	rrin	5	rin	rrin	5	rin	rrin	5	0
+palmon8			paf	rarm	5	paf	rarm	5	paf	rarm	5	0
+palmon8			7ws	larm	5	7ws	larm	5	7ws	larm	5	0
+palmon8			urn	head	5	urn	head	5	urn	head	5	0
+palmon8			uhg	glov	5	uhg	glov	5	uhg	glov	5	0
+palmon8			uhb	feet	5	uhb	feet	5	uhb	feet	5	0
+palmon8			uar	tors	5	uar	tors	5	uar	tors	5	0
+palmon8			uhc	belt	5	uhc	belt	5	uhc	belt	5	0
+palmon9			amu	neck	7	amu	neck	7	amu	neck	7	0
+palmon9			rin	lrin	7	rin	lrin	7	rin	lrin	7	0
+palmon9			rin	rrin	7	rin	rrin	7	rin	rrin	7	0
+palmon9			paf	rarm	7	paf	rarm	7	paf	rarm	7	0
+palmon9			7ws	larm	7	7ws	larm	7	7ws	larm	7	0
+palmon9			urn	head	7	urn	head	7	urn	head	7	0
+palmon9			uhg	glov	7	uhg	glov	7	uhg	glov	7	0
+palmon9			uhb	feet	7	uhb	feet	7	uhb	feet	7	0
+palmon9			uar	tors	7	uar	tors	7	uar	tors	7	0
+palmon9			uhc	belt	7	uhc	belt	7	uhc	belt	7	0
+palmon10			amu	neck	7	amu	neck	7	amu	neck	7	0
+palmon10			rin	lrin	7	rin	lrin	7	rin	lrin	7	0
+palmon10			rin	rrin	7	rin	rrin	7	rin	rrin	7	0
+palmon10			paf	rarm	7	paf	rarm	7	paf	rarm	7	0
+palmon10			7ws	larm	7	7ws	larm	7	7ws	larm	7	0
+palmon10			urn	head	7	urn	head	7	urn	head	7	0
+palmon10			uhg	glov	7	uhg	glov	7	uhg	glov	7	0
+palmon10			uhb	feet	7	uhb	feet	7	uhb	feet	7	0
+palmon10			qui	tors	7	qui	tors	7	qui	tors	7	0
+palmon10			uhc	belt	7	uhc	belt	7	uhc	belt	7	0
+barmon1			amu	neck	2	amu	neck	2	amu	neck	2	0
+barmon1			rin	lrin	2	rin	lrin	2	rin	lrin	2	0
+barmon1			rin	rrin	2	rin	rrin	2	rin	rrin	2	0
+barmon1			mau	rarm	2	mau	rarm	2	mau	rarm	2	0
+barmon1			ba1	head	2	ba1	head	2	ba1	head	2	0
+barmon1			lgl	glov	2	lgl	glov	2	lgl	glov	2	0
+barmon1			lbt	feet	2	lbt	feet	2	lbt	feet	2	0
+barmon1			qui	tors	2	qui	tors	2	qui	tors	2	0
+barmon1			lbl	belt	2	lbl	belt	2	lbl	belt	2	0
+barmon2			amu	neck	2	amu	neck	2	amu	neck	2	0
+barmon2			rin	lrin	2	rin	lrin	2	rin	lrin	2	0
+barmon2			rin	rrin	2	rin	rrin	2	rin	rrin	2	0
+barmon2			mau	rarm	2	mau	rarm	2	mau	rarm	2	0
+barmon2			ba1	head	2	ba1	head	2	ba1	head	2	0
+barmon2			lgl	glov	2	lgl	glov	2	lgl	glov	2	0
+barmon2			lbt	feet	2	lbt	feet	2	lbt	feet	2	0
+barmon2			qui	tors	2	qui	tors	2	qui	tors	2	0
+barmon2			lbl	belt	2	lbl	belt	2	lbl	belt	2	0
+barmon3			amu	neck	4	amu	neck	4	amu	neck	4	0
+barmon3			rin	lrin	4	rin	lrin	4	rin	lrin	4	0
+barmon3			rin	rrin	4	rin	rrin	4	rin	rrin	4	0
+barmon3			mau	rarm	4	mau	rarm	4	mau	rarm	4	0
+barmon3			ba1	head	4	ba1	head	4	ba1	head	4	0
+barmon3			lgl	glov	4	lgl	glov	4	lgl	glov	4	0
+barmon3			lbt	feet	4	lbt	feet	4	lbt	feet	4	0
+barmon3			qui	tors	4	qui	tors	4	qui	tors	4	0
+barmon3			lbl	belt	4	lbl	belt	4	lbl	belt	4	0
+barmon4			amu	neck	4	amu	neck	4	amu	neck	4	0
+barmon4			rin	lrin	4	rin	lrin	4	rin	lrin	4	0
+barmon4			rin	rrin	4	rin	rrin	4	rin	rrin	4	0
+barmon4			9m9	rarm	4	9m9	rarm	4	9m9	rarm	4	0
+barmon4			ba8	head	4	ba8	head	4	ba8	head	4	0
+barmon4			xmg	glov	4	xmg	glov	4	xmg	glov	4	0
+barmon4			xmb	feet	4	xmb	feet	4	xmb	feet	4	0
+barmon4			xpl	tors	4	xpl	tors	4	xpl	tors	4	0
+barmon4			zmb	belt	4	zmb	belt	4	zmb	belt	4	0
+barmon5			amu	neck	6	amu	neck	6	amu	neck	6	0
+barmon5			rin	lrin	6	rin	lrin	6	rin	lrin	6	0
+barmon5			rin	rrin	6	rin	rrin	6	rin	rrin	6	0
+barmon5			9m9	rarm	6	9m9	rarm	6	9m9	rarm	6	0
+barmon5			ba8	head	6	ba8	head	6	ba8	head	6	0
+barmon5			xmg	glov	6	xmg	glov	6	xmg	glov	6	0
+barmon5			xmb	feet	6	xmb	feet	6	xmb	feet	6	0
+barmon5			xpl	tors	6	xpl	tors	6	xpl	tors	6	0
+barmon5			zmb	belt	6	zmb	belt	6	zmb	belt	6	0
+barmon6			amu	neck	6	amu	neck	6	amu	neck	6	0
+barmon6			rin	lrin	6	rin	lrin	6	rin	lrin	6	0
+barmon6			rin	rrin	6	rin	rrin	6	rin	rrin	6	0
+barmon6			9m9	rarm	6	9m9	rarm	6	9m9	rarm	6	0
+barmon6			ba8	head	6	ba8	head	6	ba8	head	6	0
+barmon6			xmg	glov	6	xmg	glov	6	xmg	glov	6	0
+barmon6			xmb	feet	6	xmb	feet	6	xmb	feet	6	0
+barmon6			xpl	tors	6	xpl	tors	6	xpl	tors	6	0
+barmon6			zmb	belt	6	zmb	belt	6	zmb	belt	6	0
+barmon7			amu	neck	5	amu	neck	5	amu	neck	5	0
+barmon7			rin	lrin	5	rin	lrin	5	rin	lrin	5	0
+barmon7			rin	rrin	5	rin	rrin	5	rin	rrin	5	0
+barmon7			7m7	rarm	5	7m7	rarm	5	7m7	rarm	5	0
+barmon7			baf	head	5	baf	head	5	baf	head	5	0
+barmon7			uhg	glov	5	uhg	glov	5	uhg	glov	5	0
+barmon7			uhb	feet	5	uhb	feet	5	uhb	feet	5	0
+barmon7			uar	tors	5	uar	tors	5	uar	tors	5	0
+barmon7			uhc	belt	5	uhc	belt	5	uhc	belt	5	0
+barmon8			amu	neck	5	amu	neck	5	amu	neck	5	0
+barmon8			rin	lrin	5	rin	lrin	5	rin	lrin	5	0
+barmon8			rin	rrin	5	rin	rrin	5	rin	rrin	5	0
+barmon8			7m7	rarm	5	7m7	rarm	5	7m7	rarm	5	0
+barmon8			baf	head	5	baf	head	5	baf	head	5	0
+barmon8			uhg	glov	5	uhg	glov	5	uhg	glov	5	0
+barmon8			uhb	feet	5	uhb	feet	5	uhb	feet	5	0
+barmon8			uar	tors	5	uar	tors	5	uar	tors	5	0
+barmon8			uhc	belt	5	uhc	belt	5	uhc	belt	5	0
+barmon9			amu	neck	7	amu	neck	7	amu	neck	7	0
+barmon9			rin	lrin	7	rin	lrin	7	rin	lrin	7	0
+barmon9			rin	rrin	7	rin	rrin	7	rin	rrin	7	0
+barmon9			7m7	rarm	7	7m7	rarm	7	7m7	rarm	7	0
+barmon9			baf	head	7	baf	head	7	baf	head	7	0
+barmon9			uhg	glov	7	uhg	glov	7	uhg	glov	7	0
+barmon9			uhb	feet	7	uhb	feet	7	uhb	feet	7	0
+barmon9			uar	tors	7	uar	tors	7	uar	tors	7	0
+barmon9			uhc	belt	7	uhc	belt	7	uhc	belt	7	0
+barmon10			amu	neck	7	amu	neck	7	amu	neck	7	0
+barmon10			rin	lrin	7	rin	lrin	7	rin	lrin	7	0
+barmon10			rin	rrin	7	rin	rrin	7	rin	rrin	7	0
+barmon10			7m7	rarm	7	7m7	rarm	7	7m7	rarm	7	0
+barmon10			baf	head	7	baf	head	7	baf	head	7	0
+barmon10			uhg	glov	7	uhg	glov	7	uhg	glov	7	0
+barmon10			uhb	feet	7	uhb	feet	7	uhb	feet	7	0
+barmon10			qui	tors	7	qui	tors	7	qui	tors	7	0
+barmon10			uhc	belt	7	uhc	belt	7	uhc	belt	7	0
+drumon1			amu	neck	2	amu	neck	2	amu	neck	2	0
+drumon1			rin	lrin	2	rin	lrin	2	rin	lrin	2	0
+drumon1			rin	rrin	2	rin	rrin	2	rin	rrin	2	0
+drumon1			buc	rarm	2	buc	rarm	2	buc	rarm	2	0
+drumon1			clb	larm	2	clb	larm	2	clb	larm	2	0
+drumon1			dr1	head	2	dr1	head	2	dr1	head	2	0
+drumon1			lgl	glov	2	lgl	glov	2	lgl	glov	2	0
+drumon1			lbt	feet	2	lbt	feet	2	lbt	feet	2	0
+drumon1			qui	tors	2	qui	tors	2	qui	tors	2	0
+drumon1			lbl	belt	2	lbl	belt	2	lbl	belt	2	0
+drumon2			amu	neck	2	amu	neck	2	amu	neck	2	0
+drumon2			rin	lrin	2	rin	lrin	2	rin	lrin	2	0
+drumon2			rin	rrin	2	rin	rrin	2	rin	rrin	2	0
+drumon2			buc	rarm	2	buc	rarm	2	buc	rarm	2	0
+drumon2			clb	larm	2	clb	larm	2	clb	larm	2	0
+drumon2			dr1	head	2	dr1	head	2	dr1	head	2	0
+drumon2			lgl	glov	2	lgl	glov	2	lgl	glov	2	0
+drumon2			lbt	feet	2	lbt	feet	2	lbt	feet	2	0
+drumon2			qui	tors	2	qui	tors	2	qui	tors	2	0
+drumon2			lbl	belt	2	lbl	belt	2	lbl	belt	2	0
+drumon3			amu	neck	4	amu	neck	4	amu	neck	4	0
+drumon3			rin	lrin	4	rin	lrin	4	rin	lrin	4	0
+drumon3			rin	rrin	4	rin	rrin	4	rin	rrin	4	0
+drumon3			buc	rarm	4	buc	rarm	4	buc	rarm	4	0
+drumon3			clb	larm	4	clb	larm	4	clb	larm	4	0
+drumon3			dr1	head	4	dr1	head	4	dr1	head	4	0
+drumon3			lgl	glov	4	lgl	glov	4	lgl	glov	4	0
+drumon3			lbt	feet	4	lbt	feet	4	lbt	feet	4	0
+drumon3			qui	tors	4	qui	tors	4	qui	tors	4	0
+drumon3			lbl	belt	4	lbl	belt	4	lbl	belt	4	0
+drumon4			amu	neck	4	amu	neck	4	amu	neck	4	0
+drumon4			rin	lrin	4	rin	lrin	4	rin	lrin	4	0
+drumon4			rin	rrin	4	rin	rrin	4	rin	rrin	4	0
+drumon4			lrg	rarm	4	lrg	rarm	4	lrg	rarm	4	0
+drumon4			9cl	larm	4	9cl	larm	4	9cl	larm	4	0
+drumon4			dr8	head	4	dr8	head	4	dr8	head	4	0
+drumon4			xmg	glov	4	xmg	glov	4	xmg	glov	4	0
+drumon4			xmb	feet	4	xmb	feet	4	xmb	feet	4	0
+drumon4			xpl	tors	4	xpl	tors	4	xpl	tors	4	0
+drumon4			zmb	belt	4	zmb	belt	4	zmb	belt	4	0
+drumon5			amu	neck	6	amu	neck	6	amu	neck	6	0
+drumon5			rin	lrin	6	rin	lrin	6	rin	lrin	6	0
+drumon5			rin	rrin	6	rin	rrin	6	rin	rrin	6	0
+drumon5			lrg	rarm	6	lrg	rarm	6	lrg	rarm	6	0
+drumon5			9cl	larm	6	9cl	larm	6	9cl	larm	6	0
+drumon5			dr8	head	6	dr8	head	6	dr8	head	6	0
+drumon5			xmg	glov	6	xmg	glov	6	xmg	glov	6	0
+drumon5			xmb	feet	6	xmb	feet	6	xmb	feet	6	0
+drumon5			xpl	tors	6	xpl	tors	6	xpl	tors	6	0
+drumon5			zmb	belt	6	zmb	belt	6	zmb	belt	6	0
+drumon6			amu	neck	6	amu	neck	6	amu	neck	6	0
+drumon6			rin	lrin	6	rin	lrin	6	rin	lrin	6	0
+drumon6			rin	rrin	6	rin	rrin	6	rin	rrin	6	0
+drumon6			lrg	rarm	6	lrg	rarm	6	lrg	rarm	6	0
+drumon6			9cl	larm	6	9cl	larm	6	9cl	larm	6	0
+drumon6			dr8	head	6	dr8	head	6	dr8	head	6	0
+drumon6			xmg	glov	6	xmg	glov	6	xmg	glov	6	0
+drumon6			xmb	feet	6	xmb	feet	6	xmb	feet	6	0
+drumon6			xpl	tors	6	xpl	tors	6	xpl	tors	6	0
+drumon6			zmb	belt	6	zmb	belt	6	zmb	belt	6	0
+drumon7			amu	neck	5	amu	neck	5	amu	neck	5	0
+drumon7			rin	lrin	5	rin	lrin	5	rin	lrin	5	0
+drumon7			rin	rrin	5	rin	rrin	5	rin	rrin	5	0
+drumon7			uts	rarm	5	uts	rarm	5	uts	rarm	5	0
+drumon7			7cl	larm	5	7cl	larm	5	7cl	larm	5	0
+drumon7			drf	head	5	drf	head	5	drf	head	5	0
+drumon7			uhg	glov	5	uhg	glov	5	uhg	glov	5	0
+drumon7			uhb	feet	5	uhb	feet	5	uhb	feet	5	0
+drumon7			uar	tors	5	uar	tors	5	uar	tors	5	0
+drumon7			uhc	belt	5	uhc	belt	5	uhc	belt	5	0
+drumon8			amu	neck	5	amu	neck	5	amu	neck	5	0
+drumon8			rin	lrin	5	rin	lrin	5	rin	lrin	5	0
+drumon8			rin	rrin	5	rin	rrin	5	rin	rrin	5	0
+drumon8			uts	rarm	5	uts	rarm	5	uts	rarm	5	0
+drumon8			7cl	larm	5	7cl	larm	5	7cl	larm	5	0
+drumon8			drf	head	5	drf	head	5	drf	head	5	0
+drumon8			uhg	glov	5	uhg	glov	5	uhg	glov	5	0
+drumon8			uhb	feet	5	uhb	feet	5	uhb	feet	5	0
+drumon8			uar	tors	5	uar	tors	5	uar	tors	5	0
+drumon8			uhc	belt	5	uhc	belt	5	uhc	belt	5	0
+drumon9			amu	neck	7	amu	neck	7	amu	neck	7	0
+drumon9			rin	lrin	7	rin	lrin	7	rin	lrin	7	0
+drumon9			rin	rrin	7	rin	rrin	7	rin	rrin	7	0
+drumon9			uts	rarm	7	uts	rarm	7	uts	rarm	7	0
+drumon9			7cl	larm	7	7cl	larm	7	7cl	larm	7	0
+drumon9			drf	head	7	drf	head	7	drf	head	7	0
+drumon9			uhg	glov	7	uhg	glov	7	uhg	glov	7	0
+drumon9			uhb	feet	7	uhb	feet	7	uhb	feet	7	0
+drumon9			uar	tors	7	uar	tors	7	uar	tors	7	0
+drumon9			uhc	belt	7	uhc	belt	7	uhc	belt	7	0
+drumon10			amu	neck	7	amu	neck	7	amu	neck	7	0
+drumon10			rin	lrin	7	rin	lrin	7	rin	lrin	7	0
+drumon10			rin	rrin	7	rin	rrin	7	rin	rrin	7	0
+drumon10			uts	rarm	7	uts	rarm	7	uts	rarm	7	0
+drumon10			7cl	larm	7	7cl	larm	7	7cl	larm	7	0
+drumon10			drf	head	7	drf	head	7	drf	head	7	0
+drumon10			uhg	glov	7	uhg	glov	7	uhg	glov	7	0
+drumon10			uhb	feet	7	uhb	feet	7	uhb	feet	7	0
+drumon10			qui	tors	7	qui	tors	7	qui	tors	7	0
+drumon10			uhc	belt	7	uhc	belt	7	uhc	belt	7	0
+assmon1			amu	neck	2	amu	neck	2	amu	neck	2	0
+assmon1			rin	lrin	2	rin	lrin	2	rin	lrin	2	0
+assmon1			rin	rrin	2	rin	rrin	2	rin	rrin	2	0
+assmon1			ktr	rarm	2	ktr	rarm	2	ktr	rarm	2	0
+assmon1			wrb	larm	2	wrb	larm	2	wrb	larm	2	0
+assmon1			cap	head	2	cap	head	2	cap	head	2	0
+assmon1			lgl	glov	2	lgl	glov	2	lgl	glov	2	0
+assmon1			lbt	feet	2	lbt	feet	2	lbt	feet	2	0
+assmon1			qui	tors	2	qui	tors	2	qui	tors	2	0
+assmon1			lbl	belt	2	lbl	belt	2	lbl	belt	2	0
+assmon2			amu	neck	2	amu	neck	2	amu	neck	2	0
+assmon2			rin	lrin	2	rin	lrin	2	rin	lrin	2	0
+assmon2			rin	rrin	2	rin	rrin	2	rin	rrin	2	0
+assmon2			ktr	rarm	2	ktr	rarm	2	ktr	rarm	2	0
+assmon2			wrb	larm	2	wrb	larm	2	wrb	larm	2	0
+assmon2			cap	head	2	cap	head	2	cap	head	2	0
+assmon2			lgl	glov	2	lgl	glov	2	lgl	glov	2	0
+assmon2			lbt	feet	2	lbt	feet	2	lbt	feet	2	0
+assmon2			qui	tors	2	qui	tors	2	qui	tors	2	0
+assmon2			lbl	belt	2	lbl	belt	2	lbl	belt	2	0
+assmon3			amu	neck	4	amu	neck	4	amu	neck	4	0
+assmon3			rin	lrin	4	rin	lrin	4	rin	lrin	4	0
+assmon3			rin	rrin	4	rin	rrin	4	rin	rrin	4	0
+assmon3			ktr	rarm	4	ktr	rarm	4	ktr	rarm	4	0
+assmon3			wrb	larm	4	wrb	larm	4	wrb	larm	4	0
+assmon3			cap	head	4	cap	head	4	cap	head	4	0
+assmon3			lgl	glov	4	lgl	glov	4	lgl	glov	4	0
+assmon3			lbt	feet	4	lbt	feet	4	lbt	feet	4	0
+assmon3			qui	tors	4	qui	tors	4	qui	tors	4	0
+assmon3			lbl	belt	4	lbl	belt	4	lbl	belt	4	0
+assmon4			amu	neck	4	amu	neck	4	amu	neck	4	0
+assmon4			rin	lrin	4	rin	lrin	4	rin	lrin	4	0
+assmon4			rin	rrin	4	rin	rrin	4	rin	rrin	4	0
+assmon4			9cs	rarm	4	9cs	rarm	4	9cs	rarm	4	0
+assmon4			9lw	larm	4	9lw	larm	4	9lw	larm	4	0
+assmon4			xlm	head	4	xlm	head	4	xlm	head	4	0
+assmon4			xmg	glov	4	xmg	glov	4	xmg	glov	4	0
+assmon4			xmb	feet	4	xmb	feet	4	xmb	feet	4	0
+assmon4			xpl	tors	4	xpl	tors	4	xpl	tors	4	0
+assmon4			zmb	belt	4	zmb	belt	4	zmb	belt	4	0
+assmon5			amu	neck	6	amu	neck	6	amu	neck	6	0
+assmon5			rin	lrin	6	rin	lrin	6	rin	lrin	6	0
+assmon5			rin	rrin	6	rin	rrin	6	rin	rrin	6	0
+assmon5			9cs	rarm	6	9cs	rarm	6	9cs	rarm	6	0
+assmon5			9lw	larm	6	9lw	larm	6	9lw	larm	6	0
+assmon5			xlm	head	6	xlm	head	6	xlm	head	6	0
+assmon5			xmg	glov	6	xmg	glov	6	xmg	glov	6	0
+assmon5			xmb	feet	6	xmb	feet	6	xmb	feet	6	0
+assmon5			xpl	tors	6	xpl	tors	6	xpl	tors	6	0
+assmon5			zmb	belt	6	zmb	belt	6	zmb	belt	6	0
+assmon6			amu	neck	6	amu	neck	6	amu	neck	6	0
+assmon6			rin	lrin	6	rin	lrin	6	rin	lrin	6	0
+assmon6			rin	rrin	6	rin	rrin	6	rin	rrin	6	0
+assmon6			9cs	rarm	6	9cs	rarm	6	9cs	rarm	6	0
+assmon6			9lw	larm	6	9lw	larm	6	9lw	larm	6	0
+assmon6			xlm	head	6	xlm	head	6	xlm	head	6	0
+assmon6			xmg	glov	6	xmg	glov	6	xmg	glov	6	0
+assmon6			xmb	feet	6	xmb	feet	6	xmb	feet	6	0
+assmon6			xpl	tors	6	xpl	tors	6	xpl	tors	6	0
+assmon6			zmb	belt	6	zmb	belt	6	zmb	belt	6	0
+assmon7			amu	neck	5	amu	neck	5	amu	neck	5	0
+assmon7			rin	lrin	5	rin	lrin	5	rin	lrin	5	0
+assmon7			rin	rrin	5	rin	rrin	5	rin	rrin	5	0
+assmon7			7tw	rarm	5	7tw	rarm	5	7tw	rarm	5	0
+assmon7			7qr	larm	5	7qr	larm	5	7qr	larm	5	0
+assmon7			urn	head	5	urn	head	5	urn	head	5	0
+assmon7			uhg	glov	5	uhg	glov	5	uhg	glov	5	0
+assmon7			uhb	feet	5	uhb	feet	5	uhb	feet	5	0
+assmon7			uar	tors	5	uar	tors	5	uar	tors	5	0
+assmon7			uhc	belt	5	uhc	belt	5	uhc	belt	5	0
+assmon8			amu	neck	5	amu	neck	5	amu	neck	5	0
+assmon8			rin	lrin	5	rin	lrin	5	rin	lrin	5	0
+assmon8			rin	rrin	5	rin	rrin	5	rin	rrin	5	0
+assmon8			7tw	rarm	5	7tw	rarm	5	7tw	rarm	5	0
+assmon8			7qr	larm	5	7qr	larm	5	7qr	larm	5	0
+assmon8			urn	head	5	urn	head	5	urn	head	5	0
+assmon8			uhg	glov	5	uhg	glov	5	uhg	glov	5	0
+assmon8			uhb	feet	5	uhb	feet	5	uhb	feet	5	0
+assmon8			uar	tors	5	uar	tors	5	uar	tors	5	0
+assmon8			uhc	belt	5	uhc	belt	5	uhc	belt	5	0
+assmon9			amu	neck	7	amu	neck	7	amu	neck	7	0
+assmon9			rin	lrin	7	rin	lrin	7	rin	lrin	7	0
+assmon9			rin	rrin	7	rin	rrin	7	rin	rrin	7	0
+assmon9			7tw	rarm	7	7tw	rarm	7	7tw	rarm	7	0
+assmon9			7qr	larm	7	7qr	larm	7	7qr	larm	7	0
+assmon9			urn	head	7	urn	head	7	urn	head	7	0
+assmon9			uhg	glov	7	uhg	glov	7	uhg	glov	7	0
+assmon9			uhb	feet	7	uhb	feet	7	uhb	feet	7	0
+assmon9			uar	tors	7	uar	tors	7	uar	tors	7	0
+assmon9			uhc	belt	7	uhc	belt	7	uhc	belt	7	0
+assmon10			amu	neck	7	amu	neck	7	amu	neck	7	0
+assmon10			rin	lrin	7	rin	lrin	7	rin	lrin	7	0
+assmon10			rin	rrin	7	rin	rrin	7	rin	rrin	7	0
+assmon10			7tw	rarm	7	7tw	rarm	7	7tw	rarm	7	0
+assmon10			7qr	larm	7	7qr	larm	7	7qr	larm	7	0
+assmon10			urn	head	7	urn	head	7	urn	head	7	0
+assmon10			uhg	glov	7	uhg	glov	7	uhg	glov	7	0
+assmon10			uhb	feet	7	uhb	feet	7	uhb	feet	7	0
+assmon10			qui	tors	7	qui	tors	7	qui	tors	7	0
+assmon10			uhc	belt	7	uhc	belt	7	uhc	belt	7	0
+iceclone			St1	tors	7	St1	tors	7	St1	tors	7	0
+hydra1			St2	tors	7	St2	tors	7	St2	tors	7	0
+hydra2			St2	tors	7	St2	tors	7	St2	tors	7	0
+hydra3			St2	tors	7	St2	tors	7	St2	tors	7	0
+minidiablo			St3	tors	7	St3	tors	7	St3	tors	7	0
