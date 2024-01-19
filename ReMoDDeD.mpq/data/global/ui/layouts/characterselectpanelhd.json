@@ -323,7 +323,7 @@
                             "type": "TextBoxWidget", "name": "ModAuthors",
                             "fields": {
                                 "rect": { "x": 305, "y": 2070, "width": 400 },
-                                "text":"BUILD 011824B",
+                                "text":"BUILD 011824C",
                                 "style": {
                                     "fontColor": "$FontColorGray",
                                     "pointSize": "$SmallPanelFontSize",
