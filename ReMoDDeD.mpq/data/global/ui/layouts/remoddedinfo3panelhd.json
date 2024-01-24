@@ -118,7 +118,7 @@ IIIIIIIIII        ttttttttttt      eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
                                         "disabledFrame": 2,
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
-                                        "states": [ "Mana Regen %", "Faster Run/Walk", "+All Skills", "Dexterity",  "Max HP %", "Light Radius" ],
+                                        "states": [ "Mana Regen %", "Faster Run/Walk", "+All Skills", "Dexterity",  "Max HP %" ],
                                         "onUpdateMessage": "OptionsPanelMessage:Close",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -189,31 +189,7 @@ IIIIIIIIII        ttttttttttt      eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
                                 {
                                     "type": "TextBoxWidget", "name": "IZ1T",
                                     "fields": {
-                                        "text": " - Penalizes -1% Max HP for every death (Max -50%)",
-                                        "style": "$StyleSettingsText"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "IZ1",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "IZ1T",
-                                    "fields": {
-                                        "text": " - Penalizes -1% Mana Regen for every death (No Max)",
-                                        "style": "$StyleSettingsText"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "IZ1",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "IZ1T",
-                                    "fields": {
-                                        "text": " - Penalizes -1 Light Radius for every 10 deaths (Max -5)",
+                                        "text": " - Penalizes -1% Max HP for every death (Max -20%)",
                                         "style": "$StyleSettingsText"
                                     }
                                 }

@@ -2870,6 +2870,13 @@
     }
   },
   {
+    "healthy_breakfast": {
+      "normal": "..\\custom\\hbreakfast",
+      "uber": "..\\custom\\hbreakfast",
+      "ultra": "..\\custom\\hbreakfast"
+    }
+  },
+  {
     "ariocs_needle": {
       "normal": "spear/spear",
       "uber": "spear/spear",
