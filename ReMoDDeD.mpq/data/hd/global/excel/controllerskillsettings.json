@@ -5658,7 +5658,7 @@
             "type": "ControllerSkillsData",
             "name": "Molten_Boulder",
             "id": 229,
-            "usageType": 3,
+            "usageType": 0,
             "targetGroup": 0,
             "defaultTargetDistance": 2.0,
             "acceptableDistanceOffset": 6.0,

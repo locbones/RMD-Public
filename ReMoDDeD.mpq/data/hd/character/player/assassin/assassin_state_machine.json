@@ -7484,6 +7484,63 @@
         ],
         "exitEvents": [
         ]
+      },
+      {
+        "type": "AnimationState",
+        "name": "AnimationState029",
+        "_name": "SKILL_CALCIFIED",
+        "audioId": "",
+        "loopCount": 0,
+        "stateId": 63,
+        "modeId": 18,
+        "skillIndex": 179,
+        "stepIndex": 0,
+        "animationBindings": {
+          "hth": [
+            "ht2_whirlwind"
+          ],
+          "bow": [
+          ],
+          "1hs": [
+            "ht1_whirlwind"
+          ],
+          "1ht": [
+            "ht1_whirlwind"
+          ],
+          "stf": [
+            "ht1_whirlwind"
+          ],
+          "2hs": [
+            "ht1_whirlwind"
+          ],
+          "2ht": [
+            "ht1_whirlwind"
+          ],
+          "xbw": [
+          ],
+          "1js": [
+            "ht1_whirlwind"
+          ],
+          "1jt": [
+            "ht1_whirlwind"
+          ],
+          "1ss": [
+            "ht1_whirlwind"
+          ],
+          "1st": [
+            "ht1_whirlwind"
+          ],
+          "ht1": [
+            "ht1_whirlwind"
+          ],
+          "ht2": [
+            "ht2_whirlwind"
+          ]
+        },
+        "enterEvents": [
+        ],
+        "exitEvents": [
+        ]
       }
   ],
   

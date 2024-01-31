@@ -739,7 +739,43 @@
             },
             "enterEvents": [],
             "exitEvents": []
-        }
+        },
+        {
+            "type": "AnimationState",
+            "name": "AnimationState013",
+            "_name": "Skill_DoubleStrike_Sequence_Follow_Up_1",
+            "audioId": "",
+            "loopCount": 1,
+            "stateId": 29,
+            "modeId": 14,
+            "skillIndex": 163,
+            "stepIndex": 0,
+            "animationBindings": {
+                "hth": [
+                    "attack1"
+                ]
+            },
+            "enterEvents": [],
+            "exitEvents": []
+        },
+        {
+            "type": "AnimationState",
+            "name": "AnimationState013",
+            "_name": "Skill_DoubleStrike_Sequence_Follow_Up_2",
+            "audioId": "",
+            "loopCount": 1,
+            "stateId": 30,
+            "modeId": 14,
+            "skillIndex": 163,
+            "stepIndex": 1,
+            "animationBindings": {
+                "hth": [
+                    "attack2"
+                ]
+            },
+            "enterEvents": [],
+            "exitEvents": []
+        },
     ],
     "transitions": [
         {

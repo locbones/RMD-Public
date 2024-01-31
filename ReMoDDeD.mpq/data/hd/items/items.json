@@ -897,7 +897,7 @@
   { "z18": { "asset": "..//custom//enhancecrystal1" } },
   { "y33": { "asset": "..//custom//gemvein" } },
   { "y66": { "asset": "..//custom//reroller" } },
-  { "y67": { "asset": "..//custom//reroller" } },
+  { "y67": { "asset": "..//custom//BelialScroll" } },
   { "a00": { "asset": "..//custom//Blood_Contract" } },
   { "a01": { "asset": "..//custom//Blood_Contract" } },
   { "a02": { "asset": "..//custom//Blood_Contract" } },
@@ -1447,5 +1447,7 @@
   { "L96": { "asset": "..//custom//Blood_Pact" } },
   { "L97": { "asset": "..//custom//Blood_Pact" } },
   { "L98": { "asset": "..//custom//Blood_Pact" } },
-  { "L99": { "asset": "..//custom//Blood_Pact" } }
+  { "L99": { "asset": "..//custom//Blood_Pact" } },
+  { "C00": { "asset": "body_part/jawbone" } },
+  { "D00": { "asset": "..//custom//DemonSword" } }
 ]

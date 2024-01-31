@@ -252,7 +252,7 @@ IIIIIIIIII        ttttttttttt      eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
                                         "disabledFrame": 2,
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
-                                        "states": [ "Weight 1-20: +2 All Skills", "Weight 21-40: +1 All Skills", "Weight 41-60: No Change", "Weight 61-80: -1 All Skills" ],
+                                        "states": [ "Weight 1-20: +2 All Skills", "Weight 21+: +1 All Skills" ],
                                         "onUpdateMessage": "OptionsPanelMessage:Close",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
