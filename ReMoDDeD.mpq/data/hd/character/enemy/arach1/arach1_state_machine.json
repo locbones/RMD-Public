@@ -1049,7 +1049,64 @@
             },
             "enterEvents": [],
             "exitEvents": []
-        }
+        },
+        {
+            "type": "AnimationState",
+            "name": "State_Attack2",
+            "_name": "Attack2_sequence",
+            "audioId": "",
+            "loopCount": 1,
+            "stateId": 16,
+            "modeId": 14,
+            "skillIndex": 519,
+            "stepIndex": 0,
+            "animationBindings": {
+                "hth": [
+                    "attack2"
+                ],
+                "bow": [
+                    "attack2"
+                ],
+                "1hs": [
+                    "attack2"
+                ],
+                "1ht": [
+                    "attack2"
+                ],
+                "stf": [
+                    "attack2"
+                ],
+                "2hs": [
+                    "attack2"
+                ],
+                "2ht": [
+                    "attack2"
+                ],
+                "xbw": [
+                    "attack2"
+                ],
+                "1js": [
+                    "attack2"
+                ],
+                "1jt": [
+                    "attack2"
+                ],
+                "1ss": [
+                    "attack2"
+                ],
+                "1st": [
+                    "attack2"
+                ],
+                "ht1": [
+                    "attack2"
+                ],
+                "ht2": [
+                    "attack2"
+                ]
+            },
+            "enterEvents": [],
+            "exitEvents": []
+        },
     ],
     "transitions": [
         {

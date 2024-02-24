@@ -155,7 +155,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Milabrega's",
+                                        "text": " Mavina's",
                                         "style": "$RWInfo"
                                     }
                                 },

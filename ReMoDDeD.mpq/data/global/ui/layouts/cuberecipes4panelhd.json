@@ -272,7 +272,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Ral + Thul + Amethyst + Normal Rare Weapon = Exceptional Rare Armor",
+                                        "text": "Ral + Thul + Amethyst + Normal Rare Armor = Exceptional Rare Armor",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }

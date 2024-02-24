@@ -119,7 +119,7 @@
         {
             "type": "SkillSelectButtonWidget", "name": "SkillBindTemplate",
             "fields": {
-                "rect": { "x": 650, "y": 82, "scale": 0.9},
+                "rect": { "x": 690, "y": 80, "scale": 0.9},
                 "side": "bind",
                 "skillIconFilenames": "$SkillIconFilenames"
             },
@@ -469,6 +469,19 @@
                     }
                 }
             ]
+        },
+        {
+            "type": "TextBoxWidget", "name": "BuildVersion",
+            "fields": {
+                "rect": { "x": 3430, "y": 375, "width": 400 },
+                "text":"BUILD 022424",
+                "style": {
+                    "fontColor": "$FontColorGray",
+                    "pointSize": "$SmallPanelFontSize",
+                    "spacing": "$ReducedSpacing",
+                    "dropShadow": "$DefaultDropShadow"
+                }
+            }
         }
     ]
 }

@@ -12,8 +12,8 @@
                         {
                             "type": "ListItemWidget", "name": "CharacterTemplate",
                             "fields": {
-                                "focusIndicatorFilename": "Controller/HoverImages/CharacterListSelection_Hover",
-                                "focusIndicatorOffset": { "x": -60, "y": 30 },
+                                "focusIndicatorFilename": "..\\..\\..\\ReMoDDeD\\Controller\\CS_Hover",
+                                "focusIndicatorOffset": { "x": 5, "y": 10 },
                                 "navigation": {
                                     "left": { "panelBoundary": true }
                                 }

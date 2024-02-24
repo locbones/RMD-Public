@@ -901,7 +901,7 @@
     "testthrow":"missile_hand_axe",
     "ignite":"null",
     "ignitefire":"ground_fire_small",
-    "tremblingvortex":"null",
+    "tremblingvortex":"expansion_twister",
     "vortexmissile":"expansion_tornado",
     "vortextwister":"expansion_twister",
     "vortexburst_1":"freeze_explode_center",
@@ -978,5 +978,6 @@
     "mercnova":"enlightened_justice",
     "deathsentrybolt_2": "ds_bolt",
     "deathsentrybolttrail": "ds_bolt2",
-    "frenzynova":"null"
+    "frenzynova":"null",
+    "unholy_barrage":"unholy_barrage"
 }

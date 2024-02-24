@@ -5,12 +5,12 @@
 /*
 --My Mod Details--
 Mod Download: https://github.com/locbones/RMD-Public/archive/refs/heads/main.zip
-Mod Config Download: https://d2filesdrop.s3.us-east-2.amazonaws.com/modinfo.json
-Mod Version: 0.9.9.6B (013024)
-News 1 Title: "ReMoDDeD Beta Update Released! (0.9.9.6B)"
-News 1 Message: "Another large update that brings many skill, monster and other gameplay adjustments to the mod. You will find that some monsters have new abilities, increased damage, reduced ai delays and more - expect a difficulty bump. In addition, more time was spent updating tooltips, info panels and fixing some long-standing bugs. I recommend checking out our starter tips in Discord to help you adapt to all the new changes. Thanks as always for your support and patience!"
-News 2 Title: "Kills, Deaths and Weight Bonuses/Penalties"
-News 2 Message: "You will likely find yourself with 0 Mana on first updating the mod; this is normal. Please grab a fresh kill tracker charm from a new character to fix this issue. Furthermore, you may notice changes to your mana regen, movement speed, +allskills and more.  I strongly recommend checking out our Discord or the in-game mod info menu for more details on these changes. Kills, Deaths and Charm Weight will now provide bonuses or penalties for varying stats."
+Mod Config Download: https://drive.google.com/uc?export=download&id=1ov-G4tTf0krOMvV__AdEtcXAsM_6oN52
+Mod Version: 0.9.9.6C (022424)
+News 1 Title: "ReMoDDeD Beta Update Released! (0.9.9.6C)"
+News 1 Message: "Another update for you guys that focuses on improving oskills, icons, and a bit of monster tuning. As always, a healthy dose of bug fixes were tossed into the mix; I appreciate your feedback. Wiki development is going well, and should hopefully be growing into a powerful tool in it's own right in due time. Thank you to those who support the projects and have been patient during development - you guys are rockstars!"
+News 2 Title: "D2RLaunch 2.0 has arrived!"
+News 2 Message: "D2RLaunch has been re-built from the ground up to be more stable, more efficient and have improved functionality. It will look and behave very similarly to the old D2RLaunch; just now with a more dynamic UI and "professional" implementation. Please give special Thanks to @Alias and all his effort in spearheading this re-vamp. More details of the new and improved D2RLaunch can be found on our discord."
 
 --General Options--
 Map Layouts: Enabled
@@ -23,6 +23,11 @@ Item Icons: Enabled
 Runeword Sorting: Enabled
 HUD Display: Enabled
 Monster Stats Display: Enabled
+
+--Author Links--
+Discord: https://www.discord.gg/pqUWcDcjWF
+Wiki: https://drive.google.com/uc?export=download&id=1TtVzOexzOqcIuRlsjPdzeeSlybpbwzaP
+Patreon: https://www.patreon.com/bonesyd2r
 */
 
 }
