@@ -452,7 +452,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Beacon of Hope + Expansion Token(s) = +1 Soul Summon on Beacon of Hope",
+                                        "text": "Class Soul Token Alone = Token of Next Class",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -464,7 +464,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "All 7 Class Tokens = +1 Expansion Token",
+                                        "text": "Beacon of Hope + Class Token(s) = Soul Summon Activated",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -476,19 +476,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Beacon of Hope + Expansion Token(s) + Class Token = +1 Soul Summon on Beacon of Hope",
-                                        "style": "$RecipeSettingsText"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "GC2",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC2T",
-                                    "fields": {
-                                        "text": "Tokens required = Soul Summon or Soul Level + 1",
+                                        "text": "Tokens required = Soul Tier (Tier 3 requires 3 tokens, etc)",
                                         "style": "$RecipeSettingsTextFlatBlue"
                                     }
                                 }
@@ -547,6 +535,18 @@
                                     "fields": {
                                         "text": "Storage Bag (5 Rare Jewels) + Unique/Set Item + Identify Scroll = Re-Rolled Unique/Set",
                                         "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Blood Pacts can not currently be re-rolled (Fused Sets)",
+                                        "style": "$RecipeSettingsTextFlatBlue"
                                     }
                                 }
                             ]

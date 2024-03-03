@@ -4,7 +4,7 @@
         "priority": 100,
         "anchor": { "x": 0.5, "y": 1 },
         "rect": { "x": -1454, "y": -412, "width": 2952, "height": 764 },
-        "skillsOnRow": 13
+        "skillsOnRow": 13,
     },
     "children": [
         {
@@ -36,8 +36,8 @@
                             "pointSize": "$XMediumLargeFontSize",
                             "alignment": { "v": "bottom", "h": "center" },
                             "spacing" : "$MinimumSpacing",
-                            "dropShadow": "$DefaultDropShadow"
-                        }
+                            "dropShadow": "$DefaultDropShadow",
+                        },
                     }
                 },
                 {
@@ -51,16 +51,16 @@
                             "saturation": [ 0.0, 1.01 ],
                             "value": [ 0.0, 1.01 ]
                         },
-                       "hsvTransform": [ -0.3333, -0.05, -0.5, 0.0 ]
-                    }
+                       "hsvTransform": [ -0.3333, -0.05, -0.5, 0.0 ],
+                    },
                 },
                 {
                     "type": "ImageWidget", "name": "EdgeImage",
                     "fields": {
                         "rect": { "y": 3, "scale": 2.0 },
-                        "filename": "PANEL/HUD_02/HealthManaAnimation/HotPoint/FrameSet1/globe_hot_point"
-                    }
-                }
+                        "filename": "PANEL/HUD_02/HealthManaAnimation/HotPoint/FrameSet1/globe_hot_point",
+                    },
+                },
             ]
         },
         {
@@ -70,7 +70,7 @@
                 "attribute": "mana",
                 "maxSmoothingSeconds": 1.0,
                 "jumpSmoothingSeconds": 0.25,
-                "potionPreviewTransparency": 0.5
+                "potionPreviewTransparency": 0.5,
             },
             "children": [
                 {
@@ -82,8 +82,8 @@
                             "pointSize": "$XMediumLargeFontSize",
                             "alignment": { "v": "bottom", "h": "center" },
                             "spacing" : "$MinimumSpacing",
-                            "dropShadow": "$DefaultDropShadow"
-                        }
+                            "dropShadow": "$DefaultDropShadow",
+                        },
                     }
                 },
                 {
@@ -97,8 +97,8 @@
                             "saturation": [ 0.0, 1.01 ],
                             "value": [ 0.0, 1.01 ]
                         },
-                       "hsvTransform": [ -0.3333, -0.05, -0.05, 0.0 ]
-                    }
+                       "hsvTransform": [ -0.3333, -0.05, -0.05, 0.0 ],
+                    },
                 },
                 {
                     "type": "ImageWidget", "name": "EdgeImage",
@@ -111,8 +111,8 @@
                             "saturation": [ 0.0, 1.01 ],
                             "value": [ 0.0, 1.01 ]
                         },
-                       "hsvTransform": [ -0.3333, -0.1, -0.00, 1.0 ]
-                    }
+                       "hsvTransform": [ -0.3333, -0.1, -0.00, 1.0 ],
+                    },
                 }
             ]
         },
@@ -121,7 +121,7 @@
             "fields": {
                 "rect": { "x": 690, "y": 80, "scale": 0.9},
                 "side": "bind",
-                "skillIconFilenames": "$SkillIconFilenames"
+                "skillIconFilenames": "$SkillIconFilenames",
             },
             "children": [
                 {
@@ -130,57 +130,57 @@
                         "rect": "$SkillHotkeyTextRect",
                         "style": "$SkillHotkeyTextStyle",
                         "useAltStyleIfDoesntFit": true,
-                        "altStyle": "$SkillHotkeyTextAltStyle"
+                        "altStyle": "$SkillHotkeyTextAltStyle",
                     }
                 },
                 {
                     "type": "TextBoxWidget", "name": "QuantityText",
                     "fields": {
                         "rect": "$SkillQuantityTextRect",
-                        "style": "$SkillQuantityTextStyle"
+                        "style": "$SkillQuantityTextStyle",
                     }
-                }
+                },
             ]
         },
         {
             "type": "ImageWidget", "name": "Overlay",
             "fields": {
-                "filename": "..\\..\\..\\ReMoDDeD\\HUD_FP",
-                "rect": { "x": 34 }
-            }
+                "filename": "PANEL/HUD_02/front_panel",
+                "rect": { "x": 34 },
+            },
         },
         {
             "type": "ExpBarWidget", "name": "ExpBar",
             "fields": {
                 "rect": { "x": 694, "y": 234 },
                 "filename": "PANEL/HUD_02/experience_bar",
-                "hitMargin": { "top": 20, "bottom": 15 }
+                "hitMargin": { "top": 20, "bottom": 15 },
             },
             "children": [
                 {
                     "type": "AnimatedImageWidget", "name": "ExpFlashLeft",
                     "fields": {
-                        "rect": { "x": -5, "y": -7 },
+                        "rect": { "x": -5, "y": -7, },
                         "filename": "PANEL/HUD_02/LevelAnimation/leftFlash",
                         "blendMode": "black",
                         "fps": 14,
                         "loop": false,
                         "hideOnComplete": true,
-                        "playing": false
-                    }
+                        "playing": false,
+                    },
                 },
                 {
                     "type": "AnimatedImageWidget", "name": "ExpFlashRight",
                     "fields": {
-                        "rect": { "x": 765, "y": -7 },
+                        "rect": { "x": 765, "y": -7, },
                         "filename": "PANEL/HUD_02/LevelAnimation/rightFlash",
                         "blendMode": "black",
                         "fps": 14,
                         "loop": false,
                         "hideOnComplete": true,
-                        "playing": false
-                    }
-                }
+                        "playing": false,
+                    },
+                },
             ]
         },
         {
@@ -199,8 +199,8 @@
                         "statusUpdatePressedFrame": 4,
                         "statusUpdateHoveredFrame": 5,
                         "tooltipOffset": { "y": -30 },
-                        "rect": { "x": -2, "y": -6 }
-                    }
+                        "rect": { "x": -2, "y": -6 },
+                    },
                 },
                 {
                     "type": "MiniMenuButtonWidget", "name": "MiniMenuInventory",
@@ -209,8 +209,8 @@
                         "filename": "PANEL/HUD_02/Inventory",
                         "hoveredFrame": 2,
                         "tooltipOffset": { "y": -30 },
-                        "rect": { "x": 212, "y": -6 }
-                    }
+                        "rect": { "x": 212, "y": -6 },
+                    },
                 },
                 {
                     "type": "MiniMenuButtonWidget", "name": "MiniMenuSkillTree",
@@ -222,8 +222,8 @@
                         "statusUpdatePressedFrame": 4,
                         "statusUpdateHoveredFrame": 5,
                         "tooltipOffset": { "y": -30 },
-                        "rect": { "x": 69, "y": -6 }
-                    }
+                        "rect": { "x": 69, "y": -6 },
+                    },
                 },
                 {
                     "type": "MiniMenuButtonWidget", "name": "MiniMenuAutoMap",
@@ -232,8 +232,8 @@
                         "filename": "PANEL/HUD_02/AutoMap",
                         "hoveredFrame": 2,
                         "tooltipOffset": { "y": -30 },
-                        "rect": { "x": 282, "y": -6 }
-                    }
+                        "rect": { "x": 282, "y": -6 },
+                    },
                 },
                 {
                     "type": "MiniMenuButtonWidget", "name": "MiniMenuParty",
@@ -242,8 +242,8 @@
                         "filename": "PANEL/HUD_02/Messages",
                         "hoveredFrame": 2,
                         "tooltipOffset": { "y": -30 },
-                        "rect": { "x": 352, "y": -6 }
-                    }
+                        "rect": { "x": 352, "y": -6 },
+                    },
                 },
                 {
                     "type": "MiniMenuButtonWidget", "name": "MiniMenuQuestLog",
@@ -255,8 +255,8 @@
                         "statusUpdatePressedFrame": 4,
                         "statusUpdateHoveredFrame": 5,
                         "tooltipOffset": { "y": -30 },
-                        "rect": { "x": 142, "y": -6 }
-                    }
+                        "rect": { "x": 142, "y": -6 },
+                    },
                 },
                 {
                     "type": "MiniMenuButtonWidget", "name": "MiniMenuPauseMenu",
@@ -265,8 +265,8 @@
                         "filename": "PANEL/HUD_02/PauseMenu",
                         "hoveredFrame": 2,
                         "tooltipOffset": { "y": -30 },
-                        "rect": { "x": 422, "y": -6 }
-                    }
+                        "rect": { "x": 422, "y": -6 },
+                    },
                 }
             ]
         },
@@ -281,7 +281,7 @@
                 "inactiveHoveredFrame": 2,
                 "activeNormalFrame": 3,
                 "activePressedFrame": 4,
-                "activeHoveredFrame": 5
+                "activeHoveredFrame": 5,
             }
         },
         {
@@ -291,7 +291,7 @@
                 "filename": "PANEL/HUD_02/stamina_bar",
                 "hitMargin": { "top": 20, "bottom": 15, "left": 0, "right": 15 },
                 "maxSmoothingSeconds": 1.0,
-                "jumpSmoothingSeconds": 0.25
+                "jumpSmoothingSeconds": 0.25,
             }
         },
         {
@@ -308,16 +308,16 @@
                         "rect": "$SkillHotkeyTextRect",
                         "style": "$SkillHotkeyTextStyle",
                         "useAltStyleIfDoesntFit": true,
-                        "altStyle": "$SkillHotkeyTextAltStyle"
+                        "altStyle": "$SkillHotkeyTextAltStyle",
                     }
                 },
                 {
                     "type": "TextBoxWidget", "name": "QuantityText",
                     "fields": {
                         "rect": "$SkillQuantityTextRect",
-                        "style": "$SkillQuantityTextStyle"
+                        "style": "$SkillQuantityTextStyle",
                     }
-                }
+                },
             ]
         },
         {
@@ -334,24 +334,24 @@
                         "rect": "$SkillHotkeyTextRect",
                         "style": "$SkillHotkeyTextStyle",
                         "useAltStyleIfDoesntFit": true,
-                        "altStyle": "$SkillHotkeyTextAltStyle"
+                        "altStyle": "$SkillHotkeyTextAltStyle",
                     }
                 },
                 {
                     "type": "TextBoxWidget", "name": "QuantityText",
                     "fields": {
                         "rect": "$SkillQuantityTextRect",
-                        "style": "$SkillQuantityTextStyle"
+                        "style": "$SkillQuantityTextStyle",
                     }
-                }
+                },
             ]
         },
         {
             "type": "ImageWidget", "name": "BeltPopupArrow",
             "fields": {
                 "filename": "PANEL/HUD_02/Belt_UpArrow",
-                "rect": { "x": 1695, "y": 253 }
-            }
+                "rect": { "x": 1695, "y": 253 },
+            },
         },
         {
             "type": "BeltWidget", "name": "Belt",
@@ -362,7 +362,7 @@
                 "cellOffsetInRow": { "x": 12, "y": 6 },
                 "itemOffsetInCell": { "x": 1, "y": 1 },
                 "cellPadding": { "x": 27, "y": 15 },
-                "cellSize": "$ItemCellSize"
+                "cellSize": "$ItemCellSize",
             },
             "children": [
                 {
@@ -373,7 +373,7 @@
                         "style": {
                             "pointSize": "$MediumFontSize",
                             "fontColor": "$FontColorGoldYellow",
-                            "options": { "hideOverflow": true }
+                            "options": { "hideOverflow": true },
                         }
                     }
                 }
@@ -403,7 +403,7 @@
                             "pointSize": "$XMediumLargeFontSize",
                             "alignment": { "v": "bottom", "h": "center" },
                             "spacing" : "$MinimumSpacing",
-                            "dropShadow": "$DefaultDropShadow"
+                            "dropShadow": "$DefaultDropShadow",
                         }
                     }
                 }
@@ -433,7 +433,7 @@
                             "pointSize": "$XMediumLargeFontSize",
                             "alignment": { "v": "bottom", "h": "center" },
                             "spacing" : "$MinimumSpacing",
-                            "dropShadow": "$DefaultDropShadow"
+                            "dropShadow": "$DefaultDropShadow",
                         }
                     }
                 }
@@ -464,7 +464,7 @@
                             "pointSize": "$XMediumLargeFontSize",
                             "alignment": { "v": "bottom", "h": "center" },
                             "spacing" : "$MinimumSpacing",
-                            "dropShadow": "$DefaultDropShadow"
+                            "dropShadow": "$DefaultDropShadow",
                         }
                     }
                 }
@@ -474,7 +474,7 @@
             "type": "TextBoxWidget", "name": "BuildVersion",
             "fields": {
                 "rect": { "x": 3430, "y": 375, "width": 400 },
-                "text":"BUILD 030324",
+                "text":"BUILD 022524",
                 "style": {
                     "fontColor": "$FontColorGray",
                     "pointSize": "$SmallPanelFontSize",

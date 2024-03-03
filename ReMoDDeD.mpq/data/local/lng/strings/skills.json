@@ -50284,5 +50284,22 @@
         "ruRU": "Световая броня",
         "zhCN": "信号弹装甲",
         "zhTW": "訊號彈裝甲"
+    },
+    {
+        "id": 61857,
+        "Key": "PulseLengthFrame",
+        "deDE": "(Alle %d Frames)",
+        "enUS": "(Every %d frames)",
+        "esES": "(Cada %d fotogramas)",
+        "esMX": "(Cada %d fotogramas)",
+        "frFR": "(Toutes les %d images)",
+        "itIT": "(Ogni %d fotogrammi)",
+        "jaJP": "(%d フレームごと)",
+        "koKR": "(%d 프레임마다)",
+        "plPL": "(Co %d klatek)",
+        "ptBR": "(A cada %d quadros)",
+        "ruRU": "(Каждые %d кадров)",
+        "zhCN": "（每 %d 帧）",
+        "zhTW": "（每 %d 幀）"
     }
 ]

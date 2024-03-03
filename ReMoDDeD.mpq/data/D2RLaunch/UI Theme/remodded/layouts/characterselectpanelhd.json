@@ -21,7 +21,7 @@
                 {
                     "type": "ListWidget", "name": "CharacterList",
                     "fields": {
-                        "rect": { "x": 27, "y": 115, "width": 613, "height": 1700 },
+                        "rect": { "x": -33, "y": 135, "width": 673, "height": 1700 },
                         "scrollControllerName": "ScrollBar",
                         "selectorName": "Selection",
                         "direction": "vertical",
@@ -45,13 +45,13 @@
                                     "type": "ImageWidget", "name": "Background",
                                     "fields": {
                                         "rect": { "x": 0, "y": 0 },
-                                        "filename": "Blank"
+                                        "filename": "..\\..\\..\\ReMoDDeD\\MainMenu\\RightB"
                                     }
                                 },
                                 {
                                     "type": "ImageWidget", "name": "LadderIcon",
                                     "fields": {
-                                        "rect": { "x": 356, "y": 30 },
+                                        "rect": { "x": 356, "y": 20 },
                                         "filename": "FrontEnd\\HD\\Final\\FrontEnd_LadderIconSmall"
                                     },
                                     "children": [
@@ -67,7 +67,7 @@
                                 {
                                     "type": "ImageWidget", "name": "ClassicIcon",
                                     "fields": {
-                                        "rect": { "x": 450, "y": 32 },
+                                        "rect": { "x": 450, "y": 22 },
                                         "filename": "FrontEnd\\HD\\Final\\FrontEnd_ClassicIconSmall"
                                     },
                                     "children": [
@@ -83,7 +83,7 @@
                                 {
                                     "type": "ImageWidget", "name": "HardcoreIcon",
                                     "fields": {
-                                        "rect": { "x": 500, "y": 30 },
+                                        "rect": { "x": 500, "y": 20 },
                                         "filename": "FrontEnd\\HD\\Final\\FrontEnd_HardcoreIconSmall"
                                     },
                                     "children": [
@@ -99,7 +99,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "Title",
                                     "fields": {
-                                        "rect": { "x": 16, "y": 31, "width": 400, "height": 42 },
+                                        "rect": { "x": 16, "y": 21, "width": 400, "height": 42 },
                                         "fontType": "16pt",
                                         "style": {
                                             "fontColor": "$CharacterListDetailsColor",
@@ -113,7 +113,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "Name",
                                     "fields": {
-                                        "rect": { "x": 15, "y": 68, "width": 560, "height": 55 },
+                                        "rect": { "x": 15, "y": 58, "width": 560, "height": 55 },
                                         "style": {
                                             "fontColor": "$LightButtonTextColor",
                                             "alignment": {"h": "left", "v": "center"},
@@ -134,7 +134,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "Level&Class",
                                     "fields": {
-                                        "rect": { "x": 15, "y": 120, "width": 400 },
+                                        "rect": { "x": 15, "y": 110, "width": 400 },
                                         "style": {
                                             "fontColor": "$CharacterListDetailsColor",
                                             "pointSize": "$XMediumFontSize",
@@ -157,7 +157,7 @@
                                     "type": "AnimatedImageWidget", "name": "Pentagram",
                                     "fields": {
                                         "anchor": { "x": 0.5 },
-                                        "rect": { "x": -60, "y": 65 },
+                                        "rect": { "x": -60, "y": 55 },
                                         "filename": "..\\..\\..\\ReMoDDeD\\MainMenu\\Pentagram",
                                         "fps": 12
                                         }
@@ -309,8 +309,8 @@
                         {
                             "type": "TextBoxWidget", "name": "ModAuthors",
                             "fields": {
-                                "rect": { "x": 255, "y": 2030, "width": 400 },
-                                "text":"(Beta - 0.9.9.6)",
+                                "rect": { "x": 250, "y": 2030, "width": 400 },
+                                "text":"(Beta - 0.9.9.6C)",
                                 "style": {
                                     "fontColor": "$FontColorBonesyRed",
                                     "pointSize": "$XMediumPanelFontSize",
@@ -323,7 +323,7 @@
                             "type": "TextBoxWidget", "name": "ModAuthors",
                             "fields": {
                                 "rect": { "x": 305, "y": 2070, "width": 400 },
-                                "text":"BUILD 012324",
+                                "text":"BUILD 030324",
                                 "style": {
                                     "fontColor": "$FontColorGray",
                                     "pointSize": "$SmallPanelFontSize",
