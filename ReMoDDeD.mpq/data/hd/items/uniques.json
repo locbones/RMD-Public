@@ -3227,6 +3227,55 @@
     }
   },
   {
+    "mythos_log_amazon": {
+      "normal": "..\\custom\\mythos_log",
+      "uber": "..\\custom\\mythos_log",
+      "ultra": "..\\custom\\mythos_log"
+    }
+  },
+  {
+    "mythos_log_assassin": {
+      "normal": "..\\custom\\mythos_log",
+      "uber": "..\\custom\\mythos_log",
+      "ultra": "..\\custom\\mythos_log"
+    }
+  },
+  {
+    "mythos_log_barbarian": {
+      "normal": "..\\custom\\mythos_log",
+      "uber": "..\\custom\\mythos_log",
+      "ultra": "..\\custom\\mythos_log"
+    }
+  },
+  {
+    "mythos_log_druid": {
+      "normal": "..\\custom\\mythos_log",
+      "uber": "..\\custom\\mythos_log",
+      "ultra": "..\\custom\\mythos_log"
+    }
+  },
+  {
+    "mythos_log_necromancer": {
+      "normal": "..\\custom\\mythos_log",
+      "uber": "..\\custom\\mythos_log",
+      "ultra": "..\\custom\\mythos_log"
+    }
+  },
+  {
+    "mythos_log_paladin": {
+      "normal": "..\\custom\\mythos_log",
+      "uber": "..\\custom\\mythos_log",
+      "ultra": "..\\custom\\mythos_log"
+    }
+  },
+  {
+    "mythos_log_sorceress": {
+      "normal": "..\\custom\\mythos_log",
+      "uber": "..\\custom\\mythos_log",
+      "ultra": "..\\custom\\mythos_log"
+    }
+  },
+  {
     "shredwind_hell": {
       "normal": "bow/reflex_bow",
       "uber": "bow/reflex_bow",
