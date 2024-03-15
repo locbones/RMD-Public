@@ -13,8 +13,8 @@
     "LVSpriteBank": "..\\..\\..\\ReMoDDeD\\StashLV",
     "LVSpriteInv": "..\\..\\..\\ReMoDDeD\\InventoryLV",
 	"BankPanelRect": { "x": 0, "y": 0, "width": 1750, "height": 1799, "scale": 1.16 },
-	"BankPanelGoldAmountRect": { "x": 1190, "y": 1371, "width": 249, "height": 48 },
-	"BankPanelGoldWithdrawRect": { "x": 1135, "y": 1368 },
+	"BankPanelGoldAmountRect": { "x": 1310, "y": 1371, "width": 249, "height": 48 },
+	"BankPanelGoldWithdrawRect": { "x": 1255, "y": 1368 },
 	
 	"PlayerInventoryPanelRect": { "x": -1346, "y": 0, "width": 1162, "height": 1737, "scale": 1.16 },
 	"PlayerInventoryPanelGoldAmountRect": { "x": 804, "y": 1621, "width": 249, "height": 48 },

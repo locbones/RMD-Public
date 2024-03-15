@@ -290,7 +290,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Storage Bag + 1-50 Unique Items = +1-50 Unique Cores Extracted",
+                                        "text": "Storage Bag + 1-50 Unique Items = +1-50 Unique Cores Deposited",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -302,7 +302,31 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Storage Bag + 1-50 Set Items = +1-50 Set Cores Extracted",
+                                        "text": "Storage Bag + Hellfire Torch = +5-7 Unique Cores Deposited",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Storage Bag + Annihilus = +3-5 Unique Cores Deposited",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Storage Bag + 1-50 Set Items = +1-50 Set Cores Deposited",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
