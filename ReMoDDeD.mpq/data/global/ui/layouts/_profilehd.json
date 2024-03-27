@@ -186,16 +186,24 @@
     },
     "StyleModalDialogDescription":
     {
-        "fontColor": "$ModalDescriptionTextColor",
+        "fontColor": "$FontColorGoldYellow",
         "alignment": { "h": "center", "v": "center" },
         "options": { "lineWrap": true, "newlineHandling": "standard" },
-        "pointSize": "$MediumFontSize",
-        "spacing": "$ReducedSpacing"
+        "pointSize": "$MediumLargeFontSize",
+        "spacing": "$ReducedSpacing",
+        "dropShadow": "$DefaultDropShadow"
     },
     "StyleFEButtonText":
     {
         "fontColor": "$LightButtonTextColor",
         "pointSize": "$MediumLargeFontSize",
+        "dropShadow": "$DefaultDropShadow",
+        "spacing": "$MinimumSpacing"
+    },
+    "StyleFEButtonText_Blank":
+    {
+        "fontColor": "$LightButtonTextColor",
+        "pointSize": 0,
         "dropShadow": "$DefaultDropShadow",
         "spacing": "$MinimumSpacing"
     },
@@ -507,7 +515,7 @@
         "hp": 0,
         "backgroundColor": [ 0, 0, 0, 1.0 ],
         // This color is used for in-game tooltip label backgrounds
-        "inGameBackgroundColor": [ 0, 0, 0, 0.95 ],
+        "inGameBackgroundColor": [ 0, 0, 0, 0.6 ],
         // This color is used for the show items selected label background
         "inGameShowItemsSelectedBackgroundColor": [ 0, 0.25, 0.5, 1.0 ],
         "substringColor": "$FontColorLightGray",
@@ -624,7 +632,7 @@
     "SettingsSliderBackground": {
         "rect": { "x": -310, "y": -30 },
         "anchor": { "x": 0.5, "y": 0.5 },
-        "filename": "PauseMenu\\HorizontalScroll"
+        "filename": "..\\..\\..\\ReMoDDeD\\Info\\ScrollBGH"
     },
 
     "SettingsSliderLeftButtonFields": {

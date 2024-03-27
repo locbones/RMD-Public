@@ -1,0 +1,54 @@
+{
+    "type": "ConfirmationModal", "name": "ConfirmationModal",
+    "fields": { 
+        "anchor": { "x": 0.5, "y": 0.5 },
+    },
+    "children": [
+        {
+            "type": "ImageWidget", "name": "Frame",
+            "fields": {
+                "rect": { "x": -627, "y": -270 },
+                "filename": "..\\..\\..\\ReMoDDeD\\Info\\ConfirmBG",
+            },
+            "children": [
+                {
+                    "type": "ClickCatcherWidget", "name": "ClickCatcher",
+                    "fields": {
+                        "fitToParent": true,
+                    }
+                },
+                {
+                    "type": "TextBoxWidget", "name": "Prompt",
+                    "fields": {
+                        "rect": { "x": 82, "y": -2, "width": 1076, "height": 170 },
+                        "style": "$StyleModalDialogDescription"
+                    }
+                },
+                {
+                    "type": "ButtonWidget", "name": "Confirm",
+                    "fields": {
+                        "rect": { "x": 179, "y": 252, "scale": 0.5 },
+                        "filename": "..\\..\\..\\ReMoDDeD\\Info\\ConfirmBG_Yes",
+                        "focusIndicatorFilename": "Controller/HoverImages/ModalButton_Hover",
+                        "hoveredFrame": 3,
+                        "onClickMessage": "ModalMessage:Confirm",
+                        "textColor": "$LightButtonTextColor",
+                        "text/style" : "$StyleFEButtonText_Blank",
+                    }
+                },
+                {
+                    "type": "ButtonWidget", "name": "Dismiss",
+                    "fields": {
+                        "rect": { "x": 875, "y": 252, "scale": 0.5 },
+                        "filename": "..\\..\\..\\ReMoDDeD\\Info\\ConfirmBG_No",
+                        "focusIndicatorFilename": "Controller/HoverImages/ModalButton_Hover",
+                        "hoveredFrame": 3,
+                        "onClickMessage": "ModalMessage:Dismiss",
+                        "textColor": "$LightButtonTextColor",
+                        "text/style" : "$StyleFEButtonText_Blank",
+                    }
+                },
+            ]
+        },
+    ]
+}

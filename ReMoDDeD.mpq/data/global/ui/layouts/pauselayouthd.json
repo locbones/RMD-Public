@@ -113,7 +113,7 @@
                                 "hoveredFrame": 3,
                                 "textString": "Mod Info",
                                 "onClickMessage": "PanelManager:OpenPanel:RemoddedInfoPanel",
-                                "textColor": "$FontColorBonesyRed",
+                                "textColor": "$FontColorGoldYellow",
                                 "text/style": "$StyleFEButtonText",
                                 "acceptsReturnKey": true,
                                 "focusOnMouseOver": true,

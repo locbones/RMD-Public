@@ -1,0 +1,1528 @@
+{
+    "dependencies": {
+        "particles": [],
+        "models": [],
+        "skeletons": [],
+        "animations": [],
+        "textures": [],
+        "json": [
+            {
+                "path": "data/hd/env/biome/act2_frontend_biome.json"
+            }
+        ],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "Preset",
+    "name": "preset",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "SFX_act2_audio_environment",
+            "id": 1195256616,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "test_envbox_TransformDefinition",
+                    "position": {
+                        "x": 2.895062,
+                        "y": 0.59482,
+                        "z": 126.1603
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.190809,
+                        "z": 0.0,
+                        "w": 0.981627166
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "AudioEnvironmentOverrideComponent",
+                    "name": "test_envbox_AudioEnvironmentOverride",
+                    "overrideEnvironment": "ESOUNDENVIRON_TOMBS",
+                    "min": {
+                        "x": -150.0,
+                        "y": -50.0,
+                        "z": -150.0
+                    },
+                    "max": {
+                        "x": 150.0,
+                        "y": 50.0,
+                        "z": 150.0
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "SFX_act1_audio_environment",
+            "id": 4103816710,
+            "components": [
+                {
+                    "type": "AudioEnvironmentOverrideComponent",
+                    "name": "act1_audio_environment_AudioEnvironmentOverride",
+                    "overrideEnvironment": "ESOUNDENVIRON_TOMBS",
+                    "min": {
+                        "x": -150.0,
+                        "y": -50.0,
+                        "z": -150.0
+                    },
+                    "max": {
+                        "x": 150.0,
+                        "y": 50.0,
+                        "z": 150.0
+                    }
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "act1_audio_environment_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 490.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "SFX_act3_audio_environment",
+            "id": 2425828555,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "act3_audio_environment_TransformDefinition",
+                    "position": {
+                        "x": -43.4218,
+                        "y": -6.96592855,
+                        "z": -331.6614
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "AudioEnvironmentOverrideComponent",
+                    "name": "act3_audio_environment_AudioEnvironmentOverride",
+                    "overrideEnvironment": "ESOUNDENVIRON_TOMBS",
+                    "min": {
+                        "x": -175.0,
+                        "y": -50.0,
+                        "z": -175.0
+                    },
+                    "max": {
+                        "x": 175.0,
+                        "y": 50.0,
+                        "z": 175.0
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "SFX_act4_audio_environment",
+            "id": 223037466,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "act4_audio_environment_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": -800.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "AudioEnvironmentOverrideComponent",
+                    "name": "act4_audio_environment_AudioEnvironmentOverride",
+                    "overrideEnvironment": "ESOUNDENVIRON_TOMBS",
+                    "min": {
+                        "x": -150.0,
+                        "y": -50.0,
+                        "z": -150.0
+                    },
+                    "max": {
+                        "x": 150.0,
+                        "y": 50.0,
+                        "z": 150.0
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "SFX_act5_audio_environment",
+            "id": 4285046699,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "act5_audio_environment_TransformDefinition",
+                    "position": {
+                        "x": 4.926753,
+                        "y": 0.359259129,
+                        "z": -1275.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "AudioEnvironmentOverrideComponent",
+                    "name": "act5_audio_environment_AudioEnvironmentOverride",
+                    "overrideEnvironment": "ESOUNDENVIRON_TOMBS",
+                    "min": {
+                        "x": -150.0,
+                        "y": -50.0,
+                        "z": -150.0
+                    },
+                    "max": {
+                        "x": 150.0,
+                        "y": 50.0,
+                        "z": 150.0
+                    }
+                }
+            ]
+        },
+            {
+            "type": "Entity",
+            "name": "act1_vignette_character_spot01_01",
+            "id": 2282469473,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "act1_vignette_character_spot01_01_TransformDefinitionComponent",
+                    "position": {
+                        "x": 39.8193169,
+                        "y": 12.783,
+                        "z": 488.562
+                    },
+                    "orientation": {
+                        "x": -0.126241833,
+                        "y": 0.870257854,
+                        "z": -0.401989728,
+                        "w": -0.255183429
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "SpotLightDefinitionComponent",
+                    "name": "act1_vignette_character_spot01_SpotLightDefinition",
+                    "color": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "power": 150.0,
+                    "angle": 45.0,
+                    "distance": 20.0,
+                    "attenuation": 4.0,
+                    "shadowCaster": false,
+                    "lightMask": 1,
+                    "isLocalLight": false,
+                    "diffuseContribution": 1.0,
+                    "specularContribution": 0.5
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "act1_vignette_character_spot_fill_01",
+            "id": 2282469473,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "act1_vignette_character_spot_fill_01_TransformDefinitionComponent",
+                    "position": {
+                        "x": 44.46927,
+                        "y": 6.101229,
+                        "z": 486.541
+                    },
+                    "orientation": {
+                        "x": 0.0107784644,
+                        "y": 0.7635312,
+                        "z": 0.03936424,
+                        "w": -0.64447993
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "SpotLightDefinitionComponent",
+                    "name": "act1_vignette_character_spot_fill_SpotLightDefinition",
+                    "color": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "power": 150.0,
+                    "angle": 45.0,
+                    "distance": 12.0,
+                    "attenuation": 4.0,
+                    "shadowCaster": false,
+                    "lightMask": 1,
+                    "isLocalLight": false,
+                    "diffuseContribution": 1.0,
+                    "specularContribution": 0.5
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "act1_vignette_character_spot_fakedirect_01",
+            "id": 2282469473,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "act1_vignette_character_spot_fakedirect_01_TransformDefinitionComponent",
+                    "position": {
+                        "x": 29.85712,
+                        "y": 13.78562,
+                        "z": 488.95
+                    },
+                    "orientation": {
+                        "x": -0.187000036,
+                        "y": -0.835433662,
+                        "z": 0.3261179,
+                        "w": -0.400909781
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "SpotLightDefinitionComponent",
+                    "name": "act1_vignette_character_spot_fakedirect_SpotLightDefinition",
+                    "color": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "power": 100.0,
+                    "angle": 40.0,
+                    "distance": 40.0,
+                    "attenuation": 5.0,
+                    "shadowCaster": false,
+                    "lightMask": 5,
+                    "isLocalLight": false,
+                    "diffuseContribution": 1.0,
+                    "specularContribution": 0.5
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "act1_vignette_character_spot_fill_02",
+            "id": 2282469473,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "act1_vignette_character_spot_fill_02_components_TransformDefinitionComponent",
+                    "position": {
+                        "x": 41.66961,
+                        "y": 9.53024,
+                        "z": 474.327
+                    },
+                    "orientation": {
+                        "x": 0.1606755,
+                        "y": -0.265191585,
+                        "z": -0.0731904,
+                        "w": 0.947892368
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "SpotLightDefinitionComponent",
+                    "name": "act1_vignette_character_spot_fill_SpotLightDefinition",
+                    "color": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "power": 650.0,
+                    "angle": 45.0,
+                    "distance": 12.0,
+                    "attenuation": 4.0,
+                    "shadowCaster": false,
+                    "lightMask": 1,
+                    "isLocalLight": false,
+                    "diffuseContribution": 1.0,
+                    "specularContribution": 0.5
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "act1_vignette_character_spot02_special",
+            "id": 2282469473,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "act1_vignette_character_spot02_01_TransformDefinitionComponent",
+                    "position": {
+                        "x": 43.49041,
+                        "y": 17.86688,
+                        "z": 473.4647
+                    },
+                    "orientation": {
+                        "x": 0.412600517,
+                        "y": -0.196160913,
+                        "z": 0.0914713442,
+                        "w": 0.8848247
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "SpotLightDefinitionComponent",
+                    "name": "act1_vignette_character_spot02_SpotLightDefinition",
+                    "color": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "power": 550.0,
+                    "angle": 55.0,
+                    "distance": 35.0,
+                    "attenuation": 4.0,
+                    "shadowCaster": false,
+                    "lightMask": 1,
+                    "isLocalLight": false,
+                    "diffuseContribution": 1.0,
+                    "specularContribution": 0.5
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "act1_vignette_accent_point01_02",
+            "id": 534077030,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "act1_vignette_accent_point01_02_components_TransformDefinitionComponent",
+                    "position": {
+                        "x": -36.0,
+                        "y": 0.0,
+                        "z": 493.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "PointLightDefinitionComponent",
+                    "name": "act1_vignette_accent_point01_PointLightDefinition",
+                    "color": {
+                        "x": 1.0,
+                        "y": 0.6941177,
+                        "z": 0.4352941
+                    },
+                    "power": 1000.0,
+                    "radius": 999.0,
+                    "attenuation": 4.0,
+                    "lightMask": 1,
+                    "isLocalLight": false,
+                    "diffuseContribution": 1.0,
+                    "specularContribution": 1.0
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "act1_vignette_accent_point01_02",
+            "id": 534077030,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "act1_vignette_accent_point01_02_components_TransformDefinitionComponent",
+                    "position": {
+                        "x": -36.0,
+                        "y": 0.0,
+                        "z": 474.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "PointLightDefinitionComponent",
+                    "name": "act1_vignette_accent_point01_PointLightDefinition",
+                    "color": {
+                        "x": 1.0,
+                        "y": 0.6941177,
+                        "z": 0.4352941
+                    },
+                    "power": 1000.0,
+                    "radius": 999.0,
+                    "attenuation": 4.0,
+                    "lightMask": 1,
+                    "isLocalLight": false,
+                    "diffuseContribution": 1.0,
+                    "specularContribution": 1.0
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "ui_stone01_01",
+            "id": 875453545,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "ui_stone01_01_TransformDefinitionComponent",
+                    "position": {
+                        "x": -18.0,
+                        "y": -0.35,
+                        "z": 507.8
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 2.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "ui_stone01_ModelDefinitionComponent",
+                    "filename": "data/hd/env/model/act4/fort/act4_fort_interior/int_arch_columns.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 0,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "ui_stone01_01",
+            "id": 875453545,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "ui_stone01_01_TransformDefinitionComponent",
+                    "position": {
+                        "x": 3.0,
+                        "y": 1.0,
+                        "z": 490.5
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 0.7,
+                        "y": 0.7,
+                        "z": 0.7
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "ui_stone01_ModelDefinitionComponent",
+                    "filename": "data/hd/env/model/act4/fort/act4_fort_walls_props/weapon_rack01.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 0,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "waypoint",
+            "id": 3930968699,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "waypointmodel",
+                    "position": {
+                        "x": 36.0,
+                        "y": 0.0,
+                        "z": 483.1
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.38,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_torso",
+                    "filename": "data/hd/objects/waypoint_portals/waypoint_act_4_town/model/torso.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "FireRight",
+            "id": 598403692,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "FireRight_TransformDefinition",
+                    "position": {
+                        "x": 37.0,
+                        "y": 1.85,
+                        "z": 477.4
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "FireRight_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/objects/waypoint_portals/Waypoint_Fire/vfx_waypoint_Fire.particles",
+                    "hardKillOnDestroy": true
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "FireLeft",
+            "id": 3490768698,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "FireLeft_TransformDefinition",
+                    "position": {
+                        "x": 36.8,
+                        "y": 1.85,
+                        "z": 488.6
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "FireLeft_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/objects/waypoint_portals/Waypoint_Fire/vfx_waypoint_Fire.particles",
+                    "hardKillOnDestroy": true
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "ui_stone01_01",
+            "id": 3930968699,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "ui_stone01_01_TransformDefinitionComponent",
+                    "position": {
+                        "x": 36.0,
+                        "y": 0.0,
+                        "z": 483.4
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "ui_stone01_ModelDefinitionComponent",
+                    "filename": "data/hd/env/model/act4/fort/act4_fort_waypoint/waypoint01.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 0,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "ui_stone01_01",
+            "id": 3930968699,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "ui_stone01_01_TransformDefinitionComponent",
+                    "position": {
+                        "x": 36.0,
+                        "y": 0.0,
+                        "z": 483.4
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "ui_stone01_ModelDefinitionComponent",
+                    "filename": "data/hd/env/model/act2/arcane/act2_arcane_floor_patterns/centerpiece01.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 0,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "ui_stone01_01",
+            "id": 3930968699,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "ui_stone01_01_TransformDefinitionComponent",
+                    "position": {
+                        "x": 36.0,
+                        "y": 0.0,
+                        "z": 503.4
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "ui_stone01_ModelDefinitionComponent",
+                    "filename": "data/hd/env/model/act2/arcane/act2_arcane_floor_patterns/centerpiece01.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 0,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "ui_stone01_01",
+            "id": 3930968699,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "ui_stone01_01_TransformDefinitionComponent",
+                    "position": {
+                        "x": 36.0,
+                        "y": 0.0,
+                        "z": 463.4
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "ui_stone01_ModelDefinitionComponent",
+                    "filename": "data/hd/env/model/act2/arcane/act2_arcane_floor_patterns/centerpiece01.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 0,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "ui_stone01_01",
+            "id": 3930968699,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "ui_stone01_01_TransformDefinitionComponent",
+                    "position": {
+                        "x": 10.0,
+                        "y": 0.0,
+                        "z": 483.4
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "ui_stone01_ModelDefinitionComponent",
+                    "filename": "data/hd/env/model/act2/arcane/act2_arcane_floor_patterns/centerpiece01.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 0,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "ui_stone01_01",
+            "id": 3930968699,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "ui_stone01_01_TransformDefinitionComponent",
+                    "position": {
+                        "x": 10.0,
+                        "y": 0.0,
+                        "z": 503.4
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "ui_stone01_ModelDefinitionComponent",
+                    "filename": "data/hd/env/model/act2/arcane/act2_arcane_floor_patterns/centerpiece01.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 0,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "ui_stone01_01",
+            "id": 3930968699,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "ui_stone01_01_TransformDefinitionComponent",
+                    "position": {
+                        "x": 10.0,
+                        "y": 0.0,
+                        "z": 463.4
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "ui_stone01_ModelDefinitionComponent",
+                    "filename": "data/hd/env/model/act2/arcane/act2_arcane_floor_patterns/centerpiece01.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 0,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "ui_stone01_01",
+            "id": 3930968699,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "ui_stone01_01_TransformDefinitionComponent",
+                    "position": {
+                        "x": -10.0,
+                        "y": 0.0,
+                        "z": 483.4
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "ui_stone01_ModelDefinitionComponent",
+                    "filename": "data/hd/env/model/act2/arcane/act2_arcane_floor_patterns/centerpiece01.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 0,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "ui_stone01_01",
+            "id": 3930968699,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "ui_stone01_01_TransformDefinitionComponent",
+                    "position": {
+                        "x": -10.0,
+                        "y": 0.0,
+                        "z": 503.4
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "ui_stone01_ModelDefinitionComponent",
+                    "filename": "data/hd/env/model/act2/arcane/act2_arcane_floor_patterns/centerpiece01.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 0,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "ui_stone01_01",
+            "id": 3930968699,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "ui_stone01_01_TransformDefinitionComponent",
+                    "position": {
+                        "x": -10.0,
+                        "y": 0.0,
+                        "z": 463.4
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "ui_stone01_ModelDefinitionComponent",
+                    "filename": "data/hd/env/model/act2/arcane/act2_arcane_floor_patterns/centerpiece01.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 0,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "ui_stone01_01",
+            "id": 3930968699,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "ui_stone01_01_TransformDefinitionComponent",
+                    "position": {
+                        "x": -30.0,
+                        "y": 0.0,
+                        "z": 483.4
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "ui_stone01_ModelDefinitionComponent",
+                    "filename": "data/hd/env/model/act2/arcane/act2_arcane_floor_patterns/centerpiece01.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 0,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "ui_stone01_01",
+            "id": 3930968699,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "ui_stone01_01_TransformDefinitionComponent",
+                    "position": {
+                        "x": -30.0,
+                        "y": 0.0,
+                        "z": 503.4
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "ui_stone01_ModelDefinitionComponent",
+                    "filename": "data/hd/env/model/act2/arcane/act2_arcane_floor_patterns/centerpiece01.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 0,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "ui_stone01_01",
+            "id": 3930968699,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "ui_stone01_01_TransformDefinitionComponent",
+                    "position": {
+                        "x": -30.0,
+                        "y": 0.0,
+                        "z": 463.4
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "ui_stone01_ModelDefinitionComponent",
+                    "filename": "data/hd/env/model/act2/arcane/act2_arcane_floor_patterns/centerpiece01.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 0,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "ui_stone01_01",
+            "id": 875453545,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "ui_stone01_01_TransformDefinitionComponent",
+                    "position": {
+                        "x": 10.0,
+                        "y": 0.0,
+                        "z": 455.5
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.7,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "ui_stone01_ModelDefinitionComponent",
+                    "filename": "data/hd/env/model/act1/monastry/act1_monastry_architecture/wall_entrance01.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 0,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "ui_stone01_01",
+            "id": 875453545,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "ui_stone01_01_TransformDefinitionComponent",
+                    "position": {
+                        "x": 10.0,
+                        "y": 0.0,
+                        "z": 455.5
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.7,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "ui_stone01_ModelDefinitionComponent",
+                    "filename": "data/hd/env/model/act1/monastry/act1_monastry_architecture/entrance_threshold01.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 0,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "ui_stone01_01",
+            "id": 875453545,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "ui_stone01_01_TransformDefinitionComponent",
+                    "position": {
+                        "x": -35.0,
+                        "y": 0.0,
+                        "z": 453.8
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.7,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "ui_stone01_ModelDefinitionComponent",
+                    "filename": "data/hd/env/model/act1/monastry/act1_monastry_architecture/wall01.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 0,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "pf_lit_torch01_03",
+            "id": 1689637583,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "pf_lit_torch01_03_Transform",
+                    "position": {
+                        "x": -36.0,
+                        "y": 0.0,
+                        "z": 493.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "PrefabPlacementDefinitionComponent",
+                    "name": "pf_lit_torch01_03_PrefabPlacement",
+                    "prefab": "data/hd/env/model/ui/ui_act3_vignette/pf_lit_torch01.json"
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "pf_lit_torch01_03",
+            "id": 1689637583,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "pf_lit_torch01_03_Transform",
+                    "position": {
+                        "x": -35.0,
+                        "y": 0.0,
+                        "z": 474.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "PrefabPlacementDefinitionComponent",
+                    "name": "pf_lit_torch01_03_PrefabPlacement",
+                    "prefab": "data/hd/env/model/ui/ui_act3_vignette/pf_lit_torch01.json"
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "SFX_Waypoint",
+            "id": 2957236691,
+            "components": [
+                {
+                    "type": "AudioEmitterComponent",
+                    "name": "SFX_Waypoint_AudioEmitter",
+                    "audioId": "shrine_idle_fire_hd",
+                    "randomDelay": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "forceNoRandom": true
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "SFX_Waypoint_TransformDefinition",
+                    "position": {
+                        "x": 50.0,
+                        "y": 5.0,
+                        "z": 482.5
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+                {
+            "type": "Entity",
+            "name": "SFX_Waypoint",
+            "id": 2957236691,
+            "components": [
+                {
+                    "type": "AudioEmitterComponent",
+                    "name": "SFX_Waypoint_AudioEmitter",
+                    "audioId": "shrine_idle_fire_hd",
+                    "randomDelay": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "forceNoRandom": true
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "SFX_Waypoint_TransformDefinition",
+                    "position": {
+                        "x": 50.0,
+                        "y": 5.0,
+                        "z": 483.5
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        }
+    ],
+    "terrain": {},
+    "biomeFilename": "data/hd/env/biome/act2_frontend_biome.json",
+    "perTileBiomeOverrides": [],
+    "specialTiles": {}
+}

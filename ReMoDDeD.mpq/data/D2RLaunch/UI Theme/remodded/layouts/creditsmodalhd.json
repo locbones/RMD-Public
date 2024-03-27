@@ -82,7 +82,7 @@
         {
             "type": "ButtonWidget", "name": "ExitButton",
             "fields": {
-                "rect": { "x": -766, "y": -245 },
+                "rect": { "x": -831, "y": -245 },
                 "anchor": { "x": 1.0, "y": 1.0 },
                 "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
                 "hoveredFrame": 3,

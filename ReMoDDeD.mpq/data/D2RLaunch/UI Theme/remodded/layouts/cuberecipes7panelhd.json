@@ -13,7 +13,7 @@
             "fields": {
                 "rect": "$OptionsScrollBarBackgroundRect",
                 "anchor": { "x": 1.0 },
-                "filename": "PauseMenu\\VerticalScroll"
+                "filename": "..\\..\\..\\ReMoDDeD\\Info\\ScrollBG"
             },
             "children": [
                 {
