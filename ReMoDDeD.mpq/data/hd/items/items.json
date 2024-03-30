@@ -1456,5 +1456,13 @@
   { "L98": { "asset": "..//custom//Blood_Pact" } },
   { "L99": { "asset": "..//custom//Blood_Pact" } },
   { "C00": { "asset": "body_part/jawbone" } },
-  { "D00": { "asset": "..//custom//DemonSword" } }
+  { "D00": { "asset": "..//custom//DemonSword" } },
+  { "Ev1": { "asset": "..//custom//easteregg" } },
+  { "Ev2": { "asset": "..//custom//easteregg" } },
+  { "Ev3": { "asset": "..//custom//easteregg" } },
+  { "Ev4": { "asset": "..//custom//easteregg" } },
+  { "Ev5": { "asset": "..//custom//easteregg" } },
+  { "Ev6": { "asset": "..//custom//easteregg" } },
+  { "Ev7": { "asset": "..//custom//easteregg" } },
+  { "Ev8": { "asset": "..//custom//easteregg" } }
 ]
