@@ -7,6 +7,15 @@
     },
     "children": [
         {
+            "type": "TimerWidget", "name": "QuickBuy",
+            "rect": { "x": 0, "y": 0 },
+            "fields":{
+                "time": 0,
+                "message": "DialogMessage:ListItemClicked"
+            }
+            
+        },
+        {
             "type": "ClickCatcherWidget", "name": "click_catcher",
             "fields": {
                 "rect": [ 0, 0, 0, 0 ],

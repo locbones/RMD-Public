@@ -52,7 +52,7 @@
                                     "type": "TextBoxWidget", "name": "Video Options",
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
-                                        "text": "Blood Pact",
+                                        "text": "Forsaken Pact",
                                         "style": "$RWHeader"
                                     }
                                 },

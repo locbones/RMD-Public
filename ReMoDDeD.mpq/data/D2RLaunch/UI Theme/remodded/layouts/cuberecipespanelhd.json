@@ -69,7 +69,7 @@
                 "rect": "$SettingsPanelTabsRect",
                 "anchor": { "x": 0.5 },
                 "tabCount": 6,
-                "tabSize": { "x": 266, "y": 121 },
+                "tabSize": { "x": 256, "y": 121 },
                 "tabPadding": { "x": 2, "y": 0 },
                 "unavailableTabsLeaveGaps": false,
                 "tabSizingMethod": "fixedCenter",
@@ -86,7 +86,7 @@
                     "fontColor": "$FontColorWhite",
                     "spacing": {"leading":0.9, "kerning":0.95}
                 },
-                "textStrings": [ "General", "Custom", "Upgrades", "Crafting", "Runewords", "Blood Pacts" ],
+                "textStrings": [ "General", "Custom", "Upgrades", "Crafting", "Runewords", "Forsaken Pacts" ],
                 "tabMessages": [
                     "SettingsPanelMessage:CheckChanges:CubeRecipes2Panel",
                     "SettingsPanelMessage:CheckChanges:CubeRecipes3Panel",

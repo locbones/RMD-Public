@@ -979,5 +979,6 @@
     "deathsentrybolt_2": "ds_bolt",
     "deathsentrybolttrail": "ds_bolt2",
     "frenzynova":"null",
-    "unholy_barrage":"unholy_barrage"
+    "unholy_barrage":"unholy_barrage",
+    "siegebeaststomp":"beaststomp"
 }
