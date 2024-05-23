@@ -2,8 +2,8 @@
     "desecrated_zones": [
         {
             /* Monday */
-            "start_time_utc": "2024-03-25 07:00:00",
-            "end_time_utc": "2024-03-26 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-05-20 07:00:00",
+            "end_time_utc": "2024-05-21 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -344,8 +344,8 @@
         },
         {
             /* Tuesday */
-            "start_time_utc": "2024-03-26 07:00:00",
-            "end_time_utc": "2024-03-27 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-05-21 07:00:00",
+            "end_time_utc": "2024-05-22 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -800,8 +800,8 @@
         },
         {
             /* Wednesday */
-            "start_time_utc": "2024-03-27 07:00:00",
-            "end_time_utc": "2024-03-28 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-05-22 07:00:00",
+            "end_time_utc": "2024-05-23 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -1162,8 +1162,8 @@
         },
         {
             /* Thursday */
-            "start_time_utc": "2024-03-28 07:00:00",
-            "end_time_utc": "2024-03-29 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-05-23 07:00:00",
+            "end_time_utc": "2024-05-24 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -1247,8 +1247,8 @@
         },
         {
             /* Friday */
-            "start_time_utc": "2024-03-29 07:00:00",
-            "end_time_utc": "2024-03-30 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-05-24 07:00:00",
+            "end_time_utc": "2024-05-25 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -1595,8 +1595,8 @@
         },
         {
             /* The Weekend */
-            "start_time_utc": "2024-03-30 07:00:00",
-            "end_time_utc": "2024-04-01 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-05-25 07:00:00",
+            "end_time_utc": "2024-05-27 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 60,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -2382,8 +2382,8 @@
         },
         {
             /* Monday */
-            "start_time_utc": "2024-04-01 07:00:00",
-            "end_time_utc": "2024-04-02 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-05-27 07:00:00",
+            "end_time_utc": "2024-05-28 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -2724,8 +2724,8 @@
         },
         {
             /* Tuesday */
-            "start_time_utc": "2024-04-02 07:00:00",
-            "end_time_utc": "2024-04-03 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-05-28 07:00:00",
+            "end_time_utc": "2024-05-29 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -3180,8 +3180,8 @@
         },
         {
             /* Wednesday */
-            "start_time_utc": "2024-04-03 07:00:00",
-            "end_time_utc": "2024-04-04 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-05-29 07:00:00",
+            "end_time_utc": "2024-05-30 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -3542,8 +3542,8 @@
         },
         {
             /* Thursday */
-            "start_time_utc": "2024-04-04 07:00:00",
-            "end_time_utc": "2024-04-05 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-05-30 07:00:00",
+            "end_time_utc": "2024-05-31 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -3627,8 +3627,8 @@
         },
         {
             /* Friday */
-            "start_time_utc": "2024-04-05 07:00:00",
-            "end_time_utc": "2024-04-06 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-05-31 07:00:00",
+            "end_time_utc": "2024-06-01 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -3975,8 +3975,8 @@
         },
         {
             /* The Weekend */
-            "start_time_utc": "2024-04-06 07:00:00",
-            "end_time_utc": "2024-04-08 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-06-01 07:00:00",
+            "end_time_utc": "2024-06-03 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 60,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -4762,8 +4762,8 @@
         },
         {
             /* Monday */
-            "start_time_utc": "2024-04-08 07:00:00",
-            "end_time_utc": "2024-04-09 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-06-03 07:00:00",
+            "end_time_utc": "2024-06-04 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -5104,8 +5104,8 @@
         },
         {
             /* Tuesday */
-            "start_time_utc": "2024-04-09 07:00:00",
-            "end_time_utc": "2024-04-10 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-06-04 07:00:00",
+            "end_time_utc": "2024-06-05 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -5560,8 +5560,8 @@
         },
         {
             /* Wednesday */
-            "start_time_utc": "2024-04-10 07:00:00",
-            "end_time_utc": "2024-04-11 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-06-05 07:00:00",
+            "end_time_utc": "2024-06-06 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -5922,8 +5922,8 @@
         },
         {
             /* Thursday */
-            "start_time_utc": "2024-04-11 07:00:00",
-            "end_time_utc": "2024-04-12 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-06-06 07:00:00",
+            "end_time_utc": "2024-06-07 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -6007,8 +6007,8 @@
         },
         {
             /* Friday */
-            "start_time_utc": "2024-04-12 07:00:00",
-            "end_time_utc": "2024-04-13 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-06-07 07:00:00",
+            "end_time_utc": "2024-06-08 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -6355,8 +6355,8 @@
         },
         {
             /* The Weekend */
-            "start_time_utc": "2024-04-13 07:00:00",
-            "end_time_utc": "2024-04-15 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-06-08 07:00:00",
+            "end_time_utc": "2024-06-10 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 60,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -7142,8 +7142,8 @@
         },
         {
             /* Monday */
-            "start_time_utc": "2024-04-15 07:00:00",
-            "end_time_utc": "2024-04-16 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-06-10 07:00:00",
+            "end_time_utc": "2024-06-11 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -7484,8 +7484,8 @@
         },
         {
             /* Tuesday */
-            "start_time_utc": "2024-04-16 07:00:00",
-            "end_time_utc": "2024-04-17 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-06-11 07:00:00",
+            "end_time_utc": "2024-06-12 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -7940,8 +7940,8 @@
         },
         {
             /* Wednesday */
-            "start_time_utc": "2024-04-17 07:00:00",
-            "end_time_utc": "2024-04-18 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-06-12 07:00:00",
+            "end_time_utc": "2024-06-13 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -8302,8 +8302,8 @@
         },
         {
             /* Thursday */
-            "start_time_utc": "2024-04-18 07:00:00",
-            "end_time_utc": "2024-04-19 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-06-13 07:00:00",
+            "end_time_utc": "2024-06-14 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -8387,8 +8387,8 @@
         },
         {
             /* Friday */
-            "start_time_utc": "2024-04-19 07:00:00",
-            "end_time_utc": "2024-04-20 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-06-14 07:00:00",
+            "end_time_utc": "2024-06-15 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -8735,8 +8735,8 @@
         },
         {
             /* The Weekend */
-            "start_time_utc": "2024-04-20 07:00:00",
-            "end_time_utc": "2024-04-22 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-06-15 07:00:00",
+            "end_time_utc": "2024-06-17 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 60,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -9522,8 +9522,8 @@
         },
         {
             /* Monday */
-            "start_time_utc": "2024-04-22 07:00:00",
-            "end_time_utc": "2024-04-23 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-06-17 07:00:00",
+            "end_time_utc": "2024-06-18 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -9864,8 +9864,8 @@
         },
         {
             /* Tuesday */
-            "start_time_utc": "2024-04-23 07:00:00",
-            "end_time_utc": "2024-04-24 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-06-18 07:00:00",
+            "end_time_utc": "2024-06-19 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -10320,8 +10320,8 @@
         },
         {
             /* Wednesday */
-            "start_time_utc": "2024-04-24 07:00:00",
-            "end_time_utc": "2024-04-25 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-06-19 07:00:00",
+            "end_time_utc": "2024-06-20 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -10682,8 +10682,8 @@
         },
         {
             /* Thursday */
-            "start_time_utc": "2024-04-25 07:00:00",
-            "end_time_utc": "2024-04-26 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-06-20 07:00:00",
+            "end_time_utc": "2024-06-21 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -10767,8 +10767,8 @@
         },
         {
             /* Friday */
-            "start_time_utc": "2024-04-26 07:00:00",
-            "end_time_utc": "2024-04-27 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-06-21 07:00:00",
+            "end_time_utc": "2024-06-22 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -11115,8 +11115,8 @@
         },
         {
             /* The Weekend */
-            "start_time_utc": "2024-04-27 07:00:00",
-            "end_time_utc": "2024-04-29 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-06-22 07:00:00",
+            "end_time_utc": "2024-06-24 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 60,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -11902,8 +11902,8 @@
         },
         {
             /* Monday */
-            "start_time_utc": "2024-04-29 07:00:00",
-            "end_time_utc": "2024-04-30 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-06-24 07:00:00",
+            "end_time_utc": "2024-06-25 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -12244,8 +12244,8 @@
         },
         {
             /* Tuesday */
-            "start_time_utc": "2024-04-30 07:00:00",
-            "end_time_utc": "2024-05-01 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-06-25 07:00:00",
+            "end_time_utc": "2024-06-26 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -12700,8 +12700,8 @@
         },
         {
             /* Wednesday */
-            "start_time_utc": "2024-05-01 07:00:00",
-            "end_time_utc": "2024-05-02 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-06-26 07:00:00",
+            "end_time_utc": "2024-06-27 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -13062,8 +13062,8 @@
         },
         {
             /* Thursday */
-            "start_time_utc": "2024-05-02 07:00:00",
-            "end_time_utc": "2024-05-03 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-06-27 07:00:00",
+            "end_time_utc": "2024-06-28 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -13147,8 +13147,8 @@
         },
         {
             /* Friday */
-            "start_time_utc": "2024-05-03 07:00:00",
-            "end_time_utc": "2024-05-04 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-06-28 07:00:00",
+            "end_time_utc": "2024-06-29 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -13495,8 +13495,8 @@
         },
         {
             /* The Weekend */
-            "start_time_utc": "2024-05-04 07:00:00",
-            "end_time_utc": "2024-05-06 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-06-29 07:00:00",
+            "end_time_utc": "2024-07-01 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 60,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -14282,8 +14282,8 @@
         },
         {
             /* Monday */
-            "start_time_utc": "2024-05-06 07:00:00",
-            "end_time_utc": "2024-05-07 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-07-01 07:00:00",
+            "end_time_utc": "2024-07-02 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -14624,8 +14624,8 @@
         },
         {
             /* Tuesday */
-            "start_time_utc": "2024-05-07 07:00:00",
-            "end_time_utc": "2024-05-08 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-07-02 07:00:00",
+            "end_time_utc": "2024-07-03 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -15080,8 +15080,8 @@
         },
         {
             /* Wednesday */
-            "start_time_utc": "2024-05-08 07:00:00",
-            "end_time_utc": "2024-05-09 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-07-03 07:00:00",
+            "end_time_utc": "2024-07-04 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -15442,8 +15442,8 @@
         },
         {
             /* Thursday */
-            "start_time_utc": "2024-05-09 07:00:00",
-            "end_time_utc": "2024-05-10 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-07-04 07:00:00",
+            "end_time_utc": "2024-07-05 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -15527,8 +15527,8 @@
         },
         {
             /* Friday */
-            "start_time_utc": "2024-05-10 07:00:00",
-            "end_time_utc": "2024-05-11 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-07-05 07:00:00",
+            "end_time_utc": "2024-07-06 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -15875,8 +15875,8 @@
         },
         {
             /* The Weekend */
-            "start_time_utc": "2024-05-11 07:00:00",
-            "end_time_utc": "2024-05-13 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-07-06 07:00:00",
+            "end_time_utc": "2024-07-08 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 60,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -16662,8 +16662,8 @@
         },
         {
             /* Monday */
-            "start_time_utc": "2024-05-13 07:00:00",
-            "end_time_utc": "2024-05-14 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-07-08 07:00:00",
+            "end_time_utc": "2024-07-09 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -17004,8 +17004,8 @@
         },
         {
             /* Tuesday */
-            "start_time_utc": "2024-05-14 07:00:00",
-            "end_time_utc": "2024-05-15 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-07-09 07:00:00",
+            "end_time_utc": "2024-07-10 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -17460,8 +17460,8 @@
         },
         {
             /* Wednesday */
-            "start_time_utc": "2024-05-15 07:00:00",
-            "end_time_utc": "2024-05-16 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-07-10 07:00:00",
+            "end_time_utc": "2024-07-11 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -17822,8 +17822,8 @@
         },
         {
             /* Thursday */
-            "start_time_utc": "2024-05-16 07:00:00",
-            "end_time_utc": "2024-05-17 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-07-11 07:00:00",
+            "end_time_utc": "2024-07-12 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -17907,8 +17907,8 @@
         },
         {
             /* Friday */
-            "start_time_utc": "2024-05-17 07:00:00",
-            "end_time_utc": "2024-05-18 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-07-12 07:00:00",
+            "end_time_utc": "2024-07-13 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 120,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -18255,8 +18255,8 @@
         },
         {
             /* The Weekend */
-            "start_time_utc": "2024-05-18 07:00:00",
-            "end_time_utc": "2024-05-20 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "start_time_utc": "2024-07-13 07:00:00",
+            "end_time_utc": "2024-07-15 07:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 60,
             "terror_break_min": 0,
             "seed": 16664395743979097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -19042,6 +19042,7 @@
         }
     ]
 }
+
 
 
 
