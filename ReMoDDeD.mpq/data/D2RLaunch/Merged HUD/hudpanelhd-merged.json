@@ -470,6 +470,19 @@
                     }
                 }
             ]
+        },
+        {
+            "type": "TextBoxWidget", "name": "BuildVersion",
+            "fields": {
+                "rect": { "x": 3430, "y": 375, "width": 400 },
+                "text":"BUILD 052324",
+                "style": {
+                    "fontColor": "$FontColorGray",
+                    "pointSize": "$SmallPanelFontSize",
+                    "spacing": "$ReducedSpacing",
+                    "dropShadow": "$DefaultDropShadow"
+                }
+            }
         }
     ]
 }

@@ -4482,5 +4482,12 @@
       "uber": "..//custom/leoric_charm",
       "ultra": "..//custom/leoric_charm"
     }
+  },
+  {
+    "cola_cube": {
+      "normal": "..//custom/cola_cube",
+      "uber": "..//custom/cola_cube",
+      "ultra": "..//custom/cola_cube"
+    }
   }
 ]

@@ -70,6 +70,8 @@
     "explosivepotiondebris_3": "potion_explode_debris_03",
     "holybolt": "holy_bolt_missile",
     "chargedbolt": "charged_bolt",
+    "tstormbolt": "charged_bolt",
+    "tstormcry": "charged_bolt",
     "sanctuarybolt": "gleam",
     "firebolt": "firebolt",
     "icebolt": "icebolt",

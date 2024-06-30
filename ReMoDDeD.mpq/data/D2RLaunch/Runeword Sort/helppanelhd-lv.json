@@ -1,27 +1,13 @@
 //Sorting By: ItemType
 {
-    "type": "HelpPanel", "name": "HelpPanel",
+    "type": "VideoOptionsPanel", "name": "CubeRecipes6Panel",
     "fields": {
         "priority": 9003,
-        "rect": { "x": -865, "y": 300, "width": "$OptionsPanelWidth", "height": "$OptionsPanelHeight" },
+        "rect": "$OptionsPanelRect",
         "anchor": { "x": 0.5 },
         "applySettingsImmediately": true
     },
     "children": [
-        {
-            "type": "ImageWidget", "name": "SettingsBackground",
-            "fields": {
-                "rect": { "x": -896, "y": -130, "width": "$OptionsPanelWidth", "height": "$OptionsPanelHeight" },
-                "anchor": { "x": 0.5 },
-                "filename": "Controller/Panel/Options/Panel_Options_BG"
-            }
-        },
-        {
-            "type": "ClickCatcherWidget", "name": "catcher",
-            "fields": {
-                "fitToParent": true
-            }
-        },
         {
             "type": "ImageWidget", "name": "ScrollBarBackground",
             "fields": {
@@ -33,10 +19,10 @@
                 {
                     "type": "ScrollControllerWidget", "name": "ScrollController",
                     "fields": {
-                        "rect": { "x": -31, "y": 0, "width": 26, "height": 1268 },
+                        "rect": "$OptionsScrollBarRect",
                         "anchor": { "x": 1.0 },
-                        "upArrowFilepath": "",
-                        "downArrowFilepath": "",
+                        "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+                        "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
                         "barFilepath": "..\\..\\..\\ReMoDDeD\\SkullScroll",
                         "viewName": "ScrollView",
                         "wheelScrollSound": "cursor_scroll_hd",
@@ -44,26 +30,6 @@
                     }
                 }
             ]
-        },
-        {
-            "type": "TextBoxWidget", "name": "Title",
-            "fields": {
-                "rect": { "x": -100, "y": -125, "width": 1950, "height": 103 },
-                "text": "Runewords List",
-                "style": "$StyleTitleBlock"
-            }
-        },
-        {
-            "type": "ButtonWidget", "name": "CloseButton",
-            "fields": {
-                "rect": { "x": 1675, "y": -110 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Exit",
-                "hoveredFrame": 3,
-                "onClickMessage": "PanelManager:ClosePanel:HelpPanel",
-                "tooltipString": "@strClose",
-                "sound": "cursor_close_window_hd",
-                "acceptsEscKeyEverywhere": true
-            }
         },
         {
             "type": "ScrollViewWidget", "name": "ScrollView",
@@ -5864,7 +5830,49 @@
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw171"
                             }
-                        }                          
+                        },
+                        /*--------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------*/
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 10, "y": -20},
+                                        "text": "@Runeword172",
+                                        "style": "$RWInfoFB"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": "@RWClubDru",
+                                        "style": "$RWInfo"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": "@r25L      @r34L      @r07L",
+                                        "style": "$RWInfo"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "AdvancedStats",
+                            "fields": {
+                                "rect": { "x": -40, "y": 11520 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "hoveredFrame": 1,
+                                "tooltipString": "@rw172"
+                            }
+                        }                        
                     ]
                 }
             ]

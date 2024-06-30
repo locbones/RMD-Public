@@ -181,6 +181,27 @@
                         }
                     ],
                     "defaultAnimationName": "Walk"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "component_transform1",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.65,
+                        "y": 1.65,
+                        "z": 1.65
+                    },
+                    "inheritOnlyPosition": false
                 }
             ]
         },
@@ -211,413 +232,81 @@
         },
         {
             "type": "Entity",
-            "name": "entity_vfx",
-            "id": 3960197318,
-            "components": [
-                {
-                    "type": "EntityAttachmentDefinitionComponent",
-                    "name": "entity_vfx_EntityAttachmentDefinition",
-                    "targetbone": "Root"
-                },
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "entity_vfx_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/character/enemy/spiritwolf/vfx_spiritwolf_spawn.particles",
-                    "hardKillOnDestroy": false
-                },
-            ]
-        },
-        {
-            "type": "Entity",
-            "name": "vfx_head",
-            "id": 2849129051,
-            "components": [
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "vfx_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/character/enemy/firegolem/vfx_fire_golem_head_fire.particles",
-                    "hardKillOnDestroy": true
-                },
-                {
-                    "type": "EntityAttachmentDefinitionComponent",
-                    "name": "vfx_EntityAttachmentDefinition",
-                    "targetbone": "R_front_leg_02_bind_jnt"
-                }
-            ]
-        },
-        {
-            "type": "Entity",
-            "name": "vfx_head",
-            "id": 2849129051,
-            "components": [
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "vfx_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/character/enemy/firegolem/vfx_fire_golem_head_fire.particles",
-                    "hardKillOnDestroy": true
-                },
-                {
-                    "type": "EntityAttachmentDefinitionComponent",
-                    "name": "vfx_EntityAttachmentDefinition",
-                    "targetbone": "R_front_leg_03_bind_jnt"
-                }
-            ]
-        },
-        {
-            "type": "Entity",
-            "name": "vfx_head",
-            "id": 2849129051,
-            "components": [
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "vfx_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/character/enemy/firegolem/vfx_fire_golem_head_fire.particles",
-                    "hardKillOnDestroy": true
-                },
-                {
-                    "type": "EntityAttachmentDefinitionComponent",
-                    "name": "vfx_EntityAttachmentDefinition",
-                    "targetbone": "R_front_leg_04_bind_jnt"
-                }
-            ]
-        },
-        {
-            "type": "Entity",
             "name": "vfx_shoulder_R",
             "id": 2526295779,
             "components": [
                 {
                     "type": "VfxDefinitionComponent",
                     "name": "vfx_shoulder_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/character/enemy/firegolem/vfx_fire_golem_RShoulder_fire.particles",
-                    "hardKillOnDestroy": true
-                },
-                {
-                    "type": "EntityAttachmentDefinitionComponent",
-                    "name": "vfx_shoulder_EntityAttachmentDefinition",
-                    "targetbone": "L_front_leg_02_bind_jnt"
-                }
-            ]
-        },
-        {
-            "type": "Entity",
-            "name": "vfx_shoulder_R",
-            "id": 2526295779,
-            "components": [
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "vfx_shoulder_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/character/enemy/firegolem/vfx_fire_golem_RShoulder_fire.particles",
-                    "hardKillOnDestroy": true
-                },
-                {
-                    "type": "EntityAttachmentDefinitionComponent",
-                    "name": "vfx_shoulder_EntityAttachmentDefinition",
-                    "targetbone": "L_front_leg_03_bind_jnt"
-                }
-            ]
-        },
-        {
-            "type": "Entity",
-            "name": "vfx_shoulder_R",
-            "id": 2526295779,
-            "components": [
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "vfx_shoulder_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/character/enemy/firegolem/vfx_fire_golem_RShoulder_fire.particles",
-                    "hardKillOnDestroy": true
-                },
-                {
-                    "type": "EntityAttachmentDefinitionComponent",
-                    "name": "vfx_shoulder_EntityAttachmentDefinition",
-                    "targetbone": "L_front_leg_04_bind_jnt"
-                }
-            ]
-        },
-        {
-            "type": "Entity",
-            "name": "vfx_head",
-            "id": 2849129051,
-            "components": [
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "vfx_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/character/enemy/firegolem/vfx_fire_golem_head_fire.particles",
-                    "hardKillOnDestroy": true
-                },
-                {
-                    "type": "EntityAttachmentDefinitionComponent",
-                    "name": "vfx_EntityAttachmentDefinition",
-                    "targetbone": "R_back_leg_02_bind_jnt"
-                }
-            ]
-        },
-        {
-            "type": "Entity",
-            "name": "vfx_head",
-            "id": 2849129051,
-            "components": [
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "vfx_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/character/enemy/firegolem/vfx_fire_golem_head_fire.particles",
-                    "hardKillOnDestroy": true
-                },
-                {
-                    "type": "EntityAttachmentDefinitionComponent",
-                    "name": "vfx_EntityAttachmentDefinition",
-                    "targetbone": "R_back_leg_03_bind_jnt"
-                }
-            ]
-        },
-        {
-            "type": "Entity",
-            "name": "vfx_head",
-            "id": 2849129051,
-            "components": [
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "vfx_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/character/enemy/firegolem/vfx_fire_golem_head_fire.particles",
-                    "hardKillOnDestroy": true
-                },
-                {
-                    "type": "EntityAttachmentDefinitionComponent",
-                    "name": "vfx_EntityAttachmentDefinition",
-                    "targetbone": "R_back_leg_04_bind_jnt"
-                }
-            ]
-        },
-        {
-            "type": "Entity",
-            "name": "vfx_shoulder_R",
-            "id": 2526295779,
-            "components": [
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "vfx_shoulder_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/character/enemy/firegolem/vfx_fire_golem_RShoulder_fire.particles",
-                    "hardKillOnDestroy": true
-                },
-                {
-                    "type": "EntityAttachmentDefinitionComponent",
-                    "name": "vfx_shoulder_EntityAttachmentDefinition",
-                    "targetbone": "L_back_leg_02_bind_jnt"
-                }
-            ]
-        },
-        {
-            "type": "Entity",
-            "name": "vfx_shoulder_R",
-            "id": 2526295779,
-            "components": [
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "vfx_shoulder_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/character/enemy/firegolem/vfx_fire_golem_RShoulder_fire.particles",
-                    "hardKillOnDestroy": true
-                },
-                {
-                    "type": "EntityAttachmentDefinitionComponent",
-                    "name": "vfx_shoulder_EntityAttachmentDefinition",
-                    "targetbone": "L_back_leg_03_bind_jnt"
-                }
-            ]
-        },
-        {
-            "type": "Entity",
-            "name": "vfx_shoulder_R",
-            "id": 2526295779,
-            "components": [
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "vfx_shoulder_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/character/enemy/firegolem/vfx_fire_golem_RShoulder_fire.particles",
-                    "hardKillOnDestroy": true
-                },
-                {
-                    "type": "EntityAttachmentDefinitionComponent",
-                    "name": "vfx_shoulder_EntityAttachmentDefinition",
-                    "targetbone": "L_back_leg_04_bind_jnt"
-                }
-            ]
-        },
-        {
-            "type": "Entity",
-            "name": "vfx_shoulder_R",
-            "id": 2526295779,
-            "components": [
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "vfx_shoulder_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/character/enemy/firegolem/vfx_fire_golem_RShoulder_fire.particles",
-                    "hardKillOnDestroy": true
-                },
-                {
-                    "type": "EntityAttachmentDefinitionComponent",
-                    "name": "vfx_shoulder_EntityAttachmentDefinition",
-                    "targetbone": "tail_04_bind_jnt"
-                }
-            ]
-        },
-        {
-            "type": "Entity",
-            "name": "vfx_shoulder_R",
-            "id": 2526295779,
-            "components": [
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "vfx_shoulder_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/character/enemy/firegolem/vfx_fire_golem_RShoulder_fire.particles",
-                    "hardKillOnDestroy": true
-                },
-                {
-                    "type": "EntityAttachmentDefinitionComponent",
-                    "name": "vfx_shoulder_EntityAttachmentDefinition",
-                    "targetbone": "pelvis_bind_jnt"
-                }
-            ]
-        },
-        {
-            "type": "Entity",
-            "name": "vfx_shoulder_R",
-            "id": 2526295779,
-            "components": [
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "vfx_shoulder_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/character/enemy/firegolem/vfx_fire_golem_RShoulder_fire.particles",
-                    "hardKillOnDestroy": true
-                },
-                {
-                    "type": "EntityAttachmentDefinitionComponent",
-                    "name": "vfx_shoulder_EntityAttachmentDefinition",
-                    "targetbone": "spine_02_bind_jnt"
-                }
-            ]
-        },
-        {
-            "type": "Entity",
-            "name": "vfx_shoulder_R",
-            "id": 2526295779,
-            "components": [
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "vfx_shoulder_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/character/enemy/firegolem/vfx_fire_golem_RShoulder_fire.particles",
-                    "hardKillOnDestroy": true
-                },
-                {
-                    "type": "EntityAttachmentDefinitionComponent",
-                    "name": "vfx_shoulder_EntityAttachmentDefinition",
-                    "targetbone": "spine_02_bind_jnt"
-                },
-                {
-                    "type": "TransformDefinitionComponent",
-                    "name": "component_transform1",
-                    "position": {
-                        "x": 0.0,
-                        "y": -0.5,
-                        "z": 0.75
-                    },
-                    "orientation": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0,
-                        "w": 1.0
-                    },
-                    "scale": {
-                        "x": 1.15,
-                        "y": 1.15,
-                        "z": 1.15
-                    },
-                    "inheritOnlyPosition": true,
-                    "hardKillOnDestroy": true
-                }
-            ]
-        },
-        {
-            "type": "Entity",
-            "name": "vfx_shoulder_R",
-            "id": 2526295779,
-            "components": [
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "vfx_shoulder_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/character/enemy/firegolem/vfx_fire_golem_RShoulder_fire.particles",
-                    "hardKillOnDestroy": true
-                },
-                {
-                    "type": "EntityAttachmentDefinitionComponent",
-                    "name": "vfx_shoulder_EntityAttachmentDefinition",
-                    "targetbone": "spine_02_bind_jnt"
-                },
-                {
-                    "type": "TransformDefinitionComponent",
-                    "name": "component_transform1",
-                    "position": {
-                        "x": 0.0,
-                        "y": -0.5,
-                        "z": -0.75
-                    },
-                    "orientation": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0,
-                        "w": 1.0
-                    },
-                    "scale": {
-                        "x": 1.15,
-                        "y": 1.15,
-                        "z": 1.15
-                    },
-                    "inheritOnlyPosition": true,
-                    "hardKillOnDestroy": true
-                }
-            ]
-        },
-        {
-            "type": "Entity",
-            "name": "vfx_shoulder_R",
-            "id": 2526295779,
-            "components": [
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "vfx_shoulder_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/character/enemy/firegolem/vfx_fire_golem_RShoulder_fire.particles",
-                    "hardKillOnDestroy": true
-                },
-                {
-                    "type": "EntityAttachmentDefinitionComponent",
-                    "name": "vfx_shoulder_EntityAttachmentDefinition",
-                    "targetbone": "spine_03_bind_jnt"
-                }
-            ]
-        },
-        {
-            "type": "Entity",
-            "name": "vfx_shoulder_R",
-            "id": 2526295779,
-            "components": [
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "vfx_shoulder_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/character/enemy/firegolem/vfx_fire_golem_RShoulder_fire.particles",
+                    "filename": "data/hd/vfx/particles/missiles/skull_poison/vfx_skull_poison.particles",
                     "hardKillOnDestroy": true
                 },
                 {
                     "type": "EntityAttachmentDefinitionComponent",
                     "name": "vfx_shoulder_EntityAttachmentDefinition",
                     "targetbone": "neck_01_bind_jnt"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": -0.05,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.4,
+                        "y": 0.5,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
                 }
             ]
         },
         {
             "type": "Entity",
-            "name": "new_entity",
-            "id": 1077885777,
-            "components": []
-        }
+            "name": "vfx_shoulder_R",
+            "id": 2526295779,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "vfx_shoulder_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/missiles/skull_poison/vfx_skull_poison.particles",
+                    "hardKillOnDestroy": true
+                },
+                {
+                    "type": "EntityAttachmentDefinitionComponent",
+                    "name": "vfx_shoulder_EntityAttachmentDefinition",
+                    "targetbone": "pelvis_bind_jnt"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "component_transform1",
+                    "position": {
+                        "x": 0.0,
+                        "y": -0.1,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.15,
+                        "y": 1.15,
+                        "z": 1.15
+                    },
+                    "inheritOnlyPosition": false,
+                }
+            ]
+        },
     ]
 }
