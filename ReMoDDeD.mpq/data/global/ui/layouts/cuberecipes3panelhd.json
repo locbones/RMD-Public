@@ -569,8 +569,8 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Blood Pacts can not currently be re-rolled (Fused Sets)",
-                                        "style": "$RecipeSettingsTextFlatBlue"
+                                        "text": "Forsaken Pact Set Item + 3x Rainbow Facets = Re-rolled Item",
+                                        "style": "$RecipeSettingsText"
                                     }
                                 }
                             ]
