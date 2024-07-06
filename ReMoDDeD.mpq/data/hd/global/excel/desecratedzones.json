@@ -90,6 +90,14 @@
                         {
                             /* Mausoleum */
                             "level_id": 19
+                        },
+                        {
+                            /* Map 1A */
+                            "level_id": 189
+                        },
+                        {
+                            /* Map 1A */
+                            "level_id": 190
                         }
                     ]
                 },
@@ -118,6 +126,14 @@
                         {
                             /* Catacombs Level 4 */
                             "level_id": 37
+                        },
+                        {
+                            /* Map 1B */
+                            "level_id": 192
+                        },
+                        {
+                            /* Map 1B */
+                            "level_id": 193
                         }
                     ]
                 },
@@ -138,6 +154,14 @@
                         {
                             /* Cave Level 2 */
                             "level_id": 13
+                        },
+                        {
+                            /* Map 1C */
+                            "level_id": 195
+                        },
+                        {
+                            /* Map 1C */
+                            "level_id": 196
                         }
                     ]
                 },
@@ -158,6 +182,14 @@
                         {
                             /* Underground Passage Level 2  */
                             "level_id": 14
+                        },
+                        {
+                            /* Map 2A */
+                            "level_id": 198
+                        },
+                        {
+                            /* Map 2A */
+                            "level_id": 199
                         }
                     ]
                 },
@@ -174,6 +206,14 @@
                         {
                             /* Den of Evil */
                             "level_id": 8
+                        },
+                        {
+                            /* Map 2B */
+                            "level_id": 201
+                        },
+                        {
+                            /* Map 2B */
+                            "level_id": 202
                         }
                     ]
                 },
@@ -198,6 +238,14 @@
                         {
                             /* Jail Level 3 */
                             "level_id": 31
+                        },
+                        {
+                            /* Map 2C */
+                            "level_id": 204
+                        },
+                        {
+                            /* Map 2C */
+                            "level_id": 205
                         }
                     ]
                 },
@@ -210,7 +258,11 @@
                             "level_id": 39,
                             /* Rogue Encampment */
                             "waypoint_level_id": 1
-                        }
+                        },
+                        {
+                            /* Map 3A */
+                            "level_id": 206
+                        },
                     ]
                 },
                 {
@@ -222,7 +274,11 @@
                             "level_id": 4,
                             /* Stony Field */
                             "waypoint_level_id": 4
-                        }
+                        },
+                        {
+                            /* Map 3B */
+                            "level_id": 207
+                        },
                     ]
                 },
                 {
@@ -242,7 +298,11 @@
                         {
                             /* Hole Level 2 */
                             "level_id": 15
-                        }
+                        },
+                        {
+                            /* Map 3C */
+                            "level_id": 208
+                        },
                     ]
                 },
                 {
@@ -274,7 +334,11 @@
                         {
                             /* Tower Cellar Level 5 */
                             "level_id": 25
-                        }
+                        },
+                        {
+                            /* Map 3D */
+                            "level_id": 209
+                        },
                     ]
                 },
                 {
@@ -290,7 +354,11 @@
                         {
                             /* Pit Level 2 */
                             "level_id": 16
-                        }
+                        },
+                        {
+                            /* Map 3E */
+                            "level_id": 210
+                        },
                     ]
                 },
                 {
@@ -302,7 +370,11 @@
                             "level_id": 38,
                             /* Stony Field */
                             "waypoint_level_id": 4
-                        }
+                        },
+                        {
+                            /* Map 3F */
+                            "level_id": 211
+                        },
                     ]
                 },
                 {
@@ -324,7 +396,15 @@
                         {
                             /* Sewers Level 3 */
                             "level_id": 49
-                        }
+                        },
+                        {
+                            /* Map 4A */
+                            "level_id": 213
+                        },
+                        {
+                            /* Map 4A */
+                            "level_id": 214
+                        },
                     ]
                 },
                 {
@@ -344,7 +424,15 @@
                         {
                             /* Stony Tomb Level 2 */
                             "level_id": 59
-                        }
+                        },
+                        {
+                            /* Map 4B */
+                            "level_id": 216
+                        },
+                        {
+                            /* Map 4B */
+                            "level_id": 217
+                        },
                     ]
                 },
                 {
@@ -368,7 +456,15 @@
                         {
                             /* Halls of the Dead Level 3 */
                             "level_id": 60
-                        }
+                        },
+                        {
+                            /* Map 4C */
+                            "level_id": 219
+                        },
+                        {
+                            /* Map 4C */
+                            "level_id": 220
+                        },
                     ]
                 },
                 {
@@ -380,7 +476,11 @@
                             "level_id": 43,
                             /* Far Oasis */
                             "waypoint_level_id": 43
-                        }
+                        },
+                        {
+                            /* Map 5A */
+                            "level_id": 221
+                        },
                     ]
                 },
                 {
@@ -404,7 +504,11 @@
                         {
                             /* Claw Viper Temple Level 2 */
                             "level_id": 61
-                        }
+                        },
+                        {
+                            /* Map 5B */
+                            "level_id": 222
+                        },
                     ]
                 },
                 {
@@ -416,7 +520,11 @@
                             "level_id": 65,
                             /* Lost City */
                             "waypoint_level_id": 44
-                        }
+                        },
+                        {
+                            /* Map 5C */
+                            "level_id": 223
+                        },
                     ]
                 },
                 {
@@ -456,7 +564,11 @@
                         {
                             /* Tal Rasha's Chamber */
                             "level_id": 73
-                        }
+                        },
+                        {
+                            /* Map 5D */
+                            "level_id": 224
+                        },
                     ]
                 },
                 {
@@ -468,7 +580,11 @@
                             "level_id": 74,
                             /* Arcane Sanctuary */
                             "waypoint_level_id": 74
-                        }
+                        },
+                        {
+                            /* Map 5E */
+                            "level_id": 225
+                        },
                     ]
                 },
                 {
@@ -484,7 +600,11 @@
                         {
                             /* Spider Cavern */
                             "level_id": 85
-                        }
+                        },
+                        {
+                            /* Map 5F */
+                            "level_id": 226
+                        },
                     ]
                 },
                 {
@@ -496,7 +616,15 @@
                             "level_id": 77,
                             /* Great Marsh */
                             "waypoint_level_id": 77
-                        }
+                        },
+                        {
+                            /* Map 6A */
+                            "level_id": 228
+                        },
+                        {
+                            /* Map 6A */
+                            "level_id": 229
+                        },
                     ]
                 },
                 {
@@ -520,7 +648,15 @@
                         {
                             /* Flayer Dungeon Level 3 */
                             "level_id": 91
-                        }
+                        },
+                        {
+                            /* Map 6B */
+                            "level_id": 231
+                        },
+                        {
+                            /* Map 6B */
+                            "level_id": 232
+                        },
                     ]
                 },
                 {
@@ -540,7 +676,15 @@
                         {
                             /* Disused Fane */
                             "level_id": 95
-                        }
+                        },
+                        {
+                            /* Map 6C */
+                            "level_id": 234
+                        },
+                        {
+                            /* Map 6C */
+                            "level_id": 235
+                        },
                     ]
                 },
                 {
@@ -552,7 +696,15 @@
                             "level_id": 83,
                             /* Travincal */
                             "waypoint_level_id": 83
-                        }
+                        },
+                        {
+                            /* Map 7A */
+                            "level_id": 237
+                        },
+                        {
+                            /* Map 7A */
+                            "level_id": 238
+                        },
                     ]
                 },
                 {
@@ -572,7 +724,15 @@
                         {
                             /* Durance of Hate Level 3 */
                             "level_id": 102
-                        }
+                        },
+                        {
+                            /* Map 7B */
+                            "level_id": 240
+                        },
+                        {
+                            /* Map 7B */
+                            "level_id": 241
+                        },
                     ]
                 },
                 {
@@ -588,7 +748,15 @@
                         {
                             /* Plains of Despair */
                             "level_id": 105
-                        }
+                        },
+                        {
+                            /* Map 7C */
+                            "level_id": 243
+                        },
+                        {
+                            /* Map 7C */
+                            "level_id": 244
+                        },
                     ]
                 },
                 {
@@ -604,6 +772,14 @@
                         {
                             /* River of Flame */
                             "level_id": 107
+                        },
+                        {
+                            /* Map 1A */
+                            "level_id": 189
+                        },
+                        {
+                            /* Map 1A */
+                            "level_id": 190
                         }
                     ]
                 },
@@ -616,6 +792,14 @@
                             "level_id": 108,
                             /* River of Flame */
                             "waypoint_level_id": 107
+                        },
+                        {
+                            /* Map 1B */
+                            "level_id": 192
+                        },
+                        {
+                            /* Map 1B */
+                            "level_id": 193
                         }
                     ]
                 },
@@ -636,6 +820,14 @@
                         {
                             /* Abbadon */
                             "level_id": 125
+                        },
+                        {
+                            /* Map 1C */
+                            "level_id": 195
+                        },
+                        {
+                            /* Map 1C */
+                            "level_id": 196
                         }
                     ]
                 },
@@ -652,6 +844,14 @@
                         {
                             /* Pit of Acheron */
                             "level_id": 126
+                        },
+                        {
+                            /* Map 2A */
+                            "level_id": 198
+                        },
+                        {
+                            /* Map 2A */
+                            "level_id": 199
                         }
                     ]
                 },
@@ -668,6 +868,14 @@
                         {
                             /* Frozen River */
                             "level_id": 114
+                        },
+                        {
+                            /* Map 2B */
+                            "level_id": 201
+                        },
+                        {
+                            /* Map 2B */
+                            "level_id": 202
                         }
                     ]
                 },
@@ -692,6 +900,14 @@
                         {
                             /* Halls of Vaught */
                             "level_id": 124
+                        },
+                        {
+                            /* Map 2C */
+                            "level_id": 204
+                        },
+                        {
+                            /* Map 2C */
+                            "level_id": 205
                         }
                     ]
                 },
@@ -708,7 +924,15 @@
                         {
                             /* Drifter Cavern */
                             "level_id": 116
-                        }
+                        },
+                        {
+                            /* Map 4A */
+                            "level_id": 213
+                        },
+                        {
+                            /* Map 4A */
+                            "level_id": 214
+                        },
                     ]
                 },
                 {
@@ -724,7 +948,15 @@
                         {
                             /* Icy Cellar */
                             "level_id": 119
-                        }
+                        },
+                        {
+                            /* Map 4B */
+                            "level_id": 216
+                        },
+                        {
+                            /* Map 4B */
+                            "level_id": 217
+                        },
                     ]
                 },
                 {
@@ -752,6 +984,14 @@
                         {
                             /* Worldstone Chamber */
                             "level_id": 132
+                        },
+                        {
+                            /* Map 4C */
+                            "level_id": 219
+                        },
+                        {
+                            /* Map 4C */
+                            "level_id": 220
                         }
                     ]
                 }

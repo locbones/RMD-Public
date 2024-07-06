@@ -1,4 +1,4 @@
-﻿*ReMoDDeD 0.9.9.6
+﻿*ReMoDDeD 0.9.9.8A
 Developed by Bonesy
 
 *Guide Guru
@@ -16,39 +16,43 @@ elr
 *Missing Moderator
 Blackheart
 
-*Patreon Supporters:
-._.l0ki._.
+*Patreon Hall of Fame:
 0perfection
-Dieselnow
-Le Dancing Mad
-_seriously
 aehron
 akreao
 akumakumattv
-blackheart
+antaroadume
+antidel
+awnetu
+beeranon
+blackheart0446
+boianst
+celestialrayss
 chev96_15819
 dadilydoo
 disemboweledsilverback
-dooderotica
+distractingcat
 draculaine.
-dvquys
 elr
-fargo_33754
-gh0stf4ce2262
-hanselvu
+evelenement
+fimcro
+gnparty
 hlthybrkfst
+iliketurtles7092
 infinityb12
+jackpuddy
 jawndablah
 kasmov
-kintesible
+kentonftw
+konigstiger28
 ktz.7
 latedozer
+Le Dancing Mad
 lengjan
-leostyle
-mrspock1701
-podblast
+manumanoliy0
+mr.maric
+mstanchev
 pramitizz
-raphiel.
 rathan81
 raymond1910
 reddeadbull
@@ -56,9 +60,9 @@ ricola3d
 sadisticmgt
 sdo0502
 skadii_
+stealthbot
 sukami
 superdoughboy4
-that1miningguy
 thebannedheretic
 thebutcher8904
 thrashergx
@@ -70,7 +74,7 @@ xankreigur
 xerenity6924
 xismylove
 zombobrain
-ocdfiller
+.
 
 *Special Thanks To:
 Blizzard
@@ -79,3 +83,5 @@ D2R Community
 The Haters
 DannyisGreat
 kain_abel666
+Firehawk
+.

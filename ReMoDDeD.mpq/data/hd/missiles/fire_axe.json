@@ -65,7 +65,7 @@
                     "name": "component_transform1",
                     "position": {
                         "x": 0.0,
-                        "y": 5.0,
+                        "y": 0.0,
                         "z": 0.0
                     },
                     "orientation": {
@@ -97,7 +97,12 @@
                     "type": "VfxDefinitionComponent",
                     "name": "component_vfx1",
                     "filename": "data/hd/vfx/particles/items/misc/torch/vfx_item_misc_torch_dropped.particles",
-                    "hardKillOnDestroy": true
+                    "hardKillOnDestroy": false
+                },
+                {
+                    "type": "EntityAttachmentDefinitionComponent",
+                    "name": "vfx_shoulder_EntityAttachmentDefinition",
+                    "targetbone": "root"
                 },
                 {
                     "type": "TransformDefinitionComponent",

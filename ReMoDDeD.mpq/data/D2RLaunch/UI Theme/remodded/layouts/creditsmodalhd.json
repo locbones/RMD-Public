@@ -18,7 +18,7 @@
                 "rect": { "x": 1080, "width": 250 },
                 "anchor": { "x": -0.5, "y": 0.0 },
                 "filename": "CreditsResurrected.txt",
-                "normalScrollPerSecond": 65,
+                "normalScrollPerSecond": 100,
                 "fastScrollPerSecond": 500,
                 "maxScrollPerSecond": 2000,
                 "accelerationPercentPerSecond": 0.3,

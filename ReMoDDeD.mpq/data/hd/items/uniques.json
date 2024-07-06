@@ -4030,9 +4030,9 @@
   },
   {
     "constricting_ring": {
-      "normal": "..//custom//storagebag",
-      "uber": "..//custom//storagebag",
-      "ultra": "..//custom//storagebag"
+      "normal": "ring/ring",
+      "uber": "ring/ring",
+      "ultra": "ring/ring"
     }
   },
   {
