@@ -30433,7 +30433,7 @@
         "id": 22096,
         "Key": "sdCycloneArmor",
         "deDE": "ÿcNDu kannst die Winde kontrollieren und dir Verteidigungsstärke verleihenÿc2\nÿc0Absorbiert Feuer-, Kälte- und Blitzschaden\nÿc0während du deine Bewegungsgeschwindigkeit erhöhst",
-        "enUS": "ÿcNThe winds are yours to control and grant you defensive prowessÿc2\nÿc0Absors fire, cold and lightning damage\nÿc0while increasing your movement speed",
+        "enUS": "ÿcNThe winds are yours to control and grant you defensive prowessÿc2\nÿc0Absorbs fire, cold and lightning damage\nÿc0while increasing your movement speed",
         "esES": "ÿcNLos vientos son tuyos para controlarlos y te otorgan destreza defensivaÿc2\nÿc0Absorbes el daño por fuego, frío y rayos\nÿc0mientras aumentas tu velocidad de movimiento",
         "esMX": "ÿcNLos vientos son tuyos para controlarlos y te otorgan destreza defensivaÿc2\nÿc0Absorbes el daño por fuego, frío y rayos\nÿc0mientras aumentas tu velocidad de movimiento",
         "frFR": "ÿcNLes vents sont à vous de contrôler et vous accordent des prouesses défensivesÿc2\nÿc0Absorbe les dégâts de feu, de froid et de foudre\nÿc0tout en augmentant votre vitesse de déplacement",
@@ -30501,7 +30501,7 @@
         "id": 22100,
         "Key": "sdHeartOfWolverine",
         "deDE": "beschwöre ein Geisterhaustier, das\nden Schaden und die Angriffswert\nvon dir und deiner Gruppe erhöht",
-        "enUS": "summon a spirit pet that adds\nto the damage and attack rating\nof you and your party",
+        "enUS": "ÿcNSummon a spirit pet with an innate aura\nÿc0Enhances nearby allies defensive prowess and attack ratingÿc2",
         "esES": "invoca una mascota espiritual que se suma\nal daño y al índice de ataque\ntuyo y de tu grupo",
         "esMX": "invoca una mascota espiritual que se suma\nal daño y al índice de ataque\ntuyo y de tu grupo",
         "frFR": "invoque un familier spirituel qui augmente\nles dégâts et le taux d'attaque\nde vous et de votre groupe",
@@ -50386,5 +50386,22 @@
         "ruRU": "Ядовитое убеждение",
         "zhCN": "投毒定罪",
         "zhTW": "投毒定罪"
+    },
+    {
+        "id": 61863,
+        "Key": "skDisarm",
+        "deDE": "Entwaffnen",
+        "enUS": "Disarm",
+        "esES": "Desarmar",
+        "esMX": "Desarmar",
+        "frFR": "Disarmare",
+        "itIT": "Désarmer",
+        "jaJP": "武装解除",
+        "koKR": "무장해제",
+        "plPL": "Rozbrajać",
+        "ptBR": "Desarmar",
+        "ruRU": "Разоружение",
+        "zhCN": "解除武装",
+        "zhTW": "解除武裝"
     }
 ]

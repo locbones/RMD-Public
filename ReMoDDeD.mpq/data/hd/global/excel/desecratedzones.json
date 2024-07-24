@@ -98,6 +98,22 @@
                         {
                             /* Map 1A */
                             "level_id": 190
+                        },
+                        {
+                            /* Map 1B */
+                            "level_id": 192
+                        },
+                        {
+                            /* Map 1B */
+                            "level_id": 193
+                        },
+                        {
+                            /* Map 1C */
+                            "level_id": 195
+                        },
+                        {
+                            /* Map 1C */
+                            "level_id": 196
                         }
                     ]
                 },
@@ -128,12 +144,28 @@
                             "level_id": 37
                         },
                         {
-                            /* Map 1B */
-                            "level_id": 192
+                            /* Map 2A */
+                            "level_id": 198
                         },
                         {
-                            /* Map 1B */
-                            "level_id": 193
+                            /* Map 2A */
+                            "level_id": 199
+                        },
+                        {
+                            /* Map 2B */
+                            "level_id": 201
+                        },
+                        {
+                            /* Map 2B */
+                            "level_id": 202
+                        },
+                        {
+                            /* Map 2C */
+                            "level_id": 204
+                        },
+                        {
+                            /* Map 2C */
+                            "level_id": 205
                         }
                     ]
                 },
@@ -156,12 +188,28 @@
                             "level_id": 13
                         },
                         {
-                            /* Map 1C */
-                            "level_id": 195
+                            /* Map 3A */
+                            "level_id": 206
                         },
                         {
-                            /* Map 1C */
-                            "level_id": 196
+                            /* Map 3B */
+                            "level_id": 207
+                        },
+                        {
+                            /* Map 3C */
+                            "level_id": 208
+                        },
+                        {
+                            /* Map 3D */
+                            "level_id": 209
+                        },
+                        {
+                            /* Map 3E */
+                            "level_id": 210
+                        },
+                        {
+                            /* Map 3F */
+                            "level_id": 211
                         }
                     ]
                 },
@@ -184,12 +232,28 @@
                             "level_id": 14
                         },
                         {
-                            /* Map 2A */
-                            "level_id": 198
+                            /* Map 4A */
+                            "level_id": 213
                         },
                         {
-                            /* Map 2A */
-                            "level_id": 199
+                            /* Map 4A */
+                            "level_id": 214
+                        },
+                        {
+                            /* Map 4B */
+                            "level_id": 216
+                        },
+                        {
+                            /* Map 4B */
+                            "level_id": 217
+                        },
+                        {
+                            /* Map 4C */
+                            "level_id": 219
+                        },
+                        {
+                            /* Map 4C */
+                            "level_id": 220
                         }
                     ]
                 },
@@ -208,12 +272,28 @@
                             "level_id": 8
                         },
                         {
-                            /* Map 2B */
-                            "level_id": 201
+                            /* Map 5A */
+                            "level_id": 221
                         },
                         {
-                            /* Map 2B */
-                            "level_id": 202
+                            /* Map 5B */
+                            "level_id": 222
+                        },
+                        {
+                            /* Map 5C */
+                            "level_id": 223
+                        },
+                        {
+                            /* Map 5D */
+                            "level_id": 224
+                        },
+                        {
+                            /* Map 5E */
+                            "level_id": 225
+                        },
+                        {
+                            /* Map 5F */
+                            "level_id": 226
                         }
                     ]
                 },
@@ -240,12 +320,28 @@
                             "level_id": 31
                         },
                         {
-                            /* Map 2C */
-                            "level_id": 204
+                            /* Map 6A */
+                            "level_id": 228
                         },
                         {
-                            /* Map 2C */
-                            "level_id": 205
+                            /* Map 6A */
+                            "level_id": 229
+                        },
+                        {
+                            /* Map 6B */
+                            "level_id": 231
+                        },
+                        {
+                            /* Map 6B */
+                            "level_id": 232
+                        },
+                        {
+                            /* Map 6C */
+                            "level_id": 234
+                        },
+                        {
+                            /* Map 6C */
+                            "level_id": 235
                         }
                     ]
                 },
@@ -260,9 +356,29 @@
                             "waypoint_level_id": 1
                         },
                         {
-                            /* Map 3A */
-                            "level_id": 206
+                            /* Map 7A */
+                            "level_id": 237
                         },
+                        {
+                            /* Map 7A */
+                            "level_id": 238
+                        },
+                        {
+                            /* Map 7B */
+                            "level_id": 240
+                        },
+                        {
+                            /* Map 7B */
+                            "level_id": 241
+                        },
+                        {
+                            /* Map 7C */
+                            "level_id": 243
+                        },
+                        {
+                            /* Map 7C */
+                            "level_id": 244
+                        }
                     ]
                 },
                 {
@@ -276,9 +392,29 @@
                             "waypoint_level_id": 4
                         },
                         {
-                            /* Map 3B */
-                            "level_id": 207
+                            /* Map 1A */
+                            "level_id": 189
                         },
+                        {
+                            /* Map 1A */
+                            "level_id": 190
+                        },
+                        {
+                            /* Map 1B */
+                            "level_id": 192
+                        },
+                        {
+                            /* Map 1B */
+                            "level_id": 193
+                        },
+                        {
+                            /* Map 1C */
+                            "level_id": 195
+                        },
+                        {
+                            /* Map 1C */
+                            "level_id": 196
+                        }
                     ]
                 },
                 {
@@ -300,9 +436,29 @@
                             "level_id": 15
                         },
                         {
-                            /* Map 3C */
-                            "level_id": 208
+                            /* Map 2A */
+                            "level_id": 198
                         },
+                        {
+                            /* Map 2A */
+                            "level_id": 199
+                        },
+                        {
+                            /* Map 2B */
+                            "level_id": 201
+                        },
+                        {
+                            /* Map 2B */
+                            "level_id": 202
+                        },
+                        {
+                            /* Map 2C */
+                            "level_id": 204
+                        },
+                        {
+                            /* Map 2C */
+                            "level_id": 205
+                        }
                     ]
                 },
                 {
@@ -336,9 +492,29 @@
                             "level_id": 25
                         },
                         {
+                            /* Map 3A */
+                            "level_id": 206
+                        },
+                        {
+                            /* Map 3B */
+                            "level_id": 207
+                        },
+                        {
+                            /* Map 3C */
+                            "level_id": 208
+                        },
+                        {
                             /* Map 3D */
                             "level_id": 209
                         },
+                        {
+                            /* Map 3E */
+                            "level_id": 210
+                        },
+                        {
+                            /* Map 3F */
+                            "level_id": 211
+                        }
                     ]
                 },
                 {
@@ -356,9 +532,29 @@
                             "level_id": 16
                         },
                         {
-                            /* Map 3E */
-                            "level_id": 210
+                            /* Map 4A */
+                            "level_id": 213
                         },
+                        {
+                            /* Map 4A */
+                            "level_id": 214
+                        },
+                        {
+                            /* Map 4B */
+                            "level_id": 216
+                        },
+                        {
+                            /* Map 4B */
+                            "level_id": 217
+                        },
+                        {
+                            /* Map 4C */
+                            "level_id": 219
+                        },
+                        {
+                            /* Map 4C */
+                            "level_id": 220
+                        }
                     ]
                 },
                 {
@@ -372,9 +568,30 @@
                             "waypoint_level_id": 4
                         },
                         {
-                            /* Map 3F */
-                            "level_id": 211
+                            /* Map 5A */
+                            "level_id": 221
                         },
+                        {
+                            /* Map 5B */
+                            "level_id": 222
+                        },
+                        {
+                            /* Map 5C */
+                            "level_id": 223
+                        },
+                        {
+                            /* Map 5D */
+                            "level_id": 224
+                        },
+                        {
+                            /* Map 5E */
+                            "level_id": 225
+                        },
+                        {
+                            /* Map 5F */
+                            "level_id": 226
+                        }
+                        
                     ]
                 },
                 {
@@ -398,13 +615,29 @@
                             "level_id": 49
                         },
                         {
-                            /* Map 4A */
-                            "level_id": 213
+                            /* Map 6A */
+                            "level_id": 228
                         },
                         {
-                            /* Map 4A */
-                            "level_id": 214
+                            /* Map 6A */
+                            "level_id": 229
                         },
+                        {
+                            /* Map 6B */
+                            "level_id": 231
+                        },
+                        {
+                            /* Map 6B */
+                            "level_id": 232
+                        },
+                        {
+                            /* Map 6C */
+                            "level_id": 234
+                        },
+                        {
+                            /* Map 6C */
+                            "level_id": 235
+                        }
                     ]
                 },
                 {
@@ -426,13 +659,29 @@
                             "level_id": 59
                         },
                         {
-                            /* Map 4B */
-                            "level_id": 216
+                            /* Map 7A */
+                            "level_id": 237
                         },
                         {
-                            /* Map 4B */
-                            "level_id": 217
+                            /* Map 7A */
+                            "level_id": 238
                         },
+                        {
+                            /* Map 7B */
+                            "level_id": 240
+                        },
+                        {
+                            /* Map 7B */
+                            "level_id": 241
+                        },
+                        {
+                            /* Map 7C */
+                            "level_id": 243
+                        },
+                        {
+                            /* Map 7C */
+                            "level_id": 244
+                        }
                     ]
                 },
                 {
@@ -458,13 +707,29 @@
                             "level_id": 60
                         },
                         {
-                            /* Map 4C */
-                            "level_id": 219
+                            /* Map 1A */
+                            "level_id": 189
                         },
                         {
-                            /* Map 4C */
-                            "level_id": 220
+                            /* Map 1A */
+                            "level_id": 190
                         },
+                        {
+                            /* Map 1B */
+                            "level_id": 192
+                        },
+                        {
+                            /* Map 1B */
+                            "level_id": 193
+                        },
+                        {
+                            /* Map 1C */
+                            "level_id": 195
+                        },
+                        {
+                            /* Map 1C */
+                            "level_id": 196
+                        }
                     ]
                 },
                 {
@@ -478,9 +743,29 @@
                             "waypoint_level_id": 43
                         },
                         {
-                            /* Map 5A */
-                            "level_id": 221
+                            /* Map 2A */
+                            "level_id": 198
                         },
+                        {
+                            /* Map 2A */
+                            "level_id": 199
+                        },
+                        {
+                            /* Map 2B */
+                            "level_id": 201
+                        },
+                        {
+                            /* Map 2B */
+                            "level_id": 202
+                        },
+                        {
+                            /* Map 2C */
+                            "level_id": 204
+                        },
+                        {
+                            /* Map 2C */
+                            "level_id": 205
+                        }
                     ]
                 },
                 {
@@ -506,9 +791,29 @@
                             "level_id": 61
                         },
                         {
-                            /* Map 5B */
-                            "level_id": 222
+                            /* Map 3A */
+                            "level_id": 206
                         },
+                        {
+                            /* Map 3B */
+                            "level_id": 207
+                        },
+                        {
+                            /* Map 3C */
+                            "level_id": 208
+                        },
+                        {
+                            /* Map 3D */
+                            "level_id": 209
+                        },
+                        {
+                            /* Map 3E */
+                            "level_id": 210
+                        },
+                        {
+                            /* Map 3F */
+                            "level_id": 211
+                        }
                     ]
                 },
                 {
@@ -522,9 +827,29 @@
                             "waypoint_level_id": 44
                         },
                         {
-                            /* Map 5C */
-                            "level_id": 223
+                            /* Map 4A */
+                            "level_id": 213
                         },
+                        {
+                            /* Map 4A */
+                            "level_id": 214
+                        },
+                        {
+                            /* Map 4B */
+                            "level_id": 216
+                        },
+                        {
+                            /* Map 4B */
+                            "level_id": 217
+                        },
+                        {
+                            /* Map 4C */
+                            "level_id": 219
+                        },
+                        {
+                            /* Map 4C */
+                            "level_id": 220
+                        }
                     ]
                 },
                 {
@@ -566,9 +891,29 @@
                             "level_id": 73
                         },
                         {
+                            /* Map 5A */
+                            "level_id": 221
+                        },
+                        {
+                            /* Map 5B */
+                            "level_id": 222
+                        },
+                        {
+                            /* Map 5C */
+                            "level_id": 223
+                        },
+                        {
                             /* Map 5D */
                             "level_id": 224
                         },
+                        {
+                            /* Map 5E */
+                            "level_id": 225
+                        },
+                        {
+                            /* Map 5F */
+                            "level_id": 226
+                        }
                     ]
                 },
                 {
@@ -582,9 +927,29 @@
                             "waypoint_level_id": 74
                         },
                         {
-                            /* Map 5E */
-                            "level_id": 225
+                            /* Map 6A */
+                            "level_id": 228
                         },
+                        {
+                            /* Map 6A */
+                            "level_id": 229
+                        },
+                        {
+                            /* Map 6B */
+                            "level_id": 231
+                        },
+                        {
+                            /* Map 6B */
+                            "level_id": 232
+                        },
+                        {
+                            /* Map 6C */
+                            "level_id": 234
+                        },
+                        {
+                            /* Map 6C */
+                            "level_id": 235
+                        }
                     ]
                 },
                 {
@@ -602,9 +967,29 @@
                             "level_id": 85
                         },
                         {
-                            /* Map 5F */
-                            "level_id": 226
+                            /* Map 7A */
+                            "level_id": 237
                         },
+                        {
+                            /* Map 7A */
+                            "level_id": 238
+                        },
+                        {
+                            /* Map 7B */
+                            "level_id": 240
+                        },
+                        {
+                            /* Map 7B */
+                            "level_id": 241
+                        },
+                        {
+                            /* Map 7C */
+                            "level_id": 243
+                        },
+                        {
+                            /* Map 7C */
+                            "level_id": 244
+                        }
                     ]
                 },
                 {
@@ -618,13 +1003,29 @@
                             "waypoint_level_id": 77
                         },
                         {
-                            /* Map 6A */
-                            "level_id": 228
+                            /* Map 1A */
+                            "level_id": 189
                         },
                         {
-                            /* Map 6A */
-                            "level_id": 229
+                            /* Map 1A */
+                            "level_id": 190
                         },
+                        {
+                            /* Map 1B */
+                            "level_id": 192
+                        },
+                        {
+                            /* Map 1B */
+                            "level_id": 193
+                        },
+                        {
+                            /* Map 1C */
+                            "level_id": 195
+                        },
+                        {
+                            /* Map 1C */
+                            "level_id": 196
+                        }
                     ]
                 },
                 {
@@ -650,13 +1051,29 @@
                             "level_id": 91
                         },
                         {
-                            /* Map 6B */
-                            "level_id": 231
+                            /* Map 2A */
+                            "level_id": 198
                         },
                         {
-                            /* Map 6B */
-                            "level_id": 232
+                            /* Map 2A */
+                            "level_id": 199
                         },
+                        {
+                            /* Map 2B */
+                            "level_id": 201
+                        },
+                        {
+                            /* Map 2B */
+                            "level_id": 202
+                        },
+                        {
+                            /* Map 2C */
+                            "level_id": 204
+                        },
+                        {
+                            /* Map 2C */
+                            "level_id": 205
+                        }
                     ]
                 },
                 {
@@ -678,13 +1095,29 @@
                             "level_id": 95
                         },
                         {
-                            /* Map 6C */
-                            "level_id": 234
+                            /* Map 3A */
+                            "level_id": 206
                         },
                         {
-                            /* Map 6C */
-                            "level_id": 235
+                            /* Map 3B */
+                            "level_id": 207
                         },
+                        {
+                            /* Map 3C */
+                            "level_id": 208
+                        },
+                        {
+                            /* Map 3D */
+                            "level_id": 209
+                        },
+                        {
+                            /* Map 3E */
+                            "level_id": 210
+                        },
+                        {
+                            /* Map 3F */
+                            "level_id": 211
+                        }
                     ]
                 },
                 {
@@ -698,13 +1131,29 @@
                             "waypoint_level_id": 83
                         },
                         {
-                            /* Map 7A */
-                            "level_id": 237
+                            /* Map 4A */
+                            "level_id": 213
                         },
                         {
-                            /* Map 7A */
-                            "level_id": 238
+                            /* Map 4A */
+                            "level_id": 214
                         },
+                        {
+                            /* Map 4B */
+                            "level_id": 216
+                        },
+                        {
+                            /* Map 4B */
+                            "level_id": 217
+                        },
+                        {
+                            /* Map 4C */
+                            "level_id": 219
+                        },
+                        {
+                            /* Map 4C */
+                            "level_id": 220
+                        }
                     ]
                 },
                 {
@@ -726,13 +1175,29 @@
                             "level_id": 102
                         },
                         {
-                            /* Map 7B */
-                            "level_id": 240
+                            /* Map 5A */
+                            "level_id": 221
                         },
                         {
-                            /* Map 7B */
-                            "level_id": 241
+                            /* Map 5B */
+                            "level_id": 222
                         },
+                        {
+                            /* Map 5C */
+                            "level_id": 223
+                        },
+                        {
+                            /* Map 5D */
+                            "level_id": 224
+                        },
+                        {
+                            /* Map 5E */
+                            "level_id": 225
+                        },
+                        {
+                            /* Map 5F */
+                            "level_id": 226
+                        }
                     ]
                 },
                 {
@@ -750,13 +1215,29 @@
                             "level_id": 105
                         },
                         {
-                            /* Map 7C */
-                            "level_id": 243
+                            /* Map 6A */
+                            "level_id": 228
                         },
                         {
-                            /* Map 7C */
-                            "level_id": 244
+                            /* Map 6A */
+                            "level_id": 229
                         },
+                        {
+                            /* Map 6B */
+                            "level_id": 231
+                        },
+                        {
+                            /* Map 6B */
+                            "level_id": 232
+                        },
+                        {
+                            /* Map 6C */
+                            "level_id": 234
+                        },
+                        {
+                            /* Map 6C */
+                            "level_id": 235
+                        }
                     ]
                 },
                 {
@@ -774,12 +1255,28 @@
                             "level_id": 107
                         },
                         {
-                            /* Map 1A */
-                            "level_id": 189
+                            /* Map 7A */
+                            "level_id": 237
                         },
                         {
-                            /* Map 1A */
-                            "level_id": 190
+                            /* Map 7A */
+                            "level_id": 238
+                        },
+                        {
+                            /* Map 7B */
+                            "level_id": 240
+                        },
+                        {
+                            /* Map 7B */
+                            "level_id": 241
+                        },
+                        {
+                            /* Map 7C */
+                            "level_id": 243
+                        },
+                        {
+                            /* Map 7C */
+                            "level_id": 244
                         }
                     ]
                 },
@@ -794,12 +1291,28 @@
                             "waypoint_level_id": 107
                         },
                         {
+                            /* Map 1A */
+                            "level_id": 189
+                        },
+                        {
+                            /* Map 1A */
+                            "level_id": 190
+                        },
+                        {
                             /* Map 1B */
                             "level_id": 192
                         },
                         {
                             /* Map 1B */
                             "level_id": 193
+                        },
+                        {
+                            /* Map 1C */
+                            "level_id": 195
+                        },
+                        {
+                            /* Map 1C */
+                            "level_id": 196
                         }
                     ]
                 },
@@ -822,12 +1335,28 @@
                             "level_id": 125
                         },
                         {
-                            /* Map 1C */
-                            "level_id": 195
+                            /* Map 2A */
+                            "level_id": 198
                         },
                         {
-                            /* Map 1C */
-                            "level_id": 196
+                            /* Map 2A */
+                            "level_id": 199
+                        },
+                        {
+                            /* Map 2B */
+                            "level_id": 201
+                        },
+                        {
+                            /* Map 2B */
+                            "level_id": 202
+                        },
+                        {
+                            /* Map 2C */
+                            "level_id": 204
+                        },
+                        {
+                            /* Map 2C */
+                            "level_id": 205
                         }
                     ]
                 },
@@ -846,12 +1375,28 @@
                             "level_id": 126
                         },
                         {
-                            /* Map 2A */
-                            "level_id": 198
+                            /* Map 3A */
+                            "level_id": 206
                         },
                         {
-                            /* Map 2A */
-                            "level_id": 199
+                            /* Map 3B */
+                            "level_id": 207
+                        },
+                        {
+                            /* Map 3C */
+                            "level_id": 208
+                        },
+                        {
+                            /* Map 3D */
+                            "level_id": 209
+                        },
+                        {
+                            /* Map 3E */
+                            "level_id": 210
+                        },
+                        {
+                            /* Map 3F */
+                            "level_id": 211
                         }
                     ]
                 },
@@ -870,12 +1415,28 @@
                             "level_id": 114
                         },
                         {
-                            /* Map 2B */
-                            "level_id": 201
+                            /* Map 4A */
+                            "level_id": 213
                         },
                         {
-                            /* Map 2B */
-                            "level_id": 202
+                            /* Map 4A */
+                            "level_id": 214
+                        },
+                        {
+                            /* Map 4B */
+                            "level_id": 216
+                        },
+                        {
+                            /* Map 4B */
+                            "level_id": 217
+                        },
+                        {
+                            /* Map 4C */
+                            "level_id": 219
+                        },
+                        {
+                            /* Map 4C */
+                            "level_id": 220
                         }
                     ]
                 },
@@ -902,12 +1463,28 @@
                             "level_id": 124
                         },
                         {
-                            /* Map 2C */
-                            "level_id": 204
+                            /* Map 5A */
+                            "level_id": 221
                         },
                         {
-                            /* Map 2C */
-                            "level_id": 205
+                            /* Map 5B */
+                            "level_id": 222
+                        },
+                        {
+                            /* Map 5C */
+                            "level_id": 223
+                        },
+                        {
+                            /* Map 5D */
+                            "level_id": 224
+                        },
+                        {
+                            /* Map 5E */
+                            "level_id": 225
+                        },
+                        {
+                            /* Map 5F */
+                            "level_id": 226
                         }
                     ]
                 },
@@ -926,13 +1503,29 @@
                             "level_id": 116
                         },
                         {
-                            /* Map 4A */
-                            "level_id": 213
+                            /* Map 6A */
+                            "level_id": 228
                         },
                         {
-                            /* Map 4A */
-                            "level_id": 214
+                            /* Map 6A */
+                            "level_id": 229
                         },
+                        {
+                            /* Map 6B */
+                            "level_id": 231
+                        },
+                        {
+                            /* Map 6B */
+                            "level_id": 232
+                        },
+                        {
+                            /* Map 6C */
+                            "level_id": 234
+                        },
+                        {
+                            /* Map 6C */
+                            "level_id": 235
+                        }
                     ]
                 },
                 {
@@ -950,13 +1543,29 @@
                             "level_id": 119
                         },
                         {
-                            /* Map 4B */
-                            "level_id": 216
+                            /* Map 7A */
+                            "level_id": 237
                         },
                         {
-                            /* Map 4B */
-                            "level_id": 217
+                            /* Map 7A */
+                            "level_id": 238
                         },
+                        {
+                            /* Map 7B */
+                            "level_id": 240
+                        },
+                        {
+                            /* Map 7B */
+                            "level_id": 241
+                        },
+                        {
+                            /* Map 7C */
+                            "level_id": 243
+                        },
+                        {
+                            /* Map 7C */
+                            "level_id": 244
+                        }
                     ]
                 },
                 {
@@ -986,12 +1595,28 @@
                             "level_id": 132
                         },
                         {
-                            /* Map 4C */
-                            "level_id": 219
+                            /* Map 1A */
+                            "level_id": 189
                         },
                         {
-                            /* Map 4C */
-                            "level_id": 220
+                            /* Map 1A */
+                            "level_id": 190
+                        },
+                        {
+                            /* Map 1B */
+                            "level_id": 192
+                        },
+                        {
+                            /* Map 1B */
+                            "level_id": 193
+                        },
+                        {
+                            /* Map 1C */
+                            "level_id": 195
+                        },
+                        {
+                            /* Map 1C */
+                            "level_id": 196
                         }
                     ]
                 }

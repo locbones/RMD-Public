@@ -650,8 +650,8 @@
   { "0sc": { "asset": "scroll/identify_scroll" } },
   { "tr2": { "asset": "quest/bark_scroll" } },
   { "pk1": { "asset": "key/mephisto_key" } },
-  { "pk2": { "asset": "key/mephisto_key" } },
-  { "pk3": { "asset": "key/mephisto_key" } },
+  { "pk2": { "asset": "key/mephisto_key2" } },
+  { "pk3": { "asset": "key/mephisto_key3" } },
   { "dhn": { "asset": "body_part/fang" } },
   { "bey": { "asset": "body_part/eye" } },
   { "mbr": { "asset": "body_part/brain" } },
@@ -1496,5 +1496,8 @@
   { "m28": { "asset": "..//custom//Scribbles" } },
   { "m29": { "asset": "..//custom//Parchment" } },
   { "m30": { "asset": "..//custom//Quill" } },
-  { "m31": { "asset": "..//custom//Ink" } }
+  { "m31": { "asset": "..//custom//Ink" } },
+  { "m32": { "asset": "charm/charm_small" } },
+  { "m33": { "asset": "charm/charm_medium" } },
+  { "m34": { "asset": "charm/charm_large" } }
 ]

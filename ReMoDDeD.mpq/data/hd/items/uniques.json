@@ -4489,5 +4489,19 @@
       "uber": "..//custom/cola_cube",
       "ultra": "..//custom/cola_cube"
     }
+  },
+  {
+    "null_charm": {
+      "normal": "..//custom/null_charm",
+      "uber": "..//custom/null_charm",
+      "ultra": "..//custom/null_charm"
+    }
+  },
+  {
+    "prismatic_facet": {
+      "normal": "..//custom/prismaticfacet",
+      "uber": "..//custom/prismaticfacet",
+      "ultra": "..//custom/prismaticfacet"
+    }
   }
 ]

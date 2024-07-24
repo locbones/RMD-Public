@@ -612,6 +612,18 @@
                             ]
                         },
                         {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "3x Same Codex = 1x Codex (Next in Sequence)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
                             "type": "TableRowWidget", "name": "Gameplay Changes",
                             "children": [
                                 {

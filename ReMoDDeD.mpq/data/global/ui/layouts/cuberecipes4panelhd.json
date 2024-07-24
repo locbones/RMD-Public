@@ -353,6 +353,18 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
+                                        "text": "5x Rainbow Facets of each element (25 total) = Prismatic Facet",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
                                         "text": "Storage Bag + 10x Rainbow Facets = Storage Bag (+100 Gems)",
                                         "style": "$RecipeSettingsText"
                                     }

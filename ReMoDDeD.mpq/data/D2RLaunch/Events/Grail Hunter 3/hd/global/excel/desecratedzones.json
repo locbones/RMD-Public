@@ -1,0 +1,81 @@
+{
+    "desecrated_zones": [
+        {
+            /*
+            Event Name: Beta Bash 2024
+            Event Type: Grail Hunter
+            Event Location(s): Barracks, Jail
+            Event Description 1: Fabled treasures await the curious adventurer!
+            Event Description 2: The blessings of RNGesus be on your side today\nFor on this day, you train as a pack mule
+            Event Description 3: Rogue Scouting Report:
+            Event Description 4: - Bone Archers have greatly increased attack speed\n- Bone Archers have a 5% chance to drop a Rainbow Facet Jewel
+            Event Link: https://discord.com/channels/897073630868013057/1262704580303654955
+            */
+
+            "start_time_utc": "2024-07-28 06:00:00",
+            "end_time_utc": "2024-07-28 08:00:00",
+            "terror_duration_min": 120,
+            "terror_break_min": 0,
+            "seed": 16664395743969097666, /* UInt64. Can't be above 18446744073709551615 */
+            "non_ladder_enabled": true,
+            "enabled_normal": true,
+            "enabled_nightmare": true,
+            "enabled_hell": true,
+            "default_normal": {
+                "bound_incl_min": 3, /* Minimum level of a terrorized monster. MAX(bound_incl_min, original_monster_level) */
+                "bound_incl_max": 45, /* Maximum level of a terrorized monster. MAX(bound_incl_max, original_monster_level) */
+                "boost_level": 2, /* player_level + boost_level = terrorized_monster_level */
+                "difficulty_scale": 8, /* Fake the amount of players in the game. AKA /players X */
+                "boost_experience_percent": 0 /* Bonus experience percentage applied at to the monster's base experience in monstats.txt */
+            },
+            "default_nightmare": {
+                "bound_incl_min": 40,
+                "bound_incl_max": 71,
+                "boost_level": 2,
+                "difficulty_scale": 8,
+                "boost_experience_percent": 0
+            },
+            "default_hell": {
+                "bound_incl_min": 70,
+                "bound_incl_max": 91,
+                "boost_level": 2,
+                "difficulty_scale": 8,
+                "boost_experience_percent": 0
+            },
+            "warnings": [
+                {
+                    "announce_time_min": 10,
+                    "tier": 1
+                },
+                {
+                    "announce_time_min": 5,
+                    "tier": 2
+                },
+                {
+                    "announce_time_min": 1,
+                    "tier": 3
+                },
+                {
+                    /* DO NOT REMOVE! ALWAYS NEED A TIER 0 AT MINUTE 0. DO NOT REMOVE! */
+                    "announce_time_min": 0,
+                    "tier": 0
+                }
+            ],
+            "zones": [
+                {
+                    "id": 1,
+                    "levels": [
+                        {
+                            /* Canyon of the Magi */
+                            "level_id": 28
+                        },
+                        {
+                            /* Canyon of the Magi */
+                            "level_id": 31
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

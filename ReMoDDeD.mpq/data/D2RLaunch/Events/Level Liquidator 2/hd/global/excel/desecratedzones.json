@@ -1,0 +1,77 @@
+{
+    "desecrated_zones": [
+        {
+            /*
+            Event Name: Beta Bash 2024
+            Event Type: Level Liquidator
+            Event Location(s): Great Marsh
+            Event Description 1: Monster Mayhem at its Max!
+            Event Description 2: Diablo's Blessings have granted enemies immense strength!\nThe brave warrior may find both challenge and reward in these forsaken lands
+            Event Description 3: Rogue Scouting Report:
+            Event Description 4: - All monsters will spawn at exact levels specified
+            Event Link: https://discord.com/channels/897073630868013057/1262704580303654955
+            */
+
+            "start_time_utc": "2024-07-27 18:00:00",
+            "end_time_utc": "2024-07-27 20:00:00",
+            "terror_duration_min": 120,
+            "terror_break_min": 0,
+            "seed": 16664395743969097666, /* UInt64. Can't be above 18446744073709551615 */
+            "non_ladder_enabled": true,
+            "enabled_normal": true,
+            "enabled_nightmare": true,
+            "enabled_hell": true,
+            "default_normal": {
+                "bound_incl_min": 33, /* Minimum level of a terrorized monster. MAX(bound_incl_min, original_monster_level) */
+                "bound_incl_max": 33, /* Maximum level of a terrorized monster. MAX(bound_incl_max, original_monster_level) */
+                "boost_level": 0, /* player_level + boost_level = terrorized_monster_level */
+                "difficulty_scale": 1, /* Fake the amount of players in the game. AKA /players X */
+                "boost_experience_percent": 25 /* Bonus experience percentage applied at to the monster's base experience in monstats.txt */
+            },
+            "default_nightmare": {
+                "bound_incl_min": 66,
+                "bound_incl_max": 66,
+                "boost_level": 0,
+                "difficulty_scale": 8,
+                "boost_experience_percent": 25
+            },
+            "default_hell": {
+                "bound_incl_min": 99,
+                "bound_incl_max": 99,
+                "boost_level": 0,
+                "difficulty_scale": 16,
+                "boost_experience_percent": 25
+            },
+            "warnings": [
+                {
+                    "announce_time_min": 10,
+                    "tier": 1
+                },
+                {
+                    "announce_time_min": 5,
+                    "tier": 2
+                },
+                {
+                    "announce_time_min": 1,
+                    "tier": 3
+                },
+                {
+                    /* DO NOT REMOVE! ALWAYS NEED A TIER 0 AT MINUTE 0. DO NOT REMOVE! */
+                    "announce_time_min": 0,
+                    "tier": 0
+                }
+            ],
+            "zones": [
+                {
+                    "id": 1,
+                    "levels": [
+                        {
+                            /* Canyon of the Magi */
+                            "level_id": 77
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

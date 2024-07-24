@@ -37517,5 +37517,22 @@
       "ruRU": "Клуб Друидов (Филиал)",
       "zhCN": "德鲁伊俱乐部（分会）",
       "zhTW": "德魯伊俱樂部（分會）"
+    },
+    {
+      "id": 63295,
+      "Key": "gemveinDesc",
+      "deDE": "ÿc0Fügt Ihrer Aufbewahrungstasche 20 Edelsteine ​​hinzu",
+      "enUS": "ÿc0Adds 20 gems to your storage bag",
+      "esES": "ÿc0Agrega 20 gemas a tu bolsa de almacenamiento.",
+      "esMX": "ÿc0Agrega 20 gemas a tu bolsa de almacenamiento.",
+      "frFR": "ÿc0Aggiunge 20 gemme alla tua borsa",
+      "itIT": "ÿc0Ajoute 20 gemmes à votre sac de rangement",
+      "jaJP": "ÿc0ストレージバッグにジェム20個を追加します",
+      "koKR": "ÿc0보관 가방에 보석 20개를 추가합니다.",
+      "plPL": "ÿc0 Dodaje 20 klejnotów do twojej torby do przechowywania",
+      "ptBR": "ÿc0Adiciona 20 joias à sua bolsa de armazenamento",
+      "ruRU": "ÿc0Добавляет 20 драгоценных камней в вашу сумку для хранения.",
+      "zhCN": "ÿc0将 20 颗宝石添加到您的储物袋中",
+      "zhTW": "ÿc0將 20 顆寶石加入您的收納袋中"
     }
   ]

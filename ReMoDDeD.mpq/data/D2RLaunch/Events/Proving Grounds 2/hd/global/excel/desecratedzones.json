@@ -1,0 +1,81 @@
+{
+    "desecrated_zones": [
+        {
+            /*
+            Event Name: Beta Bash 2024
+            Event Type: Proving Grounds
+            Event Location(s): Bloody Foothills, Arcane Sanctuary
+            Event Description 1: Prove your worth for massive rewards!
+            Event Description 2: Edyrem's Blessings have granted you with enlightenment\nEnlightenment of purpose and skill; let thy knowledge be granted
+            Event Description 3: Rogue Scouting Report:
+            Event Description 4: - In addition to the XP gains, Item Drop Count is increased by 2
+            Event Link: https://discord.com/channels/897073630868013057/1262704580303654955
+            */
+
+            "start_time_utc": "2024-07-27 12:00:00",
+            "end_time_utc": "2024-07-27 14:00:00",
+            "terror_duration_min": 120,
+            "terror_break_min": 0,
+            "seed": 16664395743969097666, /* UInt64. Can't be above 18446744073709551615 */
+            "non_ladder_enabled": true,
+            "enabled_normal": true,
+            "enabled_nightmare": true,
+            "enabled_hell": true,
+            "default_normal": {
+                "bound_incl_min": 3, /* Minimum level of a terrorized monster. MAX(bound_incl_min, original_monster_level) */
+                "bound_incl_max": 45, /* Maximum level of a terrorized monster. MAX(bound_incl_max, original_monster_level) */
+                "boost_level": 0, /* player_level + boost_level = terrorized_monster_level */
+                "difficulty_scale": 1, /* Fake the amount of players in the game. AKA /players X */
+                "boost_experience_percent": 200 /* Bonus experience percentage applied at to the monster's base experience in monstats.txt */
+            },
+            "default_nightmare": {
+                "bound_incl_min": 40,
+                "bound_incl_max": 71,
+                "boost_level": 0,
+                "difficulty_scale": 1,
+                "boost_experience_percent": 150
+            },
+            "default_hell": {
+                "bound_incl_min": 70,
+                "bound_incl_max": 91,
+                "boost_level": 0,
+                "difficulty_scale": 1,
+                "boost_experience_percent": 100
+            },
+            "warnings": [
+                {
+                    "announce_time_min": 10,
+                    "tier": 1
+                },
+                {
+                    "announce_time_min": 5,
+                    "tier": 2
+                },
+                {
+                    "announce_time_min": 1,
+                    "tier": 3
+                },
+                {
+                    /* DO NOT REMOVE! ALWAYS NEED A TIER 0 AT MINUTE 0. DO NOT REMOVE! */
+                    "announce_time_min": 0,
+                    "tier": 0
+                }
+            ],
+            "zones": [
+                {
+                    "id": 1,
+                    "levels": [
+                        {
+                            /* Canyon of the Magi */
+                            "level_id": 74
+                        },
+                        {
+                            /* Canyon of the Magi */
+                            "level_id": 110
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

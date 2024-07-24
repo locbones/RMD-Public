@@ -1,0 +1,81 @@
+{
+    "desecrated_zones": [
+        {
+            /*
+            Event Name: Beta Bash 2024
+            Event Type: Infestation
+            Event Location(s): Crypt, Mausoleum
+            Event Description 1: Demons are Swarming Us!
+            Event Description 2: Baal's Blessings have strengthened the enemy horde\nThey are spawning in uncontrollable numbers; at this rate...\nPlease lend us your power brave traveler!
+            Event Description 3: Rogue Scouting Report:
+            Event Description 4: - Monster Density in the affected areas has been maxed\n- Default XP Gain removed (+XP% from items still apply)\n- Customized drop tables that have an affinity for Rare quality items
+            Event Link: https://discord.com/channels/897073630868013057/1262704580303654955
+            */
+
+            "start_time_utc": "2024-07-27 22:00:00",
+            "end_time_utc": "2024-07-28 00:00:00",
+            "terror_duration_min": 120,
+            "terror_break_min": 0,
+            "seed": 16664395743969097666, /* UInt64. Can't be above 18446744073709551615 */
+            "non_ladder_enabled": true,
+            "enabled_normal": true,
+            "enabled_nightmare": true,
+            "enabled_hell": true,
+            "default_normal": {
+                "bound_incl_min": 3, /* Minimum level of a terrorized monster. MAX(bound_incl_min, original_monster_level) */
+                "bound_incl_max": 45, /* Maximum level of a terrorized monster. MAX(bound_incl_max, original_monster_level) */
+                "boost_level": 0, /* player_level + boost_level = terrorized_monster_level */
+                "difficulty_scale": 8, /* Fake the amount of players in the game. AKA /players X */
+                "boost_experience_percent": -100 /* Bonus experience percentage applied at to the monster's base experience in monstats.txt */
+            },
+            "default_nightmare": {
+                "bound_incl_min": 40,
+                "bound_incl_max": 71,
+                "boost_level": 0,
+                "difficulty_scale": 8,
+                "boost_experience_percent": -100
+            },
+            "default_hell": {
+                "bound_incl_min": 70,
+                "bound_incl_max": 91,
+                "boost_level": 0,
+                "difficulty_scale": 8,
+                "boost_experience_percent": -100
+            },
+            "warnings": [
+                {
+                    "announce_time_min": 10,
+                    "tier": 1
+                },
+                {
+                    "announce_time_min": 5,
+                    "tier": 2
+                },
+                {
+                    "announce_time_min": 1,
+                    "tier": 3
+                },
+                {
+                    /* DO NOT REMOVE! ALWAYS NEED A TIER 0 AT MINUTE 0. DO NOT REMOVE! */
+                    "announce_time_min": 0,
+                    "tier": 0
+                }
+            ],
+            "zones": [
+                {
+                    "id": 1,
+                    "levels": [
+                        {
+                            /* Cows */
+                            "level_id": 18
+                        },
+                        {
+                            /* Cows */
+                            "level_id": 19
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

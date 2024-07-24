@@ -1,0 +1,77 @@
+{
+    "desecrated_zones": [
+        {
+            /*
+            Event Name: Beta Bash 2024
+            Event Type: Boss Beatdown
+            Event Location(s): Blood Moor
+            Event Description 1: Bosses are Invading Us!
+            Event Description 2: Please adventurer, lend us your strength to deal with this evil uprising.\nWithout your power; I fear our battle is doomed to fail.\nLet the Blessings of Edyrem be with you!
+            Event Description 3: Rogue Scouting Report:
+            Event Description 4: - All monsters will be replaced with Bosses\n- Screen Shake has been disabled
+            Event Link: https://discord.com/channels/897073630868013057/1262704580303654955
+            */
+
+            "start_time_utc": "2024-07-28 04:00:00",
+             "end_time_utc": "2024-07-28 06:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "terror_duration_min": 120,
+            "terror_break_min": 0,
+            "seed": 16664395743969097666, /* UInt64. Can't be above 18446744073709551615 */
+            "non_ladder_enabled": true,
+            "enabled_normal": true,
+            "enabled_nightmare": true,
+            "enabled_hell": true,
+            "default_normal": {
+                "bound_incl_min": 3, /* Minimum level of a terrorized monster. MAX(bound_incl_min, original_monster_level) */
+                "bound_incl_max": 45, /* Maximum level of a terrorized monster. MAX(bound_incl_max, original_monster_level) */
+                "boost_level": 0, /* player_level + boost_level = terrorized_monster_level */
+                "difficulty_scale": 8, /* Fake the amount of players in the game. AKA /players X */
+                "boost_experience_percent": 0 /* Bonus experience percentage applied at to the monster's base experience in monstats.txt */
+            },
+            "default_nightmare": {
+                "bound_incl_min": 40,
+                "bound_incl_max": 71,
+                "boost_level": 0,
+                "difficulty_scale": 8,
+                "boost_experience_percent": 0
+            },
+            "default_hell": {
+                "bound_incl_min": 70,
+                "bound_incl_max": 91,
+                "boost_level": 0,
+                "difficulty_scale": 8,
+                "boost_experience_percent": 0
+            },
+            "warnings": [
+                {
+                    "announce_time_min": 10,
+                    "tier": 1
+                },
+                {
+                    "announce_time_min": 5,
+                    "tier": 2
+                },
+                {
+                    "announce_time_min": 1,
+                    "tier": 3
+                },
+                {
+                    /* DO NOT REMOVE! ALWAYS NEED A TIER 0 AT MINUTE 0. DO NOT REMOVE! */
+                    "announce_time_min": 0,
+                    "tier": 0
+                }
+            ],
+            "zones": [
+                {
+                    "id": 1,
+                    "levels": [
+                        {
+                            /* Blood Moor */
+                            "level_id": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

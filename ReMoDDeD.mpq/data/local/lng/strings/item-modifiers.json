@@ -10726,5 +10726,39 @@
     "ruRU": "Уменьшите максимум маны на %d%%",
     "zhCN": "最大法力减少 %d%%",
     "zhTW": "最大法力減少 %d%%"
+  },
+  {
+    "id": 48288,
+    "Key": "ModReqLvl",
+    "deDE": "+%d bis zum erforderlichen Level",
+    "enUS": "+%d to Required Level",
+    "esES": "+%d al nivel requerido",
+    "esMX": "+%d al nivel requerido",
+    "frFR": "+%d al livello richiesto",
+    "itIT": "+%d au niveau requis",
+    "jaJP": "+%d が必要なレベルに達しました",
+    "koKR": "+필수 레벨 %d",
+    "plPL": "+%d do wymaganego poziomu",
+    "ptBR": "+%d para o nível necessário",
+    "ruRU": "+%d до требуемого уровня",
+    "zhCN": "+%d 达到所需级别",
+    "zhTW": "+%d 達到所需級別"
+  },
+  {
+    "id": 48289,
+    "Key": "ModReqLvlN",
+    "deDE": "-%d bis zum erforderlichen Level",
+    "enUS": "-%d to Required Level",
+    "esES": "-%d al nivel requerido",
+    "esMX": "-%d al nivel requerido",
+    "frFR": "-%d al livello richiesto",
+    "itIT": "-%d au niveau requis",
+    "jaJP": "-%d が必要なレベルに達しました",
+    "koKR": "-필수 레벨 %d",
+    "plPL": "-%d do wymaganego poziomu",
+    "ptBR": "-%d para o nível necessário",
+    "ruRU": "-%d до требуемого уровня",
+    "zhCN": "-%d 达到所需级别",
+    "zhTW": "-%d 達到所需級別"
   }
 ]

@@ -5323,7 +5323,7 @@
           "1ht_frontend_neutral"
         ],
         "stf": [
-          "stf_frontend_neutral"
+          "1hs_frontend_neutral"
         ],
         "2hs": [
           "2hs_frontend_neutral"
@@ -5869,7 +5869,7 @@
           "1ht_frontend_fidget_01"
         ],
         "stf": [
-          "stf_frontend_fidget_01"
+          "1hs_frontend_fidget_01"
         ],
         "2hs": [
           "2hs_frontend_fidget_01"
@@ -6704,7 +6704,7 @@
           "1ht_frontend_fidget_02"
         ],
         "stf": [
-          "stf_frontend_fidget_02"
+          "1hs_frontend_fidget_02"
         ],
         "2hs": [
           "2hs_frontend_fidget_02"
@@ -6761,7 +6761,7 @@
           "1ht_frontend_fidget_03"
         ],
         "stf": [
-          "stf_frontend_fidget_03"
+          "1hs_frontend_fidget_03"
         ],
         "2hs": [
           "2hs_frontend_fidget_03"
