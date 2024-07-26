@@ -309,8 +309,8 @@
                         {
                             "type": "TextBoxWidget", "name": "ModAuthors",
                             "fields": {
-                                "rect": { "x": 242, "y": 2030, "width": 400 },
-                                "text":"(Beta - 0.9.9.8B)",
+                                "rect": { "x": 232, "y": 2030, "width": 400 },
+                                "text":"(Beta - 0.9.9.8SE)",
                                 "style": {
                                     "fontColor": "$FontColorBonesyRed",
                                     "pointSize": "$XMediumPanelFontSize",
@@ -322,10 +322,10 @@
                         {
                             "type": "TextBoxWidget", "name": "ModAuthors",
                             "fields": {
-                                "rect": { "x": 295, "y": 2070, "width": 400 },
-                                "text":"BUILD 072424",
+                                "rect": { "x": 275, "y": 2070, "width": 400 },
+                                "text":"BETA BASH 2024",
                                 "style": {
-                                    "fontColor": "$FontColorGray",
+                                    "fontColor": "$FontColorLightBlue",
                                     "pointSize": "$SmallPanelFontSize",
                                     "spacing": "$ReducedSpacing",
                                     "dropShadow": "$DefaultDropShadow"

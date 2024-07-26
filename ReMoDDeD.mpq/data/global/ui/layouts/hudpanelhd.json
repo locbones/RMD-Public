@@ -474,9 +474,9 @@
             "type": "TextBoxWidget", "name": "BuildVersion",
             "fields": {
                 "rect": { "x": 3430, "y": 375, "width": 400 },
-                "text":"BUILD 072424",
+                "text":"BETA BASH 2024",
                 "style": {
-                    "fontColor": "$FontColorGray",
+                    "fontColor": "$FontColorLightBlue",
                     "pointSize": "$SmallPanelFontSize",
                     "spacing": "$ReducedSpacing",
                     "dropShadow": "$DefaultDropShadow"
