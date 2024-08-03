@@ -270,7 +270,7 @@
                                 "disabledTextColor": "$FontColorGray",
                                 "tabSize": { "x": 332, "y": 71 },
                                 "tabPadding": { "x": -1, "y": 0 },
-                                "onSwitchTabMessage": "CharacterSelect:SelectTabbb",
+                                "onSwitchTabMessage": "CharacterSelect:SelectTab",
                                 "automaticallyPositionIndicators": false
                             }
                         }, 
