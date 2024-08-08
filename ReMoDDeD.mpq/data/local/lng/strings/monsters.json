@@ -10334,5 +10334,22 @@
 	"ruRU": "Избранник Леорика",
 	"zhCN": "李奥瑞克的选择",
 	"zhTW": "李奧瑞克的選擇"
+  },
+  {
+      "id": 55079,
+      "Key": "Trainer",
+	"deDE": "Trainingstotem",
+	"enUS": "Training Totem",
+	"esES": "Tótem de entrenamiento",
+	"esMX": "Tótem de entrenamiento",
+	"frFR": "Totem di allenamento",
+	"itIT": "Totem d'entraînement",
+	"jaJP": "トレーニングトーテム",
+	"koKR": "훈련 토템",
+	"plPL": "Totem treningowy",
+	"ptBR": "Totem de Treinamento",
+	"ruRU": "Тренировочный тотем",
+	"zhCN": "训练图腾",
+	"zhTW": "訓練圖騰"
   }
 ]

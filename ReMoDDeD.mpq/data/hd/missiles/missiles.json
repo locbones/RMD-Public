@@ -275,7 +275,7 @@
     "trap_cursed_skull_left": "skull_left",
     "trap_poison_ball_right": "poison_right",
     "trap_poison_ball_left": "poison_left",
-    "hydra": "fireball",
+    "hydra": "firebolt",
     "bonespeartrail": "bone_spear_trail",
     "grimwardsmallstart": "grim_ward_small_start",
     "grimwardsmall": "grim_ward_small",
@@ -871,6 +871,7 @@
     "bashsplash_2":"null",
     "warcryr": "warcry_shockwave",
     "shieldtoss": "shieldtoss",
+    "shieldtoss_sum": "shieldtoss",
     "shieldhit" : "null",
     "holyboltx": "holy_bolt_missile",
     "holyxnova": "holy_bolt_missile",
@@ -984,5 +985,8 @@
     "deathsentrybolttrail": "ds_bolt2",
     "frenzynova":"null",
     "unholy_barrage":"unholy_barrage",
-    "siegebeaststomp":"beaststomp"
+    "siegebeaststomp":"beaststomp",
+    "tritower_1": "trifire",
+    "tritower_2": "glacial_spike",
+    "tritower_3": "lightning_strike"
 }

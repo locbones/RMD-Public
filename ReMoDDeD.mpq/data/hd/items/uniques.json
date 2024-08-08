@@ -2507,9 +2507,9 @@
   },
   {
     "bloodravens_charge": {
-      "normal": "bow/hellclap",
-      "uber": "bow/hellclap",
-      "ultra": "bow/hellclap"
+      "normal": "..//custom/rmd_bow_1",
+      "uber": "..//custom/rmd_bow_1",
+      "ultra": "..//custom/rmd_bow_1"
     }
   },
   {

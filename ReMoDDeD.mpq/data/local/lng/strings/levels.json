@@ -4286,7 +4286,7 @@
     {
         "id": 22664,
         "Key": "The Worldstone Keep Level 2",
-        "enUS": "Worldstone Keep Level 2",
+        "enUS": "Worldstone Keep",
         "zhTW": "世界之石要塞第二層",
         "deDE": "Weltsteinturm, Ebene 2",
         "esES": "Torre de la Piedra del Mundo nivel 2",
@@ -4643,7 +4643,7 @@
     {
         "id": 22685,
         "Key": "To The Worldstone Keep Level 1",
-        "enUS": "To The Worldstone Keep Level 1",
+        "enUS": "To The Worldstone Keep",
         "zhTW": "前往世界之石要塞第一層",
         "deDE": "Zum Weltsteinturm, Ebene 1",
         "esES": "Al nivel 1 de la Torre de la Piedra del Mundo",
@@ -4660,7 +4660,7 @@
     {
         "id": 22686,
         "Key": "To The Worldstone Keep Level 2",
-        "enUS": "To The Worldstone Keep Level 2",
+        "enUS": "To The Worldstone Keep",
         "zhTW": "前往世界之石要塞第二層",
         "deDE": "Zum Weltsteinturm, Ebene 2",
         "esES": "Al nivel 2 de la Torre de la Piedra del Mundo",
@@ -4677,7 +4677,7 @@
     {
         "id": 22687,
         "Key": "To The Worldstone Keep Level 3",
-        "enUS": "To The Worldstone Keep Level 3",
+        "enUS": "To The Worldstone Keep",
         "zhTW": "前往世界之石要塞第三層",
         "deDE": "Zum Weltsteinturm, Ebene 3",
         "esES": "Al nivel 3 de la Torre de la Piedra del Mundo",
@@ -6785,7 +6785,7 @@
     {
         "id": 22888,
         "Key": "EnteringTheWorldstoneKeepLevel2",
-        "enUS": "Entering The Worldstone Keep Level 2",
+        "enUS": "Entering The Worldstone Keep",
         "zhTW": "進入世界之石要塞第二層",
         "deDE": "Jetzt: Der Weltsteinturm, Ebene 2",
         "esES": "Entrando en el nivel 2 de la Torre de la Piedra del Mundo",
