@@ -431,7 +431,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "text": "Soul Summons (Coming Soon)",
+                                        "text": "Soul Summons",
                                         "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
