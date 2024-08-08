@@ -2507,9 +2507,9 @@
   },
   {
     "bloodravens_charge": {
-      "normal": "..//custom/rmd_bow_1",
-      "uber": "..//custom/rmd_bow_1",
-      "ultra": "..//custom/rmd_bow_1"
+      "normal": "..//custom/rmd_bow1",
+      "uber": "..//custom/rmd_bow1",
+      "ultra": "..//custom/rmd_bow1"
     }
   },
   {
