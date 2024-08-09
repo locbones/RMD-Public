@@ -147,7 +147,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " ??",
+                                        "text": " Glacial Plains",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -155,7 +155,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " ??",
+                                        "text": " Blessings of Artemis",
                                         "style": "$RWInfo"
                                     }
                                 }
