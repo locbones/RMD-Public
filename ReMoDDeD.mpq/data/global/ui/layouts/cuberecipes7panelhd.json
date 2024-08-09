@@ -739,7 +739,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " ???",
+                                        "text": " Tal Rasha's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -747,7 +747,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " ???",
+                                        "text": " Griswold's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -755,7 +755,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " ???",
+                                        "text": " Mirrored Flames",
                                         "style": "$RWInfo"
                                     }
                                 }
