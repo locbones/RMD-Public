@@ -4112,5 +4112,39 @@
         "ruRU": "Фенрис Фанг",
         "zhCN": "方芬里斯",
         "zhTW": "方芬里斯"
+    },
+    {
+        "id": 51806,
+        "Key": "r36",
+        "deDE": "Ist Rune",
+        "enUS": "Er Rune",
+        "esES": "es runa",
+        "esMX": "es runa",
+        "frFR": "È runa",
+        "itIT": "C'est une rune",
+        "jaJP": "ルーンです",
+        "koKR": "룬인가",
+        "plPL": "Czy Runa",
+        "ptBR": "É Runa",
+        "ruRU": "Руна",
+        "zhCN": "是符文",
+        "zhTW": "是符文"
+    },
+    {
+        "id": 51807,
+        "Key": "r36L",
+        "deDE": "Ist",
+        "enUS": "Er",
+        "esES": "Es",
+        "esMX": "Es",
+        "frFR": "È",
+        "itIT": "Est",
+        "jaJP": "は",
+        "koKR": "~이다",
+        "plPL": "Jest",
+        "ptBR": "É",
+        "ruRU": "Является",
+        "zhCN": "是",
+        "zhTW": "是"
     }
 ]

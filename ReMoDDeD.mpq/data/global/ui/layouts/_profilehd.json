@@ -312,6 +312,11 @@
         "pointSize": "$MediumPanelFontSize",
         "alignment": { "h": "left", "v": "fit" }
     },
+    "RWInfoForge": {
+        "fontColor": "$FontColorGoldYellow",
+        "pointSize": "$LargeFontSize",
+        "alignment": { "h": "left", "v": "fit" }
+    },
     "RWInfoS": {
         "fontColor": "$FontColorOrange",
         "pointSize": "$LargeFontSize",
@@ -571,8 +576,10 @@
 
     // Settings
     "OptionsPanelWidth": 1730,
+    "OptionsPanelWidthRMD": 2170,
     "OptionsPanelHeight": 1284,
     "OptionsPanelRect": { "x": -865, "y": 400, "width": "$OptionsPanelWidth", "height": "$OptionsPanelHeight" },
+    "OptionsPanelRectRMD": { "x": -945, "y": 400, "width": "$OptionsPanelWidthRMD", "height": "$OptionsPanelHeight" },
     "OptionsScrollBarRect": { "x": -31, "y": 29, "width": 26, "height": 1208 },
     "RecipeScrollBarRect": { "x": -30, "y": 29, "width": 26, "height": 1208 },
     "OptionsScrollBarBackgroundRect": { "x": -20, "y": 0 },
@@ -580,15 +587,15 @@
     "OptionsTableColumn1": { "width": 1000, "alignment": { "h": "fit", "v": "fit" } },
     "OptionsTableColumn2": { "width": 700, "alignment": { "h": "center", "v": "center" } },
     "OptionsTableColumn2p": { "width": 1000, "alignment": { "h": "fit", "v": "fit" } },
-    "CraftOptionsTableColumn1": { "width": 970, "alignment": { "h": "fit", "v": "fit" } },
+    "CraftOptionsTableColumn1": { "width": 1370, "alignment": { "h": "fit", "v": "fit" } },
     "CraftOptionsTableColumn2": { "width": 700, "alignment": { "h": "center", "v": "center" } },
-    "RWWOptionsTableColumn1": { "width": 425, "alignment": { "h": "left", "v": "center" } },
-    "RWWOptionsTableColumn2": { "width": 500, "alignment": { "h": "left", "v": "center" } },
+    "RWWOptionsTableColumn1": { "width": 525, "alignment": { "h": "left", "v": "center" } },
+    "RWWOptionsTableColumn2": { "width": 600, "alignment": { "h": "left", "v": "center" } },
     "RWWOptionsTableColumn3": { "width": 100, "alignment": { "h": "left", "v": "center" } },
     "RWWOptionsTableColumn1b": { "width": 525, "alignment": { "h": "left", "v": "center" } },
-    "RWWOptionsTableColumn2b": { "width": 350, "alignment": { "h": "left", "v": "center" } },
-    "RWWOptionsTableColumn3b": { "width": 350, "alignment": { "h": "left", "v": "center" } },
-    "RWWOptionsTableColumn4b": { "width": 350, "alignment": { "h": "left", "v": "center" } },
+    "RWWOptionsTableColumn2b": { "width": 500, "alignment": { "h": "left", "v": "center" } },
+    "RWWOptionsTableColumn3b": { "width": 550, "alignment": { "h": "left", "v": "center" } },
+    "RWWOptionsTableColumn4b": { "width": 500, "alignment": { "h": "left", "v": "center" } },
     "CubeOptionsTableColumn1": { "width": 1700, "alignment": { "h": "fit", "v": "fit" } },
     "OptionsTableRowHeight":100,
     "CubeOptionsTableRowHeight":80,
@@ -623,7 +630,7 @@
 
     "OptionsSliderFocusIndicatorPadding": { "left": 3, "right": 3 },
     "OptionsDividerRect": { "x": 0, "y": 90 },
-    "CubeOptionsDividerRect": { "x": 10, "y": 70 },
+    "CubeOptionsDividerRect": { "x": 0, "y": 70 },
     "RWOptionsDividerRect": { "x": 0, "y": 75 },
     "RMDOptionsDividerRect": { "x": 0, "y": 45 },
     "OptionsToggleRect": { "width": 70, "height": 70 },
@@ -746,7 +753,9 @@
     //Switch handheld resized panels
     "SettingsPanelAnchorRect": { "x": -975, "y": -953, "width": 1950, "height": 1763 },
     "SettingsPanelBackgroundRect": { "x": -896, "y": 270, "width": "$OptionsPanelWidth", "height": "$OptionsPanelHeight" },
+    "SettingsPanelBackgroundRectRMD": { "x": -896, "y": 270, "width": "$OptionsPanelWidthRMD", "height": "$OptionsPanelHeight" },
     "SettingsPanelTabsRect": { "x": -865, "y": 282, "width": "$OptionsPanelWidth", "height": 121 },
+    "SettingsPanelTabsRectRMD": { "x": -945, "y": 282, "width": "$OptionsPanelWidthRMD", "height": 121 },
 
     //Tutorial Tooltips
     "TutorialTooltipIntroRect" : { "x": 175, "y": 351, "width": 900, "height": 1150 },

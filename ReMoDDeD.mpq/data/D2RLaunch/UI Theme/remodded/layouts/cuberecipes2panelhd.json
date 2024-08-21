@@ -2,7 +2,7 @@
     "type": "VideoOptionsPanel", "name": "CubeRecipes2Panel",
     "fields": {
         "priority": 9003,
-        "rect": "$OptionsPanelRect",
+        "rect": "$OptionsPanelRectRMD",
         "anchor": { "x": 0.5 },
         "applySettingsImmediately": true
     },
@@ -58,7 +58,7 @@
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
                                                 "rect": "$CubeOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Info\\Divider"
                                             }
                                         }
                                     ]
@@ -103,7 +103,7 @@
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
                                                 "rect": "$CubeOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Info\\Divider"
                                             }
                                         }
                                     ]
@@ -160,7 +160,7 @@
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
                                                 "rect": "$CubeOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Info\\Divider"
                                             }
                                         }
                                     ]
@@ -229,7 +229,7 @@
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
                                                 "rect": "$CubeOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Info\\Divider"
                                             }
                                         }
                                     ]
@@ -310,7 +310,7 @@
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
                                                 "rect": "$CubeOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Info\\Divider"
                                             }
                                         }
                                     ]

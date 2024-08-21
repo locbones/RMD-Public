@@ -3,7 +3,7 @@
     "type": "VideoOptionsPanel", "name": "CubeRecipes7Panel",
     "fields": {
         "priority": 9003,
-        "rect": "$OptionsPanelRect",
+        "rect": "$OptionsPanelRectRMD",
         "anchor": { "x": 0.5 },
         "applySettingsImmediately": true
     },
@@ -589,7 +589,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " ???",
+                                        "text": " Isenhart's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -597,7 +597,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " ???",
+                                        "text": " Sazabi's",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -605,7 +605,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " ???",
+                                        "text": " Wonder Wear",
                                         "style": "$RWInfo"
                                     }
                                 }

@@ -3,7 +3,7 @@
     "type": "VideoOptionsPanel", "name": "CubeRecipes6Panel",
     "fields": {
         "priority": 9003,
-        "rect": "$OptionsPanelRect",
+        "rect": "$OptionsPanelRectRMD",
         "anchor": { "x": 0.5 },
         "applySettingsImmediately": true
     },
@@ -252,7 +252,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword78",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 110, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -449,7 +459,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword19",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 190, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -491,7 +511,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword73",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 210, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -533,7 +563,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword86",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 180, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -843,7 +883,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword12",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 320, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -969,7 +1019,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword35",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 110, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -1378,7 +1438,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword116",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 190, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -1520,7 +1590,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword1",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 340, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -1692,7 +1772,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword57",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 190, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -1776,7 +1866,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword120",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 140, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -2157,7 +2257,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword8",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 110, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -2451,7 +2561,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword41",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 210, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -2493,7 +2613,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword45",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 150, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -2661,7 +2791,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword87",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 110, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -2829,7 +2969,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword117",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 110, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -3110,7 +3260,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword11",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 400, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -3194,7 +3354,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword41",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 210, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -3278,7 +3448,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword95",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 160, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -3756,7 +3936,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword39",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 150, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -3924,7 +4114,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword91",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 110, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -3966,7 +4166,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword134",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 120, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -4079,7 +4289,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword31",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 110, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -4415,7 +4635,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword102",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 210, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -4499,7 +4729,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword170",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 150, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -4993,7 +5233,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword39",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 150, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -5234,7 +5484,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword91",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 110, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -5276,7 +5536,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword134",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 120, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -5318,7 +5588,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword99",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 320, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -5391,7 +5671,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword21",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 210, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -5433,7 +5723,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword36",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 190, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -5924,7 +6224,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword57",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 190, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -6037,7 +6347,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword25",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 250, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -6289,13 +6609,23 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword121",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 90, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": "@RWPole, @RWScepter",
+                                        "text": "@RWPole, @RWScepter, @RWSword",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -6571,7 +6901,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword65",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 250, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -6697,13 +7037,23 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword121",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 90, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": "@RWScepter, @RWPole",
+                                        "text": "@RWScepter, @RWSword, @RWPole",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -6720,7 +7070,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 13280 },
+                                "rect": { "x": -40, "y": 13200 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw121"
@@ -7246,7 +7596,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword65",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 250, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -7456,7 +7816,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword91",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 110, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -7496,9 +7866,71 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
+                                        "text": "@Runeword121",
+                                        "style": "$RWInfoFB"
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 90, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": "@RWSword, @RWScepter, @RWPole,",
+                                        "style": "$RWInfo"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": "@r15L     @r18L      @r20L     @r25L",
+                                        "style": "$RWInfo"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "AdvancedStats",
+                            "fields": {
+                                "rect": { "x": -40, "y": 14800 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "hoveredFrame": 1,
+                                "tooltipString": "@rw121"
+                            }
+                        },
+/*--------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------*/
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword134",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 120, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -7521,7 +7953,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 14800 },
+                                "rect": { "x": -40, "y": 14880 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw134"
@@ -7540,7 +7972,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword99",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 320, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -7563,7 +8005,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 14880 },
+                                "rect": { "x": -40, "y": 14960 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw99"
@@ -7611,7 +8053,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword21",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 210, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -7634,7 +8086,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 15040 },
+                                "rect": { "x": -40, "y": 15120 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw21"
@@ -7676,7 +8128,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 15120 },
+                                "rect": { "x": -40, "y": 15200 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw28"
@@ -7718,7 +8170,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 15200 },
+                                "rect": { "x": -40, "y": 15280 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw46"
@@ -7791,7 +8243,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 15360 },
+                                "rect": { "x": -40, "y": 15440 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw162"

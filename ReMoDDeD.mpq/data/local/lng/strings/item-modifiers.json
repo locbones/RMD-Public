@@ -10811,5 +10811,39 @@
     "ruRU": "%+d%% к максимальному сопротивлению огню",
     "zhCN": "%+d%% 到最大防火",
     "zhTW": "%+d%% 到最大防火"
+  },
+  {
+    "id": 48293,
+    "Key": "ModTierDisplay",
+    "deDE": "%+d%% zu maximalen Feuerwiderstand",
+    "enUS": "ÿc4Runic Forge Tier: ÿc7%dÿc3",
+    "esES": "%+d%% hasta la resistencia máxima al fuego",
+    "esMX": "%+d%% hasta la resistencia máxima al fuego",
+    "frFR": "%+d%% à la résistance au feu maximale",
+    "itIT": "%+d%% alla massima resistenza al fuoco",
+    "jaJP": "%+d%% までの最大火耐性",
+    "koKR": "ÿc3최대 ÿc1화염 저항 ÿc9%+d%%",
+    "plPL": "%+d%% do maksymalnej odporności na ogień",
+    "ptBR": "%+d%% para Resistência Máxima ao Fogo",
+    "ruRU": "%+d%% к максимальному сопротивлению огню",
+    "zhCN": "%+d%% 到最大防火",
+    "zhTW": "%+d%% 到最大防火"
+  },
+  {
+    "id": 48294,
+    "Key": "strModAllAbsorbs",
+    "deDE": "%d%% Magie, Feuer, Licht, Kälte absorbieren",
+    "enUS": "+%d%% Magic, Fire, Light, Cold Absorb",
+    "esES": "%d%% Magia, Fuego, Luz, Absorber Frío",
+    "esMX": "%d%% Magia, Fuego, Luz, Absorber Frío",
+    "frFR": "%d%% Assorbimento magia, fuoco, luce, freddo",
+    "itIT": "%d%% Magie, Feu, Lumière, Absorption du Froid",
+    "jaJP": "%d%% 魔法、火、光、冷気吸収",
+    "koKR": "%d%% 마법, 불, 빛, 냉기 흡수",
+    "plPL": "%d%% Magia, Ogień, Światło, Absorpcja Zimna",
+    "ptBR": "%d%% Magia, Fogo, Luz, Absorção de Frio",
+    "ruRU": "%d%% Магия, Огонь, Свет, Поглощение холода",
+    "zhCN": "%d%% 魔法、火、光、冷吸收",
+    "zhTW": "%d%% 魔法、火、光、冷吸收"
   }
 ]
