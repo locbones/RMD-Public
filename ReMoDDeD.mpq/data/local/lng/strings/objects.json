@@ -3250,7 +3250,7 @@
   {
     "id": 57001,
     "Key": "funeralpire",
-    "deDE": "",
+    "deDE": "Scheiterhaufen",
     "enUS": "Funeral Pyre",
     "esES": "",
     "esMX": "",
@@ -3267,7 +3267,7 @@
   {
     "id": 57002,
     "Key": "burninglogs",
-    "deDE": "",
+    "deDE": "Brennende Stämme",
     "enUS": "Burning Logs",
     "esES": "",
     "esMX": "",
@@ -3284,7 +3284,7 @@
   {
     "id": 57003,
     "Key": "stma",
-    "deDE": "",
+    "deDE": "Dampf",
     "enUS": "steam",
     "esES": "",
     "esMX": "",
@@ -3301,7 +3301,7 @@
   {
     "id": 57004,
     "Key": "BBQB",
-    "deDE": "",
+    "deDE": "Barbeque",
     "enUS": "Barbeque",
     "esES": "",
     "esMX": "",
@@ -3318,7 +3318,7 @@
   {
     "id": 57005,
     "Key": "btor",
-    "deDE": "",
+    "deDE": "Baals Fackel",
     "enUS": "Baal Torch",
     "esES": "",
     "esMX": "",
@@ -3335,7 +3335,7 @@
   {
     "id": 57008,
     "Key": "Zoo",
-    "deDE": "",
+    "deDE": "Zoo",
     "enUS": "Zoo",
     "esES": "",
     "esMX": "",
@@ -3352,7 +3352,7 @@
   {
     "id": 57009,
     "Key": "Keeper",
-    "deDE": "",
+    "deDE": "Halter",
     "enUS": "Keeper",
     "esES": "",
     "esMX": "",
@@ -3386,7 +3386,7 @@
   {
     "id": 57011,
     "Key": "DesertShrineArmor",
-    "deDE": "",
+    "deDE": "Verteidigungsschrein",
     "enUS": "Defense Shrine",
     "esES": "",
     "esMX": "",
@@ -3403,7 +3403,7 @@
   {
     "id": 57012,
     "Key": "DesertShrineCombat",
-    "deDE": "",
+    "deDE": "Kampfschrein",
     "enUS": "Combat Shrine",
     "esES": "",
     "esMX": "",
@@ -3420,7 +3420,7 @@
   {
     "id": 57013,
     "Key": "DesertShrineResist",
-    "deDE": "",
+    "deDE": "Widerstandsschrein",
     "enUS": "Resist Shrine",
     "esES": "",
     "esMX": "",
@@ -3437,8 +3437,8 @@
   {
     "id": 57014,
     "Key": "DesertShrineSkill",
-    "deDE": "",
-    "enUS": "",
+    "deDE": "Skillschrein",
+    "enUS": "Skill Shrine",
     "esES": "Skill Shrine",
     "esMX": "",
     "frFR": "",

@@ -2,7 +2,7 @@
     {
         "id": 3632,
         "Key": "gemeffect1",
-        "deDE": "Helm: erhöht die Stärke\nSchild: erhöht die Verteidigung des Schildes\nWaffe: erhöht die Angriffswertung\n",
+        "deDE": "Helm: erhöht Stärke\nSchild: erhöht Verteidigung des Schildes\nWaffe: erhöht Angriffswert\n",
         "enUS": "Helm: adds to strength\nShield: adds to shield's defense\nWeapon: adds to attack rating\n",
         "esES": "Yelmo: aumenta la fuerza\nEscudo: aumenta la defensa del escudo\nArma: aumenta el índice de ataque\n",
         "esMX": "Yelmo: aumenta la fuerza\nEscudo: aumenta la defensa del escudo\nArma: aumenta el índice de ataque\n",
@@ -19,7 +19,7 @@
     {
         "id": 3633,
         "Key": "gemeffect2",
-        "deDE": "Helm: erhöht das maximale Mana\nSchild: fügt Widerstand gegen Kälte hinzu\nWaffe: fügt Angriff Kälteschaden hinzu\n",
+        "deDE": "Helm: erhöht Max Mana\nSchild: fügt Kältewiderstand hinzu\nWaffe: fügt Kälteschaden hinzu\n",
         "enUS": "Helm: adds to maximum mana\nShield: adds resistance to cold\nWeapon: adds cold damage to attack\n",
         "esES": "Yelmo: agrega al maná máximo\nEscudo: agrega resistencia al frío\nArma: agrega daño al ataque por frío\n",
         "esMX": "Yelmo: agrega al maná máximo\nEscudo: agrega resistencia al frío\nArma: agrega daño al ataque por frío\n",
@@ -36,7 +36,7 @@
     {
         "id": 3634,
         "Key": "gemeffect3",
-        "deDE": "Helm: erhöht Geschicklichkeit\nSchild: fügt Widerstand gegen Gift hinzu\nWaffe: fügt Angriff Giftschaden hinzu\n",
+        "deDE": "Helm: erhöht Geschicklichkeit\nSchild: fügt Giftwiderstand hinzu\nWaffe: fügt Giftschaden hinzu\n",
         "enUS": "Helm: adds to dexterity\nShield: adds resistance to poison\nWeapon: adds poison damage to attack\n",
         "esES": "Yelmo: añade destreza\nEscudo: añade resistencia al veneno\nArma: añade daño de veneno al ataque\n",
         "esMX": "Yelmo: añade destreza\nEscudo: añade resistencia al veneno\nArma: añade daño de veneno al ataque\n",
@@ -53,7 +53,7 @@
     {
         "id": 3635,
         "Key": "gemeffect4",
-        "deDE": "Helm: erhöht das maximale Leben\nSchild: fügt Widerstand gegen Feuer hinzu\nWaffe: fügt Angriff Feuerschaden hinzu\n",
+        "deDE": "Helm: erhöht Max Leben\nSchild: fügt Feuerwiderstand hinzu\nWaffe: fügt Feuerschaden hinzu\n",
         "enUS": "Helm: adds to maximum life\nShield: adds resistance to fire\nWeapon: adds fire damage to attack\n",
         "esES": "Yelmo: añade vida máxima\nEscudo: añade resistencia al fuego\nArma: añade daño de fuego al ataque\n",
         "esMX": "Yelmo: añade vida máxima\nEscudo: añade resistencia al fuego\nArma: añade daño de fuego al ataque\n",
@@ -70,7 +70,7 @@
     {
         "id": 3636,
         "Key": "gemeffect5",
-        "deDE": "Helm: erhöht die Angriffswertung\nSchild: erhöht alle Widerstände\nWaffe: erhöht den Schaden gegen Untote\n",
+        "deDE": "Helm: erhöht Angriffswert\nSchild: erhöht alle Widerstände\nWaffe: erhöht Schaden gegen Untote\n",
         "enUS": "Helm: adds to attack rating\nShield: adds to all resistances\nWeapon: adds to damage vs. undead\n",
         "esES": "Yelmo: aumenta el índice de ataque\nEscudo: aumenta todas las resistencias\nArma: aumenta el daño contra muertos vivientes\n",
         "esMX": "Yelmo: aumenta el índice de ataque\nEscudo: aumenta todas las resistencias\nArma: aumenta el daño contra muertos vivientes\n",
@@ -87,7 +87,7 @@
     {
         "id": 3637,
         "Key": "gemeffect6",
-        "deDE": "Helm: Erhöht die Chance, magische Gegenstände zu finden\nSchild: Fügt Blitzresistenz hinzu\nWaffe: Fügt Angriffen Blitzschaden hinzu\n",
+        "deDE": "Helm: Erhöht Magiefund\nSchild: Fügt Blitzwiderstand hinzu\nWaffe: Fügt Blitzschaden hinzu\n",
         "enUS": "Helm: adds to chance to find magic items\nShield: adds resistance to lightning\nWeapon: adds lightning damage to attack\n",
         "esES": "Yelmo: aumenta la posibilidad de encontrar objetos mágicos\nEscudo: agrega resistencia a los rayos\nArma: agrega daño de rayos al ataque\n",
         "esMX": "Yelmo: aumenta la posibilidad de encontrar objetos mágicos\nEscudo: agrega resistencia a los rayos\nArma: agrega daño de rayos al ataque\n",
@@ -104,7 +104,7 @@
     {
         "id": 3638,
         "Key": "gemeffect7",
-        "deDE": "Helm: Fügt Mana- und Lebensregeneration hinzu\nSchild: Fügt dem Angreifer Schaden zu\nWaffe: Fügt dem Angriff Mana und Lebensraub hinzu\n",
+        "deDE": "Helm: Fügt Mana- und Lebensregeneration hinzu\nSchild: Fügt Angreifer Schaden zu\nWaffe: Fügt Mana und Lebensraub hinzu\n",
         "enUS": "Helm: adds mana and life regeneration\nShield: adds attacker takes damage\nWeapon: adds mana and life steal to attack\n",
         "esES": "Yelmo: agrega maná y regeneración de vida\nEscudo: agrega que el atacante recibe daño\nArma: agrega maná y robo de vida para atacar\n",
         "esMX": "Yelmo: agrega maná y regeneración de vida\nEscudo: agrega que el atacante recibe daño\nArma: agrega maná y robo de vida para atacar\n",
@@ -138,7 +138,7 @@
     {
         "id": 11073,
         "Key": "GemXp1",
-        "deDE": "Helme:",
+        "deDE": "ÿc2Helme/Gürtelÿc0:",
         "enUS": "ÿc2Helms/Beltsÿc0:",
         "esES": "Timones:",
         "esMX": "Timones:",
@@ -155,7 +155,7 @@
     {
         "id": 11074,
         "Key": "GemXp2",
-        "deDE": "Schilde:",
+        "deDE": "ÿc2Shields/Schmuckÿc0:",
         "enUS": "ÿc2Shields/Jewelryÿc0:",
         "esES": "Escudos:",
         "esMX": "Escudos:",
@@ -172,7 +172,7 @@
     {
         "id": 11075,
         "Key": "GemXp3",
-        "deDE": "Waffen:",
+        "deDE": "ÿc2Waffen/Handshuheÿc0:",
         "enUS": "ÿc2Weapons/Glovesÿc0:",
         "esES": "Armas:",
         "esMX": "Armas:",
@@ -189,7 +189,7 @@
     {
         "id": 11076,
         "Key": "GemXp4",
-        "deDE": "Rüstung:",
+        "deDE": "ÿc2Rüstung/Schuheÿc0:",
         "enUS": "ÿc2Armors/Bootsÿc0:",
         "esES": "Armadura:",
         "esMX": "Armadura:",
@@ -206,7 +206,7 @@
     {
         "id": 21265,
         "Key": "GemeffectX11",
-        "deDE": "Erhöht die Stärke",
+        "deDE": "Erhöht Stärke",
         "enUS": "Adds to Strength",
         "esES": "Añade fuerza",
         "esMX": "Añade fuerza",
@@ -223,7 +223,7 @@
     {
         "id": 21266,
         "Key": "GemeffectX12",
-        "deDE": "Fügt Verteidigung hinzu",
+        "deDE": "Erhöht Verteidigung",
         "enUS": "Adds to Defense",
         "esES": "Se suma a la defensa",
         "esMX": "Se suma a la defensa",
@@ -240,7 +240,7 @@
     {
         "id": 21267,
         "Key": "GemeffectX13",
-        "deDE": "Erhöht den Angriffswert",
+        "deDE": "Erhöht Angriffswert",
         "enUS": "Adds to Attack Rating",
         "esES": "Agrega a la clasificación de ataque",
         "esMX": "Agrega a la clasificación de ataque",
@@ -257,7 +257,7 @@
     {
         "id": 21268,
         "Key": "GemeffectX21",
-        "deDE": "Erhöht das maximale Mana",
+        "deDE": "Erhöht Max Mana",
         "enUS": "Adds to Maximum Mana",
         "esES": "Agrega al maná máximo",
         "esMX": "Agrega al maná máximo",
@@ -274,7 +274,7 @@
     {
         "id": 21269,
         "Key": "GemeffectX22",
-        "deDE": "Fügt Widerstand gegen Kälte hinzu",
+        "deDE": "Fügt Kältewiderstand hinzu",
         "enUS": "Adds Resistance to Cold",
         "esES": "Añade resistencia al frío",
         "esMX": "Añade resistencia al frío",
@@ -291,7 +291,7 @@
     {
         "id": 21270,
         "Key": "GemeffectX23",
-        "deDE": "Fügt dem Angriff Kälteschaden hinzu",
+        "deDE": "Fügt Kälteschaden hinzu",
         "enUS": "Adds Cold Damage to Attack",
         "esES": "Agrega Daño de Hielo al Ataque",
         "esMX": "Agrega Daño de Hielo al Ataque",
@@ -308,7 +308,7 @@
     {
         "id": 21271,
         "Key": "GemeffectX31",
-        "deDE": "Fügt Geschicklichkeit hinzu",
+        "deDE": "Erhöht Geschicklichkeit",
         "enUS": "Adds to Dexterity",
         "esES": "Agrega a la Destreza",
         "esMX": "Agrega a la Destreza",
@@ -325,7 +325,7 @@
     {
         "id": 21272,
         "Key": "GemeffectX32",
-        "deDE": "Fügt Widerstand gegen Gift hinzu",
+        "deDE": "Fügt Giftwiderstand hinzu",
         "enUS": "Adds Resistance to Poison",
         "esES": "Añade resistencia al veneno",
         "esMX": "Añade resistencia al veneno",
@@ -342,7 +342,7 @@
     {
         "id": 21273,
         "Key": "GemeffectX33",
-        "deDE": "Fügt dem Angriff Giftschaden hinzu",
+        "deDE": "Fügt Giftschaden hinzu",
         "enUS": "Adds Poison Damage to Attack",
         "esES": "Agrega daño de veneno al ataque",
         "esMX": "Agrega daño de veneno al ataque",
@@ -359,7 +359,7 @@
     {
         "id": 21274,
         "Key": "GemeffectX41",
-        "deDE": "Erhöht das maximale Leben",
+        "deDE": "Erhöht Max Leben",
         "enUS": "Adds to Maximum Life",
         "esES": "Se suma a la vida máxima",
         "esMX": "Se suma a la vida máxima",
@@ -376,7 +376,7 @@
     {
         "id": 21275,
         "Key": "GemeffectX42",
-        "deDE": "Fügt Widerstand gegen Feuer hinzu",
+        "deDE": "Fügt Feuerwiderstand hinzu",
         "enUS": "Adds Resistance to Fire",
         "esES": "Añade resistencia al fuego",
         "esMX": "Añade resistencia al fuego",
@@ -393,7 +393,7 @@
     {
         "id": 21276,
         "Key": "GemeffectX43",
-        "deDE": "Fügt dem Angriff Feuerschaden hinzu",
+        "deDE": "Fügt Feuerschaden hinzu",
         "enUS": "Adds Fire Damage to Attack",
         "esES": "Agrega Daño de Fuego al Ataque",
         "esMX": "Agrega Daño de Fuego al Ataque",
@@ -410,7 +410,7 @@
     {
         "id": 21277,
         "Key": "GemeffectX51",
-        "deDE": "Erhöht den Angriffswert",
+        "deDE": "Erhöht Angriffswert",
         "enUS": "Adds to Attack Rating",
         "esES": "Agrega a la clasificación de ataque",
         "esMX": "Agrega a la clasificación de ataque",
@@ -461,7 +461,7 @@
     {
         "id": 21280,
         "Key": "GemeffectX61",
-        "deDE": "Erhöht die Chance, magische Gegenstände zu finden",
+        "deDE": "Erhöht Magiefund",
         "enUS": "Adds to Chance to Find Magic Items",
         "esES": "Aumenta la posibilidad de encontrar objetos mágicos",
         "esMX": "Aumenta la posibilidad de encontrar objetos mágicos",
@@ -478,7 +478,7 @@
     {
         "id": 21281,
         "Key": "GemeffectX62",
-        "deDE": "Fügt Widerstand gegen Blitz hinzu",
+        "deDE": "Fügt Blitzwiderstand hinzu",
         "enUS": "Adds Resistance to Lightning",
         "esES": "Añade resistencia a los rayos",
         "esMX": "Añade resistencia a los rayos",
@@ -495,7 +495,7 @@
     {
         "id": 21282,
         "Key": "GemeffectX63",
-        "deDE": "Fügt dem Angriff Blitzschaden hinzu",
+        "deDE": "Fügt Blitzschaden hinzu",
         "enUS": "Adds Lightning Damage to Attack",
         "esES": "Agrega Daño de Rayo al Ataque",
         "esMX": "Agrega Daño de Rayo al Ataque",
@@ -512,7 +512,7 @@
     {
         "id": 21283,
         "Key": "GemeffectX71",
-        "deDE": "Fügt Mana und Lebensregeneration hinzu",
+        "deDE": "Fügt Lebens und Manaregeneration hinzu",
         "enUS": "Adds Mana and Life Regeneration",
         "esES": "Añade maná y regeneración de vida",
         "esMX": "Añade maná y regeneración de vida",
@@ -529,7 +529,7 @@
     {
         "id": 21284,
         "Key": "GemeffectX72",
-        "deDE": "Fügt Angreifer erleidet Schaden hinzu",
+        "deDE": "Angreifer erleidet Schaden",
         "enUS": "Adds Attacker Takes Damage",
         "esES": "Agrega que el atacante recibe daño",
         "esMX": "Agrega que el atacante recibe daño",
@@ -546,7 +546,7 @@
     {
         "id": 21285,
         "Key": "GemeffectX73",
-        "deDE": "Fügt dem Angriff Mana und Lebensraub hinzu",
+        "deDE": "Fügt Lebens und Manasraub hinzu",
         "enUS": "Adds Mana and Life Steal to Attack",
         "esES": "Agrega maná y robo de vida al ataque",
         "esMX": "Agrega maná y robo de vida al ataque",

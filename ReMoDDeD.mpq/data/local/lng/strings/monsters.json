@@ -8995,7 +8995,7 @@
   {
         "id": 55000,
         "Key": "Abominable",
-        "deDE": "Abscheulich",
+        "deDE": "Abscheulichkeit",
         "enUS": "Abominable",
         "esES": "Abominables",
         "esMX": "Abominables",
@@ -9012,7 +9012,7 @@
   {
         "id": 55001,
         "Key": "TrialArach",
-        "deDE": "Gequältes Spinnentier",
+        "deDE": "Gequälte Spinne",
         "enUS": "Tormented Arachnid",
         "esES": "Arácnido atormentado",
         "esMX": "Arácnido atormentado",
@@ -9250,7 +9250,7 @@
   {
         "id": 55015,
         "Key": "TrialCouncil",
-        "deDE": "Gequälter Rat",
+        "deDE": "Gequältes Ratsmitglied",
         "enUS": "Tormented Council",
         "esES": "Consejo atormentado",
         "esMX": "Consejo atormentado",
@@ -9658,7 +9658,7 @@
   {
         "id": 55039,
         "Key": "PortalRed",
-        "deDE": "ÿc7Unsichtbares Reich",
+        "deDE": "ÿc7Unseen Realm",
         "enUS": "ÿc7Unseen Realm",
         "esES": "ÿc7Reino invisible",
         "esMX": "ÿc7Reino invisible",
@@ -9692,7 +9692,7 @@
   {
         "id": 55041,
         "Key": "arachpet",
-        "deDE": "Sumpfspinner",
+        "deDE": "Sumpfspinne",
         "enUS": "Swamp Spinner",
         "esES": "Girador de pantano",
         "esMX": "Girador de pantano",
@@ -9777,7 +9777,7 @@
   { 
         "id": 55046,
         "Key": "UiSorUi",
-        "deDE": "Zauber",
+        "deDE": "Zauberin",
         "enUS": "Sorc",
         "esES": "Hechizo",
         "esMX": "Hechizo",
@@ -9794,7 +9794,7 @@
   { 
         "id": 55047,
         "Key": "UiNecUi",
-        "deDE": "Necro",
+        "deDE": "Nekro",
         "enUS": "Necro",
         "esES": "necro",
         "esMX": "necro",
@@ -9828,7 +9828,7 @@
   { 
         "id": 55049,
         "Key": "UiBarUi",
-        "deDE": "Widerhaken",
+        "deDE": "Barb",
         "enUS": "Barb",
         "esES": "lengüeta",
         "esMX": "lengüeta",
@@ -9862,7 +9862,7 @@
   { 
         "id": 55051,
         "Key": "UiAsnUi",
-        "deDE": "Assn",
+        "deDE": "Assa",
         "enUS": "Assn",
         "esES": "Asociación",
         "esMX": "Asociación",
@@ -10168,7 +10168,7 @@
   {
         "id": 55069,
         "Key": "assmon",
-        "deDE": "Attentäter",
+        "deDE": "Assassin",
         "enUS": "Assassin",
         "esES": "asesino",
         "esMX": "asesino",
@@ -10287,7 +10287,7 @@
   {
         "id": 55076,
         "Key": "Frozen Shredder Sentry",
-        "deDE": "Gefrorener Shredder-Wachposten",
+        "deDE": "Gefrorener Schredder",
         "enUS": "Frozen Shredder Sentry",
         "esES": "Centinela Triturador Congelado",
         "esMX": "Centinela Triturador Congelado",
@@ -10304,7 +10304,7 @@
   {
         "id": 55077,
         "Key": "TrialEndChest",
-        "deDE": "Gefrorener Shredder-Wachposten",
+        "deDE": "Truhe des Triumpfes",
         "enUS": "Chest of Triumph",
         "esES": "Centinela Triturador Congelado",
         "esMX": "Centinela Triturador Congelado",
