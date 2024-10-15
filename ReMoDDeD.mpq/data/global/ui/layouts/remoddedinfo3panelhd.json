@@ -118,7 +118,7 @@ IIIIIIIIII        ttttttttttt      eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
                                         "disabledFrame": 2,
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
-                                        "states": [ "Mana Regen %", "Faster Run/Walk", "+All Skills", "Dexterity",  "Max HP %" ],
+                                        "states": [ "Mana Regen %", "Faster Run/Walk", "+All Skills", "Damage Reduction %",  "Max HP %" ],
                                         "onUpdateMessage": "OptionsPanelMessage:Close",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -275,34 +275,8 @@ IIIIIIIIII        ttttttttttt      eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
                                 {
                                     "type": "TextBoxWidget", "name": "IZ1T",
                                     "fields": {
-                                        "text": " - Start with +20 Dex, then penalized as follows:",
+                                        "text": " - Penalized -1% Damage Reduction for every +4 weight used",
                                         "style": "$StyleSettingsText"
-                                    }
-                                },
-                                {
-                                    "type": "DropdownListWidget", "name": "NPCSpeech",
-                                    "fields": {
-                                        "rect": "$OptionsDropDownRect",
-                                        "background/rect": "$OptionsDropDownBackgroundRect",
-                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
-                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
-                                        "pressedFrame": 1,
-                                        "disabledFrame": 2,
-                                        "hoveredFrame": 3,
-                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
-                                        "states": [ "Weight 1-20: +10 Dexterity", "Weight 21-40: No Change", "Weight 41-60: -15 Dexterity", "Weight 61-80: -30 Dexterity" ],
-                                        "onUpdateMessage": "OptionsPanelMessage:Close",
-                                        "text/style": "$StyleSettingsCarousel",
-                                        "text/style": { "pointSize": "$MediumFontSize" },
-                                        "textColor": "$FontColorLightGold",
-                                        "navigation": {
-                                            "down": { "name": "Resolution" }
-                                        },
-                                        "tooltipString": "Rewards & Penalties",
-                                        "tooltipStyle": {
-                                            "showAfterDelay": true
-                                        }
-                                        
                                     }
                                 }
                             ]

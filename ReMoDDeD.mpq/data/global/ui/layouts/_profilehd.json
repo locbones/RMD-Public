@@ -85,6 +85,7 @@
     "FontColorBonesyRed": { "r": 230, "g": 5, "b": 10, "a": 255 },
     "FontColorFlatBlue": { "r": 70, "g": 142, "b": 168, "a": 255 },
     "FontColorLightLightBlue": { "r": 82, "g": 164, "b": 227, "a": 255 },
+    "FontColorLightPink": { "r": 240, "g": 134, "b": 235, "a": 255 },
 
     // Text color presets
     "CarouselEnabledColor": "$FontColorLightGold",
@@ -420,6 +421,12 @@
     },
     "RecipeSettingsTextFlatBlue": {
         "fontColor": "$FontColorFlatBlue",
+        "pointSize": "$MediumFontSize",
+        "spacing" : "$ReducedSpacing",
+        "alignment": { "h": "left", "v": "center" }
+    },
+    "RecipeSettingsTextPink": {
+        "fontColor": "$FontColorLightPink",
         "pointSize": "$MediumFontSize",
         "spacing" : "$ReducedSpacing",
         "alignment": { "h": "left", "v": "center" }

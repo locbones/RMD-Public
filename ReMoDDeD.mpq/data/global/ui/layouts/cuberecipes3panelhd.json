@@ -363,7 +363,7 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "Weapons cost 10 cores, Armor/Jewelery/Quiver costs 25 cores",
-                                        "style": "$RecipeSettingsTextFlatBlue"
+                                        "style": "$RecipeSettingsTextPink"
                                     }
                                 }
                             ]
@@ -375,7 +375,7 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "Weapon and Jewelery/Quiver results will be random, Armor will be based on armor type",
-                                        "style": "$RecipeSettingsTextFlatBlue"
+                                        "style": "$RecipeSettingsTextPink"
                                     }
                                 }
                             ]
@@ -419,8 +419,8 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Enhancements do not apply to Jewelry or Normal/Runeword Quality Items",
-                                        "style": "$RecipeSettingsTextFlatBlue"
+                                        "text": "Enhancements do not apply to Jewelry",
+                                        "style": "$RecipeSettingsTextPink"
                                     }
                                 }
                             ]
@@ -501,7 +501,7 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "Tokens required = Soul Tier (Tier 3 requires 3 tokens, etc)",
-                                        "style": "$RecipeSettingsTextFlatBlue"
+                                        "style": "$RecipeSettingsTextPink"
                                     }
                                 }
                             ]
@@ -663,7 +663,7 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "- Must be in Hell Harrogath to use maps",
-                                        "style": "$RecipeSettingsTextFlatBlue"
+                                        "style": "$RecipeSettingsTextPink"
                                     }
                                 }
                             ]
@@ -675,7 +675,7 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "- Only one map may be active and held at a time",
-                                        "style": "$RecipeSettingsTextFlatBlue"
+                                        "style": "$RecipeSettingsTextPink"
                                     }
                                 }
                             ]
@@ -687,7 +687,7 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "- Map must be in your inventory to take effect",
-                                        "style": "$RecipeSettingsTextFlatBlue"
+                                        "style": "$RecipeSettingsTextPink"
                                     }
                                 }
                             ]
@@ -699,7 +699,7 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "- Maps only drop in Hell Terror Zones and always drop as tier 1",
-                                        "style": "$RecipeSettingsTextFlatBlue"
+                                        "style": "$RecipeSettingsTextPink"
                                     }
                                 }
                             ]
@@ -735,7 +735,7 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "- Parchment of Potency",
-                                        "style": "$RecipeSettingsTextFlatBlue"
+                                        "style": "$RecipeSettingsTextPink"
                                     }
                                 }
                             ]
@@ -747,7 +747,7 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "- Quill of Quality",
-                                        "style": "$RecipeSettingsTextFlatBlue"
+                                        "style": "$RecipeSettingsTextPink"
                                     }
                                 }
                             ]
@@ -759,7 +759,7 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "- Ink of Insanity",
-                                        "style": "$RecipeSettingsTextFlatBlue"
+                                        "style": "$RecipeSettingsTextPink"
                                     }
                                 }
                             ]

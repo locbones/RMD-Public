@@ -120,7 +120,7 @@
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
                                         "text": "Ramaladni's Gift Slot Limits: 1-Hand: 4, 2-Hand: 6",
-                                        "style": "$RecipeSettingsTextFlatBlue"
+                                        "style": "$RecipeSettingsTextPink"
                                     }
                                 }
                             ]
@@ -414,7 +414,7 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "Gold Bar Cost: Normal/Socketed - 2, Magic/Superior - 3, Rare - 4, Unique/Set - 5 ",
-                                        "style": "$RecipeSettingsTextFlatBlue"
+                                        "style": "$RecipeSettingsTextPink"
                                     }
                                 }
                             ]
