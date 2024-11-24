@@ -6811,8 +6811,12 @@
         "1st": [
         ],
         "ht1": [
+          "ht1_attack1",
+          "ht1_attack2"
         ],
         "ht2": [
+          "ht2_attack1",
+          "ht2_attack2"
         ]
       },
       "enterEvents": [
@@ -6864,8 +6868,12 @@
         "1st": [
         ],
         "ht1": [
+          "ht1_attack1",
+          "ht1_attack2"
         ],
         "ht2": [
+          "ht2_attack1",
+          "ht2_attack2"
         ]
       },
       "enterEvents": [

@@ -131,7 +131,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Storage Bag + Rune Points Converter = Convert between low/mid/high points",
+                                        "text": "Storage Bag + Rune Points Converter = Convert between low/mid/high/ultra points",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -245,7 +245,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
-                                        "text": "Equipment (Any) + Color Dye = Dyed Item (World View Only)",
+                                        "text": "Equipment (any) + Color Dye = Dyed Item (World View Only)",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -345,6 +345,15 @@
                             ]
                         },
                         {
+                            "type": "ButtonWidget", "name": "new button",
+                            "fields": {
+                                "rect": { "x": 245, "y": 1703, "height": 75, "width": 335 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\fenixs_button2",
+                                "hoveredFrame": 1,
+                                "tooltipString": "@cc001"
+                            }
+                        },
+                        {
                             "type": "TableRowWidget", "name": "GC2",
                             "children": [
                                 {
@@ -357,28 +366,13 @@
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "GC2",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC2T",
-                                    "fields": {
-                                        "text": "Weapons cost 10 cores, Armor/Jewelery/Quiver costs 25 cores",
-                                        "style": "$RecipeSettingsTextPink"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "GC2",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC2T",
-                                    "fields": {
-                                        "text": "Weapon and Jewelery/Quiver results will be random, Armor will be based on armor type",
-                                        "style": "$RecipeSettingsTextPink"
-                                    }
-                                }
-                            ]
+                            "type": "ButtonWidget", "name": "new button",
+                            "fields": {
+                                "rect": { "x": 245, "y": 1786, "height": 75, "width": 275 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\fenixs_button2",
+                                "hoveredFrame": 1,
+                                "tooltipString": "@cc001"
+                            }
                         },
                         {
                             "type": "TableRowWidget", "name": "Gameplay Changes",
@@ -414,16 +408,13 @@
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "GC2",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC2T",
-                                    "fields": {
-                                        "text": "Enhancements do not apply to Jewelry",
-                                        "style": "$RecipeSettingsTextPink"
-                                    }
-                                }
-                            ]
+                            "type": "ButtonWidget", "name": "new button",
+                            "fields": {
+                                "rect": { "x": 30, "y": 1946, "height": 75, "width": 275 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\fenixs_button2",
+                                "hoveredFrame": 1,
+                                "tooltipString": "@cc002"
+                            }
                         },
                         {
                             "type": "TableRowWidget", "name": "Gameplay Changes",
@@ -459,6 +450,15 @@
                             ]
                         },
                         {
+                            "type": "ButtonWidget", "name": "new button",
+                            "fields": {
+                                "rect": { "x": 330, "y": 2346, "height": 75, "width": 275 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\fenixs_button2",
+                                "hoveredFrame": 1,
+                                "tooltipString": "@cc003"
+                            }
+                        },
+                        {
                             "type": "TableRowWidget", "name": "GC2",
                             "children": [
                                 {
@@ -490,18 +490,6 @@
                                     "fields": {
                                         "text": "Beacon of Hope + Class Token(s) = Soul Summon Activated",
                                         "style": "$RecipeSettingsText"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "GC2",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC2T",
-                                    "fields": {
-                                        "text": "Tokens required = Soul Tier (Tier 3 requires 3 tokens, etc)",
-                                        "style": "$RecipeSettingsTextPink"
                                     }
                                 }
                             ]
@@ -797,6 +785,109 @@
                                         "text": "Map + Ink of Insanity = Re-rolled Map",
                                         "style": "$RecipeSettingsText"
                                     }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Runic Forging",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Info\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Runic Forging is a system by which you can upgrade certain runewords",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "First, craft your chosen runeword like normal in your base item (socketed grey item)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Place your completed runeword in the cube along with a copy of each of the necessary runes to make it",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Transmute your runeword with a whole set of the required runes",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "You can Runic Forge eligible runewords up to 4 times reaching max level of RF 5",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 0 },
+                                        "text": "Runic Forging can grant huge bonuses making your gear much stronger",
+                                        "style": "$StyleSettingsText"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": { "x": 10, "y": 100 },
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Spirit_banner"
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }

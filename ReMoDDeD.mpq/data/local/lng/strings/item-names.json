@@ -39132,5 +39132,39 @@
       "ruRU": "ÿc5Наделено благословением духов\nÿc:Духовное одеяние",
       "zhCN": "ÿc5充满灵魂祝福\nÿc:灵魂外衣",
       "zhTW": "ÿc5充滿靈魂祝福\nÿc:靈魂外衣"
+    },
+    {
+      "id": 51237,
+      "Key": "Spiritual Sentinel",
+      "deDE": "Spiritueller Wächter",
+      "enUS": "Spiritual Sentinel",
+      "esES": "Centinela espiritual",
+      "esMX": "Centinela espiritual",
+      "frFR": "Sentinella spirituale",
+      "itIT": "Sentinelle spirituelle",
+      "jaJP": "スピリチュアルセンチネル",
+      "koKR": "영적 파수꾼",
+      "plPL": "Duchowy Strażnik",
+      "ptBR": "Sentinela Espiritual",
+      "ruRU": "Духовный страж",
+      "zhCN": "精神哨兵",
+      "zhTW": "精神哨兵"
+    },
+    {
+      "id": 51238,
+      "Key": "Spiritual Warden",
+      "deDE": "Spiritueller Wächter",
+      "enUS": "Spiritual Warden",
+      "esES": "Guardián espiritual",
+      "esMX": "Guardián espiritual",
+      "frFR": "Custode spirituale",
+      "itIT": "Gardien spirituel",
+      "jaJP": "精神的な監視者",
+      "koKR": "영적 감시자",
+      "plPL": "Duchowy Strażnik",
+      "ptBR": "Diretor Espiritual",
+      "ruRU": "Духовный страж",
+      "zhCN": "精神守护者",
+      "zhTW": "精神守護者"
     }
 ]

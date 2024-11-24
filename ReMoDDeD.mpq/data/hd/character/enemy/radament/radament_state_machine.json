@@ -1009,7 +1009,7 @@
             "loopCount": 1,
             "stateId": 15,
             "modeId": 14,
-            "skillIndex": 157,
+            "skillIndex": 369,
             "stepIndex": 0,
             "animationBindings": {
                 "hth": [
@@ -1066,7 +1066,7 @@
             "loopCount": 1,
             "stateId": 16,
             "modeId": 14,
-            "skillIndex": 513,
+            "skillIndex": 327,
             "stepIndex": 0,
             "animationBindings": {
                 "hth": [

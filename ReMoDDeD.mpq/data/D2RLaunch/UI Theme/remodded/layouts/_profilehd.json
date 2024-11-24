@@ -429,7 +429,8 @@
         "fontColor": "$FontColorLightPink",
         "pointSize": "$MediumFontSize",
         "spacing" : "$ReducedSpacing",
-        "alignment": { "h": "left", "v": "center" }
+        "alignment": { "h": "left", "v": "top" },
+        "options": { "lineWrap": true }
     },
     "RecipeSettingsTextBlue": {
         "fontColor": "$FontColorBlue",
@@ -527,7 +528,7 @@
         "hp": 0,
         "backgroundColor": [ 0, 0, 0, 1.0 ],
         // This color is used for in-game tooltip label backgrounds
-        "inGameBackgroundColor": [ 0, 0, 0, 0.6 ],
+        "inGameBackgroundColor": [ 0, 0, 0, 0.95 ],
         // This color is used for the show items selected label background
         "inGameShowItemsSelectedBackgroundColor": [ 0, 0.25, 0.5, 1.0 ],
         "substringColor": "$FontColorLightGray",
@@ -590,10 +591,13 @@
     "OptionsScrollBarRect": { "x": -31, "y": 29, "width": 26, "height": 1208 },
     "RecipeScrollBarRect": { "x": -30, "y": 29, "width": 26, "height": 1208 },
     "OptionsScrollBarBackgroundRect": { "x": -20, "y": 0 },
+    "MercOptionsScrollBarBackgroundRect": { "x": -350, "y": 0 },
     "RecipeScrollBarBackgroundRect": { "x": 0, "y": 0 },
     "OptionsTableColumn1": { "width": 1000, "alignment": { "h": "fit", "v": "fit" } },
     "OptionsTableColumn2": { "width": 700, "alignment": { "h": "center", "v": "center" } },
     "OptionsTableColumn2p": { "width": 1000, "alignment": { "h": "fit", "v": "fit" } },
+    "MercOptionsTableColumn1": { "width": 1000, "alignment": { "h": "fit", "v": "fit" } },
+    "MercOptionsTableColumn2p": { "width": 1000, "alignment": { "h": "fit", "v": "center" } },
     "CraftOptionsTableColumn1": { "width": 1370, "alignment": { "h": "fit", "v": "fit" } },
     "CraftOptionsTableColumn2": { "width": 700, "alignment": { "h": "center", "v": "center" } },
     "RWWOptionsTableColumn1": { "width": 525, "alignment": { "h": "left", "v": "center" } },
@@ -638,6 +642,7 @@
     "OptionsSliderFocusIndicatorPadding": { "left": 3, "right": 3 },
     "OptionsDividerRect": { "x": 0, "y": 90 },
     "CubeOptionsDividerRect": { "x": 0, "y": 70 },
+    "MercOptionsDividerRect": { "x": 80, "y": 70 },
     "RWOptionsDividerRect": { "x": 0, "y": 75 },
     "RMDOptionsDividerRect": { "x": 0, "y": 45 },
     "OptionsToggleRect": { "width": 70, "height": 70 },
@@ -763,6 +768,7 @@
     "SettingsPanelBackgroundRectRMD": { "x": -896, "y": 270, "width": "$OptionsPanelWidthRMD", "height": "$OptionsPanelHeight" },
     "SettingsPanelTabsRect": { "x": -865, "y": 282, "width": "$OptionsPanelWidth", "height": 121 },
     "SettingsPanelTabsRectRMD": { "x": -945, "y": 282, "width": "$OptionsPanelWidthRMD", "height": 121 },
+    "SettingsPanelTabsRectMerc": { "x": -1095, "y": 282, "width": "$OptionsPanelWidthRMD", "height": 121 },
 
     //Tutorial Tooltips
     "TutorialTooltipIntroRect" : { "x": 175, "y": 351, "width": 900, "height": 1150 },

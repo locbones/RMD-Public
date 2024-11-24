@@ -1,0 +1,1204 @@
+{
+    "type": "VideoOptionsPanel", "name": "MercInfo2Panel",
+    "fields": {
+        "priority": 9003,
+        "rect": "$OptionsPanelRectRMD",
+        "anchor": { "x": 0.5 },
+        "applySettingsImmediately": true
+    },
+    "children": [
+        {
+            "type": "ImageWidget", "name": "ScrollBarBackground",
+            "fields": {
+                "rect": "$MercOptionsScrollBarBackgroundRect",
+                "anchor": { "x": 1.0 },
+                "filename": "..\\..\\..\\ReMoDDeD\\Info\\ScrollBG"
+            },
+            "children": [
+                {
+                    "type": "ScrollControllerWidget", "name": "ScrollController",
+                    "fields": {
+                        "rect": "$OptionsScrollBarRect",
+                        "anchor": { "x": 1.0 },
+                        "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+                        "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+                        "barFilepath": "..\\..\\..\\ReMoDDeD\\SkullScroll",
+                        "viewName": "ScrollView",
+                        "wheelScrollSound": "cursor_scroll_hd",
+                        "buttonScrollSound": "cursor_scroll_hd"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "ScrollViewWidget", "name": "ScrollView",
+            "fields": {
+                "fitToParent": true,
+                "scrollControllerName": "ScrollController"
+            },
+            "children": [
+                {
+                    "type": "TableWidget", "name": "OptionsTable",
+                    "fields": {
+                        "columns": [ "$MercOptionsTableColumn1", "$MercOptionsTableColumn2p" ],
+                        "rowHeight": "$SkillPOptionsTableRowHeight"
+                    },
+                    "children": [
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Seal of Death",
+                                        "style": "$StyleSettingsTitleSkill",
+                                        "rect": { "x": -60 }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$MercOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "A unique aura available only to Rangers",
+                                        "rect": { "x": -60, "y": 20, "width": 1350 },
+                                        "style": {
+                                            "alignment": { "h": "center", "v": "top" },
+                                            "options": { "newlineHandling": "standard", "lineWrap": true },
+                                            "fontColor": "$FontColorLightGold",
+                                            "pointSize": "$MediumFontSize"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP1",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill1",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Open\\Previews\\A1Aura",
+                                        "rect": { "x": 80, "y": 20, "scale": 1.5 },
+                                        "fps": 12
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP1",
+                            "children": [
+                                {
+                                    "type": "ImageWidget", "name": "Skill1",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Open\\Icons\\I_Blank",
+                                        "rect": { "x": 80, "y": 225, "scale": 0.70 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Skill Type:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -105 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Aura",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -300, "y": -105 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Damage Type:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -105 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -255, "y": -105 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Max Skill Level:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -105 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -195, "y": -105 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Synergies:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -105 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -310, "y": -105 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Mastery Bonus:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -105 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -220, "y": -105 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Special Notes:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -105 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Grants Faster Movement Speed, Attack Speed, and Attack Rating to allies",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -240, "y": -105 }
+                                    }
+                                }
+                            ]
+                        },
+                        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Multishot",
+                                        "style": "$StyleSettingsTitleSkill",
+                                        "rect": { "x": -60, "y": -40 }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$MercOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "Magically splits one arrow into many, unleashing a deadly arc of quivers",
+                                        "rect": { "x": -60, "y": -10, "width": 1350 },
+                                        "style": {
+                                            "alignment": { "h": "center", "v": "top" },
+                                            "options": { "newlineHandling": "standard", "lineWrap": true },
+                                            "fontColor": "$FontColorLightGold",
+                                            "pointSize": "$MediumFontSize"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP1",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill1",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Amazon\\Previews\\Multishot",
+                                        "rect": { "x": 80, "y": 30, "scale": 1.5 },
+                                        "fps": 12
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP1",
+                            "children": [
+                                {
+                                    "type": "ImageWidget", "name": "Skill1",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Amazon\\Icons\\I_Multishot",
+                                        "rect": { "x": 80, "y": 235, "scale": 0.70 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Skill Type:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Ranged",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -300, "y": -95 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Damage Type:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Physical",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -255, "y": -95 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Max Skill Level:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -195, "y": -95 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Synergies:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Guided Arrow",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -310, "y": -95 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Mastery Bonus:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -220, "y": -95 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Special Notes:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Uses the same skill as zon; can also benefit from it's synergies",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -240, "y": -95 }
+                                    }
+                                }
+                            ]
+                        },
+                        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Hail of Arrows",
+                                        "style": "$StyleSettingsTitleSkill",
+                                        "rect": { "x": -60, "y": -40 }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$MercOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "Unleashes waves of frozen arrows from the sky in a large targeted area",
+                                        "rect": { "x": -60, "y": -10, "width": 1350 },
+                                        "style": {
+                                            "alignment": { "h": "center", "v": "top" },
+                                            "options": { "newlineHandling": "standard", "lineWrap": true },
+                                            "fontColor": "$FontColorLightGold",
+                                            "pointSize": "$MediumFontSize"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP1",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill1",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Amazon\\Previews\\HailOfArrows",
+                                        "rect": { "x": 80, "y": 30, "scale": 1.5 },
+                                        "fps": 12
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP1",
+                            "children": [
+                                {
+                                    "type": "ImageWidget", "name": "Skill1",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Amazon\\Icons\\I_ChargedStrike",
+                                        "rect": { "x": 80, "y": 235, "scale": 0.70 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Skill Type:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Ranged, AoE",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -300, "y": -95 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Damage Type:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Cold, Physical",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -255, "y": -95 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Max Skill Level:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -195, "y": -95 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Synergies:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Cold Arrow, Freezing Arrow",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -310, "y": -95 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Mastery Bonus:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -220, "y": -95 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Special Notes:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Uses the same skill as zon; can also benefit from it's synergies",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -240, "y": -95 }
+                                    }
+                                }
+                            ]
+                        },
+                        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Curtain of Fire",
+                                        "style": "$StyleSettingsTitleSkill",
+                                        "rect": { "x": -60, "y": -40 }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$MercOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "Shoots an arrow that creates a fire trail and unleashes a meteor strike on impacted enemies",
+                                        "rect": { "x": -60, "y": -10, "width": 1350 },
+                                        "style": {
+                                            "alignment": { "h": "center", "v": "top" },
+                                            "options": { "newlineHandling": "standard", "lineWrap": true },
+                                            "fontColor": "$FontColorLightGold",
+                                            "pointSize": "$MediumFontSize"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP1",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill1",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Amazon\\Previews\\CurtainOfFire",
+                                        "rect": { "x": 80, "y": 30, "scale": 1.5 },
+                                        "fps": 12
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP1",
+                            "children": [
+                                {
+                                    "type": "ImageWidget", "name": "Skill1",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Amazon\\Icons\\I_CurtainOfFire",
+                                        "rect": { "x": 80, "y": 235, "scale": 0.70 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Skill Type:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Ranged, AoE",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -300, "y": -95 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Damage Type:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Fire, Physical",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -255, "y": -95 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Max Skill Level:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -195, "y": -95 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Synergies:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Strafe, Exploding Arrow",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -310, "y": -95 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Mastery Bonus:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -220, "y": -95 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Special Notes:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Uses the same skill as zon; can also benefit from it's synergies",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -240, "y": -95 }
+                                    }
+                                }
+                            ]
+                        },
+                        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Strafe",
+                                        "style": "$StyleSettingsTitleSkill",
+                                        "rect": { "x": -60, "y": -40 }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$MercOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "Magically splits one arrow into many, then targets multiple nearby enemies",
+                                        "rect": { "x": -60, "y": -10, "width": 1350 },
+                                        "style": {
+                                            "alignment": { "h": "center", "v": "top" },
+                                            "options": { "newlineHandling": "standard", "lineWrap": true },
+                                            "fontColor": "$FontColorLightGold",
+                                            "pointSize": "$MediumFontSize"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP1",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill1",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Amazon\\Previews\\Strafe",
+                                        "rect": { "x": 80, "y": 30, "scale": 1.5 },
+                                        "fps": 12
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP1",
+                            "children": [
+                                {
+                                    "type": "ImageWidget", "name": "Skill1",
+                                    "fields": {
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Amazon\\Icons\\I_Strafe",
+                                        "rect": { "x": 80, "y": 235, "scale": 0.70 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Skill Type:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Ranged",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -300, "y": -95 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Damage Type:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Fire, Physical",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -255, "y": -95 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Max Skill Level:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -195, "y": -95 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Synergies:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Curtain of Fire, Exploding Arrow",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -310, "y": -95 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Mastery Bonus:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -220, "y": -95 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Special Notes:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Uses the same skill as zon; can also benefit from it's synergies",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -240, "y": -95 }
+                                    }
+                                }
+                            ]
+                        },
+                        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Pierce",
+                                        "style": "$StyleSettingsTitleSkill",
+                                        "rect": { "x": -60, "y": -40 }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$MercOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "Imbue your missiles with such force, that they pierce through enemies.",
+                                        "rect": { "x": -60, "y": -10, "width": 1350 },
+                                        "style": {
+                                            "alignment": { "h": "center", "v": "top" },
+                                            "options": { "newlineHandling": "standard", "lineWrap": true },
+                                            "fontColor": "$FontColorLightGold",
+                                            "pointSize": "$MediumFontSize"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP1",
+                            "children": [
+                                {
+                                    "type": "AnimatedImageWidget", "name": "Skill1",
+                                    "fields": {
+                                        "filename": "Blank",
+                                        "rect": { "x": 80, "y": 30, "scale": 1.5 },
+                                        "fps": 12
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "SP1",
+                            "children": [
+                                {
+                                    "type": "ImageWidget", "name": "Skill1",
+                                    "fields": {
+                                        "filename": "Blank",
+                                        "rect": { "x": 80, "y": 235, "scale": 0.70 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Skill Type:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Passive",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -300, "y": -95 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Damage Type:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -255, "y": -95 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Max Skill Level:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -195, "y": -95 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Synergies:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -310, "y": -95 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Mastery Bonus:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "None",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -220, "y": -95 }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "JabStat1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Special Notes:",
+                                        "style": "$StyleSettingsTextSkillLLB",
+                                        "rect": { "x": 500, "y": -95 }
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "JabStat1T",
+                                    "fields": {
+                                        "text": "Uses the same skill as zon",
+                                        "style": "$StyleSettingsTextSkill",
+                                        "rect": { "x": -240, "y": -95 }
+                                    }
+                                }
+                            ]
+                        }
+                        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                    ]
+                }
+            ]
+        }
+    ]
+}

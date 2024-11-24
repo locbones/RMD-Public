@@ -108,7 +108,31 @@ G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeee
                                 {
                                     "type": "TextBoxWidget", "name": "GC4T",
                                     "fields": {
-                                        "text": " - Over a hundred new Unique, Set and Runeword items added",
+                                        "text": " - Hundreds of new items added",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - New endgame progression systems in the form of Maps, Terror Zones, and Torment Trials",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        }, 
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Brand new Sets and powerful Uniques added",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -144,7 +168,7 @@ G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeee
                                 {
                                     "type": "TextBoxWidget", "name": "GC4T",
                                     "fields": {
-                                        "text": " - In-game menu's for mod info, runewords, recipes and more",
+                                        "text": " - In-game menu's for mod info, runewords, a guide, recipes and more",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -157,6 +181,18 @@ G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeee
                                     "type": "TextBoxWidget", "name": "GC4T",
                                     "fields": {
                                         "text": " - Custom Launcher and Vault for extended options",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - In cube shop called Horadric Rift where you can buy or create things",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -296,7 +332,7 @@ G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeee
                                 {
                                     "type": "TextBoxWidget", "name": "GC4T",
                                     "fields": {
-                                        "text": " - Storage Bag sytem for holding gems, runes, keys and organs",
+                                        "text": " - Storage Bag system for holding gems, runes, excess rare jewels, keys and organs",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -308,7 +344,19 @@ G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeee
                                 {
                                     "type": "TextBoxWidget", "name": "GC4T",
                                     "fields": {
-                                        "text": " - Kill/Death Tracker (also used for exclusive items/recipes)",
+                                        "text": " - Kills and Deaths are now tracked",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Exclusive buffs for each class based on kill/death ratio",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -344,7 +392,7 @@ G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeee
                                 {
                                     "type": "TextBoxWidget", "name": "GC4T",
                                     "fields": {
-                                        "text": " - New characters start with a skill, shield and the cube",
+                                        "text": " - New characters start with a weapon, shield, Soul Tracker and the cube",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -356,7 +404,7 @@ G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeee
                                 {
                                     "type": "TextBoxWidget", "name": "GC4T",
                                     "fields": {
-                                        "text": " - New sorceresses start with an orb instead of a staff",
+                                        "text": " - New characters have access to rune drops earlier",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -368,7 +416,7 @@ G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeee
                                 {
                                     "type": "TextBoxWidget", "name": "GC4T",
                                     "fields": {
-                                        "text": " - New characters start with 10 additional base stats",
+                                        "text": " - New characters start with improved stats and run/walk speed due to charm weight system",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -380,7 +428,7 @@ G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeee
                                 {
                                     "type": "TextBoxWidget", "name": "GC4T",
                                     "fields": {
-                                        "text": " - Gambling item pool greatly increased",
+                                        "text": " - Gambling item pool greatly increased now even including class specific items",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -437,7 +485,7 @@ G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeee
                                 {
                                     "type": "TextBoxWidget", "name": "GC4T",
                                     "fields": {
-                                        "text": " - Each Act receives a unique aura",
+                                        "text": " - Each Act's Mercenary receives a unique aura",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -497,6 +545,18 @@ G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeee
                                 {
                                     "type": "TextBoxWidget", "name": "GC4T",
                                     "fields": {
+                                        "text": " - No longer stuck with only using act 2 Mercenary",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
                                         "text": " - Experience gain increased by 25%-30%",
                                         "style": "$StyleSettingsText"
                                     }
@@ -510,6 +570,18 @@ G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeee
                                     "type": "TextBoxWidget", "name": "GC4T",
                                     "fields": {
                                         "text": " - Mercenaries no longer have subtypes (excluding act5 merc)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Mercenaries now have access to powerful mercenary only gear",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -578,7 +650,7 @@ G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeee
                                 {
                                     "type": "TextBoxWidget", "name": "GC4T",
                                     "fields": {
-                                        "text": " - 100 levels added after Baal (Torment Trials)",
+                                        "text": " - 50 levels added after Baal (Torment Trials + Icy Hell)",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -602,7 +674,7 @@ G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeee
                                 {
                                     "type": "TextBoxWidget", "name": "GC4T",
                                     "fields": {
-                                        "text": " - Blood Moor monster density and champion packs increased",
+                                        "text": " - Blood Moor monster density and champion packs increased to facilitate early leveling",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -730,6 +802,18 @@ G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeee
                                     "type": "TextBoxWidget", "name": "GC4T",
                                     "fields": {
                                         "text": " - Act Bosses will always drop an essence for your first kill",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Cows have a better chance to drop base items",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -905,7 +989,7 @@ G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeee
                                 {
                                     "type": "TextBoxWidget", "name": "GC5T",
                                     "fields": {
-                                        "text": " - Area Damage Effect (Splash)",
+                                        "text": " - Area Damage Effect (Splash) has been added to some melee skills and items",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -1227,6 +1311,18 @@ G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeee
                             ]
                         },
                         {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Item drops are now set at an idependent rate and /players now only effects Experience",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
                             "type": "TableRowWidget", "name": "Gameplay Changes",
                             "children": [
                                 {
@@ -1325,7 +1421,7 @@ G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeee
                                 {
                                     "type": "TextBoxWidget", "name": "GC10T",
                                     "fields": {
-                                        "text": " - Animated Skill Previews for all class skills",
+                                        "text": " - Animated Skill Previews for all class skills and Oskills",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -1338,6 +1434,18 @@ G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeee
                                     "type": "TextBoxWidget", "name": "GC10T",
                                     "fields": {
                                         "text": " - Full in-game cube recipe menu",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC10",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC10T",
+                                    "fields": {
+                                        "text": " - Horadric Rift in game event window inside cube with frequently updated content",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -1427,7 +1535,7 @@ Q:::::::QQ::::::::Qo:::::ooooo:::::oLL:::::::LLLLLLLLL:::::L
                                 {
                                     "type": "TextBoxWidget", "name": "QOL4T",
                                     "fields": {
-                                        "text": " - Players start with cube",
+                                        "text": " - Players start with cube, replenishing tomes and keys",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -1439,7 +1547,7 @@ Q:::::::QQ::::::::Qo:::::ooooo:::::oLL:::::::LLLLLLLLL:::::L
                                 {
                                     "type": "TextBoxWidget", "name": "QOL5T",
                                     "fields": {
-                                        "text": " - Runes can now be removed from items without being destroyed",
+                                        "text": " - Runes can now be removed from items without being destroyed with a socket remover",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -1580,18 +1688,6 @@ Q:::::::QQ::::::::Qo:::::ooooo:::::oLL:::::::LLLLLLLLL:::::L
                                 {
                                     "type": "TextBoxWidget", "name": "GC10T",
                                     "fields": {
-                                        "text": " - Customize monster density, champ packs, exp rate and nodrop settings ",
-                                        "style": "$StyleSettingsText"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "GC10",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC10T",
-                                    "fields": {
                                         "text": " - Change in-game font",
                                         "style": "$StyleSettingsText"
                                     }
@@ -1617,6 +1713,18 @@ Q:::::::QQ::::::::Qo:::::ooooo:::::oLL:::::::LLLLLLLLL:::::L
                                     "type": "TextBoxWidget", "name": "GC10T",
                                     "fields": {
                                         "text": " - Enable varying levels of merc icons (glowing overhead identifier)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC10",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC10T",
+                                    "fields": {
+                                        "text": " - Enable varying levels of rune icons (glowing swirl identifier for high runes)",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
