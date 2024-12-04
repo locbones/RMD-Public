@@ -345,15 +345,6 @@
                             ]
                         },
                         {
-                            "type": "ButtonWidget", "name": "new button",
-                            "fields": {
-                                "rect": { "x": 245, "y": 1703, "height": 75, "width": 335 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\fenixs_button2",
-                                "hoveredFrame": 1,
-                                "tooltipString": "@cc001"
-                            }
-                        },
-                        {
                             "type": "TableRowWidget", "name": "GC2",
                             "children": [
                                 {
@@ -366,13 +357,28 @@
                             ]
                         },
                         {
-                            "type": "ButtonWidget", "name": "new button",
-                            "fields": {
-                                "rect": { "x": 245, "y": 1786, "height": 75, "width": 275 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\fenixs_button2",
-                                "hoveredFrame": 1,
-                                "tooltipString": "@cc001"
-                            }
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Weapons cost 10 cores, Armor/Jewelery/Quiver costs 25 cores",
+                                        "style": "$RecipeSettingsTextPink"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Weapon and Jewelery/Quiver results will be random, Armor will be based on armor type",
+                                        "style": "$RecipeSettingsTextPink"
+                                    }
+                                }
+                            ]
                         },
                         {
                             "type": "TableRowWidget", "name": "Gameplay Changes",
@@ -408,13 +414,16 @@
                             ]
                         },
                         {
-                            "type": "ButtonWidget", "name": "new button",
-                            "fields": {
-                                "rect": { "x": 30, "y": 1946, "height": 75, "width": 275 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\fenixs_button2",
-                                "hoveredFrame": 1,
-                                "tooltipString": "@cc002"
-                            }
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Enhancements do not apply to Jewelry",
+                                        "style": "$RecipeSettingsTextPink"
+                                    }
+                                }
+                            ]
                         },
                         {
                             "type": "TableRowWidget", "name": "Gameplay Changes",
@@ -450,13 +459,16 @@
                             ]
                         },
                         {
-                            "type": "ButtonWidget", "name": "new button",
-                            "fields": {
-                                "rect": { "x": 330, "y": 2346, "height": 75, "width": 275 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\fenixs_button2",
-                                "hoveredFrame": 1,
-                                "tooltipString": "@cc003"
-                            }
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Tokens required = Soul Tier (Tier 3 requires 3 tokens, etc)",
+                                        "style": "$RecipeSettingsTextPink"
+                                    }
+                                }
+                            ]
                         },
                         {
                             "type": "TableRowWidget", "name": "GC2",

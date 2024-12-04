@@ -4071,6 +4071,20 @@
     }
   },
   {
+    "spiritual_sentinel": {
+      "normal": "..//custom//spiritarmor4",
+      "uber": "..//custom//spiritarmor4",
+      "ultra": "..//custom//spiritarmor4"
+    }
+  },
+  {
+    "spiritual_warden": {
+      "normal": "..//custom//spiritarmor5",
+      "uber": "..//custom//spiritarmor5",
+      "ultra": "..//custom//spiritarmor5"
+    }
+  },
+  {
     "onikuma": {
       "normal": "voodoo_head/preserved_head",
       "uber": "voodoo_head/preserved_head",

@@ -90,13 +90,16 @@
                             ]
                         },
                         {
-                            "type": "ButtonWidget", "name": "new button",
-                            "fields": {
-                                "rect": { "x": 0, "y": 165, "height": 75, "width": 1550 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\fenixs_button2",
-                                "hoveredFrame": 0,
-                                "tooltipString": "@cc004"
-                            }
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Ramaladni's Gift Slot Limits: 1-Hand: 4, 2-Hand: 6",
+                                        "style": "$RecipeSettingsTextPink"
+                                    }
+                                }
+                            ]
                         },
                         {
                             "type": "TableRowWidget", "name": "GC2",
@@ -405,13 +408,16 @@
                             ]
                         },
                         {
-                            "type": "ButtonWidget", "name": "new button",
-                            "fields": {
-                                "rect": { "x": 0, "y": 2170, "height": 75, "width": 1050 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\fenixs_button2",
-                                "hoveredFrame": 0,
-                                "tooltipString": "@cc005"
-                            }
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Gold Bar Cost: Normal/Socketed - 2, Magic/Superior - 3, Rare - 4, Unique/Set - 5 ",
+                                        "style": "$RecipeSettingsTextPink"
+                                    }
+                                }
+                            ]
                         }
                     ]
                 }
