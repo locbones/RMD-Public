@@ -988,5 +988,8 @@
     "siegebeaststomp":"beaststomp",
     "tritower_1": "trifire",
     "tritower_2": "glacial_spike",
-    "tritower_3": "lightning_strike"
+    "tritower_3": "lightning_strike",
+    "snowball_air": "glacial_spike",
+    "snowball_ground": "ice_orb_explode",
+    "snowball_explode": "frost_nova"
 }

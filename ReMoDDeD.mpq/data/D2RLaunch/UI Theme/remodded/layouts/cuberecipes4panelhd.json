@@ -90,18 +90,6 @@
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "GC3",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC3T",
-                                    "fields": {
-                                        "text": "Ramaladni's Gift Slot Limits: 1-Hand: 4, 2-Hand: 6",
-                                        "style": "$RecipeSettingsTextPink"
-                                    }
-                                }
-                            ]
-                        },
-                        {
                             "type": "TableRowWidget", "name": "GC2",
                             "children": [
                                 {
@@ -121,6 +109,18 @@
                                     "fields": {
                                         "text": "10x Socket Remover = Premium Socket Remover (Keeps runes/jewels)",
                                         "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Ramaladni's Gift Slot Limits: 1-Hand: 4, 2-Hand: 6",
+                                        "style": "$RecipeSettingsTextPink"
                                     }
                                 }
                             ]
@@ -153,6 +153,18 @@
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
                                         "text": "Normal Item + 3x Rare Jewels = Rare Item (same ilvl)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Skull + Rare Item + Stone of Jordan = High Quality Rare Item",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -329,18 +341,6 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Boots + healthy breakfast = -10% FRW (repeatable)",
-                                        "style": "$RecipeSettingsText"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "GC2",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC2T",
-                                    "fields": {
                                         "text": "10x Magic Jewels = 1x Rare Jewel",
                                         "style": "$RecipeSettingsText"
                                     }
@@ -418,7 +418,7 @@
                                     }
                                 }
                             ]
-                        }
+                        },
                     ]
                 }
             ]

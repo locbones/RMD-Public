@@ -296,7 +296,7 @@
                         {
                             "type": "TextBoxWidget", "name": "ModName",
                             "fields": {
-                                "rect": { "x": 255, "y": 1970, "width": 400 },
+                                "rect": { "x": 255, "y": 1960, "width": 400 },
                                 "text":"ReMoDDeD",
                                 "style": {
                                     "fontColor": "$CharacterListDetailsColor",
@@ -309,7 +309,7 @@
                         {
                             "type": "TextBoxWidget", "name": "ModAuthors",
                             "fields": {
-                                "rect": { "x": 242, "y": 2030, "width": 400 },
+                                "rect": { "x": 230, "y": 2010, "width": 400 },
                                 "text":"(Beta - 0.9.9.8ZZ)",
                                 "style": {
                                     "fontColor": "$FontColorBonesyRed",
@@ -320,10 +320,23 @@
                             }
                         },
                         {
+                            "type": "TextBoxWidget", "name": "ModAuthors2",
+                            "fields": {
+                                "rect": { "x": 270, "y": 2050, "width": 400 },
+                                "text":"XMAS Edition",
+                                "style": {
+                                    "fontColor": "$FontColorPartyGreen",
+                                    "pointSize": "$XMediumPanelFontSize",
+                                    "spacing": "$ReducedSpacing",
+                                    "dropShadow": "$DefaultDropShadow"
+                                }
+                            }
+                        },
+                        {
                             "type": "TextBoxWidget", "name": "ModAuthors",
                             "fields": {
-                                "rect": { "x": 295, "y": 2070, "width": 400 },
-                                "text":"BUILD 120424",
+                                "rect": { "x": 300, "y": 2090, "width": 400 },
+                                "text":"BUILD 122424",
                                 "style": {
                                     "fontColor": "$FontColorGray",
                                     "pointSize": "$SmallPanelFontSize",
