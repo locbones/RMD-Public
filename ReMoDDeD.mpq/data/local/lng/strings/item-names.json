@@ -39234,5 +39234,22 @@
       "ruRU": "ÿcN(Кьюб один видит свой подарок)\n\nÿc5Похоже, что Эдырем снова тайком протаскивает импорт через таможню...",
       "zhCN": "ÿcN（Cube独自去看他的礼物）\n\nÿc5Edyrem似乎又偷偷进口过海关了......",
       "zhTW": "ÿcN（Cube獨自去看他的禮物）\n\nÿc5Edyrem似乎又偷偷進口過海關了......"
+    },
+	{
+      "id": 51243,
+      "Key": "Runeword174",
+     "enUS": "Alacrity",
+	 "zhTW": "歡快",
+	 "deDE": "Bereitwilligkeit",
+	 "esES": "Prontitud",
+	 "frFR": "Empressement",
+	 "itIT": "Alacrità",
+	 "koKR": "민활",
+	 "plPL": "Skwapliwość",
+	 "esMX": "Prontitud",
+	 "jaJP": "明晰さ",
+	 "ptBR": "Alacridade",
+	 "ruRU": "рвение",
+	 "zhCN": "欢快"
     }
 ]
