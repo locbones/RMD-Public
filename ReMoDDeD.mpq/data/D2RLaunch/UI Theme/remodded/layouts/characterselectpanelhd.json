@@ -322,8 +322,8 @@
                         {
                             "type": "TextBoxWidget", "name": "ModAuthors2",
                             "fields": {
-                                "rect": { "x": 270, "y": 2050, "width": 400 },
-                                "text":"XMAS Edition",
+                                "rect": { "x": 250, "y": 2050, "width": 400 },
+                                "text":"3YR Anniversary",
                                 "style": {
                                     "fontColor": "$FontColorPartyGreen",
                                     "pointSize": "$XMediumPanelFontSize",
@@ -336,7 +336,7 @@
                             "type": "TextBoxWidget", "name": "ModAuthors",
                             "fields": {
                                 "rect": { "x": 300, "y": 2090, "width": 400 },
-                                "text":"BUILD 122424",
+                                "text":"BUILD 011725",
                                 "style": {
                                     "fontColor": "$FontColorGray",
                                     "pointSize": "$SmallPanelFontSize",
