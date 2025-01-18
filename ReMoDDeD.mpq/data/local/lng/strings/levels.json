@@ -2,7 +2,7 @@
     {
         "id": 788,
         "Key": "Moo Moo Farm",
-        "enUS": "The Secret Cow Level",
+        "enUS": "The Corrupted Cow Level",
         "zhTW": "秘密乳牛關",
         "deDE": "Das Geheime Kuhlevel",
         "esES": "Nivel Secreto de las Vacas",
@@ -1226,7 +1226,7 @@
     {
         "id": 860,
         "Key": "To The Moo Moo Farm",
-        "enUS": "To The Secret Cow Level",
+        "enUS": "To The Corrupted Cow Level",
         "zhTW": "前往秘密乳牛關",
         "deDE": "Zum Geheimen Kuhlevel",
         "esES": "Al Nivel Secreto de las Vacas",

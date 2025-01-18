@@ -791,6 +791,13 @@
     }
   },
   {
+    "wizardspike_fused": {
+      "normal": "glove/light_gauntlets",
+      "uber": "glove/light_gauntlets",
+      "ultra": "glove/light_gauntlets"
+    }
+  },
+  {
     "frostburn": {
       "normal": "glove/gaunlets_h",
       "uber": "glove/gaunlets_h",
@@ -1848,6 +1855,13 @@
     }
   },
   {
+    "string_of_ears_bugged": {
+      "normal": "belt/sash_l",
+      "uber": "belt/sash_l",
+      "ultra": "belt/sash_l"
+    }
+  },
+  {
     "razortail": {
       "normal": "belt/light_belt",
       "uber": "belt/light_belt",
@@ -1883,6 +1897,13 @@
     }
   },
   {
+    "harlequin_crest_legacy": {
+      "normal": "helmet/cap_hat",
+      "uber": "helmet/cap_hat",
+      "ultra": "helmet/cap_hat"
+    }
+  },
+  {
     "veil_of_steel": {
       "normal": "helmet/duskdeep",
       "uber": "helmet/duskdeep",
@@ -1898,6 +1919,13 @@
   },
   {
     "arkaines_valor": {
+      "normal": "armor/splint_mail",
+      "uber": "armor/splint_mail",
+      "ultra": "armor/splint_mail"
+    }
+  },
+  {
+    "arkaines_valor_bugged": {
       "normal": "armor/splint_mail",
       "uber": "armor/splint_mail",
       "ultra": "armor/splint_mail"
@@ -2010,6 +2038,13 @@
   },
   {
     "the_cats_eye": {
+      "normal": "amulet/amulet",
+      "uber": "amulet/amulet",
+      "ultra": "amulet/amulet"
+    }
+  },
+  {
+    "the_cats_eye_legacy": {
       "normal": "amulet/amulet",
       "uber": "amulet/amulet",
       "ultra": "amulet/amulet"
@@ -4071,20 +4106,6 @@
     }
   },
   {
-    "spiritual_sentinel": {
-      "normal": "..//custom//spiritarmor4",
-      "uber": "..//custom//spiritarmor4",
-      "ultra": "..//custom//spiritarmor4"
-    }
-  },
-  {
-    "spiritual_warden": {
-      "normal": "..//custom//spiritarmor5",
-      "uber": "..//custom//spiritarmor5",
-      "ultra": "..//custom//spiritarmor5"
-    }
-  },
-  {
     "onikuma": {
       "normal": "voodoo_head/preserved_head",
       "uber": "voodoo_head/preserved_head",
@@ -4516,6 +4537,20 @@
       "normal": "..//custom/prismaticfacet",
       "uber": "..//custom/prismaticfacet",
       "ultra": "..//custom/prismaticfacet"
+    }
+  },
+  {
+    "spiritual_sentinel": {
+      "normal": "..//custom//spiritarmor4",
+      "uber": "..//custom//spiritarmor4",
+      "ultra": "..//custom//spiritarmor4"
+    }
+  },
+  {
+    "spiritual_warden": {
+      "normal": "..//custom//spiritarmor5",
+      "uber": "..//custom//spiritarmor5",
+      "ultra": "..//custom//spiritarmor5"
     }
   }
 ]
