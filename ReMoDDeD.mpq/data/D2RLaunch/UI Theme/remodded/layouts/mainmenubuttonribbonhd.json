@@ -105,7 +105,7 @@
                     "fields": {
                         "rect": { "x": 75, "y": 540 },
                         "filename": "..\\..\\..\\ReMoDDeD\\MainMenu\\FE_Button2",
-                        "textString": "Mod Info",
+                        "textString": "@ModInfo",
                         "onClickMessage": "PanelManager:OpenPanel:RemoddedInfoPanel",
                         "textColor": "$FontColorGoldYellow",
                         "focusIndicatorFilename": "..\\..\\..\\ReMoDDeD\\Controller\\MMS_Hover",

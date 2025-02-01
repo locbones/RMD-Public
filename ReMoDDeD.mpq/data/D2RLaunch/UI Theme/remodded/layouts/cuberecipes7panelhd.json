@@ -174,6 +174,8 @@
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------*/
+
+
                         {
                             "type": "TableRowWidget", "name": "Gameplay Changes",
                             "children": [
@@ -474,6 +476,57 @@
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------*/
+{
+    "type": "TableRowWidget", "name": "Gameplay Changes",
+    "children": [
+        {
+            "type": "TextBoxWidget", "name": "GameplayChangesT",
+            "fields": {
+                "rect": { "x": 10, "y": -20},
+                "text": "@bp19",
+                "style": "$RWInfoFB"
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "GameplayChangesT",
+            "fields": {
+                "rect": { "y": -20},
+                "text": " ???",
+                "style": "$RWInfo"
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "GameplayChangesT",
+            "fields": {
+                "rect": { "y": -20},
+                "text": " ???",
+                "style": "$RWInfo"
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "GameplayChangesT",
+            "fields": {
+                "rect": { "y": -20},
+                "text": " ???",
+                "style": "$RWInfo"
+            }
+        }
+    ]
+},
+{
+    "type": "ButtonWidget", "name": "AdvancedStats",
+    "fields": {
+        "rect": { "x": -40, "y": 720 },
+        "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+        "hoveredFrame": 1,
+        "tooltipString": "@bp19d"
+    }
+},
+/*--------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------*/
+
                         {
                             "type": "TableRowWidget", "name": "Gameplay Changes",
                             "children": [
@@ -514,7 +567,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 720 },
+                                "rect": { "x": -40, "y": 800 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@bp06d"
@@ -564,7 +617,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 800 },
+                                "rect": { "x": -40, "y": 880 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@bp01d"
@@ -614,7 +667,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 880 },
+                                "rect": { "x": -40, "y": 960 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@bp16d"
@@ -664,7 +717,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 960 },
+                                "rect": { "x": -40, "y": 1040 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@bp11d"
@@ -714,7 +767,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 1040 },
+                                "rect": { "x": -40, "y": 1120 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@bp05d"
@@ -764,7 +817,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 1120 },
+                                "rect": { "x": -40, "y": 1200 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@bp17d"
@@ -814,7 +867,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 1200 },
+                                "rect": { "x": -40, "y": 1280 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@bp14d"
@@ -864,7 +917,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 1280 },
+                                "rect": { "x": -40, "y": 1360 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@bp03d"
@@ -914,7 +967,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 1360 },
+                                "rect": { "x": -40, "y": 1440 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@bp02d"
@@ -964,7 +1017,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 1440 },
+                                "rect": { "x": -40, "y": 1520 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@bp07d"
