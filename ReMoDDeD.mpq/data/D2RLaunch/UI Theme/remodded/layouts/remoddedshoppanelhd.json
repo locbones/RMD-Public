@@ -93,7 +93,7 @@
                                 "acceptsEscKeyEverywhere": true
                             }
                         },
-                        /*
+                        
                         {
                             "type": "ButtonWidget", "name": "PlayButton",
                             "fields": {
@@ -102,11 +102,11 @@
                                 "hoveredFrame": 1,
                                 "onClickMessage": "PanelManager:OpenPanel:ShopPreviewPanel",
                                 "tooltipString": "Play Preview",
-                                "sound": "cursor_close_window_hd",
+                                "sound": "item_gotem_hd",
                                 "acceptsEscKeyEverywhere": true
                             }
                         }
-                        */
+                        
                     ]
                 }
             ]

@@ -130,6 +130,45 @@
                                     "type": "ScrollControllerWidget", "name": "ScrollBar"
                                 }
                             ]
+                        },
+                        {
+                            "type": "TextBoxWidget", "name": "ModName",
+                            "fields": {
+                                "rect": { "x": 255, "y": 1970, "width": 400 },
+                                "text":"ReMoDDeD",
+                                "style": {
+                                    "fontColor": "$CharacterListDetailsColor",
+                                    "pointSize": "$XLargeFontSize",
+                                    "spacing": "$ReducedSpacing",
+                                    "dropShadow": "$DefaultDropShadow"
+                                }
+                            }
+                        },
+                        {
+                            "type": "TextBoxWidget", "name": "ModAuthors",
+                            "fields": {
+                                "rect": { "x": 255, "y": 2030, "width": 400 },
+                                "text":"(Beta - 0.9.9.9)",
+                                "style": {
+                                    "fontColor": "$FontColorBonesyRed",
+                                    "pointSize": "$XMediumPanelFontSize",
+                                    "spacing": "$ReducedSpacing",
+                                    "dropShadow": "$DefaultDropShadow"
+                                }
+                            }
+                        },
+                        {
+                            "type": "TextBoxWidget", "name": "ModAuthors",
+                            "fields": {
+                                "rect": { "x": 300, "y": 2080, "width": 400 },
+                                "text":"BUILD 020925",
+                                "style": {
+                                    "fontColor": "$FontColorGray",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "spacing": "$ReducedSpacing",
+                                    "dropShadow": "$DefaultDropShadow"
+                                }
+                            }
                         }
                     ]
                 }

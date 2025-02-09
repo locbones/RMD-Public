@@ -1,79 +1,240 @@
-﻿*ReMoDDeD 0.9.9.8A
+﻿*ReMoDDeD 0.9.9.9
 Developed by Bonesy
-
-*Guide Guru
+*Community Manager
 XanKreigur
-
-*Database Demon
-dadilydoo
-
+*Lead Moderator
+elr
 *Bot Brainiac
 RedDeadBull
 
-*Caged Crusader
-elr
-
-*Missing Moderator
-Blackheart
+*Chat Legends
+PlausibleSheep
+Cogy the Tongolem
+Vivasen
+Stacatomamba
 
 *Patreon Hall of Fame:
-0perfection
-aehron
-akreao
-akumakumattv
-antaroadume
-antidel
-awnetu
-beeranon
-blackheart0446
-boianst
-celestialrayss
-chev96_15819
+0Perfection
+ac
+Adrien Parrot
+Aehron
+Aidan Nutting
+Alan Horton
+Alex Pool
+Alexander La Monaca
+Alexander Velez
+Alvaro Penaranda
+Andrew Scarborough
+ant milk
+Antidel
+Anxiety Crew Gaming
+Arciks
+AuburnFury
+Audrius
+Austin W
+Awnetu
+B Gu
+Bear Bear
+Ben D-K
+Ben Stapylton
+Bill Clary
+BimBimBop
+Bogdan Bulai
+Brad Erickson
+Brad Wellman
+Brandon Dean
+Brandon King
+Brendan Fisher
+Brennan Clouden
+Caleb Hunter
+Cameron Tremain
+C-Bud
+Chancellor Crust
+Chris Heath
+Christopher Pierce
+Clayton Ashley
+Colored Spud
+Connor Weatherford
+coolerthancoke 
+corey malko
+Craigan
 dadilydoo
-disemboweledsilverback
-distractingcat
-draculaine.
+Dan Danita
+Dan Nielsen
+Daniel Caruso
+Daniel Elston
+Danny Gray
+Darren Flynn
+David J. Prout
+David Norris
+David Sharpe
+Devon Melvin
+Dominic Parsons
+dominik maric
+Donkeylover
+donny 
+Doug Snider
+Doughy Boxx
+Drew Richardson
+Dronkie
+Dubé-criss 
 elr
-evelenement
-fimcro
-gnparty
-hlthybrkfst
-iliketurtles7092
-infinityb12
-jackpuddy
-jawndablah
-kasmov
-kentonftw
-konigstiger28
-ktz.7
-latedozer
-Le Dancing Mad
-lengjan
-manumanoliy0
-mr.maric
-mstanchev
-pramitizz
-rathan81
-raymond1910
-reddeadbull
-ricola3d
-sadisticmgt
-sdo0502
-skadii_
-stealthbot
-sukami
-superdoughboy4
-thebannedheretic
-thebutcher8904
-thrashergx
-trueflipmode
-turbostrike
-vallax__
-werkommtjetzt
-xankreigur
-xerenity6924
-xismylove
-zombobrain
+eric campbell
+Eric Farmer
+Eric Ho
+Ethan McCloud
+evan cote
+Evan J Becker
+Fenix
+Fimcro 07
+FMDavetheone
+G
+G_N_Party
+Gabriel
+Galygious
+GetPlayed TV
+Ghorgaz
+Ghost
+Giacomo Nicolini
+Gorn Blackheart
+Grandes
+Gregory Anderson
+Hans Rosenthal
+Hlthy Brkfst
+Horizon
+Hrabe Von Labilon
+Hubas
+HylianMurr
+Ian D
+J C
+Jacob Henderson
+Jacob Hollandsworth
+James Lassiter
+James McReynolds`
+james smith
+Jay Nichols
+Jay Owen
+Jeff Allen
+Jeremy
+Jeremy Klauber
+jesper jensen
+Joey Barnett
+Johan Cardel
+John LeBlanc
+John Vilhelmsen
+Jón Sveinsson
+Josh Dial
+Josh Fried
+Joshua A Burton
+Josko Trendevski
+Journey FX
+JsJustace
+Justin Nixon
+Kasmov 
+Kentonftw
+Kevin Love
+Krakkenox
+Kryštof Santer
+Kstolen Kstolen
+ktz
+kurec
+Latedozer
+LAVILLE Fabien
+Leland Guillemin
+Leopold Schütz
+LeOsTyLe
+Lille G.
+Littleman FTW
+Loki Doozer
+Lord Draic
+luukaner
+M H
+Manbutter
+Manuel Pereyra 
+Marcel Kovačević
+Marcus
+Mario Krese
+Martin Kostov
+mathomas vie
+Matthew Romaniuk
+Matthew Trask
+Michael Eber
+Michael Preuss
+Michael Rill
+Michael Stenger
+Mike Barrett
+Minh Nguyen
+Momchil Stanchev
+Morten Hoffgård
+MrSpock 
+Nasar
+Ndy Born
+Necroxus
+Neil Gordon
+Nick Kresse
+Nicklas Madsen
+Nicolas Reynoso
+Niels Steurer
+Nopesorry
+Patrick Wree
+Pawel Nozynski
+Peter Davey
+peychu ramos
+Piotr Kozdroń
+Precell
+qingk
+Quý Đinh Văn
+Reads And Respawns
+Reggie Ricks
+Richard Heath
+Robert 
+Ryan Turner
+SETH THOMAS ACKERMAN
+shadowbroker
+Shawn Tucker
+Simon Koßmann
+SLEDGE HAMMER
+SoulForge
+Spencer Wesseldine
+StenMarch
+Steven Mitchler
+Steven Thompson
+Sukami
+Sven Rauber
+Swift721
+t4n1s
+TCs 
+ThaDude
+The art is EZ
+The Dancing Mad
+Tho K
+Thomas Schalk
+ThrasherGX
+Tingdere
+tommy
+toxicsicle
+Travis Deal
+Trevor P
+Turbostrike 
+Tye Ormiston
+Vallax
+Varo360
+VaultboyGary
+Vibes Funeral
+Vincent Barrière
+Virus
+Will   Shepherd
+William Minor
+Wisdom Kim
+wojtek skinderowicz
+XanKreigur
+Zachary Pulley
+ZomboBrain
+Ивелин Василев
+Теодор
+김 도연
+시키 지
+江
 .
 
 *Special Thanks To:
@@ -84,4 +245,6 @@ The Haters
 DannyisGreat
 kain_abel666
 Firehawk
+dadilydoo
+DSG_Wired
 .
