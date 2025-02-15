@@ -2,7 +2,7 @@
     "type": "VideoOptionsPanel", "name": "CubeRecipes3Panel",
     "fields": {
         "priority": 9003,
-        "rect": "$OptionsPanelRect",
+        "rect": "$OptionsPanelRectRMD",
         "anchor": { "x": 0.5 },
         "applySettingsImmediately": true
     },
@@ -12,7 +12,7 @@
             "fields": {
                 "rect": "$OptionsScrollBarBackgroundRect",
                 "anchor": { "x": 1.0 },
-                "filename": "PauseMenu\\VerticalScroll"
+                "filename": "..\\..\\..\\ReMoDDeD\\Info\\ScrollBG"
             },
             "children": [
                 {
@@ -22,7 +22,7 @@
                         "anchor": { "x": 1.0 },
                         "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
                         "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
-                        "barFilepath": "PauseMenu\\VerticalIndicator",
+                        "barFilepath": "..\\..\\..\\ReMoDDeD\\SkullScroll",
                         "viewName": "ScrollView",
                         "wheelScrollSound": "cursor_scroll_hd",
                         "buttonScrollSound": "cursor_scroll_hd"
@@ -58,7 +58,7 @@
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
                                                 "rect": "$CubeOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Info\\Divider"
                                             }
                                         }
                                     ]
@@ -131,82 +131,13 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Storage Bag + Rune Points Converter = Convert between low/mid/high points",
+                                        "text": "Storage Bag + Rune Points Converter = Convert between low/mid/high/ultra points",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
                             ]
                         },
-                        {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "text": "Essence Rewards",
-                                        "style": "$StyleSettingsTitle"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": "$CubeOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "GC2",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC2T",
-                                    "fields": {
-                                        "text": "Storage Bag + Twisted Essence of Suffering = 50% chance of 5-10 Gems",
-                                        "style": "$RecipeSettingsText"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "GC2",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC2T",
-                                    "fields": {
-                                        "text": "Storage Bag + Charged Essense of Hatred = 50% chance of 1-3 High Rune Points",
-                                        "style": "$RecipeSettingsText"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "GC2",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC2T",
-                                    "fields": {
-                                        "text": "Storage Bag + Burning Essence of Terror = 50% chance of 1-3 Set Cores",
-                                        "style": "$RecipeSettingsText"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "GC2",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC2T",
-                                    "fields": {
-                                        "text": "Storage Bag + Festering Essence of Destruction = 50% chance of 1-3 Unique Cores",
-                                        "style": "$RecipeSettingsText"
-                                    }
-                                }
-                            ]
-                        },
-                        {
+						{
                             "type": "TableRowWidget", "name": "Gameplay Changes",
                             "children": [
                                 {
@@ -220,7 +151,7 @@
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
                                                 "rect": "$CubeOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Info\\Divider"
                                             }
                                         }
                                     ]
@@ -245,7 +176,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
-                                        "text": "Equipment (Any) + Color Dye = Dyed Item (World View Only)",
+                                        "text": "Equipment (any) + Color Dye = Dyed Item (World View Only)",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -269,6 +200,75 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
+                                        "text": "Essence Rewards",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Info\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Storage Bag + Twisted Essence of Suffering = Storage Bag (+4-7 Gems)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Storage Bag + Charged Essense of Hatred = Storage Bag (+1-3 High Rune Points)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Storage Bag + Burning Essence of Terror = Storage Bag (+3-6 Set Cores)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Storage Bag + Festering Essence of Destruction = Storage Bag (+3-6 Unique Cores)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
                                         "text": "Blood Contracts",
                                         "style": "$StyleSettingsTitle"
                                     },
@@ -277,7 +277,7 @@
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
                                                 "rect": "$CubeOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Info\\Divider"
                                             }
                                         }
                                     ]
@@ -290,7 +290,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Storage Bag + 1-50 Unique Items = +1-50 Unique Cores Extracted",
+                                        "text": "Storage Bag + 1-50 Unique Items = +1-50 Unique Cores Deposited",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -302,7 +302,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Storage Bag + 1-50 Set Items = +1-50 Set Cores Extracted",
+                                        "text": "Storage Bag + Hellfire Torch = +5-7 Unique Cores Deposited",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -314,7 +314,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Storage Bag (10 Unique Cores) + Item + Magic Ring = Blood Contract (Unique)",
+                                        "text": "Storage Bag + Annihilus = +3-5 Unique Cores Deposited",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -326,8 +326,56 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Storage Bag (10 Set Cores) + Item + Magic Amulet = Blood Contract (Set)",
+                                        "text": "Storage Bag + 1-50 Set Items = +1-50 Set Cores Deposited",
                                         "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Storage Bag (XX Unique Cores) + Item + Thawing Potion = Blood Contract (Unique)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Storage Bag (XX Set Cores) + Item + Antidote Potion = Blood Contract (Set)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Weapons cost 10 cores, Armor/Jewelery/Quiver costs 25 cores",
+                                        "style": "$RecipeSettingsTextPink"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Weapon and Jewelery/Quiver results will be random, Armor will be based on armor type",
+                                        "style": "$RecipeSettingsTextPink"
                                     }
                                 }
                             ]
@@ -346,7 +394,7 @@
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
                                                 "rect": "$CubeOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Info\\Divider"
                                             }
                                         }
                                     ]
@@ -371,19 +419,19 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Enhancements do not apply to Jewelry or Normal/Runeword Quality Items",
-                                        "style": "$RecipeSettingsTextFlatBlue"
+                                        "text": "Enhancements do not apply to Jewelry",
+                                        "style": "$RecipeSettingsTextPink"
                                     }
                                 }
                             ]
                         },
-                        {
+						{
                             "type": "TableRowWidget", "name": "Gameplay Changes",
                             "children": [
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "text": "Soul Summons (Coming Soon)",
+                                        "text": "Soul Summons",
                                         "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
@@ -391,7 +439,7 @@
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
                                                 "rect": "$CubeOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Info\\Divider"
                                             }
                                         }
                                     ]
@@ -416,6 +464,18 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
+                                        "text": "Tokens required = Soul Tier (Tier 3 requires 3 tokens, etc)",
+                                        "style": "$RecipeSettingsTextPink"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
                                         "text": "Beacon of Hope (100 Shards) + Token Forger = +1 Class Soul Token",
                                         "style": "$RecipeSettingsText"
                                     }
@@ -428,7 +488,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Beacon of Hope + Expansion Token(s) = +1 Soul Summon on Beacon of Hope",
+                                        "text": "Class Soul Token Alone = Token of Next Class",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -440,7 +500,40 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "All 7 Class Tokens = +1 Expansion Token",
+                                        "text": "Beacon of Hope + Class Token(s) = Soul Summon Activated",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+						{
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Mapping",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Info\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Map Alone = Open portal to specified level",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -452,7 +545,67 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Beacon of Hope + Expansion Token(s) + Class Token = +1 Soul Summon on Beacon of Hope",
+                                        "text": "- Must be in Hell Harrogath to use maps",
+                                        "style": "$RecipeSettingsTextPink"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "- Only one map may be active and held at a time",
+                                        "style": "$RecipeSettingsTextPink"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "- Map must be in your inventory to take effect",
+                                        "style": "$RecipeSettingsTextPink"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "- Maps only drop in Hell Terror Zones and always drop as tier 1",
+                                        "style": "$RecipeSettingsTextPink"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "-Map Upgrades-",
+                                        "style": "$RecipeSettingsTextRed"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "3x Surveyor's Scribbles = Random selection of the 1 of the following items:",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -464,8 +617,68 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Tokens required = Soul Summon or Soul Level + 1",
-                                        "style": "$RecipeSettingsTextFlatBlue"
+                                        "text": "- Parchment of Potency",
+                                        "style": "$RecipeSettingsTextPink"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "- Quill of Quality",
+                                        "style": "$RecipeSettingsTextPink"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "- Ink of Insanity",
+                                        "style": "$RecipeSettingsTextPink"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Map + Parchment of Potency = Upgraded Map Tier (Rerolls Stats)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Map (Magic) + Quill of Quality = Map (Rare)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Map + Ink of Insanity = Re-rolled Map",
+                                        "style": "$RecipeSettingsText"
                                     }
                                 }
                             ]
@@ -484,7 +697,7 @@
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
                                                 "rect": "$CubeOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Info\\Divider"
                                             }
                                         }
                                     ]
@@ -521,8 +734,161 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Storage Bag (3 Jewels) + Unique/Set Item + Identify Scroll = Re-Rolled Unique/Set",
+                                        "text": "Storage Bag (5 Rare Jewels) + Unique/Set Item + Identify Scroll = Re-Rolled Unique/Set",
                                         "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Forsaken Pact Set Item + 3x Rainbow Facets = Re-rolled Item",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "2x Keys of Terror = 1x Key of Hate",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "2x Keys of Hate = 1x Key of Destruction",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "2x Keys of Destruction = 1x Key of Terror",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "3x Same Codex = 1x Codex (Next in Sequence)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "1x Annihilus + 1x Standard of Heroes = Re-Rolled Annihilus",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "1x Hellfire Torch + 1x Standard of Heroes = Re-Rolled Hellfire Torch (Randomized Class)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Demon Tempering",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Info\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "1x Sacred Unique + 1x Scroll of Belial = 1x Temper-Ready Unique",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "1x Temper-Ready Unique + 1x Body Part = 1x Demon-Tempered Unique",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "1x Demon-Tempered Unique + 1x Mara's Kaleidoscope = Dismantle (Generate Original Unique)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Sacred Unique refers to any unique item chosen for this system (community discovery required)",
+                                        "style": "$RecipeSettingsTextPink"
                                     }
                                 }
                             ]

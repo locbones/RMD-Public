@@ -10,7 +10,7 @@
             "type": "ImageWidget", "name": "Background",
             "fields": {
                 "rect": { "x": 120, "y": 445 },
-                "filename": "..\\..\\..\\ReMoDDeD\\AdvText"
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Character\\AdvText"
             }
         },
         {
@@ -32,7 +32,7 @@
                 "rect": { "x": 1177, "y": 442, "width": 36, "height": 704 },
                 "upArrowFilepath": "",
                 "downArrowFilepath": "",
-                "barFilepath": "..\\..\\..\\ReMoDDeD\\SkullScroll",
+                "barFilepath": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\SkullScroll",
                 "viewName": "ListContainer",
                 "buttonScrollAmount": 90,
                 "focusIndicatorVisible": false

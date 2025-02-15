@@ -26,14 +26,14 @@
             "type": "ImageWidget", "name": "background",
             "fields": {
                 "rect": { "y": -205 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Vendors"
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Vendor\\VendorBG_R"
             }
         },
         {
             "type": "ImageWidget", "name": "background_repair",
             "fields": {
                 "rect": { "y": -205 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Vendors"
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Vendor\\VendorBG_R"
             }
         },
         {
@@ -48,7 +48,7 @@
             "fields": {
                 "rect": { "x": 95, "y": -38 },
                 "tabCount": 4,
-                "filename": "..\\..\\..\\ReMoDDeD\\Stash_TabsV",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Stash\\Stash_TabsV",
                 "inactiveFrames": [ 0, 0, 0, 0 ],
                 "activeFrames": [ 1, 1, 1, 1 ],
                 "textStrings": [ "@strBSArmor", "@strBSWeapons", "@strBSWeapons", "@strBSMisc" ],

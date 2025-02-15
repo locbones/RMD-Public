@@ -12,7 +12,7 @@
             "fields": {
                 "rect": "$OptionsScrollBarBackgroundRect",
                 "anchor": { "x": 1.0 },
-                "filename": "PauseMenu\\VerticalScroll"
+                "filename": "..\\..\\..\\ReMoDDeD\\Info\\ScrollBG"
             },
             "children": [
                 {
@@ -22,7 +22,7 @@
                         "anchor": { "x": 1.0 },
                         "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
                         "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
-                        "barFilepath": "PauseMenu\\VerticalIndicator",
+                        "barFilepath": "..\\..\\..\\ReMoDDeD\\SkullScroll",
                         "viewName": "ScrollView",
                         "wheelScrollSound": "cursor_scroll_hd",
                         "buttonScrollSound": "cursor_scroll_hd"
@@ -73,7 +73,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "x": 100, "y": 30 },
-                                        "text": " - Randomly generated dungeon with 50 levels and 50 sub-levels",
+                                        "text": " - Randomly generated dungeon with 25 levels and 25 sub-levels",
                                         "style": "$StyleSettingsText"
                                     },
                                     "children": [
@@ -95,7 +95,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "x": 100, "y": 20 },
-                                        "text": " - No Teleport. No Waypoints. Only the Trial of Torment before you.",
+                                        "text": " - Only line of sight Teleport. No Waypoints. Only the Trial of Torment before you.",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -108,7 +108,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "x": 100, "y": 10 },
-                                        "text": " - Entrance is accessible via the World Stone level in the top left after Baal",
+                                        "text": " - Entrance is accessible via the Worldstone Chamber after defeating Baal. Near the top.",
                                         "style": "$StyleSettingsText"
                                     },
                                     "children": [

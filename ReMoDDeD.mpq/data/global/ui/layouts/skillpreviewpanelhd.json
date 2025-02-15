@@ -28,7 +28,7 @@
                         {
                             "type": "ImageWidget", "name": "Background",
                             "fields": {
-                                "filename": "..\\..\\..\\ReMoDDeD\\Info\\InfoBG"
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\InfoBG"
                             }
                         },
                         {
@@ -43,7 +43,7 @@
                             "type": "ButtonWidget", "name": "CloseButton",
                             "fields": {
                                 "rect": { "x": 1798, "y": 68 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\Exit",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\Exit",
                                 "hoveredFrame": 3,
                                 "onClickMessage": "PanelManager:ClosePanel:SkillPreviewPanel",
                                 "tooltipString": "@strClose",
@@ -73,7 +73,7 @@
                 "tabPadding": { "x": -1, "y": 0 },
                 "unavailableTabsLeaveGaps": false,
                 "tabSizingMethod": "fixedCenter",
-                "filename": "..\\..\\..\\ReMoDDeD\\Info\\Tabs",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Tabs",
                 "inactiveFrames": [ 1, 1, 1, 1, 1, 1, 1, 1 ],
                 "activeFrames": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
                 "activeTextColor": "$TabsActiveTextColor",

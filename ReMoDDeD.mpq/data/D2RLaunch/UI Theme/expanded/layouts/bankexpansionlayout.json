@@ -46,12 +46,12 @@
         {
             "type": "TabBarWidget", "name": "BankTabs",
             "fields": {
-                "tabCount": 8,
+                "tabCount": 7,
                 "filename": "PANEL\\buyselltabs",
                 "inactiveFrames": [ 4, 5, 6, 7],
                 "activeFrames": [ 0, 1, 2, 3 ],
                 "disabledFrames": [-1, 5 ],
-                "textStrings": [ "@personal", "@shared", "@shared", "@shared", "@shared", "@shared", "@shared", "@shared"],
+                "textStrings": [ "@personal", "@shared", "@shared", "@shared", "@personal", "@personal", "@personal"],
                 "tabSize": { "x": 79, "y": 24 },
                 "tabPadding": { "x": 1, "y": 0 },
                 "onSwitchTabMessage": "BankPanelMessage:SelectTab"

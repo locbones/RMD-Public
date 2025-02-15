@@ -2,7 +2,7 @@
     "type": "VideoOptionsPanel", "name": "CubeRecipes5Panel",
     "fields": {
         "priority": 9003,
-        "rect": "$OptionsPanelRect",
+        "rect": "$OptionsPanelRectRMD",
         "anchor": { "x": 0.5 },
         "applySettingsImmediately": true
     },
@@ -12,7 +12,7 @@
             "fields": {
                 "rect": "$OptionsScrollBarBackgroundRect",
                 "anchor": { "x": 1.0 },
-                "filename": "PauseMenu\\VerticalScroll"
+                "filename": "..\\..\\..\\ReMoDDeD\\Info\\ScrollBG"
             },
             "children": [
                 {
@@ -22,7 +22,7 @@
                         "anchor": { "x": 1.0 },
                         "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
                         "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
-                        "barFilepath": "PauseMenu\\VerticalIndicator",
+                        "barFilepath": "..\\..\\..\\ReMoDDeD\\SkullScroll",
                         "viewName": "ScrollView",
                         "wheelScrollSound": "cursor_scroll_hd",
                         "buttonScrollSound": "cursor_scroll_hd"
@@ -58,7 +58,7 @@
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
                                                 "rect": "$CubeOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Info\\Divider"
                                             }
                                         }
                                     ]
@@ -87,7 +87,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Magic Full Helm + Jewel + Ith + Sapphire = Helm",
+                                        "text": "Magic Helm + Jewel + Ith + Sapphire = Helm",
                                         "style": "$RecipeSettingsText"
                                     }
                                 },
@@ -103,7 +103,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "Thorns:+3-7", "5% CtC L4 Frost Nova when hit", "+25-50 Defense vs Missiles" ],
+                                            "Life/Mana when hit: +4-8", "10% CtC L6 Frost Nova when hit", "+50-100 Defense" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -122,7 +122,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Magic Chain Boots + Jewel + Ral + Sapphire = Boots",
+                                        "text": "Magic Boots + Jewel + Ral + Sapphire = Boots",
                                         "style": "$RecipeSettingsText"
                                     }
                                 },
@@ -138,7 +138,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "Thorns:+3-7", "5% CtC L4 Frost Nova when hit", "+25-60 Defense vs Melee" ],
+                                            "Life/Mana when hit: +4-8", "10% CtC L6 Frost Nova when hit", "+50-100 Defense" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -157,7 +157,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Magic Chain Gloves + Jewel + Ort + Sapphire = Gloves",
+                                        "text": "Magic Gloves + Jewel + Ort + Sapphire = Gloves",
                                         "style": "$RecipeSettingsText"
                                     }
                                 },
@@ -173,7 +173,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "Thorns:+3-7", "5% CtC L4 Frost Nova when hit", "Knockback" ],
+                                            "Life/Mana when hit: +4-8", "10% CtC L6 Frost Nova when hit", "Knockback" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -192,7 +192,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Magic Heavy Belt + Jewel + Tal + Sapphire = Belt",
+                                        "text": "Magic Belt + Jewel + Tal + Sapphire = Belt",
                                         "style": "$RecipeSettingsText"
                                     }
                                 },
@@ -208,7 +208,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "Thorns:+3-7 Damage", "5% CtC L4 Frost Nova when hit", "5-10% Damage to Mana" ],
+                                            "Life/Mana when hit: +4-8", "10% CtC L6 Frost Nova when hit", "Hit Blinds Target +6" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -227,7 +227,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Magic Gothic Shield + Jewel + Eth + Sapphire = Shield",
+                                        "text": "Magic Shield + Jewel + Eth + Sapphire = Shield",
                                         "style": "$RecipeSettingsText"
                                     }
                                 },
@@ -243,7 +243,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "Thorns:+3-10", "5% CtC L4 Frost Nova when hit", "5-10% Block Chance" ],
+                                            "Life/Mana when hit: +6-10", "10% CtC L6 Frost Nova when hit", "+10-20% Chance to Block" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -262,7 +262,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Magic Armor + Jewel + Nef + Sapphire = Body",
+                                        "text": "Magic Torso Armor + Jewel + Nef + Sapphire = Body",
                                         "style": "$RecipeSettingsText"
                                     }
                                 },
@@ -278,7 +278,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "Thorns:+3-10 Damage", "5% CtC L4 Frost Nova when hit", "10-20% Faster Hit Recovery" ],
+                                            "Life/Mana when hit: +6-10", "10% CtC L6 Frost Nova when hit", "+15-25% Faster Hit Recovery" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -313,7 +313,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "Thorns:+3-10", "5% CtC L4 Frost Nova when hit", "5-15% Chance of Monster Flee" ],
+                                            "Life/Mana when hit: +6-10", "10% CtC L6 Frost Nova when hit", "+10-20% Hit Causes Monsters to Flee" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -348,7 +348,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "Thorns:+3-6", "5% CtC L4 Frost Nova when hit", "1-5 Dexterity" ],
+                                            "Life/Mana when hit: +5-6", "10% CtC L6 Frost Nova when hit", "+5-10% Bonus to Dexterity" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -367,7 +367,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Magic Blunt Weapon + Jewel + Tir + Sapphire = Weapon",
+                                        "text": "Magic Weapon + Jewel + Tir + Sapphire = Weapon",
                                         "style": "$RecipeSettingsText"
                                     }
                                 },
@@ -383,7 +383,42 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "Thorns:+3-7", "5% CtC L4 Frost Nova when hit", "35-60% Enhanced Damage" ],
+                                            "Life/Mana when hit: +4-10", "10% CtC L6 Frost Nova when hit", "+61-100% Enhanced Damage", "+1-3 Combat Power" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "These stats will be applied in addition to your randomly rolled stats",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Magic Arrows + Jewel + Tir + Sapphire = Arrows",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$CubeOptionsDropDownRect",
+                                        "background/rect": "$CubeOptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ 
+                                            "Life/Mana when hit: +4-6", "10% CtC L6 Frost Nova when hit", "+61-100% Enhanced Damage" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -410,7 +445,7 @@
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
                                                 "rect": "$CubeOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Info\\Divider"
                                             }
                                         }
                                     ]
@@ -439,7 +474,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "1-4% Life Leech", "10-20 Life", "5-10% Deadly Strike" ],
+                                            "4-7% Life Leech", "+8-15% Maximum Life", "+10-15% Deadly Strike" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -458,7 +493,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Magic Light Plated Boots + Jewel + Eth + Ruby = Boots",
+                                        "text": "Magic Boots + Jewel + Eth + Ruby = Boots",
                                         "style": "$RecipeSettingsText"
                                     }
                                 },
@@ -474,7 +509,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "1-3% Life Leech", "10-20 Life", "+5-10 Life Regeneration" ],
+                                            "4-7% Life Leech", "+8-15% Maximum Life", "+10-15 Replenish Life" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -493,7 +528,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Magic Heavy Gloves + Jewel + Nef + Ruby = Gloves",
+                                        "text": "Magic Gloves + Jewel + Nef + Ruby = Gloves",
                                         "style": "$RecipeSettingsText"
                                     }
                                 },
@@ -509,7 +544,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "1-3% Life Leech", "10-20 Life", "5-10% Crushing Blow" ],
+                                            "4-7% Life Leech", "+8-15% Maximum Life", "+10-15% Crushing Blow" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -544,7 +579,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "1-3% Life Leech", "10-20 Life", "5-10% Open Wounds" ],
+                                            "4-7% Life Leech", "+8-15% Maximum Life", "+10-15% Open Wounds" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -563,7 +598,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Magic Spiked Shield + Jewel + Ith + Ruby = Shield",
+                                        "text": "Magic Shield + Jewel + Ith + Ruby = Shield",
                                         "style": "$RecipeSettingsText"
                                     }
                                 },
@@ -579,7 +614,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "1-4% Life Leech", "10-20 Life", "Thorns:+4-7" ],
+                                            "4-7% Life Leech", "+8-15% Maximum Life", "Thorns: +11-15" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -598,7 +633,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Magic Plate Mail + Jewel + Thul + Ruby = Body",
+                                        "text": "Magic Torso Armor + Jewel + Thul + Ruby = Body",
                                         "style": "$RecipeSettingsText"
                                     }
                                 },
@@ -614,7 +649,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "1-3% Life Leech", "10-20 Life", "1-3 Life From Demon Kill" ],
+                                            "4-7% Life Leech", "+8-15% Maximum Life", "+8-12 Life from demon kill" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -649,7 +684,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "1-4% Life Leech", "10-20 Life", "5-10% Faster Run/Walk" ],
+                                            "4-7% Life Leech", "+8-15% Maximum Life", "+10-15% Faster Run/Walk" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -684,7 +719,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "1-3% Life Leech", "10-20 Life", "1-5 Strength" ],
+                                            "4-7% Life Leech", "+8-15% Maximum Life", "+6-10% Bonus to Strength" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -703,7 +738,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Magic Axe + Jewel + Ort + Ruby = Weapon",
+                                        "text": "Magic Weapon + Jewel + Ort + Ruby = Weapon",
                                         "style": "$RecipeSettingsText"
                                     }
                                 },
@@ -719,7 +754,42 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "1-4% Life Leech", "10-20 Life", "35-60% Enhanced Damage" ],
+                                            "4-7% Life Leech", "+8-15% Maximum Life", "+61-100% Enhanced Damage", "+1-3 Combat Power" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "These stats will be applied in addition to your randomly rolled stats",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Magic Arrows + Jewel + Ort + Ruby = Arrows",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$CubeOptionsDropDownRect",
+                                        "background/rect": "$CubeOptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ 
+                                            "4-7% Life Leech", "+8-15% Maximum Life", "+10-20% Increased Attack Speed" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -746,7 +816,7 @@
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
                                                 "rect": "$CubeOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Info\\Divider"
                                             }
                                         }
                                     ]
@@ -759,7 +829,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Magic Mask + Jewel + Nef + Amethyst = Helm",
+                                        "text": "Magic Helm + Jewel + Nef + Amethyst = Helm",
                                         "style": "$RecipeSettingsText"
                                     }
                                 },
@@ -775,7 +845,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "4-10% Mana Regen", "10-20 Mana", "1-4% Mana Leech" ],
+                                            "+15-30% Mana Regen", "+8-15% to Maximum Mana", "+3-6% Mana Leech" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -810,7 +880,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "4-10% Mana Regen", "10-20 Mana", "2-5% Max Mana" ],
+                                            "+15-30% Mana Regen", "+8-15% to Maximum Mana", "+4-7% Damage Taken Goes to Mana" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -829,7 +899,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Magic Leather Gloves + Jewel + Ort + Amethyst = Gloves",
+                                        "text": "Magic Gloves + Jewel + Ort + Amethyst = Gloves",
                                         "style": "$RecipeSettingsText"
                                     }
                                 },
@@ -845,7 +915,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "4-10% Mana Regen", "10-20 Mana", "1-3 Mana Per Kill" ],
+                                            "+15-30% Mana Regen", "+8-15% to Maximum Mana", "+3-5 Mana per Kill" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -864,7 +934,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Magic Light Belt + Jewel + Ith + Amethyst = Belt",
+                                        "text": "Magic Belt + Jewel + Ith + Amethyst = Belt",
                                         "style": "$RecipeSettingsText"
                                     }
                                 },
@@ -880,7 +950,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "4-10% Mana Regen", "10-20 Mana", "5-10% Faster Cast Rate" ],
+                                            "+15-30% Mana Regen", "+8-15% to Maximum Mana", "+12-20% Faster Cast Rate" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -899,7 +969,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Magic Small Shield + Jewel + Eth + Amethyst = Shield",
+                                        "text": "Magic Shield + Jewel + Eth + Amethyst = Shield",
                                         "style": "$RecipeSettingsText"
                                     }
                                 },
@@ -915,7 +985,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "4-10% Mana Regen", "10-20 Mana", "5-10% Chance to Block" ],
+                                            "+15-30% Mana Regen", "+8-15% to Maximum Mana", "+10-20% Chance to Block" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -934,7 +1004,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Magic Light Plate + Jewel + Tal + Amethyst = Body",
+                                        "text": "Magic Torso Armor + Jewel + Tal + Amethyst = Body",
                                         "style": "$RecipeSettingsText"
                                     }
                                 },
@@ -950,7 +1020,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "4-12% Mana Regen", "10-20 Mana", "1-3 Mana Per Kill" ],
+                                            "+15-30% Mana Regen", "+8-15% to Maximum Mana", "+7-10 Mana per Kill" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -985,7 +1055,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "4-10% Mana Regen", "10-20 Mana", "5-10% Faster Cast Rate" ],
+                                            "+15-30% Mana Regen", "+8-15% to Maximum Mana", "+10-20% Faster Cast Rate" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -1020,7 +1090,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "4-10% Mana Regen", "10-20 Mana", "1-5 Energy" ],
+                                            "+15-30% Mana Regen", "+8-15% to Maximum Mana", "+3-7% Bonus to Energy" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -1039,7 +1109,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Magic Rod + Jewel + Tir + Amethyst = Weapon",
+                                        "text": "Magic Weapon + Jewel + Tir + Amethyst = Weapon",
                                         "style": "$RecipeSettingsText"
                                     }
                                 },
@@ -1055,7 +1125,42 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "4-10% Mana Regen", "10-20 Mana", "1-5% Mana Leech" ],
+                                            "+15-30% Mana Regen", "+8-15% to Maximum Mana", "+3-7% to Maximum Mana", "+1-3 Spell Power" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "These stats will be applied in addition to your randomly rolled stats",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Magic Arrows + Jewel + Tir + Amethyst = Arrows",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$CubeOptionsDropDownRect",
+                                        "background/rect": "$CubeOptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ 
+                                            "+15-30% Mana Regen", "+8-15% to Maximum Mana", "+5% CtC L5 Warmth on kill" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -1082,7 +1187,7 @@
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
                                                 "rect": "$CubeOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Info\\Divider"
                                             }
                                         }
                                     ]
@@ -1095,7 +1200,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Magic Crown + Jewel + Ith + Emerald = Helm",
+                                        "text": "Magic Helm + Jewel + Ith + Emerald = Helm",
                                         "style": "$RecipeSettingsText"
                                     }
                                 },
@@ -1111,7 +1216,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "Reduces Physical Damage 1-4", "Reduces Magic Damage 1-2", "5-10% Lightning Resistance", "10-30% Defense" ],
+                                            "Reduces Physical Damage by 8-13", "Reduces Magic Damage by 8-10", "+10-25% Lightning Resistance", "+20-40% Defense" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -1130,7 +1235,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Magic Plated Boots + Jewel + Ort + Emerald = Boots",
+                                        "text": "Magic Boots + Jewel + Ort + Emerald = Boots",
                                         "style": "$RecipeSettingsText"
                                     }
                                 },
@@ -1146,7 +1251,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "Reduces Physical Damage 1-4", "Reduces Magic Damage 1-2", "5-10% Lightning Resistance", "10-30% Defense" ],
+                                            "Reduces Physical Damage by 8-13", "Reduces Magic Damage by 8-10", "+10-25% Fire Resistance", "+20-40% Defense" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -1165,7 +1270,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Magic Gauntlets + Jewel + Ral + Emerald = Gloves",
+                                        "text": "Magic Gloves + Jewel + Ral + Emerald = Gloves",
                                         "style": "$RecipeSettingsText"
                                     }
                                 },
@@ -1181,7 +1286,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "Reduces Physical Damage 1-4", "Reduces Magic Damage 1-2", "5-10% Cold Resistance", "10-30% Defense" ],
+                                            "Reduces Physical Damage by 8-13", "Reduces Magic Damage by 8-10", "+10-25% Cold Resistance", "+10-30% Defense" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -1200,7 +1305,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Magic Sash + Jewel + Tal + Emerald = Belt",
+                                        "text": "Magic Belt + Jewel + Tal + Emerald = Belt",
                                         "style": "$RecipeSettingsText"
                                     }
                                 },
@@ -1216,7 +1321,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "Reduces Physical Damage 3-9", "Reduces Magic Damage 2-5", "5-10% Poison Resistance", "10-30% Defense" ],
+                                            "Reduces Physical Damage by 8-13", "Reduces Magic Damage by 8-10", "+10-25% Poison Resistance", "+10-30% Defense" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -1235,7 +1340,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Magic Kite Shield + Jewel + Nef + Emerald = Shield",
+                                        "text": "Magic Shield + Jewel + Nef + Emerald = Shield",
                                         "style": "$RecipeSettingsText"
                                     }
                                 },
@@ -1251,7 +1356,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "Reduces Physical Damage 1-4", "Reduces Magic Damage 1-2", "5-10% Magic Resistance", "10-30% Defense" ],
+                                            "Reduces Physical Damage by 8-13", "Reduces Magic Damage by 8-10", "+10-25% Magic Resistance", "+10-30% Defense" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -1270,7 +1375,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Magic Breast Plate + Jewel + Eth + Emerald = Body",
+                                        "text": "Magic Torso Armor + Jewel + Eth + Emerald = Body",
                                         "style": "$RecipeSettingsText"
                                     }
                                 },
@@ -1286,7 +1391,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "Reduces Physical Damage 3-9", "Reduces Magic Damage 2-5", "Half Freeze Duration", "10-30% Defense" ],
+                                            "Reduces Physical Damage by 8-13", "Reduces Magic Damage by 8-10", "Cannot Be Frozen", "+10-30% Defense" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -1321,7 +1426,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "Reduces Physical Damage 1-4", "Reduces Magic Damage 1-2", "1-10% Chance to Block" ],
+                                            "Reduces Physical Damage by 8-13", "Reduces Magic Damage by 8-10", "+10-20% Chance to Block" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -1356,7 +1461,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "Reduces Physical Damage 1-4", "Reduces Magic Damage 1-2", "1-5 Vitality" ],
+                                            "Reduces Physical Damage by 8-13", "Reduces Magic Damage by 8-10", "+5-10% Bonus to Vitality" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -1375,7 +1480,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Magic Polearm + Jewel + Sol + Emerald = Weapon",
+                                        "text": "Magic Weapon + Jewel + Sol + Emerald = Weapon",
                                         "style": "$RecipeSettingsText"
                                     }
                                 },
@@ -1391,7 +1496,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "Reduces Physical Damage 1-4", "Reduces Magic Damage 1-2", "5-10% Defense" ],
+                                            "Reduces Physical Damage by 8-13", "Reduces Magic Damage by 8-10", "+20-40% Defense", "+1-3 Summoning Power" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -1403,7 +1508,800 @@
                                     }
                                 }
                             ]
-                        }
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Magic Arrows + Jewel + Sol + Emerald = Arrows",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$CubeOptionsDropDownRect",
+                                        "background/rect": "$CubeOptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ 
+                                            "Reduces Physical Damage by 8-13", "Reduces Magic Damage by 8-10", "+10-20% Faster Run/Walk" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "These stats will be applied in addition to your randomly rolled stats",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Legion",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Info\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "DropdownListWidget", "name": "Resolution",
+                            "fields": {
+                                "rect": { "x": -1000 },
+                                "text": "",
+                                "style": "$RecipeSettingsText"
+                            }
+                        },
+                        {
+                            "type": "DropdownListWidget", "name": "Resolution",
+                            "fields": {
+                                "rect": { "x": -1000 },
+                                "text": "",
+                                "style": "$RecipeSettingsText"
+                            }
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Magic Helm + Jewel + Ith + Diamond = Helm",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$CubeOptionsDropDownRect",
+                                        "background/rect": "$CubeOptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ 
+                                            "+10-20% Summon Damage", "+15-25 Mana", "+10-20% Summon Combat Rating" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "These stats will be applied in addition to your randomly rolled stats",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Magic Boots + Jewel + Ral + Diamond = Boots",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$CubeOptionsDropDownRect",
+                                        "background/rect": "$CubeOptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ 
+                                            "+10-20% Summon Damage", "+15-25 Mana", "+10-20% Summon Speed" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "These stats will be applied in addition to your randomly rolled stats",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Magic Gloves + Jewel + Ort + Diamond = Gloves",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$CubeOptionsDropDownRect",
+                                        "background/rect": "$CubeOptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ 
+                                            "+10-20% Summon Damage", "+15-25 Mana", "+10-20% Summon Combat Rating" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "These stats will be applied in addition to your randomly rolled stats",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Magic Belt + Jewel + Tal + Diamond = Belt",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$CubeOptionsDropDownRect",
+                                        "background/rect": "$CubeOptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ 
+                                            "+10-20% Summon Damage", "+15-25 Mana", "+10-20% Summon HP" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "These stats will be applied in addition to your randomly rolled stats",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Magic Shield + Jewel + Eth + Diamond = Shield",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$CubeOptionsDropDownRect",
+                                        "background/rect": "$CubeOptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ 
+                                            "+10-20% Summon Damage", "+15-25 Mana", "+10-20% Summon HP" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "These stats will be applied in addition to your randomly rolled stats",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Magic Torso Armor + Jewel + Nef + Diamond = Body",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$CubeOptionsDropDownRect",
+                                        "background/rect": "$CubeOptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ 
+                                            "+10-20% Summon Damage", "+15-25 Mana", "+1 to All Skills" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "These stats will be applied in addition to your randomly rolled stats",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Magic Amulet + Jewel + Thul + Diamond = Amulet",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$CubeOptionsDropDownRect",
+                                        "background/rect": "$CubeOptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ 
+                                            "+10-20% Summon Damage", "+15-25 Mana", "+5-10% Bonus to Vitality" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "These stats will be applied in addition to your randomly rolled stats",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Magic Ring + Jewel + Amn + Diamond = Ring",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$CubeOptionsDropDownRect",
+                                        "background/rect": "$CubeOptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ 
+                                            "+10-20% Summon Damage", "+15-25 Mana", "+5-10% Bonus to Vitality" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "These stats will be applied in addition to your randomly rolled stats",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Magic Weapon + Jewel + Tir + Diamond = Weapon",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$CubeOptionsDropDownRect",
+                                        "background/rect": "$CubeOptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ 
+                                            "+10-20% Summon Damage", "+15-25 Mana", "+10-20% Summon Damage/HP", "+1-3 Summoning Power" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "These stats will be applied in addition to your randomly rolled stats",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Magic Arrows + Jewel + Tir + Diamond = Arrows",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$CubeOptionsDropDownRect",
+                                        "background/rect": "$CubeOptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ 
+                                            "+10-20% Summon Damage", "+30-50 Mana", "+30-50 Life" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "These stats will be applied in addition to your randomly rolled stats",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Sunder",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Info\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Magic Helm + Jewel + Ral + Topaz = Helm",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$CubeOptionsDropDownRect",
+                                        "background/rect": "$CubeOptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ 
+                                            "5% CtC L5 Disarm On Hit", "+10-20% Cooldown Reduction", "Enemy Fire Immunity -7% to -15%" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "These stats will be applied in addition to your randomly rolled stats",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Magic Boots + Jewel + Eth + Topaz = Boots",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$CubeOptionsDropDownRect",
+                                        "background/rect": "$CubeOptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ 
+                                            "5% CtC L5 Disarm On Hit", "+10-20% Cooldown Reduction", "Enemy Cold Immunity -7% to -15%" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "These stats will be applied in addition to your randomly rolled stats",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Magic Gloves + Jewel + Nef + Topaz = Gloves",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$CubeOptionsDropDownRect",
+                                        "background/rect": "$CubeOptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ 
+                                            "5% CtC L5 Disarm On Hit", "+10-20% Cooldown Reduction", "Enemy Lightning Immunity -7% to -15%" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "These stats will be applied in addition to your randomly rolled stats",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Magic Belt + Jewel + Tal + Topaz = Belt",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$CubeOptionsDropDownRect",
+                                        "background/rect": "$CubeOptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ 
+                                            "5% CtC L5 Disarm On Hit", "+10-20% Cooldown Reduction", "Enemy Poison Immunity -7% to -15%" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "These stats will be applied in addition to your randomly rolled stats",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Magic Shield + Jewel + Ith + Topaz = Shield",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$CubeOptionsDropDownRect",
+                                        "background/rect": "$CubeOptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ 
+                                            "5% CtC L5 Disarm On Hit", "+10-20% Cooldown Reduction", "Enemy Physical Immunity -7% to -15%" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "These stats will be applied in addition to your randomly rolled stats",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Magic Torso Armor + Jewel + Thul + Topaz = Body",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$CubeOptionsDropDownRect",
+                                        "background/rect": "$CubeOptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ 
+                                            "5% CtC L5 Disarm On Hit", "+10-20% Cooldown Reduction", "All Enemy Immunities -7% to -15%" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "These stats will be applied in addition to your randomly rolled stats",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Magic Amulet + Jewel + Amn + Topaz = Amulet",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$CubeOptionsDropDownRect",
+                                        "background/rect": "$CubeOptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ 
+                                            "5% CtC L5 Disarm On Hit", "+10-20% Cooldown Reduction", "Enemy Magic Immunity -7% to -15%" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "These stats will be applied in addition to your randomly rolled stats",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Magic Ring + Jewel + Sol + Topaz = Ring",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$CubeOptionsDropDownRect",
+                                        "background/rect": "$CubeOptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ 
+                                            "5% CtC L5 Disarm On Hit", "+10-20% Cooldown Reduction", "Enemy Magic Immunity -7% to -15%" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "These stats will be applied in addition to your randomly rolled stats",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Magic Weapon + Jewel + Ort + Topaz = Weapon",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$CubeOptionsDropDownRect",
+                                        "background/rect": "$CubeOptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ 
+                                            "10% CtC L5 Disarm On Hit", "+10-20% Cooldown Reduction", "All Enemy Immunities -7% to -15%" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "These stats will be applied in addition to your randomly rolled stats",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Magic Arrows + Jewel + Ort + Topaz = Arrows",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$CubeOptionsDropDownRect",
+                                        "background/rect": "$CubeOptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ 
+                                            "10% CtC L5 Disarm On Hit", "+10-20% Cooldown Reduction", "Reduce Enemy Defense by 25%" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "These stats will be applied in addition to your randomly rolled stats",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                }
+                            ]
+                        },
                     ]
                 }
             ]

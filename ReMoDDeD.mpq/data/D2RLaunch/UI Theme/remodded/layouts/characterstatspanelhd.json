@@ -18,7 +18,7 @@
             "type": "ImageWidget", "name": "Background",
             "fields": {
                 "rect": { "y": -205 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Character"
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Character\\CharacterBG_R"
             }
         },
         {
@@ -59,7 +59,7 @@
             "type": "ProgressBarWidget", "name": "XpProgress",
             "fields": {
                 "rect": { "x": 62, "y": -40, "width": 400, "height": 100},
-                "filename": "..\\..\\..\\ReMoDDeD\\ExpBar_CS",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Character\\CharacterExp_R",
                 "frame": 0
             }
         },
@@ -939,7 +939,7 @@
             "type": "ButtonWidget", "name": "AdvancedStats",
             "fields": {
                 "rect": { "x": 505, "y": 700 },
-                "filename": "..\\..\\..\\ReMoDDeD\\AdvBtn",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\AdvBtn",
                 "hoveredFrame": 3,
                 "onClickMessage": "CharacterStatsPanelMessage:ToggleAdvancedStats",
                 "pressLabelOffset": { "x": 0, "y": 2 },
@@ -955,7 +955,7 @@
                     "type": "CharacterStatLevelUpButtonWidget", "name": "StrengthPointButton",
                     "fields": {
                         "rect": { "x": 438, "y": 8 },
-                        "filename": "..\\..\\..\\ReMoDDeD\\LevelUpButton",
+                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\LevelUpButton",
                         "hoveredFrame": 1,
                         "pressedFrame": 2,
                         "statsIndex": 0,
@@ -967,7 +967,7 @@
                     "type": "CharacterStatLevelUpButtonWidget", "name": "DexPointButton",
                     "fields": {
                         "rect": { "x": 438, "y": 76 },
-                        "filename": "..\\..\\..\\ReMoDDeD\\LevelUpButton",
+                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\LevelUpButton",
                         "hoveredFrame": 1,
                         "pressedFrame": 2,
                         "statsIndex": 1,
@@ -979,7 +979,7 @@
                     "type": "CharacterStatLevelUpButtonWidget", "name": "VitalityPointButton",
                     "fields": {
                         "rect": { "x": 438, "y": 144 },
-                        "filename": "..\\..\\..\\ReMoDDeD\\LevelUpButton",
+                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\LevelUpButton",
                         "hoveredFrame": 1,
                         "pressedFrame": 2,
                         "statsIndex": 2,
@@ -991,7 +991,7 @@
                     "type": "CharacterStatLevelUpButtonWidget", "name": "EnergyPointButton",
                     "fields": {
                         "rect": { "x": 438, "y": 212 },
-                        "filename": "..\\..\\..\\ReMoDDeD\\LevelUpButton",
+                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\LevelUpButton",
                         "hoveredFrame": 1,
                         "pressedFrame": 2,
                         "statsIndex": 3,
@@ -1034,7 +1034,7 @@
             "type": "ButtonWidget", "name": "CloseButton",
             "fields": {
                 "rect": { "x": 1035, "y": -186 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Exit",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\Exit",
                 "hoveredFrame": 3,
                 "onClickMessage": "CharacterStatsPanelMessage:Close",
                 "tooltipString": "@strClose",

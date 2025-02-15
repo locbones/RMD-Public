@@ -1,7 +1,7 @@
 {
     "type": "Panel", "name": "MainMenuButtonRibbon",
     "fields": {
-        "anchor": { "x": 0.0 }
+        "anchor": { "x": 0.0 },
     },
     "children": [
         {
@@ -13,97 +13,104 @@
                     "fields": {
                         "rect": { "x": 111, "y": 196 },
                         "filename": "LogoAnimation/FullGlow_PC",
-                        "fps": 20
-                    }
+                        "fps": 20,
+                    },
                 },
                 {
                     "type": "AnimatedImageWidget", "name": "Logo",
                     "fields": {
                         "rect": { "x": 113, "y": 170 },
                         "filename": "LogoAnimation/LogoAnimation",
-                        "fps": 20
-                    }
+                        "fps": 20,
+                    },
                 },
                 {
                     "type": "ImageWidget", "name": "ResurrectedText",
                     "fields": {
                         "rect": { "x": 170, "y": 500 },
-                        "filename": "LogoAnimation/ResurrectedText"
-                    }
+                        "filename": "LogoAnimation/ResurrectedText",
+                    },
                 },
                 {
                     "type": "AnimatedImageWidget", "name": "BottomFlames",
                     "fields": {
                         "rect": { "x": 272, "y": 538 },
                         "filename": "LogoAnimation/Logo_BottomFlame",
-                        "fps": 20
-                    }
+                        "fps": 20,
+                    },
                 },
                 {
                     "type": "ButtonWidget", "name": "Settings",
                     "fields": {
-                        "rect": { "x": 165, "y": 730 },
+                        "rect": { "x": 165, "y": 820 },
                         "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
                         "textString": "@OptionsHD",
                         "onClickMessage": "PanelManager:OpenPanel:SettingsPanel",
                         "textColor": "$LightButtonTextColor",
                         "text/style": "$StyleFEButtonText",
                         "hoveredFrame": 3,
-                        "disabledFrame": 2
-                    }
-                },
-                {
-                    "type": "ButtonWidget", "name": "Credits2",
-                    "fields": {
-                        "rect": { "x": 165, "y": 870 },
-                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
-                        "textString": "Mod Info",
-                        "onClickMessage": "PanelManager:OpenPanel:RemoddedInfoPanel",
-                        "textColor": "$FontColorBonesyRed",
-                        "text/style": "$StyleFEButtonText",
-                        "hoveredFrame": 3,
-                        "disabledFrame": 2
+                        "disabledFrame": 2,
                     }
                 },
                 {
                     "type": "ButtonWidget", "name": "Cinematics",
                     "fields": {
-                        "rect": { "x": 165, "y": 1010 },
+                        "rect": { "x": 165, "y": 960 },
                         "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
                         "textString": "@strGameCinematics",
                         "onClickMessage": "FrontEndNavigation:ToCinematics",
                         "textColor": "$LightButtonTextColor",
                         "text/style": "$StyleFEButtonText",
                         "hoveredFrame": 3,
-                        "disabledFrame": 2
+                        "disabledFrame": 2,
                     }
                 },
                 {
                     "type": "ButtonWidget", "name": "Credits",
                     "fields": {
-                        "rect": { "x": 165, "y": 1150 },
+                        "rect": { "x": 165, "y": 1100 },
                         "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
                         "textString": "@strGameCredits",
                         "onClickMessage": "PanelManager:OpenPanel:CreditsModal",
-                        "textColor": "$LightButtonTextColor",
+                        "textColor": "$FontColorGoldYellow",
                         "text/style": "$StyleFEButtonText",
                         "hoveredFrame": 3,
-                        "disabledFrame": 2
+                        "disabledFrame": 2,
+                    }
+                },
+                {
+                    "type": "ButtonWidget", "name": "Credits2",
+                    "fields": {
+                        "rect": { "x": 165, "y": 1240 },
+                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
+                        "textString": "@ModInfo",
+                        "onClickMessage": "PanelManager:OpenPanel:RemoddedInfoPanel",
+                        "textColor": "$FontColorGoldYellow",
+                        "focusIndicatorFilename": "..\\..\\..\\ReMoDDeD\\Controller\\MMS_Hover",
+                        "text/style": "$StyleFEButtonText",
+                        "hoveredFrame": 3,
+                        "focusIndicatorVisible": true,
+                        "disabledFrame": 2,
+                        "navigation": {
+                            "right": { "panelBoundary": true },
+                            "up": { "name": "Credits" },
+                            "down": { "name": "Exit" }
+                        }
                     }
                 },
                 {
                     "type": "ButtonWidget", "name": "Exit",
                     "fields": {
-                        "rect": { "x": 165, "y": 1290 },
+                        "rect": { "x": 165, "y": 1380 },
                         "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
                         "textString": "@strexitentiregame",
                         "onClickMessage": "FrontEndNavigation:ToExit",
                         "textColor": "$LightButtonTextColor",
                         "text/style": "$StyleFEButtonText",
                         "hoveredFrame": 3,
-                        "disabledFrame": 2
+                        "disabledFrame": 2,
                     }
-                }
+                },
             ]
         },
         {
@@ -115,7 +122,7 @@
                         "filename": "PANEL/TooltipBorder/TooltipBorder",
                         "backgroundColor": [ 0.0, 0.0, 0.0, 0.80 ],
                         "tileScale": 1.0,
-                        "rect": { "x": 87, "y": 1542, "width": 631, "height": 0 }
+                        "rect": { "x": 87, "y": 1542, "width": 631, "height": 0 },
                     },
                     "children": [
                         {
@@ -126,10 +133,10 @@
                                 "style": {
                                     "pointSize": "$MediumLargeFontSize",
                                     "alignment": { "v": "center", "h": "center" },
-                                    "fontColor": "$FontColorGold"
+                                    "fontColor": "$FontColorGold",
                                 }
                             }
-                        }
+                        },
                     ]
                 },
                 {
@@ -138,14 +145,14 @@
                         "filename": "PANEL/TooltipBorder/TooltipBorder",
                         "backgroundColor": [ 0.0, 0.0, 0.0, 0.80 ],
                         "tileScale": 1.0,
-                        "rect": { "x": 87, "y": 1588, "width": 631, "height": 490 }
+                        "rect": { "x": 87, "y": 1588, "width": 631, "height": 490 },
                     },
                     "children": [
                         {
                             "type": "ImageWidget", "name": "ScrollBarBackground",
                             "fields": {
                                 "rect": { "x": 605, "y": 8 },
-                                "filename": "FrontEnd\\HD\\Final\\FrontEnd_ScrollbarSmall"
+                                "filename": "FrontEnd\\HD\\Final\\FrontEnd_ScrollbarSmall",
                             },
                             "children": [
                                 {
@@ -156,9 +163,9 @@
                                         "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
                                         "barFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollIndicator",
                                         "viewName": "MotDScrollView",
-                                        "buttonScrollAmount": 80
+                                        "buttonScrollAmount": 80,
                                     }
-                                }
+                                },
                             ]
                         },
                         {
@@ -166,7 +173,7 @@
                             "fields": {
                                 "rect": { "x": 4, "y": 4, "width": 600, "height": 486 },
                                 "scrollControllerName": "MotDScrollBar",
-                                "clipChildrenDraw": true
+                                "clipChildrenDraw": true,
                             },
                             "children": [
                                 {
@@ -180,15 +187,15 @@
                                             "pointSize": "$MediumFontSize",
                                             "alignment": { "v": "top", "h": "center" },
                                             "spacing": { "leading": 0.9 },
-                                            "options": { "pipeCharacterBehavior": "handle", "newlineHandling": "standard", "lineWrap": true }
-                                        }
+                                            "options": { "pipeCharacterBehavior": "handle", "newlineHandling": "standard", "lineWrap": true },
+                                        },
                                     }
-                                }
+                                },
                             ]
-                        }
+                        },
                     ]
-                }
+                },
             ]
-        }
+        },
     ]
 }

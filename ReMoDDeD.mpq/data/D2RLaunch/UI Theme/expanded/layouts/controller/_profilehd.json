@@ -21,13 +21,13 @@
 
     // temporary until all panels on console are converted
     "ConsoleLeftPanelRect": { "x": -1366, "y": -582, "width": 1305, "height": 1421 },
-    "ConsoleCubePanelRect": { "x": -1666, "y": -757, "width": 1305, "height": 1421 },
+    "ConsoleCubePanelRect": { "x": -1666, "y": -557, "width": 1305, "height": 1421 },
     "ConsoleMercPanelRect": { "x": -1566, "y": -562, "width": 1305, "height": 1421 },
     "ConsoleRightPanelRect": { "x": 2, "y": -798, "width": 1408, "height": 1486 },
     "ConsoleCenterPanelRect": { "x": -896, "y": -585, "width": 1793, "height": 1416 },
     "PanelTitleRect": { "x": 115, "y": 168, "width": 943, "height": 97 },
-    "HalfPanelLeftTabButtonPromptPosition": { "x": -62, "y": -2 },
-    "HalfPanelRightTabButtonPromptPosition": { "x": 1625, "y": -2 },
+    "HalfPanelLeftTabButtonPromptPosition": { "x": -52, "y": -2 },
+    "HalfPanelRightTabButtonPromptPosition": { "x": 1020, "y": -2 },
 
     // Standard Styles.
     "StylePartyPanelSmallHeading": {
@@ -87,7 +87,7 @@
     // Handheld resized stuff
     "ControllerOverlayRect": { "x": -1540, "y": 0, "width": 2880, "height": 1963 },
     "QuestLogPanelOriginalRect": { "x": -1090, "y": -583, "width": 1795, "height": 1415 },
-    "CharacterStatsPanelRect": { "x": -1374, "y": -584, "width": 2740, "height": 1416 },
+    "CharacterStatsPanelRect": { "x": -2051, "y": -566, "width": 2740, "height": 1416 },
     "PauseLayoutRect": { "x": -896, "y":273 },
     "QuestLogSpeechPanelRect": { "x": 180, "y": 993, "width": 1442, "height": 378 },
     "SettingsPanelRect": { "y": 5 },

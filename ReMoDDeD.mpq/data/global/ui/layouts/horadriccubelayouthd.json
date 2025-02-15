@@ -15,7 +15,7 @@
         {
             "type": "ImageWidget", "name": "background",
             "fields": {
-                "filename": "..\\..\\..\\ReMoDDeD\\Cube",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Cube\\CubeBG_R",
                 "rect": { "y": -205 }
             }
         },
@@ -58,7 +58,7 @@
             "type": "ButtonWidget", "name": "Recipes",
             "fields": {
                 "rect": { "x": 85, "y": 1318 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Recipes",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Cube\\Recipes",
                 "tooltipString": "Show Cube Recipes",
                 "hoveredFrame": 2,
                 "onClickMessage": "PanelManager:OpenPanel:CubeRecipesPanel"
@@ -68,7 +68,7 @@
             "type": "ButtonWidget", "name": "Shop",
             "fields": {
                 "rect": { "x": 765, "y": 1318 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Shop\\Shop_Button",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Shop\\Shop_Button",
                 "tooltipString": "Show Horadric Rift",
                 "hoveredFrame": 2,
                 "onClickMessage": "PanelManager:OpenPanel:RemoddedShopPanel"
@@ -78,7 +78,7 @@
             "type": "ButtonWidget", "name": "close",
             "fields": {
                 "rect": { "x": 1550, "y": -197 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Exit",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\Exit",
                 "hoveredFrame": 3,
                 "tooltipString": "@strClose",
                 "onClickMessage": "HoradricCubePanelMessage:Close"
@@ -110,7 +110,7 @@
                 "rect": { "x": 580, "y": -152, "width": 36, "height": 670 },
                 "upArrowFilepath": "",
                 "downArrowFilepath": "",
-                "barFilepath": "..\\..\\..\\ReMoDDeD\\SkullScroll",
+                "barFilepath": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\SkullScroll",
                 "viewName": "ListContainerr"
             }
         },

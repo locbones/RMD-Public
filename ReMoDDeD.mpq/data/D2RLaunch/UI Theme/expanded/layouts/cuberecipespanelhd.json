@@ -28,13 +28,13 @@
                         {
                             "type": "ImageWidget", "name": "Background",
                             "fields": {
-                                "filename": "\\PANEL\\Options\\FrontEndOptionsBG"
+                                "filename": "..\\..\\..\\ReMoDDeD\\Info\\InfoBGW"
                             }
                         },
                         {
                             "type": "TextBoxWidget", "name": "Title",
                             "fields": {
-                                "rect": { "x": 0, "y": 50, "width": 1950, "height": 103 },
+                                "rect": { "x": 0, "y": 50, "width": 2250, "height": 103 },
                                 "text": "Cube Recipes",
                                 "style": "$StyleTitleBlock"
                             }
@@ -42,8 +42,8 @@
                         {
                             "type": "ButtonWidget", "name": "CloseButton",
                             "fields": {
-                                "rect": { "x": 1798, "y": 68 },
-                                "filename": "PANEL\\closebtn_4x",
+                                "rect": { "x": 2158, "y": 68 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Exit",
                                 "hoveredFrame": 3,
                                 "onClickMessage": "PanelManager:ClosePanel:CubeRecipesPanel",
                                 "tooltipString": "@strClose",
@@ -58,24 +58,24 @@
         {
             "type": "ImageWidget", "name": "SettingsBackground",
             "fields": {
-                "rect": "$SettingsPanelBackgroundRect",
+                "rect": "$SettingsPanelBackgroundRectRMD",
                 "anchor": { "x": 0.5 },
-                "filename": "Controller/Panel/Options/Panel_Options_BG"
+                "filename": "Controller/Panel/Options/Panel_Options_BG2"
             }
         },
         {
             "type": "TabBarWidget", "name": "OptionsTabs",
             "fields": {
-                "rect": "$SettingsPanelTabsRect",
+                "rect": "$SettingsPanelTabsRectRMD",
                 "anchor": { "x": 0.5 },
-                "tabCount": 5,
-                "tabSize": { "x": 266, "y": 121 },
+                "tabCount": 6,
+                "tabSize": { "x": 256, "y": 121 },
                 "tabPadding": { "x": 2, "y": 0 },
                 "unavailableTabsLeaveGaps": false,
                 "tabSizingMethod": "fixedCenter",
                 "filename": "Controller/Panel/Stash/V2/StashTabs",
-                "inactiveFrames": [ 1, 1, 1, 1, 1 ],
-                "activeFrames": [ 0, 0, 0, 0, 0 ],
+                "inactiveFrames": [ 1, 1, 1, 1, 1, 1 ],
+                "activeFrames": [ 0, 0, 0, 0, 0, 0 ],
                 "activeTextColor": "$TabsActiveTextColor",
                 "inactiveTextColor": "$TabsInactiveTextColor",
                 "tabTextOffset": { "x": 0, "y": -4 },
@@ -86,13 +86,14 @@
                     "fontColor": "$FontColorWhite",
                     "spacing": {"leading":0.9, "kerning":0.95}
                 },
-                "textStrings": [ "General", "Custom", "Upgrades", "Crafting", "Runewords" ],
+                "textStrings": [ "General", "Custom", "Upgrades", "Crafting", "Runewords", "Forsaken Pacts" ],
                 "tabMessages": [
                     "SettingsPanelMessage:CheckChanges:CubeRecipes2Panel",
                     "SettingsPanelMessage:CheckChanges:CubeRecipes3Panel",
                     "SettingsPanelMessage:CheckChanges:CubeRecipes4Panel",
                     "SettingsPanelMessage:CheckChanges:CubeRecipes5Panel",
-                    "SettingsPanelMessage:CheckChanges:CubeRecipes6Panel"
+                    "SettingsPanelMessage:CheckChanges:CubeRecipes6Panel",
+                    "SettingsPanelMessage:CheckChanges:CubeRecipes7Panel"
                 ]
             }
         }

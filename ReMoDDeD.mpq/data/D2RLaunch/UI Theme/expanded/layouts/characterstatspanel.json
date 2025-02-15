@@ -24,7 +24,7 @@
         {
             "type": "TextBoxWidget", "name": "CharacterName",
             "fields": {
-                "rect": { "x": 10, "y": 9, "width": 171, "height": 15 },
+                "rect": { "x": -210, "y": 29, "width": 171, "height": 15 },
                 "style": {
                     "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
                     "pointSize": 36,

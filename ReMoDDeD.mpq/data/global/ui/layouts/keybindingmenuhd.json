@@ -156,7 +156,7 @@
             "fields": {
                 "rect": "$OptionsScrollBarBackgroundRect",
                 "anchor": { "x": 1.0 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Info\\ScrollBG2",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\ScrollBG_R",
             },
             "children": [
                 {
@@ -171,7 +171,7 @@
                         "buttonScrollSound": "cursor_scroll_hd",
                         "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
                         "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
-                        "barFilepath": "..\\..\\..\\ReMoDDeD\\SkullScroll",
+                        "barFilepath": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\SkullScroll",
                         "viewName": "BindingsList",
                     }
                 },

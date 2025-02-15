@@ -14,7 +14,7 @@
         {
             "type": "ImageWidget", "name": "background_right_arm",
             "fields": {
-                "rect": { "x": 15, "y": 22 },
+                "rect": { "x": 15, "y": -122 },
                 "filename": "PANEL\\invchar6Tab",
                 "frame": 1
             }
@@ -22,7 +22,7 @@
         {
             "type": "ImageWidget", "name": "background_left_arm",
             "fields": {
-                "rect": { "x": 246, "y": 22 },
+                "rect": { "x": 246, "y": -122 },
                 "filename": "PANEL\\invchar6Tab",
                 "frame": 0
             }
@@ -30,13 +30,13 @@
         {
             "type": "FocusableWidget", "name": "weaponswap_right_arm",
             "fields": {
-                "rect": { "x": 20, "y": 23, "width": 56, "height": 24 }
+                "rect": { "x": 20, "y": -123, "width": 56, "height": 24 }
             }
         },
         {
             "type": "FocusableWidget", "name": "weaponswap_left_arm",
             "fields": {
-                "rect": { "x": 251, "y": 23, "width": 56, "height": 24 }
+                "rect": { "x": 251, "y": -123, "width": 56, "height": 24 }
             }
         },
         {

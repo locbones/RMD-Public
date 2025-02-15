@@ -7,7 +7,7 @@
         "spearBackgroundFilename": "PANEL\\Hireling\\HireablePanel\\Hireables_Paperdoll_Spear",
         "longswordBackgroundFilename": "PANEL\\Hireling\\HireablePanel\\Hireables_Paperdoll_LongSword",
         "shieldBackgroundFilename": "PANEL\\Hireling\\HireablePanel\\Hireables_Paperdoll_Shield",
-        "twoHandSwordBackgroundFilename": "PANEL\\Hireling\\HireablePanel\\Hireables_Paperdoll_2HSword"
+        "twoHandSwordBackgroundFilename": "PANEL\\Hireling\\HireablePanel\\Hireables_Paperdoll_2HSword",
     },
     "children": [
         {
@@ -15,12 +15,19 @@
             "fields": {
                 "rect": { "x": 0, "y": 0 },
                 "filename": "\\PANEL\\Hireling\\HirelingPanel"
-            }
+            },
         },
         {
             "type": "ClickCatcherWidget",
             "fields": {
                 "rect": { "x": -180, "y": -200, "width": 1362, "height": 1727 }
+            }
+        },
+        {
+            "type": "ImageWidget", "name": "LeftSprite",
+            "fields": {
+                "rect": "$LeftSideRectHireMenu",
+                "filename": "$LeftSideSpriteNew"
             }
         },
         {
@@ -35,8 +42,8 @@
             "fields": {
                 "rect": { "x": 481, "y": -69, "width": 196, "height": 196 },
                 "style": "$StyleTitleBlock",
-                "text": "@MiniPanelHireinv"
-            }
+                "text": "@MiniPanelHireinv",
+            },
         },
         // Background images for inventory slots
         {
@@ -46,7 +53,7 @@
                 "cellSize": "$ItemCellSize",
                 "location": "head",
                 "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_HeadArmor",
-                "isHireable": true
+                "isHireable": true,
             }
         },
         {
@@ -56,7 +63,7 @@
                 "cellSize": "$ItemCellSize",
                 "location": "torso",
                 "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_ChestArmor",
-                "isHireable": true
+                "isHireable": true,
             }
         },
         {
@@ -67,7 +74,7 @@
                 "location": "right_arm",
                 "gemSocketFilename": "PANEL\\gemsocket",
                 "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Weapon",
-                "isHireable": true
+                "isHireable": true,
             }
         },
         {
@@ -78,7 +85,7 @@
                 "location": "left_arm",
                 "gemSocketFilename": "PANEL\\gemsocket",
                 "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Weapon",
-                "isHireable": true
+                "isHireable": true,
             }
         },
         {
@@ -89,7 +96,7 @@
                 "location": "belt",
                 "gemSocketFilename": "PANEL\\gemsocket",
                 "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Belt",
-                "isHireable": true
+                "isHireable": true,
             }
         },
         {
@@ -100,7 +107,7 @@
                 "location": "right_hand",
                 "gemSocketFilename": "PANEL\\gemsocket",
                 "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Ring",
-                "isHireable": false
+                "isHireable": false,
             }
         },
         {
@@ -111,7 +118,7 @@
                 "location": "left_hand",
                 "gemSocketFilename": "PANEL\\gemsocket",
                 "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Ring",
-                "isHireable": false
+                "isHireable": false,
             }
         },
         {
@@ -122,7 +129,7 @@
                 "location": "gloves",
                 "gemSocketFilename": "PANEL\\gemsocket",
                 "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Glove",
-                "isHireable": false
+                "isHireable": false,
             }
         },
         {
@@ -133,7 +140,7 @@
                 "location": "feet",
                 "gemSocketFilename": "PANEL\\gemsocket",
                 "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Boots",
-                "isHireable": false
+                "isHireable": false,
             }
         },
         {
@@ -144,7 +151,7 @@
                 "location": "neck",
                 "gemSocketFilename": "PANEL\\gemsocket",
                 "backgroundFilename": "PANEL\\Inventory\\Inventory_Paperdoll_Amulet",
-                "isHireable": false
+                "isHireable": false,
             }
         },
         {
@@ -156,7 +163,7 @@
                     "pointSize": "$LargeFontSize",
                     "dropShadow": "$DefaultDropShadow",
                     "alignment": { "h": "left", "v": "bottom" }
-                }
+                },
             }
         },
         {
@@ -169,7 +176,7 @@
                     "fontFace": "Formal",
                     "pointSize": "$SmallFontSize",
                     "alignment": { "h": "center", "v": "center" }
-                }
+                },
             }
         },
         {
@@ -180,7 +187,7 @@
                     "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
                     "pointSize": "$SmallFontSize",
                     "alignment": { "h": "center", "v": "center" }
-                }
+                },
             }
         },
         // Level
@@ -194,7 +201,7 @@
                     "pointSize": "$XMediumFontSize",
                     "dropShadow": "$DefaultDropShadow",
                     "alignment": { "h": "left" }
-                }
+                },
             }
         },
         // Experience
@@ -254,7 +261,7 @@
                     "fontFace": "Formal",
                     "pointSize": "$SmallFontSize",
                     "alignment": { "h": "center", "v": "center" }
-                }
+                },
             }
         },
         {
@@ -265,7 +272,7 @@
                     "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
                     "pointSize": "$SmallFontSize",
                     "alignment": { "h": "center", "v": "center" }
-                }
+                },
             }
         },
         {
@@ -278,7 +285,7 @@
                     "fontFace": "Formal",
                     "pointSize": "$SmallFontSize",
                     "alignment": { "h": "center", "v": "center" }
-                }
+                },
             }
         },
         {
@@ -289,7 +296,7 @@
                     "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
                     "pointSize": "$SmallFontSize",
                     "alignment": { "h": "center", "v": "center" }
-                }
+                },
             }
         },
         {
@@ -302,13 +309,13 @@
                     "fontFace": "Formal",
                     "pointSize": "$SmallFontSize",
                     "alignment": { "h": "center", "v": "center" }
-                }
+                },
             }
         },
         {
             "type": "Widget", "name": "Damage",
             "fields": {
-                "rect": { "x": 328, "y": 1269, "width": 237, "height": 59 }
+                "rect": { "x": 328, "y": 1269, "width": 237, "height": 59 },
             },
             "children": [
                 {
@@ -343,7 +350,7 @@
                             "alignment": { "h": "center", "v": "bottom" }
                         }
                     }
-                }
+                },
             ]
         },
         {
@@ -356,7 +363,7 @@
                     "fontFace": "Formal",
                     "pointSize": "$SmallFontSize",
                     "alignment": { "h": "center", "v": "center" }
-                }
+                },
             }
         },
         {
@@ -367,7 +374,7 @@
                     "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
                     "pointSize": "$SmallFontSize",
                     "alignment": { "h": "center", "v": "center" }
-                }
+                },
             }
         },
         // Elemental Resistances
@@ -380,8 +387,8 @@
                     "fontColor":"$FontColorWhite",
                     "fontFace": "Formal",
                     "pointSize": "$SmallFontSize",
-                    "alignment": { "h": "center", "v": "center" }
-                }
+                    "alignment": { "h": "center", "v": "center" },
+                },
             }
         },
         {
@@ -391,8 +398,8 @@
                 "style": {
                     "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
                     "pointSize": "$SmallFontSize",
-                    "alignment": { "h": "center", "v": "center" }
-                }
+                    "alignment": { "h": "center", "v": "center" },
+                },
             }
         },
         {
@@ -404,8 +411,8 @@
                     "fontColor":"$FontColorWhite",
                     "fontFace": "Formal",
                     "pointSize": "$SmallFontSize",
-                    "alignment": { "h": "center", "v": "center" }
-                }
+                    "alignment": { "h": "center", "v": "center" },
+                },
             }
         },
         {
@@ -415,8 +422,8 @@
                 "style": {
                     "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
                     "pointSize": "$SmallFontSize",
-                    "alignment": { "h": "center", "v": "center" }
-                }
+                    "alignment": { "h": "center", "v": "center" },
+                },
             }
         },
         {
@@ -428,8 +435,8 @@
                     "fontColor":"$FontColorWhite",
                     "fontFace": "Formal",
                     "pointSize": "$SmallFontSize",
-                    "alignment": { "h": "center", "v": "center" }
-                }
+                    "alignment": { "h": "center", "v": "center" },
+                },
             }
         },
         {
@@ -439,8 +446,8 @@
                 "style": {
                     "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
                     "pointSize": "$SmallFontSize",
-                    "alignment": { "h": "center", "v": "center" }
-                }
+                    "alignment": { "h": "center", "v": "center" },
+                },
             }
         },
         {
@@ -452,8 +459,8 @@
                     "fontColor":"$FontColorWhite",
                     "fontFace": "Formal",
                     "pointSize": "$SmallFontSize",
-                    "alignment": { "h": "center", "v": "center" }
-                }
+                    "alignment": { "h": "center", "v": "center" },
+                },
             }
         },
         {
@@ -463,9 +470,9 @@
                 "style": {
                     "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
                     "pointSize": "$SmallFontSize",
-                    "alignment": { "h": "center", "v": "center" }
-                }
-            }
+                    "alignment": { "h": "center", "v": "center" },
+                },
+            },
         },
         // To Advanced Stats panel
         {
@@ -475,7 +482,7 @@
                 "filename": "PANEL\\Character_Sheet\\AdvancedStatsButton",
                 "onClickMessage": "HirelingInventoryPanelMessage:ToggleAdvancedStats",
                 "tooltipString": "@AdvancedStats"
-            }
+            },
         },
         // Close Panel
         {
@@ -485,51 +492,30 @@
                 "filename": "PANEL\\closebtn_4x",
                 "hoveredFrame": 3,
                 "onClickMessage": "HirelingInventoryPanelMessage:Close",
-                "tooltipString": "@strClose"
-            }
+                "tooltipString": "@strClose",
+            },
         },
         // Hire skills
         {
             "type": "HirelingSkillIconWidget", "name": "Skill0",
             "fields": {
-                "rect": { "x": 600, "y": 775, "scale": 0.50 },
+                "rect": { "x": 673, "y": 1007, "scale": 0.60 },
                 "skillIconFilename": "Spells/Hireables/HrSkillIcon"
             }
         },
         {
             "type": "HirelingSkillIconWidget", "name": "Skill1",
             "fields": {
-                "rect": { "x": 675, "y": 775, "scale": 0.50 },
+                "rect": { "x": 780, "y": 1007, "scale": 0.60 },
                 "skillIconFilename": "Spells/Hireables/HrSkillIcon"
             }
         },
         {
             "type": "HirelingSkillIconWidget", "name": "Skill2",
             "fields": {
-                "rect": { "x": 750, "y": 775, "scale": 0.50 },
+                "rect": { "x": 887, "y": 1007, "scale": 0.60 },
                 "skillIconFilename": "Spells/Hireables/HrSkillIcon"
             }
         },
-        {
-            "type": "HirelingSkillIconWidget", "name": "Skill3",
-            "fields": {
-                "rect": { "x": 825, "y": 775, "scale": 0.50 },
-                "skillIconFilename": "Spells/Hireables/HrSkillIcon"
-            }
-        },
-        {
-            "type": "HirelingSkillIconWidget", "name": "Skill4",
-            "fields": {
-                "rect": { "x": 900, "y": 775, "scale": 0.50 },
-                "skillIconFilename": "Spells/Hireables/HrSkillIcon"
-            }
-        },
-        {
-            "type": "HirelingSkillIconWidget", "name": "Skill5",
-            "fields": {
-                "rect": { "x": 975, "y": 775, "scale": 0.50 },
-                "skillIconFilename": "Spells/Hireables/HrSkillIcon"
-            }
-        }
     ]
 }

@@ -2,7 +2,7 @@
     "type": "VideoOptionsPanel", "name": "CubeRecipes4Panel",
     "fields": {
         "priority": 9003,
-        "rect": "$OptionsPanelRect",
+        "rect": "$OptionsPanelRectRMD",
         "anchor": { "x": 0.5 },
         "applySettingsImmediately": true
     },
@@ -12,7 +12,7 @@
             "fields": {
                 "rect": "$OptionsScrollBarBackgroundRect",
                 "anchor": { "x": 1.0 },
-                "filename": "PauseMenu\\VerticalScroll"
+                "filename": "..\\..\\..\\ReMoDDeD\\Info\\ScrollBG"
             },
             "children": [
                 {
@@ -22,7 +22,7 @@
                         "anchor": { "x": 1.0 },
                         "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
                         "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
-                        "barFilepath": "PauseMenu\\VerticalIndicator",
+                        "barFilepath": "..\\..\\..\\ReMoDDeD\\SkullScroll",
                         "viewName": "ScrollView",
                         "wheelScrollSound": "cursor_scroll_hd",
                         "buttonScrollSound": "cursor_scroll_hd"
@@ -58,7 +58,7 @@
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
                                                 "rect": "$CubeOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Info\\Divider"
                                             }
                                         }
                                     ]
@@ -120,7 +120,7 @@
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
                                         "text": "Ramaladni's Gift Slot Limits: 1-Hand: 4, 2-Hand: 6",
-                                        "style": "$RecipeSettingsTextFlatBlue"
+                                        "style": "$RecipeSettingsTextPink"
                                     }
                                 }
                             ]
@@ -139,7 +139,7 @@
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
                                                 "rect": "$CubeOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Info\\Divider"
                                             }
                                         }
                                     ]
@@ -272,7 +272,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Ral + Thul + Amethyst + Normal Rare Weapon = Exceptional Rare Armor",
+                                        "text": "Ral + Thul + Amethyst + Normal Rare Armor = Exceptional Rare Armor",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -328,10 +328,58 @@
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
                                                 "rect": "$CubeOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Info\\Divider"
                                             }
                                         }
                                     ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "10x Magic Jewels = 1x Rare Jewel",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "5x Rainbow Facets of each element (25 total) = Prismatic Facet",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Storage Bag + 10x Rainbow Facets = Storage Bag (+100 Gems)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "2x Zod Rune = Rare Jewel w/ Indestructible",
+                                        "style": "$RecipeSettingsText"
+                                    }
                                 }
                             ]
                         },
@@ -365,8 +413,8 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Normal/Socketed: 2, Magic/Superior: 3, Rare: 4, Unique/Set: 5 ",
-                                        "style": "$RecipeSettingsTextFlatBlue"
+                                        "text": "Gold Bar Cost: Normal/Socketed - 2, Magic/Superior - 3, Rare - 4, Unique/Set - 5 ",
+                                        "style": "$RecipeSettingsTextPink"
                                     }
                                 }
                             ]

@@ -17,7 +17,7 @@
             "type": "ImageWidget", "name": "Background",
             "fields": {
                 "rect": { "x": 785, "y": -180 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Character"
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Character\\CharacterBG_R"
             }
         },
       /*  {
@@ -65,7 +65,7 @@
             "type": "ProgressBarWidget", "name": "XpProgress",
             "fields": {
                 "rect": { "x": 827, "y": -20, "width": 400, "height": 100},
-                "filename": "..\\..\\..\\ReMoDDeD\\ExpBar_CS",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Character\\ExpBar_CS",
                 "frame": 0
             }
         },
@@ -961,7 +961,7 @@
                     "type": "CharacterStatLevelUpButtonWidget", "name": "StrengthPointButton",
                     "fields": {
                         "rect": { "x": 1203, "y": 28 },
-                        "filename": "..\\..\\..\\ReMoDDeD\\LevelUpButton",
+                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\LevelUpButton",
                         "focusIndicatorFilename": "Controller/HoverImages/LevelUpButton_Hover",
                         "focusIndicatorOffset": { "x": 0, "y": 0 },
                         "controllerRequireHold": false,
@@ -975,7 +975,7 @@
                     "type": "CharacterStatLevelUpButtonWidget", "name": "DexPointButton",
                     "fields": {
                         "rect": { "x": 1203, "y": 96 },
-                        "filename": "..\\..\\..\\ReMoDDeD\\LevelUpButton",
+                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\LevelUpButton",
                         "focusIndicatorFilename": "Controller/HoverImages/LevelUpButton_Hover",
                         "controllerRequireHold": false,
                         "navigation": {
@@ -989,7 +989,7 @@
                     "type": "CharacterStatLevelUpButtonWidget", "name": "VitalityPointButton",
                     "fields": {
                         "rect": { "x": 1203, "y": 164 },
-                        "filename": "..\\..\\..\\ReMoDDeD\\LevelUpButton",
+                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\LevelUpButton",
                         "focusIndicatorFilename": "Controller/HoverImages/LevelUpButton_Hover",
                         "controllerRequireHold": false,
                         "navigation": {
@@ -1003,7 +1003,7 @@
                     "type": "CharacterStatLevelUpButtonWidget", "name": "EnergyPointButton",
                     "fields": {
                         "rect": { "x": 1203, "y": 232 },
-                        "filename": "..\\..\\..\\ReMoDDeD\\LevelUpButton",
+                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\LevelUpButton",
                         "focusIndicatorFilename": "Controller/HoverImages/LevelUpButton_Hover",
                         "controllerRequireHold": false,
                         "navigation": {

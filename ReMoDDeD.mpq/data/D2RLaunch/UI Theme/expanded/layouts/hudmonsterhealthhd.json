@@ -1,97 +1,74 @@
 {
     "type": "MonsterHealthPanel", "name": "HUDMonsterHealth",
     "fields": {
-        "priority": -100,
         "anchor": { "x": 0.5 },
-        "rect": { "y": 63 }
-    },
+        "rect": { "x":-500, "y": 101, "width": 999, "height": 33 }
+      },
     "children": [
-        {
-            "type": "GrowableImageWidget", "name": "NormalMonsterBackground",
-            "rect": { "x": -500, "y": -12 },
-            "fields": {
-                "filename": "..\\..\\..\\ReMoDDeD\\HB_M_Blank",
-                "leftCap/filename": "..\\..\\..\\ReMoDDeD\\HB_L_Blank",
-                "rightCap/filename": "..\\..\\..\\ReMoDDeD\\HB_R_Blank",
-                "leftCapOffset": { "x": 0, "y": 0 },
-                "rightCapOffset": { "x": 0, "y": 0 },
-                "placeCapsOutsideRect": true
-            }
-        },
-        {
+          {
             "type": "GrowableImageWidget", "name": "UniqueMonsterBackground",
-            "rect": { "x": -500, "y": -12 },
+            "rect": { "x": -500, "y": -26 },
             "fields": {
-                "filename": "..\\..\\..\\ReMoDDeD\\HB_M_Blank",
-                "leftCap/filename": "..\\..\\..\\ReMoDDeD\\HB_L_Blank",
-                "rightCap/filename": "..\\..\\..\\ReMoDDeD\\HB_R_Blank",
-                "leftCapOffset": { "x": 0, "y": 0 },
-                "rightCapOffset": { "x": 0, "y": 0 },
-                "placeCapsOutsideRect": true
-            }
-        },
-        {
+                "filename": "../../../D2RLaunch/Monster Stats/MonHPBar_UniFull"
+              }
+          },
+          {
+            "type": "GrowableImageWidget", "name": "NormalMonsterBackground",
+            "fields": {
+                "filename": "../../../D2RLaunch/Monster Stats/MonHPBar_NormFull"
+              }
+          },
+          {
             "type": "HealthBarWidget", "name": "Health",
             "fields": {
-                "rect": { "x": 0, "y": -12 },
-                "filename": "Controller/HUD/MonsterHealth/monsterhealth_console",
-                "transparency": 0.5,
-                "backgroundTransparency": 0.75,
-                "criticalHealthPercent": 0,
-                "warningHealthPercent": 0,
+                "fitToParent": true,
+                "anchor": { "x": 0.0075, "y": -0.2 },
+                "normalColor": { "r": 0.31, "g": 0.0, "b": 0.0 },
+                "warningColor": { "r": 0.31, "g": 0.0, "b": 0.0 },
+                "criticalColor": { "r": 0.31, "g": 0.0, "b": 0.0 },
+                "transparency": 1,
+                "warningHealthPercent": 66,
+                "criticalHealthPercent": 33,
                 "drawWhenEmpty": true
-            },
+              },
             "children": [
                 {
-                    "type": "TextBoxWidget", "name": "Name",
-                    "fields": {
-                        "rect": { "x": 0, "y": 0 },
-                        "anchor": { "x": 0.5, "y": 0.5 },
-                        "style": {
-                            "pointSize": "$LargeFontSize",
-                            "alignment": { "h": "center", "v": "center" },
-                            "options": { "pipeCharacterBehavior": "handle" }
-                        }
-                    }
-                },
-                {
-                    "type": "ImageWidget", "name": "Pentagram",
-                    "fields": {
-                        "rect": { "x": -275, "y": 28 },
-                        "anchor": { "x": 0.5, "y": 0.5 },
-                        "filename": "..\\..\\..\\ReMoDDeD\\HB_A",
-                        "style": {
-                            "pointSize": "$LargeFontSize",
-                            "alignment": { "h": "center", "v": "center" },
-                            "options": { "pipeCharacterBehavior": "handle" }
-                        }
-                    }
-                }
-            ]
-        },
-        {
+                  "type": "TextBoxWidget", "name": "Name",
+                  "fields": {
+                      "anchor": { "x": 0.5, "y": -1.1 },
+                      "style": {
+                          "fontFace": "Exocet",
+                          "pointSize": "$LargeFontSize",
+                          "alignment": { "h": "center", "v": "center" },
+                          "options": { "pipeCharacterBehavior": "handle" },
+                          "spacing": { "kerning": 1.25 }
+                          }
+                      }
+                  }
+              ]
+          },
+          {
             "type": "TextBoxWidget", "name": "Unique",
             "fields": {
-                "rect": { "y": 110 },
+                "rect": { "x": 500, "y": 115 },
                 "style": {
-                    "fontFace": "Formal",
                     "pointSize": "$MediumFontSize",
                     "alignment": { "h": "center" },
                     "options": { "pipeCharacterBehavior": "handle" }
-                }
-            }
-        },
-        {
+                  }
+              }
+          },
+          {
             "type": "TextBoxWidget", "name": "Additional",
             "fields": {
-                "rect": { "y": 155 },
+                "rect": { "x": 500, "y": 150 },
                 "style": {
-                    "fontFace": "Formal",
                     "pointSize": "$MediumFontSize",
                     "alignment": { "h": "center" },
                     "options": { "pipeCharacterBehavior": "handle" }
-                }
-            }
-        }
-    ]
-}
+                  }
+              }
+          }
+      ]
+  }
+  

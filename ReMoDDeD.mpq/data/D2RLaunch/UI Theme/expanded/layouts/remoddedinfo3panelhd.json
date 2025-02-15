@@ -11,21 +11,27 @@
     },
     "children": [
         {
-            "type": "ImageWidget", "name": "ScrollBarBackground",
+            "type": "ImageWidget",
+            "name": "ScrollBarBackground",
             "fields": {
                 "rect": "$OptionsScrollBarBackgroundRect",
-                "anchor": { "x": 1.0 },
-                "filename": "PauseMenu\\VerticalScroll"
+                "anchor": {
+                    "x": 1.0
+                },
+                "filename": "..\\..\\..\\ReMoDDeD\\Info\\ScrollBG"
             },
             "children": [
                 {
-                    "type": "ScrollControllerWidget", "name": "ScrollController",
+                    "type": "ScrollControllerWidget",
+                    "name": "ScrollController",
                     "fields": {
                         "rect": "$OptionsScrollBarRect",
-                        "anchor": { "x": 1.0 },
+                        "anchor": {
+                            "x": 1.0
+                        },
                         "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
                         "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
-                        "barFilepath": "PauseMenu\\VerticalIndicator",
+                        "barFilepath": "..\\..\\..\\ReMoDDeD\\SkullScroll",
                         "viewName": "ScrollView",
                         "wheelScrollSound": "cursor_scroll_hd",
                         "buttonScrollSound": "cursor_scroll_hd"
@@ -52,7 +58,7 @@
                         "rowHeight": "$RMDOptionsTableRowHeight"
                     },
                     "children": [
-                         /*
+                        /*
 IIIIIIIIII       tttt                                                      
 I::::::::I    ttt:::t                                                      
 I::::::::I    t:::::t                                                      
@@ -70,6 +76,235 @@ I::::::::I    tt::::::::::::::t e::::::::eeeeeeee  m::::m   m::::m   m::::m
 I::::::::I      tt:::::::::::tt  ee:::::::::::::e  m::::m   m::::m   m::::m
 IIIIIIIIII        ttttttttttt      eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
 */
+                        {
+                            "type": "TableRowWidget", "name": "Itemization",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ItemizationT",
+                                    "fields": {
+                                        "text": "Kills, Deaths and Charm Weights",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$RMDOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": " - Kills, Deaths and Weight will affect these stats: ",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "NPCSpeech",
+                                    "fields": {
+                                        "rect": "$OptionsDropDownRect",
+                                        "background/rect": "$OptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ "Mana Regen %", "Faster Run/Walk", "+All Skills", "Damage Reduction %",  "Max HP %"],
+                                        "onUpdateMessage": "OptionsPanelMessage:Close",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "navigation": {
+                                            "down": { "name": "Resolution" }
+                                        },
+                                        "tooltipString": "Rewards & Penalties",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                        
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": "Kill and Death Modifiers:",
+                                        "style": "$RecipeSettingsTextFlatBlue"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Grants +1 Max HP% for every 10,000 kills (No Max)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Grants +1 Spell, Combat and Summoning Power for every 500,000 kills (Max +10)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Grants +1 All Skills for every 1,000,000 kills (No Max)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Penalizes -1% Max HP for every death (Max -20%)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": "Charm Weight Modifiers:",
+                                        "style": "$RecipeSettingsTextFlatBlue"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Start with +80% Mana Regen, then penalized -1% for every weight used",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Start with +40% Faster Run/Walk, then penalized -1% for every weight used",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Start with +3 All Skills, then penalized as follows:",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "NPCSpeech",
+                                    "fields": {
+                                        "rect": "$OptionsDropDownRect",
+                                        "background/rect": "$OptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ "Weight 1-20: +2 All Skills", "Weight 21+: +1 All Skills" ],
+                                        "onUpdateMessage": "OptionsPanelMessage:Close",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "navigation": {
+                                            "down": { "name": "Resolution" }
+                                        },
+                                        "tooltipString": "Rewards & Penalties",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                        
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Penalized -1% Damage Reduction for every +4 weight used",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Exceeding maximum charm weight reduces mana to 0",
+                                        "style": "$RecipeSettingsTextPink"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": "",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
                          {
                             "type": "TableRowWidget", "name": "Itemization",
                             "children": [
@@ -112,7 +347,7 @@ IIIIIIIIII        ttttttttttt      eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
                                         "disabledFrame": 2,
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
-                                        "states": [ "Throwing (4 Sockets)", "Boots (3 Sockets)", "Gloves (3 Sockets)", "Belts (2 Sockets)",  "Jewelery (1 Socket)" ],
+                                        "states": [ "Throwing (6 Sockets)", "Boots (3 Sockets)", "Gloves (3 Sockets)", "Belts (2 Sockets)",  "Jewelery (1 Socket)" ],
                                         "onUpdateMessage": "OptionsPanelMessage:Close",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -147,7 +382,7 @@ IIIIIIIIII        ttttttttttt      eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
                                 {
                                     "type": "TextBoxWidget", "name": "IZ1T",
                                     "fields": {
-                                        "text": " - 94 New Unique items added (More coming in Beta)",
+                                        "text": " - Hundreds of New Unique items added",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -159,7 +394,7 @@ IIIIIIIIII        ttttttttttt      eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
                                 {
                                     "type": "TextBoxWidget", "name": "IZ1T",
                                     "fields": {
-                                        "text": " - 9 New Sets with 26 more set items added (More coming in Beta)",
+                                        "text": " - 28 New Sets with 72 more set items added",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -171,7 +406,7 @@ IIIIIIIIII        ttttttttttt      eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
                                 {
                                     "type": "TextBoxWidget", "name": "IZ1T",
                                     "fields": {
-                                        "text": " - 27 New Runewords added (More coming in Beta)",
+                                        "text": " - 42 New Runewords added",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -184,6 +419,18 @@ IIIIIIIIII        ttttttttttt      eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
                                     "type": "TextBoxWidget", "name": "IZ1T",
                                     "fields": {
                                         "text": " - Runewords can be made with any socket count using jewels to fill extra slots (Jewels first)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - New Runic Forging System allows for strengthing runewords by sacrificing runes",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -219,7 +466,7 @@ IIIIIIIIII        ttttttttttt      eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
                                 {
                                     "type": "TextBoxWidget", "name": "IZ1T",
                                     "fields": {
-                                        "text": " - Storage Bag system that holds all your gems, runes, keys and organs",
+                                        "text": " - Storage Bag system that holds all your gems, runes, extra rare jewels, keys and organs",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -291,7 +538,7 @@ IIIIIIIIII        ttttttttttt      eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
                                         "disabledFrame": 2,
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
-                                        "states": [ "Amazon Circlets", "Assassin Boots", "Assassin Cloaks", "Barbarian Belts",  "Druid Armors", "Paladin Armors",  "Paladin Crowns", "Sorceress Gloves" ],
+                                        "states": [ "Amazon Circlets", "Amazon Gloves","Assassin Boots", "Assassin Cloaks", "Barbarian Weapons",  "Druid Armor", "Necromancer Armor","Paladin Armor", "Sorceress Armor", "Sorceress Gloves"],
                                         "onUpdateMessage": "OptionsPanelMessage:Close",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -412,6 +659,18 @@ IIIIIIIIII        ttttttttttt      eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
                                 {
                                     "type": "TextBoxWidget", "name": "IZ3T",
                                     "fields": {
+                                        "text": " - New Assassin weapon type has been added",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ3T",
+                                    "fields": {
                                         "text": " - All Assassin Claws now have the chance for staff mods",
                                         "style": "$StyleSettingsText"
                                     }
@@ -469,7 +728,7 @@ IIIIIIIIII        ttttttttttt      eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
                                 {
                                     "type": "TextBoxWidget", "name": "IZ7T",
                                     "fields": {
-                                        "text": " - Rune level requirements for low and mid runes have been lowered",
+                                        "text": " - Rune level requirements for low runes have been lowered",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -482,6 +741,18 @@ IIIIIIIIII        ttttttttttt      eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
                                     "type": "TextBoxWidget", "name": "IZ1T",
                                     "fields": {
                                         "text": " - Quivers, Tomes and Throwing Weapons have max quantity of 500 and replenish quantity",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Quivers can roll as any item quality",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -589,6 +860,45 @@ RRRRRRRR     RRRRRRR    uuuuuuuu  uuuunnnnnn    nnnnnn    eeeeeeeeeeeeee
                             ]
                         },
                         {
+                            "type": "TableRowWidget",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "fields": {
+                                        "text": " - New Runes        Di Rune        Ab Rune        Er Rune",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "new button",
+                            "fields": {
+                                "rect": { "x": 800, "y": 2955, "height": 190, "width": 250 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\fenixs_button2",
+                                "hoveredFrame": 1,
+                                "tooltipString": "@rr36L"
+                            }
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "new button",
+                            "fields": {
+                                "rect": { "x": 305, "y": 2955, "height": 190, "width": 250 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\fenixs_button2",
+                                "hoveredFrame": 1,
+                                "tooltipString": "@rr34L"
+                            }
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "new button",
+                            "fields": {
+                                "rect": { "x": 555, "y": 2955, "height": 190, "width": 250 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\fenixs_button2",
+                                "hoveredFrame": 1,
+                                "tooltipString": "@rr35L"
+                            }
+                        },
+                        {
                             "type": "TableRowWidget", "name": "RC1",
                             "children": [
                                 {
@@ -606,7 +916,7 @@ RRRRRRRR     RRRRRRR    uuuuuuuu  uuuunnnnnn    nnnnnn    eeeeeeeeeeeeee
                                 {
                                     "type": "TextBoxWidget", "name": "RC2T",
                                     "fields": {
-                                        "text": " - El (Weapon Attack Rating reduced from 50 to 25)",
+                                        "text": " - El (Weapon Attack Rating reduced from 50 to 30)",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -618,7 +928,7 @@ RRRRRRRR     RRRRRRR    uuuuuuuu  uuuunnnnnn    nnnnnn    eeeeeeeeeeeeee
                                 {
                                     "type": "TextBoxWidget", "name": "RC3T",
                                     "fields": {
-                                        "text": " - Eld (Defense reduced from 15 to 10 )",
+                                        "text": " - Eld (Increases Faster Run/Walk by 5%)",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -655,6 +965,18 @@ RRRRRRRR     RRRRRRR    uuuuuuuu  uuuunnnnnn    nnnnnn    eeeeeeeeeeeeee
                                     "type": "TextBoxWidget", "name": "RC6T",
                                     "fields": {
                                         "text": " - Tal/Ral/Ort/Thul (Elemental Damage reduced by 50%)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RC16",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RC16T",
+                                    "fields": {
+                                        "text": " - Amn (Life Steal reduced from 7% to 5%)",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -769,18 +1091,6 @@ RRRRRRRR     RRRRRRR    uuuuuuuu  uuuunnnnnn    nnnnnn    eeeeeeeeeeeeee
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "RC16",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "RC16T",
-                                    "fields": {
-                                        "text": " - Amn (Life Steal reduced from 7% to 5%)",
-                                        "style": "$StyleSettingsText"
-                                    }
-                                }
-                            ]
-                        },
-                        {
                             "type": "TableRowWidget", "name": "RC17",
                             "children": [
                                 {
@@ -810,7 +1120,7 @@ RRRRRRRR     RRRRRRR    uuuuuuuu  uuuunnnnnn    nnnnnn    eeeeeeeeeeeeee
                                 {
                                     "type": "TextBoxWidget", "name": "RC19T",
                                     "fields": {
-                                        "text": " - Gul (Attack Bonus% reduced from 20% to 10%)",
+                                        "text": " - Gul (Attack Bonus% reduced from 20% to 15%)",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -829,24 +1139,12 @@ RRRRRRRR     RRRRRRR    uuuuuuuu  uuuunnnnnn    nnnnnn    eeeeeeeeeeeeee
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "RC21",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "RC21T",
-                                    "fields": {
-                                        "text": " - Cham (Freeze Target reduced from 3 to 2)",
-                                        "style": "$StyleSettingsText"
-                                    }
-                                }
-                            ]
-                        },
-                        {
                             "type": "TableRowWidget", "name": "RC22",
                             "children": [
                                 {
                                     "type": "TextBoxWidget", "name": "RC22T",
                                     "fields": {
-                                        "text": " - Ohm (Enhanded Damage% reduced from 50% to 35%)",
+                                        "text": " - Ohm (Enhanced Damage% reduced from 50% to 35%)",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -887,7 +1185,147 @@ RRRRRRRR     RRRRRRR    uuuuuuuu  uuuunnnnnn    nnnnnn    eeeeeeeeeeeeee
                                     }
                                 }
                             ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RC21",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RC21T",
+                                    "fields": {
+                                        "text": " - Cham (Freeze Target reduced from 3 to 2)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RC21",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RC21T",
+                                    "fields": {
+                                        "text": " - Cham (Cannot be frozen to half freeze duration)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RC21",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RC21T",
+                                    "fields": {
+                                        "text": " - Zod (Added 5% Cold, Lightning, Fire, Magic Absorb)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": "",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RuneChanges",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RuneChangesT",
+                                    "fields": {
+                                        "text": "Forsaken Pacts",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$RMDOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RC21",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RC21T",
+                                    "fields": {
+                                        "text": " - Forsaken Pact Sets are special sets that can be created by sacrificing full sets",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RC21",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RC21T",
+                                    "fields": {
+                                        "text": " - Cube an entire set together to receive its Forsaken pact",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RC21",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RC21T",
+                                    "fields": {
+                                        "text": " - Cube multiple  Forsaken Pacts together to form a Forsaken Pact Set with all new items",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RC21",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RC21T",
+                                    "fields": {
+                                        "text": " - A list of Forsaken Pact recipes can be found in the Cube menu under Forsaken Pacts",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 0 },
+                                        "text": " - Forsaken Pact Sets can cost between two and three Forsaken Pacts ",
+                                        "style": "$StyleSettingsText"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": { "x": 10, "y": 100 },
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Forsaken_pacts2"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
                         }
+                        
                     ]
                 }
             ]

@@ -1,11 +1,11 @@
 {
     "type": "CharacterStatsPanel", "name": "CharacterStatsPanel",
     "fields": {
-        "rect":  "$LeftPanelRectStats",
+        "rect":  "$LeftPanelRect",
         "anchor": "$LeftPanelAnchor",
         "defaultTextColor": "$FontColorWhite",
         "statPointsRemainingActiveFontColor": "$FontColorRed",
-        "statPointsRemainingInactiveFontColor": "$TabsInactiveTextColor"
+        "statPointsRemainingInactiveFontColor": "$TabsInactiveTextColor",
     },
     "children": [
         {
@@ -23,6 +23,13 @@
             }
         },
         {
+            "type": "ImageWidget", "name": "LeftSprite",
+            "fields": {
+                "rect": "$LeftSideRectHireMenu",
+                "filename": "$LeftSideSpriteNew"
+            }
+        },
+        {
             "type": "ImageWidget", "name": "LeftHinge",
             "fields": {
                 "rect": "$LeftHingeRect",
@@ -34,7 +41,7 @@
             "fields": {
                 "rect": "$InGamePanelTitleRect",
                 "text": "@minipanelchar",
-                "style": "$StyleTitleBlock"
+                "style": "$StyleTitleBlock",
             }
         },
         // Character Info
@@ -45,8 +52,8 @@
                 "style": {
                     "fontColor": "$FontColorWhite",
                     "pointSize": "$LargeFontSize",
-                    "dropShadow": "$DefaultDropShadow"
-                }
+                    "dropShadow": "$DefaultDropShadow",
+                },
             }
         },
         {
@@ -57,8 +64,8 @@
                     "fontColor": "$FontColorWhite",
                     "alignment": { "h": "left", "v": "center" },
                     "pointSize": "$SmallPanelFontSize",
-                    "dropShadow": "$DefaultDropShadow"
-                }
+                    "dropShadow": "$DefaultDropShadow",
+                },
             }
         },
         // Experience
@@ -79,7 +86,7 @@
                     "pointSize": "$SmallPanelFontSize",
                     "dropShadow": "$DefaultDropShadow",
                     "alignment": { "h": "right", "v": "center" }
-                }
+                },
             }
         },
 
@@ -93,7 +100,7 @@
                     "fontColor": "$FontColorWhite",
                     "pointSize": "$MediumPanelFontSize",
                     "alignment": { "h": "center", "v": "center" }
-                }
+                },
             },
             "children": [
                 {
@@ -104,7 +111,7 @@
                         "tooltipStyle": "$TooltipStyle",
                         "tooltipStyle": {
                             "fontStyle": {
-                                "options": { "newlineHandling": "standard" }
+                                "options": { "newlineHandling": "standard" },
                             }
                         }
                     }
@@ -119,7 +126,7 @@
                     "fontColor": "$FontColorWhite",
                     "pointSize": "$MediumPanelFontSize",
                     "alignment": { "h": "center", "v": "center" }
-                }
+                },
             }
         },
         {
@@ -131,7 +138,7 @@
                     "fontColor": "$FontColorWhite",
                     "pointSize": "$MediumPanelFontSize",
                     "alignment": { "h": "center", "v": "center" }
-                }
+                },
             },
             "children": [
                 {
@@ -142,7 +149,7 @@
                         "tooltipStyle": "$TooltipStyle",
                         "tooltipStyle": {
                             "fontStyle": {
-                                "options": { "newlineHandling": "standard" }
+                                "options": { "newlineHandling": "standard" },
                             }
                         }
                     }
@@ -157,7 +164,7 @@
                     "fontColor": "$FontColorWhite",
                     "pointSize": "$MediumPanelFontSize",
                     "alignment": { "h": "center", "v": "center" }
-                }
+                },
             }
         },
         {
@@ -169,7 +176,7 @@
                     "fontColor": "$FontColorWhite",
                     "pointSize": "$MediumPanelFontSize",
                     "alignment": { "h": "center", "v": "center" }
-                }
+                },
             },
             "children": [
                 {
@@ -180,7 +187,7 @@
                         "tooltipStyle": "$TooltipStyle",
                         "tooltipStyle": {
                             "fontStyle": {
-                                "options": { "newlineHandling": "standard" }
+                                "options": { "newlineHandling": "standard" },
                             }
                         }
                     }
@@ -195,7 +202,7 @@
                     "fontColor": "$FontColorWhite",
                     "pointSize": "$MediumPanelFontSize",
                     "alignment": { "h": "center", "v": "center" }
-                }
+                },
             }
         },
         {
@@ -207,7 +214,7 @@
                     "fontColor": "$FontColorWhite",
                     "pointSize": "$MediumPanelFontSize",
                     "alignment": { "h": "center", "v": "center" }
-                }
+                },
             },
             "children": [
                 {
@@ -218,7 +225,7 @@
                         "tooltipStyle": "$TooltipStyle",
                         "tooltipStyle": {
                             "fontStyle": {
-                                "options": { "newlineHandling": "standard" }
+                                "options": { "newlineHandling": "standard" },
                             }
                         }
                     }
@@ -233,7 +240,7 @@
                     "fontColor": "$FontColorWhite",
                     "pointSize": "$MediumPanelFontSize",
                     "alignment": { "h": "center", "v": "center" }
-                }
+                },
             }
         },
         // Attack Stats Left Skill
@@ -271,7 +278,7 @@
                                     "options": { "newlineHandling": "standard" },
                                     "spacing": { "kerning": 0.87, "leading": 0.75 }
 
-                                }
+                                },
                             },
                             "children": [
                                 {
@@ -282,7 +289,7 @@
                                         "tooltipStyle": "$TooltipStyle",
                                         "tooltipStyle": {
                                             "fontStyle": {
-                                                "options": { "newlineHandling": "standard" }
+                                                "options": { "newlineHandling": "standard" },
                                             }
                                         }
                                     }
@@ -296,8 +303,8 @@
                                 "style": {
                                     "fontColor": "$FontColorWhite",
                                     "pointSize": "$MediumPanelFontSize",
-                                    "alignment": { "h": "center", "v": "center" }
-                                }
+                                    "alignment": { "h": "center", "v": "center" },
+                                },
                             }
                         },
                         {
@@ -307,8 +314,8 @@
                                 "style": {
                                     "fontColor": "$FontColorWhite",
                                     "pointSize": "$SmallPanelFontSize",
-                                    "alignment": { "h": "center", "v": "center" }
-                                }
+                                    "alignment": { "h": "center", "v": "center" },
+                                },
                             }
                         },
                         {
@@ -318,10 +325,10 @@
                                 "style": {
                                     "fontColor": "$FontColorWhite",
                                     "pointSize": "$SmallPanelFontSize",
-                                    "alignment": { "h": "center", "v": "center" }
-                                }
+                                    "alignment": { "h": "center", "v": "center" },
+                                },
                             }
-                        }
+                        },
                     ]
                 },
                 // Attack Ratings
@@ -349,7 +356,7 @@
                                     "alignment": { "h": "center", "v": "center" },
                                     "options": { "newlineHandling": "standard" },
                                     "spacing": { "kerning": 0.87, "leading": 0.75 }
-                                }
+                                },
                             },
                             "children": [
                                 {
@@ -360,7 +367,7 @@
                                         "tooltipStyle": "$TooltipStyle",
                                         "tooltipStyle": {
                                             "fontStyle": {
-                                                "options": { "newlineHandling": "standard" }
+                                                "options": { "newlineHandling": "standard" },
                                             }
                                         }
                                     }
@@ -374,8 +381,8 @@
                                 "style": {
                                     "fontColor": "$FontColorWhite",
                                     "pointSize": "$MediumPanelFontSize",
-                                    "alignment": { "h": "center", "v": "center" }
-                                }
+                                    "alignment": { "h": "center", "v": "center" },
+                                },
                             }
                         },
                         {
@@ -385,8 +392,8 @@
                                 "style": {
                                     "fontColor": "$FontColorWhite",
                                     "pointSize": "$SmallPanelFontSize",
-                                    "alignment": { "h": "center", "v": "center" }
-                                }
+                                    "alignment": { "h": "center", "v": "center" },
+                                },
                             }
                         },
                         {
@@ -396,10 +403,10 @@
                                 "style": {
                                     "fontColor": "$FontColorWhite",
                                     "pointSize": "$SmallPanelFontSize",
-                                    "alignment": { "h": "center", "v": "center" }
-                                }
+                                    "alignment": { "h": "center", "v": "center" },
+                                },
                             }
-                        }
+                        },
                     ]
                 }
             ]
@@ -438,7 +445,7 @@
                                     "alignment": { "h": "center", "v": "center" },
                                     "options": { "newlineHandling": "standard" },
                                     "spacing": { "kerning": 0.87, "leading": 0.75 }
-                                }
+                                },
                             },
                             "children": [
                                 {
@@ -449,7 +456,7 @@
                                         "tooltipStyle": "$TooltipStyle",
                                         "tooltipStyle": {
                                             "fontStyle": {
-                                                "options": { "newlineHandling": "standard" }
+                                                "options": { "newlineHandling": "standard" },
                                             }
                                         }
                                     }
@@ -463,8 +470,8 @@
                                 "style": {
                                     "fontColor": "$FontColorWhite",
                                     "pointSize": "$MediumPanelFontSize",
-                                    "alignment": { "h": "center", "v": "center" }
-                                }
+                                    "alignment": { "h": "center", "v": "center" },
+                                },
                             }
                         },
                         {
@@ -474,8 +481,8 @@
                                 "style": {
                                     "fontColor": "$FontColorWhite",
                                     "pointSize": "$SmallPanelFontSize",
-                                    "alignment": { "h": "center", "v": "center" }
-                                }
+                                    "alignment": { "h": "center", "v": "center" },
+                                },
                             }
                         },
                         {
@@ -485,10 +492,10 @@
                                 "style": {
                                     "fontColor": "$FontColorWhite",
                                     "pointSize": "$SmallPanelFontSize",
-                                    "alignment": { "h": "center", "v": "center" }
-                                }
+                                    "alignment": { "h": "center", "v": "center" },
+                                },
                             }
-                        }
+                        },
                     ]
                 },
                 // Attack Ratings
@@ -518,7 +525,7 @@
                                     "alignment": { "h": "center", "v": "center" },
                                     "options": { "newlineHandling": "standard" },
                                     "spacing": { "kerning": 0.87, "leading": 0.75 }
-                                }
+                                },
                             },
                             "children": [
                                 {
@@ -529,7 +536,7 @@
                                         "tooltipStyle": "$TooltipStyle",
                                         "tooltipStyle": {
                                             "fontStyle": {
-                                                "options": { "newlineHandling": "standard" }
+                                                "options": { "newlineHandling": "standard" },
                                             }
                                         }
                                     }
@@ -543,8 +550,8 @@
                                 "style": {
                                     "fontColor": "$FontColorWhite",
                                     "pointSize": "$MediumPanelFontSize",
-                                    "alignment": { "h": "center", "v": "center" }
-                                }
+                                    "alignment": { "h": "center", "v": "center" },
+                                },
                             }
                         },
                         {
@@ -554,8 +561,8 @@
                                 "style": {
                                     "fontColor": "$FontColorWhite",
                                     "pointSize": "$SmallPanelFontSize",
-                                    "alignment": { "h": "center", "v": "center" }
-                                }
+                                    "alignment": { "h": "center", "v": "center" },
+                                },
                             }
                         },
                         {
@@ -565,10 +572,10 @@
                                 "style": {
                                     "fontColor": "$FontColorWhite",
                                     "pointSize": "$SmallPanelFontSize",
-                                    "alignment": { "h": "center", "v": "center" }
-                                }
+                                    "alignment": { "h": "center", "v": "center" },
+                                },
                             }
-                        }
+                        },
                     ]
                 }
             ]
@@ -584,8 +591,8 @@
                     "fontFace": "Formal",
                     "fontColor": "$FontColorWhite",
                     "pointSize": "$SmallPanelFontSize",
-                    "alignment": { "h": "center", "v": "center" }
-                }
+                    "alignment": { "h": "center", "v": "center" },
+                },
             },
             "children": [
                 {
@@ -596,7 +603,7 @@
                         "tooltipStyle": "$TooltipStyle",
                         "tooltipStyle": {
                             "fontStyle": {
-                                "options": { "newlineHandling": "standard" }
+                                "options": { "newlineHandling": "standard" },
                             }
                         }
                     }
@@ -609,8 +616,8 @@
                 "rect": { "x": 842, "y": 730, "width": 225, "height": 86 },
                 "style": {
                     "pointSize": "$MediumPanelFontSize",
-                    "alignment": { "h": "center", "v": "center" }
-                }
+                    "alignment": { "h": "center", "v": "center" },
+                },
             }
         },
         // Stamina
@@ -623,8 +630,8 @@
                     "fontColor": "$FontColorWhite",
                     "fontFace": "Formal",
                     "pointSize": "$SmallPanelFontSize",
-                    "alignment": { "h": "center", "v": "center" }
-                }
+                    "alignment": { "h": "center", "v": "center" },
+                },
             },
             "children": [
                 {
@@ -635,7 +642,7 @@
                         "tooltipStyle": "$TooltipStyle",
                         "tooltipStyle": {
                             "fontStyle": {
-                                "options": { "newlineHandling": "standard" }
+                                "options": { "newlineHandling": "standard" },
                             }
                         }
                     }
@@ -648,8 +655,8 @@
                 "rect": { "x": 969, "y": 844, "width": 100, "height": 86 },
                 "style": {
                     "pointSize": "$MediumPanelFontSize",
-                    "alignment": { "h": "left", "v": "center" }
-                }
+                    "alignment": { "h": "left", "v": "center" },
+                },
             }
         },
         {
@@ -659,8 +666,8 @@
                 "text": "@CharacterStatsPanelNumberSeparator",
                 "style": {
                     "pointSize": "$MediumPanelFontSize",
-                    "alignment": { "h": "center", "v": "center" }
-                }
+                    "alignment": { "h": "center", "v": "center" },
+                },
             }
         },
         {
@@ -669,8 +676,8 @@
                 "rect": { "x": 841, "y": 844, "width": 100, "height": 86 },
                 "style": {
                     "pointSize": "$MediumPanelFontSize",
-                    "alignment": { "h": "right", "v": "center" }
-                }
+                    "alignment": { "h": "right", "v": "center" },
+                },
             }
         },
         // HP
@@ -683,8 +690,8 @@
                     "fontColor": "$FontColorWhite",
                     "fontFace": "Formal",
                     "pointSize": "$SmallPanelFontSize",
-                    "alignment": { "h": "center", "v": "center" }
-                }
+                    "alignment": { "h": "center", "v": "center" },
+                },
             },
             "children": [
                 {
@@ -695,7 +702,7 @@
                         "tooltipStyle": "$TooltipStyle",
                         "tooltipStyle": {
                             "fontStyle": {
-                                "options": { "newlineHandling": "standard" }
+                                "options": { "newlineHandling": "standard" },
                             }
                         }
                     }
@@ -708,8 +715,8 @@
                 "rect": { "x": 967, "y": 940, "width": 101, "height": 86 },
                 "style": {
                     "pointSize": "$MediumPanelFontSize",
-                    "alignment": { "h": "left", "v": "center" }
-                }
+                    "alignment": { "h": "left", "v": "center" },
+                },
             }
         },
         {
@@ -719,8 +726,8 @@
                 "text": "@CharacterStatsPanelNumberSeparator",
                 "style": {
                     "pointSize": "$MediumPanelFontSize",
-                    "alignment": { "h": "center", "v": "center" }
-                }
+                    "alignment": { "h": "center", "v": "center" },
+                },
             }
         },
         {
@@ -729,8 +736,8 @@
                 "rect": { "x": 843, "y": 940, "width": 101, "height": 86 },
                 "style": {
                     "pointSize": "$MediumPanelFontSize",
-                    "alignment": { "h": "right", "v": "center" }
-                }
+                    "alignment": { "h": "right", "v": "center" },
+                },
             }
         },
         // Mana
@@ -743,8 +750,8 @@
                     "fontColor": "$FontColorWhite",
                     "fontFace": "Formal",
                     "pointSize": "$SmallPanelFontSize",
-                    "alignment": { "h": "center", "v": "center" }
-                }
+                    "alignment": { "h": "center", "v": "center" },
+                },
             },
             "children": [
                 {
@@ -755,7 +762,7 @@
                         "tooltipStyle": "$TooltipStyle",
                         "tooltipStyle": {
                             "fontStyle": {
-                                "options": { "newlineHandling": "standard" }
+                                "options": { "newlineHandling": "standard" },
                             }
                         }
                     }
@@ -768,8 +775,8 @@
                 "rect": {"x": 967, "y": 1054, "width": 100, "height": 86 },
                 "style": {
                     "pointSize": "$MediumPanelFontSize",
-                    "alignment": { "h": "left", "v": "center" }
-                }
+                    "alignment": { "h": "left", "v": "center" },
+                },
             }
         },
         {
@@ -779,8 +786,8 @@
                 "text":  "@CharacterStatsPanelNumberSeparator",
                 "style": {
                     "pointSize": "$MediumPanelFontSize",
-                    "alignment": { "h": "center", "v": "center" }
-                }
+                    "alignment": { "h": "center", "v": "center" },
+                },
             }
         },
         {
@@ -789,8 +796,8 @@
                 "rect": { "x": 843, "y": 1054, "width": 101, "height": 86 },
                 "style": {
                     "pointSize": "$MediumPanelFontSize",
-                    "alignment": { "h": "right", "v": "center" }
-                }
+                    "alignment": { "h": "right", "v": "center" },
+                },
             }
         },
         // Elemental Resistances
@@ -804,8 +811,8 @@
                     "fontFace": "Formal",
                     "pointSize": "$SmallPanelFontSize",
                     "spacing": "$ReducedSpacing",
-                    "alignment": { "h": "center", "v": "center" }
-                }
+                    "alignment": { "h": "center", "v": "center" },
+                },
             },
             "children": [
                 {
@@ -816,7 +823,7 @@
                         "tooltipStyle": "$TooltipStyle",
                         "tooltipStyle": {
                             "fontStyle": {
-                                "options": { "newlineHandling": "standard" }
+                                "options": { "newlineHandling": "standard" },
                             }
                         }
                     }
@@ -829,8 +836,8 @@
                 "rect": { "x": 455, "y": 1188, "width": 113, "height": 59 },
                 "style": {
                     "pointSize": "$MediumPanelFontSize",
-                    "alignment": { "h": "center", "v": "center" }
-                }
+                    "alignment": { "h": "center", "v": "center" },
+                },
             }
         },
         {
@@ -843,8 +850,8 @@
                     "fontFace": "Formal",
                     "pointSize": "$SmallPanelFontSize",
                     "spacing": "$ReducedSpacing",
-                    "alignment": { "h": "center", "v": "center" }
-                }
+                    "alignment": { "h": "center", "v": "center" },
+                },
             },
             "children": [
                 {
@@ -855,7 +862,7 @@
                         "tooltipStyle": "$TooltipStyle",
                         "tooltipStyle": {
                             "fontStyle": {
-                                "options": { "newlineHandling": "standard" }
+                                "options": { "newlineHandling": "standard" },
                             }
                         }
                     }
@@ -868,8 +875,8 @@
                 "rect": { "x": 455, "y": 1261, "width": 113, "height": 57 },
                 "style": {
                     "pointSize": "$MediumPanelFontSize",
-                    "alignment": { "h": "center", "v": "center" }
-                }
+                    "alignment": { "h": "center", "v": "center" },
+                },
             }
         },
         {
@@ -882,8 +889,8 @@
                     "fontFace": "Formal",
                     "pointSize": "$SmallPanelFontSize",
                     "spacing": "$ReducedSpacing",
-                    "alignment": { "h": "center", "v": "center" }
-                }
+                    "alignment": { "h": "center", "v": "center" },
+                },
             },
             "children": [
                 {
@@ -894,7 +901,7 @@
                         "tooltipStyle": "$TooltipStyle",
                         "tooltipStyle": {
                             "fontStyle": {
-                                "options": { "newlineHandling": "standard" }
+                                "options": { "newlineHandling": "standard" },
                             }
                         }
                     }
@@ -907,8 +914,8 @@
                 "rect": {  "x": 961, "y": 1188, "width": 113, "height": 59 },
                 "style": {
                     "pointSize": "$MediumPanelFontSize",
-                    "alignment": { "h": "center", "v": "center" }
-                }
+                    "alignment": { "h": "center", "v": "center" },
+                },
             }
         },
         {
@@ -921,8 +928,8 @@
                     "fontFace": "Formal",
                     "pointSize": "$SmallPanelFontSize",
                     "spacing": "$ReducedSpacing",
-                    "alignment": { "h": "center", "v": "center" }
-                }
+                    "alignment": { "h": "center", "v": "center" },
+                },
             },
             "children": [
                 {
@@ -933,7 +940,7 @@
                         "tooltipStyle": "$TooltipStyle",
                         "tooltipStyle": {
                             "fontStyle": {
-                                "options": { "newlineHandling": "standard" }
+                                "options": { "newlineHandling": "standard" },
                             }
                         }
                     }
@@ -946,8 +953,8 @@
                 "rect": { "x": 961, "y": 1261, "width": 113, "height": 57 },
                 "style": {
                     "pointSize": "$MediumPanelFontSize",
-                    "alignment": { "h": "center", "v": "center" }
-                }
+                    "alignment": { "h": "center", "v": "center" },
+                },
             }
         },
         // To Advanced Stats panel
@@ -960,7 +967,7 @@
                 "onClickMessage": "CharacterStatsPanelMessage:ToggleAdvancedStats",
                 "pressLabelOffset": { "x": 0, "y": 2 },
                 "tooltipString": "@AdvancedStats"
-            }
+            },
         },
         {
             "type": "Widget", "name": "LevelUpInfo",
@@ -975,8 +982,8 @@
                         "pressedFrame": 2,
                         "statsIndex": 0,
                         "tooltipString": "@TooltipCharacterScreenSpendStatPoint",
-                        "sound": "none"
-                    }
+                        "sound": "none",
+                    },
                 },
                 {
                     "type": "CharacterStatLevelUpButtonWidget", "name": "DexPointButton",
@@ -987,8 +994,8 @@
                         "pressedFrame": 2,
                         "statsIndex": 1,
                         "tooltipString": "@TooltipCharacterScreenSpendStatPoint",
-                        "sound": "none"
-                    }
+                        "sound": "none",
+                    },
                 },
                 {
                     "type": "CharacterStatLevelUpButtonWidget", "name": "VitalityPointButton",
@@ -999,8 +1006,8 @@
                         "pressedFrame": 2,
                         "statsIndex": 2,
                         "tooltipString": "@TooltipCharacterScreenSpendStatPoint",
-                        "sound": "none"
-                    }
+                        "sound": "none",
+                    },
                 },
                 {
                     "type": "CharacterStatLevelUpButtonWidget", "name": "EnergyPointButton",
@@ -1011,9 +1018,9 @@
                         "pressedFrame": 2,
                         "statsIndex": 3,
                         "tooltipString": "@TooltipCharacterScreenSpendStatPoint",
-                        "sound": "none"
-                    }
-                }
+                        "sound": "none",
+                    },
+                },
             ]
         },
         // Unused Points
@@ -1023,8 +1030,8 @@
                 "rect": { "x": 91, "y": 1388, "width": 972, "height": 60 },
                 "style": {
                     "pointSize": "$XMediumPanelFontSize",
-                    "alignment": { "h": "center" }
-                }
+                    "alignment": { "h": "center" },
+                },
             },
             "children": [
                 {
@@ -1035,7 +1042,7 @@
                         "tooltipStyle": "$TooltipStyle",
                         "tooltipStyle": {
                             "fontStyle": {
-                                "options": { "newlineHandling": "standard" }
+                                "options": { "newlineHandling": "standard" },
                             }
                         }
                     }
@@ -1051,8 +1058,8 @@
                 "hoveredFrame": 3,
                 "onClickMessage": "CharacterStatsPanelMessage:Close",
                 "tooltipString": "@strClose",
-                "sound": "cursor_close_window_hd"
-            }
+                "sound": "cursor_close_window_hd",
+            },
         }
     ]
 }

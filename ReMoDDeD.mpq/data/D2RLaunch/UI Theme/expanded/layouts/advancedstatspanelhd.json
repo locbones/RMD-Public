@@ -1,7 +1,7 @@
 {
     "type": "AdvancedStatsPanel", "name": "AdvancedStatsPanel",
     "fields": {
-        "rect": "$AdvancedPanelRect",
+        "rect": { "x": 1158, "y": -851 },
         "anchor": "$LeftPanelAnchor",
         "defaultWidget": "ScrollBar",
         "textPadding": 16
@@ -33,7 +33,7 @@
                 "upArrowFilepath": "",
                 "downArrowFilepath": "",
                 "barFilepath": "PANEL\\AdvancedCharacterSheet\\AdvancedCharacterSheet_ScrollIndicator",
-                "viewName": "ListContainer"
+                "viewName": "ListContainer",
             }
         },
         {
@@ -49,7 +49,7 @@
             "fields": {
                 "rect": { "x": 148, "y": 212, "width": 576, "height": 1231},
                 "direction": "vertical",
-                "scrollControllerName": "ScrollBar"
+                "scrollControllerName": "ScrollBar",
             },
             "children": [
                 {
@@ -76,11 +76,11 @@
                                     "alignment": { "h": "center", "v": "center" },
                                     "options": {
                                         "lineWrap": true,
-                                        "pipeCharacterBehavior": "handle"
-                                    }
+                                        "pipeCharacterBehavior": "handle",
+                                    },
                                 }
                             }
-                        }
+                        },
                     ]
                 }
             ]
@@ -93,8 +93,8 @@
                 "hoveredFrame": 3,
                 "onClickMessage": "PanelManager:ClosePanel:AdvancedStatsPanel",
                 "tooltipString": "@strClose",
-                "sound": "cursor_close_window_hd"
-            }
-        }
+                "sound": "cursor_close_window_hd",
+            },
+        },
     ]
 }

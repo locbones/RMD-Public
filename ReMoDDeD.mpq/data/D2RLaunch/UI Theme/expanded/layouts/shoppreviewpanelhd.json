@@ -35,7 +35,7 @@
                             "type": "TextBoxWidget", "name": "Title",
                             "fields": {
                                 "rect": { "x": 0, "y": 50, "width": 1950, "height": 103 },
-                                "text": "Horadric Shop Preview",
+                                "text": "Never Gonna Give You Up",
                                 "style": "$StyleTitleBlock"
                             }
                         },
@@ -66,24 +66,27 @@
         {
             "type": "AnimatedImageWidget", "name": "Skill1",
             "fields": {
-                "filename": "..\\..\\..\\ReMoDDeD\\Shop\\ShopPreview",
-                "rect": { "x": 1540, "y": 580, "scale": 2.0 },
+                "anchor": { "x": 0.42 },
+                "filename": "..\\..\\..\\ReMoDDeD\\Shop\\ShopRick",
+                "rect": { "y": 580, "scale": 2.0 },
                 "fps": 10
             }
         },
         {
             "type": "TextBoxWidget", "name": "Title2",
             "fields": {
-                "rect": { "x": 1920, "y": 330 },
-                "text": "Rathma's Set Visual",
+                "anchor": { "x": 0.5 },
+                "rect": { "y": 330 },
+                "text": "Never Gonna Let You Down",
                 "style": "$StyleTitleBlockG"
             }
         },
         {
             "type": "TextBoxWidget", "name": "Title3",
             "fields": {
-                "rect": { "x": 1920, "y": 480 },
-                "text": "This visual unlocks when the full set bonus is active",
+                "anchor": { "x": 0.5 },
+                "rect": { "y": 480 },
+                "text": "But sometimes I will troll you...",
                 "style": "$StyleTitleBlockR"
             }
         },

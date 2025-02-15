@@ -12,6 +12,9 @@
             }
         },
         {
+            "type": "ImageWidget", "name": "LeftSprite"
+        },
+        {
             "type": "ImageWidget", "name": "LeftHinge"
         },
         {

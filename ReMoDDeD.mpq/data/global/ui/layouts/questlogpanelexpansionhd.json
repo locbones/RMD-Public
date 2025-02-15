@@ -23,7 +23,7 @@
         {
             "type": "TabBarWidget", "name": "Tabs",
             "fields": {
-                "filename": "..\\..\\..\\ReMoDDeD\\QuestLog_Tabs",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Quest\\QuestTab_R",
                 "tabSize": { "x": 205, "y": 70 },
                 "tabPadding": { "x": -2, "y": 0 },
                 "tabCount": 5,

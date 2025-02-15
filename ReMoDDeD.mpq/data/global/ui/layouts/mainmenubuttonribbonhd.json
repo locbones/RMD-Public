@@ -8,7 +8,7 @@
     "children": [
         {
             "type": "ImageWidget", "name": "Ribbon",
-            "fields": { "rect": { "x": -3, "y": 0 }, "filename": "..\\..\\..\\ReMoDDeD\\MainMenu\\Left" },
+            "fields": { "rect": { "x": -3, "y": 0 }, "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Main\\MainMenuL_R" },
             "children": [
                 {
                     "type": "AnimatedImageWidget", "name": "FullGlow",
@@ -30,7 +30,7 @@
                     "type": "ImageWidget", "name": "ResurrectedText",
                     "fields": {
                         "rect": { "x": 150, "y": 303 },
-                        "filename": "..\\..\\..\\ReMoDDeD\\LogoText"
+                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Main\\LogoText"
                     }
                 },
                 {
@@ -45,7 +45,7 @@
                     "type": "ButtonWidget", "name": "Settings",
                     "fields": {
                         "rect": { "x": 75, "y": 360 },
-                        "filename": "..\\..\\..\\ReMoDDeD\\MainMenu\\FE_Button2",
+                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Main\\FE_Button2",
                         "textString": "@OptionsHD",
                         "onClickMessage": "PanelManager:OpenPanel:SettingsPanel",
                         "textColor": "$LightButtonTextColor",
@@ -64,7 +64,7 @@
                     "type": "ButtonWidget", "name": "Cinematics",
                     "fields": {
                         "rect": { "x": 75, "y": 420 },
-                        "filename": "..\\..\\..\\ReMoDDeD\\MainMenu\\FE_Button2",
+                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Main\\FE_Button2",
                         "textString": "@strGameCinematics",
                         "onClickMessage": "FrontEndNavigation:ToCinematics",
                         "textColor": "$LightButtonTextColor",
@@ -84,7 +84,7 @@
                     "type": "ButtonWidget", "name": "Credits",
                     "fields": {
                         "rect": { "x": 75, "y": 480 },
-                        "filename": "..\\..\\..\\ReMoDDeD\\MainMenu\\FE_Button2",
+                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Main\\FE_Button2",
                         "textString": "@strGameCredits",
                         "onClickMessage": "PanelManager:OpenPanel:CreditsModal",
                         "textColor": "$FontColorGoldYellow",
@@ -104,7 +104,7 @@
                     "type": "ButtonWidget", "name": "Credits2",
                     "fields": {
                         "rect": { "x": 75, "y": 540 },
-                        "filename": "..\\..\\..\\ReMoDDeD\\MainMenu\\FE_Button2",
+                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Main\\FE_Button2",
                         "textString": "@ModInfo",
                         "onClickMessage": "PanelManager:OpenPanel:RemoddedInfoPanel",
                         "textColor": "$FontColorGoldYellow",
@@ -124,7 +124,7 @@
                     "type": "ButtonWidget", "name": "Exit",
                     "fields": {
                         "rect": { "x": 75, "y": 600 },
-                        "filename": "..\\..\\..\\ReMoDDeD\\MainMenu\\FE_Button2",
+                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Main\\FE_Button2",
                         "textString": "@strexitentiregame",
                         "onClickMessage": "FrontEndNavigation:ToExit",
                         "textColor": "$LightButtonTextColor",

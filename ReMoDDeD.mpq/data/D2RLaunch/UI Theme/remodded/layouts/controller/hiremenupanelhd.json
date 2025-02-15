@@ -22,7 +22,7 @@
         {
             "type": "ImageWidget", "name": "BackgroundImage",
             "fields": {
-                "filename": "..\\..\\..\\ReMoDDeD\\HireMenu"
+                "filename": "..\\..\\..\\ReMoDDeD\\\\Panels\\Hireling\\HirelingMenu_R"
             }
         },
         {
@@ -89,7 +89,7 @@
                         {
                             "type": "ImageWidget", "name": "DialogBackground",
                             "fields": {
-                                "filename": "..\\..\\..\\ReMoDDeD\\HireMenuSlot"
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Hireling\\HirelingSlot_R"
                             }
                         },
                         {

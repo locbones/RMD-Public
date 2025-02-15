@@ -11,7 +11,7 @@
             "type": "ImageWidget", "name": "Background",
             "fields": {
                 "rect": { "x": -186, "y": -183 },
-                "filename": "..\\..\\..\\ReMoDDeD\\AdvText"
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Character\\CharacterAdv_R"
             }
         },
         {
@@ -33,7 +33,7 @@
                 "rect": { "x": 872, "y": -182, "width": 36, "height": 700 },
                 "upArrowFilepath": "",
                 "downArrowFilepath": "",
-                "barFilepath": "..\\..\\..\\ReMoDDeD\\SkullScroll",
+                "barFilepath": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\SkullScroll",
                 "viewName": "ListContainer"
             }
         },

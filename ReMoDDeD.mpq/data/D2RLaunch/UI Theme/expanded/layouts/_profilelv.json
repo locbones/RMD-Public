@@ -3,35 +3,31 @@
     "basedOn": "HD",
 
     // In-game panel rects.
-    "LeftPanelRect": { "x": 0, "y": -856, "width": 1162, "height": 1507, "scale": 1.16 },
-    "LeftPanelRectStats": { "x": 0, "y": -856, "width": 1162, "height": 1507, "scale": 1.16 },
-    "RightPanelRect":  { "x": -1346, "y": -856, "width": 1162, "height": 1507, "scale": 1.16 },
-    "AdvancedPanelRect": { "x": 1353, "y": -856, "width": 1162, "height": 1507, "scale": 1.16 },
+    "LeftPanelRect": { "x": 0, "y": -616, "width": 1162, "height": 1507, "scale": 1.16 },
+    "LeftPanelRectS": { "x": 0, "y": -856, "width": 1162, "height": 1507, "scale": 1.16 },
+    "LeftPanelRectHM": { "x": 600, "y": -856, "width": 1162, "height": 1507, "scale": 1.16 },
+    "LeftPanelRectRecipe": { "x": -330, "y": -616, "width": 1762, "height": 1507, "scale": 1.16 },
+    "RightPanelRect":  { "x": -1315, "y": -856, "width": 1162, "height": 1507, "scale": 1.16 },
+    "RightPanelRectS":  { "x": -1260, "y": -856, "width": 1162, "height": 1507, "scale": 1.16 },
 
-    //ModStart ExpandedStorageMod
-    //
-    //modcomment: Panels scale like in vanilla.
-    //
-    //modcomment: Though some things to move to make it fit different resolutions...
-    //
+    "LVSpriteBank": "..\\..\\..\\ReMoDDeD\\StashLV",
+    "LVSpriteInv": "..\\..\\..\\ReMoDDeD\\InventoryLV",
 	"BankPanelRect": { "x": 0, "y": 0, "width": 1750, "height": 1799, "scale": 1.16 },
-	"BankPanelGoldAmountRect": { "x": 1135, "y": 1596, "width": 249, "height": 48 },
-	"BankPanelGoldWithdrawRect": { "x": 1080, "y": 1593 },
+	"BankPanelGoldAmountRect": { "x": 1310, "y": 1371, "width": 249, "height": 48 },
+	"BankPanelGoldWithdrawRect": { "x": 1255, "y": 1368 },
 	
 	"PlayerInventoryPanelRect": { "x": -1346, "y": 0, "width": 1162, "height": 1737, "scale": 1.16 },
-	"PlayerInventoryPanelGoldAmountRect": { "x": 819, "y": 1614, "width": 249, "height": 48 },
-	"PlayerInventoryPanelGoldButtonRect": { "x": 750, "y": 1613 },
+	"PlayerInventoryPanelGoldAmountRect": { "x": 804, "y": 1621, "width": 249, "height": 48 },
+	"PlayerInventoryPanelGoldButtonRect": { "x": 735, "y": 1620 },
 
 	"HoradricCubePanelRect": { "x": 0, "y": 0, "width": 1744, "height": 1737, "scale": 1.16 },
-	"HoradricCubePanelConvert": { "x": 1445, "y": 1508 },
-    "HoradricCubePanelRecipe": { "x": 175, "y": 1508 },
-
-    //ModEnd ExpandedStorageMod
+	"HoradricCubePanelConvert": { "x": 1395, "y": 1320 },
+    "AdvStatsText": { "x": 215, "y": 467, "scale": 1.16 },
 
     "ScrollSpeechWidth": 1050,
     "ScrollSpeechBorderWidth": 1150,
     "ScrollSpeechOffset": -525, // This is negative and half of the width; Used as the horizontal offset.
-    "QuestLogScrollingSpeechParentRect": { "x": 298, "y": 1190, "width": 770, "height": 254 },
+    "QuestLogScrollingSpeechParentRect": { "x": 598, "y": 1140, "width": 810, "height": 384 },
 
     "StyleWeaponSwapTabs": {
         "fontColor": "$FontColorLightGold",
@@ -45,31 +41,12 @@
         "alignment": { "h": "left" },
         "options": { "newlineHandling": "standard", "lineWrap": true }
     },
-    "StyleSettingsText": {
-        "fontColor": "$FontColorLightGold",
-        "pointSize": "$MediumSmallPanelFontSize",
-        "spacing" : "$ReducedSpacing",
-        "alignment": { "h": "left", "v": "center" },
-        "options": { "lineWrap": true }
-    },
-    "RecipeSettingsText": {
-        "fontColor": "$FontColorLightGold",
-        "pointSize": "$MediumSmallFontSize",
-        "spacing" : "$ReducedSpacing",
-        "alignment": { "h": "left", "v": "center" }
-    },
-    "StyleSettingsCarousel": {
-        "pointSize": "$MediumSmallFontSize",
-        "spacing" : "$ReducedSpacing",
-        "alignment": { "h": "center", "v": "center" }
-    },
     "StyleNPCDialogueSize": "$LargeFontSize",
 
     // K&M LV-mode in-game panels are just scaled up, thus we need
     // versions of fonts which can be used in panels.
     "XMediumPanelFontSize": 28,
     "MediumPanelFontSize": 26,
-    "MediumSmallPanelFontSize": 24,
     "SmallPanelFontSize": 22,
 
     "XMediumFontSize": 32,
@@ -120,15 +97,20 @@
 
     // SidePanel
     "LeftHingeSprite": "",
-    "LeftSideSprite": "PANEL\\Docking_Bar\\SidePanel_LV",
+    "LeftSideSprite": "Blank",
     "LeftSideRect": { "y": 1744, "scale": 1.16 },
     "LeftSideCatcherRect": { "x": 0, "y": 1744, "width": 1162, "height": 360, "scale": 1.16 },
     "LeftSideRectImbuePanel": { "y": 1506 },
     "LeftSideRectHireMenu": { "y": 1506 },
     "RightHingeSprite": "",
-    "RightSideSprite": "PANEL\\Docking_Bar\\SidePanel_LV",
+    "RightSideSprite": "Blank",
     "RightSideRect": { "x": -1348, "y": 1744, "scale": 1.16 },
     "RightSideCatcherRect": { "x": -1348, "y": 1744, "width": 1162, "height": 360, "scale": 1.16 },
+    "RecipeScrollBarRect": { "x": -20, "y": 29, "width": 26, "height": 1208, "scale": 1.16 },
+    "RecipeScrollBarBackgroundRect": { "x": 100, "y": -20, "scale": 1.16 },
+    "RecipeTableColumn1": { "width": 1850, "alignment": { "h": "fit", "v": "fit" } },
+    "RecipeTableColumn2": { "width": 800, "alignment": { "h": "center", "v": "center" } },
+    "RecipeTableRowHeight": 98,
 
     // Cutscenes
     "SubtitleConfiguration": {

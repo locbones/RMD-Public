@@ -11,7 +11,7 @@
             "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Paladin_SK",
             "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Barbarian_SK",
             "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Druid_SK",
-            "Spells/Assassin/AsSkillicon"
+            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Assassin_SK"
         ],
         "skillBackgroundFile": [
             "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Generic",

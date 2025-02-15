@@ -13,22 +13,22 @@
         "skillChoicesRemainingInactiveFontColor": "$TabsInactiveTextColor",
         // Amazon, Sorceress, Necromancer, Palladin, Barbarian, Druid, Assassin
         "skillButtonFile": [
-             "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Amazon_SK",
-             "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Sorceress_SK",
-             "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Necromancer_SK",
-             "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Paladin_SK",
-             "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Barbarian_SK",
-             "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Druid_SK",
-             "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Assassin_SK"
+             "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Amazon_SK",
+             "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Sorceress_SK",
+             "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Necromancer_SK",
+             "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Paladin_SK",
+             "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Barbarian_SK",
+             "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Druid_SK",
+             "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Assassin_SK"
         ],
         "skillBackgroundFile": [
-            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Generic",
-            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Generic",
-            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Generic",
-            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Generic",
-            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Generic",
-            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Generic",
-            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Generic"
+            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Generic",
+            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Generic",
+            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Generic",
+            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Generic",
+            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Generic",
+            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Generic",
+            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Generic"
         ],
         "textTab0": [
             "@SkillCategoryAm1",
@@ -80,7 +80,7 @@
         {
              "type": "ImageWidget", "name": "TreeBackground",
              "fields": {
-                 "filename": "..\\..\\..\\ReMoDDeD\\SkillPanel\\SkillPanel",
+                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\SkillPanel",
                  "rect": { "x": 167, "y": 0 }
              }
         },
@@ -153,7 +153,7 @@
             "type": "ButtonWidget", "name": "Respec",
             "fields": {
                 //"menu": "party",
-                "filename": "..\\..\\..\\ReMoDDeD\\SkillPanel\\Respec",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\Respec",
                 "onClickMessage": "SkillsTreePanelMessage:UnassignSkills",
                 "tooltipString": "(Respec Character)",
                 "hoveredFrame": 2,
@@ -233,7 +233,7 @@
             "type": "ButtonWidget", "name": "SP",
             "fields": {
                 "rect": { "x": 520, "y": 713 },
-                "filename": "..\\..\\..\\ReMoDDeD\\SkillPanel\\SPBtn",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\SPBtn",
                 "hoveredFrame": 2,
                 "textString": "",
                 "pointSize": "$XMediumFontSize",

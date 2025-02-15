@@ -27,7 +27,7 @@
         {
             "type": "ImageWidget", "name": "Background",
             "fields": {
-                "filename": "..\\..\\..\\ReMoDDeD\\ImbueBG",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Vendor\\ImbueBG",
             }
         },
         {
@@ -97,7 +97,7 @@
         {
             "type": "ButtonWidget", "name": "Cancel",
             "fields": {
-                "filename": "..\\..\\..\\ReMoDDeD\\Exit",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\Exit",
                 "hoveredFrame": 3,
                 "rect": { "x": 1065, "y": 19 },
                 "tooltipString": "@strClose",

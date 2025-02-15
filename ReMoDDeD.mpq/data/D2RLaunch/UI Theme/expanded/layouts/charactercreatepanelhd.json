@@ -397,28 +397,6 @@
             },
             "children": [
                 {
-                    // Toggle between SD/HD
-                    "type": "ButtonWidget", "name": "ToggleLegacy",
-                    "fields": {
-                        "rect": { "x": -572, "y": -2025 },
-                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
-                        "textString": "Disabled",
-                        "tooltipString": "@ToggleRendererHint",
-                        "focusIndicatorFilename": "Controller/HoverImages/FrontEndButtonMed",
-                        "focusIndicatorOffset": { "x": 0, "y": -2 },
-                       // "onClickMessage": "CharacterCreate:ToggleLegacy",
-                        "pressedFrame": 1,
-                        "text/style": "$StyleFEButtonText",
-                        "pointSize": "$LargeFontSize",
-                        "textColor": "$LightButtonTextColor",
-                        "hoveredFrame": 3,
-                        "disabledFrame": 2,
-                        "navigation": {
-                            "down": { "name": "Barbarian" }
-                        }
-                    }
-                },
-                {
                     "type": "ButtonWidget", "name": "ToGame",
                     "fields": {
                         "rect": { "x": -572, "y": -220 },
@@ -522,30 +500,6 @@
                         "fontType": "12ptF"
                     }
                 },
-
-                {
-                    "type": "ToggleButtonWidget", "name": "ClassicToggle",
-                    "fields": {
-                        "rect": { "x": 103, "y": 1902 },
-                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_ClassicIconLarge",
-                        "focusIndicatorFilename": "Controller/HoverImages/CharacterToggle_Hover",
-                        "focusIndicatorOffset": { "x": 2, "y": 0 },
-                        "untoggledFrame": 2,
-                        "toggledFrame": 1,
-                        "toggledPressedFrame": 1,
-                        "untoggledPressedFrame": 1,
-                        "toggledHoveredFrame": 3,
-                        "untoggledHoveredFrame": 0,
-                        "tooltipString": "@TooltipPreExpansionCharacter",
-                        "disabledTooltipString": "@CharacterCreatePreExpansionDisabledTooltip",
-                        "sound": "cursor_character_flag_hd",
-                        "navigation": {
-                            "up": { "name": "Barbarian" },
-                            "right": { "name": "ToGame" },
-                            "left": { "name": "HardcoreCheckbox" }
-                        }
-                    }
-                },
                 {
                     "type": "ToggleButtonWidget", "name": "HardcoreCheckbox",
                     "fields": {
@@ -566,49 +520,6 @@
                             "up": { "name": "Barbarian" },
                             "right": { "name": "ClassicToggle" },
                             "left": { "name": "LadderToggle" }
-                        }
-                    }
-                },
-// TODO: uncomment when ladder is online.
-/*                {
-                    "type": "ToggleButtonWidget", "name": "LadderToggle",
-                    "fields": {
-                        "rect": { "x": -209, "y": 1902 },
-                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_LadderIconLarge",
-                        "focusIndicatorFilename": "Controller/HoverImages/CharacterToggle_Hover",
-                        "focusIndicatorOffset": { "x": 2, "y": 0 },
-                        "untoggledFrame": 2,
-                        "toggledFrame": 1,
-                        "toggledPressedFrame": 1,
-                        "untoggledPressedFrame": 1,
-                        "toggledHoveredFrame": 3,
-                        "untoggledHoveredFrame": 0,
-                        "tooltipString": "@TooltipLadderCharacter",
-                        "sound": "cursor_character_flag_hd",
-                        "navigation": {
-                            "up": { "name": "Barbarian" },
-                            "right": { "name": "HardcoreCheckbox" },
-                            "left": { "name": "ToMainMenu" },
-                        },
-                    }
-                },
-*/
-                {
-                    "type": "ButtonWidget", "name": "LadderToggle",
-                    "fields": {
-                        "rect": { "x": -209, "y": 1902 },
-                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_LadderIconLarge",
-                        "focusIndicatorFilename": "Controller/HoverImages/CharacterToggle_Hover",
-                        "focusIndicatorOffset": { "x": 2, "y": 0 },
-                        "tooltipString": "@disabledGoldWithdraw",
-                        "normalFrame": 2,
-                        "hoveredFrame": 2,
-                        "pressedFrame": 2,
-                        "disabledFrame": 2,
-                        "navigation": {
-                            "up": { "name": "Barbarian" },
-                            "right": { "name": "HardcoreCheckbox" },
-                            "left": { "name": "ToMainMenu" }
                         }
                     }
                 }

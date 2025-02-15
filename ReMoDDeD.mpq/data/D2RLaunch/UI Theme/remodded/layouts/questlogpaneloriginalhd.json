@@ -11,7 +11,7 @@
             "type": "ImageWidget", "name": "Background",
             "fields": {
                 "rect": { "x": 287, "y": 0 },
-                "filename": "..\\..\\..\\ReMoDDeD\\QuestLog"
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Quest\\QuestBG_R"
             }
         },
         {
@@ -33,7 +33,7 @@
             "fields": {
                 "rect": { "x": 375, "y": 142 },
                 "tabCount": 4,
-                "filename": "..\\..\\..\\ReMoDDeD\\QuestLog_Tabs",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Quest\\QuestTab_R",
                 "inactiveFrames": [ 1, 1, 1, 1 ],
                 "activeFrames": [ 0, 0, 0, 0 ],
                 "textStrings": [ "I", "II", "III", "IV" ],
@@ -251,7 +251,7 @@
             "type": "ButtonWidget", "name": "Cancel",
             "fields": {
                 "rect": { "x": 1326, "y": 15 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Exit",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\Exit",
                 "hoveredFrame": 3,
                 "tooltipString": "@strClose",
                 "sound": "cursor_close_window_hd",

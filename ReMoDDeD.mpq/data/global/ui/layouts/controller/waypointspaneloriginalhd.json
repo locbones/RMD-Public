@@ -18,7 +18,7 @@
             "type": "ImageWidget", "name": "Background",
             "fields": {
                 "rect": { "x": 7, "y": 4 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Controller\\Waypoint_BG"
+                "filename": "..\\..\\..\\ReMoDDeD\\Controller\\WaypointBG_R"
             }
         },
         {
@@ -57,7 +57,7 @@
                 {
                     "type": "ImageWidget", "name": "CurrentButton",
                     "fields": {
-                        "filename": "..\\..\\..\\ReMoDDeD\\Controller\\Controller_WP_Btn"
+                        "filename": "..\\..\\..\\ReMoDDeD\\Controller\\WaypointButton_R"
                     }
                 }
             ]

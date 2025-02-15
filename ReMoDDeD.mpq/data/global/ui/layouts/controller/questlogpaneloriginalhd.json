@@ -11,7 +11,7 @@
             "type": "ImageWidget", "name": "Background",
             "fields": {
                 "rect": { "x": 0, "y": 0 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Controller\\QuestLog"
+                "filename": "..\\..\\..\\ReMoDDeD\\Controller\\QuestBG_R"
             }
         },
         {

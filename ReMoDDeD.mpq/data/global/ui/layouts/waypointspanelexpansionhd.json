@@ -21,7 +21,7 @@
             "type": "TabBarWidget", "name": "Tabs",
             "fields": {
                 "tabCount": 5,
-                "filename": "..\\..\\..\\ReMoDDeD\\WP_Tabs",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Waypoint\\WaypointTab_R",
                 "inactiveFrames": [ 1, 1, 1, 1, 1 ],
                 "activeFrames": [ 0, 0, 0, 0, 0 ],
                 "tabSize": { "x": 174, "y": 70 },

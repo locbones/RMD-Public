@@ -3,7 +3,7 @@
     "fields": {
         "priority": 9001,
         "fitToParent": true,
-        "defaultWidget": "Exit",
+        "defaultWidget": "ReturnToGame",
         "onlineLogoWidgetPosition": { "y": 140 }
     },
     "children": [
@@ -48,7 +48,7 @@
                    "type": "ImageWidget", "name": "ResurrectedText",
                    "fields": {
                         "rect": { "x": -159, "y": 473 },
-                        "filename": "..\\..\\..\\ReMoDDeD\\LogoText"
+                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Main\\LogoText"
                    }
                 },
                 {
@@ -96,8 +96,27 @@
                                 "onClickMessage": "PanelManager:OpenPanel:SettingsPanel",
                                 "textColor": "$LightButtonTextColor",
                                 "text/style": "$StyleFEButtonText",
-                                "acceptsReturnKey": false,
-                                "focusOnMouseOver": false,
+                                "acceptsReturnKey": true,
+                                "focusOnMouseOver": true,
+                                "sound": "select"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "TableRowWidget", "name": "Row Options",
+                    "children": [
+                        {
+                            "type": "ButtonWidget", "name": "Settings",
+                            "fields": {
+                                "filename": "PauseMenu\\PauseButton",
+                                "hoveredFrame": 3,
+                                "textString": "Mod Info",
+                                "onClickMessage": "PanelManager:OpenPanel:RemoddedInfoPanel",
+                                "textColor": "$FontColorBonesyRed",
+                                "text/style": "$StyleFEButtonText",
+                                "acceptsReturnKey": true,
+                                "focusOnMouseOver": true,
                                 "sound": "select"
                             }
                         }
@@ -124,25 +143,6 @@
                     ]
                 },
                 {
-                    "type": "TableRowWidget", "name": "Row Options",
-                    "children": [
-                        {
-                            "type": "ButtonWidget", "name": "Settings",
-                            "fields": {
-                                "filename": "PauseMenu\\PauseButton",
-                                "hoveredFrame": 3,
-                                "textString": "Mod Info",
-                                "onClickMessage": "PanelManager:OpenPanel:RemoddedInfoPanel",
-                                "textColor": "$FontColorGoldYellow",
-                                "text/style": "$StyleFEButtonText",
-                                "acceptsReturnKey": false,
-                                "focusOnMouseOver": false,
-                                "sound": "select"
-                            }
-                        }
-                    ]
-                },
-                {
                     "type": "TableRowWidget", "name": "Row Return to Game",
                     "children": [
                         {
@@ -155,8 +155,8 @@
                                 "onClickMessage": "PausePanelMessage:Close",
                                 "textColor": "$LightButtonTextColor",
                                 "text/style": "$StyleFEButtonText",
-                                "acceptsReturnKey": false,
-                                "focusOnMouseOver": false,
+                                "acceptsReturnKey": true,
+                                "focusOnMouseOver": true,
                                 "sound": "select"
                             }
                         }

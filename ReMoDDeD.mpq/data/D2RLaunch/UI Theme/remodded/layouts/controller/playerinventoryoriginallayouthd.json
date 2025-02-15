@@ -18,7 +18,7 @@
             "fields": {
                 "anchor": { "x": 0.5, "y": 0.5 },
                 "rect":{"x":-628, "y":-700},
-                "filename": "..\\..\\..\\ReMoDDeD\\Controller\\Inventory"
+                "filename": "..\\..\\..\\ReMoDDeD\\Controller\\InventoryBG_R"
             }
         },
         {

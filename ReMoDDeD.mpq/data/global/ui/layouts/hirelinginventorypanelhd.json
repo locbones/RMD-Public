@@ -14,7 +14,7 @@
             "type": "ImageWidget", "name": "Background",
             "fields": {
                 "rect": { "y": -205 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Hireling"
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Hireling\\HirelingBG_R"
             }
         },
         {
@@ -474,7 +474,7 @@
             "type": "ButtonWidget", "name": "AdvancedStats",
             "fields": {
                 "rect": { "x": 505, "y": 670 },
-                "filename": "..\\..\\..\\ReMoDDeD\\AdvBtn",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\AdvBtn",
                 "hoveredFrame": 3,
                 "onClickMessage": "HirelingInventoryPanelMessage:ToggleAdvancedStats",
                 "pressLabelOffset": { "x": 0, "y": 2 },
@@ -487,7 +487,7 @@
             "type": "ButtonWidget", "name": "CloseButton",
             "fields": {
                 "rect": { "x": 1040, "y": -195 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Exit",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\Exit",
                 "hoveredFrame": 3,
                 "onClickMessage": "HirelingInventoryPanelMessage:Close",
                 "tooltipString": "@strClose",

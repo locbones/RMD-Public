@@ -223,7 +223,7 @@
             "fields": {
                 "rect": { "x": -286, "y": 1940, "width": 408 },
                 "anchor": { "x": 0.5 },
-                "filename": "..\\..\\..\\ReMoDDeD\\MainMenu\\D1",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Main\\D1",
                 "hoveredFrame": 1,
                 "focusIndicatorFilename": "Controller/HoverImages/FrontEndButtonMed",
                 "focusIndicatorOffset": { "x": 0, "y": 0 },
@@ -253,7 +253,7 @@
             "fields": {
                 "rect": { "x": -86, "y": 1940, "width": 408 },
                 "anchor": { "x": 0.5 },
-                "filename": "..\\..\\..\\ReMoDDeD\\MainMenu\\D2",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Main\\D2",
                 "hoveredFrame": 1,
                 "focusIndicatorFilename": "Controller/HoverImages/FrontEndButtonMed",
                 "focusIndicatorOffset": { "x": 0, "y": 0 },
@@ -283,7 +283,7 @@
             "fields": {
                 "rect": { "x": 114, "y": 1940, "width": 408 },
                 "anchor": { "x": 0.5 },
-                "filename": "..\\..\\..\\ReMoDDeD\\MainMenu\\D3",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Main\\D3",
                 "hoveredFrame": 1,
                 "focusIndicatorFilename": "Controller/HoverImages/FrontEndButtonMed",
                 "focusIndicatorOffset": { "x": 0, "y": 0 },

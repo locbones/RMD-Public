@@ -16,27 +16,47 @@
         {
             "type": "ImageWidget", "name": "Background",
             "fields": {
-                "filename": "Controller/Panel/CharacterSheet/V2/CharacterSheet_BG"
+                "rect": { "x": 785, "y": -180 },
+                "filename": "..\\..\\..\\ReMoDDeD\\Character"
+            }
+        },
+      /*  {
+            "type": "ImageWidget", "name": "LeftHinge",
+            "fields": {
+                "rect": "$LeftHingeRect",
+                "filename": "$LeftHingeSprite"
+            },
+        }, */
+        {
+            "type": "TextBoxWidget", "name": "StatsPanelTitle",
+            "fields": {
+                "rect": "$InGamePanelTitleRect",
+                "text": "",
+                "style": "$StyleTitleBlock"
             }
         },
         // Character Info
         {
             "type": "TextBoxWidget", "name": "CharacterName",
             "fields": {
-                "rect": { "x": 253, "y": -40, "width": 2200, "height": 200 },
+                "rect": { "x": 907, "y": -157, "width": 912, "height": 50 },
                 "style": {
-                    "alignment": { "h": "left", "v": "bottom" },
-                    "pointSize": "$HugeFontSize"
+                    "fontColor": "$FontColorWhite",
+                    "alignment": { "h": "center", "v": "center" },
+                    "pointSize": "$ExtraLargeFontSize",
+                    "dropShadow": "$DefaultDropShadow"
                 }
             }
         },
         {
             "type": "TextBoxWidget", "name": "FullClassInfo",
             "fields": {
-                "rect": { "x": 260, "y": 212, "width": 2200, "height": 80 },
+                "rect": { "x": 1102, "y": -115, "width": 550, "height": 50 },
                 "style": {
-                    "alignment": { "h": "left", "v": "center" },
-                    "pointSize": "$LargeFontSize"
+                    "fontColor": "$FontColorWhite",
+                    "alignment": { "h": "center", "v": "center" },
+                    "pointSize": "$MediumPanelFontSize",
+                    "dropShadow": "$DefaultDropShadow"
                 }
             }
         },
@@ -44,226 +64,261 @@
         {
             "type": "ProgressBarWidget", "name": "XpProgress",
             "fields": {
-                "rect": { "x": 276, "y": 182, "width": 2201, "height": 25 },
-                "filename": "Controller/Panel/CharacterSheet/V2/ExpBar"
+                "rect": { "x": 827, "y": -20, "width": 400, "height": 100},
+                "filename": "..\\..\\..\\ReMoDDeD\\ExpBar_CS",
+                "frame": 0
             }
         },
         {
             "type": "TextBoxWidget", "name": "CombinedXP",
             "fields": {
-                "rect": { "x": 264, "y": 212, "width": 2200, "height": 80 },
+                "rect": { "x": 1102, "y": -75, "width": 550, "height": 50 },
                 "style": {
-                    "pointSize": "$LargeFontSize",
-                    "alignment": { "h": "right", "v": "center" }
+                    "fontColor": "$FontColorWhite",
+                    "pointSize": "$SmallPanelFontSize",
+                    "dropShadow": "$DefaultDropShadow",
+                    "alignment": { "h": "center", "v": "center" }
                 }
             }
         },
+
         // Base stats
-        {
-            "type": "ImageWidget", "name": "StrengthBG",
-            "fields": {
-                "rect": { "x": 43, "y": 373},
-                "filename": "Controller/Panel/CharacterSheet/V2/CharacterSheet_BaseStatInset"
-            }
-        },
         {
             "type": "TextBoxWidget", "name": "StrengthTitle",
             "fields": {
-                "rect": { "x": 73, "y": 386, "width": 497, "height": 102 },
+                "rect": { "x": 839, "y": 28, "width": 238, "height": 50 },
+                "text":  "@strchrstr",
                 "style": {
-                    "pointSize": "$LargeFontSize"
+                    "fontColor": "$FontColorWhite",
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": { "h": "center", "v": "center" }
                 }
             },
             "children": [
                 {
-                    "type": "FocusableWidget", "name": "Tooltip"
+                    "type": "FocusableWidget", "name": "Tooltip",
+                    "fields": {
+                        "fitToParent": true,
+                        "tooltipString": "@CharacterStatsTooltipStrength",
+                        "tooltipStyle": "$TooltipStyle",
+                        "tooltipStyle": {
+                            "fontStyle": {
+                                "options": { "newlineHandling": "standard" }
+                            }
+                        }
+                    }
                 }
             ]
         },
         {
             "type": "TextBoxWidget", "name": "StrengthStat",
             "fields": {
-                "rect": { "x": 570, "y": 386, "width": 167, "height": 102 },
+                "rect": { "x": 1091, "y": 33, "width": 81, "height": 50 },
                 "style": {
-                    "pointSize": "$LargeFontSize"
+                    "fontColor": "$FontColorWhite",
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": { "h": "center", "v": "center" }
                 }
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "DexBG",
-            "fields": {
-                "rect": { "x": 43, "y": 615},
-                "filename": "Controller/Panel/CharacterSheet/V2/CharacterSheet_BaseStatInset"
             }
         },
         {
             "type": "TextBoxWidget", "name": "DexTitle",
             "fields": {
-                "rect": { "x": 73, "y": 628, "width": 497, "height": 102 },
+                "rect": { "x": 839, "y": 95, "width": 238, "height": 50 },
+                "text": "@strchrdex",
                 "style": {
-                    "pointSize": "$LargeFontSize"
+                    "fontColor": "$FontColorWhite",
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": { "h": "center", "v": "center" }
                 }
             },
             "children": [
                 {
-                    "type": "FocusableWidget", "name": "Tooltip"
+                    "type": "FocusableWidget", "name": "Tooltip",
+                    "fields": {
+                        "fitToParent": true,
+                        "tooltipString": "@CharacterStatsTooltipDexterity",
+                        "tooltipStyle": "$TooltipStyle",
+                        "tooltipStyle": {
+                            "fontStyle": {
+                                "options": { "newlineHandling": "standard" }
+                            }
+                        }
+                    }
                 }
             ]
         },
         {
             "type": "TextBoxWidget", "name": "DexStat",
             "fields": {
-                "rect": { "x": 570, "y": 628, "width": 167, "height": 102 },
+                "rect": { "x": 1091, "y": 100, "width": 81, "height": 50 },
                 "style": {
-                    "pointSize": "$LargeFontSize"
+                    "fontColor": "$FontColorWhite",
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": { "h": "center", "v": "center" }
                 }
-            },
-            "children": [
-                {
-                    "type": "FocusableWidget", "name": "Tooltip"
-                }
-            ]
-        },
-        {
-            "type": "ImageWidget", "name": "VitalityBG",
-            "fields": {
-                "rect": { "x": 43, "y": 957},
-                "filename": "Controller/Panel/CharacterSheet/V2/CharacterSheet_BaseStatInset"
             }
         },
         {
             "type": "TextBoxWidget", "name": "VitalityTitle",
             "fields": {
-                "rect": { "x": 73, "y": 970, "width": 497, "height": 102 },
+                "rect": { "x": 839, "y": 164, "width": 238, "height": 50 },
+                "text": "@strchrvit",
                 "style": {
-                    "pointSize": "$LargeFontSize"
+                    "fontColor": "$FontColorWhite",
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": { "h": "center", "v": "center" }
                 }
             },
             "children": [
                 {
-                    "type": "FocusableWidget", "name": "Tooltip"
+                    "type": "FocusableWidget", "name": "Tooltip",
+                    "fields": {
+                        "fitToParent": true,
+                        "tooltipString": "@CharacterStatsTooltipVitality",
+                        "tooltipStyle": "$TooltipStyle",
+                        "tooltipStyle": {
+                            "fontStyle": {
+                                "options": { "newlineHandling": "standard" }
+                            }
+                        }
+                    }
                 }
             ]
         },
         {
             "type": "TextBoxWidget", "name": "VitalityStat",
             "fields": {
-                "rect": { "x": 570, "y": 970, "width": 167, "height": 102 },
+                "rect": { "x": 1091, "y": 169, "width": 81, "height": 50 },
                 "style": {
-                    "pointSize": "$LargeFontSize"
+                    "fontColor": "$FontColorWhite",
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": { "h": "center", "v": "center" }
                 }
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "EnergyBG",
-            "fields": {
-                "rect": { "x": 43, "y": 1197},
-                "filename": "Controller/Panel/CharacterSheet/V2/CharacterSheet_BaseStatInset"
             }
         },
         {
             "type": "TextBoxWidget", "name": "EnergyTitle",
             "fields": {
-                "rect": { "x": 73, "y": 1208, "width": 497, "height": 102 },
+                "rect": { "x": 839, "y": 238, "width": 238, "height": 50 },
+                "text": "@strchreng",
                 "style": {
-                    "pointSize": "$LargeFontSize"
+                    "fontColor": "$FontColorWhite",
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": { "h": "center", "v": "center" }
                 }
             },
             "children": [
                 {
-                    "type": "FocusableWidget", "name": "Tooltip"
+                    "type": "FocusableWidget", "name": "Tooltip",
+                    "fields": {
+                        "fitToParent": true,
+                        "tooltipString": "@CharacterStatsTooltipEnergy",
+                        "tooltipStyle": "$TooltipStyle",
+                        "tooltipStyle": {
+                            "fontStyle": {
+                                "options": { "newlineHandling": "standard" }
+                            }
+                        }
+                    }
                 }
             ]
         },
         {
             "type": "TextBoxWidget", "name": "EnergyStat",
             "fields": {
-                "rect": { "x": 570, "y": 1208, "width": 167, "height": 102 },
+                "rect": { "x": 1091, "y": 243, "width": 81, "height": 50 },
                 "style": {
-                    "pointSize": "$LargeFontSize"
+                    "fontColor": "$FontColorWhite",
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": { "h": "center", "v": "center" }
                 }
             }
         },
         // Attack Stats Left Skill
         {
-            "type": "ImageWidget", "name": "DamageBG_L",
-            "fields": {
-                "rect": { "x": 869, "y": 384},
-                "filename": "Controller/Panel/CharacterSheet/V2/CharacterSheet_Inset"
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Divider01",
-            "fields": {
-                "rect": { "x": 1365, "y": 399},
-                "filename": "Controller/Panel/CharacterSheet/V2/CharacterSheet_Divider"
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "RatingBG_L",
-            "fields": {
-                "rect": { "x": 869, "y": 492},
-                "filename": "Controller/Panel/CharacterSheet/V2/CharacterSheet_Inset"
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Divider02",
-            "fields": {
-                "rect": { "x": 1365, "y": 508},
-                "filename": "Controller/Panel/CharacterSheet/V2/CharacterSheet_Divider"
-            }
-        },
-        {
-            "type":  "Widget", "name":  "LeftSkillStats",
+            "type": "Widget", "name": "LeftSkillStats",
             "fields":  {
-                "rect": { "x": 0, "y": 0 }
+                "rect": { "x": 694, "y": 128 }
             },
             "children": [
                 //Attack Damage
                 {
                     "type": "Widget", "name": "Damage",
                     "fields": {
-                        "rect": { "x": 880, "y": 397, "width": 974, "height": 84 }
+                        "rect": { "x": 281, "y": -101, "width": 539, "height": 77 }
                     },
                     "children": [
                         {
                             "type": "TextBoxWidget", "name": "AttackDamageTitle",
                             "fields": {
-                                "rect": { "x": 0, "y": 0, "width": 488, "height": 84 },
+                                "rect": { "x": 300, "y": -2, "width": 308, "height": 86 },
                                 "style": {
-                                    "pointSize": "$XMediumFontSize"
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": { "h": "center", "v": "center" },
+                                    "options": { "newlineHandling": "standard" },
+                                    "spacing": { "leading": 1.0 }
+                                },
+                                "useAltStyleIfDoesntFit": true,
+                                "altStyle": {
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": { "h": "center", "v": "center" },
+                                    "options": { "newlineHandling": "standard" },
+                                    "spacing": { "kerning": 0.87, "leading": 0.75 }
+
                                 }
                             },
                             "children": [
                                 {
-                                    "type": "FocusableWidget", "name": "Tooltip"
+                                    "type": "FocusableWidget", "name": "Tooltip",
+                                    "fields": {
+                                        "fitToParent": true,
+                                        "tooltipString": "@CharacterStatsTooltipAttackDamage",
+                                        "tooltipStyle": "$TooltipStyle",
+                                        "tooltipStyle": {
+                                            "fontStyle": {
+                                                "options": { "newlineHandling": "standard" }
+                                            }
+                                        }
+                                    },
+                                    "children": [
+                                        
+                                    ]
                                 }
                             ]
                         },
                         {
                             "type": "TextBoxWidget", "name": "AttackDamageStat",
                             "fields": {
-                                "rect": { "x": 490, "y": 0, "width": 486, "height": 84 },
+                                "rect": { "x": 650, "y": -2, "width": 225, "height": 86 },
                                 "style": {
-                                    "pointSize": "$XMediumFontSize"
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$MediumPanelFontSize",
+                                    "alignment": { "h": "center", "v": "center" }
                                 }
                             }
                         },
                         {
                             "type": "TextBoxWidget", "name": "AttackDamageStatTop",
                             "fields": {
-                                "rect": { "x": 731, "y": 0, "width": 248, "height": 84 },
+                                "rect": { "x":650, "y": 2, "width": 226, "height": 42 },
                                 "style": {
-                                    "pointSize": "$XMediumFontSize"
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": { "h": "center", "v": "center" }
                                 }
                             }
                         },
                         {
                             "type": "TextBoxWidget", "name": "AttackDamageStatBottom",
                             "fields": {
-                                "rect": { "x": 490, "y": 0, "width": 248, "height": 84 },
+                                "rect": { "x": 650, "y": 35, "width": 226, "height": 42 },
                                 "style": {
-                                    "pointSize": "$XMediumFontSize"
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": { "h": "center", "v": "center" }
                                 }
                             }
                         }
@@ -271,47 +326,75 @@
                 },
                 // Attack Ratings
                 {
-                    "type":  "Widget", "name":  "Rating",
-                    "fields": {"rect": {"x": 880, "y": 507, "width": 974, "height": 84 }},
+                    "type": "Widget", "name": "Rating",
+                    "fields": {"rect":  {"x":  281, "y":  103, "width": 539, "height": 86  }},
                     "children": [
                         {
                             "type": "TextBoxWidget", "name": "AttackRatingTitle",
                             "fields": {
-                                "rect": { "x": 0, "y": 0, "width": 488, "height": 84 },
+                                "rect": { "x": 300, "y": -122, "width": 308, "height": 86 },
                                 "style": {
-                                    "pointSize": "$XMediumFontSize"
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": { "h": "center", "v": "center" },
+                                    "options": { "newlineHandling": "standard" },
+                                    "spacing": { "leading": 1.0 }
+                                },
+                                "useAltStyleIfDoesntFit": true,
+                                "altStyle": {
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": { "h": "center", "v": "center" },
+                                    "options": { "newlineHandling": "standard" },
+                                    "spacing": { "kerning": 0.87, "leading": 0.75 }
                                 }
                             },
                             "children": [
                                 {
-                                    "type": "FocusableWidget", "name": "Tooltip"
+                                    "type": "FocusableWidget", "name": "Tooltip",
+                                    "fields": {
+                                        "fitToParent": true,
+                                        "tooltipString": "@CharacterStatsTooltipAttackRating",
+                                        "tooltipStyle": "$TooltipStyle",
+                                        "tooltipStyle": {
+                                            "fontStyle": {
+                                                "options": { "newlineHandling": "standard" }
+                                            }
+                                        }
+                                    }
                                 }
                             ]
                         },
                         {
                             "type": "TextBoxWidget", "name": "AttackRatingStat",
                             "fields": {
-                                "rect": { "x": 490, "y": 0, "width": 486, "height": 84 },
+                                "rect": { "x": 650, "y": -122, "width": 225, "height": 86 },
                                 "style": {
-                                    "pointSize": "$XMediumFontSize"
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$MediumPanelFontSize",
+                                    "alignment": { "h": "center", "v": "center" }
                                 }
                             }
                         },
                         {
                             "type": "TextBoxWidget", "name": "AttackRatingStatTop",
                             "fields": {
-                                "rect": { "x": 490, "y": 0, "width": 248, "height": 84 },
+                                "rect": {"x": 650, "y": -122, "width": 225, "height": 42 },
                                 "style": {
-                                    "pointSize": "$XMediumFontSize"
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": { "h": "center", "v": "center" }
                                 }
                             }
                         },
                         {
                             "type": "TextBoxWidget", "name": "AttackRatingStatBottom",
                             "fields": {
-                                "rect": { "x": 731, "y": 0, "width": 248, "height": 84 },
+                                "rect": { "x": 650, "y": -85, "width": 225, "height": 42 },
                                 "style": {
-                                    "pointSize": "$XMediumFontSize"
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": { "h": "center", "v": "center" }
                                 }
                             }
                         }
@@ -321,83 +404,87 @@
         },
         // Attack Stats right Skill
         {
-            "type": "ImageWidget", "name": "DamageBG_R",
-            "fields": {
-                "rect": { "x": 869, "y": 615},
-                "filename": "Controller/Panel/CharacterSheet/V2/CharacterSheet_Inset"
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Divider03",
-            "fields": {
-                "rect": { "x": 1365, "y": 631},
-                "filename": "Controller/Panel/CharacterSheet/V2/CharacterSheet_Divider"
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "RatingBG_R",
-            "fields": {
-                "rect": { "x": 869, "y": 721},
-                "filename": "Controller/Panel/CharacterSheet/V2/CharacterSheet_Inset"
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Divider04",
-            "fields": {
-                "rect": { "x": 1365, "y": 737},
-                "filename": "Controller/Panel/CharacterSheet/V2/CharacterSheet_Divider"
-            }
-        },
-        {
             "type": "Widget", "name": "RightSkillStats",
             "fields": {
-                "rect": { "x": 0, "y": 0 }
+                "rect": { "x": 694, "y": 278 },
+                "style": {
+                    "alignment": { "h": "left", "v": "center" }
+                }
             },
             "children": [
                 //Attack Damage
                 {
                     "type":  "Widget", "name":  "Damage",
                     "fields": {
-                        "rect": { "x": 880, "y": 632, "width": 974, "height": 84 }
+                        "rect": { "x": 281, "y": -82, "width": 539, "height": 86 }
                     },
                     "children": [
                         {
                             "type": "TextBoxWidget", "name": "AttackDamageTitle",
                             "fields": {
-                                "rect": { "x": 0, "y": 0, "width": 492, "height": 84 },
+                                "rect": { "x": 300, "y": -2, "width": 308, "height": 86 },
                                 "style": {
-                                    "pointSize": "$XMediumFontSize"
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": { "h": "center","v": "center" },
+                                    "options": { "newlineHandling":  "standard" },
+                                    "spacing": { "leading": 1.0 }
+                                },
+                                "useAltStyleIfDoesntFit": true,
+                                "altStyle": {
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": { "h": "center", "v": "center" },
+                                    "options": { "newlineHandling": "standard" },
+                                    "spacing": { "kerning": 0.87, "leading": 0.75 }
                                 }
                             },
                             "children": [
                                 {
-                                    "type": "FocusableWidget", "name": "Tooltip"
+                                    "type": "FocusableWidget", "name": "Tooltip",
+                                    "fields": {
+                                        "fitToParent": true,
+                                        "tooltipString": "@CharacterStatsTooltipAttackDamage",
+                                        "tooltipStyle": "$TooltipStyle",
+                                        "tooltipStyle": {
+                                            "fontStyle": {
+                                                "options": { "newlineHandling": "standard" }
+                                            }
+                                        }
+                                    }
                                 }
                             ]
                         },
                         {
                             "type": "TextBoxWidget", "name": "AttackDamageStat",
                             "fields": {
-                                "rect": { "x": 490, "y": 0, "width": 488, "height": 84 },
+                                "rect": { "x": 650, "y": -2, "width": 227, "height": 86 },
                                 "style": {
-                                    "pointSize": "$XMediumFontSize"
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$MediumPanelFontSize",
+                                    "alignment": { "h": "center", "v": "center" }
                                 }
                             }
                         },
                         {
                             "type": "TextBoxWidget", "name": "AttackDamageStatTop",
                             "fields": {
-                                "rect": { "x": 490, "y": 0, "width": 248, "height": 84 },
+                                "rect": { "x": 650, "y": 0, "width": 226, "height": 42 },
                                 "style": {
-                                    "pointSize": "$XMediumFontSize"
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": { "h": "center", "v": "center" }
                                 }
                             }
                         },
                         {
                             "type": "TextBoxWidget", "name": "AttackDamageStatBottom",
-                            "fields": { "rect": { "x": 731, "y": 0, "width": 248, "height": 84 },
+                            "fields": {
+				                "rect": { "x": 650, "y": 33, "width": 226, "height": 42 },
                                 "style": {
-                                    "pointSize": "$XMediumFontSize"
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": { "h": "center", "v": "center" }
                                 }
                             }
                         }
@@ -407,47 +494,75 @@
                 {
                     "type": "Widget", "name": "Rating",
                     "fields": {
-                        "rect": { "x": 880, "y": 738, "width": 974, "height": 84 }
+                        "rect": { "x": 281, "y": 0, "width": 539, "height": 86 }
                     },
                     "children": [
                         {
                             "type": "TextBoxWidget", "name": "AttackRatingTitle",
                             "fields": {
-                                "rect": { "x": 0, "y": 0, "width": 492, "height": 84 },
+                                "rect": { "x": 300, "y": -2, "width": 308, "height": 86 },
                                 "style": {
-                                    "pointSize": "$XMediumFontSize"
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": { "h": "center", "v": "center" },
+                                    "options": { "newlineHandling": "standard" },
+                                    "spacing": { "leading": 1.0 }
+                                },
+                                "useAltStyleIfDoesntFit": true,
+                                "altStyle": {
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": { "h": "center", "v": "center" },
+                                    "options": { "newlineHandling": "standard" },
+                                    "spacing": { "kerning": 0.87, "leading": 0.75 }
                                 }
                             },
                             "children": [
                                 {
-                                    "type": "FocusableWidget", "name": "Tooltip"
+                                    "type": "FocusableWidget", "name": "Tooltip",
+                                    "fields": {
+                                        "fitToParent": true,
+                                        "tooltipString": "@CharacterStatsTooltipAttackRating",
+                                        "tooltipStyle": "$TooltipStyle",
+                                        "tooltipStyle": {
+                                            "fontStyle": {
+                                                "options": { "newlineHandling": "standard" }
+                                            }
+                                        }
+                                    }
                                 }
                             ]
                         },
                         {
                             "type": "TextBoxWidget", "name": "AttackRatingStat",
                             "fields": {
-                                "rect": { "x": 490, "y": 0, "width": 488, "height": 84 },
+                                "rect": { "x": 650, "y": -2, "width": 227, "height": 86 },
                                 "style": {
-                                    "pointSize": "$XMediumFontSize"
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$MediumPanelFontSize",
+                                    "alignment": { "h": "center", "v": "center" }
                                 }
                             }
                         },
                         {
                             "type": "TextBoxWidget", "name": "AttackRatingStatTop",
                             "fields": {
-                                "rect": { "x": 490, "y": 0, "width": 248, "height": 84 },
+                                "rect": { "x": 650, "y": 6, "width": 226, "height": 42 },
                                 "style": {
-                                    "pointSize": "$XMediumFontSize"
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": { "h": "center", "v": "center" }
                                 }
                             }
                         },
                         {
                             "type": "TextBoxWidget", "name": "AttackRatingStatBottom",
                             "fields": {
-                                "rect": { "x": 731, "y": 0, "width": 248, "height": 84 },
+                                "rect": { "x": 650, "y": 39, "width": 226, "height": 42 },
                                 "style": {
-                                    "pointSize": "$XMediumFontSize"
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": { "h": "center", "v": "center" }
                                 }
                             }
                         }
@@ -457,85 +572,88 @@
         },
         // Defense Rating/ Armor Class
         {
-            "type": "ImageWidget", "name": "Row05",
-            "fields": {
-                "rect": { "x": 869, "y": 831},
-                "filename": "Controller/Panel/CharacterSheet/V2/CharacterSheet_Inset"
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Divider05",
-            "fields": {
-                "rect": { "x": 1365, "y": 849},
-                "filename": "Controller/Panel/CharacterSheet/V2/CharacterSheet_Divider"
-            }
-        },
-        {
             "type": "TextBoxWidget", "name": "ArmorClassTitle",
             "fields": {
-                "rect": { "x": 880, "y": 845, "width": 488, "height": 89 },
+                "rect": { "x": 805, "y": 405, "width": 308, "height": 86 },
+                "text": "@strchrdef",
                 "style": {
-                    "pointSize": "$XMediumFontSize"
+
+                    "fontColor": "$FontColorWhite",
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": { "h": "center", "v": "center" }
                 }
             },
             "children": [
                 {
-                    "type": "FocusableWidget", "name": "Tooltip"
+                    "type": "FocusableWidget", "name": "Tooltip",
+                    "fields": {
+                        "fitToParent": true,
+                        "tooltipString": "@CharacterStatsTooltipDefense",
+                        "tooltipStyle": "$TooltipStyle",
+                        "tooltipStyle": {
+                            "fontStyle": {
+                                "options": { "newlineHandling": "standard" }
+                            }
+                        }
+                    }
                 }
             ]
         },
-
         {
             "type": "TextBoxWidget", "name": "ArmorClass",
             "fields": {
-                "rect": { "x": 1371, "y": 845, "width": 488, "height": 89 },
+                "rect": { "x": 1114, "y": 410, "width": 225, "height": 86 },
                 "style": {
-                    "pointSize": "$XMediumFontSize"
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": { "h": "center", "v": "center" }
                 }
             }
         },
         // Stamina
         {
-            "type": "ImageWidget", "name": "Row06",
-            "fields": {
-                "rect": { "x": 869, "y": 969},
-                "filename": "Controller/Panel/CharacterSheet/V2/CharacterSheet_Inset"
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Divider06",
-            "fields": {
-                "rect": { "x": 1365, "y": 986},
-                "filename": "Controller/Panel/CharacterSheet/V2/CharacterSheet_Divider"
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Divider07",
-            "fields": {
-                "rect": { "x": 1610, "y": 986},
-                "filename": "Controller/Panel/CharacterSheet/V2/CharacterSheet_Divider"
-            }
-        },
-        {
             "type": "TextBoxWidget", "name": "StaminaTitle",
             "fields": {
-                "rect": { "x": 880, "y": 982, "width": 488, "height": 89 },
+                "rect": { "x": 805, "y": 480, "width": 308, "height": 86 },
+                "text": "@strchrstm",
                 "style": {
-                    "pointSize": "$XMediumFontSize"
+                    "fontColor": "$FontColorWhite",
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": { "h": "center", "v": "center" }
                 }
             },
             "children": [
                 {
-                    "type": "FocusableWidget", "name": "Tooltip"
+                    "type": "FocusableWidget", "name": "Tooltip",
+                    "fields": {
+                        "fitToParent": true,
+                        "tooltipString": "@CharacterStatsTooltipStamina",
+                        "tooltipStyle": "$TooltipStyle",
+                        "tooltipStyle": {
+                            "fontStyle": {
+                                "options": { "newlineHandling": "standard" }
+                            }
+                        }
+                    }
                 }
             ]
         },
         {
             "type": "TextBoxWidget", "name": "MaxStamina",
             "fields": {
-                "rect": { "x": 1625, "y": 985, "width": 236, "height": 84 },
+                "rect": { "x": 1239, "y": 485, "width": 100, "height": 86 },
                 "style": {
-                    "pointSize": "$XMediumFontSize",
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": { "h": "left", "v": "center" }
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "separator",
+            "fields": {
+                "rect": { "x": 1227, "y": 525},
+                "text": "@CharacterStatsPanelNumberSeparator",
+                "style": {
+                    "pointSize": "$MediumPanelFontSize",
                     "alignment": { "h": "center", "v": "center" }
                 }
             }
@@ -543,55 +661,58 @@
         {
             "type": "TextBoxWidget", "name": "CurrentStamina",
             "fields": {
-                "rect": { "x": 1376, "y": 985, "width": 236, "height": 84 },
+                "rect": { "x": 1115, "y": 485, "width": 100, "height": 86 },
                 "style": {
-                    "pointSize": "$XMediumFontSize",
-                    "alignment": { "h": "center", "v": "center" }
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": { "h": "right", "v": "center" }
                 }
             }
         },
         // HP
         {
-            "type": "ImageWidget", "name": "Row07",
-            "fields": {
-                "rect": { "x": 869, "y": 1075},
-                "filename": "Controller/Panel/CharacterSheet/V2/CharacterSheet_Inset"
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Divider08",
-            "fields": {
-                "rect": { "x": 1365, "y": 1092},
-                "filename": "Controller/Panel/CharacterSheet/V2/CharacterSheet_Divider"
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Divider09",
-            "fields": {
-                "rect": { "x": 1610, "y": 1092},
-                "filename": "Controller/Panel/CharacterSheet/V2/CharacterSheet_Divider"
-            }
-        },
-        {
             "type": "TextBoxWidget", "name": "HPTitle",
             "fields": {
-                "rect": { "x": 880, "y": 1089, "width": 489, "height": 88 },
+                "rect": { "x": 1300, "y": 405, "width": 308, "height": 86 },
+                "text": "@strchrlif",
                 "style": {
-                    "pointSize": "$XMediumFontSize"
+                    "fontColor": "$FontColorWhite",
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": { "h": "center", "v": "center" }
                 }
             },
             "children": [
                 {
-                    "type": "FocusableWidget", "name": "Tooltip"
+                    "type": "FocusableWidget", "name": "Tooltip",
+                    "fields": {
+                        "fitToParent": true,
+                        "tooltipString": "@CharacterStatsTooltipLife",
+                        "tooltipStyle": "$TooltipStyle",
+                        "tooltipStyle": {
+                            "fontStyle": {
+                                "options": { "newlineHandling": "standard" }
+                            }
+                        }
+                    }
                 }
             ]
         },
         {
             "type": "TextBoxWidget", "name": "MaxHP",
             "fields": {
-                "rect": { "x": 1624, "y": 1093, "width": 236, "height": 84 },
+                "rect": { "x": 1741, "y": 410, "width": 101, "height": 86 },
                 "style": {
-                    "pointSize": "$XMediumFontSize",
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": { "h": "center", "v": "center" }
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "separator",
+            "fields": {
+                "rect": { "x": 1727, "y": 450},
+                "text": "@CharacterStatsPanelNumberSeparator",
+                "style": {
+                    "pointSize": "$MediumPanelFontSize",
                     "alignment": { "h": "center", "v": "center" }
                 }
             }
@@ -599,55 +720,58 @@
         {
             "type": "TextBoxWidget", "name": "CurrentHP",
             "fields": {
-                "rect": { "x": 1376, "y": 1093, "width": 236, "height": 84 },
+                "rect": { "x": 1613, "y": 410, "width": 101, "height": 86 },
                 "style": {
-                    "pointSize": "$XMediumFontSize",
+                    "pointSize": "$MediumPanelFontSize",
                     "alignment": { "h": "center", "v": "center" }
                 }
             }
         },
         // Mana
         {
-            "type": "ImageWidget", "name": "Row08",
-            "fields": {
-                "rect": { "x": 869, "y": 1203},
-                "filename": "Controller/Panel/CharacterSheet/V2/CharacterSheet_Inset"
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Divider10",
-            "fields": {
-                "rect": { "x": 1365, "y": 1218},
-                "filename": "Controller/Panel/CharacterSheet/V2/CharacterSheet_Divider"
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "Divider11",
-            "fields": {
-                "rect": { "x": 1610, "y": 1218},
-                "filename": "Controller/Panel/CharacterSheet/V2/CharacterSheet_Divider"
-            }
-        },
-        {
             "type": "TextBoxWidget", "name": "ManaTitle",
             "fields": {
-                "rect": { "x": 880, "y": 1216, "width": 489, "height": 88 },
+                "rect": { "x": 1300, "y": 480, "width": 308, "height": 86 },
+                "text": "@strchrman",
                 "style": {
-                    "pointSize": "$XMediumFontSize"
+                    "fontColor": "$FontColorWhite",
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": { "h": "center", "v": "center" }
                 }
             },
             "children": [
                 {
-                    "type": "FocusableWidget", "name": "Tooltip"
+                    "type": "FocusableWidget", "name": "Tooltip",
+                    "fields": {
+                        "fitToParent": true,
+                        "tooltipString": "@CharacterStatsTooltipMana",
+                        "tooltipStyle": "$TooltipStyle",
+                        "tooltipStyle": {
+                            "fontStyle": {
+                                "options": { "newlineHandling": "standard" }
+                            }
+                        }
+                    }
                 }
             ]
         },
         {
             "type": "TextBoxWidget", "name": "MaxMana",
             "fields": {
-                "rect": {"x": 1624, "y": 1220, "width": 236, "height": 84 },
+                "rect": {"x": 1741, "y": 485, "width": 100, "height": 86 },
                 "style": {
-                    "pointSize": "$XMediumFontSize",
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": { "h": "center", "v": "center" }
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "separator",
+            "fields": {
+                "rect": { "x": 1727, "y": 520},
+                "text":  "@CharacterStatsPanelNumberSeparator",
+                "style": {
+                    "pointSize": "$MediumPanelFontSize",
                     "alignment": { "h": "center", "v": "center" }
                 }
             }
@@ -655,135 +779,180 @@
         {
             "type": "TextBoxWidget", "name": "CurrentMana",
             "fields": {
-                "rect": { "x": 1376, "y": 1220, "width": 236, "height": 84 },
+                "rect": { "x": 1613, "y": 485, "width": 101, "height": 86 },
                 "style": {
-                    "pointSize": "$XMediumFontSize",
+                    "pointSize": "$MediumPanelFontSize",
                     "alignment": { "h": "center", "v": "center" }
                 }
             }
         },
         // Elemental Resistances
         {
-            "type": "ImageWidget", "name": "FireResistanceBG",
-            "fields": {
-                "rect": { "x": 1967, "y": 385},
-                "filename": "Controller/Panel/CharacterSheet/V2/CharacterSheet_ResistanceInset"
-            }
-        },
-        {
             "type": "TextBoxWidget", "name": "FireResistanceTitle",
             "fields": {
-                "rect": { "x": 1989, "y": 405, "width": 488, "height": 79 },
+                "rect": { "x": 830, "y": 593, "width": 359, "height": 59 },
+                "text": "@strchrfir",
                 "style": {
-                    "pointSize": "$XMediumFontSize"
+                    "fontColor": "$FontColorRed",
+                    "pointSize": "$MediumPanelFontSize",
+                    "spacing": "$ReducedSpacing",
+                    "alignment": { "h": "center", "v": "center" }
                 }
             },
             "children": [
                 {
-                    "type": "FocusableWidget", "name": "Tooltip"
+                    "type": "FocusableWidget", "name": "Tooltip",
+                    "fields": {
+                        "fitToParent": true,
+                        "tooltipString": "@CharacterStatsTooltipFireResistance",
+                        "tooltipStyle": "$TooltipStyle",
+                        "tooltipStyle": {
+                            "fontStyle": {
+                                "options": { "newlineHandling": "standard" }
+                            }
+                        }
+                    }
                 }
             ]
         },
         {
             "type": "TextBoxWidget", "name": "FireText",
             "fields": {
-                "rect": { "x": 2481, "y": 405, "width": 197, "height": 79 },
+                "rect": { "x": 1192, "y": 598, "width": 113, "height": 59 },
                 "style": {
-                    "pointSize": "$XMediumFontSize"
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": { "h": "center", "v": "center" }
                 }
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "ColdResistanceBG",
-            "fields": {
-                "rect": { "x": 1967, "y": 497},
-                "filename": "Controller/Panel/CharacterSheet/V2/CharacterSheet_ResistanceInset"
             }
         },
         {
             "type": "TextBoxWidget", "name": "ColdResistanceTitle",
             "fields": {
-                "rect": { "x": 1989, "y": 516, "width": 488, "height": 79 },
+                "rect": { "x": 830, "y": 666, "width": 359, "height": 57 },
+                "text": "@strchrcol",
                 "style": {
-                    "pointSize": "$XMediumFontSize"
+                    "fontColor": "$FontColorBlue",
+                    "pointSize": "$MediumPanelFontSize",
+                    "spacing": "$ReducedSpacing",
+                    "alignment": { "h": "center", "v": "center" }
                 }
             },
             "children": [
                 {
-                    "type": "FocusableWidget", "name": "Tooltip"
+                    "type": "FocusableWidget", "name": "Tooltip",
+                    "fields": {
+                        "fitToParent": true,
+                        "tooltipString": "@CharacterStatsTooltipColdResistance",
+                        "tooltipStyle": "$TooltipStyle",
+                        "tooltipStyle": {
+                            "fontStyle": {
+                                "options": { "newlineHandling": "standard" }
+                            }
+                        }
+                    }
                 }
             ]
         },
         {
             "type": "TextBoxWidget", "name": "ColdText",
             "fields": {
-                "rect": { "x": 2481, "y": 516, "width": 197, "height": 79 },
+                "rect": { "x": 1192, "y": 671, "width": 113, "height": 57 },
                 "style": {
-                    "pointSize": "$XMediumFontSize"
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": { "h": "center", "v": "center" }
                 }
-            }
-        },
-        {
-            "type": "ImageWidget", "name": "LightningResistanceBG",
-            "fields": {
-                "rect": { "x": 1967, "y": 606},
-                "filename": "Controller/Panel/CharacterSheet/V2/CharacterSheet_ResistanceInset"
             }
         },
         {
             "type": "TextBoxWidget", "name": "LightningResistanceTitle",
             "fields": {
-                "rect": { "x": 1989, "y": 625, "width": 488, "height": 79 },
+                "rect": { "x": 1345, "y": 593, "width": 359, "height": 59 },
+                "text": "@strchrlit",
                 "style": {
-                    "pointSize": "$XMediumFontSize"
+                    "fontColor": "$FontColorYellow",
+                    "pointSize": "$MediumPanelFontSize",
+                    "spacing": "$ReducedSpacing",
+                    "alignment": { "h": "center", "v": "center" }
                 }
             },
             "children": [
                 {
-                    "type": "FocusableWidget", "name": "Tooltip"
+                    "type": "FocusableWidget", "name": "Tooltip",
+                    "fields": {
+                        "fitToParent": true,
+                        "tooltipString": "@CharacterStatsTooltipLightningResistance",
+                        "tooltipStyle": "$TooltipStyle",
+                        "tooltipStyle": {
+                            "fontStyle": {
+                                "options": { "newlineHandling": "standard" }
+                            }
+                        }
+                    }
                 }
             ]
         },
         {
             "type": "TextBoxWidget", "name": "LightningText",
             "fields": {
-                "rect": {  "x": 2481, "y": 625, "width": 197, "height": 79 },
+                "rect": {  "x": 1748, "y": 598, "width": 113, "height": 59 },
                 "style": {
-                    "pointSize": "$XMediumFontSize",
+                    "pointSize": "$MediumPanelFontSize",
                     "alignment": { "h": "center", "v": "center" }
                 }
             }
         },
         {
-            "type": "ImageWidget", "name": "PoisonResistanceBG",
-            "fields": {
-                "rect": { "x": 1967, "y": 714},
-                "filename": "Controller/Panel/CharacterSheet/V2/CharacterSheet_ResistanceInset"
-            }
-        },
-        {
             "type": "TextBoxWidget", "name": "PoisonResistanceTitle",
             "fields": {
-                "rect": { "x": 1989, "y": 735, "width": 488, "height": 79 },
+                "rect": { "x": 1345, "y": 666, "width": 359, "height": 57 },
+                "text": "@strchrpos",
                 "style": {
-                    "pointSize": "$XMediumFontSize"
+                    "fontColor": "$FontColorGreen",
+                    "pointSize": "$MediumPanelFontSize",
+                    "spacing": "$ReducedSpacing",
+                    "alignment": { "h": "center", "v": "center" }
                 }
             },
             "children": [
                 {
-                    "type": "FocusableWidget", "name": "Tooltip"
+                    "type": "FocusableWidget", "name": "Tooltip",
+                    "fields": {
+                        "fitToParent": true,
+                        "tooltipString": "@CharacterStatsTooltipPoisonResistance",
+                        "tooltipStyle": "$TooltipStyle",
+                        "tooltipStyle": {
+                            "fontStyle": {
+                                "options": { "newlineHandling": "standard" }
+                            }
+                        }
+                    }
                 }
             ]
         },
         {
             "type": "TextBoxWidget", "name": "PoisonText",
             "fields": {
-                "rect": { "x": 2481, "y": 735, "width": 197, "height": 79 },
+                "rect": { "x": 1748, "y": 671, "width": 113, "height": 57 },
                 "style": {
-                    "pointSize": "$XMediumFontSize"
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": { "h": "center", "v": "center" }
                 }
             }
         },
+        // To Advanced Stats panel
+        /*
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 1108, "y": 711 },
+                "filename": "PANEL\\Character_Sheet\\AdvancedStatsButton",
+                "hoveredFrame": 3,
+                "onClickMessage": "CharacterStatsPanelMessage:ToggleAdvancedStats",
+                "pressLabelOffset": { "x": 0, "y": 2 },
+                "tooltipString": "@AdvancedStats"
+            },
+        },
+        */
         {
             "type": "Widget", "name": "LevelUpInfo",
             "children": [
@@ -791,8 +960,8 @@
                 {
                     "type": "CharacterStatLevelUpButtonWidget", "name": "StrengthPointButton",
                     "fields": {
-                        "rect": { "x": 753, "y": 386 },
-                        "filename": "Controller/Panel/CharacterSheet/V2/LevelUpButton",
+                        "rect": { "x": 1203, "y": 28 },
+                        "filename": "..\\..\\..\\ReMoDDeD\\LevelUpButton",
                         "focusIndicatorFilename": "Controller/HoverImages/LevelUpButton_Hover",
                         "focusIndicatorOffset": { "x": 0, "y": 0 },
                         "controllerRequireHold": false,
@@ -805,9 +974,8 @@
                 {
                     "type": "CharacterStatLevelUpButtonWidget", "name": "DexPointButton",
                     "fields": {
-                        "rect": { "x": 753, "y": 628 },
-                        "filename": "Controller/Panel/CharacterSheet/V2/LevelUpButton",
-                        "filename": "Controller/Panel/CharacterSheet/V2/LevelUpButton",
+                        "rect": { "x": 1203, "y": 96 },
+                        "filename": "..\\..\\..\\ReMoDDeD\\LevelUpButton",
                         "focusIndicatorFilename": "Controller/HoverImages/LevelUpButton_Hover",
                         "controllerRequireHold": false,
                         "navigation": {
@@ -820,9 +988,8 @@
                 {
                     "type": "CharacterStatLevelUpButtonWidget", "name": "VitalityPointButton",
                     "fields": {
-                        "rect": { "x": 753, "y": 971 },
-                        "filename": "Controller/Panel/CharacterSheet/V2/LevelUpButton",
-                        "filename": "Controller/Panel/CharacterSheet/V2/LevelUpButton",
+                        "rect": { "x": 1203, "y": 164 },
+                        "filename": "..\\..\\..\\ReMoDDeD\\LevelUpButton",
                         "focusIndicatorFilename": "Controller/HoverImages/LevelUpButton_Hover",
                         "controllerRequireHold": false,
                         "navigation": {
@@ -835,9 +1002,8 @@
                 {
                     "type": "CharacterStatLevelUpButtonWidget", "name": "EnergyPointButton",
                     "fields": {
-                        "rect": { "x": 753, "y": 1210 },
-                        "filename": "Controller/Panel/CharacterSheet/V2/LevelUpButton",
-                        "filename": "Controller/Panel/CharacterSheet/V2/LevelUpButton",
+                        "rect": { "x": 1203, "y": 232 },
+                        "filename": "..\\..\\..\\ReMoDDeD\\LevelUpButton",
                         "focusIndicatorFilename": "Controller/HoverImages/LevelUpButton_Hover",
                         "controllerRequireHold": false,
                         "navigation": {
@@ -852,19 +1018,41 @@
         {
             "type": "TextBoxWidget", "name": "CombinedPointsInfo",
             "fields": {
-                "rect": { "x": 4, "y": 1353, "width": 2730, "height": 64 },
+                "rect": { "x": 537, "y": 322, "width": 972, "height": 60 },
+                "text":"Test",
                 "style": {
-                   "fontColor": "$PanelNoteTextColor",
-                    "pointSize": "$MediumLargeFontSize",
-                    "alignment": { "h": "center", "v": "center" },
-                    "spacing" : "$ReducedSpacing"
+                    "pointSize": "$XMediumPanelFontSize",
+                    "alignment": { "h": "center" }
                 }
             },
             "children": [
                 {
-                    "type": "FocusableWidget", "name": "Tooltip"
+                    "type": "FocusableWidget", "name": "Tooltip",
+                    "fields": {
+                        "fitToParent": true,
+                        "tooltipString": "@CharacterStatsTooltipStatPointsRemaining",
+                        "tooltipStyle": "$TooltipStyle",
+                        "tooltipStyle": {
+                            "fontStyle": {
+                                "options": { "newlineHandling": "standard" }
+                            }
+                        }
+                    }
                 }
             ]
+        },
+        // Close Panel
+        
+        {
+            "type": "ButtonWidget", "name": "CloseButton",
+            "fields": {
+                "rect": { "x": 1800, "y": -156 },
+                "filename": "Blank",
+                "hoveredFrame": 3,
+                "onClickMessage": "CharacterStatsPanelMessage:Close",
+                "tooltipString": "@strClose",
+                "sound": "cursor_close_window_hd"
+            }
         }
     ]
 }

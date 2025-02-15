@@ -12,7 +12,7 @@
             "fields": {
                 "rect": "$OptionsScrollBarBackgroundRect",
                 "anchor": { "x": 1.0 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Info\\ScrollBG"
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\ScrollBG_R"
             },
             "children": [
                 {
@@ -22,7 +22,7 @@
                         "anchor": { "x": 1.0 },
                         "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
                         "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
-                        "barFilepath": "..\\..\\..\\ReMoDDeD\\SkullScroll",
+                        "barFilepath": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\SkullScroll",
                         "viewName": "ScrollView",
                         "wheelScrollSound": "cursor_scroll_hd",
                         "buttonScrollSound": "cursor_scroll_hd"
@@ -116,7 +116,7 @@
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
                                                 "rect": { "x": 60, "y": 70 },
-                                                "filename": "..\\..\\..\\ReMoDDeD\\TormentTrials"
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Guides\\TormentTrials"
                                             }
                                         }
                                     ]
@@ -195,7 +195,7 @@
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
                                                 "rect": { "x": 60, "y": 60 },
-                                                "filename": "..\\..\\..\\ReMoDDeD\\IcyHell"
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Guides\\IcyHell"
                                             }
                                         }
                                     ]

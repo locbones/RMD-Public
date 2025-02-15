@@ -19,8 +19,8 @@
     "PanelClickCatcherRectHM": { "x": 0, "y": -200, "width": 1362, "height": 1487 },
     "InGamePanelTitleRect" : { "x": 378, "y": 34, "width": 972, "height": 71 },
 
-    "LVSpriteBank": "..\\..\\..\\ReMoDDeD\\Stash",
-    "LVSpriteInv": "..\\..\\..\\ReMoDDeD\\Inventory",
+    "LVSpriteBank": "..\\..\\..\\ReMoDDeD\\Panels\\Stash\\StashBG_R",
+    "LVSpriteInv": "..\\..\\..\\ReMoDDeD\\Panels\\Inventory\\InventoryBG_R",
     "BankPanelGoldAmountRect": { "x": 717, "y": 1356, "width": 249, "height": 48 },
     "BankPanelGoldWithdrawRect": { "x": 652, "y": 1355 },
 
@@ -552,14 +552,14 @@
         "EventItemsColor": "$FontColorOrange"
     },
     "SkillIconFilenames": [
-        "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Amazon_SK",
-        "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Sorceress_SK",
-        "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Necromancer_SK",
-        "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Paladin_SK",
-        "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Barbarian_SK",
-        "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Druid_SK",
-        "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Assassin_SK",
-		"..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Common_SK"
+        "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Amazon_SK",
+        "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Sorceress_SK",
+        "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Necromancer_SK",
+        "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Paladin_SK",
+        "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Barbarian_SK",
+        "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Druid_SK",
+        "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Assassin_SK",
+		"..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Common_SK"
     ],
 
     // HirablesPanel
@@ -651,7 +651,7 @@
     "SettingsSliderBackground": {
         "rect": { "x": -310, "y": -30 },
         "anchor": { "x": 0.5, "y": 0.5 },
-        "filename": "..\\..\\..\\ReMoDDeD\\Info\\ScrollBGH"
+        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\ScrollBGH_R"
     },
 
     "SettingsSliderLeftButtonFields": {

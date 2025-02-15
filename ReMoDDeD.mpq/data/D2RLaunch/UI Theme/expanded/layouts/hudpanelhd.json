@@ -145,7 +145,7 @@
         {
             "type": "ImageWidget", "name": "Overlay",
             "fields": {
-                "filename": "..\\..\\..\\ReMoDDeD\\HUD_FP",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\HUD\\HUD_FP",
                 "rect": { "x": 34 }
             }
         },
@@ -469,6 +469,19 @@
                     }
                 }
             ]
+        },
+        {
+            "type": "TextBoxWidget", "name": "BuildVersion",
+            "fields": {
+                "rect": { "x": 3430, "y": 375, "width": 400 },
+                "text":"BUILD 021225",
+                "style": {
+                    "fontColor": "$FontColorGray",
+                    "pointSize": "$SmallPanelFontSize",
+                    "spacing": "$ReducedSpacing",
+                    "dropShadow": "$DefaultDropShadow"
+                }
+            }
         }
     ]
 }

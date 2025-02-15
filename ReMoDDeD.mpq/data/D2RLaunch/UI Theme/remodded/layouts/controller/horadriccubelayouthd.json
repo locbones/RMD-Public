@@ -16,7 +16,7 @@
         {
             "type": "ImageWidget", "name": "background",
             "fields": {
-                "filename": "..\\..\\..\\ReMoDDeD\\Cube"
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Cube\\CubeBG_R"
             }
         },
         {
@@ -37,7 +37,7 @@
             "type": "ButtonWidget", "name": "Recipes",
             "fields": {
                 "rect": { "x": 85, "y": 1320 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Recipes",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Cube\\Recipes",
                 "hoveredFrame": 2,
                 "focusIndicatorFilename": "Controller/HoverImages/Transmute_Hover",
                 "focusIndicatorOffset": { "x": 0, "y": 0 },
@@ -51,7 +51,7 @@
             "type": "ButtonWidget", "name": "Shop",
             "fields": {
                 "rect": { "x": 765, "y": 1320 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Shop\\Shop_Button",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Shop\\Shop_Button",
                 "hoveredFrame": 2,
                 "focusIndicatorFilename": "Controller/HoverImages/Transmute_Hover",
                 "focusIndicatorOffset": { "x": 0, "y": 0 },

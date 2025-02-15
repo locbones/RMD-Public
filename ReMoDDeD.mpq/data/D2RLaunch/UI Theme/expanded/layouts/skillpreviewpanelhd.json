@@ -28,7 +28,7 @@
                         {
                             "type": "ImageWidget", "name": "Background",
                             "fields": {
-                                "filename": "\\PANEL\\Options\\FrontEndOptionsBG"
+                                "filename": "..\\..\\..\\ReMoDDeD\\Info\\InfoBG"
                             }
                         },
                         {
@@ -43,7 +43,7 @@
                             "type": "ButtonWidget", "name": "CloseButton",
                             "fields": {
                                 "rect": { "x": 1798, "y": 68 },
-                                "filename": "PANEL\\closebtn_4x",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Exit",
                                 "hoveredFrame": 3,
                                 "onClickMessage": "PanelManager:ClosePanel:SkillPreviewPanel",
                                 "tooltipString": "@strClose",
@@ -68,25 +68,25 @@
             "fields": {
                 "rect": "$SettingsPanelTabsRect",
                 "anchor": { "x": 0.5 },
-                "tabCount": 7,
-                "tabSize": { "x": 262, "y": 121 },
-                "tabPadding": { "x": -9, "y": 0 },
+                "tabCount": 8,
+                "tabSize": { "x": 225, "y": 113 },
+                "tabPadding": { "x": -1, "y": 0 },
                 "unavailableTabsLeaveGaps": false,
                 "tabSizingMethod": "fixedCenter",
                 "filename": "..\\..\\..\\ReMoDDeD\\Info\\Tabs",
-                "inactiveFrames": [ 1, 1, 1, 1, 1, 1, 1 ],
-                "activeFrames": [ 0, 0, 0, 0, 0, 0, 0 ],
+                "inactiveFrames": [ 1, 1, 1, 1, 1, 1, 1, 1 ],
+                "activeFrames": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
                 "activeTextColor": "$TabsActiveTextColor",
                 "inactiveTextColor": "$TabsInactiveTextColor",
                 "tabTextOffset": { "x": 0, "y": -4 },
                 "textStyle": {
                     "options": { "lineWrap": true },
-                    "pointSize": "$MediumFontSize",
+                    "pointSize": "$SmallFontSize",
                     "alignment": { "h": "center", "v": "center" },
                     "fontColor": "$FontColorWhite",
                     "spacing": {"leading":0.9, "kerning":0.95}
                 },
-                "textStrings": [ "Amazon", "Assassin", "Barbarian", "Druid", "Necromancer", "Paladin", "Sorceress" ],
+                "textStrings": [ "Amazon", "Assassin", "Barbarian", "Druid", "Necromancer", "Paladin", "Sorceress", "Open Skills" ],
                 "tabMessages": [
                     "SettingsPanelMessage:CheckChanges:SkillPreviewAmazonPanel",
                     "SettingsPanelMessage:CheckChanges:SkillPreviewAssasinPanel",
@@ -94,7 +94,8 @@
                     "SettingsPanelMessage:CheckChanges:SkillPreviewDruidPanel",
                     "SettingsPanelMessage:CheckChanges:SkillPreviewNecromancerPanel",
                     "SettingsPanelMessage:CheckChanges:SkillPreviewPaladinPanel",
-                    "SettingsPanelMessage:CheckChanges:SkillPreviewSorceressPanel"
+                    "SettingsPanelMessage:CheckChanges:SkillPreviewSorceressPanel",
+                    "SettingsPanelMessage:CheckChanges:SkillPreviewOSkillPanel"
                 ]
             }
         }

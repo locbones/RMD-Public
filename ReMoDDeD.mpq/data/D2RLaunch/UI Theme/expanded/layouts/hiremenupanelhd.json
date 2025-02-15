@@ -25,11 +25,18 @@
             }
         },
         {
+            "type": "ImageWidget", "name": "LeftSprite",
+            "fields": {
+                "rect": "$LeftSideRectHireMenu",
+                "filename": "$LeftSideSpriteNew"
+            }
+        },
+        {
             "type": "ImageWidget", "name": "LeftHinge",
             "fields": {
                 "rect": "$LeftHingeRect",
                 "filename": "$LeftHingeSprite"
-            },
+            }
         },
         {
             "type": "ClickCatcherWidget", "name": "ClickCatcher",
@@ -40,14 +47,14 @@
         {
             "type": "TextBoxWidget", "name": "Title",
             "fields": {
-                "rect": { "x": 191, "y": 64, "width": 972, "height": 71 },
+                "rect": "$InGamePanelTitleRect",
                 "style": "$StyleTitleBlock",
             },
         },
         {
             "type": "TextBoxWidget", "name": "GoldText",
             "fields": {
-                "rect": { "x": 600, "y": 1285, "width": 244, "height": 57 },
+                "rect": { "x": 498, "y": 1285, "width": 244, "height": 57 },
                 "text": "Template",
                 "style": "$StyleGoldAmount"
             }
@@ -55,7 +62,7 @@
         {
             "type": "ImageWidget", "name": "GoldIcon",
             "fields": {
-                "rect": { "x": 534, "y": 1279 },
+                "rect": { "x": 432, "y": 1279 },
                 "filename": "PANEL\\Inventory\\Button",
             },
         },
@@ -68,7 +75,7 @@
         {
             "type": "TextBoxWidget", "name": "NoHiresAlert",
             "fields": {
-                "rect": { "x": 153, "y": 211, "width": 1065, "height": 51 },
+                "rect": { "x": 153, "y": 211, "width": 857, "height": 51 },
                 "style": {
                     "fontColor": { "r": 255, "g": 0, "b": 0, "a": 255 },
                     "pointSize": "$MediumPanelFontSize",
@@ -79,7 +86,7 @@
         {
             "type": "ListWidget", "name": "ListContainer",
             "fields": {
-                "rect": { "x": 155, "y":167, "width": 1064, "height": 1021 },
+                "rect": { "x": 155, "y":167, "width": 857, "height": 1021 },
                 "direction": "vertical",
                 "itemSelectionMessage": "DialogMessage:HireMenuSelection",
                 "selectorName": "Selection",
@@ -89,7 +96,7 @@
                 {
                     "type": "ListItemWidget", "name": "OptionTemplate",
                     "fields": {
-                        "rect": { "x": 0, "y": 0, "width": 1062, "height": 102 },
+                        "rect": { "x": 0, "y": 0, "width": 854, "height": 102 },
                     },
                     "children": [
                         {
@@ -143,30 +150,9 @@
                             }
                         },
                         {
-                            "type": "HirelingSkillIconWidget", "name": "Skill3",
-                            "fields": {
-                                "rect": { "x": 632, "y": 20, "scale": 0.50 },
-                                "skillIconFilename": "Spells/Hireables/HrSkillIcon"
-                            }
-                        },
-                        {
-                            "type": "HirelingSkillIconWidget", "name": "Skill4",
-                            "fields": {
-                                "rect": { "x": 699, "y": 20, "scale": 0.50 },
-                                "skillIconFilename": "Spells/Hireables/HrSkillIcon"
-                            }
-                        },
-                        {
-                            "type": "HirelingSkillIconWidget", "name": "Skill5",
-                            "fields": {
-                                "rect": { "x": 766, "y": 20, "scale": 0.50 },
-                                "skillIconFilename": "Spells/Hireables/HrSkillIcon"
-                            }
-                        },
-                        {
                             "type": "Widget", "name": "CostContainer",
                             "fields": {
-                                "rect": { "x": 848, "y": 27, "width": 186, "height": 51 },
+                                "rect": { "x": 647, "y": 27, "width": 186, "height": 51 },
                             },
                             "children": [
                                 {
@@ -210,7 +196,7 @@
         {
             "type": "ButtonWidget", "name": "CloseButton",
             "fields": {
-                "rect": { "x": 1296, "y": 9 },
+                "rect": { "x": 1075, "y": 9 },
                 "filename": "PANEL\\closebtn_4x",
                 "hoveredFrame": 3,
                 "tooltipString": "@strClose",

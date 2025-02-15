@@ -26,14 +26,14 @@
             "type": "ImageWidget", "name": "background",
             "fields": {
                 "rect": { "x": 85, "y": -180 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Vendors"
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Vendor\\VendorBG_R"
             }
         },
         {
             "type": "ImageWidget", "name": "background_repair",
             "fields": {
                 "rect": { "x": 85, "y": -180 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Vendors"
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Vendor\\VendorBG_R"
             }
         },
         {
@@ -70,7 +70,7 @@
             "type": "TabBarWidget", "name": "tabs",
             "fields": {
                 "rect": { "x": 179, "y": -21 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Stash_TabsV",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Stash\\Stash_TabsV",
                 "inactiveFrames": [ 1, 1, 1, 1 ], 
                 "activeFrames": [ 0, 0, 0, 0 ],
                 "textStyle": { "pointSize": "$MediumFontSize" },

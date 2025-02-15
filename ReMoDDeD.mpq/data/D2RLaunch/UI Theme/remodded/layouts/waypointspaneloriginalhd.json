@@ -21,7 +21,7 @@
             "type": "ImageWidget", "name": "Background",
             "fields": {
                // "rect": { "y": -205 },
-                "filename": "..\\..\\..\\ReMoDDeD\\WP_BG",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Waypoint\\WaypointBG_R",
                 "frame": 0
             }
         },
@@ -65,7 +65,7 @@
                     "type": "ButtonWidget", "name": "UnselectableButtonTemplate",
                     "fields": {
                         "rect": { "x": 86, "y": 200 },
-                        "filename": "..\\..\\..\\ReMoDDeD\\WP_Button3",
+                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\WP_Button3",
                         "onClickMessage": "Waypoints:SelectWaypoint",
                         "pointSize": "$XMediumPanelFontSize",
                         "textColor": "$FontColorLightGray",
@@ -76,7 +76,7 @@
                             "type": "ImageWidget", "name": "TerrorZone",
                             "fields": {
                         				"rect": { "x": 0, "y": 0 },
-                        				"filename": "..\\..\\..\\ReMoDDeD\\WP_TZ",
+                        				"filename": "..\\..\\..\\ReMoDDeD\\Panels\\Waypoint\\WP_TZ",
                         				"visible": false
                         		}
                         }
@@ -85,13 +85,13 @@
                 {
                     "type": "ImageWidget", "name": "SelectableButton",
                     "fields": {
-                        "filename": "..\\..\\..\\ReMoDDeD\\WP_Button2"
+                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\WP_Button2"
                     }
                 },
                 {
                     "type": "ImageWidget", "name": "CurrentButton",
                     "fields": {
-                        "filename": "..\\..\\..\\ReMoDDeD\\WP_Button"
+                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\WaypointButton_R"
                     }
                 }
             ]
@@ -102,7 +102,7 @@
             "type": "ButtonWidget", "name": "CloseButton",
             "fields": {
                 "rect": { "x": 955, "y": 10 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Exit",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\Exit",
                 "hoveredFrame": 3,
                 "tooltipString": "@strClose",
                 "sound": "cursor_close_window_hd",

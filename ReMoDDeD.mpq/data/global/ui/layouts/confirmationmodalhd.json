@@ -8,7 +8,7 @@
             "type": "ImageWidget", "name": "Frame",
             "fields": {
                 "rect": { "x": -627, "y": -270 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Info\\ConfirmBG",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\ConfirmBG",
             },
             "children": [
                 {
@@ -28,7 +28,7 @@
                     "type": "ButtonWidget", "name": "Confirm",
                     "fields": {
                         "rect": { "x": 179, "y": 252, "scale": 0.5 },
-                        "filename": "..\\..\\..\\ReMoDDeD\\Info\\ConfirmBG_Yes",
+                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\ConfirmBG_Yes",
                         "focusIndicatorFilename": "Controller/HoverImages/ModalButton_Hover",
                         "hoveredFrame": 3,
                         "onClickMessage": "ModalMessage:Confirm",
@@ -40,7 +40,7 @@
                     "type": "ButtonWidget", "name": "Dismiss",
                     "fields": {
                         "rect": { "x": 875, "y": 252, "scale": 0.5 },
-                        "filename": "..\\..\\..\\ReMoDDeD\\Info\\ConfirmBG_No",
+                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\ConfirmBG_No",
                         "focusIndicatorFilename": "Controller/HoverImages/ModalButton_Hover",
                         "hoveredFrame": 3,
                         "onClickMessage": "ModalMessage:Dismiss",

@@ -21,7 +21,7 @@
         {
             "type": "ImageWidget", "name": "BackgroundImage",
             "fields": {
-                "filename": "..\\..\\..\\ReMoDDeD\\HireMenu"
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Hireling\\HirelingMenu_R"
             }
         },
         {
@@ -88,7 +88,7 @@
                         {
                             "type": "ImageWidget", "name": "DialogBackground",
                             "fields": {
-                                "filename": "..\\..\\..\\ReMoDDeD\\HireMenuSlot"
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Hireling\\HirelingSlot_R"
                             }
                         },
                         {
@@ -194,7 +194,7 @@
                     "type": "ImageWidget", "name": "Selection",
                     "fields": {
                         "rect": {"x": 125, "y": 505 },
-                        "filename": "..\\..\\..\\ReMoDDeD\\HireSelect"
+                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Hireling\\HireSelect"
                     }
                 }
             ]

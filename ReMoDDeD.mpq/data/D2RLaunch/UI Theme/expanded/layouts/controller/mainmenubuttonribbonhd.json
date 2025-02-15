@@ -23,24 +23,11 @@
                 {
                     "type": "ButtonWidget", "name": "Settings",
                     "fields": {
-                        "focusIndicatorFilename": "Controller/HoverImages/FrontEndButtonMed",
+                        "focusIndicatorFilename": "..\\..\\..\\ReMoDDeD\\Controller\\MMS_Hover",
                         "focusIndicatorVisible": true,
                         "focusIndicatorOffset": { "x": -2, "y": 0 },
                         "navigation": {
                             "right": { "panelBoundary": true },
-                            "down": { "name": "Credits2" }
-                        }
-                    }
-                },
-                {
-                    "type": "ButtonWidget", "name": "Credits2",
-                    "fields": {
-                        "focusIndicatorFilename": "Controller/HoverImages/FrontEndButtonMed",
-                        "focusIndicatorVisible": true,
-                        "focusIndicatorOffset": { "x": -2, "y": 0 },
-                        "navigation": {
-                            "right": { "panelBoundary": true },
-                            "up": { "name": "Settings" },
                             "down": { "name": "Cinematics" }
                         }
                     }
@@ -48,12 +35,12 @@
                 {
                     "type": "ButtonWidget", "name": "Cinematics",
                     "fields": {
-                        "focusIndicatorFilename": "Controller/HoverImages/FrontEndButtonMed",
+                        "focusIndicatorFilename": "..\\..\\..\\ReMoDDeD\\Controller\\MMS_Hover",
                         "focusIndicatorVisible": true,
                         "focusIndicatorOffset": { "x": -2, "y": 0 },
                         "navigation": {
                             "right": { "panelBoundary": true },
-                            "up": { "name": "Credits2" },
+                            "up": { "name": "Settings" },
                             "down": { "name": "Credits" }
                         }
                     }
@@ -61,12 +48,25 @@
                 {
                     "type": "ButtonWidget", "name": "Credits",
                     "fields": {
-                        "focusIndicatorFilename": "Controller/HoverImages/FrontEndButtonMed",
+                        "focusIndicatorFilename": "..\\..\\..\\ReMoDDeD\\Controller\\MMS_Hover",
                         "focusIndicatorVisible": true,
                         "focusIndicatorOffset": { "x": -2, "y": 0 },
                         "navigation": {
                             "right": { "panelBoundary": true },
                             "up": { "name": "Cinematics" },
+                            "down": { "name": "Credits2" }
+                        }
+                    }
+                },
+                {
+                    "type": "ButtonWidget", "name": "Credits2",
+                    "fields": {
+                        "focusIndicatorFilename": "..\\..\\..\\ReMoDDeD\\Controller\\MMS_Hover",
+                        "focusIndicatorVisible": true,
+                        "focusIndicatorOffset": { "x": -2, "y": 0 },
+                        "navigation": {
+                            "right": { "panelBoundary": true },
+                            "up": { "name": "Credits" },
                             "down": { "name": "Exit" }
                         }
                     }
@@ -74,12 +74,12 @@
                 {
                     "type": "ButtonWidget", "name": "Exit",
                     "fields": {
-                        "focusIndicatorFilename": "Controller/HoverImages/FrontEndButtonMed",
+                        "focusIndicatorFilename": "..\\..\\..\\ReMoDDeD\\Controller\\MMS_Hover",
                         "focusIndicatorVisible": true,
                         "focusIndicatorOffset": { "x": -2, "y": 0 },
                         "navigation": {
                             "right": { "panelBoundary": true },
-                            "up": { "name": "Credits" },
+                            "up": { "name": "Credits2" },
                             "down": { "name": "MotDScrollBar" }
                         }
                     }

@@ -5,22 +5,22 @@
         "activeTabFontColor": "$TabsActiveTextColorInGame",
         "inactiveTabFontColor": "$TabsInactiveTextColor",
         "skillButtonFile": [
-            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Amazon_SK",
-            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Sorceress_SK",
-            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Necromancer_SK",
-            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Paladin_SK",
-            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Barbarian_SK",
-            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Druid_SK",
-            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Assassin_SK"
+            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Amazon_SK",
+            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Sorceress_SK",
+            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Necromancer_SK",
+            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Paladin_SK",
+            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Barbarian_SK",
+            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Druid_SK",
+            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Assassin_SK"
         ],
         "skillBackgroundFile": [
-            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Generic",
-            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Generic",
-            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Generic",
-            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Generic",
-            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Generic",
-            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Generic",
-            "..\\..\\..\\ReMoDDeD\\SkillPanel\\ST_Generic"
+            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Generic",
+            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Generic",
+            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Generic",
+            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Generic",
+            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Generic",
+            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Generic",
+            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Generic"
         ],
         "skillRow": [ 134, 318, 503, 688, 849, 1029 ],
         "skillColumn": [ 294, 581, 872 ],
@@ -32,7 +32,7 @@
             "type": "ImageWidget", "name": "CommonSkillTreesBackground",
             "fields": {
                 "rect": { "x": 0, "y": -20 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Controller\\SkillPanel"
+                "filename": "..\\..\\..\\ReMoDDeD\\Controller\\SkillsBG_R"
             }
         },
         {

@@ -2,27 +2,34 @@
     "type": "HoradricCubePanel", "name": "HoradricCubeLayout",
     "fields": {
         "priority": 10,
-        "rect": "$LeftPanelRectStashCube",
-        "anchor": "$LeftPanelAnchor"
+        "rect": "$LeftPanelRectS",
+        "anchor": "$LeftPanelAnchor",
     },
     "children": [
         {
             "type": "ClickCatcherWidget", "name": "click_catcher",
             "fields": {
-                "rect": { "x": 0, "y": 0, "width": 1744, "height": 1737 }
-            }
+                "rect": { "x": 0, "y": 0, "width": 1744, "height": 1737 },
+            },
         },
         {
             "type": "ImageWidget", "name": "background",
             "fields": {
-                "filename": "..\\..\\..\\ReMoDDeD\\Cube2"
+                "filename": "PANEL\\Horadric_Cube\\HoradricCube_BG2",
+            },
+        },
+        {
+            "type": "ImageWidget", "name": "LeftSprite",
+            "fields": {
+                "rect": "$LeftSideRectHireMenu",
+                "filename": "$LeftSideSpriteNew_Blank"
             }
         },
         {
             "type": "ImageWidget", "name": "LeftHinge",
             "fields": {
                 "rect": "$LeftHingeRect",
-                "filename": "$LeftHingeSprite"
+                "filename": "$LeftHingeSprite_Blank"
             }
         },
         {
@@ -31,7 +38,7 @@
                 "rect": { "x": 855, "y": 110 },
                 "style": "$StyleTitleBlock",
                 "text": "@box"
-            }
+            },
         },
         {
             "type": "ButtonWidget", "name": "convert",
@@ -54,23 +61,23 @@
             }
         },
         {
-            "type": "ButtonWidget", "name": "Shop",
-            "fields": {
-                "rect": "$HoradricCubePanelShop",
-                "filename": "..\\..\\..\\ReMoDDeD\\Shop\\Shop_Button",
-                "tooltipString": "Show Horadric Rift",
-                "hoveredFrame": 2,
-                "onClickMessage": "PanelManager:OpenPanel:RemoddedShopPanel"
-            }
-        },
-        {
             "type": "ButtonWidget", "name": "Recipes",
             "fields": {
-                "rect": "$HoradricCubePanelRecipe",
+                "rect": { "x": 125, "y": 1508 },
                 "filename": "..\\..\\..\\ReMoDDeD\\Recipes",
                 "tooltipString": "Show Cube Recipes",
                 "hoveredFrame": 2,
                 "onClickMessage": "PanelManager:OpenPanel:CubeRecipesPanel"
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "Shop",
+            "fields": {
+                "rect": { "x": 805, "y": 1508 },
+                "filename": "..\\..\\..\\ReMoDDeD\\Shop\\Shop_Button",
+                "tooltipString": "Show Horadric Rift",
+                "hoveredFrame": 2,
+                "onClickMessage": "PanelManager:OpenPanel:RemoddedShopPanel"
             }
         },
         {
@@ -80,8 +87,8 @@
                 "filename": "PANEL\\closebtn_4x",
                 "hoveredFrame": 3,
                 "tooltipString": "@strClose",
-                "onClickMessage": "HoradricCubePanelMessage:Close"
-            }
+                "onClickMessage": "HoradricCubePanelMessage:Close",
+            },
         },
         {
             "type": "InventoryGridWidget", "name": "grid",
@@ -89,8 +96,8 @@
                 "rect": { "x": 80, "y": 193, "scale": 1.0 },
                 "cellCount": { "x": 16, "y": 13 },
                 "cellSize": "$ItemCellSize",
-                "gemSocketFilename": "PANEL\\gemsocket"
-            }
+                "gemSocketFilename": "PANEL\\gemsocket",
+            },
         },
         {
             "type": "AnimatedImageWidget", "name": "flourish",
@@ -100,8 +107,8 @@
                 "blendMode": "black",
                 "fps": 14,
                 "playing": false,
-                "loop": false
-            }
-        }
+                "loop": false,
+            },
+        },
     ]
 }
