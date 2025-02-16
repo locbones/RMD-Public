@@ -251,7 +251,7 @@
             "type": "ButtonWidget", "name": "Cancel",
             "fields": {
                 "rect": { "x": 1326, "y": 15 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\Exit",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\Exit_R",
                 "hoveredFrame": 3,
                 "tooltipString": "@strClose",
                 "sound": "cursor_close_window_hd",

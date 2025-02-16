@@ -253,7 +253,7 @@
                                 {
                                     "type": "ButtonWidget", "name": "GammaCalibration",
                                     "fields": {
-                                        "filename": "FrontEnd/HD/Final/FrontEnd_ButtonSmall",
+                                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\ButtonSmall_R",
                                         "textString": "@CalibrationText",
                                         "onClickMessage": "OptionsPanelMessage:OpenCalibrationPanel",
                                         "textColor": "$LightButtonTextColor",
@@ -284,7 +284,7 @@
                                 {
                                     "type": "ButtonWidget", "name": "ScreenSpaceCalibration",
                                     "fields": {
-                                        "filename": "FrontEnd/HD/Final/FrontEnd_ButtonSmall",
+                                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\ButtonSmall_R",
                                         "textString": "@CalibrationText",
                                         "onClickMessage": "PanelManager:OpenPanel:ScreenSpaceCalibrationPanel",
                                         "textColor": "$LightButtonTextColor",

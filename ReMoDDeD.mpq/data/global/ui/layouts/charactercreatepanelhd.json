@@ -370,7 +370,7 @@
                     "type": "ButtonWidget", "name": "ToMainMenu",
                     "fields": {
                         "rect": { "x": 100, "y": -220 },
-                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
+                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\ButtonMed_R",
                         "focusIndicatorFilename": "Controller/HoverImages/FrontEndButtonMed",
                         "focusIndicatorOffset": { "x": 0, "y": 0 },
                         "textString": "@UIBack",
@@ -400,7 +400,7 @@
                     "type": "ButtonWidget", "name": "ToGame",
                     "fields": {
                         "rect": { "x": -572, "y": -220 },
-                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
+                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\ButtonMed_R",
                         "focusIndicatorFilename": "Controller/HoverImages/FrontEndButtonMed",
                         "focusIndicatorOffset": { "x": 0, "y": 0 },
                         "textString": "@UICreate",

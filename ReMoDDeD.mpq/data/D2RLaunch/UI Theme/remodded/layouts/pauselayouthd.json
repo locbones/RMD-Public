@@ -90,7 +90,7 @@
                         {
                             "type": "ButtonWidget", "name": "Settings",
                             "fields": {
-                                "filename": "PauseMenu\\PauseButton",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\ButtonLarge_R",
                                 "hoveredFrame": 3,
                                 "textString": "@OptionsHD",
                                 "onClickMessage": "PanelManager:OpenPanel:SettingsPanel",
@@ -109,11 +109,11 @@
                         {
                             "type": "ButtonWidget", "name": "Settings",
                             "fields": {
-                                "filename": "PauseMenu\\PauseButton",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\ButtonLarge_R",
                                 "hoveredFrame": 3,
                                 "textString": "Mod Info",
                                 "onClickMessage": "PanelManager:OpenPanel:RemoddedInfoPanel",
-                                "textColor": "$FontColorBonesyRed",
+                                "textColor": "$LightButtonTextColor",
                                 "text/style": "$StyleFEButtonText",
                                 "acceptsReturnKey": true,
                                 "focusOnMouseOver": true,
@@ -128,7 +128,7 @@
                         {
                             "type": "ButtonWidget", "name": "Exit",
                             "fields": {
-                                "filename": "PauseMenu\\PauseButton",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\ButtonLarge_R",
                                 "hoveredFrame": 3,
                                 "textString": "@SaveAndExit",
                                 "pressLabelOffset": [ 0, 0 ],
@@ -148,7 +148,7 @@
                         {
                             "type": "ButtonWidget", "name": "ReturnToGame",
                             "fields": {
-                                "filename": "PauseMenu\\PauseButton",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\ButtonLarge_R",
                                 "hoveredFrame": 3,
                                 "textString": "@ReturnToGame",
                                 "pressLabelOffset": [ 0, 0 ],

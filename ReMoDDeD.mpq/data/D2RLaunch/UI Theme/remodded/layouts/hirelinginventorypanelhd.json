@@ -487,7 +487,7 @@
             "type": "ButtonWidget", "name": "CloseButton",
             "fields": {
                 "rect": { "x": 1040, "y": -195 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\Exit",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\Exit_R",
                 "hoveredFrame": 3,
                 "onClickMessage": "HirelingInventoryPanelMessage:Close",
                 "tooltipString": "@strClose",

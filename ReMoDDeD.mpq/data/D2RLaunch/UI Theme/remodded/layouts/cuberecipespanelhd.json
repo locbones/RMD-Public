@@ -43,7 +43,7 @@
                             "type": "ButtonWidget", "name": "CloseButton",
                             "fields": {
                                 "rect": { "x": 2158, "y": 68 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\Exit",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\Exit_R",
                                 "hoveredFrame": 3,
                                 "onClickMessage": "PanelManager:ClosePanel:CubeRecipesPanel",
                                 "tooltipString": "@strClose",

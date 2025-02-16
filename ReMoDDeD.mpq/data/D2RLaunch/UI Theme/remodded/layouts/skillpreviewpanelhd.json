@@ -28,7 +28,7 @@
                         {
                             "type": "ImageWidget", "name": "Background",
                             "fields": {
-                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\InfoBG"
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\InfoBG_R"
                             }
                         },
                         {
@@ -43,7 +43,7 @@
                             "type": "ButtonWidget", "name": "CloseButton",
                             "fields": {
                                 "rect": { "x": 1798, "y": 68 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\Exit",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\Exit_R",
                                 "hoveredFrame": 3,
                                 "onClickMessage": "PanelManager:ClosePanel:SkillPreviewPanel",
                                 "tooltipString": "@strClose",

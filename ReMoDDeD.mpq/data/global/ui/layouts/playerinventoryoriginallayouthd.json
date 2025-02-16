@@ -63,7 +63,7 @@
             "type": "ButtonWidget", "name": "close",
             "fields": {
                 "rect": { "x": 8, "y": 21 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\Exit",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\Exit_R",
                 "hoveredFrame": 3,
                 "tooltipString": "@strClose",
                 "onClickMessage": "PlayerInventoryPanelMessage:Close"

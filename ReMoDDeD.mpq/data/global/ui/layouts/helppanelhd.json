@@ -3,7 +3,7 @@
     "type": "HelpPanel", "name": "HelpPanel",
     "fields": {
         "priority": 9003,
-        "rect": { "x": -865, "y": 300, "width": "$OptionsPanelWidth", "height": "$OptionsPanelHeight" },
+        "rect": "$OptionsPanelRectRMD",
         "anchor": { "x": 0.5 },
         "applySettingsImmediately": true
     },
@@ -11,9 +11,9 @@
         {
             "type": "ImageWidget", "name": "SettingsBackground",
             "fields": {
-                "rect": { "x": -896, "y": -130, "width": "$OptionsPanelWidth", "height": "$OptionsPanelHeight" },
+                "rect": { "x": -1116, "y": -180, "width": "$OptionsPanelWidth", "height": "$OptionsPanelHeight" },
                 "anchor": { "x": 0.5 },
-                "filename": "Controller/Panel/Options/Panel_Options_BG"
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\InfoBGW_R"
             }
         },
         {
@@ -27,7 +27,7 @@
             "fields": {
                 "rect": "$OptionsScrollBarBackgroundRect",
                 "anchor": { "x": 1.0 },
-                "filename": "PauseMenu\\VerticalScroll"
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\ScrollBG_R"
             },
             "children": [
                 {
@@ -37,7 +37,7 @@
                         "anchor": { "x": 1.0 },
                         "upArrowFilepath": "",
                         "downArrowFilepath": "",
-                        "barFilepath": "..\\..\\..\\ReMoDDeD\\SkullScroll",
+                        "barFilepath": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\SkullScroll",
                         "viewName": "ScrollView",
                         "wheelScrollSound": "cursor_scroll_hd",
                         "buttonScrollSound": "cursor_scroll_hd"
@@ -48,7 +48,7 @@
         {
             "type": "TextBoxWidget", "name": "Title",
             "fields": {
-                "rect": { "x": -100, "y": -125, "width": 1950, "height": 103 },
+                "rect": { "x": -100, "y": -125, "width": 2250, "height": 103 },
                 "text": "Runewords List",
                 "style": "$StyleTitleBlock"
             }
@@ -56,8 +56,8 @@
         {
             "type": "ButtonWidget", "name": "CloseButton",
             "fields": {
-                "rect": { "x": 1675, "y": -110 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Exit",
+                "rect": { "x": 2115, "y": -110 },
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\Exit_R",
                 "hoveredFrame": 3,
                 "onClickMessage": "PanelManager:ClosePanel:HelpPanel",
                 "tooltipString": "@strClose",
@@ -117,7 +117,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword43",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 140, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -141,7 +151,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 80 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw43"
                             }
@@ -183,7 +193,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 160 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw5"
                             }
@@ -225,7 +235,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 240 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw18"
                             }
@@ -268,7 +278,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 320 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw77"
                             }
@@ -286,7 +296,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword78",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 110, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -310,7 +330,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 400 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw78"
                             }
@@ -352,7 +372,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 480 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw79"
                             }
@@ -423,7 +443,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 640 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw2"
                             }
@@ -465,7 +485,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 720 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw15"
                             }
@@ -483,7 +503,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword19",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 190, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -507,7 +537,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 800 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw19"
                             }
@@ -525,7 +555,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword73",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 210, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -549,7 +589,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 880 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw73"
                             }
@@ -567,7 +607,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword86",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 180, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -591,7 +641,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 960 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw86"
                             }
@@ -633,7 +683,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 1040 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw89"
                             }
@@ -704,7 +754,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 1200 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw68"
                             }
@@ -746,7 +796,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 1280 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw171"
                             }
@@ -817,7 +867,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 1440 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw3"
                             }
@@ -859,7 +909,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 1520 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw7"
                             }
@@ -877,7 +927,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword12",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 320, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -901,7 +961,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 1600 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw12"
                             }
@@ -919,7 +979,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword19",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 190, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -943,7 +1013,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 1680 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw19b"
                             }
@@ -985,7 +1055,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 1760 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw24"
                             }
@@ -1003,7 +1073,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword35",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 110, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -1027,7 +1107,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 1840 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw35"
                             }
@@ -1069,7 +1149,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 1920 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw76"
                             }
@@ -1111,7 +1191,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 2000 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw85"
                             }
@@ -1153,7 +1233,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 2080 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw89"
                             }
@@ -1224,7 +1304,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 2240 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw22"
                             }
@@ -1266,7 +1346,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 2320 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw29"
                             }
@@ -1310,7 +1390,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 2400 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw75"
                             }
@@ -1352,7 +1432,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 2480 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw88"
                             }
@@ -1370,7 +1450,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword94",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 200, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -1394,7 +1484,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 2560 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw94"
                             }
@@ -1412,7 +1502,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword116",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 190, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -1436,7 +1536,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 2640 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw116"
                             }
@@ -1507,7 +1607,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 2800 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw58"
                             }
@@ -1554,7 +1654,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword1",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 340, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -1578,7 +1688,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 2960 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw1"
                             }
@@ -1620,7 +1730,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 3040 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw27b"
                             }
@@ -1662,7 +1772,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 3120 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw29b"
                             }
@@ -1708,7 +1818,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 3200 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw52b"
                             }
@@ -1726,7 +1836,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword57",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 190, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -1750,7 +1870,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 3280 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw57b"
                             }
@@ -1792,7 +1912,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 3360 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw103b"
                             }
@@ -1810,7 +1930,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword120",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 140, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -1834,7 +1964,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 3440 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw120"
                             }
@@ -1876,7 +2006,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 3520 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw122"
                             }
@@ -1918,7 +2048,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 3600 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw130b"
                             }
@@ -1960,7 +2090,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 3680 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw131"
                             }
@@ -2031,7 +2161,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 3840 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw53"
                             }
@@ -2073,7 +2203,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 3920 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw61"
                             }
@@ -2144,7 +2274,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 4080 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw37"
                             }
@@ -2191,7 +2321,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword8",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 110, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -2215,7 +2355,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 4240 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw8"
                             }
@@ -2257,7 +2397,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 4320 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw9"
                             }
@@ -2299,7 +2439,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 4400 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw14"
                             }
@@ -2341,7 +2481,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 4480 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw27"
                             }
@@ -2383,7 +2523,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 4560 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw30"
                             }
@@ -2425,7 +2565,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 4640 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw33"
                             }
@@ -2467,7 +2607,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 4720 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw34"
                             }
@@ -2485,7 +2625,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword41",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 210, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -2509,7 +2659,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 4800 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw41"
                             }
@@ -2527,7 +2677,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword45",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 150, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -2551,7 +2711,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 4880 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw45"
                             }
@@ -2593,7 +2753,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 4960 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw70"
                             }
@@ -2635,7 +2795,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 5040 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw74"
                             }
@@ -2677,7 +2837,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 5120 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw84"
                             }
@@ -2695,7 +2855,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword87",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 110, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -2719,7 +2889,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 5200 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw87"
                             }
@@ -2761,7 +2931,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 5280 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw98"
                             }
@@ -2803,7 +2973,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 5360 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw110"
                             }
@@ -2845,7 +3015,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 5440 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw112"
                             }
@@ -2863,7 +3033,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword117",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 110, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -2887,7 +3067,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 5520 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw117"
                             }
@@ -2929,7 +3109,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 5600 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw128"
                             }
@@ -2971,7 +3151,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 5680 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw133"
                             }
@@ -3013,7 +3193,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 5760 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw137"
                             }
@@ -3055,7 +3235,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 5840 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw148"
                             }
@@ -3097,7 +3277,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 5920 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw160"
                             }
@@ -3144,7 +3324,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword11",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 400, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -3168,7 +3358,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 6080 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw11"
                             }
@@ -3210,7 +3400,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 6160 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw13"
                             }
@@ -3228,7 +3418,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword41",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 210, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -3252,7 +3452,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 6240 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw41b"
                             }
@@ -3294,7 +3494,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 6320 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw48"
                             }
@@ -3312,7 +3512,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword95",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 160, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -3336,7 +3546,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 6400 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw95"
                             }
@@ -3378,7 +3588,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 6480 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw103"
                             }
@@ -3420,7 +3630,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 6560 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw106"
                             }
@@ -3462,7 +3672,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 6640 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw126"
                             }
@@ -3504,7 +3714,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 6720 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw154"
                             }
@@ -3575,7 +3785,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 6880 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw32"
                             }
@@ -3646,7 +3856,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 7040 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw4"
                             }
@@ -3688,7 +3898,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 7120 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw17"
                             }
@@ -3730,7 +3940,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 7200 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw20"
                             }
@@ -3772,7 +3982,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 7280 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw26"
                             }
@@ -3790,7 +4000,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword39",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 150, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -3814,7 +4034,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 7360 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw39"
                             }
@@ -3856,7 +4076,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 7440 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw47"
                             }
@@ -3898,7 +4118,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 7520 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw66"
                             }
@@ -3940,7 +4160,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 7600 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw69"
                             }
@@ -3958,7 +4178,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword91",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 110, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -3982,7 +4212,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 7680 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw91"
                             }
@@ -4000,7 +4230,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword134",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 120, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -4024,7 +4264,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 7760 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw134"
                             }
@@ -4095,7 +4335,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 7920 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw10"
                             }
@@ -4113,7 +4353,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword31",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 110, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -4137,7 +4387,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 8000 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw31"
                             }
@@ -4179,7 +4429,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 8080 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw38"
                             }
@@ -4221,7 +4471,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 8160 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw42"
                             }
@@ -4263,7 +4513,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 8240 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw49"
                             }
@@ -4305,7 +4555,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 8320 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw59"
                             }
@@ -4347,7 +4597,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 8400 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw82"
                             }
@@ -4389,7 +4639,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 8480 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw93"
                             }
@@ -4431,7 +4681,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 8560 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw101"
                             }
@@ -4449,7 +4699,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword102",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 210, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -4473,7 +4733,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 8640 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw102"
                             }
@@ -4515,7 +4775,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 8720 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw168"
                             }
@@ -4533,7 +4793,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword170",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 150, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -4557,7 +4827,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 8800 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw170"
                             }
@@ -4628,7 +4898,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 8960 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw16"
                             }
@@ -4670,7 +4940,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 9040 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw63"
                             }
@@ -4712,7 +4982,7 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 9120 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw97"
                             }
@@ -4783,9 +5053,80 @@
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
                                 "rect": { "x": -40, "y": 9280 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw6"
+                            }
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 10, "y": -20},
+                                        "text": "",
+                                        "style": "$RWInfoFB"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 350, "y": -30},
+                                        "text": "@RWClubDru",
+                                        "style": "$RWInfoS"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": "",
+                                        "style": "$RWInfo"
+                                    }
+                                }
+                            ]
+                        },
+/*--------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------*/
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 10, "y": -20},
+                                        "text": "@Runeword172",
+                                        "style": "$RWInfoFB"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": "@RWClubDru",
+                                        "style": "$RWInfo"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": "@r25L      @r34L      @r07L",
+                                        "style": "$RWInfo"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "AdvancedStats",
+                            "fields": {
+                                "rect": { "x": -40, "y": 9440 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
+                                "hoveredFrame": 1,
+                                "tooltipString": "@rw172"
                             }
                         },
                         {
@@ -4853,8 +5194,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 9440 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 9600 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw4"
                             }
@@ -4895,8 +5236,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 9520 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 9680 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw6"
                             }
@@ -4937,8 +5278,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 9600 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 9760 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw26"
                             }
@@ -4956,7 +5297,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword39",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 150, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -4979,8 +5330,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 9680 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 9840 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw39"
                             }
@@ -5021,8 +5372,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 9760 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 9920 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw69"
                             }
@@ -5065,8 +5416,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 9840 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 10000 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw71"
                             }
@@ -5136,8 +5487,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 10000 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 10160 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw6"
                             }
@@ -5178,8 +5529,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 10080 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 10240 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw51"
                             }
@@ -5197,7 +5548,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword91",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 110, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -5220,8 +5581,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 10160 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 10320 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw91"
                             }
@@ -5239,7 +5600,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword134",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 120, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -5262,8 +5633,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 10240 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 10400 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw134"
                             }
@@ -5281,7 +5652,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword99",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 320, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -5304,8 +5685,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 10320 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 10480 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw99"
                             }
@@ -5354,7 +5735,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword21",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 210, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -5377,8 +5768,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 10480 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 10640 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw21"
                             }
@@ -5396,7 +5787,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword36",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 190, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -5419,8 +5820,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 10560 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 10720 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw36"
                             }
@@ -5461,8 +5862,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 10640 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 10800 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw44"
                             }
@@ -5503,8 +5904,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 10720 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 10880 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw46"
                             }
@@ -5545,8 +5946,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 10800 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 10960 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw55"
                             }
@@ -5587,8 +5988,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 10880 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 11040 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw64"
                             }
@@ -5629,8 +6030,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 10960 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 11120 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw81"
                             }
@@ -5671,8 +6072,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 11040 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 11200 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw56"
                             }
@@ -5713,8 +6114,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 11120 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 11280 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw139"
                             }
@@ -5755,8 +6156,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 11200 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 11360 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw163"
                             }
@@ -5826,10 +6227,52 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 11360 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 11520 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw23"
+                            }
+                        },
+/*--------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------*/
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 10, "y": -20},
+                                        "text": "@Runeword173",
+                                        "style": "$RWInfoFB"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": "@RWOrb, @RWStaff, @RWWand",
+                                        "style": "$RWInfo"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": "@r02L     @r36L",
+                                        "style": "$RWInfo"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "AdvancedStats",
+                            "fields": {
+                                "rect": { "x": -40, "y": 11600 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
+                                "hoveredFrame": 1,
+                                "tooltipString": "@rw173"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -5868,8 +6311,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 11440 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 11680 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw40"
                             }
@@ -5887,7 +6330,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword57",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 190, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -5910,8 +6363,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 11520 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 11760 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw57"
                             }
@@ -5981,8 +6434,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 11680 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 11920 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw17"
                             }
@@ -6000,7 +6453,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword25",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 250, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -6023,8 +6486,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 11760 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 12000 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw25"
                             }
@@ -6065,8 +6528,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 11840 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 12080 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw26"
                             }
@@ -6107,8 +6570,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 11920 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 12160 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw60"
                             }
@@ -6149,8 +6612,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 12000 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 12240 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw62"
                             }
@@ -6191,8 +6654,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 12080 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 12320 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw92"
                             }
@@ -6233,8 +6696,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 12160 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 12400 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw109"
                             }
@@ -6252,13 +6715,23 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword121",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 90, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": "@RWPole, @RWScepter",
+                                        "text": "@RWPole, @RWScepter, @RWSword",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -6275,8 +6748,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 12240 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 12480 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw121"
                             }
@@ -6346,8 +6819,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 12400 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 12640 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw4"
                             }
@@ -6388,8 +6861,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 12480 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 12720 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw50"
                             }
@@ -6430,8 +6903,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 12560 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 12800 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw51"
                             }
@@ -6472,8 +6945,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 12640 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 12880 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw52"
                             }
@@ -6515,8 +6988,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 12720 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 12960 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw54"
                             }
@@ -6534,7 +7007,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword65",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 250, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -6557,8 +7040,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 12800 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 13040 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw65"
                             }
@@ -6599,8 +7082,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 12880 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 13120 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw67"
                             }
@@ -6641,8 +7124,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 12960 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 13200 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw71"
                             }
@@ -6660,13 +7143,23 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword121",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 90, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": "@RWScepter, @RWPole",
+                                        "text": "@RWScepter, @RWSword, @RWPole",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -6683,8 +7176,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 13040 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 13280 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw121"
                             }
@@ -6729,6 +7222,48 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
+                                        "text": "@Runeword174",
+                                        "style": "$RWInfoFB"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": "@RWSpell, @RWStaff",
+                                        "style": "$RWInfo"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": "@r26L     @r24L      @r28L     @r29L",
+                                        "style": "$RWInfo"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "AdvancedStats",
+                            "fields": {
+                                "rect": { "x": -40, "y": 13440 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
+                                "hoveredFrame": 1,
+                                "tooltipString": "@rw174"
+                            }
+                        },
+/*--------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------*/
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword93",
                                         "style": "$RWInfoFB"
                                     }
@@ -6745,7 +7280,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": "@r33L     @r01L     @r03L    @r08L     @r23L",
+                                        "text": "@r33L      @r01L      @r03L     @r08L     @r23L",
                                         "style": "$RWInfo"
                                     }
                                 }
@@ -6754,8 +7289,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 13200 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 13520 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw93"
                             }
@@ -6796,8 +7331,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 13280 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 13600 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw130"
                             }
@@ -6842,6 +7377,90 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
+                                        "text": "@Runeword174",
+                                        "style": "$RWInfoFB"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": "@RWStaff, @RWSpell",
+                                        "style": "$RWInfo"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": "@r26L     @r24L      @r28L     @r29L",
+                                        "style": "$RWInfo"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "AdvancedStats",
+                            "fields": {
+                                "rect": { "x": -40, "y": 13760 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
+                                "hoveredFrame": 1,
+                                "tooltipString": "@rw174"
+                            }
+                        },
+/*--------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------*/
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 10, "y": -20},
+                                        "text": "@Runeword173",
+                                        "style": "$RWInfoFB"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": "@RWStaff, @RWOrb, @RWWand",
+                                        "style": "$RWInfo"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": "@r02L     @r36L",
+                                        "style": "$RWInfo"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "AdvancedStats",
+                            "fields": {
+                                "rect": { "x": -40, "y": 13840 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
+                                "hoveredFrame": 1,
+                                "tooltipString": "@rw173b"
+                            }
+                        },
+/*--------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------*/
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword51",
                                         "style": "$RWInfoFB"
                                     }
@@ -6867,8 +7486,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 13440 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 13920 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw51"
                             }
@@ -6909,8 +7528,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 13520 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 14000 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw62"
                             }
@@ -6951,8 +7570,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 13600 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 14080 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw72"
                             }
@@ -6993,8 +7612,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 13680 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 14160 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw83"
                             }
@@ -7064,8 +7683,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 13840 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 14320 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw17"
                             }
@@ -7106,8 +7725,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 13920 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 14400 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw20"
                             }
@@ -7125,7 +7744,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword25",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 250, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -7148,8 +7777,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 14000 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 14480 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw25"
                             }
@@ -7190,8 +7819,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 14080 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 14560 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw47"
                             }
@@ -7209,7 +7838,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword65",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 250, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -7232,8 +7871,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 14160 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 14640 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw65"
                             }
@@ -7274,8 +7913,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 14240 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 14720 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw66"
                             }
@@ -7316,8 +7955,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 14320 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 14800 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw67"
                             }
@@ -7358,8 +7997,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 14400 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 14880 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw69"
                             }
@@ -7400,8 +8039,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 14480 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 14960 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw71"
                             }
@@ -7419,7 +8058,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword91",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 110, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -7442,8 +8091,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 14560 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 15040 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw91"
                             }
@@ -7459,9 +8108,71 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
+                                        "text": "@Runeword121",
+                                        "style": "$RWInfoFB"
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 90, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": "@RWSword, @RWScepter, @RWPole,",
+                                        "style": "$RWInfo"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": "@r15L     @r18L      @r20L     @r25L",
+                                        "style": "$RWInfo"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "AdvancedStats",
+                            "fields": {
+                                "rect": { "x": -40, "y": 15120 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
+                                "hoveredFrame": 1,
+                                "tooltipString": "@rw121"
+                            }
+                        },
+/*--------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------*/
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword134",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 120, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -7484,8 +8195,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 14640 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 15200 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw134"
                             }
@@ -7503,7 +8214,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword99",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 320, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -7526,8 +8247,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 14720 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 15280 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw99"
                             }
@@ -7574,7 +8295,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword21",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 210, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -7597,8 +8328,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 14880 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 15440 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw21"
                             }
@@ -7639,8 +8370,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 14960 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 15520 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw28"
                             }
@@ -7681,8 +8412,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 15040 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 15600 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw46"
                             }
@@ -7729,6 +8460,48 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
+                                        "text": "@Runeword173",
+                                        "style": "$RWInfoFB"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": "@RWOrb, @RWStaff, @RWWand",
+                                        "style": "$RWInfo"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": "@r02L     @r36L",
+                                        "style": "$RWInfo"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "AdvancedStats",
+                            "fields": {
+                                "rect": { "x": -40, "y": 15760 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
+                                "hoveredFrame": 1,
+                                "tooltipString": "@rw173"
+                            }
+                        },
+/*--------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------*/
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword162",
                                         "style": "$RWInfoFB"
                                     }
@@ -7754,8 +8527,8 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 15200 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\RwBtn",
+                                "rect": { "x": -40, "y": 15840 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@rw162"
                             }
@@ -7770,3 +8543,6 @@
         }
     ]
 }
+
+
+

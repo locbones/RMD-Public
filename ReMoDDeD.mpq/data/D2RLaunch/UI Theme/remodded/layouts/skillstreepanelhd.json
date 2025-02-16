@@ -1,4 +1,4 @@
-{
+﻿{
     "type": "SkillsTreePanel", "name": "SkillsTreePanel",
     "fields": {
         "rect": "$RightPanelRectS",
@@ -22,13 +22,13 @@
              "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Assassin_SK"
         ],
         "skillBackgroundFile": [
-            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Generic",
-            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Generic",
-            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Generic",
-            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Generic",
-            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Generic",
-            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Generic",
-            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Generic"
+            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\SkillTree_Generic_R",
+            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\SkillTree_Generic_R",
+            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\SkillTree_Generic_R",
+            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\SkillTree_Generic_R",
+            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\SkillTree_Generic_R",
+            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\SkillTree_Generic_R",
+            "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\SkillTree_Generic_R"
         ],
         "textTab0": [
             "@SkillCategoryAm1",
@@ -80,7 +80,7 @@
         {
              "type": "ImageWidget", "name": "TreeBackground",
              "fields": {
-                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\SkillPanel",
+                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\SkillsBG_P",
                  "rect": { "x": 167, "y": 0 }
              }
         },
@@ -233,7 +233,7 @@
             "type": "ButtonWidget", "name": "SP",
             "fields": {
                 "rect": { "x": 520, "y": 713 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\SPBtn",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\SkillPreviewBtn_R",
                 "hoveredFrame": 2,
                 "textString": "",
                 "pointSize": "$XMediumFontSize",

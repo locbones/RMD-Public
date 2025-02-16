@@ -102,7 +102,7 @@
             "type": "ButtonWidget", "name": "CloseButton",
             "fields": {
                 "rect": { "x": 955, "y": 10 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\Exit",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\Exit_R",
                 "hoveredFrame": 3,
                 "tooltipString": "@strClose",
                 "sound": "cursor_close_window_hd",

@@ -8,7 +8,7 @@
             "type": "ImageWidget", "name": "Frame",
             "fields": {
                 "rect": { "x": -627, "y": -270 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\ConfirmBG",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\ConfirmBG_R",
             },
             "children": [
                 {

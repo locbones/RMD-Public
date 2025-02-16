@@ -48,7 +48,7 @@
             "fields": {
                 "rect": { "x": 95, "y": -38 },
                 "tabCount": 4,
-                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Stash\\Stash_TabsV",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\PanelTab_R",
                 "inactiveFrames": [ 0, 0, 0, 0 ],
                 "activeFrames": [ 1, 1, 1, 1 ],
                 "textStrings": [ "@strBSArmor", "@strBSWeapons", "@strBSWeapons", "@strBSMisc" ],

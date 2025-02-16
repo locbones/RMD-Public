@@ -84,7 +84,7 @@
             "fields": {
                 "rect": { "x": -831, "y": -245 },
                 "anchor": { "x": 1.0, "y": 1.0 },
-                "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\ButtonMed_R",
                 "hoveredFrame": 3,
                 "textString": "@strExit",
                 "onClickMessage": "CreditsModalMessage:Finish",

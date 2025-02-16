@@ -746,7 +746,7 @@
                                 {
                                     "type": "ButtonWidget", "name": "ColorBlindCalibration",
                                     "fields": {
-                                        "filename": "FrontEnd/HD/Final/FrontEnd_ButtonSmall",
+                                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\ButtonSmall_R",
                                         "textString": "@CalibrationText",
                                         "onClickMessage": "PanelManager:OpenPanel:ColorBlindCalibrationPanel",
                                         "textColor": "$LightButtonTextColor",
