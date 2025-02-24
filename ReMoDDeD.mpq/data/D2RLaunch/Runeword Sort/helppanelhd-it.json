@@ -7224,7 +7224,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword174",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 320, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
@@ -7379,7 +7389,17 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@Runeword174",
                                         "style": "$RWInfoFB"
-                                    }
+                                    },
+                                    "children":[
+                                        {
+                                        "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                        "fields": {
+                                            "rect": { "x": 320, "y": -10},
+                                            "text": "§",
+                                            "style": "$RWInfoForge"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",

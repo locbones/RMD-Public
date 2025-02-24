@@ -13,8 +13,8 @@
         "plPL": "Hełm: zwiększa siłę\nTarcza: zwiększa obronę tarczy\nBroń: zwiększa skuteczność ataku\n",
         "ptBR": "Elmo: aumenta a força\nEscudo: aumenta a defesa do escudo\nArma: aumenta a classificação de ataque\n",
         "ruRU": "Шлем: увеличивает силу\nЩит: увеличивает защиту щита\nOpyжиe: увеличивает показатель атаки\n",
-        "zhCN": "头盔：增加力量\n盾牌：增加盾牌's防御\n武器：增加攻击等级\n",
-        "zhTW": "頭盔：增加力量\n盾牌：增加盾牌's防禦\n武器：增加攻擊等級\n"
+        "zhCN": "頭盔：增加力量\n盾牌：增加盾牌防禦\n武器：增加攻击准确\n",
+        "zhTW": "頭盔：增加力量\n盾牌：增加盾牌防禦\n武器：增加攻击准确\n"
     },
     {
         "id": 3633,
@@ -30,8 +30,8 @@
         "plPL": "Hełm: dodaje do maksymalnej many\nTarcza: dodaje odporność na zimno\nBroń: dodaje obrażenia od zimna do ataku\n",
         "ptBR": "Elmo: aumenta a mana máxima\nEscudo: adiciona resistência ao frio\nArma: adiciona dano de frio ao ataque\n",
         "ruRU": "Шлем: увеличивает максимальное количество маны\nЩит: добавляет устойчивость к холоду\nOpyжиe: добавляет урон от холода к атаке\n",
-        "zhCN": "头盔：增加最大法力值\n盾牌：增加对寒冷的抵抗\n武器：增加对攻击的寒冷伤害\n",
-        "zhTW": "頭盔：增加最大法力值\n盾牌：增加對寒冷的抵抗\n武器：增加對攻擊的寒冷傷害\n"
+        "zhCN": "頭盔：增加最大法力值\n盾牌：增加冰冷抗性\n武器：攻击附加冰冷伤害\n",
+        "zhTW": "頭盔：增加最大法力值\n盾牌：增加冰冷抗性\n武器：攻击附加冰冷伤害\n"
     },
     {
         "id": 3634,
@@ -47,8 +47,8 @@
         "plPL": "Hełm: zwiększa zręczność\nTarcza: zwiększa odporność na truciznę\nBroń: dodaje obrażenia od trucizny do ataku\n",
         "ptBR": "Elmo: aumenta a destreza\nEscudo: adiciona resistência ao veneno\nArma: adiciona dano de veneno ao ataque\n",
         "ruRU": "Шлем: увеличивает ловкость\nЩит: добавляет устойчивость к яду\nOpyжиe: добавляет урон от яда к атаке\n",
-        "zhCN": "头盔：增加敏捷\n盾牌：增加对毒药的抗性\n武器：对攻击增加毒药伤害\n",
-        "zhTW": "頭盔：增加敏捷\n盾牌：增加對毒藥的抗性\n武器：對攻擊增加毒藥傷害\n"
+        "zhCN": "頭盔：增加敏捷\n盾牌：增加對毒藥的抗性\n武器：攻击附加毒素伤害\n",
+        "zhTW": "頭盔：增加敏捷\n盾牌：增加對毒藥的抗性\n武器：攻击附加毒素伤害\n"
     },
     {
         "id": 3635,
@@ -64,8 +64,8 @@
         "plPL": "Hełm: dodaje do maksimum życia\nTarcza: dodaje odporność na ogień\nBroń: dodaje obrażenia od ognia do ataku\n",
         "ptBR": "Elmo: aumenta a vida máxima\nEscudo: adiciona resistência ao fogo\nArma: adiciona dano de fogo ao ataque\n",
         "ruRU": "Шлем: увеличивает максимальное количество жизней\nЩит: добавляет устойчивость к огню\nOpyжиe: добавляет урон от огня к атаке\n",
-        "zhCN": "头盔：增加生命上限\n盾牌：增加火焰抗性\n武器：增加攻击火焰伤害\n",
-        "zhTW": "頭盔：增加生命上限\n盾牌：增加火焰抗性\n武器：增加攻擊火焰傷害\n"
+        "zhCN": "頭盔：增加生命上限\n盾牌：增加火焰抗性\n武器：攻击附加火焰伤害\n",
+        "zhTW": "頭盔：增加生命上限\n盾牌：增加火焰抗性\n武器：攻击附加火焰伤害\n"
     },
     {
         "id": 3636,
@@ -81,8 +81,8 @@
         "plPL": "Hełm: dodaje do oceny ataku\nTarcza: dodaje do wszystkich odporności\nBroń: dodaje do obrażeń przeciwko nieumarłym\n",
         "ptBR": "Elmo: aumenta a classificação de ataque\nEscudo: aumenta todas as resistências\nArma: aumenta o dano contra mortos-vivos\n",
         "ruRU": "Шлем: увеличивает рейтинг атаки\nЩит: увеличивает все сопротивления\nOpyжиe: увеличивает урон против нежити\n",
-        "zhCN": "头盔：增加攻击等级\n盾牌：增加所有抗性\n武器：增加对不死生物的伤害\n",
-        "zhTW": "頭盔：增加攻擊等級\n盾牌：增加所有抗性\n武器：增加對不死生物的傷害\n"
+        "zhCN": "頭盔：增加攻击准确\n盾牌：增加所有抗性\n武器：增加對不死生物的傷害\n",
+        "zhTW": "頭盔：增加攻击准确\n盾牌：增加所有抗性\n武器：增加對不死生物的傷害\n"
     },
     {
         "id": 3637,
@@ -98,8 +98,8 @@
         "plPL": "Hełm: zwiększa szansę na znalezienie magicznych przedmiotów\nTarcza: dodaje odporność na błyskawice\nBroń: dodaje obrażenia od błyskawic do ataku\n",
         "ptBR": "Elmo: aumenta a chance de encontrar itens mágicos\nEscudo: adiciona resistência a raios\nArma: adiciona dano de raio ao ataque\n",
         "ruRU": "Шлем: увеличивает шанс найти магические предметы\nЩит: добавляет сопротивление молнии\nOpyжиe: добавляет урон от молнии к атаке\n",
-        "zhCN": "头盔：增加找到魔法物品的几率\n盾牌：增加对闪电的抵抗\n武器：增加对攻击的闪电伤害\n",
-        "zhTW": "頭盔：增加找到魔法物品的機率\n盾：增加對閃電的抵抗\n武器：增加對攻擊的閃電傷害\n"
+        "zhCN": "頭盔：增加MF\n盾：增加闪电抗性\n武器：攻击附加闪电伤害\n",
+        "zhTW": "頭盔：增加MF\n盾：增加闪电抗性\n武器：攻击附加闪电伤害\n"
     },
     {
         "id": 3638,
@@ -115,8 +115,8 @@
         "plPL": "Hełm: dodaje regenerację many i życia\nTarcza: dodaje obrażenia zadawane przez atakującego\nBroń: dodaje kradzieży many i życia do ataku\n",
         "ptBR": "Elmo: adiciona mana e regeneração de vida\nEscudo: adiciona dano ao atacante\nArma: adiciona mana e roubo de vida ao ataque\n",
         "ruRU": "Шлем: добавляет регенерацию маны и жизни\nЩит: добавляет атакующему урон\nOpyжиe: добавляет ману и вампиризм к атаке\n",
-        "zhCN": "头盔：增加法力和生命恢复\n盾：增加攻击者承受伤害\n武器：增加法力和生命偷取攻击\n",
-        "zhTW": "頭盔：增加法力和生命恢復\n盾：增加攻擊者承受傷害\n武器：增加法力和生命偷取攻擊\n"
+        "zhCN": "頭盔：增加法力和生命恢復\n盾：增加荆棘反伤\n武器：增加法力和生命偷取\n",
+        "zhTW": "頭盔：增加法力和生命恢復\n盾：增加荆棘反伤\n武器：增加法力和生命偷取\n"
     },
     {
         "id": 4019,
@@ -142,15 +142,15 @@
         "enUS": "ÿc2Helms/Beltsÿc0:",
         "esES": "Timones:",
         "esMX": "Timones:",
-        "frFR": "Barres :",
+        "frFR": "ÿc2Casque/Ceintureÿc0:",
         "itIT": "Timoni:",
         "jaJP": "ヘルム:",
         "koKR": "투구/벨트:",
         "plPL": "Hełmy:",
         "ptBR": "Elmos:",
         "ruRU": "Шлемы:",
-        "zhCN": "头盔：",
-        "zhTW": "頭盔："
+        "zhCN": "ÿc2头盔/腰带ÿc0:",
+        "zhTW": "ÿc2头盔/腰带ÿc0:"
     },
     {
         "id": 11074,
@@ -159,15 +159,15 @@
         "enUS": "ÿc2Shields/Jewelryÿc0:",
         "esES": "Escudos:",
         "esMX": "Escudos:",
-        "frFR": "Boucliers :",
+        "frFR": "ÿc2Boucliers/Bijouxÿc0:",
         "itIT": "Scudi:",
         "jaJP": "シールド:",
         "koKR": "방패/장신구:",
         "plPL": "Tarcze:",
         "ptBR": "Escudos:",
         "ruRU": "Щиты:",
-        "zhCN": "盾牌：",
-        "zhTW": "盾牌："
+        "zhCN": "ÿc2盾牌/饰品ÿc0:",
+        "zhTW": "ÿc2盾牌/饰品ÿc0:"
     },
     {
         "id": 11075,
@@ -176,15 +176,15 @@
         "enUS": "ÿc2Weapons/Glovesÿc0:",
         "esES": "Armas:",
         "esMX": "Armas:",
-        "frFR": "Armes :",
+        "frFR": "ÿc2Armes/Gantsÿc0:",
         "itIT": "Armi:",
         "jaJP": "武器:",
         "koKR": "무기/장갑:",
         "plPL": "Broń:",
         "ptBR": "Armas:",
         "ruRU": "Opyжиe:",
-        "zhCN": "武器：",
-        "zhTW": "武器："
+        "zhCN": "ÿc2武器/手套ÿc0:",
+        "zhTW": "ÿc2武器/手套ÿc0:"
     },
     {
         "id": 11076,
@@ -193,15 +193,15 @@
         "enUS": "ÿc2Armors/Bootsÿc0:",
         "esES": "Armadura:",
         "esMX": "Armadura:",
-        "frFR": "Armure :",
+        "frFR": "ÿc2Armure/Bottesÿc0:",
         "itIT": "Armatura:",
         "jaJP": "アーマー:",
         "koKR": "갑옷/부츠:",
         "plPL": "Pancerz:",
         "ptBR": "Armadura:",
         "ruRU": "Броня:",
-        "zhCN": "护甲：",
-        "zhTW": "護甲："
+        "zhCN": "ÿc2盔甲/靴子ÿc0:",
+        "zhTW": "ÿc2盔甲/靴子ÿc0:"
     },
     {
         "id": 21265,
@@ -251,8 +251,8 @@
         "plPL": "Dodaje do oceny ataku",
         "ptBR": "Adiciona à classificação de ataque",
         "ruRU": "Добавляет к рейтингу атаки",
-        "zhCN": "增加攻击等级",
-        "zhTW": "增加攻擊等級"
+        "zhCN": "增加攻击准确",
+        "zhTW": "增加攻击准确"
     },
     {
         "id": 21268,
@@ -285,8 +285,8 @@
         "plPL": "Dodaje odporność na zimno",
         "ptBR": "Adiciona Resistência ao Frio",
         "ruRU": "Добавляет сопротивление холоду",
-        "zhCN": "增加对寒冷的抵抗力",
-        "zhTW": "增加對寒冷的抵抗力"
+        "zhCN": "增加冰冷抗性",
+        "zhTW": "增加冰冷抗性"
     },
     {
         "id": 21270,
@@ -302,8 +302,8 @@
         "plPL": "Dodaje Obrażenia od Zimna do Ataku",
         "ptBR": "Adiciona Dano de Gelo ao Ataque",
         "ruRU": "Добавляет урон от холода к атаке",
-        "zhCN": "为攻击增加冰冷伤害",
-        "zhTW": "攻擊增加冰冷傷害"
+        "zhCN": "攻擊附加冰冷傷害",
+        "zhTW": "攻擊附加冰冷傷害"
     },
     {
         "id": 21271,
@@ -319,8 +319,8 @@
         "plPL": "Dodaje do zręczności",
         "ptBR": "Adiciona à Destreza",
         "ruRU": "Добавляет к ловкости",
-        "zhCN": "增加敏捷度",
-        "zhTW": "增加敏捷度"
+        "zhCN": "增加敏捷",
+        "zhTW": "增加敏捷"
     },
     {
         "id": 21272,
@@ -336,8 +336,8 @@
         "plPL": "Dodaje odporność na truciznę",
         "ptBR": "Adiciona Resistência ao Veneno",
         "ruRU": "Добавляет сопротивление яду",
-        "zhCN": "增加对毒药的抵抗力",
-        "zhTW": "增加對毒藥的抵抗力"
+        "zhCN": "增加毒素抗性",
+        "zhTW": "增加毒素抗性"
     },
     {
         "id": 21273,
@@ -353,8 +353,8 @@
         "plPL": "Dodaje obrażenia od trucizny do ataku",
         "ptBR": "Adiciona Dano de Veneno ao Ataque",
         "ruRU": "Добавляет урон от яда к атаке",
-        "zhCN": "为攻击增加毒伤害",
-        "zhTW": "攻擊增加毒傷害"
+        "zhCN": "攻擊附加毒素傷害",
+        "zhTW": "攻擊附加毒素傷害"
     },
     {
         "id": 21274,
@@ -370,8 +370,8 @@
         "plPL": "Dodaje do maksymalnej żywotności",
         "ptBR": "Adiciona à Vida Máxima",
         "ruRU": "Добавляет к максимуму жизни",
-        "zhCN": "增加最大寿命",
-        "zhTW": "增加最大壽命"
+        "zhCN": "增加最大生命值",
+        "zhTW": "增加最大生命值"
     },
     {
         "id": 21275,
@@ -387,8 +387,8 @@
         "plPL": "Dodaje odporność na ogień",
         "ptBR": "Adiciona Resistência ao Fogo",
         "ruRU": "Добавляет сопротивление огню",
-        "zhCN": "增加对火的抵抗力",
-        "zhTW": "增加對火的抵抗力"
+        "zhCN": "增加火焰抗性",
+        "zhTW": "增加火焰抗性"
     },
     {
         "id": 21276,
@@ -404,8 +404,8 @@
         "plPL": "Dodaje obrażenia od ognia do ataku",
         "ptBR": "Adiciona Dano de Fogo ao Ataque",
         "ruRU": "Добавляет урон от огня к атаке",
-        "zhCN": "攻击增加火焰伤害",
-        "zhTW": "攻擊增加火焰傷害"
+        "zhCN": "攻擊附加火焰傷害",
+        "zhTW": "攻擊附加火焰傷害"
     },
     {
         "id": 21277,
@@ -421,8 +421,8 @@
         "plPL": "Dodaje do oceny ataku",
         "ptBR": "Adiciona à classificação de ataque",
         "ruRU": "Добавляет к рейтингу атаки",
-        "zhCN": "增加攻击等级",
-        "zhTW": "增加攻擊等級"
+        "zhCN": "增加攻击准确",
+        "zhTW": "增加攻击准确"
     },
     {
         "id": 21278,
@@ -438,8 +438,8 @@
         "plPL": "Dodaje do wszystkich odporności",
         "ptBR": "Adiciona a todas as resistências",
         "ruRU": "Добавляет ко всем сопротивлениям",
-        "zhCN": "添加到所有阻力",
-        "zhTW": "添加到所有阻力"
+        "zhCN": "增加所有抗性",
+        "zhTW": "增加所有抗性"
     },
     {
         "id": 21279,
@@ -472,8 +472,8 @@
         "plPL": "Dodaje do szansy na znalezienie magicznych przedmiotów",
         "ptBR": "Aumenta a chance de encontrar itens mágicos",
         "ruRU": "Добавляет шанс найти магические предметы",
-        "zhCN": "增加找到魔法物品的机会",
-        "zhTW": "增加找到魔法物品的機會"
+        "zhCN": "增加MF",
+        "zhTW": "增加MF"
     },
     {
         "id": 21281,
@@ -489,8 +489,8 @@
         "plPL": "Dodaje odporność na błyskawice",
         "ptBR": "Adiciona Resistência a Raios",
         "ruRU": "Добавляет сопротивление молнии",
-        "zhCN": "增加对闪电的抵抗力",
-        "zhTW": "增加對閃電的抵抗力"
+        "zhCN": "增加閃電抗性",
+        "zhTW": "增加閃電抗性"
     },
     {
         "id": 21282,
@@ -506,8 +506,8 @@
         "plPL": "Dodaje obrażenia od błyskawic do ataku",
         "ptBR": "Adiciona Dano de Raio ao Ataque",
         "ruRU": "Добавляет урон от молнии к атаке",
-        "zhCN": "为攻击增加闪电伤害",
-        "zhTW": "為攻擊增加閃電傷害"
+        "zhCN": "攻擊附加閃電傷害",
+        "zhTW": "攻擊附加閃電傷害"
     },
     {
         "id": 21283,
@@ -523,8 +523,8 @@
         "plPL": "Dodaje regenerację many i życia",
         "ptBR": "Adiciona Mana e Regeneração de Vida",
         "ruRU": "Добавляет регенерацию маны и жизни",
-        "zhCN": "增加法力和生命再生",
-        "zhTW": "增加法力和生命再生"
+        "zhCN": "增加法力和生命恢复",
+        "zhTW": "增加法力和生命恢复"
     },
     {
         "id": 21284,
@@ -540,8 +540,8 @@
         "plPL": "Dodaje Atakujący Otrzymuje Obrażenia",
         "ptBR": "Adiciona Atacante Leva Dano",
         "ruRU": "Добавляет Атакующий получает урон",
-        "zhCN": "添加攻击者受到伤害",
-        "zhTW": "添加攻擊者受到傷害"
+        "zhCN": "增加荆棘反伤",
+        "zhTW": "增加荆棘反伤"
     },
     {
         "id": 21285,
@@ -557,7 +557,7 @@
         "plPL": "Dodaje kradzież many i życia do ataku",
         "ptBR": "Adiciona Mana e Roubo de Vida ao Ataque",
         "ruRU": "Добавляет ману и вампиризм к атаке",
-        "zhCN": "为攻击增加法力和生命偷取",
-        "zhTW": "為攻擊增加法力和生命偷取"
+        "zhCN": "增加法力和生命偷取",
+        "zhTW": "增加法力和生命偷取"
     }
 ]

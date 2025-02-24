@@ -28,7 +28,7 @@
             "type": "ButtonWidget", "name": "Close",
             "fields": {
                 "rect": { "x": 1075, "y": 9 },
-                "filename": "PANEL\\closebtn_4x",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\Exit",
                 "onClickMessage": "Cinematics:Close",
                 "tooltipString": "@strClose",
                 "sound": "cursor_close_window_hd",

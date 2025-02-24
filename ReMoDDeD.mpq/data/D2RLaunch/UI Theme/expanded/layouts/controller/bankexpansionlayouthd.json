@@ -13,7 +13,7 @@
             "type": "ImageWidget", "name": "background",
             "fields": {
                 "rect": { "x": -280, "y": -170 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Stash"
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Stash\\StashBG_R"
             }
         },
         {

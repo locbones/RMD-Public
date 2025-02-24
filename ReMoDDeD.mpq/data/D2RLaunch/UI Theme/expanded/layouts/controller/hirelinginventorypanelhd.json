@@ -9,7 +9,7 @@
         {
             "type": "ImageWidget", "name": "Background",
             "fields": {
-                "filename": "..\\..\\..\\ReMoDDeD\\Hireling",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Hireling\\HirelingBG_R",
                 "rect": { "x": 300, "y": -170 }
             }
         },

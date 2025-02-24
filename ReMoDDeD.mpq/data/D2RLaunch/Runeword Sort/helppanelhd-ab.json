@@ -3,7 +3,7 @@
     "type": "HelpPanel", "name": "HelpPanel",
     "fields": {
         "priority": 9003,
-        "rect": { "x": -865, "y": 300, "width": "$OptionsPanelWidth", "height": "$OptionsPanelHeight" },
+        "rect": "$OptionsPanelRectRMD",
         "anchor": { "x": 0.5 },
         "applySettingsImmediately": true
     },
@@ -11,9 +11,9 @@
         {
             "type": "ImageWidget", "name": "SettingsBackground",
             "fields": {
-                "rect": { "x": -896, "y": -130, "width": "$OptionsPanelWidth", "height": "$OptionsPanelHeight" },
+                "rect": { "x": -1116, "y": -180, "width": "$OptionsPanelWidth", "height": "$OptionsPanelHeight" },
                 "anchor": { "x": 0.5 },
-                "filename": "Controller/Panel/Options/Panel_Options_BG"
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\InfoBGW_R"
             }
         },
         {
@@ -48,7 +48,7 @@
         {
             "type": "TextBoxWidget", "name": "Title",
             "fields": {
-                "rect": { "x": -100, "y": -125, "width": 1950, "height": 103 },
+                "rect": { "x": -100, "y": -125, "width": 2250, "height": 103 },
                 "text": "Runewords List",
                 "style": "$StyleTitleBlock"
             }
@@ -56,7 +56,7 @@
         {
             "type": "ButtonWidget", "name": "CloseButton",
             "fields": {
-                "rect": { "x": 1675, "y": -110 },
+                "rect": { "x": 2115, "y": -110 },
                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\Exit",
                 "hoveredFrame": 3,
                 "onClickMessage": "PanelManager:ClosePanel:HelpPanel",

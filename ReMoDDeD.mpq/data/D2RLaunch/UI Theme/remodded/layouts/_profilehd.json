@@ -323,6 +323,24 @@
         "pointSize": "$LargeFontSize",
         "alignment": { "h": "center", "v": "fit" }
     },
+    "HUDTitleText": {
+        "fontColor": "$FontColorBonesyRed",
+        "pointSize": "$MediumFontSize",
+        "spacing" : "$ReducedSpacing",
+        "alignment": { "h": "left", "v": "center" }
+    },
+    "HUDInfoText": {
+        "fontColor": "$FontColorOrange",
+        "pointSize": "$SmallFontSize",
+        "spacing" : "$ReducedSpacing",
+        "alignment": { "h": "left", "v": "center" }
+    },
+    "HUDInfoText2": {
+        "fontColor": "$FontColorLightGold",
+        "pointSize": "$SmallFontSize",
+        "spacing" : "$ReducedSpacing",
+        "alignment": { "h": "left", "v": "center" }
+    },
     "StyleSettingsRightTitle": {
         "fontColor": "$FontColorBonesyRed",
         "pointSize": "$XMediumLargeFontSize",

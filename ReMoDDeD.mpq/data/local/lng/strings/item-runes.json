@@ -3,7 +3,7 @@
         "id": 10902,
         "Key": "r16",
         "enUS": "⅟ Ioÿc0",
-        "zhTW": "符文：埃歐",
+        "zhTW": "符文：埃欧16#",
         "deDE": "⅟ Ioÿc0",
         "esES": "Runa Io",
         "frFR": "[fs]Rune Io",
@@ -14,13 +14,13 @@
         "jaJP": "イオ・ルーン",
         "ptBR": "Runa Io",
         "ruRU": "Руна Ио",
-        "zhCN": "艾欧符文"
+        "zhCN": "符文：埃欧16#"
     },
     {
         "id": 10903,
         "Key": "r16L",
         "enUS": "Io",
-        "zhTW": "埃歐",
+        "zhTW": "埃欧16#",
         "deDE": "Io",
         "esES": "Io",
         "frFR": "Io",
@@ -31,13 +31,13 @@
         "jaJP": "イオ",
         "ptBR": "Io",
         "ruRU": "Ио",
-        "zhCN": "艾欧"
+        "zhCN": "埃欧16#"
     },
     {
         "id": 10904,
         "Key": "r13",
         "enUS": "⅜ Shaelÿc0",
-        "zhTW": "符文：夏",
+        "zhTW": "符文：夏13#",
         "deDE": "⅜ Shaelÿc0",
         "esES": "Runa Shael",
         "frFR": "[fs]Rune Shael",
@@ -48,13 +48,13 @@
         "jaJP": "シャエル・ルーン",
         "ptBR": "Runa Shael",
         "ruRU": "Руна Шаэл",
-        "zhCN": "沙伊符文"
+        "zhCN": "符文：夏13#"
     },
     {
         "id": 10905,
         "Key": "r13L",
         "enUS": "Shael",
-        "zhTW": "夏",
+        "zhTW": "夏13#",
         "deDE": "Shael",
         "esES": "Shael",
         "frFR": "Shael",
@@ -65,13 +65,13 @@
         "jaJP": "シャエル",
         "ptBR": "Shael",
         "ruRU": "Шаэль",
-        "zhCN": "沙伊"
+        "zhCN": "夏13#"
     },
     {
         "id": 10906,
         "Key": "r31",
         "enUS": "Ⅾ Jahÿc0",
-        "zhTW": "符文：喬",
+        "zhTW": "┈ 符文：乔31#",
         "deDE": "Ⅾ Jahÿc0",
         "esES": "Runa Jah",
         "frFR": "[fs]Rune Jah",
@@ -82,13 +82,13 @@
         "jaJP": "ジャー・ルーン",
         "ptBR": "Runa Jah",
         "ruRU": "Руна Джа",
-        "zhCN": "扎哈符文"
+        "zhCN": "┈ 符文：乔31#"
     },
     {
         "id": 10907,
         "Key": "r31L",
         "enUS": "Jah",
-        "zhTW": "喬",
+        "zhTW": "┈ 乔31#",
         "deDE": "Jah",
         "esES": "Jah",
         "frFR": "Jah",
@@ -99,13 +99,13 @@
         "jaJP": "ジャー",
         "ptBR": "Jah",
         "ruRU": "Джа",
-        "zhCN": "扎哈"
+        "zhCN": "┈ 乔31#"
     },
     {
         "id": 10910,
         "Key": "Runeword22",
         "enUS": "Delirium",
-        "zhTW": "精神錯亂",
+        "zhTW": "精神错乱",
         "deDE": "Delirium",
         "esES": "Delirio",
         "frFR": "Délire",
@@ -116,13 +116,13 @@
         "jaJP": "デリリアム",
         "ptBR": "Delírios",
         "ruRU": "Бред",
-        "zhCN": "迷狂"
+        "zhCN": "精神错乱"
     },
     {
         "id": 20440,
         "Key": "r33",
         "enUS": "ⅰ Zodÿc0",
-        "zhTW": "符文：薩德",
+        "zhTW": "┈ 符文：萨德33#",
         "deDE": "ⅰ Zodÿc0",
         "esES": "Runa Zod",
         "frFR": "[fs]Rune Zod",
@@ -133,13 +133,13 @@
         "jaJP": "ゾッド・ルーン",
         "ptBR": "Runa Zod",
         "ruRU": "Руна Зод",
-        "zhCN": "佐德符文"
+        "zhCN": "┈ 符文：萨德33#"
     },
     {
         "id": 20441,
         "Key": "r32",
         "enUS": "Ⅿ Chamÿc0",
-        "zhTW": "符文：查姆",
+        "zhTW": "┈ 符文：查姆32#",
         "deDE": "Ⅿ Chamÿc0",
         "esES": "Runa Cham",
         "frFR": "[fs]Rune Cham",
@@ -150,13 +150,13 @@
         "jaJP": "チャム・ルーン",
         "ptBR": "Runa Cham",
         "ruRU": "Руна Чам",
-        "zhCN": "查姆符文"
+        "zhCN": "┈ 符文：查姆32#"
     },
     {
         "id": 20443,
         "Key": "r30",
         "enUS": "Ⅽ Berÿc0",
-        "zhTW": "符文：貝",
+        "zhTW": "┈ 符文：贝30#",
         "deDE": "Ⅽ Berÿc0",
         "esES": "Runa Ber",
         "frFR": "[fs]Rune Ber",
@@ -167,13 +167,13 @@
         "jaJP": "バー・ルーン",
         "ptBR": "Runa Ber",
         "ruRU": "Руна Бер",
-        "zhCN": "贝符文"
+        "zhCN": "┈ 符文：贝30#"
     },
     {
         "id": 20444,
         "Key": "r29",
         "enUS": "Ⅼ Surÿc0",
-        "zhTW": "符文：瑟",
+        "zhTW": "符文：瑟29#",
         "deDE": "Ⅼ Surÿc0",
         "esES": "Runa Sur",
         "frFR": "[fs]Rune Sur",
@@ -184,13 +184,13 @@
         "jaJP": "サー・ルーン",
         "ptBR": "Runa Sur",
         "ruRU": "Руна Сур",
-        "zhCN": "瑟符文"
+        "zhCN": "符文：瑟29#"
     },
     {
         "id": 20445,
         "Key": "r28",
         "enUS": "Ⅻ Loÿc0",
-        "zhTW": "符文：羅",
+        "zhTW": "符文：罗28#",
         "deDE": "Ⅻ Loÿc0",
         "esES": "Runa Lo",
         "frFR": "[fs]Rune Lo",
@@ -201,13 +201,13 @@
         "jaJP": "ロー・ルーン",
         "ptBR": "Runa Lo",
         "ruRU": "Руна Ло",
-        "zhCN": "罗符文"
+        "zhCN": "符文：罗28#"
     },
     {
         "id": 20446,
         "Key": "r27",
         "enUS": "Ⅺ Ohmÿc0",
-        "zhTW": "符文：歐姆",
+        "zhTW": "符文：欧姆27#",
         "deDE": "Ⅺ Ohmÿc0",
         "esES": "Runa Ohm",
         "frFR": "[fs]Rune Ohm",
@@ -218,13 +218,13 @@
         "jaJP": "オーム・ルーン",
         "ptBR": "Runa Ohm",
         "ruRU": "Руна Ом",
-        "zhCN": "欧姆符文"
+        "zhCN": "符文：欧姆27#"
     },
     {
         "id": 20447,
         "Key": "r26",
         "enUS": "Ⅹ Vexÿc0",
-        "zhTW": "符文：伐克斯",
+        "zhTW": "符文：伐克斯26#",
         "deDE": "Ⅹ Vexÿc0",
         "esES": "Runa Vex",
         "frFR": "[fs]Rune Vex",
@@ -235,13 +235,13 @@
         "jaJP": "ヴェックス・ルーン",
         "ptBR": "Runa Vex",
         "ruRU": "Руна Векс",
-        "zhCN": "伐克斯符文"
+        "zhCN": "符文：伐克斯26#"
     },
     {
         "id": 20448,
         "Key": "r25",
         "enUS": "Ⅸ Gulÿc0",
-        "zhTW": "符文：古爾",
+        "zhTW": "符文：古尔25#",
         "deDE": "Ⅸ Gulÿc0",
         "esES": "Runa Gul",
         "frFR": "[fs]Rune Gul",
@@ -252,13 +252,13 @@
         "jaJP": "ガル・ルーン",
         "ptBR": "Runa Gul",
         "ruRU": "Руна Гул",
-        "zhCN": "古尔符文"
+        "zhCN": "符文：古尔25#"
     },
     {
         "id": 20449,
         "Key": "r24",
         "enUS": "Ⅷ Istÿc0",
-        "zhTW": "符文：伊司特",
+        "zhTW": "符文：伊司特24#",
         "deDE": "Ⅷ Istÿc0",
         "esES": "Runa Ist",
         "frFR": "[fs]Rune Ist",
@@ -269,13 +269,13 @@
         "jaJP": "イスト・ルーン",
         "ptBR": "Runa Ist",
         "ruRU": "Руна Ист",
-        "zhCN": "伊司特符文"
+        "zhCN": "符文：伊司特24#"
     },
     {
         "id": 20450,
         "Key": "r23",
         "enUS": "Ⅶ Malÿc0",
-        "zhTW": "符文：馬爾",
+        "zhTW": "符文：马尔23#",
         "deDE": "Ⅶ Malÿc0",
         "esES": "Runa Mal",
         "frFR": "[fs]Rune Mal",
@@ -286,13 +286,13 @@
         "jaJP": "マル・ルーン",
         "ptBR": "Runa Mal",
         "ruRU": "Руна Мал",
-        "zhCN": "玛尔符文"
+        "zhCN": "符文：马尔23#"
     },
     {
         "id": 20451,
         "Key": "r22",
         "enUS": "Ⅵ Umÿc0",
-        "zhTW": "符文：烏姆",
+        "zhTW": "符文：乌姆22#",
         "deDE": "Ⅵ Umÿc0",
         "esES": "Runa Um",
         "frFR": "[fs]Rune Um",
@@ -303,13 +303,13 @@
         "jaJP": "アム・ルーン",
         "ptBR": "Runa Um",
         "ruRU": "Руна Ум",
-        "zhCN": "乌姆符文"
+        "zhCN": "符文：乌姆22#"
     },
     {
         "id": 20452,
         "Key": "r21",
         "enUS": "Ⅴ Pulÿc0",
-        "zhTW": "符文：普爾",
+        "zhTW": "符文：普尔21#",
         "deDE": "Ⅴ Pulÿc0",
         "esES": "Runa Pul",
         "frFR": "[fs]Rune Pul",
@@ -320,13 +320,13 @@
         "jaJP": "プル・ルーン",
         "ptBR": "Runa Pul",
         "ruRU": "Руна Пул",
-        "zhCN": "普尔符文"
+        "zhCN": "符文：普尔21#"
     },
     {
         "id": 20453,
         "Key": "r20",
         "enUS": "Ⅳ Lemÿc0",
-        "zhTW": "符文：藍姆",
+        "zhTW": "符文：蓝姆20#",
         "deDE": "Ⅳ Lemÿc0",
         "esES": "Runa Lem",
         "frFR": "[fs]Rune Lem",
@@ -337,13 +337,13 @@
         "jaJP": "レム・ルーン",
         "ptBR": "Runa Lem",
         "ruRU": "Руна Лем",
-        "zhCN": "兰姆符文"
+        "zhCN": "符文：蓝姆20#"
     },
     {
         "id": 20454,
         "Key": "r19",
         "enUS": "Ⅲ Falÿc0",
-        "zhTW": "符文：法爾",
+        "zhTW": "符文：法尔19#",
         "deDE": "Ⅲ Falÿc0",
         "esES": "Runa Fal",
         "frFR": "[fs]Rune Fal",
@@ -354,13 +354,13 @@
         "jaJP": "ファル・ルーン",
         "ptBR": "Runa Fal",
         "ruRU": "Руна Фал",
-        "zhCN": "法尔符文"
+        "zhCN": "符文：法尔19#"
     },
     {
         "id": 20455,
         "Key": "r18",
         "enUS": "Ⅱ Koÿc0",
-        "zhTW": "符文：科",
+        "zhTW": "符文：科18#",
         "deDE": "Ⅱ Koÿc0",
         "esES": "Runa Ko",
         "frFR": "[fs]Rune Ko",
@@ -371,13 +371,13 @@
         "jaJP": "コー・ルーン",
         "ptBR": "Runa Ko",
         "ruRU": "Руна Ко",
-        "zhCN": "科符文"
+        "zhCN": "符文：科18#"
     },
     {
         "id": 20456,
         "Key": "r17",
         "enUS": "Ⅰ Lumÿc0",
-        "zhTW": "符文：盧姆",
+        "zhTW": "符文：卢姆17#",
         "deDE": "Ⅰ Lumÿc0",
         "esES": "Runa Lum",
         "frFR": "[fs]Rune Lum",
@@ -388,13 +388,13 @@
         "jaJP": "ラム・ルーン",
         "ptBR": "Runa Lum",
         "ruRU": "Руна Лум",
-        "zhCN": "卢姆符文"
+        "zhCN": "符文：卢姆17#"
     },
     {
         "id": 20458,
         "Key": "r15",
         "enUS": "⅞ Helÿc0",
-        "zhTW": "符文：海爾",
+        "zhTW": "符文：海尔15#",
         "deDE": "⅞ Helÿc0",
         "esES": "Runa Hel",
         "frFR": "[fs]Rune Hel",
@@ -405,13 +405,13 @@
         "jaJP": "ヘル・ルーン",
         "ptBR": "Runa Hel",
         "ruRU": "Руна Хел",
-        "zhCN": "海尔符文"
+        "zhCN": "符文：海尔15#"
     },
     {
         "id": 20459,
         "Key": "r14",
         "enUS": "⅝ Dolÿc0",
-        "zhTW": "符文：多爾",
+        "zhTW": "符文：多尔14#",
         "deDE": "⅝ Dolÿc0",
         "esES": "Runa Dol",
         "frFR": "[fs]Rune Dol",
@@ -422,13 +422,13 @@
         "jaJP": "ドル・ルーン",
         "ptBR": "Runa Dol",
         "ruRU": "Руна Дол",
-        "zhCN": "多尔符文"
+        "zhCN": "符文：多尔14#"
     },
     {
         "id": 20461,
         "Key": "r12",
         "enUS": "⅛ Solÿc0",
-        "zhTW": "符文：索爾",
+        "zhTW": "符文：索尔12#",
         "deDE": "⅛ Solÿc0",
         "esES": "Runa Sol",
         "frFR": "[fs]Rune Sol",
@@ -439,13 +439,13 @@
         "jaJP": "ソル・ルーン",
         "ptBR": "Runa Sol",
         "ruRU": "Руна Сол",
-        "zhCN": "索尔符文"
+        "zhCN": "符文：索尔12#"
     },
     {
         "id": 20462,
         "Key": "r11",
         "enUS": "⅚ Amnÿc0",
-        "zhTW": "符文：安姆",
+        "zhTW": "符文：安姆11#",
         "deDE": "⅚ Amnÿc0",
         "esES": "Runa Amn",
         "frFR": "[fs]Rune Amn",
@@ -456,13 +456,13 @@
         "jaJP": "アムン・ルーン",
         "ptBR": "Runa Amn",
         "ruRU": "Руна Амн",
-        "zhCN": "安姆符文"
+        "zhCN": "符文：安姆11#"
     },
     {
         "id": 20463,
         "Key": "r10",
         "enUS": "⅙ Thulÿc0",
-        "zhTW": "符文：書爾",
+        "zhTW": "符文：书尔10#",
         "deDE": "⅙ Thulÿc0",
         "esES": "Runa Thul",
         "frFR": "[fs]Rune Thul",
@@ -473,13 +473,13 @@
         "jaJP": "スル・ルーン",
         "ptBR": "Runa Thul",
         "ruRU": "Руна Тул",
-        "zhCN": "图尔符文"
+        "zhCN": "符文：书尔10#"
     },
     {
         "id": 20464,
         "Key": "r09",
         "enUS": "⅘ Ortÿc0",
-        "zhTW": "符文：歐特",
+        "zhTW": "符文：欧特9#",
         "deDE": "⅘ Ortÿc0",
         "esES": "Runa Ort",
         "frFR": "[fs]Rune Ort",
@@ -490,13 +490,13 @@
         "jaJP": "オルト・ルーン",
         "ptBR": "Runa Ort",
         "ruRU": "Руна Орт",
-        "zhCN": "欧特符文"
+        "zhCN": "符文：欧特9#"
     },
     {
         "id": 20465,
         "Key": "r08",
         "enUS": "⅗ Ralÿc0",
-        "zhTW": "符文：拉爾",
+        "zhTW": "符文：拉尔8#",
         "deDE": "⅗ Ralÿc0",
         "esES": "Runa Ral",
         "frFR": "[fs]Rune Ral",
@@ -507,13 +507,13 @@
         "jaJP": "ラル・ルーン",
         "ptBR": "Runa Ral",
         "ruRU": "Руна Рал",
-        "zhCN": "拉尔符文"
+        "zhCN": "符文：拉尔8#"
     },
     {
         "id": 20466,
         "Key": "r07",
         "enUS": "⅖ Talÿc0",
-        "zhTW": "符文：塔爾",
+        "zhTW": "符文：塔尔7#",
         "deDE": "⅖ Talÿc0",
         "esES": "Runa Tal",
         "frFR": "[fs]Rune Tal",
@@ -524,13 +524,13 @@
         "jaJP": "タル・ルーン",
         "ptBR": "Runa Tal",
         "ruRU": "Руна Тал",
-        "zhCN": "塔尔符文"
+        "zhCN": "符文：塔尔7#"
     },
     {
         "id": 20467,
         "Key": "r06",
         "enUS": "⅕ Ithÿc0",
-        "zhTW": "符文：伊司",
+        "zhTW": "符文：伊司6#",
         "deDE": "⅕ Ithÿc0",
         "esES": "Runa Ith",
         "frFR": "[fs]Rune Ith",
@@ -541,13 +541,13 @@
         "jaJP": "イス・ルーン",
         "ptBR": "Runa Ith",
         "ruRU": "Руна Ит",
-        "zhCN": "伊司符文"
+        "zhCN": "符文：伊司6#"
     },
     {
         "id": 20468,
         "Key": "r05",
         "enUS": "⅔ Ethÿc0",
-        "zhTW": "符文：愛斯",
+        "zhTW": "符文：爱斯5#",
         "deDE": "⅔ Ethÿc0",
         "esES": "Runa Eth",
         "frFR": "[fs]Rune Eth",
@@ -558,13 +558,13 @@
         "jaJP": "エス・ルーン",
         "ptBR": "Runa Eth",
         "ruRU": "Руна Эт",
-        "zhCN": "艾斯符文"
+        "zhCN": "符文：爱斯5#"
     },
     {
         "id": 20469,
         "Key": "r04",
         "enUS": "⅓ Nefÿc0",
-        "zhTW": "符文：那夫",
+        "zhTW": "符文：那夫4#",
         "deDE": "⅓ Nefÿc0",
         "esES": "Runa Nef",
         "frFR": "[fs]Rune Nef",
@@ -575,13 +575,13 @@
         "jaJP": "ネフ・ルーン",
         "ptBR": "Runa Nef",
         "ruRU": "Руна Неф",
-        "zhCN": "奈夫符文"
+        "zhCN": "符文：那夫4#"
     },
     {
         "id": 20470,
         "Key": "r03",
         "enUS": "⅒ Tirÿc0",
-        "zhTW": "符文：特爾",
+        "zhTW": "符文：特尔3#",
         "deDE": "⅒ Tirÿc0",
         "esES": "Runa Tir",
         "frFR": "[fs]Rune Tir",
@@ -592,13 +592,13 @@
         "jaJP": "ティア・ルーン",
         "ptBR": "Runa Tir",
         "ruRU": "Руна Тир",
-        "zhCN": "提尔符文"
+        "zhCN": "符文：特尔3#"
     },
     {
         "id": 20471,
         "Key": "r02",
         "enUS": "⅑ Eldÿc0",
-        "zhTW": "符文：艾德",
+        "zhTW": "符文：艾德2#",
         "deDE": "⅑ Eldÿc0",
         "esES": "Runa Eld",
         "frFR": "[fs]Rune Eld",
@@ -609,13 +609,13 @@
         "jaJP": "エルド・ルーン",
         "ptBR": "Runa Eld",
         "ruRU": "Руна Элд",
-        "zhCN": "艾德符文"
+        "zhCN": "符文：艾德2#"
     },
     {
         "id": 20472,
         "Key": "r01",
         "enUS": "⅐ Elÿc0",
-        "zhTW": "符文：艾爾",
+        "zhTW": "符文：艾尔1#",
         "deDE": "⅐ Elÿc0",
         "esES": "Runa El",
         "frFR": "[fs]Rune El",
@@ -626,13 +626,13 @@
         "jaJP": "エル・ルーン",
         "ptBR": "Runa El",
         "ruRU": "Руна Эл",
-        "zhCN": "艾尔符文"
+        "zhCN": "符文：艾尔1#"
     },
     {
         "id": 20473,
         "Key": "r33L",
         "enUS": "Zod",
-        "zhTW": "薩德",
+        "zhTW": "┈ 萨德33#",
         "deDE": "Zod",
         "esES": "Zod",
         "frFR": "Zod",
@@ -643,13 +643,13 @@
         "jaJP": "ゾッド",
         "ptBR": "Zod",
         "ruRU": "Зод",
-        "zhCN": "佐德"
+        "zhCN": "┈ 萨德33#"
     },
     {
         "id": 20474,
         "Key": "r32L",
         "enUS": "Cham",
-        "zhTW": "查姆",
+        "zhTW": "┈ 查姆32#",
         "deDE": "Cham",
         "esES": "Cham",
         "frFR": "Cham",
@@ -660,13 +660,13 @@
         "jaJP": "チャム",
         "ptBR": "Cham",
         "ruRU": "Чам",
-        "zhCN": "查姆"
+        "zhCN": "┈ 查姆32#"
     },
     {
         "id": 20476,
         "Key": "r30L",
         "enUS": "Ber",
-        "zhTW": "貝",
+        "zhTW": "┈ 贝30#",
         "deDE": "Ber",
         "esES": "Ber",
         "frFR": "Ber",
@@ -677,13 +677,13 @@
         "jaJP": "バー",
         "ptBR": "Ber",
         "ruRU": "Бер",
-        "zhCN": "贝"
+        "zhCN": "┈ 贝30#"
     },
     {
         "id": 20477,
         "Key": "r29L",
         "enUS": "Sur",
-        "zhTW": "瑟",
+        "zhTW": "瑟29#",
         "deDE": "Sur",
         "esES": "Sur",
         "frFR": "Sur",
@@ -694,13 +694,13 @@
         "jaJP": "サー",
         "ptBR": "Sur",
         "ruRU": "Сур",
-        "zhCN": "瑟"
+        "zhCN": "瑟29#"
     },
     {
         "id": 20478,
         "Key": "r28L",
         "enUS": "Lo",
-        "zhTW": "羅",
+        "zhTW": "罗28#",
         "deDE": "Lo",
         "esES": "Lo",
         "frFR": "Lo",
@@ -711,13 +711,13 @@
         "jaJP": "ロー",
         "ptBR": "Lo",
         "ruRU": "Ло",
-        "zhCN": "罗"
+        "zhCN": "罗28#"
     },
     {
         "id": 20479,
         "Key": "r27L",
         "enUS": "Ohm",
-        "zhTW": "歐姆",
+        "zhTW": "欧姆27#",
         "deDE": "Ohm",
         "esES": "Ohm",
         "frFR": "Ohm",
@@ -728,13 +728,13 @@
         "jaJP": "オーム",
         "ptBR": "Ohm",
         "ruRU": "Ом",
-        "zhCN": "欧姆"
+        "zhCN": "欧姆27#"
     },
     {
         "id": 20480,
         "Key": "r26L",
         "enUS": "Vex",
-        "zhTW": "伐克斯",
+        "zhTW": "伐克斯26#",
         "deDE": "Vex",
         "esES": "Vex",
         "frFR": "Vex",
@@ -745,13 +745,13 @@
         "jaJP": "ヴェックス",
         "ptBR": "Vex",
         "ruRU": "Векс",
-        "zhCN": "伐克斯"
+        "zhCN": "伐克斯26#"
     },
     {
         "id": 20481,
         "Key": "r25L",
         "enUS": "Gul",
-        "zhTW": "古爾",
+        "zhTW": "古尔25#",
         "deDE": "Gul",
         "esES": "Gul",
         "frFR": "Gul",
@@ -762,13 +762,13 @@
         "jaJP": "ガル",
         "ptBR": "Gul",
         "ruRU": "Гул",
-        "zhCN": "古尔"
+        "zhCN": "古尔25#"
     },
     {
         "id": 20482,
         "Key": "r24L",
         "enUS": "Ist",
-        "zhTW": "伊司特",
+        "zhTW": "伊司特24#",
         "deDE": "Ist",
         "esES": "Ist",
         "frFR": "Ist",
@@ -779,13 +779,13 @@
         "jaJP": "イスト",
         "ptBR": "Ist",
         "ruRU": "Ист",
-        "zhCN": "伊司特"
+        "zhCN": "伊司特24#"
     },
     {
         "id": 20483,
         "Key": "r23L",
         "enUS": "Mal",
-        "zhTW": "馬爾",
+        "zhTW": "马尔23#",
         "deDE": "Mal",
         "esES": "Mal",
         "frFR": "Mal",
@@ -796,13 +796,13 @@
         "jaJP": "マル",
         "ptBR": "Mal",
         "ruRU": "Мал",
-        "zhCN": "玛尔"
+        "zhCN": "马尔23#"
     },
     {
         "id": 20484,
         "Key": "r22L",
         "enUS": "Um",
-        "zhTW": "烏姆",
+        "zhTW": "乌姆22#",
         "deDE": "Um",
         "esES": "Um",
         "frFR": "Um",
@@ -813,13 +813,13 @@
         "jaJP": "アム",
         "ptBR": "Um",
         "ruRU": "Ом",
-        "zhCN": "乌姆"
+        "zhCN": "乌姆22#"
     },
     {
         "id": 20485,
         "Key": "r21L",
         "enUS": "Pul",
-        "zhTW": "普爾",
+        "zhTW": "普尔21#",
         "deDE": "Pul",
         "esES": "Pul",
         "frFR": "Pul",
@@ -830,13 +830,13 @@
         "jaJP": "プル",
         "ptBR": "Pul",
         "ruRU": "Пул",
-        "zhCN": "普尔"
+        "zhCN": "普尔21#"
     },
     {
         "id": 20486,
         "Key": "r20L",
         "enUS": "Lem",
-        "zhTW": "藍姆",
+        "zhTW": "蓝姆20#",
         "deDE": "Lem",
         "esES": "Lem",
         "frFR": "Lem",
@@ -847,13 +847,13 @@
         "jaJP": "レム",
         "ptBR": "Lem",
         "ruRU": "Лем",
-        "zhCN": "兰姆"
+        "zhCN": "蓝姆20#"
     },
     {
         "id": 20487,
         "Key": "r19L",
         "enUS": "Fal",
-        "zhTW": "法爾",
+        "zhTW": "法尔19#",
         "deDE": "Fal",
         "esES": "Fal",
         "frFR": "Fal",
@@ -864,13 +864,13 @@
         "jaJP": "ファル",
         "ptBR": "Fal",
         "ruRU": "Фал",
-        "zhCN": "法尔"
+        "zhCN": "法尔19#"
     },
     {
         "id": 20488,
         "Key": "r18L",
         "enUS": "Ko",
-        "zhTW": "科",
+        "zhTW": "科18#",
         "deDE": "Ko",
         "esES": "Ko",
         "frFR": "Ko",
@@ -881,13 +881,13 @@
         "jaJP": "コー",
         "ptBR": "Ko",
         "ruRU": "Ко",
-        "zhCN": "科"
+        "zhCN": "科18#"
     },
     {
         "id": 20489,
         "Key": "r17L",
         "enUS": "Lum",
-        "zhTW": "盧姆",
+        "zhTW": "卢姆17#",
         "deDE": "Lum",
         "esES": "Lum",
         "frFR": "Lum",
@@ -898,13 +898,13 @@
         "jaJP": "ラム",
         "ptBR": "Lum",
         "ruRU": "Лум",
-        "zhCN": "卢姆"
+        "zhCN": "卢姆17#"
     },
     {
         "id": 20491,
         "Key": "r15L",
         "enUS": "Hel",
-        "zhTW": "海爾",
+        "zhTW": "海尔15#",
         "deDE": "Hel",
         "esES": "Hel",
         "frFR": "Hel",
@@ -915,13 +915,13 @@
         "jaJP": "ヘル",
         "ptBR": "Hel",
         "ruRU": "Хел",
-        "zhCN": "海尔"
+        "zhCN": "海尔15#"
     },
     {
         "id": 20492,
         "Key": "r14L",
         "enUS": "Dol",
-        "zhTW": "多爾",
+        "zhTW": "多尔14#",
         "deDE": "Dol",
         "esES": "Dol",
         "frFR": "Dol",
@@ -932,13 +932,13 @@
         "jaJP": "ドル",
         "ptBR": "Dol",
         "ruRU": "Дол",
-        "zhCN": "多尔"
+        "zhCN": "多尔14#"
     },
     {
         "id": 20494,
         "Key": "r12L",
         "enUS": "Sol",
-        "zhTW": "索爾",
+        "zhTW": "索尔12#",
         "deDE": "Sol",
         "esES": "Sol",
         "frFR": "Sol",
@@ -949,13 +949,13 @@
         "jaJP": "ソル",
         "ptBR": "Sol",
         "ruRU": "Сол",
-        "zhCN": "索尔"
+        "zhCN": "索尔12#"
     },
     {
         "id": 20495,
         "Key": "r11L",
         "enUS": "Amn",
-        "zhTW": "安姆",
+        "zhTW": "安姆11#",
         "deDE": "Amn",
         "esES": "Amn",
         "frFR": "Amn",
@@ -966,13 +966,13 @@
         "jaJP": "アムン",
         "ptBR": "Amn",
         "ruRU": "Амн",
-        "zhCN": "安姆"
+        "zhCN": "安姆11#"
     },
     {
         "id": 20496,
         "Key": "r10L",
         "enUS": "Thul",
-        "zhTW": "書爾",
+        "zhTW": "书尔10#",
         "deDE": "Thul",
         "esES": "Thul",
         "frFR": "Thul",
@@ -983,13 +983,13 @@
         "jaJP": "スル",
         "ptBR": "Thul",
         "ruRU": "Тул",
-        "zhCN": "图尔"
+        "zhCN": "书尔10#"
     },
     {
         "id": 20497,
         "Key": "r09L",
         "enUS": "Ort",
-        "zhTW": "歐特",
+        "zhTW": "欧特9#",
         "deDE": "Ort",
         "esES": "Ort",
         "frFR": "Ort",
@@ -1000,13 +1000,13 @@
         "jaJP": "オルト",
         "ptBR": "Ort",
         "ruRU": "Орт",
-        "zhCN": "欧特"
+        "zhCN": "欧特9#"
     },
     {
         "id": 20498,
         "Key": "r08L",
         "enUS": "Ral",
-        "zhTW": "拉爾",
+        "zhTW": "拉尔8#",
         "deDE": "Ral",
         "esES": "Ral",
         "frFR": "Ral",
@@ -1017,13 +1017,13 @@
         "jaJP": "ラル",
         "ptBR": "Ral",
         "ruRU": "Рал",
-        "zhCN": "拉尔"
+        "zhCN": "拉尔8#"
     },
     {
         "id": 20499,
         "Key": "r07L",
         "enUS": "Tal",
-        "zhTW": "塔爾",
+        "zhTW": "塔尔7#",
         "deDE": "Tal",
         "esES": "Tal",
         "frFR": "Tal",
@@ -1034,13 +1034,13 @@
         "jaJP": "タル",
         "ptBR": "Tal",
         "ruRU": "Тхаль",
-        "zhCN": "塔尔"
+        "zhCN": "塔尔7#"
     },
     {
         "id": 20500,
         "Key": "r06L",
         "enUS": "Ith",
-        "zhTW": "伊司",
+        "zhTW": "伊司6#",
         "deDE": "Ith",
         "esES": "Ith",
         "frFR": "Ith",
@@ -1051,13 +1051,13 @@
         "jaJP": "イス",
         "ptBR": "Ith",
         "ruRU": "Ит",
-        "zhCN": "伊司"
+        "zhCN": "伊司6#"
     },
     {
         "id": 20501,
         "Key": "r05L",
         "enUS": "Eth",
-        "zhTW": "愛斯",
+        "zhTW": "爱斯5#",
         "deDE": "Eth",
         "esES": "Eth",
         "frFR": "Eth",
@@ -1068,13 +1068,13 @@
         "jaJP": "エス",
         "ptBR": "Eth",
         "ruRU": "Эт",
-        "zhCN": "艾斯"
+        "zhCN": "爱斯5#"
     },
     {
         "id": 20502,
         "Key": "r04L",
         "enUS": "Nef",
-        "zhTW": "那夫",
+        "zhTW": "那夫4#",
         "deDE": "Nef",
         "esES": "Nef",
         "frFR": "Nef",
@@ -1085,13 +1085,13 @@
         "jaJP": "ネフ",
         "ptBR": "Nef",
         "ruRU": "Неф",
-        "zhCN": "奈夫"
+        "zhCN": "那夫4#"
     },
     {
         "id": 20503,
         "Key": "r03L",
         "enUS": "Tir",
-        "zhTW": "特爾",
+        "zhTW": "特尔3#",
         "deDE": "Tir",
         "esES": "Tir",
         "frFR": "Tir",
@@ -1102,13 +1102,13 @@
         "jaJP": "ティア",
         "ptBR": "Tir",
         "ruRU": "Тир",
-        "zhCN": "提尔"
+        "zhCN": "特尔3#"
     },
     {
         "id": 20504,
         "Key": "r02L",
         "enUS": "Eld",
-        "zhTW": "艾德",
+        "zhTW": "艾德2#",
         "deDE": "Eld",
         "esES": "Eld",
         "frFR": "Eld",
@@ -1119,13 +1119,13 @@
         "jaJP": "エルド",
         "ptBR": "Eld",
         "ruRU": "Элд",
-        "zhCN": "艾德"
+        "zhCN": "艾德2#"
     },
     {
         "id": 20505,
         "Key": "r01L",
         "enUS": "El",
-        "zhTW": "艾爾",
+        "zhTW": "艾尔1#",
         "deDE": "El",
         "esES": "El",
         "frFR": "El",
@@ -1136,7 +1136,7 @@
         "jaJP": "エル",
         "ptBR": "El",
         "ruRU": "Эль",
-        "zhCN": "艾尔"
+        "zhCN": "艾尔1#"
     },
     {
         "id": 20506,
@@ -1170,13 +1170,13 @@
         "jaJP": "古の民の誓約",
         "ptBR": "Promessa dos Ancestrais",
         "ruRU": "Клятва Древних",
-        "zhCN": "先祖之誓"
+        "zhCN": "先祖之契"
     },
     {
         "id": 20508,
         "Key": "Runeword2",
         "enUS": "Armageddon",
-        "zhTW": "毀天滅地",
+        "zhTW": "毁天灭地",
         "deDE": "Armageddon",
         "esES": "Armagedón",
         "frFR": "Armageddon",
@@ -1187,13 +1187,13 @@
         "jaJP": "天変地異",
         "ptBR": "Armagedom",
         "ruRU": "Армагеддон",
-        "zhCN": "末日"
+        "zhCN": "毁天灭地"
     },
     {
         "id": 20509,
         "Key": "Runeword3",
         "enUS": "Authority",
-        "zhTW": "權威",
+        "zhTW": "权威",
         "deDE": "Macht",
         "esES": "Autoridad",
         "frFR": "Autorité",
@@ -1210,7 +1210,7 @@
         "id": 20510,
         "Key": "Runeword4",
         "enUS": "Beast",
-        "zhTW": "野獸",
+        "zhTW": "野兽",
         "deDE": "Bestie",
         "esES": "Bestia",
         "frFR": "Bête",
@@ -1238,13 +1238,13 @@
         "jaJP": "美",
         "ptBR": "Beleza",
         "ruRU": "Красота",
-        "zhCN": "美丽"
+        "zhCN": "美貌"
     },
     {
         "id": 20512,
         "Key": "Runeword6",
         "enUS": "Black",
-        "zhTW": "黑錘",
+        "zhTW": "黑锤",
         "deDE": "Schwärze",
         "esES": "Negrura",
         "frFR": "Noir",
@@ -1255,13 +1255,13 @@
         "jaJP": "黒",
         "ptBR": "Ébano",
         "ruRU": "Мрак",
-        "zhCN": "黑色"
+        "zhCN": "黑锤"
     },
     {
         "id": 20513,
         "Key": "Runeword7",
         "enUS": "Blood",
-        "zhTW": "鮮血",
+        "zhTW": "鲜血",
         "deDE": "Blut",
         "esES": "Sangre",
         "frFR": "Sang",
@@ -1289,7 +1289,7 @@
         "jaJP": "骨",
         "ptBR": "Osso",
         "ruRU": "Кость",
-        "zhCN": "白骨"
+        "zhCN": "骸骨"
     },
     {
         "id": 20515,
@@ -1306,7 +1306,7 @@
         "jaJP": "茨",
         "ptBR": "Espinho",
         "ruRU": "Терновник",
-        "zhCN": "荆棘"
+        "zhCN": "刺藤"
     },
     {
         "id": 20516,
@@ -1340,7 +1340,7 @@
         "jaJP": "死の吐息",
         "ptBR": "Sopro da Morbidez",
         "ruRU": "Вздох умирающего",
-        "zhCN": "濒死之息"
+        "zhCN": "死亡呼吸"
     },
     {
         "id": 20518,
@@ -1363,7 +1363,7 @@
         "id": 20519,
         "Key": "Runeword13",
         "enUS": "Call to Arms",
-        "zhTW": "戰爭召喚",
+        "zhTW": "战争召唤",
         "deDE": "Ruf zu den Waffen",
         "esES": "Llamada a las armas",
         "frFR": "Cri de ralliement",
@@ -1380,7 +1380,7 @@
         "id": 20520,
         "Key": "Runeword14",
         "enUS": "Chains of Honor",
-        "zhTW": "榮耀之鍊",
+        "zhTW": "荣耀之炼",
         "deDE": "Ketten der Ehre",
         "esES": "Cadenas de honor",
         "frFR": "Chaînes de l’honneur",
@@ -1391,13 +1391,13 @@
         "jaJP": "名誉の連鎖",
         "ptBR": "Correntes da Honra",
         "ruRU": "Цепи чести",
-        "zhCN": "荣耀之链"
+        "zhCN": "荣耀之炼"
     },
     {
         "id": 20521,
         "Key": "Runeword15",
         "enUS": "Chance",
-        "zhTW": "機會",
+        "zhTW": "机会",
         "deDE": "Zufall",
         "esES": "Casualidad",
         "frFR": "Chance",
@@ -1408,7 +1408,7 @@
         "jaJP": "好機",
         "ptBR": "Chance",
         "ruRU": "Шанс",
-        "zhCN": "机遇"
+        "zhCN": "机会"
     },
     {
         "id": 20522,
@@ -1465,7 +1465,7 @@
         "id": 20525,
         "Key": "Runeword19",
         "enUS": "Daylight",
-        "zhTW": "白晝",
+        "zhTW": "白昼",
         "deDE": "Tageslicht",
         "esES": "Luz",
         "frFR": "Divine lumière",
@@ -1493,13 +1493,13 @@
         "jaJP": "死",
         "ptBR": "Morte",
         "ruRU": "Смерть",
-        "zhCN": "死亡"
+        "zhCN": "死神"
     },
     {
         "id": 20527,
         "Key": "Runeword21",
         "enUS": "Deception",
-        "zhTW": "欺暪",
+        "zhTW": "欺瞒",
         "deDE": "Täuschung",
         "esES": "Engaño",
         "frFR": "Duperie",
@@ -1510,13 +1510,13 @@
         "jaJP": "欺瞞",
         "ptBR": "Engano",
         "ruRU": "Обман",
-        "zhCN": "欺骗"
+        "zhCN": "欺瞒"
     },
     {
         "id": 20529,
         "Key": "Runeword23",
         "enUS": "Desire",
-        "zhTW": "渴望",
+        "zhTW": "欲望",
         "deDE": "Begierde",
         "esES": "Deseo",
         "frFR": "Désir",
@@ -1533,7 +1533,7 @@
         "id": 20530,
         "Key": "Runeword24",
         "enUS": "Despair",
-        "zhTW": "絕望",
+        "zhTW": "绝望",
         "deDE": "Verzweiflung",
         "esES": "Desesperación",
         "frFR": "Désespoir",
@@ -1550,7 +1550,7 @@
         "id": 20531,
         "Key": "Runeword25",
         "enUS": "Destruction",
-        "zhTW": "毀滅",
+        "zhTW": "毁灭",
         "deDE": "Zerstörung",
         "esES": "Destrucción",
         "frFR": "Destruction",
@@ -1578,13 +1578,13 @@
         "jaJP": "破滅",
         "ptBR": "Perdição",
         "ruRU": "Гибель",
-        "zhCN": "厄运"
+        "zhCN": "末日"
     },
     {
         "id": 20533,
         "Key": "Runeword27",
         "enUS": "Dragon",
-        "zhTW": "飛龍",
+        "zhTW": "飞龙",
         "deDE": "Drachen",
         "esES": "Dragón",
         "frFR": "Dragon",
@@ -1595,13 +1595,13 @@
         "jaJP": "ドラゴン",
         "ptBR": "Dragão",
         "ruRU": "Дракон",
-        "zhCN": "巨龙"
+        "zhCN": "飞龙"
     },
     {
         "id": 20534,
         "Key": "Runeword28",
         "enUS": "Dread",
-        "zhTW": "恐懼",
+        "zhTW": "恐惧",
         "deDE": "Schrecken",
         "esES": "Pavor",
         "frFR": "Défiance",
@@ -1612,13 +1612,13 @@
         "jaJP": "戦慄",
         "ptBR": "Pavor",
         "ruRU": "Ужас",
-        "zhCN": "惊惧"
+        "zhCN": "恐惧"
     },
     {
         "id": 20535,
         "Key": "Runeword29",
         "enUS": "Dream",
-        "zhTW": "夢境",
+        "zhTW": "梦境",
         "deDE": "Traum",
         "esES": "Sueño",
         "frFR": "Rêve",
@@ -1635,7 +1635,7 @@
         "id": 20536,
         "Key": "Runeword30",
         "enUS": "Duress",
-        "zhTW": "強制",
+        "zhTW": "强制",
         "deDE": "Nötigung",
         "esES": "Coacción",
         "frFR": "Domination",
@@ -1646,13 +1646,13 @@
         "jaJP": "威圧",
         "ptBR": "Coerção",
         "ruRU": "Принуждение",
-        "zhCN": "强压"
+        "zhCN": "强制"
     },
     {
         "id": 20537,
         "Key": "Runeword31",
         "enUS": "Edge",
-        "zhTW": "邊緣",
+        "zhTW": "边缘",
         "deDE": "Schneide",
         "esES": "Filo",
         "frFR": "Arête",
@@ -1663,13 +1663,13 @@
         "jaJP": "刃",
         "ptBR": "Gume",
         "ruRU": "Острие",
-        "zhCN": "锐锋"
+        "zhCN": "边缘"
     },
     {
         "id": 20538,
         "Key": "Runeword32",
         "enUS": "Elation",
-        "zhTW": "興高彩烈",
+        "zhTW": "欢欣鼓舞",
         "deDE": "Erregung",
         "esES": "Júbilo",
         "frFR": "Effusion",
@@ -1680,13 +1680,13 @@
         "jaJP": "高揚",
         "ptBR": "Euforia",
         "ruRU": "Воодушевление",
-        "zhCN": "欢欣"
+        "zhCN": "欢欣鼓舞"
     },
     {
         "id": 20539,
         "Key": "Runeword33",
         "enUS": "Enigma",
-        "zhTW": "謎團",
+        "zhTW": "谜团",
         "deDE": "Rätsel",
         "esES": "Enigma",
         "frFR": "Énigme",
@@ -1714,13 +1714,13 @@
         "jaJP": "悟り",
         "ptBR": "Iluminação",
         "ruRU": "Просветление",
-        "zhCN": "启迪"
+        "zhCN": "教化"
     },
     {
         "id": 20541,
         "Key": "Runeword35",
         "enUS": "Envy",
-        "zhTW": "羨慕",
+        "zhTW": "羡慕",
         "deDE": "Neid",
         "esES": "Envidia",
         "frFR": "Envie",
@@ -1737,7 +1737,7 @@
         "id": 20542,
         "Key": "Runeword36",
         "enUS": "Eternity",
-        "zhTW": "永恆",
+        "zhTW": "永恒",
         "deDE": "Ewigkeit",
         "esES": "Eternidad",
         "frFR": "Éternité",
@@ -1765,7 +1765,7 @@
         "jaJP": "追放",
         "ptBR": "Exílio",
         "ruRU": "Изгнание",
-        "zhCN": "流放"
+        "zhCN": "流亡"
     },
     {
         "id": 20544,
@@ -1782,13 +1782,13 @@
         "jaJP": "信念",
         "ptBR": "Fé",
         "ruRU": "Вера",
-        "zhCN": "信念"
+        "zhCN": "信心"
     },
     {
         "id": 20545,
         "Key": "Runeword39",
         "enUS": "Famine",
-        "zhTW": "饑荒",
+        "zhTW": "饥荒",
         "deDE": "Hungersnot",
         "esES": "Hambruna",
         "frFR": "Famine",
@@ -1805,7 +1805,7 @@
         "id": 20546,
         "Key": "Runeword40",
         "enUS": "Flickering Flame",
-        "zhTW": "搖曳焰火",
+        "zhTW": "摇曳焰火",
         "deDE": "Flamme",
         "esES": "Llama trémula",
         "frFR": "Flamme vacillante",
@@ -1816,13 +1816,13 @@
         "jaJP": "揺らめく炎",
         "ptBR": "Chama Tremeluzente",
         "ruRU": "Мерцающее пламя",
-        "zhCN": "闪烁火焰"
+        "zhCN": "摇曳焰火"
     },
     {
         "id": 20547,
         "Key": "Runeword41",
         "enUS": "Fortitude",
-        "zhTW": "剛毅",
+        "zhTW": "刚毅",
         "deDE": "Stärke",
         "esES": "Fortaleza",
         "frFR": "Fortitude",
@@ -1839,7 +1839,7 @@
         "id": 20548,
         "Key": "Runeword42",
         "enUS": "Fortune",
-        "zhTW": "機運",
+        "zhTW": "机运",
         "deDE": "Glück",
         "esES": "Fortuna",
         "frFR": "Fortune",
@@ -1850,7 +1850,7 @@
         "jaJP": "幸運",
         "ptBR": "Fortuna",
         "ruRU": "Удача",
-        "zhCN": "鸿运"
+        "zhCN": "机运"
     },
     {
         "id": 20549,
@@ -1867,7 +1867,7 @@
         "jaJP": "友情",
         "ptBR": "Amizade",
         "ruRU": "Дружба",
-        "zhCN": "友谊"
+        "zhCN": "友情"
     },
     {
         "id": 20550,
@@ -1884,7 +1884,7 @@
         "jaJP": "激情",
         "ptBR": "Fúria",
         "ruRU": "Ярость",
-        "zhCN": "愤怒"
+        "zhCN": "狂怒"
     },
     {
         "id": 20551,
@@ -1901,13 +1901,13 @@
         "jaJP": "陰鬱",
         "ptBR": "Melancolia",
         "ruRU": "Сумрак",
-        "zhCN": "阴霾"
+        "zhCN": "幽暗"
     },
     {
         "id": 20552,
         "Key": "Runeword46",
         "enUS": "Glory",
-        "zhTW": "榮譽",
+        "zhTW": "荣誉",
         "deDE": "Ruhm",
         "esES": "Gloria",
         "frFR": "Gloire",
@@ -1918,7 +1918,7 @@
         "jaJP": "栄光",
         "ptBR": "Glória",
         "ruRU": "Слава",
-        "zhCN": "光华"
+        "zhCN": "荣誉"
     },
     {
         "id": 20553,
@@ -1941,7 +1941,7 @@
         "id": 20554,
         "Key": "Runeword48",
         "enUS": "Hand of Justice",
-        "zhTW": "正義之手",
+        "zhTW": "正义之手",
         "deDE": "Hand der Gerechtigkeit",
         "esES": "Mano justiciera",
         "frFR": "Glaive de la justice",
@@ -1958,7 +1958,7 @@
         "id": 20555,
         "Key": "Runeword49",
         "enUS": "Harmony",
-        "zhTW": "和諧",
+        "zhTW": "和谐",
         "deDE": "Harmonie",
         "esES": "Armonía",
         "frFR": "Harmonie",
@@ -1992,7 +1992,7 @@
         "id": 20557,
         "Key": "Runeword51",
         "enUS": "Heart of the Oak",
-        "zhTW": "橡樹之心",
+        "zhTW": "橡树之心",
         "deDE": "Herz der Eiche",
         "esES": "Corazón de roble",
         "frFR": "Haut chêne",
@@ -2026,7 +2026,7 @@
         "id": 20559,
         "Key": "Runeword53",
         "enUS": "Holy Tears",
-        "zhTW": "神聖之淚",
+        "zhTW": "神圣之泪",
         "deDE": "Heilige Tränen",
         "esES": "Lágrimas sagradas",
         "frFR": "Larmes sacrées",
@@ -2043,7 +2043,7 @@
         "id": 20560,
         "Key": "Runeword54",
         "enUS": "Holy Thunder",
-        "zhTW": "神聖雷擊",
+        "zhTW": "神圣雷击",
         "deDE": "Heiliger Donner",
         "esES": "Trueno sagrado",
         "frFR": "Tonnerre sacré",
@@ -2054,13 +2054,13 @@
         "jaJP": "神の雷",
         "ptBR": "Trovão Sagrado",
         "ruRU": "Божественный гром",
-        "zhCN": "圣雷"
+        "zhCN": "神圣雷击"
     },
     {
         "id": 20561,
         "Key": "Runeword55",
         "enUS": "Honor",
-        "zhTW": "榮耀",
+        "zhTW": "荣耀",
         "deDE": "Ehre",
         "esES": "Honor",
         "frFR": "Honneur",
@@ -2077,7 +2077,7 @@
         "id": 20562,
         "Key": "Runeword56",
         "enUS": "Revenge",
-        "zhTW": "報復",
+        "zhTW": "报复",
         "deDE": "Rache",
         "esES": "Revancha",
         "frFR": "Revanche",
@@ -2094,7 +2094,7 @@
         "id": 20563,
         "Key": "Runeword57",
         "enUS": "Humility",
-        "zhTW": "謙恭",
+        "zhTW": "谦恭",
         "deDE": "Demut",
         "esES": "Humildad",
         "frFR": "Humilité",
@@ -2105,13 +2105,13 @@
         "jaJP": "謙虚",
         "ptBR": "Humildade",
         "ruRU": "Смирение",
-        "zhCN": "谦逊"
+        "zhCN": "谦恭"
     },
     {
         "id": 20564,
         "Key": "Runeword58",
         "enUS": "Hunger",
-        "zhTW": "飢餓",
+        "zhTW": "饥饿",
         "deDE": "Hunger",
         "esES": "Hambre",
         "frFR": "Faim",
@@ -2145,7 +2145,7 @@
         "id": 20566,
         "Key": "Runeword60",
         "enUS": "Infinity",
-        "zhTW": "無限",
+        "zhTW": "无限",
         "deDE": "Unendlichkeit",
         "esES": "Infinito",
         "frFR": "Infinité",
@@ -2162,7 +2162,7 @@
         "id": 20567,
         "Key": "Runeword61",
         "enUS": "Innocence",
-        "zhTW": "純真",
+        "zhTW": "纯真",
         "deDE": "Unschuld",
         "esES": "Inocencia",
         "frFR": "Innocence",
@@ -2173,13 +2173,13 @@
         "jaJP": "無垢",
         "ptBR": "Inocência",
         "ruRU": "Невинность",
-        "zhCN": "无辜"
+        "zhCN": "纯真"
     },
     {
         "id": 20568,
         "Key": "Runeword62",
         "enUS": "Insight",
-        "zhTW": "靈光",
+        "zhTW": "灵光",
         "deDE": "Einsicht",
         "esES": "Perspicacia",
         "frFR": "Spiritualité",
@@ -2190,7 +2190,7 @@
         "jaJP": "洞察",
         "ptBR": "Intuição",
         "ruRU": "Прозрение",
-        "zhCN": "眼光"
+        "zhCN": "灵光"
     },
     {
         "id": 20569,
@@ -2207,13 +2207,13 @@
         "jaJP": "嫉妬",
         "ptBR": "Ciúme",
         "ruRU": "Ревность",
-        "zhCN": "嫉妒"
+        "zhCN": "妒忌"
     },
     {
         "id": 20570,
         "Key": "Runeword64",
         "enUS": "Judgement",
-        "zhTW": "審判",
+        "zhTW": "审判",
         "deDE": "Urteil",
         "esES": "Sentencia",
         "frFR": "Jugement",
@@ -2241,13 +2241,13 @@
         "jaJP": "王の赦し",
         "ptBR": "Graça Régia",
         "ruRU": "Милость короля",
-        "zhCN": "王恩"
+        "zhCN": "王者的慈悲"
     },
     {
         "id": 20572,
         "Key": "Runeword66",
         "enUS": "Kingslayer",
-        "zhTW": "弒王者",
+        "zhTW": "弑君者",
         "deDE": "Königsmord",
         "esES": "Regicida",
         "frFR": "Régicide",
@@ -2264,7 +2264,7 @@
         "id": 20573,
         "Key": "Runeword67",
         "enUS": "Knight's Vigil",
-        "zhTW": "騎士守望",
+        "zhTW": "骑士守望",
         "deDE": "Ritters Wacht",
         "esES": "Vela del caballero",
         "frFR": "Veille du chevalier",
@@ -2275,13 +2275,13 @@
         "jaJP": "騎士の見張り",
         "ptBR": "Vigília do Cavaleiro",
         "ruRU": "Бдение рыцаря",
-        "zhCN": "骑士之印"
+        "zhCN": "骑士守望"
     },
     {
         "id": 20574,
         "Key": "Runeword68",
         "enUS": "Knowledge",
-        "zhTW": "學識",
+        "zhTW": "学识",
         "deDE": "Wissen",
         "esES": "Saber",
         "frFR": "Connaissance",
@@ -2292,13 +2292,13 @@
         "jaJP": "知識",
         "ptBR": "Conhecimento",
         "ruRU": "Знание",
-        "zhCN": "知识"
+        "zhCN": "学识"
     },
     {
         "id": 20575,
         "Key": "Runeword69",
         "enUS": "Last Wish",
-        "zhTW": "最後遺願",
+        "zhTW": "最后遗愿",
         "deDE": "Letzter Wunsch",
         "esES": "Último deseo",
         "frFR": "Dernière volonté",
@@ -2309,7 +2309,7 @@
         "jaJP": "最後の願い",
         "ptBR": "Último Desejo",
         "ruRU": "Последняя воля",
-        "zhCN": "临终之愿"
+        "zhCN": "最后遗愿"
     },
     {
         "id": 20576,
@@ -2332,7 +2332,7 @@
         "id": 20577,
         "Key": "Runeword71",
         "enUS": "Lawbringer",
-        "zhTW": "執法者",
+        "zhTW": "执法者",
         "deDE": "Gesetzesbringer",
         "esES": "Jurista",
         "frFR": "Législateur",
@@ -2349,7 +2349,7 @@
         "id": 20578,
         "Key": "Runeword72",
         "enUS": "Leaf",
-        "zhTW": "葉子",
+        "zhTW": "叶子",
         "deDE": "Blatt",
         "esES": "Hoja",
         "frFR": "Feuille",
@@ -2366,7 +2366,7 @@
         "id": 20579,
         "Key": "Runeword73",
         "enUS": "Lightning",
-        "zhTW": "閃電",
+        "zhTW": "闪电",
         "deDE": "Blitzschlag",
         "esES": "Rayo",
         "frFR": "Foudre",
@@ -2383,7 +2383,7 @@
         "id": 20580,
         "Key": "Runeword74",
         "enUS": "Lionheart",
-        "zhTW": "獅子心",
+        "zhTW": "狮子心",
         "deDE": "Löwenherz",
         "esES": "Corazón de león",
         "frFR": "Cœur-de-lion",
@@ -2394,13 +2394,13 @@
         "jaJP": "勇猛",
         "ptBR": "Coração de Leão",
         "ruRU": "Львиное сердце",
-        "zhCN": "狮心"
+        "zhCN": "狮子心"
     },
     {
         "id": 20581,
         "Key": "Runeword75",
         "enUS": "Lore",
-        "zhTW": "知識",
+        "zhTW": "知识",
         "deDE": "Überlieferung",
         "esES": "Acervo",
         "frFR": "Savoir",
@@ -2411,13 +2411,13 @@
         "jaJP": "伝承",
         "ptBR": "Legado",
         "ruRU": "История",
-        "zhCN": "学识"
+        "zhCN": "知识"
     },
     {
         "id": 20582,
         "Key": "Runeword76",
         "enUS": "Love",
-        "zhTW": "愛情",
+        "zhTW": "爱情",
         "deDE": "Liebe",
         "esES": "Amor",
         "frFR": "Lien amoureux",
@@ -2434,7 +2434,7 @@
         "id": 20583,
         "Key": "Runeword77",
         "enUS": "Loyalty",
-        "zhTW": "忠誠",
+        "zhTW": "忠诚",
         "deDE": "Treue",
         "esES": "Lealtad",
         "frFR": "Loyauté",
@@ -2451,7 +2451,7 @@
         "id": 20584,
         "Key": "Runeword78",
         "enUS": "Lust",
-        "zhTW": "慾望",
+        "zhTW": "欲望",
         "deDE": "Lust",
         "esES": "Lujuria",
         "frFR": "Luxure",
@@ -2468,7 +2468,7 @@
         "id": 20585,
         "Key": "Runeword79",
         "enUS": "Madness",
-        "zhTW": "瘋狂",
+        "zhTW": "疯狂",
         "deDE": "Wahnsinn",
         "esES": "Locura",
         "frFR": "Aliénation",
@@ -2519,7 +2519,7 @@
         "id": 20588,
         "Key": "Runeword83",
         "enUS": "Memory",
-        "zhTW": "記憶",
+        "zhTW": "记忆",
         "deDE": "Erinnerung",
         "esES": "Memoria",
         "frFR": "Mémoire",
@@ -2530,13 +2530,13 @@
         "jaJP": "記憶",
         "ptBR": "Memória",
         "ruRU": "Память",
-        "zhCN": "回忆"
+        "zhCN": "记忆"
     },
     {
         "id": 20589,
         "Key": "Runeword84",
         "enUS": "Mist",
-        "zhTW": "迷霧",
+        "zhTW": "迷雾",
         "deDE": "Nebel",
         "esES": "Bruma",
         "frFR": "Brume",
@@ -2581,13 +2581,13 @@
         "jaJP": "神秘",
         "ptBR": "Mistério",
         "ruRU": "Загадка",
-        "zhCN": "谜题"
+        "zhCN": "神秘"
     },
     {
         "id": 20592,
         "Key": "Runeword87",
         "enUS": "Myth",
-        "zhTW": "神話",
+        "zhTW": "神话",
         "deDE": "Mythos",
         "esES": "Mito",
         "frFR": "Mythe",
@@ -2621,7 +2621,7 @@
         "id": 20594,
         "Key": "Runeword89",
         "enUS": "Nature's Kingdom",
-        "zhTW": "自然王國",
+        "zhTW": "魔力聚集",
         "deDE": "Königreich der Natur",
         "esES": "Reino de la naturaleza",
         "frFR": "Nature",
@@ -2632,7 +2632,7 @@
         "jaJP": "自然の王国",
         "ptBR": "Reino da Natureza",
         "ruRU": "Царство природы",
-        "zhCN": "自然王国"
+        "zhCN": "魔力聚集"
     },
     {
         "id": 20595,
@@ -2649,13 +2649,13 @@
         "jaJP": "夜",
         "ptBR": "Noite",
         "ruRU": "Ночь",
-        "zhCN": "黑夜"
+        "zhCN": "夜晚"
     },
     {
         "id": 20596,
         "Key": "Runeword91",
         "enUS": "Oath",
-        "zhTW": "誓約",
+        "zhTW": "誓约",
         "deDE": "Eid",
         "esES": "Juramento",
         "frFR": "Serment",
@@ -2666,13 +2666,13 @@
         "jaJP": "誓い",
         "ptBR": "Juramento",
         "ruRU": "Клятва",
-        "zhCN": "誓言"
+        "zhCN": "誓约"
     },
     {
         "id": 20597,
         "Key": "Runeword92",
         "enUS": "Obedience",
-        "zhTW": "遵從",
+        "zhTW": "遵从",
         "deDE": "Gehorsam",
         "esES": "Obediencia",
         "frFR": "Obéissance ",
@@ -2683,13 +2683,13 @@
         "jaJP": "服従",
         "ptBR": "Obediência",
         "ruRU": "Послушание",
-        "zhCN": "顺从"
+        "zhCN": "遵从"
     },
     {
         "id": 20598,
         "Key": "Runeword93",
         "enUS": "Oblivion",
-        "zhTW": "湮沒",
+        "zhTW": "遗失",
         "deDE": "Vergessenheit",
         "esES": "Olvido",
         "frFR": "Oubli",
@@ -2700,13 +2700,13 @@
         "jaJP": "忘却",
         "ptBR": "Esquecimento",
         "ruRU": "Забвение",
-        "zhCN": "湮灭"
+        "zhCN": "遗失"
     },
     {
         "id": 20599,
         "Key": "Runeword94",
         "enUS": "Obsession",
-        "zhTW": "著魔",
+        "zhTW": "着魔",
         "deDE": "Besessenheit",
         "esES": "Obsesión",
         "frFR": "Obsession",
@@ -2717,13 +2717,13 @@
         "jaJP": "執着",
         "ptBR": "Obsessão",
         "ruRU": "Помешательство",
-        "zhCN": "执着"
+        "zhCN": "着魔"
     },
     {
         "id": 20600,
         "Key": "Runeword95",
         "enUS": "Passion",
-        "zhTW": "熱情",
+        "zhTW": "热情",
         "deDE": "Leidenschaft",
         "esES": "Pasión",
         "frFR": "Passion",
@@ -2757,7 +2757,7 @@
         "id": 20602,
         "Key": "Runeword97",
         "enUS": "Pattern",
-        "zhTW": "樣式",
+        "zhTW": "样式",
         "deDE": "Muster",
         "esES": "Patrón",
         "frFR": "Patron",
@@ -2768,7 +2768,7 @@
         "jaJP": "模範",
         "ptBR": "Padrão",
         "ruRU": "Узор",
-        "zhCN": "典范"
+        "zhCN": "样式"
     },
     {
         "id": 20603,
@@ -2785,13 +2785,13 @@
         "jaJP": "平和",
         "ptBR": "Paz",
         "ruRU": "Мир",
-        "zhCN": "平和"
+        "zhCN": "和平"
     },
     {
         "id": 20604,
         "Key": "Runeword99",
         "enUS": "Voice of Reason",
-        "zhTW": "理性之聲",
+        "zhTW": "理性之声",
         "deDE": "Stimme der Vernunft",
         "esES": "Voz de la razón",
         "frFR": "Voix de la raison",
@@ -2802,13 +2802,13 @@
         "jaJP": "理知の声",
         "ptBR": "Voz da Razão",
         "ruRU": "Голос разума",
-        "zhCN": "理智之声"
+        "zhCN": "理性之声"
     },
     {
         "id": 20605,
         "Key": "Runeword100",
         "enUS": "Penitence",
-        "zhTW": "懺悔",
+        "zhTW": "忏悔",
         "deDE": "Reue",
         "esES": "Penitencia",
         "frFR": "Pénitence",
@@ -2836,13 +2836,13 @@
         "jaJP": "危機",
         "ptBR": "Perigo",
         "ruRU": "Опасность",
-        "zhCN": "灾劫"
+        "zhCN": "危害"
     },
     {
         "id": 20607,
         "Key": "Runeword102",
         "enUS": "Pestilence",
-        "zhTW": "疫病",
+        "zhTW": "瘟疫",
         "deDE": "Pestilenz",
         "esES": "Pestilencia",
         "frFR": "Pestilence",
@@ -2853,13 +2853,13 @@
         "jaJP": "悪疫",
         "ptBR": "Pestilência",
         "ruRU": "Мор",
-        "zhCN": "疾病"
+        "zhCN": "瘟疫"
     },
     {
         "id": 20608,
         "Key": "Runeword103",
         "enUS": "Phoenix",
-        "zhTW": "鳳凰",
+        "zhTW": "凤凰",
         "deDE": "Phönix",
         "esES": "Fénix",
         "frFR": "Phénix",
@@ -2876,7 +2876,7 @@
         "id": 20609,
         "Key": "Runeword104",
         "enUS": "Piety",
-        "zhTW": "虔誠",
+        "zhTW": "虔诚",
         "deDE": "Frömmigkeit",
         "esES": "Piedad",
         "frFR": "Piété",
@@ -2887,7 +2887,7 @@
         "jaJP": "敬神",
         "ptBR": "Piedade",
         "ruRU": "Благочестие",
-        "zhCN": "虔敬"
+        "zhCN": "虔诚"
     },
     {
         "id": 20610,
@@ -2927,7 +2927,7 @@
         "id": 20612,
         "Key": "Runeword107",
         "enUS": "Praise",
-        "zhTW": "頌揚",
+        "zhTW": "颂扬",
         "deDE": "Lobpreisung",
         "esES": "Alabanza",
         "frFR": "Louange",
@@ -2938,13 +2938,13 @@
         "jaJP": "賛美",
         "ptBR": "Louvor",
         "ruRU": "Похвала",
-        "zhCN": "赞美"
+        "zhCN": "颂扬"
     },
     {
         "id": 20613,
         "Key": "Runeword108",
         "enUS": "Prayer",
-        "zhTW": "祈禱",
+        "zhTW": "祈祷",
         "deDE": "Gebet",
         "esES": "Oración",
         "frFR": "Prière",
@@ -2961,7 +2961,7 @@
         "id": 20614,
         "Key": "Runeword109",
         "enUS": "Pride",
-        "zhTW": "驕傲",
+        "zhTW": "骄傲",
         "deDE": "Stolz",
         "esES": "Orgullo",
         "frFR": "Fierté",
@@ -2978,7 +2978,7 @@
         "id": 20615,
         "Key": "Runeword110",
         "enUS": "Principle",
-        "zhTW": "原則",
+        "zhTW": "原则",
         "deDE": "Prinzip",
         "esES": "Principio",
         "frFR": "Principe",
@@ -2989,13 +2989,13 @@
         "jaJP": "原理",
         "ptBR": "Princípio",
         "ruRU": "Убеждение",
-        "zhCN": "信条"
+        "zhCN": "原则"
     },
     {
         "id": 20616,
         "Key": "Runeword111",
         "enUS": "Prowess in Battle",
-        "zhTW": "勇戰之力",
+        "zhTW": "勇战之力",
         "deDE": "Tapferkeit im Kampf",
         "esES": "Habilidad en combate",
         "frFR": "Prouesse",
@@ -3006,13 +3006,13 @@
         "jaJP": "武勇",
         "ptBR": "Perícia em Batalha",
         "ruRU": "Доблесть",
-        "zhCN": "战力"
+        "zhCN": "勇战之力"
     },
     {
         "id": 20617,
         "Key": "Runeword112",
         "enUS": "Prudence",
-        "zhTW": "謹慎",
+        "zhTW": "谨慎",
         "deDE": "Besonnenheit",
         "esES": "Prudencia",
         "frFR": "Prudence",
@@ -3029,7 +3029,7 @@
         "id": 20618,
         "Key": "Runeword113",
         "enUS": "Punishment",
-        "zhTW": "懲罰",
+        "zhTW": "惩罚",
         "deDE": "Strafe",
         "esES": "Castigo",
         "frFR": "Punition",
@@ -3046,7 +3046,7 @@
         "id": 20619,
         "Key": "Runeword114",
         "enUS": "Purity",
-        "zhTW": "純潔",
+        "zhTW": "纯洁",
         "deDE": "Reinheit",
         "esES": "Pureza",
         "frFR": "Pureté",
@@ -3063,7 +3063,7 @@
         "id": 20620,
         "Key": "Runeword115",
         "enUS": "Question",
-        "zhTW": "疑問",
+        "zhTW": "疑问",
         "deDE": "Frage",
         "esES": "Duda",
         "frFR": "Question",
@@ -3074,13 +3074,13 @@
         "jaJP": "疑問",
         "ptBR": "Questão",
         "ruRU": "Вопрос",
-        "zhCN": "质问"
+        "zhCN": "疑问"
     },
     {
         "id": 20621,
         "Key": "Runeword116",
         "enUS": "Radiance",
-        "zhTW": "光輝",
+        "zhTW": "光辉",
         "deDE": "Glanz",
         "esES": "Resplandor",
         "frFR": "Rayon",
@@ -3108,7 +3108,7 @@
         "jaJP": "雨",
         "ptBR": "Chuva",
         "ruRU": "Ливень",
-        "zhCN": "暴雨"
+        "zhCN": "降雨"
     },
     {
         "id": 20623,
@@ -3125,13 +3125,13 @@
         "jaJP": "理性",
         "ptBR": "Razão",
         "ruRU": "Разум",
-        "zhCN": "理性"
+        "zhCN": "理由"
     },
     {
         "id": 20624,
         "Key": "Runeword119",
         "enUS": "Red",
-        "zhTW": "鮮紅",
+        "zhTW": "鲜红",
         "deDE": "Röte",
         "esES": "Rojez",
         "frFR": "Rouge",
@@ -3142,13 +3142,13 @@
         "jaJP": "赤",
         "ptBR": "Vermelho",
         "ruRU": "Багрянец",
-        "zhCN": "绯红"
+        "zhCN": "鲜红"
     },
     {
         "id": 20625,
         "Key": "Runeword120",
         "enUS": "Rhyme",
-        "zhTW": "聲韻",
+        "zhTW": "声韵",
         "deDE": "Reim",
         "esES": "Rima",
         "frFR": "Rime",
@@ -3159,7 +3159,7 @@
         "jaJP": "韻",
         "ptBR": "Rima",
         "ruRU": "Рифма",
-        "zhCN": "韵律"
+        "zhCN": "声韵"
     },
     {
         "id": 20626,
@@ -3182,7 +3182,7 @@
         "id": 20627,
         "Key": "Runeword122",
         "enUS": "Sanctuary",
-        "zhTW": "聖堂",
+        "zhTW": "圣堂",
         "deDE": "Zuflucht",
         "esES": "Santuario",
         "frFR": "Sanctuaire",
@@ -3193,13 +3193,13 @@
         "jaJP": "聖域",
         "ptBR": "Santuário",
         "ruRU": "Убежище",
-        "zhCN": "庇护"
+        "zhCN": "圣堂"
     },
     {
         "id": 20628,
         "Key": "Runeword123",
         "enUS": "Serendipity",
-        "zhTW": "機緣",
+        "zhTW": "机缘",
         "deDE": "Glückseligkeit",
         "esES": "Serendipia",
         "frFR": "Veine",
@@ -3210,7 +3210,7 @@
         "jaJP": "僥倖",
         "ptBR": "Acaso",
         "ruRU": "Прозорливость",
-        "zhCN": "奇遇"
+        "zhCN": "机缘"
     },
     {
         "id": 20629,
@@ -3227,13 +3227,13 @@
         "jaJP": "闇",
         "ptBR": "Sombra",
         "ruRU": "Тень",
-        "zhCN": "阴影"
+        "zhCN": "暗影"
     },
     {
         "id": 20630,
         "Key": "Runeword125",
         "enUS": "Shadow of Doubt",
-        "zhTW": "懷疑之影",
+        "zhTW": "怀疑之影",
         "deDE": "Schatten des Zweifels",
         "esES": "Sombra de duda",
         "frFR": "Ombre du doute",
@@ -3244,13 +3244,13 @@
         "jaJP": "疑惑の影",
         "ptBR": "Sombra da Dúvida",
         "ruRU": "Тень сомнения",
-        "zhCN": "疑虑之影"
+        "zhCN": "怀疑之影"
     },
     {
         "id": 20631,
         "Key": "Runeword126",
         "enUS": "Silence",
-        "zhTW": "寂靜",
+        "zhTW": "寂静",
         "deDE": "Stille",
         "esES": "Silencio",
         "frFR": "Silence",
@@ -3261,13 +3261,13 @@
         "jaJP": "静寂",
         "ptBR": "Silêncio",
         "ruRU": "Безмолвие",
-        "zhCN": "沉默"
+        "zhCN": "寂静"
     },
     {
         "id": 20632,
         "Key": "Runeword127",
         "enUS": "Siren's Song",
-        "zhTW": "賽蓮之歌",
+        "zhTW": "赛莲之歌",
         "deDE": "Sirenengesang",
         "esES": "Canto de sirena",
         "frFR": "Sirène",
@@ -3278,13 +3278,13 @@
         "jaJP": "セイレーンの歌",
         "ptBR": "Canto da Sirena",
         "ruRU": "Песнь сирены",
-        "zhCN": "海妖之歌"
+        "zhCN": "赛莲之歌"
     },
     {
         "id": 20633,
         "Key": "Runeword128",
         "enUS": "Smoke",
-        "zhTW": "煙霧",
+        "zhTW": "烟雾",
         "deDE": "Rauch",
         "esES": "Humo",
         "frFR": "Fumée",
@@ -3301,7 +3301,7 @@
         "id": 20634,
         "Key": "Runeword129",
         "enUS": "Sorrow",
-        "zhTW": "哀傷",
+        "zhTW": "哀伤",
         "deDE": "Traurigkeit",
         "esES": "Tristeza",
         "frFR": "Tristesse",
@@ -3312,7 +3312,7 @@
         "jaJP": "悲哀",
         "ptBR": "Mágoa",
         "ruRU": "Скорбь",
-        "zhCN": "悲伤"
+        "zhCN": "哀伤"
     },
     {
         "id": 20635,
@@ -3335,7 +3335,7 @@
         "id": 20636,
         "Key": "Runeword131",
         "enUS": "Splendor",
-        "zhTW": "燦爛",
+        "zhTW": "灿烂",
         "deDE": "Pracht",
         "esES": "Esplendor",
         "frFR": "Splendeur",
@@ -3346,7 +3346,7 @@
         "jaJP": "壮麗",
         "ptBR": "Esplendor",
         "ruRU": "Великолепие",
-        "zhCN": "壮美"
+        "zhCN": "灿烂"
     },
     {
         "id": 20637,
@@ -3369,7 +3369,7 @@
         "id": 20638,
         "Key": "Runeword133",
         "enUS": "Stealth",
-        "zhTW": "隱密",
+        "zhTW": "隐密",
         "deDE": "Verstohlenheit",
         "esES": "Sigilo",
         "frFR": "Discrétion",
@@ -3380,13 +3380,13 @@
         "jaJP": "隠密",
         "ptBR": "Furtividade",
         "ruRU": "Незаметность",
-        "zhCN": "隐秘"
+        "zhCN": "隐密"
     },
     {
         "id": 20639,
         "Key": "Runeword134",
         "enUS": "Steel",
-        "zhTW": "鋼鐵",
+        "zhTW": "钢铁",
         "deDE": "Stahl",
         "esES": "Acero",
         "frFR": "Acier",
@@ -3403,7 +3403,7 @@
         "id": 20640,
         "Key": "Runeword135",
         "enUS": "Still Water",
-        "zhTW": "寂靜之水",
+        "zhTW": "寂静之水",
         "deDE": "Stilles Wasser",
         "esES": "Aguas tranquilas",
         "frFR": "Eaux calmes",
@@ -3414,7 +3414,7 @@
         "jaJP": "淀み",
         "ptBR": "Água Parada",
         "ruRU": "Тихие воды",
-        "zhCN": "止水"
+        "zhCN": "寂静之水"
     },
     {
         "id": 20641,
@@ -3431,13 +3431,13 @@
         "jaJP": "痛烈",
         "ptBR": "Picada",
         "ruRU": "Жало",
-        "zhCN": "钉刺"
+        "zhCN": "螫刺"
     },
     {
         "id": 20642,
         "Key": "Runeword137",
         "enUS": "Stone",
-        "zhTW": "石塊",
+        "zhTW": "石块",
         "deDE": "Stein",
         "esES": "Roca",
         "frFR": "Pierre",
@@ -3448,13 +3448,13 @@
         "jaJP": "石",
         "ptBR": "Pedra",
         "ruRU": "Камень",
-        "zhCN": "磐石"
+        "zhCN": "石块"
     },
     {
         "id": 20643,
         "Key": "Runeword138",
         "enUS": "Storm",
-        "zhTW": "風暴",
+        "zhTW": "风暴",
         "deDE": "Sturm",
         "esES": "Tormenta",
         "frFR": "Orage",
@@ -3488,7 +3488,7 @@
         "id": 20645,
         "Key": "Runeword140",
         "enUS": "Tempest",
-        "zhTW": "暴風雨",
+        "zhTW": "暴风雨",
         "deDE": "Orkan",
         "esES": "Tempestad",
         "frFR": "Tempête",
@@ -3505,7 +3505,7 @@
         "id": 20646,
         "Key": "Runeword141",
         "enUS": "Temptation",
-        "zhTW": "誘惑",
+        "zhTW": "诱惑",
         "deDE": "Versuchung",
         "esES": "Tentación",
         "frFR": "Tentation",
@@ -3522,7 +3522,7 @@
         "id": 20647,
         "Key": "Runeword142",
         "enUS": "Terror",
-        "zhTW": "恐佈",
+        "zhTW": "恐布",
         "deDE": "Terror",
         "esES": "Terror",
         "frFR": "Terreur",
@@ -3533,13 +3533,13 @@
         "jaJP": "恐怖",
         "ptBR": "Terror",
         "ruRU": "Кошмар",
-        "zhCN": "恐惧"
+        "zhCN": "恐布"
     },
     {
         "id": 20648,
         "Key": "Runeword143",
         "enUS": "Thirst",
-        "zhTW": "飢渴",
+        "zhTW": "饥渴",
         "deDE": "Durst",
         "esES": "Sed",
         "frFR": "Soif",
@@ -3550,13 +3550,13 @@
         "jaJP": "渇望",
         "ptBR": "Sede",
         "ruRU": "Жажда",
-        "zhCN": "渴求"
+        "zhCN": "饥渴"
     },
     {
         "id": 20649,
         "Key": "Runeword144",
         "enUS": "Thought",
-        "zhTW": "思維",
+        "zhTW": "思维",
         "deDE": "Gedanke",
         "esES": "Pensamiento",
         "frFR": "Stoïque",
@@ -3567,7 +3567,7 @@
         "jaJP": "思考",
         "ptBR": "Pensamento",
         "ruRU": "Мысль",
-        "zhCN": "思绪"
+        "zhCN": "思维"
     },
     {
         "id": 20650,
@@ -3590,7 +3590,7 @@
         "id": 20651,
         "Key": "Runeword146",
         "enUS": "Time",
-        "zhTW": "時間",
+        "zhTW": "时间",
         "deDE": "Zeit",
         "esES": "Tiempo",
         "frFR": "Temps",
@@ -3601,13 +3601,13 @@
         "jaJP": "時間",
         "ptBR": "Tempo",
         "ruRU": "Время",
-        "zhCN": "时光"
+        "zhCN": "时间"
     },
     {
         "id": 20652,
         "Key": "Runeword147",
         "enUS": "Tradition",
-        "zhTW": "傳統",
+        "zhTW": "传统",
         "deDE": "Tradition",
         "esES": "Tradición",
         "frFR": "Tradition",
@@ -3635,7 +3635,7 @@
         "jaJP": "不信",
         "ptBR": "Deslealdade",
         "ruRU": "Вероломство",
-        "zhCN": "背叛"
+        "zhCN": "背信"
     },
     {
         "id": 20654,
@@ -3675,7 +3675,7 @@
         "id": 20656,
         "Key": "Runeword151",
         "enUS": "Unbending Will",
-        "zhTW": "堅定意志",
+        "zhTW": "坚定意志",
         "deDE": "Unbeugsamer Wille",
         "esES": "Voluntad de hierro",
         "frFR": "Volonté inébranlable",
@@ -3686,7 +3686,7 @@
         "jaJP": "不屈の意志",
         "ptBR": "Determinação",
         "ruRU": "Непреклонность",
-        "zhCN": "不屈之志"
+        "zhCN": "坚定意志"
     },
     {
         "id": 20657,
@@ -3703,13 +3703,13 @@
         "jaJP": "勇敢",
         "ptBR": "Bravura",
         "ruRU": "Отвага",
-        "zhCN": "勇气"
+        "zhCN": "英勇"
     },
     {
         "id": 20658,
         "Key": "Runeword153",
         "enUS": "Vengeance",
-        "zhTW": "復仇",
+        "zhTW": "复仇",
         "deDE": "Rache",
         "esES": "Venganza",
         "frFR": "Vengeance",
@@ -3726,7 +3726,7 @@
         "id": 20659,
         "Key": "Runeword154",
         "enUS": "Venom",
-        "zhTW": "劇毒",
+        "zhTW": "剧毒",
         "deDE": "Gift",
         "esES": "Ponzoña",
         "frFR": "Venin",
@@ -3737,13 +3737,13 @@
         "jaJP": "毒",
         "ptBR": "Veneno",
         "ruRU": "Яд",
-        "zhCN": "毒液"
+        "zhCN": "剧毒"
     },
     {
         "id": 20660,
         "Key": "Runeword155",
         "enUS": "Victory",
-        "zhTW": "勝利",
+        "zhTW": "胜利",
         "deDE": "Sieg",
         "esES": "Victoria",
         "frFR": "Victoire",
@@ -3760,7 +3760,7 @@
         "id": 20661,
         "Key": "Runeword156",
         "enUS": "Voice",
-        "zhTW": "聲音",
+        "zhTW": "声音",
         "deDE": "Stimme",
         "esES": "Voz",
         "frFR": "Voix",
@@ -3777,7 +3777,7 @@
         "id": 20662,
         "Key": "Runeword157",
         "enUS": "Void",
-        "zhTW": "虛無",
+        "zhTW": "虚无",
         "deDE": "Leere",
         "esES": "Vacío",
         "frFR": "Vide",
@@ -3788,13 +3788,13 @@
         "jaJP": "虚無",
         "ptBR": "Vazio",
         "ruRU": "Бездна",
-        "zhCN": "虚空"
+        "zhCN": "虚无"
     },
     {
         "id": 20663,
         "Key": "Runeword158",
         "enUS": "War",
-        "zhTW": "戰爭",
+        "zhTW": "战争",
         "deDE": "Krieg",
         "esES": "Guerra",
         "frFR": "Guerre",
@@ -3822,13 +3822,13 @@
         "jaJP": "水",
         "ptBR": "Água",
         "ruRU": "Вода",
-        "zhCN": "源水"
+        "zhCN": "清水"
     },
     {
         "id": 20665,
         "Key": "Runeword160",
         "enUS": "Wealth",
-        "zhTW": "財富",
+        "zhTW": "财富",
         "deDE": "Wohlstand",
         "esES": "Riqueza",
         "frFR": "Richesse",
@@ -3845,7 +3845,7 @@
         "id": 20666,
         "Key": "Runeword161",
         "enUS": "Whisper",
-        "zhTW": "低語",
+        "zhTW": "低语",
         "deDE": "Flüstern",
         "esES": "Susurro",
         "frFR": "Murmure",
@@ -3862,7 +3862,7 @@
         "id": 20667,
         "Key": "Runeword162",
         "enUS": "White",
-        "zhTW": "蒼白",
+        "zhTW": "苍白",
         "deDE": "Weiß",
         "esES": "Blancura",
         "frFR": "Blancheur",
@@ -3873,13 +3873,13 @@
         "jaJP": "白",
         "ptBR": "Branco",
         "ruRU": "Белизна",
-        "zhCN": "白色"
+        "zhCN": "苍白"
     },
     {
         "id": 20668,
         "Key": "Runeword163",
         "enUS": "Wind",
-        "zhTW": "輕風",
+        "zhTW": "轻风",
         "deDE": "Wind",
         "esES": "Viento",
         "frFR": "Vent",
@@ -3890,7 +3890,7 @@
         "jaJP": "風",
         "ptBR": "Vento",
         "ruRU": "Ветер",
-        "zhCN": "疾风"
+        "zhCN": "轻风"
     },
     {
         "id": 20669,
@@ -3941,13 +3941,13 @@
         "jaJP": "苦悩",
         "ptBR": "Angústia",
         "ruRU": "Горе",
-        "zhCN": "灾祸"
+        "zhCN": "悲痛"
     },
     {
         "id": 20672,
         "Key": "Runeword167",
         "enUS": "Wonder",
-        "zhTW": "驚奇",
+        "zhTW": "惊奇",
         "deDE": "Wunder",
         "esES": "Asombro",
         "frFR": "Merveille",
@@ -3958,13 +3958,13 @@
         "jaJP": "驚異",
         "ptBR": "Fascínio",
         "ruRU": "Чудо",
-        "zhCN": "奇迹"
+        "zhCN": "惊奇"
     },
     {
         "id": 20673,
         "Key": "Runeword168",
         "enUS": "Wrath",
-        "zhTW": "憤怒",
+        "zhTW": "愤怒",
         "deDE": "Wut",
         "esES": "Ira",
         "frFR": "Courroux",
@@ -3975,13 +3975,13 @@
         "jaJP": "激怒",
         "ptBR": "Ira",
         "ruRU": "Гнев",
-        "zhCN": "怒火"
+        "zhCN": "愤怒"
     },
     {
         "id": 20674,
         "Key": "Runeword169",
         "enUS": "Youth",
-        "zhTW": "年輕",
+        "zhTW": "年轻",
         "deDE": "Jugend",
         "esES": "Juventud",
         "frFR": "Jeunesse",
@@ -3992,13 +3992,13 @@
         "jaJP": "若さ",
         "ptBR": "Juventude",
         "ruRU": "Юность",
-        "zhCN": "青春"
+        "zhCN": "年轻"
     },
     {
         "id": 20675,
         "Key": "Runeword170",
         "enUS": "Zephyr",
-        "zhTW": "和風",
+        "zhTW": "和风",
         "deDE": "Zephyr",
         "esES": "Céfiro",
         "frFR": "Zéphyr",
@@ -4025,8 +4025,8 @@
         "plPL": "Runy",
         "ptBR": "De Runas",
         "ruRU": "Рун",
-        "zhCN": "符文的",
-        "zhTW": "符文的"
+        "zhCN": "┈ 符文：迪34#",
+        "zhTW": "┈ 符文：迪34#"
     },
     {
         "id": 51801,
@@ -4042,8 +4042,8 @@
         "plPL": "Z",
         "ptBR": "De",
         "ruRU": "От",
-        "zhCN": "从",
-        "zhTW": "從"
+        "zhCN": "┈ 迪34#",
+        "zhTW": "┈ 迪34#"
     },
     {
         "id": 51802,
@@ -4059,8 +4059,8 @@
         "plPL": "Ab Rune",
         "ptBR": "Runa Ab",
         "ruRU": "Аб Руне",
-        "zhCN": "艾布符文",
-        "zhTW": "艾布符文"
+        "zhCN": "┈ 符文：艾布35#",
+        "zhTW": "┈ 符文：艾布35#"
     },
     {
         "id": 51803,
@@ -4076,8 +4076,8 @@
         "plPL": "Ab",
         "ptBR": "Ab",
         "ruRU": "Аб",
-        "zhCN": "抗体",
-        "zhTW": "抗體"
+        "zhCN": "┈ 艾布35#",
+        "zhTW": "┈ 艾布35#"
     },
     {
         "id": 51804,
@@ -4093,8 +4093,8 @@
         "plPL": "Pan Terroru",
         "ptBR": "Senhor do Terror",
         "ruRU": "Лорд террора",
-        "zhCN": "恐怖之主",
-        "zhTW": "恐怖之主"
+        "zhCN": "恐惧之主",
+        "zhTW": "恐惧之主"
     },
     {
         "id": 51805,
@@ -4110,8 +4110,8 @@
         "plPL": "Kiel Fenrisa",
         "ptBR": "Fenris Fang",
         "ruRU": "Фенрис Фанг",
-        "zhCN": "方芬里斯",
-        "zhTW": "方芬里斯"
+        "zhCN": "狼王芬里斯",
+        "zhTW": "狼王芬里斯"
     },
     {
         "id": 51806,
@@ -4127,8 +4127,8 @@
         "plPL": "Czy Runa",
         "ptBR": "É Runa",
         "ruRU": "Руна",
-        "zhCN": "是符文",
-        "zhTW": "是符文"
+        "zhCN": "┈ 符文：厄36#",
+        "zhTW": "┈ 符文：厄36#"
     },
     {
         "id": 51807,
@@ -4144,7 +4144,7 @@
         "plPL": "Jest",
         "ptBR": "É",
         "ruRU": "Является",
-        "zhCN": "是",
-        "zhTW": "是"
+        "zhCN": "┈ 厄36#",
+        "zhTW": "┈ 厄36#"
     }
 ]

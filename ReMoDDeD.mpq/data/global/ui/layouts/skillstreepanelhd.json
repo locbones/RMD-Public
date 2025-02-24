@@ -1,4 +1,4 @@
-﻿{
+{
     "type": "SkillsTreePanel", "name": "SkillsTreePanel",
     "fields": {
         "rect": "$RightPanelRectS",
@@ -80,7 +80,7 @@
         {
              "type": "ImageWidget", "name": "TreeBackground",
              "fields": {
-                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\SkillsBG_P",
+                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\SkillsBG_R",
                  "rect": { "x": 167, "y": 0 }
              }
         },

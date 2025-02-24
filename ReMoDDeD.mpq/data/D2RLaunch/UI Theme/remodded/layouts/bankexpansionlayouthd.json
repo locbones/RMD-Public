@@ -56,7 +56,7 @@
             "type": "ButtonWidget", "name": "close",
             "fields": {
                 "rect": { "x": 1538, "y": -184 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\Exit_R",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\Exit",
                 "hoveredFrame": 3,
                 "tooltipString": "@strClose",
                 "onClickMessage": "BankPanelMessage:Close"
