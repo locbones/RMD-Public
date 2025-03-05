@@ -51,7 +51,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "x": 0, "y": 0 },
-                                        "text": "Tormented Monsters",
+                                        "text": "Greedy Goblins",
                                         "style": "$StyleSettingsCenterTitle"
                                     },
                                     "children": [
@@ -73,7 +73,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "x": 0, "y": 30 },
-                                        "text": "Diablo's minions and victims alike have fallen into torment...",
+                                        "text": "Goblins randomly wander the levels; hoarding gems, gold, runes and other special items",
                                         "style": "$StyleSettingsTextC"
                                     },
                                     "children": [
@@ -95,7 +95,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "x": 0, "y": 20 },
-                                        "text": "All color drained from their lifeless souls, forever trapped...",
+                                        "text": "They care nothing for battle, their souls entwined by the treasures they seek",
                                         "style": "$StyleSettingsTextC"
                                     }
                                 }
@@ -108,6 +108,485 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "x": 0, "y": 10 },
+                                        "text": "Old man Cain heard a rumor they never appear in the same place twice...",
+                                        "style": "$StyleSettingsTextC"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 20 },
+                                        "text": "",
+                                        "style": "$StyleSettingsTextC"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 20 },
+                                        "text": "Gemma Perfectus",
+                                        "style": "$StyleSettingsCenterTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": { "x": 0, "y": 60 }
+                                                //"filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 10 },
+                                        "text": "Mordeaux the Dead Mind",
+                                        "style": "$StyleSettingsTextCR"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": { "x": 0, "y": 60 },
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 30 },
+                                        "text": "Once a fallen monster, now just a soul-less shell of insatiable curiousity",
+                                        "style": "$StyleSettingsTextC"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 20 },
+                                        "text": "Gems. Perfect Gems. This creature's mind has been deadened to any other thought.",
+                                        "style": "$StyleSettingsTextC"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": { "x": 590, "y": 60 },
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\Goblin1"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 720 },
+                                        "text": "Opulentus Sicarius",
+                                        "style": "$StyleSettingsCenterTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": { "x": 0, "y": 60 }
+                                                //"filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 710 },
+                                        "text": "Xan of the Umbra Lunae",
+                                        "style": "$StyleSettingsTextCR"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": { "x": 0, "y": 60 },
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 730 },
+                                        "text": "Once a fallen monster, now it's mind twisted to wealth and shadow.",
+                                        "style": "$StyleSettingsTextC"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 720 },
+                                        "text": "Legends tell of a wealth of info and gold being spewed from this monster.",
+                                        "style": "$StyleSettingsTextC"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": { "x": 590, "y": 60 },
+                                                "activeFrame": 1,
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\Goblin2"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 1440 },
+                                        "text": "Divitiae Absconditus",
+                                        "style": "$StyleSettingsCenterTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": { "x": 0, "y": 60 }
+                                                //"filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 1450 },
+                                        "text": "Elr the Ignis",
+                                        "style": "$StyleSettingsTextCR"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": { "x": 0, "y": 60 },
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 1470 },
+                                        "text": "A once noble Fire Sorceress, now corrupted by power in service to darkness",
+                                        "style": "$StyleSettingsTextC"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 1460 },
+                                        "text": "It holds potentially powerful artifacts for those who may be lucky.",
+                                        "style": "$StyleSettingsTextC"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": { "x": 590, "y": 60 },
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\Goblin3"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 2160 },
+                                        "text": "Runarum Avarus",
+                                        "style": "$StyleSettingsCenterTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": { "x": 0, "y": 60 }
+                                                //"filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 2170 },
+                                        "text": "Hells Runekeeper",
+                                        "style": "$StyleSettingsTextCR"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": { "x": 0, "y": 60 },
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 2190 },
+                                        "text": "A demon granted power by the collective whispers of the masses, chanting it's name. Jah-men.",
+                                        "style": "$StyleSettingsTextC"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 2180 },
+                                        "text": "Various symbols of power are imbued on this demon, maybe that power can be harnessed.",
+                                        "style": "$StyleSettingsTextC"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": { "x": 590, "y": 60 },
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\Goblin4"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 2880 },
+                                        "text": "Famulus Bonesii",
+                                        "style": "$StyleSettingsCenterTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": { "x": 0, "y": 60 }
+                                                //"filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 2890 },
+                                        "text": "Bonesy's Familiar",
+                                        "style": "$StyleSettingsTextCR"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": { "x": 0, "y": 60 },
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 2910 },
+                                        "text": "A fragment of Edyrem's soul, the last of the Nephalem - taken form.",
+                                        "style": "$StyleSettingsTextC"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 2900 },
+                                        "text": "Light emanates from this monster at all times, unable to control its prismatic power.",
+                                        "style": "$StyleSettingsTextC"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": { "x": 590, "y": 60 },
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\Goblin5"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 3600 },
+                                        "text": "Tormented Monsters",
+                                        "style": "$StyleSettingsCenterTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": { "x": 0, "y": 60 },
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 3630 },
+                                        "text": "Diablo's minions and victims alike have fallen into torment...",
+                                        "style": "$StyleSettingsTextC"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect"
+                                                //"filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 3620 },
+                                        "text": "All color drained from their lifeless souls, forever trapped...",
+                                        "style": "$StyleSettingsTextC"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 3610 },
                                         "text": "They fear nothing, feel nothing; as the ice slowly consumes them.",
                                         "style": "$StyleSettingsTextC"
                                     },
@@ -129,7 +608,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 1060 },
+                                        "rect": { "x": 0, "y": 4660 },
                                         "text": "Ender'aku",
                                         "style": "$StyleSettingsCenterTitle"
                                     },
@@ -151,7 +630,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 1050 },
+                                        "rect": { "x": 0, "y": 4650 },
                                         "text": "Putrid Herald of Darkness",
                                         "style": "$StyleSettingsTextCR"
                                     },
@@ -173,7 +652,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 1070 },
+                                        "rect": { "x": 0, "y": 4670 },
                                         "text": "An evil being that has been twisted and mis-shapen by the corpses she's consumed.",
                                         "style": "$StyleSettingsTextC"
                                     }
@@ -186,7 +665,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 1060 },
+                                        "rect": { "x": 0, "y": 4650 },
                                         "text": "She desires nothing but to feed on flesh, and feed her spawning brood.",
                                         "style": "$StyleSettingsTextC"
                                     },
@@ -208,7 +687,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 1850 },
+                                        "rect": { "x": 0, "y": 5440 },
                                         "text": "Izual the Forsaken",
                                         "style": "$StyleSettingsCenterTitle"
                                     },
@@ -230,7 +709,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 1840 },
+                                        "rect": { "x": 0, "y": 5440 },
                                         "text": "Corrupted Fire Lord",
                                         "style": "$StyleSettingsTextCR"
                                     },
@@ -252,7 +731,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 1860 },
+                                        "rect": { "x": 0, "y": 5460 },
                                         "text": "Once a force against evil; now corrupted by the Prime Evil's resurrected powers.",
                                         "style": "$StyleSettingsTextC"
                                     }
@@ -265,7 +744,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 1850 },
+                                        "rect": { "x": 0, "y": 5450 },
                                         "text": "Even they dare not enter his territory now...truly forsaken by all beings now.",
                                         "style": "$StyleSettingsTextC"
                                     },
@@ -287,7 +766,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 2620 },
+                                        "rect": { "x": 0, "y": 6190 },
                                         "text": "Gurka",
                                         "style": "$StyleSettingsCenterTitle"
                                     },
@@ -309,7 +788,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 2610 },
+                                        "rect": { "x": 0, "y": 6180 },
                                         "text": "Soul-Torn Puppet Master",
                                         "style": "$StyleSettingsTextCR"
                                     },
@@ -331,7 +810,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 2630 },
+                                        "rect": { "x": 0, "y": 6200 },
                                         "text": "Imbued with ancient, dark magic...this headless demon controls the souls of the fallen.",
                                         "style": "$StyleSettingsTextC"
                                     }
@@ -344,7 +823,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 2620 },
+                                        "rect": { "x": 0, "y": 6190 },
                                         "text": "His blood has turned purple after consuming the blood of so many humans.",
                                         "style": "$StyleSettingsTextC"
                                     },
@@ -366,7 +845,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 3220 },
+                                        "rect": { "x": 0, "y": 6790 },
                                         "text": "Queen Syndred",
                                         "style": "$StyleSettingsCenterTitle"
                                     },
@@ -388,7 +867,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 3210 },
+                                        "rect": { "x": 0, "y": 6780 },
                                         "text": "Lady of Corruption",
                                         "style": "$StyleSettingsTextCR"
                                     },
@@ -410,7 +889,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 3230 },
+                                        "rect": { "x": 0, "y": 6800 },
                                         "text": "The power of the great resurrection has tainted this demon of terror.",
                                         "style": "$StyleSettingsTextC"
                                     }
@@ -423,7 +902,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 3220 },
+                                        "rect": { "x": 0, "y": 6790 },
                                         "text": "Only bits of flesh remain; the rest consumed by the fire of hatred.",
                                         "style": "$StyleSettingsTextC"
                                     },
@@ -445,7 +924,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 3970 },
+                                        "rect": { "x": 0, "y": 7520 },
                                         "text": "Ded'Domer",
                                         "style": "$StyleSettingsCenterTitle"
                                     },
@@ -467,7 +946,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 3960 },
+                                        "rect": { "x": 0, "y": 7510 },
                                         "text": "Breaker of Realms",
                                         "style": "$StyleSettingsTextCR"
                                     },
@@ -489,7 +968,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 3980 },
+                                        "rect": { "x": 0, "y": 7530 },
                                         "text": "The master of the Arcane Dimensional magic - Bending the realms to do his bidding.",
                                         "style": "$StyleSettingsTextC"
                                     }
@@ -502,7 +981,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 3970 },
+                                        "rect": { "x": 0, "y": 7520 },
                                         "text": "His overflow of magic causes flames to spontaneously engulf him.",
                                         "style": "$StyleSettingsTextC"
                                     },
@@ -524,7 +1003,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 4570 },
+                                        "rect": { "x": 0, "y": 8120 },
                                         "text": "Anuburak",
                                         "style": "$StyleSettingsCenterTitle"
                                     },
@@ -546,7 +1025,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 4560 },
+                                        "rect": { "x": 0, "y": 8110 },
                                         "text": "Nightmare of Horadrim",
                                         "style": "$StyleSettingsTextCR"
                                     },
@@ -568,7 +1047,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 4580 },
+                                        "rect": { "x": 0, "y": 8130 },
                                         "text": "Enraged during the maelstrom of chaos; it has absorbed untold power.",
                                         "style": "$StyleSettingsTextC"
                                     }
@@ -581,7 +1060,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 4570 },
+                                        "rect": { "x": 0, "y": 8120 },
                                         "text": "Losing all intellect and reason...it now only knows the hunt.",
                                         "style": "$StyleSettingsTextC"
                                     },
@@ -603,7 +1082,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 5260 },
+                                        "rect": { "x": 0, "y": 8810 },
                                         "text": "Raku'Ranth",
                                         "style": "$StyleSettingsCenterTitle"
                                     },
@@ -625,7 +1104,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 5250 },
+                                        "rect": { "x": 0, "y": 8800 },
                                         "text": "Demon Swordmaster",
                                         "style": "$StyleSettingsTextCR"
                                     },
@@ -647,7 +1126,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 5270 },
+                                        "rect": { "x": 0, "y": 8820 },
                                         "text": "True sword experts that have trained in the arts of execution.",
                                         "style": "$StyleSettingsTextC"
                                     }
@@ -660,7 +1139,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 5260 },
+                                        "rect": { "x": 0, "y": 8810 },
                                         "text": "Their skin turned to an undead white after the great resurrection.",
                                         "style": "$StyleSettingsTextC"
                                     },
@@ -682,7 +1161,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 5980 },
+                                        "rect": { "x": 0, "y": 9530 },
                                         "text": "Kelthir",
                                         "style": "$StyleSettingsCenterTitle"
                                     },
@@ -704,7 +1183,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 5970 },
+                                        "rect": { "x": 0, "y": 9520 },
                                         "text": "Beastmaster of Arms",
                                         "style": "$StyleSettingsTextCR"
                                     },
@@ -726,7 +1205,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 5990 },
+                                        "rect": { "x": 0, "y": 9540 },
                                         "text": "Deadly with any weapon; his beast-like ferocity and speed have only increased.",
                                         "style": "$StyleSettingsTextC"
                                     }
@@ -739,7 +1218,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 5980 },
+                                        "rect": { "x": 0, "y": 9530 },
                                         "text": "Their skin turning black after human blood has soaked into their very being.",
                                         "style": "$StyleSettingsTextC"
                                     },
@@ -761,7 +1240,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 6440 },
+                                        "rect": { "x": 0, "y": 9990 },
                                         "text": "Grizzlepaw",
                                         "style": "$StyleSettingsCenterTitle"
                                     },
@@ -783,7 +1262,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 6430 },
+                                        "rect": { "x": 0, "y": 9980 },
                                         "text": "Tainted Bear King",
                                         "style": "$StyleSettingsTextCR"
                                     },
@@ -805,7 +1284,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 6450 },
+                                        "rect": { "x": 0, "y": 10000 },
                                         "text": "Once loyal to the druids; now malformed into a tool of evil.",
                                         "style": "$StyleSettingsTextC"
                                     }
@@ -818,7 +1297,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 6440 },
+                                        "rect": { "x": 0, "y": 9980 },
                                         "text": "Battle hardened and created without fur - all know the king.",
                                         "style": "$StyleSettingsTextC"
                                     },
@@ -840,7 +1319,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 7080 },
+                                        "rect": { "x": 0, "y": 10620 },
                                         "text": "Majiko",
                                         "style": "$StyleSettingsCenterTitle"
                                     },
@@ -862,7 +1341,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 7070 },
+                                        "rect": { "x": 0, "y": 10610 },
                                         "text": "Mutated Leaper",
                                         "style": "$StyleSettingsTextCR"
                                     },
@@ -884,7 +1363,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 7090 },
+                                        "rect": { "x": 0, "y": 10630 },
                                         "text": "Bestowed great size and speed has enabled it to be a deadly minion",
                                         "style": "$StyleSettingsTextC"
                                     }
@@ -897,7 +1376,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 7080 },
+                                        "rect": { "x": 0, "y": 10610 },
                                         "text": "It's tormented soul making it become more erratic and lethal.",
                                         "style": "$StyleSettingsTextC"
                                     },

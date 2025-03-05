@@ -798,6 +798,7 @@
   "holyturret": "holy_turret",
   "arachpet":"arachpet",
   "shrubsoldier":"shrub",
+  "shrubenemy":"..\\Enemy\\shrub",
   "chaoshorde1" :"invisopet",
   "chaoshorde2" :"invisopet",
   "chaoshorde3" :"invisopet",
@@ -1064,5 +1065,10 @@
   "tritrap1": "trisentry2",
   "tritrap2": "trisentry1",
   "tritrap3": "trisentry3",
-  "countess_patreon": "doomknight3"
+  "countess_patreon": "doomknight3",
+  "goblin_gem": "goblin_gem",
+  "goblin_gold": "goblin_gold",
+  "goblin_box": "goblin_box",
+  "goblin_runes": "goblin_runes",
+  "goblin_rmd": "goblin_rmd"
 }

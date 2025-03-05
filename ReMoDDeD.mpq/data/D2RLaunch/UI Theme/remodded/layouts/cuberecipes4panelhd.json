@@ -159,18 +159,6 @@
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "GC2",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC2T",
-                                    "fields": {
-                                        "text": "Skull + Rare Item + Stone of Jordan = High Quality Rare Item",
-                                        "style": "$RecipeSettingsText"
-                                    }
-                                }
-                            ]
-                        },
-                        {
                             "type": "TableRowWidget", "name": "GC1",
                             "children": [
                                 {
@@ -178,18 +166,6 @@
                                     "fields": {
                                         "text": "Weapons",
                                         "style": "$RecipeSettingsTextRed"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "GC1",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC1T",
-                                    "fields": {
-                                        "text": "Eld + Gem (Any) + Low Quality Weapon = Normal Weapon",
-                                        "style": "$RecipeSettingsText"
                                     }
                                 }
                             ]
@@ -253,19 +229,7 @@
                                     }
                                 }
                             ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "GC2",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC2T",
-                                    "fields": {
-                                        "text": "El + Gem (Any) + Low Quality Armor = Normal Armor",
-                                        "style": "$RecipeSettingsText"
-                                    }
-                                }
-                            ]
-                        },    
+                        },   
                         {
                             "type": "TableRowWidget", "name": "GC2",
                             "children": [

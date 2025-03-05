@@ -10,7 +10,7 @@
         {
             "type": "ClickCatcherWidget", "name": "BGClickCatcher",
             "fields": {
-                "rect": { "x": 70, "y": 195, "width": 2774, "height": 250 }
+                "rect": { "x": 70, "y": 195, "width": 1442, "height": 415 }
             }
         },
         {
@@ -57,7 +57,7 @@
                 {
                     "type": "ImageWidget", "name": "EdgeImage",
                     "fields": {
-                        "rect": { "y": 3, "scale": 2.0 },
+                        "rect": { "x": -170, "y": 3, "scale": 2.0 },
                         "filename": "PANEL/HUD_02/HealthManaAnimation/HotPoint/FrameSet1/globe_hot_point"
                     }
                 }

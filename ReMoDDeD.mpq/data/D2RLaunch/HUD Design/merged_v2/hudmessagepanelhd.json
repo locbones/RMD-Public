@@ -5,7 +5,7 @@
         {
             "type": "ChatListWidget", "name": "GlobalChatListContainer",
             "fields": {
-                "rect": { "x": 40, "y": 710, "width": 1200, "height": 770 },
+                "rect": { "x": 3400, "y": 1290, "width": 1200, "height": 770 },
                 "isHoverList": false,
                 "direction": "vertical",
                 "chatDataSource": "ChatNotificationMessages",

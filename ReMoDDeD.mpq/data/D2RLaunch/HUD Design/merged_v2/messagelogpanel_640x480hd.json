@@ -1,7 +1,8 @@
 {
     "type":  "MessageLogPanel", "name": "MessageLogPanel_640x480",
     "fields": {
-        "rect": { "x": 40, "y": 700, "width": 1200, "height": 780 },
+        "rect": { "x": 0, "y": 0, "width": 1110, "height": 330 },
+        "anchor": { "x": 0.75, "y": 0.802 },
         "priority": 5000
     },
     "children": [
@@ -21,7 +22,7 @@
         {
             "type": "ChatListWidget", "name": "ListContainer",
             "fields": {
-                "rect": { "x": 0, "y": 10, "width": 1200, "height": 770 },
+                "rect": { "x": 0, "y": 10, "width": 1110, "height": 320 },
                 "isHoverList": false,
                 "direction": "vertical",
                 "scrollControllerName": "ScrollBar",
@@ -57,7 +58,7 @@
         {
             "type": "ScrollControllerWidget", "name": "ScrollBar",
             "fields": {
-                "rect": { "x": 1170, "y": 40, "width": 26, "height": 700 },
+                "rect": { "x": 1100, "y": 40, "width": 26, "height": 700 },
                 "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
                 "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
                 "barFilepath": "PauseMenu\\VerticalIndicator",
