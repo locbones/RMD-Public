@@ -1,11 +1,14 @@
 {
     "type": "HUDMessagePanel", "name": "HUDMessagePanel",
-    "fields": { "priority": -2 },
+    "fields": { 
+        "anchor": { "x": 0.71, "y": 0.632 },
+        "priority": -2,
+    },
     "children": [
         {
             "type": "ChatListWidget", "name": "GlobalChatListContainer",
             "fields": {
-                "rect": { "x": 3400, "y": 1290, "width": 1200, "height": 770 },
+                "rect": { "x": 0, "y": 0, "width": 1200, "height": 770 },
                 "isHoverList": false,
                 "direction": "vertical",
                 "chatDataSource": "ChatNotificationMessages",

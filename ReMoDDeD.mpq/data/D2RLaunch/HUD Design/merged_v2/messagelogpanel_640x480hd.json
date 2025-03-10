@@ -2,7 +2,7 @@
     "type":  "MessageLogPanel", "name": "MessageLogPanel_640x480",
     "fields": {
         "rect": { "x": 0, "y": 0, "width": 1110, "height": 330 },
-        "anchor": { "x": 0.75, "y": 0.802 },
+        "anchor": { "x": 0.71, "y": 0.801 },
         "priority": 5000
     },
     "children": [
@@ -58,7 +58,7 @@
         {
             "type": "ScrollControllerWidget", "name": "ScrollBar",
             "fields": {
-                "rect": { "x": 1100, "y": 40, "width": 26, "height": 700 },
+                "rect": { "x": 1080, "y": 40, "width": 26, "height": 700 },
                 "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
                 "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
                 "barFilepath": "PauseMenu\\VerticalIndicator",

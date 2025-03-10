@@ -2,7 +2,7 @@
     "type": "ChatPanel", "name": "ChatPanel",
     "fields": {
         "rect": { "x": 0, "y": 0, "width": 1200, "height": 65 },
-        "anchor": { "x": 0.75, "y": 0.655 },
+        "anchor": { "x": 0.71, "y": 0.655 },
         "priority": 1999999999,
     },
     "children": [
@@ -44,7 +44,7 @@
             "type": "AutocompleteInputTextBoxWidget", "name": "InputBox",
             "fields": 
             {
-                "rect": { "x": 220, "y": 654, "width": 970, "height": 70 },
+                "rect": { "x": 20, "y": 654, "width": 970, "height": 70 },
                 "fontType": "Chat",
                 "alwaysAcceptsKeyInput": true,
                 "fontStyle": {

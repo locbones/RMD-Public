@@ -57,7 +57,7 @@
                 {
                     "type": "ImageWidget", "name": "EdgeImage",
                     "fields": {
-                        "rect": { "x": -170, "y": 3, "scale": 2.0 },
+                        "rect": { "x": -4, "y": 3, "scale": 1.0 },
                         "filename": "PANEL/HUD_02/HealthManaAnimation/HotPoint/FrameSet1/globe_hot_point"
                     }
                 }
@@ -104,7 +104,7 @@
                 {
                     "type": "ImageWidget", "name": "EdgeImage",
                     "fields": {
-                        "rect": { "y": 3, "scale": 1.0 },
+                        "rect": { "x": -4, "y": 3, "scale": 1.0 },
                         "filename": "PANEL/HUD_02/HealthManaAnimation/HotPoint/FrameSet1/globe_hot_point",
                         "useAdvancedColoring": true,
                         "recolorRange": {
