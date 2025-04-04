@@ -10485,6 +10485,34 @@
             },
             "SkillSpecial1Rumble": {},
             "TriggerParams": {}
-        }
+        },
+        {
+            "type": "ControllerSkillsData",
+            "name": "Hydra",
+            "id": 648,
+            "usageType": 0,
+            "targetGroup": 0,
+            "defaultTargetDistance": 12.0,
+            "acceptableDistanceOffset": 6.0,
+            "useSkillScaledValueAsDefaultDist": false,
+            "skillLevelLimitsScaledValueAsDefault": -1,
+            "usePredictiveTargeting": false,
+            "alwaysIgnoreTarget": false,
+            "ignoreTargetOnHold": false,
+            "skillUsesDocking": false,
+            "meleeRangeAdjustor": 0,
+            "toggleSlotState": false,
+            "tapWindowMS": 200,
+            "maxTargetDistance": 0.0,
+            "maxTargetAngleOffset": 0.0,
+            "useSkillScaledValueAsMaxDist": false,
+            "useStickyFreeTarget": false,
+            "holdRumbleDelayMS": 600,
+            "skillQueueDeadzoneMS": 160,
+            "validationFlags": 3,
+            "SkillUseRumble": {},
+            "SkillSpecial1Rumble": {},
+            "TriggerParams": {}
+        },
     ]
 }
