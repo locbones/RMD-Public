@@ -40101,5 +40101,39 @@
       "ptBR": "Promécio",
       "ruRU": "Прометий",
       "zhCN": "Promethium"
+    },
+    {
+      "id": 51295,
+      "Key": "Exsanguinate",
+      "enUS": "Exsanguinate",
+      "zhTW": "抽血",
+      "deDE": "Exsanguinieren",
+      "esES": "Exsanguinado",
+      "frFR": "Être exsangue",
+      "itIT": "Exangine",
+      "koKR": "exsanguinate",
+      "plPL": "Anemizować",
+      "esMX": "Exsanguinado",
+      "jaJP": "例外",
+      "ptBR": "Desangrar",
+      "ruRU": "Обескровить",
+      "zhCN": "抽血"
+    },
+    {
+      "id": 51296,
+      "Key": "Monar's Gale",
+      "enUS": "Monar's Gale",
+      "zhTW": "蒙納的大風",
+      "deDE": "Monar's Sturm",
+      "esES": "Monar's Gale",
+      "frFR": "Monar's Gale",
+      "itIT": "Monar's Gale",
+      "koKR": "모나르의 게일",
+      "plPL": "Monar's Gale",
+      "esMX": "Monar's Gale",
+      "jaJP": "モナーの強風",
+      "ptBR": "Monar's Gale",
+      "ruRU": "Монар Гейл",
+      "zhCN": "蒙纳的大风"
     }
 ]

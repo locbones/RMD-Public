@@ -92,21 +92,7 @@
                                 "sound": "cursor_close_window_hd",
                                 "acceptsEscKeyEverywhere": true
                             }
-                        },
-                        
-                        {
-                            "type": "ButtonWidget", "name": "PlayButton",
-                            "fields": {
-                                "rect": { "x": 998, "y": 1218 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Shop\\ShopPlay",
-                                "hoveredFrame": 1,
-                                "onClickMessage": "PanelManager:OpenPanel:ShopPreviewPanel",
-                                "tooltipString": "Play Preview",
-                                "sound": "item_gotem_hd",
-                                "acceptsEscKeyEverywhere": true
-                            }
-                        }
-                        
+                        }                      
                     ]
                 }
             ]

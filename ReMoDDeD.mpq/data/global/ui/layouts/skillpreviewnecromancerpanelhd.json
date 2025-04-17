@@ -1,4 +1,4 @@
-{
+﻿{
     "type": "VideoOptionsPanel", "name": "SkillPreviewNecromancerPanel",
     "fields": {
         "priority": 9003,
@@ -223,7 +223,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "JabStat1T",
                                     "fields": {
-                                        "text": "None",
+                                        "text": "Master Curse - Only one master curse may be active",
                                         "style": "$StyleSettingsTextSkill",
                                         "rect": { "x": -240, "y": -55 }
                                     }
@@ -1719,7 +1719,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "JabStat1T",
                                     "fields": {
-                                        "text": "None",
+                                        "text": "Minor Curse - Minor Curse effects may stack",
                                         "style": "$StyleSettingsTextSkill",
                                         "rect": { "x": -240, "y": -55 }
                                     }
@@ -2093,7 +2093,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "JabStat1T",
                                     "fields": {
-                                        "text": "None",
+                                        "text": "Master Curse - Only one master curse may be active",
                                         "style": "$StyleSettingsTextSkill",
                                         "rect": { "x": -240, "y": -55 }
                                     }
@@ -2280,7 +2280,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "JabStat1T",
                                     "fields": {
-                                        "text": "None",
+                                        "text": "Minor Curse - Minor Curse effects may stack",
                                         "style": "$StyleSettingsTextSkill",
                                         "rect": { "x": -240, "y": -55 }
                                     }
@@ -3215,7 +3215,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "JabStat1T",
                                     "fields": {
-                                        "text": "None",
+                                        "text": "Minor Curse - Minor Curse effects may stack",
                                         "style": "$StyleSettingsTextSkill",
                                         "rect": { "x": -240, "y": -55 }
                                     }
@@ -3402,7 +3402,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "JabStat1T",
                                     "fields": {
-                                        "text": "None",
+                                        "text": "Master Curse - Only one master curse may be active",
                                         "style": "$StyleSettingsTextSkill",
                                         "rect": { "x": -240, "y": -55 }
                                     }
@@ -3589,7 +3589,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "JabStat1T",
                                     "fields": {
-                                        "text": "None",
+                                        "text": "Master Curse - Only one master curse may be active",
                                         "style": "$StyleSettingsTextSkill",
                                         "rect": { "x": -240, "y": -55 }
                                     }
@@ -5085,7 +5085,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "JabStat1T",
                                     "fields": {
-                                        "text": "None",
+                                        "text": "Minor Curse - Minor Curse effects may stack",
                                         "style": "$StyleSettingsTextSkill",
                                         "rect": { "x": -240, "y": -55 }
                                     }
@@ -5272,7 +5272,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "JabStat1T",
                                     "fields": {
-                                        "text": "None",
+                                        "text": "Minor Curse - Minor Curse effects may stack",
                                         "style": "$StyleSettingsTextSkill",
                                         "rect": { "x": -240, "y": -55 }
                                     }

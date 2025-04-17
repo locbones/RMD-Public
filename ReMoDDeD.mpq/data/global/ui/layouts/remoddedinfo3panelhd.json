@@ -1,4 +1,4 @@
-{
+﻿{
     "type": "SoundOptionsPanel",
     "name": "RemoddedInfo3Panel",
     "fields": {
@@ -118,7 +118,7 @@ IIIIIIIIII        ttttttttttt      eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
                                         "disabledFrame": 2,
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
-                                        "states": [ "Mana Regen %", "Faster Run/Walk", "+All Skills", "Damage Reduction %",  "Max HP %"],
+                                        "states": [ "Mana Regen %", "Faster Run/Walk", "Damage Reduction %",  "Max HP%", "+Gold Find%",  "+Magic Find%", "+Combat Power", "+Spell Power", "+Summon Power"],
                                         "onUpdateMessage": "OptionsPanelMessage:Close",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -153,7 +153,31 @@ IIIIIIIIII        ttttttttttt      eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
                                 {
                                     "type": "TextBoxWidget", "name": "IZ1T",
                                     "fields": {
-                                        "text": " - Grants +1 Max HP% for every 10,000 kills (No Max)",
+                                        "text": " - Grants +1 Max HP% for every 5,000 kills (No Max)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Grants +10% Gold Find for every 10,000 kills (Max 150%)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Grants +10% Magic Find for every 50,000 kills (Max 100%)",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -177,19 +201,7 @@ IIIIIIIIII        ttttttttttt      eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
                                 {
                                     "type": "TextBoxWidget", "name": "IZ1T",
                                     "fields": {
-                                        "text": " - Grants +1 All Skills for every 1,000,000 kills (No Max)",
-                                        "style": "$StyleSettingsText"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "IZ1",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "IZ1T",
-                                    "fields": {
-                                        "text": " - Penalizes -1% Max HP for every death (Max -20%)",
+                                        "text": " - Penalized -1% Max HP for every death (Max -20%)",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
@@ -227,44 +239,6 @@ IIIIIIIIII        ttttttttttt      eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
                                     "fields": {
                                         "text": " - Start with +40% Faster Run/Walk, then penalized -1% for every weight used",
                                         "style": "$StyleSettingsText"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "IZ1",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "IZ1T",
-                                    "fields": {
-                                        "text": " - Start with +3 All Skills, then penalized as follows:",
-                                        "style": "$StyleSettingsText"
-                                    }
-                                },
-                                {
-                                    "type": "DropdownListWidget", "name": "NPCSpeech",
-                                    "fields": {
-                                        "rect": "$OptionsDropDownRect",
-                                        "background/rect": "$OptionsDropDownBackgroundRect",
-                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
-                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
-                                        "pressedFrame": 1,
-                                        "disabledFrame": 2,
-                                        "hoveredFrame": 3,
-                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
-                                        "states": [ "Weight 1-20: +2 All Skills", "Weight 21+: +1 All Skills" ],
-                                        "onUpdateMessage": "OptionsPanelMessage:Close",
-                                        "text/style": "$StyleSettingsCarousel",
-                                        "text/style": { "pointSize": "$MediumFontSize" },
-                                        "textColor": "$FontColorLightGold",
-                                        "navigation": {
-                                            "down": { "name": "Resolution" }
-                                        },
-                                        "tooltipString": "Rewards & Penalties",
-                                        "tooltipStyle": {
-                                            "showAfterDelay": true
-                                        }
-                                        
                                     }
                                 }
                             ]

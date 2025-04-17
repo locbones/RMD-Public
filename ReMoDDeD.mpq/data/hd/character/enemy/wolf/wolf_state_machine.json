@@ -215,6 +215,11 @@
             "type": "AnimationItem",
             "name": "additive_aim_up_down",
             "filename": "data/hd/character/enemy/wolf/animation/additive_aim_up_down.animation"
+        },
+        {
+            "type": "AnimationItem",
+            "name": "whirlwind",
+            "filename": "data/hd/character/enemy/ancientbarb1/animation/whirlwind.animation"
         }
     ],
     "states": [
@@ -776,6 +781,39 @@
             "enterEvents": [],
             "exitEvents": []
         },
+        {
+            "type": "AnimationState",
+            "name": "AnimationState",
+            "_name": "Seq_Whirlwind",
+            "audioId": "",
+            "loopCount": 0,
+            "stateId": 15,
+            "modeId": 14,
+            "skillIndex": 151,
+            "stepIndex": 0,
+            "animationBindings": {
+                "hth": [
+                    "whirlwind"
+                ],
+                "bow": [],
+                "1hs": [
+                    "whirlwind"
+                ],
+                "1ht": [],
+                "stf": [],
+                "2hs": [],
+                "2ht": [],
+                "xbw": [],
+                "1js": [],
+                "1jt": [],
+                "1ss": [],
+                "1st": [],
+                "ht1": [],
+                "ht2": []
+            },
+            "enterEvents": [],
+            "exitEvents": []
+        }
     ],
     "transitions": [
         {
