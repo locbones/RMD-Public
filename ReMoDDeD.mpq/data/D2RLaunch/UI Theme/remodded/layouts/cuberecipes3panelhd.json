@@ -722,7 +722,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Storage Bag(25 Gems) + Rainbow Facet = Re-roll Rainbow Facet (any element)",
+                                        "text": "Storage Bag(25 Gems) + Rainbow Facet + ID Scroll = Re-roll Rainbow Facet (any element)",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
