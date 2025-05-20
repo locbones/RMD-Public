@@ -147,6 +147,42 @@
                             ]
                         },
                         {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Trials Scroll = Portal to specified Trials Level",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "[Blacksmith Only] Mythos Log (LB3) = Pandemonium Portal (and your log back)",
+                                        "style": "$RecipeSettingsTextPink"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "[Blacksmith Only] Trials Scroll = Portal to specified Trials Level (and your scroll back)",
+                                        "style": "$RecipeSettingsTextPink"
+                                    }
+                                }
+                            ]
+                        },
+                        {
                             "type": "TableRowWidget", "name": "Gameplay Changes",
                             "children": [
                                 {

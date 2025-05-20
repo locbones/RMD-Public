@@ -68,7 +68,7 @@
             "fields": {
                 "rect": "$SettingsPanelTabsRectRMD",
                 "anchor": { "x": 0.5 },
-                "tabCount": 6,
+                "tabCount": 7,
                 "tabSize": { "x": 256, "y": 121 },
                 "tabPadding": { "x": 2, "y": 0 },
                 "unavailableTabsLeaveGaps": false,
@@ -86,14 +86,15 @@
                     "fontColor": "$FontColorWhite",
                     "spacing": {"leading":0.9, "kerning":0.95}
                 },
-                "textStrings": [ "General", "Custom", "Upgrades", "Crafting", "Runewords", "Forsaken Pacts" ],
+                "textStrings": [ "General", "Custom", "Upgrades", "Crafting", "Runewords", "Forsaken Pacts", "Limit Breaks" ],
                 "tabMessages": [
                     "SettingsPanelMessage:CheckChanges:CubeRecipes2Panel",
                     "SettingsPanelMessage:CheckChanges:CubeRecipes3Panel",
                     "SettingsPanelMessage:CheckChanges:CubeRecipes4Panel",
                     "SettingsPanelMessage:CheckChanges:CubeRecipes5Panel",
                     "SettingsPanelMessage:CheckChanges:CubeRecipes6Panel",
-                    "SettingsPanelMessage:CheckChanges:CubeRecipes7Panel"
+                    "SettingsPanelMessage:CheckChanges:CubeRecipes7Panel",
+                    "SettingsPanelMessage:CheckChanges:CubeRecipes8Panel"
                 ]
             }
         }

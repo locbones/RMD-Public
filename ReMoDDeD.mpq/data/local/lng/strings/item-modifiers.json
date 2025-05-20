@@ -9590,19 +9590,19 @@
     {
         "id": 48221,
         "Key": "KillTrackerDesc",
-        "deDE": "\nÿc5Mana-Regeneration, Lauftempo, alle Fähigkeiten, Geschicklichkeit, Max HP %%, Lichtradius\nÿcNDerzeit geänderte Stats:\n\nÿc0Siehe Mod-Infoseite für Details\nKills, Tode und Charm-Gewicht verändern Stats\nÿc7Ein uraltes Artefakt, dan an deine Seele gebunden ist und diese formt",
-        "enUS": "\nÿc5Mana Regen, Faster Run/Walk, All Skills, Dexterity, Max HP%%, Light Radius\nÿcNCurrently altered stats:\n\nÿc0View the mod info page for full details\nVarious stats will be modified based on your kills, deaths and charm weight used\nÿc7An ancient artifact that is bound to your soul, shaping it's very form",
-        "esES": "\nÿc5Regeneración de maná, correr/caminar más rápido, todas las habilidades, destreza, %% de HP máx., radio de luz\nÿcNEstadísticas actualmente modificadas:\n\nÿc0Consulta la página de información del mod para obtener todos los detalles\nVarias estadísticas se modificarán en función de tus asesinatos, muertes y  Peso del amuleto usado\nÿc7Un artefacto antiguo que está ligado a tu alma y le da forma.",
-        "esMX": "\nÿc5Regeneración de maná, correr/caminar más rápido, todas las habilidades, destreza, %% de HP máx., radio de luz\nÿcNEstadísticas actualmente modificadas:\n\nÿc0Consulta la página de información del mod para obtener todos los detalles\nVarias estadísticas se modificarán en función de tus asesinatos, muertes y  Peso del amuleto usado\nÿc7Un artefacto antiguo que está ligado a tu alma y le da forma.",
-        "frFR": "\nÿc5Régénération de mana, course/marche plus rapide, toutes les compétences, dextérité, PV max%%, portée lumineuse\nÿcNCStatistiques actuellement modifiées :\n\nÿc0Consultez la page d'informations du mod pour plus de détails\nDiverses statistiques seront modifiées en fonction de vos éliminations, de vos morts et du poids des charmes utilisé\nÿc7Un artefact ancien lié à votre âme, façonnant sa forme même",
-        "itIT": "\nÿc5Mana Regen, Corsa/Cammina più veloce, Tutte le abilità, Destrezza, HP% massimo%, Raggio di luce\nÿcNCStatistiche attualmente modificate:\n\nÿc0Visualizza la pagina delle informazioni sulla mod per i dettagli completi\nVarie statistiche verranno modificate in base alle tue uccisioni, morti e  peso del fascino utilizzato\nÿc7Un antico manufatto legato alla tua anima, modellandone la forma stessa",
-        "jaJP": "\nÿc5マナ回復、より速い走力/歩行、すべてのスキル、器用さ、最大HP%%、光の半径\nÿcN現在変更されている统计:\n\nÿc0詳細についてはMOD情報ページをご覧ください\nさまざまな统计はキル数、死亡数、およびキル数に基づいて変更されます。 使用されるチャームウェイト\nÿc7あなたの魂に結びつけられ、まさにその形を形作る古代のアーティファクト",
-        "koKR": "\nÿc5마나 재생, 더 빠른 달리기/걷기, 모든 기술, 민첩, 최대 HP%%, 가벼운 반경\nÿcN현재 변경된 통계:\n\nÿc0자세한 내용은 모드 정보 페이지를 확인하세요\n다양한 통계는 처치, 사망 및  사용된 부적 무게\nÿc7당신의 영혼에 결속되어 형태를 형성하는 고대 유물입니다",
-        "plPL": "\nÿc5Regeneracja many, szybszy bieg/chodzenie, wszystkie umiejętności, zręczność, maksymalne HP%%, promień światła\nÿcNAktualnie zmienione statystyki:\n\nÿc0Zobacz stronę z informacjami o modzie, aby uzyskać szczegółowe informacje\nRóżne statystyki zostaną zmodyfikowane w oparciu o twoje zabójstwa, śmierć i  użyto ciężaru uroku\nÿc7Starożytny artefakt związany z twoją duszą, kształtujący jej formę",
-        "ptBR": "\nÿc5Regeneração de Mana, Corrida/Caminhada mais rápida, Todas as habilidades, Destreza, HP máximo%%, Raio de luz\nÿcNEstatísticas alteradas atualmente:\n\nÿc0Veja a página de informações do mod para detalhes completos\nVárias estatísticas serão modificadas com base em suas mortes, mortes e  peso do amuleto usado\nÿc7Um artefato antigo que está ligado à sua alma, moldando sua própria forma",
-        "ruRU": "\nÿc5Регенерация маны, более быстрый бег/ходьба, все навыки, ловкость, макс. HP%%, радиус света\nÿcNТекущая измененная статистика:\n\nÿc0Посмотрите страницу с информацией о моде для получения полной информации\nРазличные характеристики будут изменены в зависимости от ваших убийств, смертей и  использованный вес очарования\nÿc7Древний артефакт, связанный с вашей душой, формирующий ее форму.",
-        "zhCN": "\n各种统计数据将根据您的杀戮、死亡及负重来赋予你增益或惩罚\nÿc7与你的灵魂綁定的古老神器",
-        "zhTW": "\n各种统计数据将根据您的杀戮、死亡及负重来赋予你增益或惩罚\nÿc7与你的灵魂綁定的古老神器"
+        "deDE": "\nŸc5mana regen, schnellerer Lauf/Walk, Schadensreduktion %%, max HP %%, Gold Find %%, Magic Find %%, Combat/Bannel/Summe -Power \nbincncncncncncncned Statistiken: \n \n \nÿ0view Die Mod -Info -Seite für vollständige Details \nvarious apparious statistik, die auf Ihren Kills, die Tods, die Tods, und die Zaubern apparious appary appary, werden nach den Kills, die Todes, die Todes, und die Zaubern app.  an deine Seele gebunden, es ist sehr Form zu formen",
+        "enUS": "\nÿc5Mana Regen, Faster Run/Walk, Damage Reduction%%, Max HP%%, +Gold Find%%, +Magic Find%%, +Combat/Spell/Summon Power\nÿcNCurrently altered stats:\n\nÿc0View the mod info page for full details\nVarious stats will be modified based on your kills, deaths and charm weight used\nÿc7An ancient artifact that is bound to your soul, shaping it's very form",
+        "esES": "\nÿC5Mana Regen, Run/Walk más rápido, Reducción de daños %%, max hp %%, dorado Find %%, Magic Find %%, Combat/Spell/Summon Power \nÿcncurrentamente alterado estadísticas: \n \nÿc0view La página de información del mod para obtener detalles completos \nvariosus Stats estará modificada en función de sus matar, muertes y peso de enchufes usados ​​\n ° CATATION ALTATENTES.  moldeando su forma",
+        "esMX": "\nÿC5Mana Regen, Run/Walk más rápido, Reducción de daños %%, max hp %%, dorado Find %%, Magic Find %%, Combat/Spell/Summon Power \nÿcncurrentamente alterado estadísticas: \n \nÿc0view La página de información del mod para obtener detalles completos \nvariosus Stats estará modificada en función de sus matar, muertes y peso de enchufes usados ​​\n ° CATATION ALTATENTES.  moldeando su forma",
+        "frFR": "\nÿc5mana Regen, Run / Walk plus rapide, réduction des dégâts %%, max hp %%, Gold Find %%, Magic Find %%, combat / spelt / invocation Power \nÿcncurrentement modifiée Statistiques: \n \nÿc0View La page d'informations mod pour les détails complets \nvaries sera modifié sur la base de vos tueurs, de vos décès et de la forme de la forme de la forme de l'âme utilisée \n.  C'est très forme",
+        "itIT": "\nÿc5mana regen, più veloce/camminata, riduzione del danno %%, max hp %%, oro find %%, magic find %%, combattimento/incantesimo/power evoca \nÿcn normalmente statistiche alterate: \n \nÿc0view La pagina delle informazioni mod per i dettagli completi \nvarious statistiche saranno modificate in base alle tue uccisioni e al tuo pesi che sono stati usati \n*  è molto forma",
+        "jaJP": "\nÿC5manaRegen、より速いラン/ウォーク、ダメージ減少%%、最大HP %%、金の検索%%、マジックファインド%%、戦闘/呪文/召喚パワー\n あなたの魂、それが非常に形を形作る",
+        "koKR": "\nÿc5mana regen, 더 빠른 달리기/걷기, 손상 감소 %%, Max HP %%, Gold Find%, Magic Find%, 전투/주문/소환 Power \nÿcncurrally 변경 통계 : \n \nÿc0view \n \nÿc0view \n \n십시오.  당신의 영혼에 묶여서 그 형태는 매우 형태입니다",
+        "plPL": "\nÿc5mana Regen, szybszy bieg/spacer, redukcja obrażeń %%, maks. HP %%, Złota Find %%, Magic Find %%, Combat/Spell/Summon Power \nÿcncnCnCnCnCnCnCnCnCnCnCnCnCnCnCnCnCnChn -STATION STATS: \n \nÿc0view Strona informacji o modach dla pełnych szczegółów \nvarious stats zostaną zmodyfikowane  do twojej duszy, kształtowanie jej formy",
+        "ptBR": "\nÿc5mana Regen, Run/Walk mais rápida, redução de danos %%, max HP %%, Gold Find %%, Magic Find %%, Combat/Spell/Summo Power \nÿcncurrely Altered Stats: \n \n \nc0View A Página de Moda -Morto e Mortos \nVários \nVATS \n \n \nÿc0 View The Mod Página para a Página \nVATH \nVATH São modificados com base em seus meios de morte, \n \n ÿc0view, as estatísticas de Modyn Delts e NVATS \nVAlT são modificadas com base em seus mestados, as estatísticas não são modificadas com base em seus mestados, as estatísticas não são modificadas com base em seus detalhes, as estatísticas não são modificadas com base em \n \nÿc0view.  ligado à sua alma, moldando sua forma muito",
+        "ruRU": "\nÿc5mana Regen, более быстрый пробег/ходьба, снижение урона %%, max hp %%, Gold find %%, Magic find %%, Combat/Splict/Summon Power \nÿcncncorly Измененная статистика: \n \nÿc0view.  Формирование это очень форма",
+        "zhCN": "\n²C5MANA重新恢复，更快/步行，减少伤害%%，最大HP %%，Gold Find %%，Magic find %%，战斗/法术/召唤力量\n不断更改统计数据：\n \n \n操作范围的Mod Info Pagg for Mod for your Arts in your Arts Arts in varrious the varcts in your Arts in contrious the varcts your Arts and cont and contrif thets and contrif theats和unif klowers， 对你的灵魂，塑造它是非常形式的",
+        "zhTW": "\n²C5MANA重新恢復，更快/步行，減少傷害%%，最大HP %%，Gold Find %%，Magic find %%，戰鬥/法術/召喚力量\n不斷更改統計數據：\n \n \n操作範圍的Mod Info Pagg for Mod for your Arts in your Arts Arts in varrious the varcts in your Arts in contrious the varcts your Arts and cont and contrif thets and contrif theats和unif klowers，對你的靈魂，塑造它是非常形式的"
     },
     {
         "id": 48222,
@@ -10946,5 +10946,39 @@
         "ruRU": "ÿcNPПронзающий уронÿc3",
         "zhCN": "c4降低携带咒符重量 ÿc0%dÿc3",
         "zhTW": "c4降低携带咒符重量 ÿc0%dÿc3"
-    }
+    },
+    {
+    "id": 48301,
+    "Key": "Moditem2ExpGN",
+	  "deDE": "Ÿcnmust limit Break auf Level-up!",
+	  "enUS": "ÿcNMust Limit Break to level-up!",
+	  "esES": "ÿcnMust Limite Break a nivel de nivel!",
+	  "esMX": "ÿcnMust Limite Break a nivel de nivel!",
+	  "frFR": "ÿCnMust Limit Break to Level-Up!",
+	  "itIT": "ÿCnMust Limit Break to Level-up!",
+	  "jaJP": "cnmustレベルアップへの制限の制限！",
+	  "koKR": "ÿcnmust Level-Up에 한계가 발생합니다!",
+	  "plPL": "ÿCnmust Break do poziomu!",
+	  "ptBR": "Limit Limit Break para o nível-up!",
+	  "ruRU": "ÿcnmust Limit Break до уровня вверх!",
+	  "zhCN": "•限制限制升级！",
+	  "zhTW": "•限制限制升級！"
+  },
+  {
+    "id": 48302,
+    "Key": "LBStatus",
+	  "deDE": "Ÿcnmust limit Break auf Level-up!",
+	  "enUS": "ÿcOLimit Break Level: ÿc0%d",
+	  "esES": "ÿcnMust Limite Break a nivel de nivel!",
+	  "esMX": "ÿcnMust Limite Break a nivel de nivel!",
+	  "frFR": "ÿCnMust Limit Break to Level-Up!",
+	  "itIT": "ÿCnMust Limit Break to Level-up!",
+	  "jaJP": "cnmustレベルアップへの制限の制限！",
+	  "koKR": "ÿcnmust Level-Up에 한계가 발생합니다!",
+	  "plPL": "ÿCnmust Break do poziomu!",
+	  "ptBR": "Limit Limit Break para o nível-up!",
+	  "ruRU": "ÿcnmust Limit Break до уровня вверх!",
+	  "zhCN": "•限制限制升级！",
+	  "zhTW": "•限制限制升級！"
+  }
 ]

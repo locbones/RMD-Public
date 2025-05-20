@@ -230,11 +230,19 @@
             }
         },
         {
+            "type": "AnimatedImageWidget", "name": "SP",
+            "fields": {
+                "rect": { "x": 808, "y": 708, "scale": 0.53 },
+                "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Amazon\\Previews\\LightningFury",
+                "fps": 20
+            }
+        },
+        {
             "type": "ButtonWidget", "name": "SP",
             "fields": {
-                "rect": { "x": 520, "y": 713 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\SkillPreviewBtn_R",
-                "hoveredFrame": 2,
+                "rect": { "x": 808, "y": 708, "scale": 0.53 },
+                "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Open\\Previews\\PreviewIcon",
+                "hoveredFrame": 1,
                 "textString": "",
                 "pointSize": "$XMediumFontSize",
                 "textColor": "$FontColorBonesyRed",
@@ -243,5 +251,7 @@
                 "onClickMessage": "PanelManager:OpenPanel:SkillPreviewPanel"
             }
         }
+        
+        
     ]
 }

@@ -3256,58 +3256,58 @@
   },
   {
     "mythos_log": {
-      "normal": "..\\custom\\mythos_log",
-      "uber": "..\\custom\\mythos_log",
-      "ultra": "..\\custom\\mythos_log"
+      "normal": "..\\custom\\MythosLog",
+      "uber": "..\\custom\\MythosLog",
+      "ultra": "..\\custom\\MythosLog"
     }
   },
   {
     "mythos_log_amazon": {
-      "normal": "..\\custom\\mythos_log",
-      "uber": "..\\custom\\mythos_log",
-      "ultra": "..\\custom\\mythos_log"
+      "normal": "..\\custom\\MythosLog",
+      "uber": "..\\custom\\MythosLog",
+      "ultra": "..\\custom\\MythosLog"
     }
   },
   {
     "mythos_log_assassin": {
-      "normal": "..\\custom\\mythos_log",
-      "uber": "..\\custom\\mythos_log",
-      "ultra": "..\\custom\\mythos_log"
+      "normal": "..\\custom\\MythosLog",
+      "uber": "..\\custom\\MythosLog",
+      "ultra": "..\\custom\\MythosLog"
     }
   },
   {
     "mythos_log_barbarian": {
-      "normal": "..\\custom\\mythos_log",
-      "uber": "..\\custom\\mythos_log",
-      "ultra": "..\\custom\\mythos_log"
+      "normal": "..\\custom\\MythosLog",
+      "uber": "..\\custom\\MythosLog",
+      "ultra": "..\\custom\\MythosLog"
     }
   },
   {
     "mythos_log_druid": {
-      "normal": "..\\custom\\mythos_log",
-      "uber": "..\\custom\\mythos_log",
-      "ultra": "..\\custom\\mythos_log"
+      "normal": "..\\custom\\MythosLog",
+      "uber": "..\\custom\\MythosLog",
+      "ultra": "..\\custom\\MythosLog"
     }
   },
   {
     "mythos_log_necromancer": {
-      "normal": "..\\custom\\mythos_log",
-      "uber": "..\\custom\\mythos_log",
-      "ultra": "..\\custom\\mythos_log"
+      "normal": "..\\custom\\MythosLog",
+      "uber": "..\\custom\\MythosLog",
+      "ultra": "..\\custom\\MythosLog"
     }
   },
   {
     "mythos_log_paladin": {
-      "normal": "..\\custom\\mythos_log",
-      "uber": "..\\custom\\mythos_log",
-      "ultra": "..\\custom\\mythos_log"
+      "normal": "..\\custom\\MythosLog",
+      "uber": "..\\custom\\MythosLog",
+      "ultra": "..\\custom\\MythosLog"
     }
   },
   {
     "mythos_log_sorceress": {
-      "normal": "..\\custom\\mythos_log",
-      "uber": "..\\custom\\mythos_log",
-      "ultra": "..\\custom\\mythos_log"
+      "normal": "..\\custom\\MythosLog",
+      "uber": "..\\custom\\MythosLog",
+      "ultra": "..\\custom\\MythosLog"
     }
   },
   {
@@ -4551,6 +4551,153 @@
       "normal": "..//custom//spiritarmor5",
       "uber": "..//custom//spiritarmor5",
       "ultra": "..//custom//spiritarmor5"
+    }
+  },
+  {
+    "mythos_log_amazon_a": {
+      "normal": "..\\custom\\MythosLogA",
+      "uber": "..\\custom\\MythosLogA",
+      "ultra": "..\\custom\\MythosLogA"
+    }
+  },
+  {
+    "mythos_log_assassin_a": {
+      "normal": "..\\custom\\MythosLogA",
+      "uber": "..\\custom\\MythosLogA",
+      "ultra": "..\\custom\\MythosLogA"
+    }
+  },
+  {
+    "mythos_log_barbarian_a": {
+      "normal": "..\\custom\\MythosLogA",
+      "uber": "..\\custom\\MythosLogA",
+      "ultra": "..\\custom\\MythosLogA"
+    }
+  },
+  {
+    "mythos_log_druid_a": {
+      "normal": "..\\custom\\MythosLogA",
+      "uber": "..\\custom\\MythosLogA",
+      "ultra": "..\\custom\\MythosLogA"
+    }
+  },
+  {
+    "mythos_log_necromancer_a": {
+      "normal": "..\\custom\\MythosLogA",
+      "uber": "..\\custom\\MythosLogA",
+      "ultra": "..\\custom\\MythosLogA"
+    }
+  },
+  {
+    "mythos_log_paladin_a": {
+      "normal": "..\\custom\\MythosLogA",
+      "uber": "..\\custom\\MythosLogA",
+      "ultra": "..\\custom\\MythosLogA"
+    }
+  },
+  {
+    "mythos_log_sorceress_a": {
+      "normal": "..\\custom\\MythosLogA",
+      "uber": "..\\custom\\MythosLogA",
+      "ultra": "..\\custom\\MythosLogA"
+    }
+  },
+  {
+    "mythos_log_amazon_b": {
+      "normal": "..\\custom\\MythosLogB",
+      "uber": "..\\custom\\MythosLogB",
+      "ultra": "..\\custom\\MythosLogB"
+    }
+  },
+  {
+    "mythos_log_assassin_b": {
+      "normal": "..\\custom\\MythosLogB",
+      "uber": "..\\custom\\MythosLogB",
+      "ultra": "..\\custom\\MythosLogB"
+    }
+  },
+  {
+    "mythos_log_barbarian_b": {
+      "normal": "..\\custom\\MythosLogB",
+      "uber": "..\\custom\\MythosLogB",
+      "ultra": "..\\custom\\MythosLogB"
+    }
+  },
+  {
+    "mythos_log_druid_b": {
+      "normal": "..\\custom\\MythosLogB",
+      "uber": "..\\custom\\MythosLogB",
+      "ultra": "..\\custom\\MythosLogB"
+    }
+  },
+  {
+    "mythos_log_necromancer_b": {
+      "normal": "..\\custom\\MythosLogB",
+      "uber": "..\\custom\\MythosLogB",
+      "ultra": "..\\custom\\MythosLogB"
+    }
+  },
+  {
+    "mythos_log_paladin_b": {
+      "normal": "..\\custom\\MythosLogB",
+      "uber": "..\\custom\\MythosLogB",
+      "ultra": "..\\custom\\MythosLogB"
+    }
+  },
+  {
+    "mythos_log_sorceress_b": {
+      "normal": "..\\custom\\MythosLogB",
+      "uber": "..\\custom\\MythosLogB",
+      "ultra": "..\\custom\\MythosLogB"
+    }
+  },
+  {
+    "mythos_log_amazon_c": {
+      "normal": "..\\custom\\MythosLogC",
+      "uber": "..\\custom\\MythosLogC",
+      "ultra": "..\\custom\\MythosLogC"
+    }
+  },
+  {
+    "mythos_log_assassin_c": {
+      "normal": "..\\custom\\MythosLogC",
+      "uber": "..\\custom\\MythosLogC",
+      "ultra": "..\\custom\\MythosLogC"
+    }
+  },
+  {
+    "mythos_log_barbarian_c": {
+      "normal": "..\\custom\\MythosLogC",
+      "uber": "..\\custom\\MythosLogC",
+      "ultra": "..\\custom\\MythosLogC"
+    }
+  },
+  {
+    "mythos_log_druid_c": {
+      "normal": "..\\custom\\MythosLogC",
+      "uber": "..\\custom\\MythosLogC",
+      "ultra": "..\\custom\\MythosLogC"
+    }
+  },
+  {
+    "mythos_log_necromancer_c": {
+      "normal": "..\\custom\\MythosLogC",
+      "uber": "..\\custom\\MythosLogC",
+      "ultra": "..\\custom\\MythosLogC"
+    }
+  },
+  {
+    "mythos_log_paladin_c": {
+      "normal": "..\\custom\\MythosLogC",
+      "uber": "..\\custom\\MythosLogC",
+      "ultra": "..\\custom\\MythosLogC"
+    }
+  },
+  {
+    "mythos_log_sorceress_c": {
+      "normal": "..\\custom\\MythosLogC",
+      "uber": "..\\custom\\MythosLogC",
+      "ultra": "..\\custom\\MythosLogC"
     }
   }
 ]
